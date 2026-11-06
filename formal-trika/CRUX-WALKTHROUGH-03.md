@@ -86,7 +86,7 @@ argmap-grounded claims are R until verbatim-bound against source bytes):**
 | 2 | lucid→mind+5 jñānendriya; mind begets (v73) | quotation | argmap tsa-a08-v73 | R | span-verified (machine, see §6) |
 | 3 | 5 karmendriya from subtle-excelling lucid I-maker (v75) | quotation | argmap tsa-a08-v75 | R | span-verified (machine, see §6) |
 | 4 | action-endlessness ≠ sense-endlessness (v79) | quotation | argmap tsa-a08-v79 | R | span-verified (machine, see §6) |
-| 5 | eleven nest in ahaṃkāra group | structural | Tattva.lean eleven_wombed | T | decide-verified, weaker-than-text |
+| 5 | eleven nest in ahaṃkāra group | structural | Tattva.lean eleven_wombed | T (tsa07-p01) + R (tsa08-p04, banked 2026-11-06) | decide-verified; p04 chunk ref added so the essay's verses carry it |
 | 6 | wombed model textually supported (partial) | interpretive | 1–5 | R | open; (a)–(d) recorded |
 
 **PUSHBACK (ran 2026-11-06; two families converge):**

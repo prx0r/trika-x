@@ -68,6 +68,9 @@ redacts. Never the reverse.
 Bounce notes must be actionable (wrong bound, leaky quantifier, invented
 tier, flattened relation). Max 3 attempts, then assessor hand-models. Failed
 tasks keep their notes as history.
+Shape gate: drafts without machine-citable `[work:target]` markers FAIL —
+measured 0–2/19 CITED on unmarked drafts, and PUSHBACK cannot object to
+claims it cannot see. Claim tables carry inline markers or the draft bounces.
 
 ## 4. Calibration (prove the tool before scaling it)
 

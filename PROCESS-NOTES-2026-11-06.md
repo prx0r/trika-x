@@ -733,3 +733,24 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - M6 Mutate remainder BLOCKED: 3.2G free (96%) vs ~2.9G transient need —
   unsafe margin; recheck after next disk review. Cron script moved into
   trika-x/tools (M13 ready; enabling = owner call).
+
+## Masterplan batch M7-M20 (done / blocked / deferred, all recorded).
+
+- M7 KMT fetch BLOCKED after 3 misses (dir 403, filenames 404): exact GRETIL
+  filename unknown; FRONTIER "PRESENT" claim lacks retrievable URL (flagged —
+  a claim without a URL is theater). Next: catalog search or scholar channel
+  (decision packet B9).
+- M8 slice map filed (SLICE-ASSEMBLY-CRUX03: 9/14 green; 10-13 need lanes/humans).
+- M9 decision packet filed (12 asks: 5 owner + 4 scholar + 3 lane).
+- M10 sweep measured: CITED 0/16, 0/22, 2/19 — linker gap is THE constraint;
+  shape-gate rule added to swarm skill (markers or bounce).
+- M12 R2 NOT due (mirror created today; monthly routine).
+- M14 tau DEFERRED (needs designed session + GPU box; CF quota healthy).
+- M15 CRUX-04 filed: manas cut recorded open, NO rung forced (chain can refuse).
+- M16 layer_sha256 pilot: eleven_wombed p04 chunk cites proof argmap sha (PASS).
+- M17 vocab extension: lead-agent decision pending; family-2 consensus strengthens it.
+- M18 witness: NGMPP path in packet (B9). M19 F3: still blocked on pair emission
+  (recorded; unblocks via their T1-L1 segments). M20 zenodo: blocked on signed
+  essay + token (packet C10; PR #9 keeps provenance ready).
+- eleven_wombed now dual-chunked (tsa07-p01 T + tsa08-p04 R); p04 treeka column
+  carries it (answers beam's bank objection structurally).
