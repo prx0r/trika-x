@@ -789,3 +789,19 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - Agents can now run the show: arrivals → nodes → roboscholar drafts →
   pushback → receipts, all receipted, all free-tier. Backend acts
   (signoff/submit/publish) stay human.
+
+## Pushing domain verdict (yes) + backend identity wired (PR #11).
+
+- Pushing is two systems: svread enquiry trees (question→…→essay-idea nodes,
+  origins human/agent/source, passage refs with shas+edition — the Scholar
+  pushing the owner means) + ipvv probe sessions (63 TAL, verdicts). The
+  enquiry→essay hinge (essay-idea node type) already exists.
+- Backend link landed: submit_essay attaches service-observed openpatala
+  block (PR #11, green) — submissions now carry identity from the pinned
+  tree, not client claims. Essay_ids identity-bound going forward.
+- Chain status: enquiry refs (shas) → lingua resolve (+identity, svread PR)
+  → submission (+identity, TW PR #11) → branch → review → bundle (+identity,
+  TW PR #9) → DOI. First fully-identified path in the system.
+- Not built (sequenced): pushing-core reference openpatala fields (client
+  side; lingua covers resolution instead — deferred by design), submission
+  formal refs (grammar decision), Worker agent accounts (proposal owed).

@@ -48,6 +48,8 @@ Reruns idempotent (verified all-skipped). Loader bug caught live
    svread/source-map.json at bundle time — file exists). STATUS 2026-11-06:
    PR #9 implements work_id + mapping + record_sha + edition_label; no
    edition_id by design (CANDIDATE strings, recorded refusal); open, green.
+   Submissions too: essay entries carry service-observed identity at submit
+   time (translation-work PR #11, open, green) — essay_ids identity-bound.
 4. **Teacher** (nibbanahelp lane): relay passage headers may cite DB work
    IDs when convenient; no schema change (additive field only, ask first
    per their rules). STATUS: untouched.
