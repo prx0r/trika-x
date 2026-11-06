@@ -404,3 +404,21 @@ Nine operations in the aperture roster: the inventory count holds.
 
 ## Aperture.lean :: aperture_distinct
 The nine operations are pairwise distinct: no collapsed entry.
+
+## Nanavira.lean :: matchings_three
+Three perfect pairings of four members: columns, rows, both.
+
+## Nanavira.lean :: orders_scale
+Orders run four, sixteen, sixty-four: reflexion scales by four.
+
+## Nanavira.lean :: parasite_erase
+Removing the extra leaves the structure: erasure without loss.
+
+## Tetrahedron.lean :: gap_five
+No five-vertex uniform solid: the gap at five holds.
+
+## Tetrahedron.lean :: unique_four
+Exactly one four-vertex uniform solid: the minimum system.
+
+## Tetrahedron.lean :: euler_tet
+Four less six plus four is two: the inventory balances.

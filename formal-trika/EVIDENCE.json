@@ -160,7 +160,13 @@
     "TattvaGen.lean :: pentad_uniform": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p04", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "v73-v75 instrument partition (gold argmap, span-verified machine)"}], "r_sources": [], "lived": []},
     "TattvaGen.lean :: cut_arith": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": []},
     "Aperture.lean :: aperture_nine": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema library/recognition/aperture/aperture_spec_v0.7.md (H-tier owner theory)"], "lived": [], "note": "H-tier: nine-operation inventory of owner aperture spec \u00a7Core Architecture; no phenomenal/selector claim"},
-    "Aperture.lean :: aperture_distinct": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema library/recognition/aperture/aperture_spec_v0.7.md (H-tier owner theory)"], "lived": [], "note": "H-tier: pairwise distinct ops; inventory only"}
+    "Aperture.lean :: aperture_distinct": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema library/recognition/aperture/aperture_spec_v0.7.md (H-tier owner theory)"], "lived": [], "note": "H-tier: pairwise distinct ops; inventory only"},
+    "Tetrahedron.lean :: gap_five": {"kind": "MODEL", "chunks": [], "r_sources": ["rescue-volume tetrahedron-as-selector-proof + tantraloka-tetrahedron notes (H-tier owner line)"], "lived": [], "note": "H-tier: no uniform 5-vertex solid (spectral gap)"},
+    "Tetrahedron.lean :: unique_four": {"kind": "MODEL", "chunks": [], "r_sources": ["rescue-volume tetrahedron-as-selector-proof + tantraloka-tetrahedron notes (H-tier owner line)"], "lived": [], "note": "H-tier: exactly one 4-vertex uniform solid"},
+    "Tetrahedron.lean :: euler_tet": {"kind": "MODEL", "chunks": [], "r_sources": ["rescue-volume tetrahedron-as-selector-proof + tantraloka-tetrahedron notes (H-tier owner line)"], "lived": [], "note": "H-tier: inventory Euler check (model only)"},
+    "Nanavira.lean :: matchings_three": {"kind": "MODEL", "chunks": [], "r_sources": ["research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"], "lived": [], "note": "R: K4 pairings generated"},
+    "Nanavira.lean :: orders_scale": {"kind": "MODEL", "chunks": [], "r_sources": ["research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"], "lived": [], "note": "R: orders computed vs stated"},
+    "Nanavira.lean :: parasite_erase": {"kind": "MODEL", "chunks": [], "r_sources": ["research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"], "lived": [], "note": "R: erasure structural half"}
   },
   "exemptions": {
     "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",

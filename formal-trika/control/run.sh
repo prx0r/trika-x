@@ -18,6 +18,8 @@ fi
 "$LEAN" -DwarningAsError=true Ladder.lean || exit 1
 "$LEAN" -DwarningAsError=true TattvaGen.lean || exit 1
 "$LEAN" -DwarningAsError=true Aperture.lean || exit 1
+"$LEAN" -DwarningAsError=true Nanavira.lean || exit 1
+"$LEAN" -DwarningAsError=true Tetrahedron.lean || exit 1
 "$LEAN" -DwarningAsError=true AnswerKey.lean || exit 1
 "$LEAN" -DwarningAsError=true Tattva.lean || exit 1
 "$LEAN" -DwarningAsError=true TattvaInventory.lean || exit 1
@@ -53,3 +55,9 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaGen.lean --mutant 
 python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaGen.lean --mutant BrokenGenRoot.lean --theorem gen_total || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Aperture.lean --mutant BrokenApertureDup.lean --theorem aperture_distinct || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Aperture.lean --mutant BrokenApertureDrop.lean --theorem aperture_nine || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Nanavira.lean --mutant BrokenNanMatch2.lean --theorem matchings_three || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Nanavira.lean --mutant BrokenNanScale.lean --theorem orders_scale || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Nanavira.lean --mutant BrokenNanParasite.lean --theorem parasite_erase || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Tetrahedron.lean --mutant BrokenTetFive.lean --theorem gap_five || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Tetrahedron.lean --mutant BrokenTetDrop.lean --theorem unique_four || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Tetrahedron.lean --mutant BrokenTetEdges.lean --theorem euler_tet || exit 1

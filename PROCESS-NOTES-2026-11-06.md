@@ -1012,3 +1012,13 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   "neuraxon qubic" uninterpretted — owner to clarify if specific tech meant.
 - BRIDGES-LEVIN.md: 5 specced bridges (discriminators + non-claims) +
   Doyle inversion topic + Atlas positioning note. Specs, not papers.
+
+## N-NAN + T-TET rungs (Ñāṇavīra structure + tetrahedron facts).
+
+- Nanavira.lean: GENERATED pairings (pair-product + filter, not listed —
+  self-review rewrote circular first draft), computed-vs-stated orders,
+  functional erasure. 3 surgical twins green.
+- Tetrahedron.lean: Platonic gap/uniqueness/Euler (Int, def-based twins
+  after must_fail statement-identity lesson). 9x4-vs-28 tension filed open.
+- EVIDENCE 137 (R/H mixed); review-status 139; TABLE green.
+- F10 logged (noisy surgery; simplest-insert rule).

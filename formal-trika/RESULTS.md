@@ -661,6 +661,33 @@ yes, as H-tier inventory first (phenomenal/selector claims explicitly out).
 
 ---
 
+## 2026-11-06 — Rung 15: Ñāṇavīra structure (N-NAN1–3, R)
+
+Prereg: PREREGISTRATION-NANAVIRA-RUNG.md (R: synthesis-mediated primary
+quotes; fixed-point + soteriology explicitly OUT). Self-review rewrote
+circular lists into generated-vs-stated form (their profile pattern).
+
+- **`Nanavira.lean`** — generated pairings (pair-product + filter) with
+  `matchings_three` computed; `orders_scale` computed-vs-stated
+  [4,16,64]; `parasite_erase` functional. Zero-axiom.
+- **Three surgical twins** (drop-a-matching, ternary scale, lossy
+  erasure — the anti-T_rec). All green.
+- EVIDENCE 131+3 entries pending table (this battery).
+
+## 2026-11-06 — Rung 16: tetrahedron selector-facts (T-TET1–3, H)
+
+Prereg: PREREGISTRATION-TETRA-RUNG.md (H: owner-line Fuller proof +
+TAL-tetra notes; roster stipulated classical). Nat-truncation caught
+pre-run (Euler in Int); twin-statement rule forced def-based twins.
+
+- **`Tetrahedron.lean`** — Platonic roster; `gap_five`, `unique_four`,
+  `euler_tet` (Int). Zero-axiom.
+- **Three surgical twins** (added solid, dropped tet, 5-restraint Euler).
+- Open tension filed, not modeled: 9 chained tetras = 28 distinct ≠ 36
+  (pushing material).
+
+---
+
 ## What "done" would look like (honest checklist)
 - [ ] Every unarmed chunk with an argmap formalized or explicitly parked
 - [ ] Witnesses pinned (needs openpatala resolver)
