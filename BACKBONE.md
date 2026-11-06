@@ -66,3 +66,11 @@ Bytes live on disk/R2 (DB holds hashes + URIs, never blobs).
 R2 dump needs PG18; box builds schema from migrations (recipe in
 bridge/README). Lanes respected: no translation-work/ipvv/svread/
 nibbanahelp/deitybody/sanskrithelp files written from this track.
+
+## Standards alignment (patalacheckpoints scholar-layer stack, adopted as labels)
+
+Per their application-profile rule (compose standards, never invent):
+EVIDENCE entries ≈ SourceAssertion + epistemic status; span pins ≈ W3C
+Web Annotation selectors; runs receipts ≈ PROV-O derivations; bibliography
+entries ≈ FaBiO-mapped (see biblio sweep); essay citations ≈ CiTO relations.
+Nothing rebuilt — these labels are declared so future interop has hooks.

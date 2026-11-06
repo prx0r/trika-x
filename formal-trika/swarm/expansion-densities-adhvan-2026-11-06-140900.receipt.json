@@ -1,0 +1,53 @@
+{
+ "format": "expansion-receipt/1",
+ "essay": "expansion-densities-adhvan-2026-11-06-140900",
+ "date": "2026-11-06",
+ "owner_quotes": 0,
+ "banked_units": 2,
+ "theorems": [],
+ "claims": "1/8 CITED + 0 verse-marked",
+ "audit": {
+  "content_sha256": "a9fee1e9224881d4fdc66acfd449a7334a53dff48ee600cbbf741698621466c8",
+  "verifier": "essay-compile/loop",
+  "model": "compiler-v1",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p01: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v01]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v02]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "no quoted spans to check"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "4 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:09:00Z"
+ },
+ "graph": {
+  "nodes": 77,
+  "edges": 81
+ },
+ "note": "compiled, not written: owner words verbatim; substance from banked chain"
+}

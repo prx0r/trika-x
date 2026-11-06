@@ -34,6 +34,7 @@ maps = the first comparative-formal rung + visual truth).
 | E teaching/practice | C1 unit rendered; eligibility gate; paths; day-gate; body-map check; gaps listed | Owner sit-player flip, dīkṣā policy calls |
 | F bench | Calibration + sweep + thresholds on CPU; tau when quota allows | Model quota (tau), GPU (COMET/LoRA) |
 | G geometry | Schema + readiness + comparison scaffold + reconstruction inventory | E-text fetch rights, translator lane |
+| H patala corpus+biblio | Atlas seeds fed into box DB (people/translations/editions live); bibliography referenced not forked; M-index new | Scholar channel (KMT file, NGMPP reels), translator lane (formal stage) |
 
 ## Logical order (why this sequence)
 
@@ -48,6 +49,9 @@ maps = the first comparative-formal rung + visual truth).
 5. **D fourth** — PUSHBACK/chain/zENODO consume B+C outputs.
 6. **E fifth** — practice compiles from D outputs + body truth.
 7. **G last** — frontier consumes the whole machine (first customer).
+8. **H continuous** — corpus feeds (atlas seeds, M-files, GRETIL) flow
+   into the box DB as they land; bibliography grows by reference.
+   One system: patalacheckpoints seeds, box DB serves, lanes consume.
 
 ## Rules (never violated)
 

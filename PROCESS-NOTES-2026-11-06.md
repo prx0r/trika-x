@@ -845,3 +845,233 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   proposal; Faithfulness-gap papers == PUSHBACK-as-judge validation.
 - Pāṇini literature: Sandhikosh = eval for sandhi follow-up; Heritage
   segmenter = cheda comparison; parser-table compilation == our pattern.
+
+## Axiom steals implemented (formalization.yaml read properly).
+
+- formalization.json: project + pinned sources + honesty counts + review
+  status + per-theorem alignment, assembled (tools/formalization_manifest.py,
+  --check for CI). Our scattered receipts now have one front door.
+- claim.py: blueprint claims before modeling (statement + intended Lean +
+  defs + outline), no-collision enforced, lead approves by edit. Verified
+  (open/collide/close), ledger starts empty.
+- Covers-convention in prereg template (partial notation, no weakening).
+- NOT transferred (recorded): Mathlib-scale deps (no Trika Mathlib exists);
+  EGA/SGA cross-tagging (openpatala could become the authority graph —
+  future); per-tag website (treeka column is our version).
+
+## R2 patala bucket verified (token live, listing read-only).
+
+- Bucket `patala`: openpatala/ (repo tarball + dump + box-2026-11-06 mirror),
+  source/ingestion/{GRETIL full+html+TEI, MUKTABODHA 87MB library tarball
+  (sha-pinned manifest), MITRASAMGRAHA, PANDIT}, source/objects (87
+  content blobs), artifacts/registries (argmap/l0/l1/l2/c1/corroboration).
+- manuscripts/ EMPTY (0 objects) — the witness gap, visible in the bucket.
+- YES for Sanskrit works: GRETIL+TEI+html, Muktabodha library, Mitrasamgraha,
+  layer registries, box mirror. Muktabodha tarball NOT downloaded (87MB+ on
+  96% disk — sequenced endgame, needs headroom).
+- Credentials: single /root/.env 0600 (deduped); rotation confirmed by use.
+
+## Bibliography reconciliation (user was right — prior art found).
+
+- patalacheckpoints holds 254-record atlas + Trika audited depth (editions/
+  translations/traditions) + tiered strategy + identity spec. My sweep now
+  REFERENCES atlas IDs; holds only live-verified additions (MLBD Torella,
+  Routledge DOI, GRETIL txt, archive.org Chakravarty, wiki finding aid) +
+  gaps (5 dossiers unmapped, Tantraloka dossier absent, Param/IPVV absent
+  from atlas) + ours-queue. No fork.
+
+## Patalacheckpoints audit trail (P1-P15, in progress).
+
+- P1 governance: ONE RULE (anti-theatre), exact read-order, validators per
+  change (directory manifest, vision manifest, docs audit, docs_state).
+  Stronger doc hygiene than any live repo — adopt the validator pattern,
+  not the files.
+- P2 bibliography: 254 thin records + Trika audited depth (editions/
+  translations/traditions) + ingestion module (thin-JSON entity set,
+  never overwrites rich) + app surface (page.tsx) + Zotero-crosswalk
+  spec (additive, Pāṭala owns identity/epistemics). Verdict: reuse +
+  reference; my sweep already reconciled.
+- P3 Trika: audited.ts covers 11 (MVU, VBT, Paratrimsika cluster, TAL,
+  TSA, MVSlokavarttika, TSB, SSU, Spanda, laghuvrtti); Param/IPVV/
+  stotras absent (mine are first bibliography there). M-numbers thin
+  (2 files) — my 499-file M-index is new coverage.
+- P4 scholar layer: FaBiO/BIBFRAME + WebAnnotation + PROV-O + CiTO +
+  RO-Crate + IIIF composed (NOT invented) — my EVIDENCE/spans/receipts
+  map onto these; label, don't rebuild. TantraFact = unbuilt spec whose
+  shape my claim tables already satisfy (SciFact/FEVER trio).
+- P5 visions: V06 adversarial review == my PUSHBACK (independently
+  reinvented); V07 essay-as-rendering == starters loop; V08 warning
+  (never free-cleanup) already honored by signoff/grants model.
+- P6 integration: Nov-5 box-agent review already mapped visions↔live
+  stack (svread+ipvv+translation-work); adopt its 6 ranked items, don't
+  re-review. My lane adds: treeka/formal/essay-compile rows.
+- P7 IDs: pt:src canonical in pipeline/ + seeds; lingua has no pt:src
+  dimension — crosswalk table built (24 triple); alias gaps named.
+- P12 witness leads: Kramasadbhava proof cites Dyczkowski ed. Muktabodha
+  (NGMPP A 209/23) — concrete reel refs exist in old docs; OCHS +
+  NGMPP catalogue pointers in seed60 (lines ~388-410, unread yet).
+- P13 Lean: mentions only (peer-review/audit docs) — no implementation;
+  no duplication with formal-trika.
+- P10 tiers: ResourceTier A-E (provenance on resources) vs my T/R/X
+  (claim strength) — different axes, document mapping, never merge.
+
+## Patalacheckpoints full audit closed (P1-P20).
+
+- P1 governance noted (ONE RULE, validators, read-order). P2 biblio system
+  mapped (thin+rich+ingestion+app+Zotero spec). P3 Trika audited.ts (11).
+- P4 scholar stack: FaBiO/WebAnnotation/PROV-O/CiTO/RO-Crate/IIIF composed
+  (adopted as BACKBONE labels); TantraFact unbuilt spec == my claim shape.
+- P5 visions: V06 == PUSHBACK, V07 == starters loop, V08 honored already.
+- P6 Nov-5 box review stands; my lanes add treeka/formal/essay rows.
+- P7 pt:src canonical; crosswalk built (24 triple); alias gaps named.
+- P8 TWO-DB QUESTION (new, architectural): patala_core.atlas Postgres vs
+  box openpatala DB — different schemas, same R2 bucket. One DB or
+  crosswalk? Needs owner/lead ruling (not mine to merge).
+- P9 sivaqueue (Siddhanta paddhatis) vs treeka (cruxes): no overlap.
+- P10 ResourceTier A-E (provenance) vs T/R/X (strength): divergent by design.
+- P11 M-numbers thin there; my 499-file M-index is new coverage.
+- P12 witness leads: NGMPP A 209/23 (Kramasadbhava proof), OCHS + NGMPP
+  catalogue pointers (seed60 ~L388-410, partially read).
+- P13 Lean: mentions only, no implementation. P14 factory-certs L0-v1
+  exist (partially examined). P15 app/biblio serves today.
+- P16 dedup: reconciled everywhere; only open Q is two-DB (P8).
+- P17 adopted: standards labels (BACKBONE), V06 framing (already held),
+  essayguide backlog (thesis selection + argument graph missing — queued).
+- P18 KMT: 7 URL misses total (GRETIL patterns from their adapter tried);
+  stays scholar-channel (packet B9). M00547-51 liturgy local, tantra absent.
+- P19 freshness: patalacheckpoints tip Oct 7 (month dormant); Aug docs vs
+  Nov lanes covered by Nov-5 review + my PATALA-COVERAGE.
+
+## One-system merge (D1-D10 closed): box DB wins, seeds fed.
+
+- D1 census: patala_atlas DB unprovisioned anywhere (code targets :5433,
+  no instance); box openpatala (34 tables, 544 works) is the only live store.
+- D2 verdict: box wins by completeness; migration = seed feeds (this turn).
+- D5/D6 applied: 12 people + 16 translations + 14 editions (atlas audited,
+  idempotent, provenance rev-pinned); 4 discovery_leads (NGMPP A209/23,
+  KMT file, TAL M92/93 split, OCHS/NGMPP catalogues).
+- D3/D4: MASTER-PLAN track H + order bullet; NEXT-STEPS 1.7/1.8.
+- D7 visions: V06/V07/V08 already held (noted, no new build); essayguide
+  backlog (thesis selection + argument graph) queued for essay track.
+- D8 TantraFact export: deferred by design (spec dormant; claim tables
+  already satisfy the shape; export on activation).
+- D9 file index filed (PATALA-COVERAGE).
+
+## Research-library unification (one place at last).
+
+- Tier language unified: TIERS.md adopts their six definitions verbatim
+  (T/R/E/C/H/X) + my-track mapping + standing examples. My tiers were
+  declared but E/C/H/X never defined — fixed by adoption, not invention.
+- ingest_research_library.py: 8 essays (A-H tiers) + thesis + commentary/
+  essay files + 12 concept topics + claimants + 20 concordance claims
+  (graded tiers) → expansion graph (73n/77e). Mirrors untouched (projects/
+  canonical; damn/ left alone).
+- essay_compile --research: second verbatim voice (proven on NODE1;
+  pairings labeled experimental until topic-matched).
+- Provenance: my Transitions/NonEntail already cite their docs (AM0 σ-flip,
+  A≢B≢C chain) — headers confirm no fork. Concordance IPVV column
+  (chunkM/chunkD/k-chunks) is a future join key to my ledgers (noted).
+
+## Gochema deep dive (compiler-law estate, mirrors confirmed).
+
+- recognition/ mirrors research-library (NODE2 byte-identical — mirror, no
+  fork). aperture/ is a prose/math formal universe (C∞ postulates,
+  inexternalism equations, mepit razor, scienceloka) — complementary to
+  Lean (no Lean there); my Recognition/NonEntail already cite their docs
+  as R-schema (headers confirm).
+- Compiler law == essay_compile law (verbatim voice, never rewrite) —
+  convergent methods; theirs for video, mine for essays.
+- IPVV-PLAIN-ENGLISH-BRIDGE (L1-style readable layer) noted for IPVV lane;
+  RATIE-EXCAVATION-EN (680 lines) = Ratié lore pool for translation lane.
+- tantra/ holds Dyczkowski survey PDF (5.8MB local) → Tantraloka papers
+  as local holding (rights review before quoting).
+- utpaladeva-power-of-action PDF noted (Utpaladeva primary, unexamined).
+
+## A-AP rung (consciousness-theory formalisation starts, H-tier).
+
+- Aperture inventory (9 ops) green first try + 2 surgical twins.
+  EVIDENCE 131 (H, spec-carrying r_sources); review-status 133.
+- Endgame answer: YES, formalisation of consciousness theory is in scope
+  — as H-tier inventory → structure → (someday) selector-adjacent claims,
+  each rung preregistered with phenomenal claims explicitly out.
+- F9 logged (comma surgery lesson).
+
+## Operationalise formalisation (agents over models, sessions out).
+
+- twin_to_session.py: refusing twins render pushing skeletons (ROUND 0
+  checked claims + true grounds via EVIDENCE lookup; ROUNDs left EMPTY
+  for assessor). Demo on BrokenGenPerm caught a grounds bug first
+  (blind-first-entry → per-theorem lookup; fixed).
+- Loop proven: twin → skeleton → assessor flesh → session → claims →
+  treeka → review. Formal countermodels are now question generators
+  (Beyond→fifth-means? Perm→why-five-each? Leap→why-graded?).
+- incidence_matrix.py: 909×131 with 44 cells (coverage honesty: 900 bare,
+  91 lone). Thon Ly mirror, descriptive.
+- Neural verdict: embeddings for retrieval (agent context, NVIDIA-ontology
+  pattern), never proof (COVCAL/faithfulness: partial signals abstain).
+  "neuraxon qubic" uninterpretted — owner to clarify if specific tech meant.
+- BRIDGES-LEVIN.md: 5 specced bridges (discriminators + non-claims) +
+  Doyle inversion topic + Atlas positioning note. Specs, not papers.
+
+## N-NAN + T-TET rungs (Ñāṇavīra structure + tetrahedron facts).
+
+- Nanavira.lean: GENERATED pairings (pair-product + filter, not listed —
+  self-review rewrote circular first draft), computed-vs-stated orders,
+  functional erasure. 3 surgical twins green.
+- Tetrahedron.lean: Platonic gap/uniqueness/Euler (Int, def-based twins
+  after must_fail statement-identity lesson). 9x4-vs-28 tension filed open.
+- EVIDENCE 137 (R/H mixed); review-status 139; TABLE green.
+- F10 logged (noisy surgery; simplest-insert rule).
+
+## Tetrahedron/Seth verdicts + Bilara probe.
+
+- Tetrahedron: NOT BS at checkable level (gap/uniqueness/Euler green in
+  Lean); selector inference = metaphysics (H, labeled); 9x4-vs-28 tension
+  genuine flaw, pushing material. Essay-worthy: tension piece, Trika-tetra
+  survey (36/upayas/speech), selector-vs-MEPIT piece.
+- Seth objects: channeled metaphysics systematized (Roberts/Steiner/
+  Montalk). Tier rule: quote-tier T (Seth said, verbatim), content-tier H,
+  never R (tradition) — usable as comparative voice (claimant shape),
+  never grounds. IPK-PARALLELS already does this; affirmed.
+- Bilara: SN55 probe green (segments parse, CC0). BUDDHIST-PATH-NOTE
+  extended (fetter program, nibbanahelp coordination, no hand-rolled Pali).
+
+## Density/speculative track opened.
+
+- LAWOFONE-TRIKA-NOTE (inversions first: direction, grace-vs-graduation,
+  freedom-role, 51% gap) + CHANNELING-SABDA-NOTE (apta-test mapping,
+  quote-T/content-H rule) + 8 essay topics filed.
+- essay_compile --owner now optional with --research (speculative pilot
+  compiled: densities x adhvan). Limitation recorded: voice extraction
+  covers `>` quotes; Ra-style `*"` passages not yet parsed (no gold-plate).
+- Tetrahedron verdict stands: combinatorics green, metaphysics H, 9x4
+  tension open and essay-filed.
+
+## Essay estate unified (workengestation found on volume).
+
+- workengestation: full essay factory (thesis-guide, v6 algorithm with
+  9 prose patterns, typed essays + link graph DAG, ESSAY.schema,
+  dispatch, hermes blueprints). Channeling output dir EMPTY (queued).
+- ESSAY-PIPELINE.md unites it with my chain (compile→prose→audit→
+  pushback→review→publish, gates+owners). Hermes installed on THIS box
+  (gateway CLI + skills + cron present) — activation = owner call.
+- Channeling program queued (Seth → Cassiopaean → subtle-body, āpta-test
+  framing); 8 LoO topics filed earlier stand.
+
+## Essay factory complete (skills import map + freeze-first + corpus voice).
+
+- skills/essay/SKILL.md: every stage names exact modules (essaygen
+  pattern, v6 docs, my tools, svread harness, Scholar) — imports, no dupes.
+- essay_compile: frozen-claims-first (fail-closed orphans) + --research +
+  --corpus-topic (essay-corpus graded voice, proven on grace/10 quotes).
+- Research roundup filed (volume engine, R2 corpora/renders, GitHub repos,
+  density shelf). Endgame reconciliation filed (join keys + batch order).
+
+## L3/L4 essay passes (the endgame shape, proven on mala).
+
+- essay_compile --l3/--l4: sentence tracing fail-closed (quote-context
+  fix, metadata exemptions), per-paragraph DRAFTs, drift audit with
+  voice/structural exemptions. Pilot: 0 untraced, 0 drifts.
+- Discipline change: roboscholar drafts demoted to exploratory — canonical
+  path is compile+L3+L4 (never write a paragraph, only justified edits).
+- Endgame essay = structured data + audits + 2-3 sharpening rounds. Done.

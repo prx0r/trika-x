@@ -11,6 +11,9 @@ mapping status. Machine-proposed translations are R-ground, never T.
 
 One theorem per falsifiable facet. State the model, the scope, and what is
 NOT formalized (generative relations, semantics, doctrine — name them).
+Every theorem gets a `Covers:` line (which PART of the source it covers,
+Axiom-style partial notation — never weaken the source to make it provable;
+if the source is wrong, say so).
 
 ## Traps (mandatory — the transmission-brief section)
 
