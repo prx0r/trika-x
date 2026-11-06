@@ -1,0 +1,14 @@
+{
+ "ref": "arxiv:1312.2007",
+ "fetched": "2026-11-06",
+ "title": "The Amplituhedron",
+ "authors": [
+  "Nima Arkani-Hamed",
+  "Jaroslav Trnka"
+ ],
+ "published": "2013-12-06T21:00:01Z",
+ "abstract": "Perturbative scattering amplitudes in gauge theories have remarkable simplicity and hidden infinite dimensional symmetries that are completely obscured in the conventional formulation of field theory using Feynman diagrams. This suggests the existence of a new understanding for scattering amplitudes where locality and unitarity do not play a central role but are derived consequences from a different starting point. In this note we provide such an understanding for N=4 SYM scattering amplitudes in the planar limit, which we identify as ``the volume\" of a new mathematical object--the Amplituhedron--generalizing the positive Grassmannian. Locality and unitarity emerge hand-in-hand from positive geometry.",
+ "pdf_url": "https://arxiv.org/pdf/1312.2007.pdf",
+ "pdf_sha256": "553863867402aeb4a95d8ed0b8aac1f17fd7871304972517b09f7503f00eee4d",
+ "pdf_bytes": 746209
+}

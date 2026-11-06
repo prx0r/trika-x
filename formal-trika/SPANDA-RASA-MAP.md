@@ -80,17 +80,20 @@ Formalisation here means finite checks, never capturing the doctrine:
 
 - **arXiv:2601.11142 does not exist** (query returns empty; dated
   2026-01 — likely a hallucinated or mistyped ID inside 576lqg.md).
-  The amplituhedron lineage that IS real: 1310.7930 (Arkani-Hamed/Trnka).
-  Fix owed in 576lqg.md; do not repeat the ID anywhere.
-- **"Simplest amplituhedron IS the tetrahedron": UNVERIFIED.**
-  arxiv search (amplituhedron AND tetrahedron) returns 0 hits. Plausible
-  via low-n low-k cases, but no source held. Row stays THIN until
-  1310.7930 is vendored and the exact statement located. Import-paper
-  customer #1 (bumping Maudlin/Rovelli to #2).
+  The amplituhedron paper that IS real: **1312.2007** (Arkani-Hamed/Trnka,
+  vendored 2026-11-06: `bridge/science-sources/arxiv-1312.2007/`,
+  pdf sha `55386386…`, 746KB). (Also corrected: 1310.7930 is Schreiber
+  on differential cohomology — wrong ID, briefly vendored and removed.)
+- **"Simplest amplituhedron IS the tetrahedron": RETRACTED as a citation
+  of 1312.2007.** Full-text check: "tetrahedron" occurs 0 times; the
+  paper's simplest object is the triangle / m=2 polygon (§2.1, §12).
+  The tetrahedron may occur in amplituhedron lore elsewhere (talks,
+  k=1 polytope faces), but no source held states it. Row stays THIN;
+  next source owed before any essay use.
 
 ## 8. Ordered builds
 
-1. Vendor 1310.7930, locate-or-retract the tetrahedron statement.
+1. ~~Vendor 1310.7930~~ DONE (1312.2007 vendored; statement RETRACTED — find the real tetrahedron source or drop the claim).
 2. S-SPAND prereg — UNBLOCKED (spanda spans p01–p04 held, full layers).
    unmeṣa/nimeṣa alternation check + SK-verse roster; twin-attack from §4.
 3. R-NAV rung (needs only Abhinavabhāratī/TĀ passages already held —
