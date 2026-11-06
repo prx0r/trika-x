@@ -13,6 +13,7 @@ Writes data/essay-seeds.json {seeds[], counts}. Statuses are kind-defaults
 documented below — per-item review states live in each lane, not here.
 """
 import json
+import os
 import re
 from pathlib import Path
 
@@ -41,8 +42,28 @@ def main() -> int:
     opts = ap.parse_args()
     seeds = []
 
-    def add(sid, kind, title, path, status, extra=None):
-        d = {"id": sid, "kind": kind, "title": title, "path": str(path), "status": status}
+    # Category = pipeline stage (USE), kind = source flavor (ORIGIN).
+    # SOURCE: raw voice/material to compile from. COMPILED: machine outputs.
+    # REVIEWED: human-verdict material. PUBLISHED: released outputs.
+    # BRIEF: planning inputs (topics, claims, questions). RENDER: media.
+    # CORPUS: bulk aggregates (counted, not listed).
+    CATEGORY = {
+        "owner-original": "SOURCE", "research-essay": "SOURCE",
+        "commentary": "SOURCE", "topic": "BRIEF", "research-object": "SOURCE",
+        "density": "SOURCE", "subtle-body-pack": "SOURCE",
+        "subtle-body-historical": "SOURCE", "platinum": "SOURCE",
+        "platinum-essay": "SOURCE", "video-essay": "SOURCE",
+        "idea-units": "SOURCE", "imported-doc": "SOURCE",
+        "essay-object": "BRIEF", "essay-seed": "BRIEF", "contention": "BRIEF",
+        "info-packet": "BRIEF", "pushing-session": "REVIEWED",
+        "expansion-draft": "COMPILED", "video-build": "RENDER",
+        "essay-render": "RENDER", "research-corpus": "CORPUS",
+        "bridge-corpus": "CORPUS",
+    }
+    def add(sid, kind, title, path, status, extra=None, category=None):
+        d = {"id": sid, "kind": kind,
+             "category": category or CATEGORY.get(kind, "SOURCE"),
+             "title": title, "path": str(path), "status": status}
         if extra:
             d.update(extra)
         seeds.append(d)
@@ -52,7 +73,7 @@ def main() -> int:
     for d in sorted((TANTRA / "final12").iterdir()):
         add(f"owner:{d.name}", "owner-original",
             title_of(d / "README.md") if (d / "README.md").is_file() else d.name,
-            d, "rendered" if d.is_dir() else "file")
+            d, "released render", category="PUBLISHED")
     for f in sorted((HERE / "swarm").glob("expansion-*.md")):
         add(f"expansion:{f.stem}", "expansion-draft", title_of(f), f, "MACHINE-COMPILED")
     for f in sorted(RLIB.glob("ESSAY-*.md")) + sorted(RLIB.glob("THREE-ESSAYS*.md")):
@@ -103,6 +124,15 @@ def main() -> int:
             add("basecamp:works-corpus", "research-corpus",
                 f"basecamp works corpus ({n} pubmed/bridge JSONs)", works,
                 "aggregate node (neuroscience research corpus)")
+    # imported ochema2 docs (frozen reading mirror in-repo)
+    imp = HERE / "imports" / "ochema2"
+    if imp.is_dir():
+        for f in sorted(imp.rglob("*.md")):
+            if f.name in ("PROVENANCE.md", "FINDINGS.md"):
+                continue
+            rel = f.relative_to(imp)
+            add(f"import:{rel.parent}/{f.stem}", "imported-doc", title_of(f),
+                f, "frozen mirror (upstream: prx0r/ochema2)")
     # volume essayviz builds
     evb = Path("/mnt/HC_Volume_106959365/root/projects/essayviz-workspace/build")
     if evb.is_dir():
@@ -114,8 +144,8 @@ def main() -> int:
         try:
             import boto3
             s3 = boto3.client("s3", endpoint_url="https://954612afb5a97bb15dddcdc70176813d.r2.cloudflarestorage.com",
-                              aws_access_key_id="36c9d71d3defa6b43f53536bdc6f65f3",
-                              aws_secret_access_key="c55689c3f176e4b839a7fb93861778960ed1020ba6253decec11538e7b187691")
+                              aws_access_key_id=os.environ["R2_PATALA_ACCESS_KEY_ID"],
+                              aws_secret_access_key=os.environ["R2_PATALA_SECRET_ACCESS_KEY"])
             pg = s3.get_paginator("list_objects_v2")
             plats = []
             for page in pg.paginate(Bucket="sanskritree", Prefix="platinum/"):
@@ -138,13 +168,14 @@ def main() -> int:
         except Exception as e:
             print(f"R2 section skipped: {str(e)[:100]}")
     from collections import Counter
-    counts = dict(Counter(s["kind"] for s in seeds))
+    counts = {"by_category": dict(Counter(s["category"] for s in seeds)),
+              "by_kind": dict(Counter(s["kind"] for s in seeds))}
     doc = {"format": "trika-essay-seeds/1", "seeds": seeds, "counts": counts,
            "note": ("statuses are kind-defaults; per-item review lives in owning lanes. "
                     "blogengine: not found anywhere (box, volume, R2, GitHub) — recorded absent, not missing")}
     (HERE / "data" / "essay-seeds.json").write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
     print(f"essay seeds: {len(seeds)}")
-    for k, v in sorted(counts.items()):
+    for k, v in sorted(counts["by_category"].items()):
         print(f"  {k}: {v}")
     return 0
 

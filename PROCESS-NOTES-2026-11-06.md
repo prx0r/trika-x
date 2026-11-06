@@ -1181,3 +1181,19 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   footnotes — apply to quote validation); song-with-no-singer to voice
   pool (mythic register, cross-tradition quotes intact).
 - RASA/SPANDA/MANTRA frameworks noted (H/speculative; not formalized).
+
+## Ochema2 imported + mined (49 docs, FINDINGS filed).
+
+- Frozen mirror: formal-trika/imports/ochema2/ (516KB MDs + provenance;
+  assets left upstream). Essay seeds now 519 (+imported-doc kind).
+- Tractatus set = formal gold (AM0/PR-FR states as rung candidates;
+  rates-hierarchy; support-sets vs identity design; Level-0 prereg input).
+- Claim ledger = EVIDENCE field pattern source. Frameworks = H shelf.
+- goodvideopipeline loop + spanda R2 films noted for video lanes.
+
+## Essay seeds recut by pipeline stage (user: old kinds sucked).
+
+- 7 categories: SOURCE (raw voice/material) / BRIEF (planning inputs) /
+  COMPILED (machine outputs) / REVIEWED (verdict material) / PUBLISHED
+  (released) / RENDER (media) / CORPUS (bulk aggregates). Old kind kept
+  as origin flavor. 538 seeds indexed.
