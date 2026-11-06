@@ -735,3 +735,17 @@ the spanda gold (4 passages, 25 verses, full pipeline).
   lines); vocab current; evidence_check green (spanda:span-p01 covered).
 - Design correction applied mid-rung: must_fail requires identical
   statements — recorded here so the next rung doesn't repeat it.
+
+## 2026-11-06 — Rung 19: navarasa roster-facts (R-NAV1–3, H)
+
+Prereg: PREREGISTRATION-NAV-RUNG.md (H-tier, roster stipulated like
+T-TET; R2 aesthetics text vocabulary verified live before code).
+
+- **`Rasa.lean`** — Rasa/Bliss inductives + rank defs; `nine_only`,
+  `santa_supreme`, `bliss_gradient` (all `decide`). Zero-axiom.
+- **Three surgical twins**, two harness lessons: (1) duplicate must hit
+  a non-top rasa or santa_supreme breaks too (BrokenGrace rule again);
+  (2) list-literal statements mutate twice — replace def occurrence
+  only. Green after fixes.
+- EVIDENCE 3 rows (r_sources → R2 text, H note); TABLE regenerated;
+  evidence_check clean.

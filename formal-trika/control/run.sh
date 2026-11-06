@@ -22,6 +22,7 @@ fi
 "$LEAN" -DwarningAsError=true ../buddhist/Nanavira.lean || exit 1
 "$LEAN" -DwarningAsError=true ../frontier/Tetrahedron.lean || exit 1
 "$LEAN" -DwarningAsError=true Spanda.lean || exit 1
+"$LEAN" -DwarningAsError=true Rasa.lean || exit 1
 "$LEAN" -DwarningAsError=true AnswerKey.lean || exit 1
 "$LEAN" -DwarningAsError=true Tattva.lean || exit 1
 "$LEAN" -DwarningAsError=true TattvaInventory.lean || exit 1
@@ -67,3 +68,6 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Tetrahedron.
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Spanda.lean --mutant BrokenSpandaPhase.lean --theorem phases_two || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Spanda.lean --mutant BrokenSpandaState.lean --theorem glide_all || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Spanda.lean --mutant BrokenSpandaAct.lean --theorem acts_three || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Rasa.lean --mutant BrokenRasaTen.lean --theorem nine_only || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Rasa.lean --mutant BrokenRasaTopple.lean --theorem santa_supreme || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Rasa.lean --mutant BrokenRasaBliss.lean --theorem bliss_gradient || exit 1

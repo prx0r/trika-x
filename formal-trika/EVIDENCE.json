@@ -1745,6 +1745,33 @@
    ],
    "r_sources": [],
    "lived": []
+  },
+  "Rasa.lean :: nine_only": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [
+    "R2 source-library/tantra/abhinavagupta/aesthetics/abhinavabharati-gupta.txt (325KB; rasa vocabulary verified: karuna 31, bibhatsa 16, vira 9, raudra 8, adbhuta 4, santa 2)"
+   ],
+   "lived": [],
+   "note": "H-tier: classical roster stipulated, see PREREGISTRATION-NAV-RUNG.md"
+  },
+  "Rasa.lean :: santa_supreme": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [
+    "R2 source-library/tantra/abhinavagupta/aesthetics/abhinavabharati-gupta.txt (325KB; rasa vocabulary verified: karuna 31, bibhatsa 16, vira 9, raudra 8, adbhuta 4, santa 2)"
+   ],
+   "lived": [],
+   "note": "H-tier: classical roster stipulated, see PREREGISTRATION-NAV-RUNG.md"
+  },
+  "Rasa.lean :: bliss_gradient": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [
+    "R2 source-library/tantra/abhinavagupta/aesthetics/abhinavabharati-gupta.txt (325KB; rasa vocabulary verified: karuna 31, bibhatsa 16, vira 9, raudra 8, adbhuta 4, santa 2)"
+   ],
+   "lived": [],
+   "note": "H-tier: classical roster stipulated, see PREREGISTRATION-NAV-RUNG.md"
   }
  },
  "exemptions": {

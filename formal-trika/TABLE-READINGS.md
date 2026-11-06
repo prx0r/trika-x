@@ -434,3 +434,12 @@ Three states, and the perceiver holds through each: waking, dreaming, deep sleep
 
 ## Spanda.lean :: acts_three
 Forthgoing, standing, dissolving: three acts, none collapsing into another — the inner wheel turns three ways.
+
+## Rasa.lean :: nine_only
+Nine rasas, no tenth, no repeats: the flavour roster is exactly nine.
+
+## Rasa.lean :: santa_supreme
+Peace outranks every other flavour, and nothing outranks peace: śānta on top, alone.
+
+## Rasa.lean :: bliss_gradient
+Five blisses in strict ascent, innate to consciousness: the gradient climbs one way.
