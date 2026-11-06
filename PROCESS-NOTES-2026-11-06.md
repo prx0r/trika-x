@@ -817,3 +817,18 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   lore; argmap rule already allows scholarly refs as support, not claims).
 - expansion-essays/ dir (empty, purpose-built) receives PROMOTED drafts
   only — owner disposes placement; swarm/ holds machine-proposed.
+
+## External integrations: landed + verdicts.
+
+- MITRA PR #12 (translation-work): 219-headword subset + mitra_grounds.py
+  L0 lookup + tests; suite 90 green. Trika coverage measured (219/384K heads).
+- WITNESS-OCR skill pushed to openpatala master (docs/WITNESS-OCR.md):
+  free-agent OCR→spans→records→ingest pipeline, calibration-first.
+- Vidyut pilot proven (cheda+prakriya locally, 2/4 honest aligns, sandhi
+  module = real next step); tier metadata live (0 Core / 127 Frontier).
+- Worktrunk: installed (wt v0.81.0) but BLOCKED — needs Git ≥2.43, box has
+  2.39.5 (owner call to upgrade; no system changes made). Verdict: worth it
+  for multi-PR/agent workflows (would have prevented F4 twice today), NOT
+  specifically for openpatala (single-writer track). Adopt at git upgrade.
+- Xiaomi-OCR-0: spec-only (1.8GB + venv don't fit 3.0G free); trial plan
+  recorded (benchmark vs MIDF on one page first).
