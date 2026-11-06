@@ -1,5 +1,8 @@
 /-
   Formal Recognition — kañcuka coordinates + agent finitude (R).
+  KIND: KEY TABLE (per-kañcuka coordinate rows, R-tier gloss) + checked
+  properties. The mapping is stipulated; theorems check totality and the
+  admission premise, never metaphysical truth.
 
   From logicframework/logicframework2 (C+H): the five kañcukas as
   coordinates of contraction — vidyā→K (partial observability),

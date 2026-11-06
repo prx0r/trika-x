@@ -1,8 +1,10 @@
 /-
   Formal Trika — the 3 malas (impurities) and their classes.
+  KIND: KEY DATA (datatype + tradition count; nothing derived).
   Tiers: the three NAMES are T (root/āgama vocabulary, cf. translation-work
   phrdaya mala argmap + tsa-a08 T1); the axis reading (presence/absence
   booleans composing experient classes) is R (reconstruction).
+  What this is NOT: a derivation of the three — the count is tradition's.
 -/
 namespace FormalTrika
 

@@ -1,5 +1,7 @@
 /-
   Formal Recognition — tractatus/observer chain (R, H-marked where due).
+  KIND: MODEL (finite Boolean/path models) checking consequences of
+  stipulated hierarchies (Rec levels, layers, support, fork).
 
   From `observer proofo` (D/S/O/R architecture, T1–T14, Rec_1/Rec_2/FullRec,
   4 layers, T13 cardinality bound), `siobserver` (S/i/0/1, 50 props — the

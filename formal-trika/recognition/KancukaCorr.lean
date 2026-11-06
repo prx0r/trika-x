@@ -9,11 +9,17 @@
 
   What this file IS: a partial map from decode-side felt markers to the
   five contraction coordinates, with unknowns FIRST-CLASS (`none`).
-  Firm rows (R-tier, from the decode): pull→va, stall→ac, doubt→kn.
-  Explicit unknowns: push, urgency, placedness (dosa/kāla/niyati felt
-  signatures not established — recorded, not forced).
-  What it is NOT: a proof that any clause IS any kañcuka. The empirical
-  bite is T-C1 (statistical, `tools/tc1_cooccurrence.py`), not this file.
+  KEY DATA, not rules: the firm rows below are stipulated mappings (R-tier),
+  each pinned to lived-decode evidence; no theorem derives them. Their
+  empirical bite is T-C1 (statistical, `tools/tc1_cooccurrence.py`).
+  Firm rows and evidence pins (play/*.jsonl, days 1–7 decodes):
+    pull→va   day-7 #6–8, #22, #35; day-2 #1–2, #6–7; day-4 #1; day-5 #13
+    stall→ac  day-7 #18 (want+blocked); day-4 #0 (torpor)
+    churn→ac  day-7 #2 (scrambling); day-4 #0 (hot-bothered) — R, thin
+    doubt→kn  day-5 #9 (explicit); day-2 #26; day-7 #20 (have-it/feel-it)
+  Explicit unknowns: push (dosa-side), urgency (kāla candidate),
+  placedness (niyati candidate) — unestablished, recorded, never forced.
+  What it is NOT: a proof that any clause IS any kañcuka.
   Scope: a theorem about this finite table, nothing more.
 -/
 namespace FormalRecognition

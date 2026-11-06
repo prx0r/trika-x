@@ -60,3 +60,19 @@ Harness totals at this commit: control green (incl. BrokenKancuka), recognition
 18/18 (9 check + 9 mustfail). New-rung prereg preceded code in-commit-order
 (prereg commit, then model commits). Nothing here is a publication gate;
 inventory stays NOT_RUN per the PR's evidence boundary.
+
+## Arm C — sharpness (2026-11-06, box agent; prereg PREREGISTRATION-ARMC.md committed before verification)
+
+Machine receipt: `runs/runs.jsonl` (rev-pinned; all green at arm-C HEAD).
+M-KEY: AnswerKey collates 5 tradition figures (5 kañcukas / 36 tattvas /
+7 experients / 5 followers / 112 dhāraṇās) with per-figure status; excluded
+list names our constructs. HOLDS.
+M-BLIND: `vocab.py` extracts 26 types into a Lean-checking Vocab.lean;
+BLIND.md + T-C2-RATER2-SHEET ready; no blind run yet (lead-agent work). HOLDS (instrument).
+M-TABLE: TABLE.md covers all 76 theorems incl. 2 marked scaffolds, with
+hand plain-English readings; `table.py --check` green. HOLDS.
+M-LEDGER: record_run.py appends rev-pinned harness exits (this section cites it). HOLDS.
+M-GREEN: control (incl. AnswerKey) + recognition 18/18 + test_tools 4/4 + vocab/table checks + tc1 hold. HOLDS.
+R13 tightened per books (root lobha/dosa; nibbanahelp check_factors, re-verified, no decode breakage).
+Thon-pattern audit: KancukaCorr.corr rows stay KEY (stipulated + evidence-pinned, never derived);
+`unverifiedProposedLabel` stays provisional; thina/middha root-link gap closed in the linter.

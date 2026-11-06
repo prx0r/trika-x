@@ -1,5 +1,8 @@
 /-
   Formal Trika — F2: the three means as distinct transition relations (F-UPAYA).
+  KIND: RULES (general preconditions: purity flag, n≥2 repetition) over a
+  stipulated 4-state space + MODEL scope. The n≥2 bound formalizes
+  "repeated" minimally (a modeling choice, not a textual count).
 
   From the day-7 decode: mantra-repetition (#23) and insight-cascade
   (#30–31) share thought-factors but are different MEANS. T-tier ground:
