@@ -607,6 +607,38 @@ excluded; v00 frame unit excluded). T-tier ground: none.
 
 ---
 
+## 2026-11-06 — Rung 13: generative 36 (G-GEN1–4, Thon Ly gap closed)
+
+Prereg: PREREGISTRATION-GEN-RUNG.md (R-ground ONLY: v16 primacies +
+heap verses, machine-proposed; NO independent key on disk — owed second
+projection recorded, not faked). Targets his generativity bar: rules over
+axes, no individual tattva named (elements are (group,index) pairs).
+
+### What was built
+
+- **`TattvaGen.lean`** — axes (5 primacy tags, 5 limit functions, root
+  roster, dyad/triad roles, 4 modalities × rank-5 rule) + `gen_total`
+  COMPUTED (5+5+1+2+3+ΣmodSize = 36 — the numeral appears only in claim
+  statements, never as input) + `pure_distinct` + `pentad_uniform` +
+  `cut_arith` (deliberately rule-independent so it survives mutations).
+  Self-review caught bare literals mid-build (regenerated from tag lists).
+- **Three surgical twins**: BrokenGenDup (dup primacy → GEN2 only),
+  BrokenGenPerm (6/4 roster split, same total → GEN3 only),
+  BrokenGenRoot (emptied root → GEN1 only).
+- Dual-projection mirror: per-group counts AND total from one rule set
+  (his dual-projection check, structurally).
+
+### Scoring (provisional)
+
+- **G-GEN1–4: PASS.** EVIDENCE 129 entries (R, ARGMAP-PINNED; cut_arith
+  model-only). Agreement with Tattva.thirty_six verified in receipt
+  (both say 36; kept out of must_fail to preserve twin-separability).
+- **Honest limits:** one textual route (v16); begetting unformalized;
+  translation unreviewed; no witness; no independent key — generativity
+  closed, independence + review still owed.
+
+---
+
 ## What "done" would look like (honest checklist)
 - [ ] Every unarmed chunk with an argmap formalized or explicitly parked
 - [ ] Witnesses pinned (needs openpatala resolver)

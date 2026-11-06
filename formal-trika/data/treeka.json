@@ -14900,6 +14900,8 @@
    "formal_reference": true,
    "formal_refs": [
     "AnswerKey.lean :: key_five_followers",
+    "TattvaGen.lean :: gen_total",
+    "TattvaGen.lean :: pure_distinct",
     "TattvaInventory.lean :: pure_count",
     "TattvaInventory.lean :: pure_excludes_maya"
    ],
@@ -14990,7 +14992,9 @@
     "EgoOrigin.lean :: trika_self_grounding_exists",
     "Heaps.lean :: guna_threefold",
     "Heaps.lean :: heap_has_both_kinds",
-    "Tattva.lean :: eleven_wombed"
+    "Tattva.lean :: eleven_wombed",
+    "TattvaGen.lean :: gen_total",
+    "TattvaGen.lean :: pentad_uniform"
    ],
    "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],

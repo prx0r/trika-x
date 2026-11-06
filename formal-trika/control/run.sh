@@ -16,6 +16,7 @@ fi
 "$LEAN" -DwarningAsError=true Nyasa.lean || exit 1
 "$LEAN" -DwarningAsError=true Embed.lean || exit 1
 "$LEAN" -DwarningAsError=true Ladder.lean || exit 1
+"$LEAN" -DwarningAsError=true TattvaGen.lean || exit 1
 "$LEAN" -DwarningAsError=true AnswerKey.lean || exit 1
 "$LEAN" -DwarningAsError=true Tattva.lean || exit 1
 "$LEAN" -DwarningAsError=true TattvaInventory.lean || exit 1
@@ -46,3 +47,6 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive Embed.lean --mutant Brok
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Ladder.lean --mutant BrokenLadderChain.lean --theorem chain_trans || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Ladder.lean --mutant BrokenLadderBeyond.lean --theorem terminal_no_successor || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Ladder.lean --mutant BrokenLadderLeap.lean --theorem abandon_strict || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaGen.lean --mutant BrokenGenDup.lean --theorem pure_distinct || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaGen.lean --mutant BrokenGenPerm.lean --theorem pentad_uniform || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaGen.lean --mutant BrokenGenRoot.lean --theorem gen_total || exit 1

@@ -386,3 +386,15 @@ The last means has no next rung: means-independence ends the ladder.
 
 ## Ladder.lean :: abandon_strict
 Every resort climbs exactly one rung: no leaps, no loops, no staying put.
+
+## TattvaGen.lean :: gen_total
+Thirty-six computed from rules: five primacies, five limits, root, dyad, triad, four pentads of five.
+
+## TattvaGen.lean :: pure_distinct
+The five primacy powers are pairwise distinct: no collapsed principle.
+
+## TattvaGen.lean :: pentad_uniform
+Every modality holds exactly five: uniform derivation, no 6/4 split.
+
+## TattvaGen.lean :: cut_arith
+Thirty-one manifest as thirty-six minus five: the cut counts check.

@@ -762,6 +762,30 @@
    "reviewer": null,
    "reason": "machine-proposed, unreviewed",
    "date": null
+  },
+  "TattvaGen.lean :: cut_arith": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "TattvaGen.lean :: gen_total": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "TattvaGen.lean :: pentad_uniform": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "TattvaGen.lean :: pure_distinct": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
   }
  }
 }

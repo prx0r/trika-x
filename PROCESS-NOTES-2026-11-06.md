@@ -832,3 +832,16 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   specifically for openpatala (single-writer track). Adopt at git upgrade.
 - Xiaomi-OCR-0: spec-only (1.8GB + venv don't fit 3.0G free); trial plan
   recorded (benchmark vs MIDF on one page first).
+
+## G-GEN rung (generativity gap closed; literature haul banked).
+
+- 36 COMPUTES from rules (no tattva named); 3 surgical twins green first
+  try; agreement with listed Tattva total verified in receipt (both 36).
+  EVIDENCE 129; review-status 131 (0 Core — humbling, correct).
+- arXiv steals adopted: Lean Atlas aligned-standard == Core design (kept);
+  Compass triage → review-cone tool (queued); Marathon stopping-rule →
+  formalize "no forced rungs" budget (queued); M2F skeleton+repair ==
+  swarm-formal validation; COVCAL coverage-trust cited in calibration
+  proposal; Faithfulness-gap papers == PUSHBACK-as-judge validation.
+- Pāṇini literature: Sandhikosh = eval for sandhi follow-up; Heritage
+  segmenter = cheda comparison; parser-table compilation == our pattern.
