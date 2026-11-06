@@ -529,3 +529,23 @@ evidence 105/103+2, 0 problems · TABLE all rows · axiom 107 CLEAN ·
 34 unit tests + 11 qp tests green · 12 runs receipts · 50/50 todos
 (5 human/token-gated with resume paths) · 3 pushes (trika-x f42a2ea…,
 svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
+
+## Openpatala backbone wired (O1–O12).
+
+- O1: patala/api.py (works/bundle/resolve/search/frontier) + IngestionPipeline
+  reviewed (heavyweight; using row-loaders beneath it, not duplicating).
+- O2/O3/O4/O7: tools/openpatala_ingest.py (translation-work layout + --file
+  Mode B tested): 87 editions, 87 etexts (file:// artifacts, sha-pinned),
+  909 passages, works 522. LIVE BUG: citation_value got work_id (double-map)
+  — caught by --db lookup miss, fixed, migrated via DELETE+reingest.
+- O5: bridge --db mode (chunk → work/edition/etext rows; witnesses [] and
+  UNPINNED hard-held); snapshot path default. tsa08-p03 → Tantrasāra +
+  2 editions + 2 artifact SHAs; immutable_id matches snapshot pin.
+- O6: source-map IDs verified in DB (dossier ids resolve); treeka formal
+  pairs already workdir-aware (no change needed).
+- O8 demo = the tsa08 walkthrough above. O9 audit: essays ✓ / packs prose-
+  only (spec evidence_refs) / videos unknown (spec carry-through) / teacher
+  headers ✓ (DB IDs future) / books lack openpatala IDs (spec fields).
+- O11 teacher note in BACKBONE §5. O12 BACKBONE.md canonical (flow +
+  contents + specs + boundaries). Tests: backbone resolve (+CI skip-guard).
+- Suite 33/33. DB: works 522, editions 87, etexts 87, passages 909.

@@ -85,7 +85,7 @@ def verify_ledgers(tw, snapshot):
 
 
 def resolve(ref, snapshot, mapping, by_locator, live_verified=False,
-            candidates=None):
+            candidates=None, db_row=None):
     loc = ref.removeprefix('chunk:')
     if loc == 'vbt' and ref == 'vbt':
         return {'kind': 'work', 'work': 'vbt', 'record': mapping['works']['vbt'],
@@ -112,13 +112,53 @@ def resolve(ref, snapshot, mapping, by_locator, live_verified=False,
     if hits:
         out['witness_candidates'] = hits
         out['limitations'].append('listed candidates are pointers with provenance, not pins')
+    # Backbone row (O5): DB-backed identity when --db supplied. The snapshot
+    # ledger check stays authoritative for BYTES; the DB answers IDENTITY
+    # (which work/edition/etext holds this chunk). Witnesses stay UNPINNED:
+    # the witnesses table is empty box-wide (R2 audit 2026-11-06).
+    if db_row is not None:
+        out['backbone'] = db_row
+        out['limitations'].append('backbone identity: box DB (populated from repos, not a witness)')
     return out
+
+
+def db_lookup(dsn, locator):
+    """Resolve one chunk locator against the box openpatala DB. Returns a
+    backbone dict or raises ValueError. Read-only (SELECT only)."""
+    import psycopg2
+    con = psycopg2.connect(dsn)
+    cur = con.cursor()
+    cur.execute("SELECT id, work_id, citation_value FROM passages WHERE citation_value = %s",
+                (locator,))
+    rows = cur.fetchall()
+    if not rows:
+        con.close()
+        raise ValueError(f'unknown passage locator {locator!r} (not in box DB)')
+    pid, wid, _ = rows[0]
+    cur.execute("SELECT id, preferred_title FROM works WHERE id = %s", (wid,))
+    w = cur.fetchone()
+    cur.execute("SELECT id, title, external_ids FROM editions WHERE work_id = %s", (wid,))
+    eds = cur.fetchall()
+    cur.execute("SELECT id, provider_id, artifact_id, text_format FROM etexts WHERE work_id = %s",
+                (wid,))
+    ets = cur.fetchall()
+    con.close()
+    return {"passage_id": pid, "work": {"id": wid, "title": w[1] if w else None},
+            "editions": [{"id": e[0], "title": e[1], "external_ids": e[2]} for e in eds],
+            "etexts": [{"id": e[0], "provider": e[1], "artifact": e[2], "format": e[3]}
+                       for e in ets],
+            "witnesses": [],
+            "witness_status": "UNPINNED"}
 
 
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('ref', nargs='?', help='exact chunk locator, e.g. chunk:tsa08-p03')
     parser.add_argument('--tw', type=Path, help='translation-work checkout to hash-check')
+    parser.add_argument('--db', nargs='?', const='postgresql://patala:patala@localhost:5432/openpatala',
+                        default=None,
+                        help='box openpatala DSN for backbone identity '
+                             '(bare --db uses the box default)')
     parser.add_argument('--check', action='store_true', help='check snapshot and evidence references')
     args = parser.parse_args()
     try:
@@ -134,7 +174,19 @@ def main():
             source_status = 'ledger bytes match pinned snapshot' if args.tw is not None else 'snapshot only; live ledger bytes not checked'
             print(f"{len(snapshot['works'])} works, {len(by_locator)} passage IDs; {source_status}; witnesses UNPINNED")
         elif args.ref:
-            print(json.dumps(resolve(args.ref, snapshot, mapping, by_locator, args.tw is not None, candidates), ensure_ascii=False, indent=2))
+            db_row = None
+            if args.db is not None:
+                loc = args.ref.removeprefix('chunk:')
+                try:
+                    db_row = db_lookup(args.db, loc)
+                except ValueError as exc:
+                    print(f'ERROR: {exc}', file=sys.stderr)
+                    return 1
+                except Exception as exc:  # DB down / driver missing: fail closed
+                    print(f'ERROR: backbone unavailable ({type(exc).__name__}: {exc})',
+                          file=sys.stderr)
+                    return 1
+            print(json.dumps(resolve(args.ref, snapshot, mapping, by_locator, args.tw is not None, candidates, db_row), ensure_ascii=False, indent=2))
         else:
             parser.error('give a passage locator or --check')
     except (OSError, json.JSONDecodeError, ValueError, TypeError, KeyError) as exc:

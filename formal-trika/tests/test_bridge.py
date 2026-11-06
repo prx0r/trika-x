@@ -91,5 +91,31 @@ class BridgeTests(unittest.TestCase):
             bridge.inventory(self.snapshot, self.mapping, ev)
 
 
+    def test_db_backbone_resolve(self):
+        import subprocess
+        import sys as _sys
+        import json as _json
+        try:
+            import psycopg2
+            psycopg2.connect("postgresql://patala:patala@localhost:5432/openpatala",
+                             connect_timeout=3).close()
+        except Exception:
+            self.skipTest("box openpatala DB unavailable (local-only test)")
+        r = subprocess.run([_sys.executable, str(BRIDGE), "chunk:tsa08-p03", "--db"],
+                           text=True, capture_output=True)
+        self.assertEqual(r.returncode, 0, r.stderr[:500])
+        d = _json.loads(r.stdout)
+        self.assertEqual(d["witness_status"], "UNPINNED")
+        b = d["backbone"]
+        self.assertEqual(b["work"]["id"], "PTCND_sa_abhinavagupta-tantrasAra")
+        self.assertTrue(b["editions"])
+        self.assertTrue(b["etexts"])
+        self.assertEqual(b["witnesses"], [])
+        self.assertEqual(b["passage_id"], "pt:pid:ts:a08:7f9e4b3307f2")
+        r2 = subprocess.run([_sys.executable, str(BRIDGE), "chunk:nope-p99", "--db"],
+                            text=True, capture_output=True)
+        self.assertNotEqual(r2.returncode, 0)
+
+
 if __name__ == '__main__':
     unittest.main()
