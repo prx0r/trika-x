@@ -52,6 +52,10 @@ def main() -> int:
     ap.add_argument("--title", default="")
     ap.add_argument("--research", type=Path, default=None,
                     help="research-library essay/commentary file as second voice (verbatim quotes only)")
+    ap.add_argument("--corpus-db", type=Path, default=None,
+                    help="essay-corpus sqlite (idea units by topic+grade as voice)")
+    ap.add_argument("--corpus-topic", default="",
+                    help="topic tag to SELECT from corpus (grade DESC)")
     a = ap.parse_args()
     if a.owner is None and a.research is None:
         print("ERROR: need --owner and/or --research voice (compiler never writes voice)")
@@ -63,10 +67,31 @@ def main() -> int:
         rtitle, rquotes, rframes, _ = owner_blocks(a.research)
     else:
         rtitle, rquotes, rframes = "", [], []
+    cquotes = []
+    if a.corpus_db and a.corpus_topic:
+        import sqlite3 as _sq
+        cx = _sq.connect(f"file:{a.corpus_db}?mode=ro", uri=True)
+        for uid, grade, quote in cx.execute(
+                "SELECT id, grade, quote FROM units WHERE topics LIKE ? ORDER BY grade, id",
+                (f'%"{a.corpus_topic}"%',)):
+            cquotes.append((uid, grade, quote))
+        cx.close()
     nodes = robo.premises(a.work, a.verses)
     if not nodes:
         print("ERROR: no banked nodes for verses", a.verses)
         return 1
+    # FREEZE claims BEFORE any prose (essaygen invariant): no sentence may
+    # introduce a proposition outside its linked frozen claims (TRANSITION
+    # boilerplate excepted, non-substantive by construction).
+    frozen = []
+    for n in nodes:
+        vid = n.get("verse_id", "")
+        for p in n.get("premises", [])[:3]:
+            frozen.append({"id": f"CLM-{len(frozen)+1:03d}", "text": p,
+                           "verse_id": vid, "tier": "R", "kind": "premise"})
+        if n.get("inference"):
+            frozen.append({"id": f"CLM-{len(frozen)+1:03d}", "text": n["inference"],
+                           "verse_id": vid, "tier": "R", "kind": "inference"})
     day = datetime.date.today().isoformat()
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%H%M%S")
     marker_chunk = f"{a.work}:{a.chunk}"
@@ -89,15 +114,17 @@ def main() -> int:
         parts.append("")
         for q in rquotes[:8]:
             parts.append(f"> {q}")
+    if cquotes:
+        parts.append("")
+        parts.append(f"## Corpus voice (verbatim idea-units, topic `{a.corpus_topic}` — unaltered)")
+        parts.append("")
+        for uid, grade, quote in cquotes[:10]:
+            parts.append(f"> {quote} [{uid} · grade {grade}]")
     for f in frames[:6]:
         parts.append(f"[{f}]")
-    parts += ["", "## Banked claims (audit chain, tiered)", ""]
-    for n in nodes:
-        vid = n.get("verse_id", "")
-        for p in n.get("premises", [])[:3]:
-            parts.append(f"- {p} [{vid}] (R)")
-        if n.get("inference"):
-            parts.append(f"- inference: {n['inference']} [{vid}] (R)")
+    parts += ["", "## Banked claims (audit chain, tiered; every bullet links a frozen claim)", ""]
+    for fc in frozen:
+        parts.append(f"- {fc['text']} [{fc['verse_id']}] (R) [{fc['id']}]")
     if a.theorems:
         parts += ["", "## Formal note", ""]
         for t in a.theorems:
@@ -126,6 +153,18 @@ def main() -> int:
     receipt = draft_audit.audit(draft, refs=refs, sources=sources,
                                 identity="essay-compile/loop", model="compiler-v1")
     cited = sum(1 for c in table["claims"] if c["citation"] == "CITED")
+    # Coverage (essaygen invariant): every tiered bullet links a frozen id.
+    used = set(re.findall(r"\[CLM-\d+\]", draft))
+    frozen_ids = {fc["id"] for fc in frozen}
+    orphan_bullets = [l[:80] for l in draft.splitlines()
+                      if l.startswith("- ") and "[CLM-" not in l and "::" not in l
+                      and ("(R)" in l or "(T)" in l)]
+    unused = sorted(frozen_ids - used)
+    if orphan_bullets:
+        print(f"ERROR: {len(orphan_bullets)} bullets introduce propositions outside frozen claims:")
+        for b in orphan_bullets[:5]:
+            print(f"  {b}")
+        return 1
     # Linker only sees [work:target] chunk markers; verse bullets carry
     # [verse-id] markers by convention — count marker presence separately
     # so the receipt doesn't understate citation hygiene.
@@ -152,13 +191,15 @@ def main() -> int:
             graph["nodes"].append({"id": tn, "kind": "theorem", "tier": "T"})
         graph["edges"].append({"from": enode, "to": tn, "rel": "cites-formal"})
     gpath.write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n")
-    report = {"format": "expansion-receipt/1", "essay": slug, "date": day,
+    report = {"format": "expansion-receipt/2", "essay": slug, "date": day,
               "owner_quotes": len(quotes), "banked_units": len(nodes),
               "theorems": a.theorems,
+              "frozen_claims": frozen,
+              "coverage": {"orphan_bullets": orphan_bullets, "unused_claims": unused},
               "claims": f"{cited}/{len(table['claims'])} CITED + {verse_marked} verse-marked",
               "audit": receipt,
               "graph": {"nodes": len(graph["nodes"]), "edges": len(graph["edges"])},
-              "note": "compiled, not written: owner words verbatim; substance from banked chain"}
+              "note": "compiled, not written: owner words verbatim; substance from frozen banked claims"}
     (swarm / f"{slug}.receipt.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n")
     print(f"compiled -> swarm/{slug}.* | quotes: {len(quotes)} | units: {len(nodes)} | "
           f"{cited}/{len(table['claims'])} CITED | graph: {len(graph['nodes'])}n/{len(graph['edges'])}e")

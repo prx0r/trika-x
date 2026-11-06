@@ -1057,3 +1057,12 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   (gateway CLI + skills + cron present) — activation = owner call.
 - Channeling program queued (Seth → Cassiopaean → subtle-body, āpta-test
   framing); 8 LoO topics filed earlier stand.
+
+## Essay factory complete (skills import map + freeze-first + corpus voice).
+
+- skills/essay/SKILL.md: every stage names exact modules (essaygen
+  pattern, v6 docs, my tools, svread harness, Scholar) — imports, no dupes.
+- essay_compile: frozen-claims-first (fail-closed orphans) + --research +
+  --corpus-topic (essay-corpus graded voice, proven on grace/10 quotes).
+- Research roundup filed (volume engine, R2 corpora/renders, GitHub repos,
+  density shelf). Endgame reconciliation filed (join keys + batch order).
