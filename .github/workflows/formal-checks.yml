@@ -33,3 +33,5 @@ jobs:
           sh formal-trika/recognition/run.sh
       - name: Co-occurrence pilot (vendored decodes)
         run: python3 formal-trika/tools/tc1_cooccurrence.py
+      - name: Openpatala bridge map check (self-contained)
+        run: python3 formal-trika/tools/bridge_resolve.py --check
