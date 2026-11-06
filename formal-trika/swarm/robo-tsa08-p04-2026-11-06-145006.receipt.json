@@ -1,0 +1,148 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a08:tsa08-p04",
+ "prompt_sha256": "7df2bdfa3267db3e73e5da102e43cd622b4dbddc5814bed9337b64b535a64a11",
+ "claims": "3/3 CITED",
+ "audit": {
+  "content_sha256": "6b7d9a2329bb3b8c1fb423f602ed1f4c1fe4e34c0a7e2f38558c55bb65155443",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p04: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v71]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v73]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v75]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "instrument-heap — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "lucid, from which mind and five mind-senses — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "maker-part is I-maker alone — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "two chief instruments — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "generable mind, endowed with all-subtle-birth power — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "speech-sense — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "foot-sense — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: action-endlessness does not bring sense-endlessness"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "eṣo 'sya ahaṃkārasya karaṇaskandhaḥ — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "tatra sāttviko yasmāt manaś ca buddhīndriyapañcakaṃ ca — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "manasi janye sarvatanmātrajanasaṃsāmarthyayuktaḥ sa janakaḥ — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "kartraṃśaś ca ahaṃkāra eva — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "tena mukhye karaṇe dve — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "antaḥ prāṇāśrayakarmānusaṃdhes tu vāgindriyam — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "pādendriyasyaiva karma iti mantavyam — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "karmānantyam api na indriyānantyam āvahet — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: instrument-heap"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: all-subtle-birth power"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "sense-endlessness — [tsa-a08-v79]"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "pass",
+    "detail": "every substantial paragraph is cited"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:50:06Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}

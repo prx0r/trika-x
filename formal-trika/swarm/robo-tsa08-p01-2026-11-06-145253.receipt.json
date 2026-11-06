@@ -1,0 +1,118 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/deepseek-ai/deepseek-v4.1-flash",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a08:tsa08-p01",
+ "prompt_sha256": "9137637b08c6ad16e420c576f7eeb9ffb9ffcc1fd6ad6884214c7261ac46ad05",
+ "claims": "3/3 CITED",
+ "audit": {
+  "content_sha256": "51d22a7a16992614288ac82fdcea097548b5d45cd5c783efc418eccf6ee62e81",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/deepseek-ai/deepseek-v4.1-flash",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p01: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v01]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v02]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "this world-born glory-natured, wombing endless varied enjoyer-enjoyed — [tsa-a08-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: great-light-formed,"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "like the great common, Supreme-Śiva-formed — [tsa-a08-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: what pervades only some differences: a category,"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "earth, pervading all world-eggs from Kālāgni to Vīrabhadra — [tsa-a08-v02]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "this world-born glory-natured, wombing endless varied enjoyer-enjoyed — [tsa-a08-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "great-light-formed — [tsa-a08-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "like the great common, Supreme-Śiva-formed — [tsa-a08-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "only some differences — [tsa-a08-v02]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "a category — [tsa-a08-v02]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "earth, pervading all world-eggs from Kālāgni to Vīrabhadra — [tsa-a08-v02]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "mahāsāmānyakalpa — [tsa-a08-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "paramaśivarūpam — [tsa-a08-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "great common — [tsa-a08-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "category — [tsa-a08-v02]"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "pass",
+    "detail": "every substantial paragraph is cited"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:52:53Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}

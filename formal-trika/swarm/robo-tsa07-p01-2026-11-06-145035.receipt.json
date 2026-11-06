@@ -1,0 +1,143 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a07:tsa07-p01",
+ "prompt_sha256": "5e2540eed122c1d61cc8eea42a9c694f2e528a904b9d94202251dce8d2c38c0b",
+ "claims": "2/2 CITED",
+ "audit": {
+  "content_sha256": "92868ff74e76bd7602a0e5f52a940b09208a0265fd12fc8e513859d361027839",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a07:tsa07-p01: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[mere] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a07-v01]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a07-v02]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a07-v03]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "place-path-illumination-power-born — [tsa-a07-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "all-filled-full-consciousness — [tsa-a07-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "thirty-six-tattva-knower — [tsa-a07-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "Supreme-Siva-formed — [tsa-a07-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "knowledge-endowed-with-prakriyā — [tsa-a07-v02]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: mere prakriyā"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "earth-tattva — [tsa-a07-v03]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "hundred-crore-extended, in-form-of-Brahma-cosmic-egg — [tsa-a07-v03]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "The whole — place-path-illumination-power-born — rested in consciousness — [tsa-a07-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "Melting path→body→prāṇa→mind→void, in that consciousness all-filled-full-conscio — [tsa-a07-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "thirty-six-tattva-knower, seeing beyond-it Supreme-Siva-formed — [tsa-a07-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "knowledge-endowed-with-prakriyā is not [mere] prakriyā — [tsa-a07-v02]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "earth-tattva, hundred-crore-extended, in-form-of-Brahma-cosmic-egg — [tsa-a07-v03]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "māyā-womb-qualified — [tsa-a07-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "Supreme-Siva-formed — [tsa-a07-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "Brahma-cosmic-egg — [tsa-a07-v03]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "thirty-six-tattva-knower — [tsa-a07-v01]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "world-made consciousness — [tsa-a07-v01]"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "pass",
+    "detail": "every substantial paragraph is cited"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:50:35Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}

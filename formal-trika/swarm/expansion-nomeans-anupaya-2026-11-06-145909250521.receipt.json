@@ -1,0 +1,311 @@
+{
+ "format": "expansion-receipt/3",
+ "essay": "expansion-nomeans-anupaya-2026-11-06-145909250521",
+ "date": "2026-11-06",
+ "owner_quotes": 8,
+ "banked_units": 3,
+ "theorems": [
+  "Ladder.lean :: chain_trans",
+  "Ladder.lean :: terminal_no_successor"
+ ],
+ "openpatala": {
+  "openpatala_work_id": null,
+  "mapping_status": "UNMAPPED",
+  "record_status": null,
+  "record_sha256": null,
+  "edition_label": null,
+  "note": "source record status NO-SOURCE-RECORD"
+ },
+ "frozen_claims": [
+  {
+   "id": "CLM-001",
+   "text": "yad etad bahudhā proktam āṇavaṃ śivatāptaye — this āṇava, taught manifoldly, aims at Śiva-hood: the lowest rung is already teleologically complete.",
+   "verse_id": "tal-a34-v01",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-002",
+   "text": "tatrāntar antarāviśya — entering into the intervals therein: the practice is penetration between (antar-antara) the manifold forms, not piling more on.",
+   "verse_id": "tal-a34-v01",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-003",
+   "text": "viśrāmyet savidhe pade — rest in the proximate station: the optative commands settling, and savidha carries both nearness and kindredness — the resting place is already of the goal's kind.",
+   "verse_id": "tal-a34-v01",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-004",
+   "text": "The āṇava rung: multiply taught, it works by entering the gaps between its own forms and resting in the near-kindred station — ascent by deepening, not by adding.",
+   "verse_id": "tal-a34-v01",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-005",
+   "text": "tato 'py āṇava-saṃtyāgāt śāktīṃ bhūmim upāśrayet — by abandoning even the āṇava: each rung is climbed by leaving it (api concedes even this lowest hold).",
+   "verse_id": "tal-a34-v02",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-006",
+   "text": "tato 'pi śāmbhavīm evam — then likewise the Śāmbhava: the same abandon-and-resort motion repeats upward.",
+   "verse_id": "tal-a34-v02",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-007",
+   "text": "tāratamya-kramāt sphuṭam — in graded sequence, distinctly: the rungs stay distinct (sphuṭam), no blurring of means.",
+   "verse_id": "tal-a34-v02",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-008",
+   "text": "The ladder law: resort by abandonment, rung by rung, each distinct — the mechanism that makes the final means-lessness (v3) a completion rather than a refusal.",
+   "verse_id": "tal-a34-v02",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-009",
+   "text": "kramodita-vibodha-mahāmarīci-saṃpūrita-prasara-bhairava-bhāva-bhāgī — partaking of the Bhairava-state whose expanse is filled with the great rays of sequentially-arisen awakening: the climbed ladder's fruit in one compound.",
+   "verse_id": "tal-a34-v03",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-010",
+   "text": "ante 'bhyupāya-nirapekṣatayā eva — in the end with utter independence from means: the anupāya moment (Tantrasara 1 caturvidham; TAL ch2 gatopāya).",
+   "verse_id": "tal-a34-v03",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-011",
+   "text": "nityaṃ svātmānam āviśati garbhitaviśvarūpam — enters forever one's own self, universe-wombed: the self entered already contains the all.",
+   "verse_id": "tal-a34-v03",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-012",
+   "text": "The crown: ladder-ripened awakening fills the Bhairava expanse, means fall away, and entry into one's own self is entry into the all-containing — liberation as recognition, not acquisition.",
+   "verse_id": "tal-a34-v03",
+   "tier": "R",
+   "kind": "inference"
+  }
+ ],
+ "coverage": {
+  "orphan_bullets": [],
+  "unused_claims": [
+   "CLM-001",
+   "CLM-002",
+   "CLM-003",
+   "CLM-004",
+   "CLM-005",
+   "CLM-006",
+   "CLM-007",
+   "CLM-008",
+   "CLM-009",
+   "CLM-010",
+   "CLM-011",
+   "CLM-012"
+  ]
+ },
+ "claims": "1/9 CITED + 0 verse-marked",
+ "audit": {
+  "content_sha256": "3669883b747042922792f1f69b8320eff0ac66efb556a1cb861efbf6386d4dd9",
+  "verifier": "essay-compile/loop",
+  "model": "compiler-v1",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantraloka-a34:tal-a34-p01: Work has no bundled Scholar projection"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-001] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-002] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-003] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-004] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-005] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-006] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-007] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-008] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-009] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-010] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-011] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-012] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tal-a34-v01]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tal-a34-v02]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tal-a34-v03]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: is for someone who is identified with Bhairava, by virtue of which he is full an"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: Try to understand this for yourself. Application to that which is full and perfe"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: one of the most specific features of the liberated Shambhava state... is that it"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: means and methods are not enough... I always stress that because I have a friend"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: One who is free of thought... The practitioner... should emulate him... This con"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: We're just channels. So, these are the teachings from the scriptures... Nothing "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: \n[sources_tantraloka.md 00:29:29,660 --> 00:29:40,839]\n[TL 2.39-40; Anupaya as c"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "4 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:59:09Z"
+ },
+ "l3": {
+  "essence_map": {
+   "para-0": [],
+   "para-1": [],
+   "para-2": [],
+   "para-3": [],
+   "para-4": [],
+   "para-5": [
+    "[CLM-001]",
+    "[CLM-002]",
+    "[CLM-003]",
+    "[CLM-004]",
+    "[CLM-005]",
+    "[CLM-006]",
+    "[CLM-007]",
+    "[CLM-008]",
+    "[CLM-009]",
+    "[CLM-010]",
+    "[CLM-011]",
+    "[CLM-012]"
+   ],
+   "para-6": [],
+   "para-7": [],
+   "para-8": []
+  },
+  "read_aloud": "owed (assessor reads draft aloud, logs defects here)",
+  "kill_register": [],
+  "untraced": []
+ },
+ "l4": {
+  "drafts": [
+   "p00",
+   "p01",
+   "p02",
+   "p03",
+   "p04",
+   "p05",
+   "p06",
+   "p07",
+   "p08"
+  ],
+  "drift_paras": [
+   {
+    "para": 7,
+    "overlap": 0.09
+   }
+  ],
+  "note": "drift = beautification without claims; rework or kill, never smooth"
+ },
+ "graph": {
+  "nodes": 100,
+  "edges": 134
+ },
+ "note": "compiled, not written: owner words verbatim; substance from frozen banked claims"
+}

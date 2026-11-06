@@ -1,0 +1,38 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a07:tsa07-p01",
+ "prompt_sha256": "5e2540eed122c1d61cc8eea42a9c694f2e528a904b9d94202251dce8d2c38c0b",
+ "claims": "0/2 CITED",
+ "audit": {
+  "content_sha256": "91484e5a603a70271d0e8c8f6a07584df9966bc06e931a70510bc1a7052e3f6e",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a07:tsa07-p01: Passage unavailable or withheld"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "no quoted spans to check"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "1 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:50:50Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}

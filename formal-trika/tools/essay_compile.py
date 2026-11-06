@@ -55,6 +55,47 @@ def validate_theorems(work, chunk, names, evidence_path=HERE / 'EVIDENCE.json'):
             raise ValueError(f'theorem is not registered for this chunk: {name}')
 
 
+def openpatala_block(tw: Path, work: str) -> dict:
+    """Openpatala identity for the essay's work (read-only, never raises).
+
+    Same shape as lingua source_ref / submission blocks: work_id, mapping,
+    record sha, edition label, explicit nulls on gaps. Lets every essay
+    answer how it relates to openpatala: by resolvable IDs, not prose.
+    """
+    null = {"openpatala_work_id": None, "mapping_status": "UNMAPPED",
+            "record_status": None, "record_sha256": None, "edition_label": None,
+            "note": ""}
+    try:
+        rec_p = tw / work / "source" / "record.json"
+        if not rec_p.is_file():
+            null["note"] = "no uniform source record"
+            return null
+        rec = json.loads(rec_p.read_text(encoding="utf-8"))
+        if not isinstance(rec, dict):
+            null["note"] = "source record unreadable"
+            return null
+        if rec.get("status") != "RECORDED":
+            null["note"] = f"source record status {rec.get('status')}"
+            return null
+        try:
+            entry = json.loads((tw / "source-maps" / "openpatala.json").read_text(
+                encoding="utf-8")).get("works", {}).get(work, {}) or {}
+        except (OSError, ValueError):
+            entry = {}
+        import hashlib as _hl
+        return {
+            "openpatala_work_id": entry.get("openpatala_work_id"),
+            "mapping_status": entry.get("mapping_status", "UNMAPPED"),
+            "record_status": "RECORDED",
+            "record_sha256": _hl.sha256(rec_p.read_bytes()).hexdigest(),
+            "edition_label": (rec.get("edition") or {}).get("label"),
+            "note": "resolved at compile time; re-resolve on review (records move)",
+        }
+    except OSError:
+        null["note"] = "source record unreadable"
+        return null
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--owner", type=Path, default=None,
@@ -136,25 +177,28 @@ def main() -> int:
              "",
              "## Owner voice (verbatim quotes, framing kept)",
              ""]
+    def quote_block(q):
+        return "\n".join("> " + ln for ln in q.splitlines())
     for q in quotes:
-        parts.append(f"> {q}")
+        parts.append(quote_block(q))
     if rquotes:
         parts.append("")
         parts.append(f"## Research voice (verbatim, from `{a.research.name}` — unaltered)")
         parts.append("")
         for q in rquotes[:8]:
-            parts.append(f"> {q}")
+            parts.append(quote_block(q))
     if cquotes:
         parts.append("")
         parts.append(f"## Corpus voice (verbatim idea-units, topic `{a.corpus_topic}` — unaltered)")
         parts.append("")
         for uid, grade, quote in cquotes[:10]:
-            parts.append(f"> {quote} [{uid} · grade {grade}]")
+            parts.append(quote_block(f"{quote} [{uid} · grade {grade}]"))
     for f in frames[:6]:
         parts.append(f"[{f}]")
     parts += ["", "## Banked claims (audit chain, tiered; every bullet links a frozen claim)", ""]
     for fc in frozen:
-        parts.append(f"- {fc['text']} [{fc['verse_id']}] (R) [{fc['id']}]")
+        one_line = " ".join(str(fc["text"]).split())
+        parts.append(f"- {one_line} [{fc['verse_id']}] (R) [{fc['id']}]")
     if a.theorems:
         parts += ["", "## Formal note", ""]
         for t in a.theorems:
@@ -169,7 +213,8 @@ def main() -> int:
     swarm = HERE / "swarm"
     swarm.mkdir(exist_ok=True)
     slug = f"expansion-{a.slug}-{day}-{stamp}"
-    (swarm / f"{slug}.md").write_text(draft + "\n")
+    # Draft file hits disk ONLY after all fail-closed gates pass (orphans,
+    # L3) — no gateless drafts, no receiptless graph rows.
     refs = [{"kind": "chunk", "work": a.work, "target": a.chunk}]
     table = claim_table.link(draft, refs=refs)
     markers = {}
@@ -198,30 +243,6 @@ def main() -> int:
         for b in orphan_bullets[:5]:
             print(f"  {b}")
         return 1
-    gpath = HERE / "data" / "expansion-graph.json"
-    graph = json.loads(gpath.read_text(encoding="utf-8")) if gpath.is_file() else {
-        "format": "trika-expansion-graph/1", "nodes": [], "edges": []}
-    enode = f"essay:{slug}"
-    graph["nodes"].append({"id": enode, "kind": "expansion-draft",
-                           "owner": str(a.owner), "chunk": marker_chunk,
-                           "date": day, "status": "MACHINE-COMPILED"})
-    for n in nodes:
-        vn = f"verse:{a.work}:{n.get('verse_id')}"
-        if not any(x["id"] == vn for x in graph["nodes"]):
-            graph["nodes"].append({"id": vn, "kind": "argmap-unit",
-                                   "question": n.get("question", "")})
-        graph["edges"].append({"from": enode, "to": vn, "rel": "grounds-on",
-                               "tier": "R"})
-    for t in a.theorems:
-        tn = f"theorem:{t}"
-        if not any(x["id"] == tn for x in graph["nodes"]):
-            graph["nodes"].append({"id": tn, "kind": "theorem-reference", "tier": "UNVERIFIED"})
-        else:
-            for node in graph['nodes']:
-                if node['id'] == tn:
-                    node.update(kind='theorem-reference', tier='UNVERIFIED')
-        graph["edges"].append({"from": enode, "to": tn, "rel": "cites-formal"})
-    gpath.write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n")
     l3, l4 = None, None
     if a.l3 or a.l4:
         paras = [p for p in re.split(r"\n\s*\n", draft) if p.strip()]
@@ -230,10 +251,11 @@ def main() -> int:
             sents = [s.strip() for s in re.split(r"(?<=[.!?])\s+", para) if s.strip()]
             emap = []
             in_quote = para.strip().startswith(">")
+            in_claim = "[CLM-" in para
             for s in sents:
                 ids = sorted(set(re.findall(r"\[CLM-\d+\]", s)))
                 quoted = in_quote or (s.startswith('"') or '"' in s[:120])
-                structural = s.startswith(("#", "-", "|"))
+                structural = in_claim or s.startswith(("#", "-", "|"))
                 if not ids and not quoted and not structural:
                     untraced.append({"para": i, "sentence": s[:120]})
                 emap.extend(ids)
@@ -269,9 +291,35 @@ def main() -> int:
             drafts.append(f"p{i:02d}")
         l4 = {"drafts": drafts, "drift_paras": drifts,
               "note": "drift = beautification without claims; rework or kill, never smooth"}
+    gpath = HERE / "data" / "expansion-graph.json"
+    graph = json.loads(gpath.read_text(encoding="utf-8")) if gpath.is_file() else {
+        "format": "trika-expansion-graph/1", "nodes": [], "edges": []}
+    enode = f"essay:{slug}"
+    graph["nodes"].append({"id": enode, "kind": "expansion-draft",
+                           "owner": str(a.owner), "chunk": marker_chunk,
+                           "date": day, "status": "MACHINE-COMPILED"})
+    for n in nodes:
+        vn = f"verse:{a.work}:{n.get('verse_id')}"
+        if not any(x["id"] == vn for x in graph["nodes"]):
+            graph["nodes"].append({"id": vn, "kind": "argmap-unit",
+                                   "question": n.get("question", "")})
+        graph["edges"].append({"from": enode, "to": vn, "rel": "grounds-on",
+                               "tier": "R"})
+    for t in a.theorems:
+        tn = f"theorem:{t}"
+        if not any(x["id"] == tn for x in graph["nodes"]):
+            graph["nodes"].append({"id": tn, "kind": "theorem-reference", "tier": "UNVERIFIED"})
+        else:
+            for node in graph['nodes']:
+                if node['id'] == tn:
+                    node.update(kind='theorem-reference', tier='UNVERIFIED')
+        graph["edges"].append({"from": enode, "to": tn, "rel": "cites-formal"})
+    gpath.write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n")
+    (swarm / f"{slug}.md").write_text(draft + "\n")
     report = {"format": "expansion-receipt/3", "essay": slug, "date": day,
               "owner_quotes": len(quotes), "banked_units": len(nodes),
               "theorems": a.theorems,
+              "openpatala": openpatala_block(Path("/root/translation-work"), a.work),
               "frozen_claims": frozen,
               "coverage": {"orphan_bullets": orphan_bullets, "unused_claims": unused},
               "claims": f"{cited}/{len(table['claims'])} CITED + {verse_marked} verse-marked",

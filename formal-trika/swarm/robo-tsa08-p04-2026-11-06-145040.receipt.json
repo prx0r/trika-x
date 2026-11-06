@@ -1,0 +1,48 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a08:tsa08-p04",
+ "prompt_sha256": "7df2bdfa3267db3e73e5da102e43cd622b4dbddc5814bed9337b64b535a64a11",
+ "claims": "1/2 CITED",
+ "audit": {
+  "content_sha256": "92aed1dcf4e8f0bc62638cd76d316f7eaff97c1e2cdf5c19a40d03fc4fed9458",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/mistralai/mistral-small-3.1-24b-instruct",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p04: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v71]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  (ahaṃkāra) as an instrumental heap in the context of human faculties. It identi"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "1 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:50:40Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}

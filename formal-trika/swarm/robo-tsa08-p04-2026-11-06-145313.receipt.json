@@ -1,0 +1,163 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a08:tsa08-p04",
+ "prompt_sha256": "7df2bdfa3267db3e73e5da102e43cd622b4dbddc5814bed9337b64b535a64a11",
+ "claims": "3/3 CITED",
+ "audit": {
+  "content_sha256": "7a848e8374c9699760c49193c0eb060223f8d01a6ab9ae04f5f9710719e55814",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p04: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v71]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v73]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v75]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "instrument-heap — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "the lucid, from which mind and five mind-senses — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "generable mind, endowed with all-subtle-birth power: it the begetter — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "maker-part is I-maker alone — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "two chief instruments — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "speech-sense — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "foot-sense — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "action-endlessness — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: sense-endlessness,"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "this is of it, of I-maker: instrument-heap — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "there the lucid, from which mind and five mind-senses — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "there in generable mind, endowed with all-subtle-birth power: it the begetter — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "maker-part is I-maker alone — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "by that two chief instruments — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "within, in breath-seat-action joining: speech-sense — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "that too is foot-sense's alone doing — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "by that action-endlessness too does not bring sense-endlessness — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "two chief instruments — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "generable mind — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  source in [tsa-a08-v73]? What is the role of "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  in [tsa-a08-v75]? How does "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  avoid implying "
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "pass",
+    "detail": "every substantial paragraph is cited"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:53:14Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}

@@ -1,0 +1,123 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/deepseek-ai/deepseek-v4.1-flash",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a08:tsa08-p04",
+ "prompt_sha256": "7e1f63d40d51ad96fc50cc6f3916e2ad668f800c8ac81f56ea4e004e38c04329",
+ "claims": "2/2 CITED",
+ "audit": {
+  "content_sha256": "d90e1652da1796d3fc8d514ac540da94199c85c47744a4bfadb5d79a0d525b5c",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/deepseek-ai/deepseek-v4.1-flash",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p04: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v71]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "instrument-heap — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "of I-maker — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: there the lucid, from which mind and five mind-senses,"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "generable mind, — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "endowed with all-subtle-birth power — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "the begetter — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "the lucid — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "generable mind — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "the begetter — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "karaṇaskandha — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "instrument-heap — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "of I-maker — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "there the lucid, from which mind and five mind-senses — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "generable mind, — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "endowed with all-subtle-birth power — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "the begetter — [tsa-a08-v73]"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "pass",
+    "detail": "every substantial paragraph is cited"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:52:12Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}

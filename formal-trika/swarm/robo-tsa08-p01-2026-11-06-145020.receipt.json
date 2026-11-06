@@ -1,0 +1,53 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a08:tsa08-p01",
+ "prompt_sha256": "332261397670e7bcfd552f4a683f6347167611fceb6239aa7ebfefab6d2a9425",
+ "claims": "2/3 CITED",
+ "audit": {
+  "content_sha256": "0d94bb0dede68ecdbcf268d1a2895107dd6106588b85507758b0beb859ea9a68",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p01: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v01]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v02]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v16]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "no quoted spans to check"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "1 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:50:20Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}

@@ -1089,3 +1089,18 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   inspect, never delete others' work.
 - Post-merge battery: control 36 PASS, recog 26/26, 52 tests, evidence
   139/137+2, axiom CLEAN, bridge 28/154, review 0/139, manifest current.
+
+## Essay batch run (T8/T9): 3 compiled + packets + openpatala wiring.
+
+- mala-full (8 units + count_3), prarabdha-karma (E09 + karma_loop_exists),
+  nomeans-anupaya (E13 + Ladder ×2) — all --l3 --l4 green, receipts v3.
+- Compiler fixes from testing: no gateless drafts/graph rows (fail-closed
+  order), quote-block prefixes, single-line bullets, paragraph claim
+  context, metadata/drift exemptions.
+- Matrix finding: CITED 0/2–3/3 across models (marker discipline varies);
+  determinism probe (qwen ×2): same hygiene, different prose — receipts
+  per-run, never cached. Beam path absent in roboscholar (gap recorded).
+- Scholar proof: mechanical integration green (tools run); content blocked
+  on bundle lag + verse-linker gap (both filed, unchanged).
+- Review packets: draft + claims + audit + openpatala + checklist per essay.
+- tal-a34 packet shows honest nulls (DOUBLE-GAP surfaced to reviewers).
