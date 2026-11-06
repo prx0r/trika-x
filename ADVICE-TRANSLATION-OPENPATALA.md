@@ -139,3 +139,8 @@ human disposes — same law both lanes.
 4. **55 RECORDED vs 24 mapped.** 31 works have hashed source bytes but no
    dossier — that list (our audit prints it; your records own it) is the
    dossier-acquisition frontier, distinct from translation staging.
+5. **Span breaks inside 4 chunks (2026-11-06, from our chunk-verse join).**
+   Volume spans are non-contiguous inside ledger ranges at ajad-p01,
+   ghat-p01, isva-p01, pary-p07. Either source-order gaps or span bugs —
+   worth one look when the volume pipeline reaches those works. Receipts:
+   our `bridge/chunk-verse-*.json` show the break points.

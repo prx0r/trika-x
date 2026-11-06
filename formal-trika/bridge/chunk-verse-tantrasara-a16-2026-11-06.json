@@ -1,0 +1,67 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-06",
+ "workdir": "tantrasara-a16",
+ "chunks": {
+  "tsa16-p01": {
+   "verses": "16.1-16.24",
+   "verse_spans": [
+    "tsa-a16-v01",
+    "tsa-a16-v02",
+    "tsa-a16-v03",
+    "tsa-a16-v04",
+    "tsa-a16-v05",
+    "tsa-a16-v06",
+    "tsa-a16-v07",
+    "tsa-a16-v08",
+    "tsa-a16-v09",
+    "tsa-a16-v10",
+    "tsa-a16-v11",
+    "tsa-a16-v12",
+    "tsa-a16-v13",
+    "tsa-a16-v14",
+    "tsa-a16-v15",
+    "tsa-a16-v16",
+    "tsa-a16-v17",
+    "tsa-a16-v18",
+    "tsa-a16-v19",
+    "tsa-a16-v20",
+    "tsa-a16-v21",
+    "tsa-a16-v22",
+    "tsa-a16-v23",
+    "tsa-a16-v24"
+   ],
+   "byte_start": 98093,
+   "byte_end": 101239,
+   "span_shas": [
+    "1c641ee4c300",
+    "7d9ee1f044e5",
+    "90899c6dc684",
+    "bd638c1015ec",
+    "07daecc0a8ff",
+    "a1b63078118f",
+    "8a7caa8defbb",
+    "bd56a190b2c4",
+    "cb0306c3f573",
+    "a6212540bfc9",
+    "1e8ec3cd343e",
+    "c41575ff0d0d",
+    "93735ed6a1e7",
+    "3284f774323d",
+    "32858774089c",
+    "08ed9d6f120d",
+    "7ba71efc90d7",
+    "d42e55a1a22f",
+    "2736be3f108f",
+    "6b56ab0b8d8c",
+    "4bd57f1d28ee",
+    "d8a16af49ed6",
+    "6eaab5d30f2f",
+    "c6b35708b1c4"
+   ]
+  }
+ },
+ "manifests": [
+  "tantrasara.json"
+ ]
+}

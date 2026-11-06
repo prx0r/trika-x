@@ -1,0 +1,129 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-06",
+ "workdir": "tantrasara-a04",
+ "chunks": {
+  "tsa04-p01": {
+   "verses": "4.1-4.17",
+   "verse_spans": [
+    "tsa-a04-v01",
+    "tsa-a04-v02",
+    "tsa-a04-v03",
+    "tsa-a04-v04",
+    "tsa-a04-v05",
+    "tsa-a04-v06",
+    "tsa-a04-v07",
+    "tsa-a04-v08",
+    "tsa-a04-v09",
+    "tsa-a04-v10",
+    "tsa-a04-v11",
+    "tsa-a04-v12",
+    "tsa-a04-v13",
+    "tsa-a04-v14",
+    "tsa-a04-v15",
+    "tsa-a04-v16",
+    "tsa-a04-v17"
+   ],
+   "byte_start": 11730,
+   "byte_end": 14792,
+   "span_shas": [
+    "6ee146d66873",
+    "4535757c8606",
+    "b3a1394cdbfc",
+    "10e5508cd2c1",
+    "3dc5b4fb6861",
+    "d3592ba34606",
+    "0266c97a26b0",
+    "e179aa32a736",
+    "4e33775a098a",
+    "3f34ea71a60e",
+    "55f1a313fb1a",
+    "730675f36a98",
+    "06e81e3675aa",
+    "baa0fe90ab46",
+    "2c371749bd5d",
+    "1dc7160c8001",
+    "34044f830d0f"
+   ]
+  },
+  "tsa04-p02": {
+   "verses": "4.18-4.33",
+   "verse_spans": [
+    "tsa-a04-v18",
+    "tsa-a04-v19",
+    "tsa-a04-v20",
+    "tsa-a04-v21",
+    "tsa-a04-v22",
+    "tsa-a04-v23",
+    "tsa-a04-v24",
+    "tsa-a04-v25",
+    "tsa-a04-v26",
+    "tsa-a04-v27",
+    "tsa-a04-v28",
+    "tsa-a04-v29",
+    "tsa-a04-v30",
+    "tsa-a04-v31",
+    "tsa-a04-v32",
+    "tsa-a04-v33"
+   ],
+   "byte_start": 14792,
+   "byte_end": 17917,
+   "span_shas": [
+    "6eaf87bc9896",
+    "d2efa8259d31",
+    "8500fb4c962a",
+    "fb11eb974311",
+    "bb5a206b0ad0",
+    "a9b45683a66e",
+    "e4e560a77f29",
+    "68745305fcd2",
+    "02c233fa2591",
+    "f205fb94b09a",
+    "5722dec66018",
+    "ce67265626d2",
+    "b0e5a8cefab3",
+    "9967ad0588f3",
+    "7df9f5a4806e",
+    "4c6d3bd075bc"
+   ]
+  },
+  "tsa04-p03": {
+   "verses": "4.34-4.46",
+   "verse_spans": [
+    "tsa-a04-v34",
+    "tsa-a04-v35",
+    "tsa-a04-v36",
+    "tsa-a04-v37",
+    "tsa-a04-v38",
+    "tsa-a04-v39",
+    "tsa-a04-v40",
+    "tsa-a04-v41",
+    "tsa-a04-v42",
+    "tsa-a04-v43",
+    "tsa-a04-v44",
+    "tsa-a04-v45",
+    "tsa-a04-v46"
+   ],
+   "byte_start": 17917,
+   "byte_end": 21221,
+   "span_shas": [
+    "7754ed9eca27",
+    "e3865498e560",
+    "799354084afb",
+    "d405b00b51f6",
+    "0ec281277ebd",
+    "2241628a1133",
+    "720c08ffa80c",
+    "e2fce601ccf8",
+    "a4250c9bec2a",
+    "095519d01449",
+    "abbca1df3391",
+    "6618c0cbb1e7",
+    "8bafb4577fb0"
+   ]
+  }
+ },
+ "manifests": [
+  "tantrasara.json"
+ ]
+}

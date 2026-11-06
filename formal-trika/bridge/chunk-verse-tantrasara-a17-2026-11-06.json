@@ -1,0 +1,31 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-06",
+ "workdir": "tantrasara-a17",
+ "chunks": {
+  "tsa17-p01": {
+   "verses": "17.1-17.6",
+   "verse_spans": [
+    "tsa-a17-v01",
+    "tsa-a17-v02",
+    "tsa-a17-v03",
+    "tsa-a17-v04",
+    "tsa-a17-v05",
+    "tsa-a17-v06"
+   ],
+   "byte_start": 101274,
+   "byte_end": 102417,
+   "span_shas": [
+    "cbfa65a35b35",
+    "d6c8d1e31dda",
+    "e6d53458ac30",
+    "b1d3a7bf7b40",
+    "3c2d92188202",
+    "f3dc9f37be4e"
+   ]
+  }
+ },
+ "manifests": [
+  "tantrasara.json"
+ ]
+}

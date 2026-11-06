@@ -720,3 +720,16 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   only via swarm-calibration or explicit owner call.
 - Snapshot now pins their MANIFEST rev + timestamp beside git rev
   (build_passage_snapshot; bridge check green).
+
+## Masterplan batch M1-M6 (done / blocked, all recorded).
+
+- M1 FAILURE-LOG.md (F1-F6 seeded, numbered, body counts).
+- M2 arrivals ritual canonized in OPERATIONS §8.
+- M3 prereg template (traps mandatory) filed.
+- M4 chain-gap 23/87 CLOSED via chunk_verse.py + receipts; CHAIN-GAP addendum;
+  4 span-breaks flagged to their lane (ADVICE §6.5).
+- M5 calibration: thresholds live in their gate code → written thresholds/2
+  proposal (CALIBRATION-PROPOSAL-2.md), no code touched.
+- M6 Mutate remainder BLOCKED: 3.2G free (96%) vs ~2.9G transient need —
+  unsafe margin; recheck after next disk review. Cron script moved into
+  trika-x/tools (M13 ready; enabling = owner call).

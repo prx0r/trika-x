@@ -114,3 +114,11 @@ timings, diksha emits zero steps — asserted) → THEIR compile_syllabus.py
 - top-level mystic stubs vs mystics/* bytes live apart (record vs bytes).
 - Pratyahara maxRecDepth bump (documented, still decide).
 - Blind vocab lacks transition indices (VOCAB-GAP recorded).
+
+## 8. Arrivals ritual (session-start canon — the swarm outruns sessions)
+
+1. `python3 formal-trika/tools/arrivals.py` — HEAD vs snapshot/nodes pins.
+2. If DRIFT: `--rebuild` (nodes/queue/treeka), then re-pin snapshot ONLY via
+   `build_passage_snapshot.py` after any EVIDENCE edits (trinity lockstep).
+3. Canonical checkout is master before pins (F4: branch reads lie).
+4. Other lanes' trees are read-only + never rebased through dirty work.
