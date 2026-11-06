@@ -1,0 +1,268 @@
+{
+  "format": "trika-passage-snapshot/1",
+  "repository": "https://github.com/prx0r/translation-work",
+  "revision": "e05e640e192a2ea5a317ba76b0f802f4f54e98cc",
+  "works": {
+    "param": {
+      "ledger": "paramarthasara/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:param:71e8bd7044ba",
+          "locator": "param-p01",
+          "verses": "2-10"
+        },
+        {
+          "immutable_id": "pt:pid:param:054a826a5add",
+          "locator": "param-p02",
+          "verses": "11-19"
+        },
+        {
+          "immutable_id": "pt:pid:param:201746e56eb4",
+          "locator": "param-p03",
+          "verses": "20-28"
+        },
+        {
+          "immutable_id": "pt:pid:param:1f4381f92b63",
+          "locator": "param-p04",
+          "verses": "29-37"
+        },
+        {
+          "immutable_id": "pt:pid:param:3c9bb511a978",
+          "locator": "param-p05",
+          "verses": "38-46"
+        },
+        {
+          "immutable_id": "pt:pid:param:89b7391efaaf",
+          "locator": "param-p06",
+          "verses": "47-55"
+        },
+        {
+          "immutable_id": "pt:pid:param:790b852f26f0",
+          "locator": "param-p07",
+          "verses": "56-64"
+        },
+        {
+          "immutable_id": "pt:pid:param:1e1061b168f1",
+          "locator": "param-p08",
+          "verses": "65-73"
+        },
+        {
+          "immutable_id": "pt:pid:param:56f8548cd286",
+          "locator": "param-p09",
+          "verses": "74-82"
+        },
+        {
+          "immutable_id": "pt:pid:param:7c6e4f30a9d4",
+          "locator": "param-p10",
+          "verses": "83-91"
+        },
+        {
+          "immutable_id": "pt:pid:param:2c57c743c037",
+          "locator": "param-p11",
+          "verses": "92-100"
+        },
+        {
+          "immutable_id": "pt:pid:param:04bec613d73b",
+          "locator": "param-p12",
+          "verses": "101-105"
+        }
+      ],
+      "sha256": "81e47240c0dfaa2ee397e528e5bba51823e80a8e325a4d28963491a1a0df29ad"
+    },
+    "phr": {
+      "ledger": "phrdaya/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:phrdaya:001",
+          "locator": "phr-p01",
+          "verses": "1-4"
+        },
+        {
+          "immutable_id": "pt:pid:phrdaya:002",
+          "locator": "phr-p02",
+          "verses": "5-8"
+        },
+        {
+          "immutable_id": "pt:pid:phrdaya:003",
+          "locator": "phr-p03",
+          "verses": "9-12"
+        },
+        {
+          "immutable_id": "pt:pid:phrdaya:004",
+          "locator": "phr-p04",
+          "verses": "13-16"
+        },
+        {
+          "immutable_id": "pt:pid:phrdaya:005",
+          "locator": "phr-p05",
+          "verses": "17-20"
+        }
+      ],
+      "sha256": "1dc014a0fe2d8aec912fcb9e80367ce1d1986af211200fe6b09602a690d66c13"
+    },
+    "spanda": {
+      "ledger": "spanda/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:span:152f7b778685",
+          "locator": "span-p01",
+          "verses": "2-10"
+        },
+        {
+          "immutable_id": "pt:pid:span:9bede116774f",
+          "locator": "span-p02",
+          "verses": "11-19"
+        },
+        {
+          "immutable_id": "pt:pid:span:3a4fa091e79e",
+          "locator": "span-p03",
+          "verses": "20-3"
+        },
+        {
+          "immutable_id": "pt:pid:span:d8ddae2daa0e",
+          "locator": "span-p04",
+          "verses": "4-6"
+        },
+        {
+          "immutable_id": "pt:pid:span:6060f641d1db",
+          "locator": "span-p05",
+          "verses": "7-15"
+        },
+        {
+          "immutable_id": "pt:pid:span:d5c0c9f34e03",
+          "locator": "span-p06",
+          "verses": "16-2"
+        }
+      ],
+      "sha256": "932c5554f31d78a94f225b5df8c26b57c695409f183203ae0caad6f3e5ee3efe"
+    },
+    "tsa07": {
+      "ledger": "tantrasara-a07/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a07:5452ed74b7a9",
+          "locator": "tsa07-p01",
+          "verses": "7.1-7.28"
+        }
+      ],
+      "sha256": "97431b87befaed9d2916fd1ce007719359765069cca858d705f42f9b06590cf5"
+    },
+    "tsa08": {
+      "ledger": "tantrasara-a08/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a08:5baba4be51e6",
+          "locator": "tsa08-p01",
+          "verses": "8.1-8.17"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a08:11747ca0f435",
+          "locator": "tsa08-p02",
+          "verses": "8.18-8.38"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a08:7f9e4b3307f2",
+          "locator": "tsa08-p03",
+          "verses": "8.39-8.64"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a08:b934ea526829",
+          "locator": "tsa08-p04",
+          "verses": "8.65-8.93"
+        }
+      ],
+      "sha256": "ee765be8bdc54d2461819088e1d5e845a24ebc96289b86936c7453ac0d22ac52"
+    },
+    "vbt": {
+      "ledger": "vbt/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:vbt:c1a27b8d2ddb",
+          "locator": "vbt-p01",
+          "verses": "2-11"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:23b67c93ed56",
+          "locator": "vbt-p02",
+          "verses": "12-21"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:2d955a3d5845",
+          "locator": "vbt-p03",
+          "verses": "22-31"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:7c783d3e48dc",
+          "locator": "vbt-p04",
+          "verses": "32-41"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:31ad8d3cd9d3",
+          "locator": "vbt-p05",
+          "verses": "42-51"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:b85914732e12",
+          "locator": "vbt-p06",
+          "verses": "52-61"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:dbf690f211b4",
+          "locator": "vbt-p07",
+          "verses": "62-71"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:98d72db52671",
+          "locator": "vbt-p08",
+          "verses": "72-81"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:8e3c2a0ed6fa",
+          "locator": "vbt-p09",
+          "verses": "82-91"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:1e539379aeb2",
+          "locator": "vbt-p10",
+          "verses": "92-101"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:02b323d3ea30",
+          "locator": "vbt-p11",
+          "verses": "102-111"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:9fbc5bad3919",
+          "locator": "vbt-p12",
+          "verses": "112-121"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:5ecec2b3360a",
+          "locator": "vbt-p13",
+          "verses": "122-131"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:39e60a84999a",
+          "locator": "vbt-p14",
+          "verses": "132-141"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:1c84524da827",
+          "locator": "vbt-p15",
+          "verses": "142-151"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:51a836d05f57",
+          "locator": "vbt-p16",
+          "verses": "152-161"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:03d28b3a60bc",
+          "locator": "vbt-p17",
+          "verses": "162-162"
+        }
+      ],
+      "sha256": "8cc995174d807c533f004bf768a126cb8ac6d4909bab2b064daea77bafe08f61"
+    }
+  }
+}

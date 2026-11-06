@@ -14,6 +14,24 @@ sh formal-trika/recognition/run.sh
 python3 formal-trika/tools/emit_keys.py > /tmp/trika-inventory.json
 ```
 
+The source/evidence reports also require a clean checkout of translation-work
+at the revision in `bridge/passages.snapshot.json` (use `TRANSLATION_WORK` or
+pass its path explicitly):
+
+```sh
+python3 formal-trika/tools/bridge_resolve.py --check --tw ../translation-work
+python3 formal-trika/tools/evidence_check.py --root ../translation-work
+python3 formal-trika/tools/treeka_formal.py --tw ../translation-work
+```
+
+These commands reject missing or changed ledgers rather than reporting empty
+coverage. Treeka additionally requires that the source work directories are
+clean and at the pinned Git revision. CI checks out that revision and runs
+the same reports. Direct references in `EVIDENCE.json` are curated links,
+not proof that a Sanskrit passage entails the associated theorem; work-level
+references do not count as passage coverage. See [the bridge guide](bridge/README.md)
+for regenerating the snapshot and the unresolved witness boundary.
+
 The runners fail if Lean is unavailable or not 4.34.1. They compile positive
 files with warnings treated as errors and require each hand-written mutant to
 fail specifically because the named, unchanged `by decide` proposition is

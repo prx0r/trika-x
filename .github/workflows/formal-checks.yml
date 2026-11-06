@@ -14,6 +14,19 @@ jobs:
     timeout-minutes: 20
     steps:
       - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - name: Check out pinned source ledgers
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: prx0r/translation-work
+          ref: e05e640e192a2ea5a317ba76b0f802f4f54e98cc
+          path: translation-work
+          sparse-checkout: |
+            tantrasara-a08
+            tantrasara-a07
+            paramarthasara
+            phrdaya
+            vbt
+            spanda
       - name: Install pinned Lean release
         run: |
           curl -fsSL --retry 3 -o "$RUNNER_TEMP/lean.tar.zst" \
@@ -33,5 +46,8 @@ jobs:
           sh formal-trika/recognition/run.sh
       - name: Co-occurrence pilot (vendored decodes)
         run: python3 formal-trika/tools/tc1_cooccurrence.py
-      - name: Openpatala bridge map check (self-contained)
-        run: python3 formal-trika/tools/bridge_resolve.py --check
+      - name: Source bridge, evidence coverage and Treeka gap report
+        run: |
+          python3 formal-trika/tools/bridge_resolve.py --check --tw translation-work
+          python3 formal-trika/tools/evidence_check.py --root translation-work
+          python3 formal-trika/tools/treeka_formal.py --tw translation-work

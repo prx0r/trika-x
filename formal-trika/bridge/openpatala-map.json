@@ -1,5 +1,5 @@
 {
- "provenance": "Master-sequence step 1 (openpatala-ize), read-only. Our side: translation-work SOURCE.sha + passages.jsonl immutable_ids (pt:pid:<work>:NNN) + source_edition. Their side: openpatala work keys (translation-availability.json, 260 works, VERIFIED present) + gold dossier work_ids. Witness-level openpatala IDs: UNPINNED (their CLI/API not runnable from here; no writes made). Re-verify: python3 tools/bridge_resolve.py --check",
+ "provenance": "Candidate work-level links only. Passage IDs and ledger SHA-256 values are recorded separately in passages.snapshot.json. Neither a work label nor a matching ledger proves an edition or manuscript witness. Witnesses remain UNPINNED until independently verified.",
  "works": {
   "tsa08": {
    "ours": "translation-work/tantrasara-a08",
@@ -8,7 +8,7 @@
    "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
    "source_sha": "translation-work/tantrasara-a08/SOURCE.sha",
    "witness": "UNPINNED",
-   "status": "MAPPED-EDITION"
+   "status": "CANDIDATE-EDITION"
   },
   "tsa07": {
    "ours": "translation-work/tantrasara-a07",
@@ -17,16 +17,16 @@
    "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
    "source_sha": "translation-work/tantrasara-a07/SOURCE.sha (VERIFIED present)",
    "witness": "UNPINNED",
-   "status": "MAPPED-EDITION"
+   "status": "CANDIDATE-EDITION"
   },
   "param": {
    "ours": "translation-work/paramarthasara",
    "openpatala_work_key": "paramarthasara",
-   "openpatala_work_id": "PTCND_sa_abhinavagupta-paramArthasAra (VERIFIED via dossier title)",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-paramArthasAra",
    "edition": "GRETIL KSTS 7 (Abhinavagupta Paramarthasara)",
    "source_sha": "translation-work/paramarthasara/source/record.json + volumes/ (layout differs from tsa; VERIFIED present)",
    "witness": "UNPINNED",
-   "status": "MAPPED-EDITION"
+   "status": "CANDIDATE-EDITION"
   },
   "phr": {
    "ours": "translation-work/phrdaya",
@@ -35,7 +35,7 @@
    "edition": "GRETIL",
    "source_sha": "translation-work/phrdaya/source/record.json + volumes/ (VERIFIED present)",
    "witness": "UNPINNED",
-   "status": "MAPPED-WORK-ONLY"
+   "status": "CANDIDATE-WORK"
   },
   "vbt": {
    "ours": "translation-work/vbt",
@@ -44,7 +44,7 @@
    "edition": "GRETIL (Vijnanabhairava)",
    "source_sha": "translation-work/vbt/source/{edition,manifest,record,segments}.json + ... (VERIFIED present)",
    "witness": "UNPINNED",
-   "status": "MAPPED-WORK-ONLY"
+   "status": "CANDIDATE-WORK"
   },
   "spanda": {
    "ours": "translation-work/spanda",
@@ -53,8 +53,8 @@
    "edition": "GRETIL (Vasugupta Spandakarika)",
    "source_sha": "translation-work/spanda/source/{edition,manifest,record,segments}.json + ... (VERIFIED present)",
    "witness": "UNPINNED",
-   "status": "MAPPED-WORK-ONLY"
+   "status": "CANDIDATE-WORK"
   }
  },
- "note": "Chunk locators (tsa08-p03 etc.) inherit their work's mapping; passage immutable_ids (pt:pid:*) are the stable selectors. Resolving chunk:WORK-LOCATOR returns this record; resolving to a witness ID awaits their running resolver."
+ "note": "The resolver verifies exact passage-locator membership in the pinned snapshot; --tw additionally checks ledger bytes. Work and edition links remain candidates; witness identity is UNPINNED."
 }
