@@ -270,3 +270,39 @@
   Executable order flips: KMT-17 → ṢaṭSS → KuRatnUdd-on-acquisition.
   FRONTIER-READINESS.md + data/five-maps.json (G3) + G4 inventory
   (Jayaratha quote beyond local TĀ range — needs TĀV edition).
+
+## N1 — MV control fetched; TĀ↔MV variants confirmed (second key preview).
+
+- MIRI M00160 (CC BY-NC) MV ch.3 vv36-41 extracted (key stanza 36
+  bhinna-yoni verbatim + full nādiphānta NA→PHA, feet at da+pha).
+  malini_order.json sequence IS MV order (na first, pha last ✓).
+- 5 readings vary vs GRETIL-TĀ (nāsā/ghrāṇaṃ, dha/cordhve, ḷḹ/ḷḷ,
+  maśaṃtāḥ/maśāntā, e-aikārau/eaikārau); skeleton (descent order +
+  termini) identical. Order-level agreement CONFIRMED (supports
+  āvaraṇa-style order checks); readings diverge (apparatus-grade).
+  Extract: data/mv3-malini-vv36-41.json (short passage, license noted).
+- Method note: raw token scans CANNOT verify sandhied verse (11/50
+  tokens); anchors + parsed structures (body map, malini_order) carry
+  the check. Heritage-segmenter cross-check still open (SOTA backlog).
+
+## Nibbanahelp catch-up (N1–N7 + synergies S1–S7).
+
+- Another agent did today's mega-session here (hardening/time/privacy/
+  teacher-stage0 PR #1) — read PROCESS-NOTES + HANDOVER + AGENTS first;
+  strict read-only discipline on their dirs (log S7).
+- N1: malini_order (50, na→pha) vs MV 3.36-41 (MIRI M00160 fetched live):
+  ORDER CONFIRMED + 5 reading variants vs GRETIL-TĀ (nāsā/ghrāṇaṃ,
+  dha/cordhve, ḷḹ/ḷḷ, maśaṃtāḥ/maśāntā, e-aikārau/eaikārau); skeleton
+  (descent + termini) identical. Extract data/mv3-malini-vv36-41.json
+  (CC BY-NC). Token scans can't verify sandhied verse (method note).
+- N2: three-nyāsa character (Mātṛkā-alpha-fem / Mālinī-mixed-fem /
+  śabdarāśi-male-Assembly, TĀ 15/115cd-145) into PHONEMIC-BODY-SPEC.
+- N3: tensions_export.py (public headers only, 3 open) + test (no body
+  text crosses — VOICE RULE enforced in test).
+- N4/N5: day-gate halves + R2 env mapping noted (no code).
+- N6: teacher-stage0 reviewed — corrections journal is the future
+  consumer for T-C2/station/ti-ca (owner signal); contradictory-refused
+  matches must_fail spirit. Teacher-endgame cites our pilots; convergence
+  recorded (their assessor reads our models, not vice versa).
+- N7: owner-gated builds respected (ledger/trajectory/jev/vis-mode).
+- Suite 31/31. SYNERGIES-NIBBANA.md canonical for joins.

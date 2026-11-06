@@ -88,5 +88,21 @@ class GraphTests(unittest.TestCase):
         self.assertEqual(d.main(), 0)
 
 
+    def test_tensions_export_public_only(self):
+        import subprocess
+        import sys as _sys
+        r = subprocess.run([_sys.executable, str(ROOT / "tools" / "tensions_export.py")],
+                           text=True, capture_output=True)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        import json as _json
+        rows = [_json.loads(l) for l in
+                (ROOT / "data" / "tensions-export.jsonl").read_text().splitlines() if l.strip()]
+        self.assertTrue(rows)
+        for c in rows:
+            self.assertEqual(c["kind"], "lived-tension")
+            self.assertIn("status", c)
+            self.assertNotIn("body", c)  # VOICE RULE: no body text crosses
+
+
 if __name__ == "__main__":
     unittest.main()
