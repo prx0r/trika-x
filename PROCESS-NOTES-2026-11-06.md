@@ -1075,3 +1075,17 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - Discipline change: roboscholar drafts demoted to exploratory — canonical
   path is compile+L3+L4 (never write a paragraph, only justified edits).
 - Endgame essay = structured data + audits + 2-3 sharpening rounds. Done.
+
+## PR #5 MERGED (lead review landed; full battery green after).
+
+- Lead's 7 findings adopted: Embed source repointed (7.9≠matrix claim),
+  compiler hardened (registry-bound theorems, humbler labels), review-status
+  strict (Core disabled pending authenticated decisions), CI pins 28 works,
+  nightly exit codes honest, roboscholar provenance limits stated,
+  AGREE-WORK→POSSIBLE-MATCH + hash rechecks.
+- Rulings recorded: tiers = claims needing evidence; mutants need second
+  reviewer; cut_arith stays model-only + member-correspondence owed;
+  registry≠snapshot; theorem refs need repo/commit/file/decl IDs; disk:
+  inspect, never delete others' work.
+- Post-merge battery: control 36 PASS, recog 26/26, 52 tests, evidence
+  139/137+2, axiom CLEAN, bridge 28/154, review 0/139, manifest current.
