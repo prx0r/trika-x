@@ -1197,3 +1197,10 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   COMPILED (machine outputs) / REVIEWED (verdict material) / PUBLISHED
   (released) / RENDER (media) / CORPUS (bulk aggregates). Old kind kept
   as origin flavor. 538 seeds indexed.
+
+## Twin-attack pilot green (P-PRA1 on imported claim-01).
+
+- Imported claim → R-tier model → surgical twin → verdict. Protocol
+  proven end to end; next targets: claim-02 (I-ness), claim-03 (rasa).
+- Inheritance rule exercised: their T → my R (verse/translation
+  unverified by me). F11 logged (silent-replace caught by PASS count).

@@ -422,3 +422,6 @@ Exactly one four-vertex uniform solid: the minimum system.
 
 ## Tetrahedron.lean :: euler_tet
 Four less six plus four is two: the inventory balances.
+
+## Prakasa.lean :: all_appear
+Everything in the account appears: manifestation first, no exceptions.

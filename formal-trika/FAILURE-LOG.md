@@ -44,3 +44,8 @@ failures append with the next number — never edit a closed entry.
   parsed individually every time). Rule: simplest possible insert (find
   line, append comma, splice validated lines) — no transforms on the way
   in; F9 validate-before-write held the file safe throughout.
+- **F11 (2026-11-06): silent string replacement.** A python edit printed
+  success without matching (no assert) — harness lines for the new rung
+  never landed; caught only by PASS-count audit (36, not 37). Rule: every
+  programmatic edit asserts its match count, and every harness change is
+  verified by count, not by exit code alone.

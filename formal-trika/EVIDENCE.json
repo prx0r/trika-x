@@ -166,7 +166,8 @@
     "Tetrahedron.lean :: euler_tet": {"kind": "MODEL", "chunks": [], "r_sources": ["rescue-volume tetrahedron-as-selector-proof + tantraloka-tetrahedron notes (H-tier owner line)"], "lived": [], "note": "H-tier: inventory Euler check (model only)"},
     "Nanavira.lean :: matchings_three": {"kind": "MODEL", "chunks": [], "r_sources": ["research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"], "lived": [], "note": "R: K4 pairings generated"},
     "Nanavira.lean :: orders_scale": {"kind": "MODEL", "chunks": [], "r_sources": ["research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"], "lived": [], "note": "R: orders computed vs stated"},
-    "Nanavira.lean :: parasite_erase": {"kind": "MODEL", "chunks": [], "r_sources": ["research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"], "lived": [], "note": "R: erasure structural half"}
+    "Nanavira.lean :: parasite_erase": {"kind": "MODEL", "chunks": [], "r_sources": ["research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"], "lived": [], "note": "R: erasure structural half"},
+    "Prakasa.lean :: all_appear": {"kind": "MODEL", "chunks": [], "r_sources": ["imports/ochema2/maps/terms/claim-01-prakasa.md (STATUS T textual, TA 1.54 via Dyczkowski; inherited as R)"], "lived": [], "note": "twin-attack pilot: roster check only; metaphysics untouched"}
   },
   "exemptions": {
     "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",

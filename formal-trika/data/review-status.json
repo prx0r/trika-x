@@ -834,6 +834,12 @@
    "reviewer": null,
    "reason": "machine-proposed, unreviewed",
    "date": null
+  },
+  "Prakasa.lean :: all_appear": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
   }
  }
 }

@@ -695,6 +695,21 @@ pre-run (Euler in Int); twin-statement rule forced def-based twins.
 
 ---
 
+## 2026-11-06 — Rung 17: manifestation priority (P-PRA1, twin-attack pilot)
+
+Prereg: PREREGISTRATION-PRAKASA-RUNG.md (R via ochema claim-01, TĀ 1.54
+Dyczkowski; inheritance downgrades one tier, stated). First imported
+claim attacked: what single change breaks it?
+
+- **`Prakasa.lean`** — roster flags, `all_appear` (every item appears).
+  Zero-axiom. Model-only shape (roster stipulated; the check is the
+  sensitivity instrument, not a finding).
+- **BrokenPraHidden** (hidden item → refuses). Green.
+- EVIDENCE 138 (R, claim-file grounds). Twin-attack protocol proven:
+  import claim → formalize checkable facet → surgical twin → verdict.
+
+---
+
 ## What "done" would look like (honest checklist)
 - [ ] Every unarmed chunk with an argmap formalized or explicitly parked
 - [ ] Witnesses pinned (needs openpatala resolver)
