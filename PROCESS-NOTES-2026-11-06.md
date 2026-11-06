@@ -941,3 +941,18 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   stays scholar-channel (packet B9). M00547-51 liturgy local, tantra absent.
 - P19 freshness: patalacheckpoints tip Oct 7 (month dormant); Aug docs vs
   Nov lanes covered by Nov-5 review + my PATALA-COVERAGE.
+
+## One-system merge (D1-D10 closed): box DB wins, seeds fed.
+
+- D1 census: patala_atlas DB unprovisioned anywhere (code targets :5433,
+  no instance); box openpatala (34 tables, 544 works) is the only live store.
+- D2 verdict: box wins by completeness; migration = seed feeds (this turn).
+- D5/D6 applied: 12 people + 16 translations + 14 editions (atlas audited,
+  idempotent, provenance rev-pinned); 4 discovery_leads (NGMPP A209/23,
+  KMT file, TAL M92/93 split, OCHS/NGMPP catalogues).
+- D3/D4: MASTER-PLAN track H + order bullet; NEXT-STEPS 1.7/1.8.
+- D7 visions: V06/V07/V08 already held (noted, no new build); essayguide
+  backlog (thesis selection + argument graph) queued for essay track.
+- D8 TantraFact export: deferred by design (spec dormant; claim tables
+  already satisfy the shape; export on activation).
+- D9 file index filed (PATALA-COVERAGE).

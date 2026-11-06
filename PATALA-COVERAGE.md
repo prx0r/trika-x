@@ -39,3 +39,21 @@ Aliases need lane agreement — proposed, not implemented.
 - KMT file: 7 misses; scholar channel stands. Frontier targets align
   (Oct session note matches FRONTIER-READINESS).
 - Patalacheckpoints tip Oct 7 — dormant; live lanes carry the work.
+
+## File index (what matters, where it lives)
+
+- Bibliography: `patalacheckpoints/data/atlas/audited.ts` (depth) +
+  `atlas-bibliography.json` (index) → fed to box DB by
+  `trika-x/formal-trika/tools/seed_atlas_biblio.py`.
+- Scholar specs: `patalacheckpoints/source-evidence/docs/` (schema stack,
+  TantraFact shape, reconciliation) → referenced by BACKBONE + lingua.
+- Queues: `patalacheckpoints/data/atlas/sivaqueue*Seed.ts` (Siddhanta
+  targets, no overlap) vs `trika-x` treeka/crux (argument gaps).
+- Ingestion engine: `patalacheckpoints/ingestion/` (adapters + asserter +
+  R2 snapshots, targets `patala_atlas` DB — unprovisioned here).
+- Frontier notes: `patalacheckpoints/handover/sessions/2026-10-07-*` +
+  sanskrithelp `docs/TRANSLATION_FRONTIER.md` (canonical packet).
+- M-files: R2 `source/ingestion/MUKTABODHA/` → `trika-x` M-index
+  (499 files) → translation-work volumes (their mechanics).
+- Visions: `patalacheckpoints/docs/vision/` (V06 review == PUSHBACK,
+  V07 essay loop, V08 warning honored) + Nov-5 live-stack review.

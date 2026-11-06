@@ -15,6 +15,8 @@ who/what blocks it. Prereg-before-code and tiers apply to all formal work.
 | 1.4 | EVIDENCE/TABLE/run.sh discipline tests | CI fails on missing entry/reading/harness line | meta-tests: every theorem has all three (evidence_check does 1/3 today) |
 | 1.5 | R2 DB backup routine | schema dump (migrations bundle) + seed JSON hashes logged monthly | PG18 dump unreadable on PG15 — bundle migrations+seeds instead (recipe exists) |
 | 1.6 | Rotate pasted tokens (R2 + confirm Go) | new tokens, old revoked | both pasted in chat; /root/.env updated after |
+| 1.7 | Atlas-seed routine (rerun seed_atlas_biblio on atlas rev change) | people/translations/editions current with seeds | check patalacheckpoints rev monthly; dry-run first |
+| 1.8 | M00092/93 TAL split proposal (their lane) | 37 ahnika volume manifests wired | needs translation-work agent review (volumes are their mechanics) |
 
 ## Phase 2 — Formal coverage (autonomous, queue order)
 
