@@ -34,3 +34,29 @@ dependencies for `control/`. Verdicts plain: PASS/FAIL/REFUTED, breaks required.
 Compression at control: 1 rule clause (R1) ÷ 7 rows ≈ 0.14 (P-TK4 holds).
 P-TK1b confirmed structurally: the mantra-triad split is adhvan-positional,
 not mala-compositional — flagged R, not derived.
+
+## Arm B — decode rung (2026-11-06, box agent; prereg PREREGISTRATION-DECODE-RUNG.md committed before code)
+
+Toolchain: Lean 4.34.1, `run.sh` harnesses (warnings as errors, must_fail with
+same-statement mutants). Statistics: stdlib Fisher exact over vendored
+`formal-trika/data/day-*.jsonl` (144 moments, days 1–7 lived decodes,
+machine-proposed, owner-unreviewed; no diary verbatim vendored).
+
+| Run | Kind | Verdict | Lean / tool | Question |
+|---|---|---|---|---|
+| `recognition/` F-CORR | run | **PASS** | KancukaCorr.lean (7 felt markers → 5 coords, partial) | Correspondence consistent? Firm rows pull→va, stall→ac, doubt→kn? |
+| `recognition/` F-CORR-mutant | control (known failure) | **PASS** | BrokenCorr.lean (pull mis-mapped) | Does the mis-map refuse `corr_pull_raga`? Yes. |
+| `recognition/` F-GRACE | run | **PASS** | Grace.lean (flip ↔ ready ∧ grace, 4 states) | Readiness/grace each necessary, jointly sufficient? |
+| `recognition/` F-GRACE-mutant | control (known failure) | **PASS** | BrokenGrace.lean (transition severed) | Does the severed model refuse `flip_iff_ready_and_grace`? Yes — exactly one error at the named proposition (harness rejects multi-error mutants; conjunct-drop variants break 3 theorems, recorded here not in CI). |
+| `recognition/` F-UPAYA | run | **PASS** | Upaya.lean (śāmbhava 1-step, śākta+pure, āṇava n≥2) | Three means distinct? Orderings recorded as found (āṇava, śākta ⊆ śāmbhava reach). |
+| `recognition/` F-UPAYA-mutant | control (known failure) | **PASS** | BrokenUpaya.lean (purity dropped) | Does the dropped precondition refuse `sakta_needs_purity`? Yes. |
+| T-C1 | pilot stat | **HOLDS** | tools/tc1_cooccurrence.py, p=0.0462 one-sided, 26 arcs | lobha-headline arcs co-occur with thina/churn-headline arcs above chance? 3/3 thin arcs carry lobha; thin never without lobha. n=26, single diarist — pilot only. |
+| T-C4 | pilot audit | **HOLDS** | TREC-AUDIT-DAY1-7.md | Claimed-recognition (3×3/4) vs state-craving (0/4)? Separation holds, n=4. S=0 throughout (no stabilization evidence yet). |
+| T-C3 | pilot audit | **KEPT** | GRACE-AUDIT-DAY1-7.md | 5/5 grace-clauses keep the variable (residual unconditioned step). Kill not triggered. |
+| T-C2 | agreement | **UNRESOLVED** | UPAYA-CRITERIA.md | Rater-1 pass recorded; rater-2 pending (need ≥0.6). |
+| F-CORR coverage | run | **PARTIAL** | `coverage_partial` (3/5 coords) | ti (time) and ca (placedness) felt signatures unestablished — explicit nones, not forces. Full coverage NOT claimed. |
+
+Harness totals at this commit: control green (incl. BrokenKancuka), recognition
+18/18 (9 check + 9 mustfail). New-rung prereg preceded code in-commit-order
+(prereg commit, then model commits). Nothing here is a publication gate;
+inventory stays NOT_RUN per the PR's evidence boundary.
