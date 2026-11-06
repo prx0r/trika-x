@@ -1214,3 +1214,12 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   backfilled existing drafts (F7×10 — includes recompiles as lineage).
 - F1-4 hold zero essays honestly (no science-bridged essays compiled yet;
   bridge essays are future work, not backfilled wishes).
+
+## Essays as data (formal track complete).
+
+- essay.json per draft (claims/tiers/verses/tracks/openpatala) +
+  essay_check gate (shippable/not) + essay_query (claims by tier/chunk/
+  track/theorem). 6/6 drafts PASS after F11 track added.
+- Lingua essay:expansion atom (svread PR) routes drafts into shared
+  language (metadata only, prose withheld). Formal-refs grammar still
+  owed (cross-lane decision, in review packet notes).
