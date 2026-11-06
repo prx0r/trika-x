@@ -76,3 +76,13 @@ M-GREEN: control (incl. AnswerKey) + recognition 18/18 + test_tools 4/4 + vocab/
 R13 tightened per books (root lobha/dosa; nibbanahelp check_factors, re-verified, no decode breakage).
 Thon-pattern audit: KancukaCorr.corr rows stay KEY (stipulated + evidence-pinned, never derived);
 `unverifiedProposedLabel` stays provisional; thina/middha root-link gap closed in the linter.
+
+## Arm D — evidence chain (2026-11-06, box agent; branch arm-d-evidence-chain)
+
+Formalization as the root of the argument tree: EVIDENCE.json pins every
+theorem (74) or exemption (2 scaffolds) to chunk locators + R-sources +
+lived decodes. `tools/evidence_check.py`: 22/22 chunk refs resolve against
+translation-work passages.jsonl; coverage 7/45 gold chunks (15%) with the
+38-chunk gap list = Treeka formal-column seed. TEACHER-INTERFACE.md specs
+the assessor's contract (response discipline + build order); nothing there
+is built. No PR stacked: this branch waits until PR #2 is reviewed.
