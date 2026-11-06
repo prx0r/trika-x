@@ -32,6 +32,8 @@ what creates the essay**. Functions, not departments.
 | 60331ff → 946ce3e → de6cb8a…c49096d | Backbone (DB, ingest, bridge --db, Nyasa rung, advice, R2 dump) |
 | 1862bca | **Merge PR #4 follow-ups** (joins, study-only, T-C1) |
 | 4a2d39b | Endgame spec §12 + wiring |
+| 8b7d00e | E-EMB embedding rung (5×5 containment, surgical twin, 124 theorems) |
+| + this push | Step-1 reconciliation (agreement + composition tables, source_audit v2, ADVICE §6) |
 | + beam/MV/synergy commits | go_beam.py lives in /root/scripts (NOT a repo); R2/box work logged |
 
 Plus: svread `source-map.json` (d5bfe9f); ipvv acom/0.2 (c2cb6b35, rebased).
@@ -50,10 +52,16 @@ python3 formal-trika/tools/table.py --check \
   formal-trika/tools/runs-index.py --check \
   formal-trika/tools/axiom_audit.py --check          # 107 CLEAN
 python3 formal-trika/tools/bridge_resolve.py --check --tw /root/translation-work
+python3 formal-trika/tools/map_agreement.py --tw /root/translation-work
+python3 formal-trika/tools/compose_bridge.py --tw /root/translation-work
+python3 formal-trika/tools/source_audit.py --tw /root/translation-work
 su postgres -c "psql -d openpatala -t -c 'SELECT count(*) FROM passages;'"  # 909
 ```
-Formal: **121 theorems** (77 zero-axiom), 19 refusing mutants, EVIDENCE
-119 entries + 2 exemptions, 0 problems; TABLE all rows; axiom 107 CLEAN.
+Formal: **124 theorems** (80 zero-axiom), 20 refusing mutants, EVIDENCE
+122 entries + 2 exemptions, 0 problems; TABLE all rows; axiom CLEAN.
+Reconciliation: 102-work agreement (3 AGREE / 21 THEIRS-NEW / 63 proposals /
+15 open, 0 conflicts); 7-work composition (3 COMPOSED / 3 PARTIAL / 1
+DOUBLE-GAP = tal-a15); records 55 RECORDED / 47 NO-SOURCE / 0 invalid.
 Box DB: works 544, passages 909, witnesses 0 (enforced). R2 mirror:
 `s3://patala/openpatala/box-2026-11-06/` (restore-proven).
 

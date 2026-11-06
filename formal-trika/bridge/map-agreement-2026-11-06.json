@@ -1,0 +1,830 @@
+{
+ "format": "trika-map-agreement/1",
+ "date": "2026-11-06",
+ "translation_work_revision": "e05e640e192a2ea5a317ba76b0f802f4f54e98cc",
+ "trika_x_revision": "8b7d00eac00688857bea2c6400fcf271ed9c7c36+dirty",
+ "counts": {
+  "OPEN": 15,
+  "MINE-PROPOSAL": 63,
+  "THEIRS-NEW": 21,
+  "AGREE-WORK": 3
+ },
+ "rows": [
+  {
+   "work": "abhinavabharati",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "ajadapramatrsiddhi",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "anubhavanivedana",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "anuttarastika",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "bhairavanukarana",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "bhairavastava",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "bodhapancadasika",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "bodhavilasa",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "dehastha",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "ghatakarpara",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "gitarthasangraha",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "ipvv",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "ipvv-vivrti-vimarsini",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "isvarasiddhi",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "kramastotra",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-kramastotra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "lalded",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "mahopadeshavimshatika",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "malinivijayavarttika",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "nundrishi",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "pancashloki",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "paramarthacarca",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "paramarthadvadasika",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "paramarthasara",
+   "mine_status": "CANDIDATE-EDITION",
+   "mine_work_key": "paramarthasara",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-paramArthasAra",
+   "verdict": "AGREE-WORK"
+  },
+  {
+   "work": "parapravesika",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "paratrimshika",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "parmanand",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "paryantapancasika",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "phrdaya",
+   "mine_status": "CANDIDATE-WORK",
+   "mine_work_key": "pratyabhijnahrdaya",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "ptvmadhyama",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "rahasyapanchadashika",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "rupabhavani",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "saktavijnana",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "sambandhasiddhi",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "santosh",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "sivastotravali",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "sivasutra",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "sivasutravimarsini",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "spanda",
+   "mine_status": "CANDIDATE-WORK",
+   "mine_work_key": "spandakarika",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "spandasandoha",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "stavacintamani",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "svabodhasiddhi",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a01",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a02",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a03",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a04",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a05",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a06",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a07",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a08",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a09",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a10",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a11",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a12",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a13",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a14",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a15",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a16",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a17",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a18",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a19",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a20",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a21",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a22",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a23",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a24",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a25",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a26",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a27",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a28",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a29",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a30",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a31",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a32",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a33",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a34",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a35",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a36",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantraloka-a37",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  },
+  {
+   "work": "tantrasara-a01",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a02",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a03",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a04",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a05",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a06",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a07",
+   "mine_status": "CANDIDATE-EDITION",
+   "mine_work_key": "tantrasara",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "AGREE-WORK"
+  },
+  {
+   "work": "tantrasara-a08",
+   "mine_status": "CANDIDATE-EDITION",
+   "mine_work_key": "tantrasara",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "AGREE-WORK"
+  },
+  {
+   "work": "tantrasara-a09",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a10",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a11",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a12",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a13",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a14",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a15",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a16",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a17",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a18",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a19",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a20",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a21",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tantrasara-a22",
+   "mine_status": "CANDIDATE-TODO",
+   "mine_work_key": "UNRESOLVED",
+   "theirs_status": "CANDIDATE",
+   "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "verdict": "THEIRS-NEW"
+  },
+  {
+   "work": "tattvasandoha",
+   "mine_status": null,
+   "mine_work_key": null,
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "OPEN"
+  },
+  {
+   "work": "vbt",
+   "mine_status": "CANDIDATE-WORK",
+   "mine_work_key": "vijnanabhairava",
+   "theirs_status": "UNMAPPED",
+   "theirs_work_id": null,
+   "verdict": "MINE-PROPOSAL"
+  }
+ ]
+}

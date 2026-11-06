@@ -631,3 +631,15 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   Embed.lean (5×5 rank matrix; 3 zero-axiom theorems) + surgical twin
   (first draft over-broad, harness rejected — third such catch today).
 - EVIDENCE 124/122+2. Control harness extended.
+
+## Reconciliation build (step-1 vs our track; 0 conflicts).
+
+- Vendored source-map.json into bridge/ (svread copy now stale mirror, left untouched).
+- map_agreement.py: 102 works → 3 AGREE-WORK / 21 THEIRS-NEW / 63 MINE-PROPOSAL / 15 OPEN.
+- compose_bridge.py: 7 snapshot works → 3 COMPOSED / 3 PARTIAL / 1 DOUBLE-GAP (tal15).
+- source_audit v2 (additive; fixture contract kept, 46 tests green): 102 records,
+  55 RECORDED / 47 NO-SOURCE / 0 invalid / 0 map↔record mismatches.
+- Findings for their lane (ADVICE §6, proposals only): tal-a15 volume spec
+  (613 markers ↔ 62 passages, mechanical via record_volume), bodhapancadasika
+  CANDIDATE (exact GRETIL-ID match, builder rule skips non-segments kind),
+  dossier LANGUAGE 'en' systematic quirk, 31 RECORDED-but-unmapped frontier.

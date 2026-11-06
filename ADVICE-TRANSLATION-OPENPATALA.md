@@ -17,7 +17,9 @@ Full-access DSN stays with box ops; you don't need it.
 ## 1. Cookbook (copy-paste SQL; psycopg2 or psql)
 
 ```sql
--- Which openpatala work is my workdir? (6 dossier-mapped + 81 workdir keys + 260 availability)
+-- Which openpatala work is my workdir? (24 CANDIDATE of 102 mapped;
+-- composition table for our 7 chunk-pinned works in trika-x
+-- formal-trika/bridge/composition-2026-11-06.json)
 SELECT id, preferred_title FROM works WHERE id = 'tantrasara-a08'
    OR id = 'PTCND_sa_abhinavagupta-tantrasAra';
 
@@ -103,7 +105,37 @@ chunk:tsa08-p03 --db` to see it assembled.
 ## 5. What's ready for you now vs what needs a human
 
 READY: box DB (544 works, 909 passages, 87 etexts hashed), source-map.json
-(87 ledgers), layer inventory per work, intake-request pattern, chain
-receipts. NEEDS HUMAN: witness eyes, P-TK1/ti-ca/rater-2 rulings, dīkṣā
+(87 ledgers; canonical copy now trika-x formal-trika/bridge/source-map.json),
+map-agreement + composition tables (2026-11-06), layer inventory per work,
+intake-request pattern, chain receipts. NEEDS HUMAN: witness eyes, P-TK1/ti-ca/rater-2 rulings, dīkṣā
 policy, sign-offs, Zenodo token. Machine proposes; you propose better;
 human disposes — same law both lanes.
+
+## 6. Proposals from the formal lane (2026-11-06 — yours to decide, my lane never writes yours)
+
+1. **tal-a15 volume registration (when your queue reaches it — it's last, no rush).**
+   `tantraloka-a15/source.txt` (82KB, 1844 lines) is vendored but unwired
+   (record = NO-SOURCE-RECORD). It carries 613 ordered `[AbhT_15.N]` markers
+   (N = 1..613, verified complete) matching exactly the 62 passages'
+   verse ranges (15.1–15.10 … 15.611–15.613). Mechanical path with your own
+   tools: `record_volume()` spans per passage (byte start/end at verse-boundary
+   lines, vol_lines, text_sha256), gaps/overlaps per tool rules, then rerun
+   `build_source_records.py` → expect RECORDED. Flips our last DOUBLE-GAP
+   composition row and strengthens the tal-a15-p12 T-conditions.
+2. **bodhapancadasika → CANDIDATE.** Its record cites
+   `GRETIL-mention:sa_abhinavagupta-bodhapaJcadazikA`, which exactly equals
+   dossier `PTCND_sa_abhinavagupta-bodhapaJcadazikA`'s GRETIL ext-ID — but
+   your builder's CANDIDATE rule (segments-kind + manifest) skips it
+   (kind = `bodhapanca`, source staged in ipvv lane). Consider extending the
+   rule to record evidence_refs, or a manual CANDIDATE with that citation.
+   Same check may promote anuttarastika/bhairavastava if their headers match
+   dossiers (their records carry no GRETIL refs today — verified).
+3. **Dossier LANGUAGE assertions are wrong (openpatala-lane fix).** Every
+   sampled dossier (tantrasAra, kramastotra, paramArthasAra, anuttarASTikA,
+   bodhapaJcadazikA) asserts LANGUAGE `en` on Sanskrit texts — GRETIL metadata
+   quirk. Your `language_conflict` flag therefore fires on every true mapping
+   (noise, not signal) and no consumer should trust dossier LANGUAGE until
+   the metadata is fixed at source.
+4. **55 RECORDED vs 24 mapped.** 31 works have hashed source bytes but no
+   dossier — that list (our audit prints it; your records own it) is the
+   dossier-acquisition frontier, distinct from translation staging.

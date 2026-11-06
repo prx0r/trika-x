@@ -1,0 +1,89 @@
+{
+ "format": "trika-bridge-composition/1",
+ "date": "2026-11-06",
+ "snapshot_revision": "e05e640e192a2ea5a317ba76b0f802f4f54e98cc",
+ "counts": {
+  "COMPOSED": 3,
+  "PARTIAL": 3,
+  "DOUBLE-GAP": 1
+ },
+ "rows": [
+  {
+   "snapshot_key": "param",
+   "workdir": "paramarthasara",
+   "passages": 12,
+   "mapping_status": "CANDIDATE",
+   "record_status": "RECORDED",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-paramArthasAra",
+   "dossier_sha256": "06aff5d6bfc29972a75d3ebeed03a096d75368705643bd5b80785130d9cf1354",
+   "volumes": 1,
+   "verdict": "COMPOSED"
+  },
+  {
+   "snapshot_key": "phr",
+   "workdir": "phrdaya",
+   "passages": 5,
+   "mapping_status": "UNMAPPED",
+   "record_status": "RECORDED",
+   "openpatala_work_id": null,
+   "dossier_sha256": null,
+   "volumes": 1,
+   "verdict": "PARTIAL"
+  },
+  {
+   "snapshot_key": "spanda",
+   "workdir": "spanda",
+   "passages": 6,
+   "mapping_status": "UNMAPPED",
+   "record_status": "RECORDED",
+   "openpatala_work_id": null,
+   "dossier_sha256": null,
+   "volumes": 1,
+   "verdict": "PARTIAL"
+  },
+  {
+   "snapshot_key": "tal15",
+   "workdir": "tantraloka-a15",
+   "passages": 62,
+   "mapping_status": "UNMAPPED",
+   "record_status": "NO-SOURCE-RECORD",
+   "openpatala_work_id": null,
+   "dossier_sha256": null,
+   "volumes": 0,
+   "verdict": "DOUBLE-GAP"
+  },
+  {
+   "snapshot_key": "tsa07",
+   "workdir": "tantrasara-a07",
+   "passages": 1,
+   "mapping_status": "CANDIDATE",
+   "record_status": "RECORDED",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "volumes": 1,
+   "verdict": "COMPOSED"
+  },
+  {
+   "snapshot_key": "tsa08",
+   "workdir": "tantrasara-a08",
+   "passages": 4,
+   "mapping_status": "CANDIDATE",
+   "record_status": "RECORDED",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "volumes": 1,
+   "verdict": "COMPOSED"
+  },
+  {
+   "snapshot_key": "vbt",
+   "workdir": "vbt",
+   "passages": 17,
+   "mapping_status": "UNMAPPED",
+   "record_status": "RECORDED",
+   "openpatala_work_id": null,
+   "dossier_sha256": null,
+   "volumes": 1,
+   "verdict": "PARTIAL"
+  }
+ ]
+}
