@@ -82,10 +82,10 @@ argmap-grounded claims are R until verbatim-bound against source bytes):**
 
 | # | Claim | Type | Evidence | Tier | Status |
 |---|---|---|---|---|---|
-| 1 | heap belongs to ahaṃkāra (v71) | quotation | argmap tsa-a08-v71 | R | reconstructed; banked only as heap-named (thin) |
-| 2 | lucid→mind+5 jñānendriya; mind begets (v73) | quotation | argmap tsa-a08-v73 | R | reconstructed; NOT banked — verbatim bind owed |
-| 3 | 5 karmendriya from subtle-excelling lucid I-maker (v75) | quotation | argmap tsa-a08-v75 | R | reconstructed; NOT banked — verbatim bind owed |
-| 4 | action-endlessness ≠ sense-endlessness (v79) | quotation | argmap tsa-a08-v79 | R | reconstructed; NOT banked — verbatim bind owed |
+| 1 | heap belongs to ahaṃkāra (v71) | quotation | argmap tsa-a08-v71 | R | span-verified (machine, see §6) |
+| 2 | lucid→mind+5 jñānendriya; mind begets (v73) | quotation | argmap tsa-a08-v73 | R | span-verified (machine, see §6) |
+| 3 | 5 karmendriya from subtle-excelling lucid I-maker (v75) | quotation | argmap tsa-a08-v75 | R | span-verified (machine, see §6) |
+| 4 | action-endlessness ≠ sense-endlessness (v79) | quotation | argmap tsa-a08-v79 | R | span-verified (machine, see §6) |
 | 5 | eleven nest in ahaṃkāra group | structural | Tattva.lean eleven_wombed | T | decide-verified, weaker-than-text |
 | 6 | wombed model textually supported (partial) | interpretive | 1–5 | R | open; (a)–(d) recorded |
 
@@ -107,8 +107,32 @@ argmap-grounded claims are R until verbatim-bound against source bytes):**
   objected (1/15 paras); claim-table rows are UNCITED — tables need inline
   markers or linker support before PUSHBACK covers them.
 
-## 5 · What this walkthrough proves (and doesn't)
+## 5 · VERBATIM BIND (machine receipt, 2026-11-06 — answers the PUSHBACK debt)
 
+Method: `tantrasara-a08/source/volumes/tantrasara.json` (93 spans) against
+`/root/ipvv/site/data/sanskrit/tantrasara.txt` (manifest sha re-verified
+TRUE). Per-span `text_sha256` re-verified TRUE for all six spans below.
+Token containment, whitespace/hyphen-insensitive; compound-tolerant second
+pass (pada-split argmap vs sandhi'd source: `garbhīkṛtānanta…` contains
+`garbhīkṛt`, `…tat tattvam` contains `tattva`).
+
+| Verse | Span bytes | Tokens bound |
+|---|---|---|
+| v71 | span sha TRUE | ahaṃkārasya, karaṇaskandhaḥ (2/2) |
+| v73 | span sha TRUE | buddhīndriyapañcakaṃ, sarvatanmātra (2/2) |
+| v75 | span sha TRUE | karmendriyapañcakam, udriktatanmātra (2/2) |
+| v79 | span sha TRUE | indriyānantyam, karmānantyam (2/2) |
+| v01 | span sha TRUE | garbhīkṛt, mahāsāmānya (2/2, compound-tolerant) |
+| v02 | span sha TRUE | katipaya, tattva (2/2, compound-tolerant) |
+
+What this upgrades: the QUOTATIONS are now byte-bound (the words are in
+the pinned source at the pinned spans) — claims 1–4 move from
+"reconstructed" to "span-verified (machine)". What it does NOT upgrade:
+tier stays R (edition CANDIDATE, witness UNPINNED, translation + argmap
+machine-proposed, human review owed). The set-label counter-reading
+survives binding (it disputes the INFERENCE, not the words).
+
+## 6 · What this walkthrough proves (and doesn't)
 Proves: the chain runs on finished-Tantrasara materials at full depth —
 93-unit gold argmap → pinned chunk → checked theorem → tiered draft.
 Does not prove: the begetting relation (unformalized), the essay

@@ -686,3 +686,12 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   first (tal-a34 before tal) — first match wins.
 - Trinity now 28 works / 154 passages; composition 23/3/2 (tal-a34 second
   DOUBLE-GAP, honest: gold translation, no source spans yet).
+
+## CRUX-03 binds land (PUSHBACK debt paid, machine half).
+
+- tsa volume spans re-verified (manifest + per-span shas TRUE); all six
+  verses token-bound (compound-tolerant pass documented). Claims 1-4 now
+  "span-verified (machine)", tier stays R (CANDIDATE edition, no witness,
+  unreviewed translation). Set-label counter-reading survives (inference-level).
+- Path note: manifest `file` fields are repo-root-relative (../ = above
+  translation-work); consumers must join with repo root, not workdir.
