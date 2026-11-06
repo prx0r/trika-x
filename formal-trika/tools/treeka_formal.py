@@ -5,6 +5,7 @@ For each translation-work chunk: registry references + argument coverage.
   direct_reference — chunk named in at least one EVIDENCE.json entry
   work_reference   — another chunk in the work is named, but this one is not
   no_reference     — no passage in the work is named by an entry
+  ambiguous_reference — the same cited locator occurs in multiple works
 
 These are registry associations, not evidence that the source was formalized,
 the theorem was checked, or that any interpretation has been reviewed.
@@ -133,21 +134,33 @@ def main():
 
 
 def report(tw, json_output, revision):
+    owners = {}
+    for work, spec in EV['works'].items():
+        for loc in spec.get('chunks', []):
+            owners.setdefault(loc, set()).add(work)
     cited = {}
+    ambiguous = set()
     for key, e in EV["entries"].items():
         for c in e.get("chunks", []):
             loc = c.get("locator")
             if loc and loc != "vbt":
-                cited.setdefault(loc, []).append(key)
+                possible = owners.get(loc, set())
+                if len(possible) == 1:
+                    cited.setdefault((next(iter(possible)), loc), []).append(key)
+                elif len(possible) > 1:
+                    ambiguous.add(loc)
     works_with_formal = {
         work for work, spec in EV["works"].items()
-        if any(loc in cited for loc in spec.get("chunks", []))
+        if any((work, loc) in cited for loc in spec.get("chunks", []))
     }
     rows = []
     for work in sorted(EV["works"]):
-        wdir = tw / {"tsa08": "tantrasara-a08", "tsa07": "tantrasara-a07",
-                      "param": "paramarthasara", "phr": "phrdaya",
-                      "vbt": "vbt", "spanda": "spanda"}[work]
+        ledger = Path(EV['works'][work]['ledger']).parts
+        if len(ledger) != 3 or ledger[0] != 'translation-work' or ledger[2] != 'passages.jsonl':
+            raise ValueError(f'invalid evidence ledger path for {work}')
+        wdir = (tw / ledger[1]).resolve()
+        if not wdir.is_relative_to(tw.resolve()):
+            raise ValueError(f'evidence work escapes translation-work: {work}')
         amap = argmap_verses(wdir)
         chunks = work_chunks(wdir)
         parsed = [verse_range(ch['verses']) for ch in chunks]
@@ -160,18 +173,20 @@ def report(tw, json_output, revision):
             n_arg = (sum(n for matched, n in comparisons if matched)
                      if comparisons is not None and all(matched is not None for matched, _ in comparisons)
                      else None)
-            if loc in cited:
+            if loc in ambiguous:
+                status = 'ambiguous_reference'
+            elif (work, loc) in cited:
                 status = "direct_reference"
             elif work in works_with_formal:
                 status = "work_reference"
             else:
                 status = "no_reference"
-            rows.append({"locator": loc, "verses": ch["verses"],
+            rows.append({"work": work, "locator": loc, "verses": ch["verses"],
                          "immutable_id": ch.get("immutable_id"),
                          "formal": status,
                          "formal_basis": "registry association only; no proof or source interpretation assessed",
                          "translation_work_revision": revision,
-                         "formal_refs": cited.get(loc, []),
+                         "formal_refs": cited.get((work, loc), []),
                          "argmap_units": n_arg,
                          "has_l2": has_l2(wdir, loc)})
     if json_output:
@@ -188,12 +203,14 @@ def report(tw, json_output, revision):
     armed = [r["locator"] for r in rows if r["formal"] == "work_reference"]
     noarg = [r["locator"] for r in rows if r["argmap_units"] == 0]
     unknown = [r["locator"] for r in rows if r["argmap_units"] is None]
+    ambiguous_rows = [r['locator'] for r in rows if r['formal'] == 'ambiguous_reference']
     print(f"\nreferences: {len([r for r in rows if r['formal']=='direct_reference'])}/{len(rows)} direct, "
           f"{len(armed)} in referenced works, {len(unarmed)} in unreferenced works")
     print("NO REFERENCES IN WORK:", ", ".join(unarmed) or "-")
     print("ANOTHER PASSAGE REFERENCED:", ", ".join(armed) or "-")
     print("NO MATCHED ARGMAP UNITS:", ", ".join(noarg) or "-")
     print("ARGMAP SCAN UNKNOWN:", ", ".join(unknown) or "-")
+    print('AMBIGUOUS FORMAL REFERENCES:', ', '.join(ambiguous_rows) or '-')
     return 0
 
 

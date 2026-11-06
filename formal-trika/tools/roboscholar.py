@@ -18,6 +18,7 @@ import datetime
 import hashlib
 import json
 import os
+import re
 import subprocess
 import sys
 import urllib.request
@@ -27,17 +28,51 @@ HERE = Path(__file__).resolve().parent.parent
 CF_ACCOUNT = "954612afb5a97bb15dddcdc70176813d"
 CF_TOKEN_FILE = Path("/root/.cf-api-token")
 SVREAD = Path(os.environ.get("SVREAD_CHECKOUT", HERE.parent.parent / "svread"))
-sys.path.insert(0, str(SVREAD / "mcp"))
-import audit as draft_audit
-import claims as claim_table
+TW = Path(os.environ.get('TRANSLATION_WORK', HERE.parent.parent / 'translation-work'))
 
 
-def premises(workdir: str, verses: list) -> list:
+def premises(workdir: str, verses: list, chunk: str, *, tw: Path = TW,
+             nodes_file: Path = HERE / 'data' / 'argmap-nodes.jsonl') -> list:
+    """Select candidate nodes only after checking their chunk and input bytes.
+
+    This validates the argmap and ledger files, not the Sanskrit reading,
+    the chapter-to-chunk heuristic, or permission to reuse the content.
+    """
+    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_.-]{0,159}', workdir or ''):
+        raise ValueError('invalid work id')
+    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_.-]{0,159}', chunk or ''):
+        raise ValueError('invalid chunk id')
+    if not verses:
+        raise ValueError('no verses requested')
+    requested = set(verses)
     out = []
-    for line in (HERE / "data" / "argmap-nodes.jsonl").open(encoding="utf-8"):
+    root = tw.resolve()
+    hashes = {}
+    for line in nodes_file.open(encoding="utf-8"):
+        if not line.strip():
+            continue
         d = json.loads(line)
-        if d.get("source_file", "").startswith(workdir + "/") and d.get("verse_id") in verses:
-            out.append(d)
+        if d.get('work') != workdir or d.get('verse_id') not in requested:
+            continue
+        if (d.get('locator') != chunk or d.get('locator_status') not in
+                {'EXACT_LOCATOR', 'LOCATOR_ONLY', 'NUMBER_RANGE', 'STOTRA_RANGE'}):
+            raise ValueError(f"ambiguous or different chunk for {d.get('verse_id')}")
+        source = d.get('source_file')
+        if not isinstance(source, str) or not source.startswith(workdir + '/'):
+            raise ValueError('invalid argmap source path')
+        for rel, expected in ((source, d.get('source_file_sha256')),
+                              (f'{workdir}/passages.jsonl', d.get('ledger_sha256'))):
+            path = (root / rel).resolve()
+            if not path.is_relative_to(root):
+                raise ValueError('source path escapes translation-work')
+            if path not in hashes:
+                hashes[path] = hashlib.sha256(path.read_bytes()).hexdigest()
+            if not isinstance(expected, str) or hashes[path] != expected:
+                raise ValueError(f'stale or missing source pin: {rel}')
+        out.append(d)
+    missing = requested - {n.get('verse_id') for n in out}
+    if missing:
+        raise ValueError(f'verses not found in requested chunk: {sorted(missing)}')
     return out
 
 
@@ -57,7 +92,7 @@ def cf_chat(model: str, prompt: str) -> str:
 
 PROMPT_TMPL = """You draft one essay paragraph plus claim bullets from GIVEN premises only. Machine-proposed, never canonical.
 
-Chunk: {chunk} (gold argmap, machine-proposed translation; edition CANDIDATE, witness UNKNOWN).
+Chunk: {chunk} (candidate argmap, machine-proposed translation; edition CANDIDATE, witness UNKNOWN).
 Banked premises (quote or paraphrase these, invent nothing):
 {premises}
 
@@ -73,11 +108,20 @@ def main() -> int:
     ap.add_argument("--chunk", default="tsa08-p04")
     ap.add_argument("--verses", nargs="+",
                     default=["tsa-a08-v71", "tsa-a08-v73", "tsa-a08-v75", "tsa-a08-v79"])
+    ap.add_argument('--allow-external-text', action='store_true',
+                    help='explicitly permit sending selected argmap excerpts to the model provider')
     a = ap.parse_args()
-    nodes = premises(a.work, a.verses)
-    if not nodes:
-        print("ERROR: no banked premises for verses", a.verses)
+    if not a.allow_external_text:
+        print('ERROR: --allow-external-text is required before sending excerpts externally')
         return 1
+    try:
+        nodes = premises(a.work, a.verses, a.chunk)
+    except (OSError, ValueError, TypeError, json.JSONDecodeError) as exc:
+        print(f'ERROR: {exc}', file=sys.stderr)
+        return 1
+    sys.path.insert(0, str(SVREAD / 'mcp'))
+    import audit as draft_audit
+    import claims as claim_table
     banked = "\n".join(f"- {n['verse_id']}: {'; '.join(n.get('premises', [])[:3])}" for n in nodes)
     prompt = PROMPT_TMPL.format(chunk=f"{a.work}:{a.chunk}", premises=banked)
     draft = cf_chat(a.model, prompt)

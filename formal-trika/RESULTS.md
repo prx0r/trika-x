@@ -1,5 +1,12 @@
 # Results — formal Trika
 
+**E-EMB source correction (2026-11-06):** the earlier statement that
+Tantrasāra 7.9 directly grounds gross-element containment is mistaken. That
+passage places the five subtle elements and eleven faculties in ahaṃkāra.
+8.85–90 discusses preceding qualities and another account, but the chosen
+matrix remains an unreviewed reconstruction. The historical preregistration
+and run below are preserved; a Lean pass checks only the stipulated matrix.
+
 Results are appended below; an earlier result is never edited. Predictions are
 scored against their preregistration files. Scoring stays **provisional** until
 the scored conditions are fully met (independent raters, replication,

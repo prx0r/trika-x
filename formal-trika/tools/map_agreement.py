@@ -5,11 +5,14 @@ Read-only. Compares formal-trika/bridge/source-map.json (our ledger pointers
 + work-key guesses) against <tw>/source-maps/openpatala.json (their canonical
 mapping, own lane — never written here). Per-work verdicts:
 
-  AGREE-WORK      both claim the same openpatala work (key substring match)
+  AGREE-WORK      both carry the exact same nonempty work identifier
+  POSSIBLE-MATCH  normalized strings overlap; manual review is required
+  DIFFERENT-KEYS  both sides supplied different, non-overlapping keys
   THEIRS-NEW      their CANDIDATE where we had UNRESOLVED (adopt, don't duplicate)
   MINE-PROPOSAL   our CANDIDATE-* where theirs is UNMAPPED (evidence for their agent)
   OPEN            neither side claims (honest gap)
 
+These are comparisons of recorded strings, not independent verification.
 Writes bridge/map-agreement-<date>.json (pinned revisions). Exit 0.
 """
 import argparse
@@ -28,6 +31,21 @@ def norm(s: str) -> str:
     s = (s or "").lower()
     s = re.sub(r"^(ptcnd_)?sa_", "", s)
     return re.sub(r"[^a-z]", "", s)
+
+
+def verdict_for(mkey, mstatus, tid, tstatus):
+    if mkey and mkey != 'UNRESOLVED' and tid:
+        if mkey == tid:
+            return 'AGREE-WORK'
+        mn, tn = norm(mkey), norm(tid)
+        if mn and tn and (mn in tn or tn in mn):
+            return 'POSSIBLE-MATCH'
+        return 'DIFFERENT-KEYS'
+    if tstatus == 'CANDIDATE' and (not mkey or mkey == 'UNRESOLVED'):
+        return 'THEIRS-NEW'
+    if mstatus and mstatus.startswith('CANDIDATE') and tstatus != 'CANDIDATE':
+        return 'MINE-PROPOSAL'
+    return 'OPEN'
 
 
 def rev(p: Path) -> str:
@@ -52,15 +70,7 @@ def main() -> int:
         t = tworks.get(work, {}) if isinstance(tworks.get(work), dict) else {}
         mkey, mstatus = m.get("openpatala_work_key"), m.get("status")
         tstatus, tid = t.get("mapping_status"), t.get("openpatala_work_id")
-        mn, tn = norm(mkey), norm(tid)
-        if tid and mkey and mkey != "UNRESOLVED" and (mn in tn or tn in mn):
-            verdict = "AGREE-WORK"
-        elif tstatus == "CANDIDATE" and (not mkey or mkey == "UNRESOLVED"):
-            verdict = "THEIRS-NEW"
-        elif mstatus and mstatus.startswith("CANDIDATE") and tstatus != "CANDIDATE":
-            verdict = "MINE-PROPOSAL"
-        else:
-            verdict = "OPEN"
+        verdict = verdict_for(mkey, mstatus, tid, tstatus)
         rows.append({"work": work, "mine_status": mstatus, "mine_work_key": mkey,
                      "theirs_status": tstatus, "theirs_work_id": tid, "verdict": verdict})
     from collections import Counter
@@ -73,7 +83,7 @@ def main() -> int:
     out = a.out or BRIDGE / f"map-agreement-{doc['date']}.json"
     out.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")
     print(f"works: {len(rows)}; " + "; ".join(f"{k}={v}" for k, v in sorted(counts.items())))
-    print(f"their canonical map is authoritative; our file is the ledger-side view -> {out.name}")
+    print(f"recorded key comparison only; source identity still needs review -> {out.name}")
     return 0
 
 

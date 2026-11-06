@@ -3,16 +3,16 @@
 
 Stolen fair from AxiomMath/Stacks (StacksCore human-reviewed vs
 StacksFrontier AI-written-compiles-unreviewed). Every non-mutant theorem
-gets exactly one row: Frontier by default; Core only via --promote with
---reviewer + --reason (scholar/human review — never self-promotion, never
-batch-promotion). --check fails if any theorem lacks a row (CI).
+gets exactly one row: Frontier by default. Core promotion is disabled until
+an authenticated, revision-bound scholar decision can be verified. A name
+and reason supplied on the command line do not establish that decision.
+--check fails on missing, stale, malformed or unsupported Core rows (CI).
 
   python3 tools/review_status.py                       # regenerate (keeps promotions)
   python3 tools/review_status.py --check                # CI gate
-  python3 tools/review_status.py --promote "File :: thm" --reviewer NAME --reason "..."
+  python3 tools/review_status.py --promote "File :: thm"  # currently refuses
 """
 import argparse
-import datetime
 import json
 import re
 import sys
@@ -48,38 +48,37 @@ def main() -> int:
     ap.add_argument("--reason", default="")
     a = ap.parse_args()
     doc = load()
+    if not isinstance(doc, dict) or doc.get('format') != 'trika-review-status/1' or not isinstance(doc.get('rows'), dict):
+        print('ERROR: invalid review-status document')
+        return 1
     thms = theorems()
+    if not thms:
+        print('ERROR: no positive theorems found')
+        return 1
     if a.promote:
-        if not a.reviewer.strip() or not a.reason.strip():
-            print("ERROR: promotion needs --reviewer + --reason (never self-promote)")
+        print('ERROR: Core promotion is disabled until authenticated, revision-bound review is implemented')
+        return 1
+    missing = [t for t in thms if t not in doc['rows']]
+    stale = [k for k in doc['rows'] if k not in thms]
+    invalid = [k for k, row in doc['rows'].items()
+               if not isinstance(row, dict) or row.get('tier') != 'Frontier']
+    if a.check:
+        if missing or stale or invalid:
+            print(f'REVIEW-STATUS INVALID: missing={len(missing)} stale={len(stale)} invalid_or_unverified_core={len(invalid)}')
             return 1
-        if a.promote not in thms:
-            print(f"ERROR: unknown theorem {a.promote}")
-            return 1
-        doc["rows"][a.promote] = {"tier": "Core", "reviewer": a.reviewer.strip(),
-                                  "reason": a.reason.strip(),
-                                  "date": datetime.date.today().isoformat()}
-        OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
-        print(f"promoted {a.promote} -> Core")
+        print(f'review-status: {len(thms)} theorems, 0 Core / {len(thms)} Frontier')
         return 0
+    if invalid:
+        print(f'ERROR: {len(invalid)} malformed or unverified Core rows require review')
+        return 1
     changed = False
-    for t in thms:
-        if t not in doc["rows"]:
-            doc["rows"][t] = {"tier": "Frontier", "reviewer": None,
-                              "reason": "machine-proposed, unreviewed", "date": None}
-            changed = True
-    stale = [k for k in doc["rows"] if k not in thms]
+    for t in missing:
+        doc["rows"][t] = {"tier": "Frontier", "reviewer": None,
+                          "reason": "machine-proposed, unreviewed", "date": None}
+        changed = True
     for k in stale:
         del doc["rows"][k]
         changed = True
-    if a.check:
-        missing = [t for t in thms if t not in doc["rows"]]
-        if missing or stale:
-            print(f"REVIEW-STATUS STALE: missing={len(missing)} stale={len(stale)}")
-            return 1
-        core = sum(1 for r in doc["rows"].values() if r["tier"] == "Core")
-        print(f"review-status: {len(thms)} theorems, {core} Core / {len(thms)-core} Frontier")
-        return 0
     if changed or not OUT.is_file():
         OUT.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
     core = sum(1 for r in doc["rows"].values() if r["tier"] == "Core")

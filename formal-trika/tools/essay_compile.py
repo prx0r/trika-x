@@ -1,18 +1,20 @@
 #!/usr/bin/env python3
 """essay_compile.py — compile expansion essays, never write them.
 
-An expansion essay = owner voice (verbatim quotes, never altered) +
-banked audit-chain claims (argmap nodes R + Lean theorems T, tiered,
-marker-cited) + open questions. The compiler assembles; it invents no
-prose, no doctrine, no verdict. Claim tables + link/audit/pushback
-receipts ride every output. Topic graph grows per compilation.
+An expansion essay = owner/research/corpus voice (verbatim quotes, never
+altered) + banked candidate claims (argmap nodes R + unverified Lean
+references, marker-cited) + open questions. The compiler assembles; it
+invents no prose, no doctrine, no verdict. A theorem name does not
+establish a successful Lean run or a source-to-model entailment.
+Claim tables + link/audit/pushback receipts ride every output. Topic
+graph grows per compilation.
 
   python3 tools/essay_compile.py --owner /root/tantraessays/essays/essays20/E10_mala_objectivity.md \\
-      --work tantrasara-a08 --chunk tsa08-p02 --verses tsa-a08-v18 tsa-a08-v19 tsa-a08-v20 tsa-a08-v21 tsa-a08-v22 \\
+      --work tantrasara-a08 --chunk tsa08-p02 --verses tsa-a08-v18 tsa-a08-v19 \\
       --theorems "Mala.lean :: count_3" --slug mala-objectivity --title "Impurity Is Objectivity"
 
 Owner essays are lore/voice (truthful to the teacher, not grounds).
-Argmaps are grounds for R. Theorems are grounds for T. Witnesses stay
+Argmaps and theorem associations need independent review. Witnesses stay
 UNPINNED. Machine proposes; owner + scholar dispose.
 """
 import argparse
@@ -27,10 +29,6 @@ HERE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(HERE / "tools"))
 import roboscholar as robo
 
-sys.path.insert(0, str(Path("/root/svread/mcp")))
-import audit as draft_audit
-import claims as claim_table
-
 
 def owner_blocks(path: Path):
     text = path.read_text(encoding="utf-8")
@@ -40,10 +38,27 @@ def owner_blocks(path: Path):
     return title, quotes, frames, text
 
 
+def validate_theorems(work, chunk, names, evidence_path=HERE / 'EVIDENCE.json'):
+    if not names:
+        return
+    evidence = json.loads(evidence_path.read_text(encoding='utf-8'))
+    ledger = f'translation-work/{work}/passages.jsonl'
+    works = [spec for spec in evidence['works'].values()
+             if spec.get('ledger') == ledger and chunk in spec.get('chunks', [])]
+    if len(works) != 1:
+        raise ValueError('work/chunk not uniquely registered in evidence')
+    for name in names:
+        entry = evidence['entries'].get(name)
+        if not isinstance(entry, dict) or not any(
+                isinstance(ref, dict) and ref.get('locator') == chunk
+                for ref in entry.get('chunks', [])):
+            raise ValueError(f'theorem is not registered for this chunk: {name}')
+
+
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--owner", type=Path, default=None,
-                    help="owner essay file (verbatim voice; optional when --research given: speculative topics compile from research voice + banked chain)")
+                    help="owner essay file (verbatim voice; optional when --research given)")
     ap.add_argument("--work", required=True)
     ap.add_argument("--chunk", required=True)
     ap.add_argument("--verses", nargs="+", required=True)
@@ -61,29 +76,40 @@ def main() -> int:
     ap.add_argument("--l4", action="store_true",
                     help="L4 pass: per-paragraph DRAFT files (craft_notes + rejected + reads_against) + claim-overlap audit")
     a = ap.parse_args()
+    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{0,99}', a.slug):
+        print('ERROR: invalid output slug', file=sys.stderr)
+        return 1
     if a.owner is None and a.research is None:
         print("ERROR: need --owner and/or --research voice (compiler never writes voice)")
         return 1
-    title, quotes, frames = "", [], []
-    if a.owner:
-        title, quotes, frames, raw = owner_blocks(a.owner)
-    if a.research:
-        rtitle, rquotes, rframes, _ = owner_blocks(a.research)
-    else:
-        rtitle, rquotes, rframes = "", [], []
-    cquotes = []
-    if a.corpus_db and a.corpus_topic:
-        import sqlite3 as _sq
-        cx = _sq.connect(f"file:{a.corpus_db}?mode=ro", uri=True)
-        for uid, grade, quote in cx.execute(
-                "SELECT id, grade, quote FROM units WHERE topics LIKE ? ORDER BY grade, id",
-                (f'%"{a.corpus_topic}"%',)):
-            cquotes.append((uid, grade, quote))
-        cx.close()
-    nodes = robo.premises(a.work, a.verses)
+    try:
+        title, quotes, frames = "", [], []
+        if a.owner:
+            title, quotes, frames, raw = owner_blocks(a.owner)
+        if a.research:
+            rtitle, rquotes, rframes, _ = owner_blocks(a.research)
+        else:
+            rtitle, rquotes, rframes = "", [], []
+        cquotes = []
+        if a.corpus_db and a.corpus_topic:
+            import sqlite3 as _sq
+            cx = _sq.connect(f"file:{a.corpus_db}?mode=ro", uri=True)
+            for uid, grade, quote in cx.execute(
+                    "SELECT id, grade, quote FROM units WHERE topics LIKE ? ORDER BY grade, id",
+                    (f'%"{a.corpus_topic}"%',)):
+                cquotes.append((uid, grade, quote))
+            cx.close()
+        nodes = robo.premises(a.work, a.verses, a.chunk)
+        validate_theorems(a.work, a.chunk, a.theorems)
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        print(f'ERROR: {exc}', file=sys.stderr)
+        return 1
     if not nodes:
         print("ERROR: no banked nodes for verses", a.verses)
         return 1
+    sys.path.insert(0, str(robo.SVREAD / 'mcp'))
+    import audit as draft_audit
+    import claims as claim_table
     # FREEZE claims BEFORE any prose (essaygen invariant): no sentence may
     # introduce a proposition outside its linked frozen claims (TRANSITION
     # boilerplate excepted, non-substantive by construction).
@@ -97,14 +123,14 @@ def main() -> int:
             frozen.append({"id": f"CLM-{len(frozen)+1:03d}", "text": n["inference"],
                            "verse_id": vid, "tier": "R", "kind": "inference"})
     day = datetime.date.today().isoformat()
-    stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%H%M%S")
+    stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%H%M%S%f")
     marker_chunk = f"{a.work}:{a.chunk}"
     parts = [f"# {a.title or title or 'Untitled'} (EXPANSION DRAFT — compiled, never written)",
              "",
              f"- owner voice: `{a.owner}` (verbatim below, unaltered)" if a.owner
-             else "- owner voice: none (speculative topic - research voice only)",
-             f"- grounds: {a.work}:{a.chunk} ({len(nodes)} gold argmap units, R)",
-             (f"- formal: {', '.join(a.theorems)} (T, decide-verified)" if a.theorems else
+             else "- owner voice: none (speculative topic — research voice only)",
+             f"- grounds: {a.work}:{a.chunk} ({len(nodes)} candidate argmap units, R; bytes rechecked)",
+             (f"- formal: {', '.join(a.theorems)} (registry references; proof and textual entailment not checked)" if a.theorems else
               "- formal: none cited"),
              "- status: MACHINE-COMPILED, owner + scholar dispose; witness UNPINNED",
              "",
@@ -132,7 +158,7 @@ def main() -> int:
     if a.theorems:
         parts += ["", "## Formal note", ""]
         for t in a.theorems:
-            parts.append(f"- {t}: checked structure, weaker than the text (T, model only)")
+            parts.append(f"- {t}: unreviewed model reference; no proof-run receipt checked")
     parts += ["",
               "## Open questions (kept open, not smoothed)",
               "- Which banked premises does the owner's framing select, and which does it pass over?",
@@ -157,6 +183,9 @@ def main() -> int:
     receipt = draft_audit.audit(draft, refs=refs, sources=sources,
                                 identity="essay-compile/loop", model="compiler-v1")
     cited = sum(1 for c in table["claims"] if c["citation"] == "CITED")
+    verse_marked = sum(
+        1 for c in table["claims"]
+        if re.search(r"\[[A-Za-z0-9][A-Za-z0-9_.:-]{0,159}\]", json.dumps(c)))
     # Coverage (essaygen invariant): every tiered bullet links a frozen id.
     used = set(re.findall(r"\[CLM-\d+\]", draft))
     frozen_ids = {fc["id"] for fc in frozen}
@@ -169,12 +198,6 @@ def main() -> int:
         for b in orphan_bullets[:5]:
             print(f"  {b}")
         return 1
-    # Linker only sees [work:target] chunk markers; verse bullets carry
-    # [verse-id] markers by convention — count marker presence separately
-    # so the receipt doesn't understate citation hygiene.
-    verse_marked = sum(
-        1 for c in table["claims"]
-        if re.search(r"\[[A-Za-z0-9][A-Za-z0-9_.:-]{0,159}\]", json.dumps(c)))
     gpath = HERE / "data" / "expansion-graph.json"
     graph = json.loads(gpath.read_text(encoding="utf-8")) if gpath.is_file() else {
         "format": "trika-expansion-graph/1", "nodes": [], "edges": []}
@@ -192,13 +215,15 @@ def main() -> int:
     for t in a.theorems:
         tn = f"theorem:{t}"
         if not any(x["id"] == tn for x in graph["nodes"]):
-            graph["nodes"].append({"id": tn, "kind": "theorem", "tier": "T"})
+            graph["nodes"].append({"id": tn, "kind": "theorem-reference", "tier": "UNVERIFIED"})
+        else:
+            for node in graph['nodes']:
+                if node['id'] == tn:
+                    node.update(kind='theorem-reference', tier='UNVERIFIED')
         graph["edges"].append({"from": enode, "to": tn, "rel": "cites-formal"})
     gpath.write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n")
     l3, l4 = None, None
     if a.l3 or a.l4:
-        # L3: every substantive sentence traces to frozen claims or verbatim
-        # quotes (fail-closed); essence map per paragraph; kill register.
         paras = [p for p in re.split(r"\n\s*\n", draft) if p.strip()]
         untraced, essence = [], {}
         for i, para in enumerate(paras):
@@ -223,9 +248,6 @@ def main() -> int:
               "kill_register": [],
               "untraced": untraced}
     if a.l4:
-        # L4: per-paragraph DRAFT files (craft_notes + rejected + reads_against)
-        # + claim-overlap audit (paragraphs must CARRY claim text; low overlap
-        # = beautification drift, rework, never smoothed).
         dd = swarm / f"{slug}.l4"
         dd.mkdir(exist_ok=True)
         drafts, drifts = [], []
@@ -235,9 +257,6 @@ def main() -> int:
             words = re.findall(r"[a-zāīūṛṝḷḹēōṃḥṅñṭḍṇśṣ]+", para.lower())
             overlap = (sum(1 for w in set(words) if len(w) > 4 and w in claim_text)
                        / max(len({w for w in words if len(w) > 4}), 1))
-            # Voice quotes, headers, and receipt-metadata bullets carry no
-            # claims by design — drift applies to substance paras only
-            # (beauty must not dilute claims).
             head = para.strip()
             if overlap < 0.15 and len(words) > 20 and not head.startswith((">", "#")) \
                and not any(head.startswith("- " + k) for k in

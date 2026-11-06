@@ -2,6 +2,8 @@
  "format": "trika-bridge-composition/1",
  "date": "2026-11-06",
  "snapshot_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
+ "mapping_sha256": "55f4962b8112408cb1075099cc50ba93273276f4eb507e990732d7246b6a8f42",
+ "scope": "candidate metadata consistency only; dossier bytes, edition and witness not checked",
  "counts": {
   "COMPOSED": 23,
   "PARTIAL": 3,
@@ -16,6 +18,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-paramArthasAra",
    "dossier_sha256": "06aff5d6bfc29972a75d3ebeed03a096d75368705643bd5b80785130d9cf1354",
+   "record_sha256": "590e9ac806c19fa17e084cfe6d446f2638386e69ea8f68ffc9b0baa9f193f2bd",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -27,6 +30,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": null,
    "dossier_sha256": null,
+   "record_sha256": "d45c1d079e4b59cf075841455f6aa2b20e18fb4ee7c86035d4bf9945e5eafba7",
    "volumes": 1,
    "verdict": "PARTIAL"
   },
@@ -38,6 +42,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": null,
    "dossier_sha256": null,
+   "record_sha256": "6f35f2f0e1756390e43fa094d77dfc8f950c49a48820cf41dc961bbf0182ebf9",
    "volumes": 1,
    "verdict": "PARTIAL"
   },
@@ -49,6 +54,7 @@
    "record_status": "NO-SOURCE-RECORD",
    "openpatala_work_id": null,
    "dossier_sha256": null,
+   "record_sha256": "7b9bf96f11e3a3808852a3e81df043ebe70142ff37f1872dfd0fef56edac679b",
    "volumes": 0,
    "verdict": "DOUBLE-GAP"
   },
@@ -60,6 +66,7 @@
    "record_status": "NO-SOURCE-RECORD",
    "openpatala_work_id": null,
    "dossier_sha256": null,
+   "record_sha256": "e79244d1f71a14f466e69bbf15c8e83c7cc54413559b23aca73d3e4bfba2cbbb",
    "volumes": 0,
    "verdict": "DOUBLE-GAP"
   },
@@ -71,6 +78,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "eb2e62e9fe9404677a98784645dd196c6314e607a171c45e8611e42b5ffcbd36",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -82,6 +90,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "92dca7a135cb3752af1d3bee97df2160333409d58e65317586a0752ae269d0f6",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -93,6 +102,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "feae2660ac0fd815df2ebe6e216e9af709997bd5b291beeea8df44f4f7b8654d",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -104,6 +114,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "e8113d1e7e78023213186777a60895a13dfedc0fdbf2fb5450dbae09b8531fd1",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -115,6 +126,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "2ab762504060ea838b74062f0ee8bc504d9105130fa36d7d9784f806d0c7216e",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -126,6 +138,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "d5234c44428f6b43644453a9471fc848cf7e775d24b8d0630f4dcdd7f018ec0a",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -137,6 +150,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "c344505627d2ac1ecb9f483e6933a49624bd48793b4924902c382f12ad4a880f",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -148,6 +162,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "41482eba94ca0c054a8c742de645e5440bf75e3c10fc7ba71c00e45036f00d95",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -159,6 +174,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "5d2f5ba678c61f10012d58ed50a11a07ee51512d3765235309c5152d7583555b",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -170,6 +186,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "53b74cee95034876de9bb5bfbfd869aa9751d27e69e61355ef548320c9dcbdd1",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -181,6 +198,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "6b65eab3ff763fdd0e7471192c857258b74ffaa790ebb9a1fbc691c4804bf80b",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -192,6 +210,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "4819bebf437157029b47fdb138e6aefb0f8adc9989cd81aa882035bf70c8e5c0",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -203,6 +222,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "d828dee6e7e235bec676cb47d4cb7e451a51646fa8617448e5948e69e7614087",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -214,6 +234,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "b1bbad54cc381ed717c50727d5e88a4e20272c87d203d7830319301578d5934b",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -225,6 +246,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "7b7ff6d08a291b8b483d5e1960481dc90eee7a3636d0a7ec921379cb45817776",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -236,6 +258,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "8a4b923f3a60d0b7461b945f5f75f89f9e95cdc32cb690ab2be31fca87575a22",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -247,6 +270,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "24b7504a186ae8517890e8615addb3505a138afe8423b9c445e7bfb83976963a",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -258,6 +282,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "767059ba0804bdd286bc6395f2af87a3a3f3a2defd304af15132a84cdc058133",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -269,6 +294,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "f33716e34477fb13ba4166c0cd43c21d6a72ec2f181ffc987814db1dd411a2fb",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -280,6 +306,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "fafa2eb4e778d3fbdfa9416eca1a00128bc8bf99ef32a91f9f5b40e403c10bdc",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -291,6 +318,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "531ba328eadb1fb033c7452a78632a749350305aecbb4bdee827fb89984d0d55",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -302,6 +330,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
    "dossier_sha256": "6ae449cb9638014ffa43df22d1863e6054d1ffaca7ce7324067977a3b7a621b3",
+   "record_sha256": "1def71fc789ab1d7e9ea637ddad0fbc9bb35a8fe97f0935fce6a0c23bea355e9",
    "volumes": 1,
    "verdict": "COMPOSED"
   },
@@ -313,6 +342,7 @@
    "record_status": "RECORDED",
    "openpatala_work_id": null,
    "dossier_sha256": null,
+   "record_sha256": "36113caaf0cd87c578cd586f5053ec8a172a5f82b7616a7f13b2cf6e87831555",
    "volumes": 1,
    "verdict": "PARTIAL"
   }

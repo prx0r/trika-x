@@ -1,5 +1,7 @@
 """Coverage reports must not confuse missing data or work refs with passages."""
 import importlib.util
+import contextlib
+import io
 import json
 from pathlib import Path
 import subprocess
@@ -21,6 +23,8 @@ def load(name):
 
 treeka = load('treeka_formal')
 evidence = load('evidence_check')
+composition = load('compose_bridge')
+agreement = load('map_agreement')
 
 
 class ReportTests(unittest.TestCase):
@@ -74,6 +78,51 @@ class ReportTests(unittest.TestCase):
                 self.assertEqual(evidence.theorems(), {'A.lean :: same', 'B.lean :: same'})
             finally:
                 evidence.HERE, evidence.SOURCES = original_root, original_sources
+
+    def test_registry_work_dirs_and_ambiguous_locators_are_scoped(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            for name in ('new-work-a', 'new-work-b'):
+                (root / name).mkdir()
+                (root / name / 'passages.jsonl').write_text('{"locator":"same-p01","verses":"1-2"}\n')
+            original = treeka.EV
+            treeka.EV = {'works': {
+                'a': {'ledger':'translation-work/new-work-a/passages.jsonl', 'chunks':['same-p01']},
+                'b': {'ledger':'translation-work/new-work-b/passages.jsonl', 'chunks':['same-p01']}},
+                'entries': {'Demo.lean :: t': {'chunks':[{'locator':'same-p01'}]}}}
+            try:
+                output = io.StringIO()
+                with contextlib.redirect_stdout(output):
+                    self.assertEqual(treeka.report(root, True, 'revision'), 0)
+                rows = json.loads(output.getvalue())
+                self.assertEqual(len(rows), 2)
+                self.assertEqual({r['formal'] for r in rows}, {'ambiguous_reference'})
+                self.assertTrue(all(not r['formal_refs'] for r in rows))
+            finally:
+                treeka.EV = original
+
+    def test_candidate_composition_rejects_disagreeing_records(self):
+        digest = 'a' * 64
+        mapping = {'work': 'w', 'mapping_status': 'CANDIDATE',
+                   'openpatala_work_id': 'candidate', 'dossier': {'sha256': digest}}
+        record = {'work': 'w', 'status': 'RECORDED', 'openpatala': {
+                  'mapping_status': 'CANDIDATE', 'work_id': 'candidate', 'dossier_sha256': digest}}
+        self.assertEqual(composition.classify('w', mapping, record), 'COMPOSED')
+        self.assertEqual(composition.classify('w', mapping, None), 'PARTIAL')
+        record['openpatala']['work_id'] = 'different'
+        self.assertEqual(composition.classify('w', mapping, record), 'CONFLICT')
+        self.assertEqual(composition.classify('w', [], None), 'CONFLICT')
+        self.assertEqual(composition.classify('w', {'work': 'w', 'mapping_status': 'UNMAPPED',
+                         'openpatala_work_id': 'not-unmapped'}, None), 'CONFLICT')
+        self.assertEqual(composition.classify('w', {'work': 'w', 'mapping_status': 'INVALID'}, None), 'CONFLICT')
+
+    def test_string_similarity_is_not_work_identity(self):
+        self.assertEqual(agreement.verdict_for('tantrasara', 'CANDIDATE',
+                         'PTCND_sa_abhinavagupta-tantrasAra', 'CANDIDATE'), 'POSSIBLE-MATCH')
+        self.assertEqual(agreement.verdict_for('123', 'CANDIDATE',
+                         'abc', 'CANDIDATE'), 'DIFFERENT-KEYS')
+        self.assertEqual(agreement.verdict_for('same', 'CANDIDATE',
+                         'same', 'CANDIDATE'), 'AGREE-WORK')
 
 
 if __name__ == '__main__':

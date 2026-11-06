@@ -36,8 +36,9 @@
   },
   {
    "id": "theorem:Mala.lean :: count_3",
-   "kind": "theorem",
-   "tier": "T"
+   "kind": "theorem-reference",
+   "tier": "UNVERIFIED",
+   "note": "Historical compiler did not validate a proof run or textual entailment."
   },
   {
    "id": "essay:expansion-mala-objectivity-2026-11-06-123044",
