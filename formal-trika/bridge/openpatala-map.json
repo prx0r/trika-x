@@ -63,6 +63,186 @@
    "source_sha": "translation-work/spanda/source/{edition,manifest,record,segments}.json + ... (VERIFIED present)",
    "witness": "UNPINNED",
    "status": "CANDIDATE-WORK"
+  },
+  "tsa01": {
+   "ours": "translation-work/tantrasara-a01",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a01/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa02": {
+   "ours": "translation-work/tantrasara-a02",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a02/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa03": {
+   "ours": "translation-work/tantrasara-a03",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a03/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa04": {
+   "ours": "translation-work/tantrasara-a04",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a04/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa05": {
+   "ours": "translation-work/tantrasara-a05",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a05/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa06": {
+   "ours": "translation-work/tantrasara-a06",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a06/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa09": {
+   "ours": "translation-work/tantrasara-a09",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a09/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa10": {
+   "ours": "translation-work/tantrasara-a10",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a10/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa11": {
+   "ours": "translation-work/tantrasara-a11",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a11/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa12": {
+   "ours": "translation-work/tantrasara-a12",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a12/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa13": {
+   "ours": "translation-work/tantrasara-a13",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a13/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa14": {
+   "ours": "translation-work/tantrasara-a14",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a14/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa15": {
+   "ours": "translation-work/tantrasara-a15",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a15/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa16": {
+   "ours": "translation-work/tantrasara-a16",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a16/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa17": {
+   "ours": "translation-work/tantrasara-a17",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a17/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa18": {
+   "ours": "translation-work/tantrasara-a18",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a18/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa19": {
+   "ours": "translation-work/tantrasara-a19",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a19/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa20": {
+   "ours": "translation-work/tantrasara-a20",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a20/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa21": {
+   "ours": "translation-work/tantrasara-a21",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a21/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
+  },
+  "tsa22": {
+   "ours": "translation-work/tantrasara-a22",
+   "openpatala_work_key": "tantrasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_sha": "translation-work/tantrasara-a22/SOURCE.sha (VERIFIED present)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-EDITION"
   }
  },
  "note": "The resolver verifies exact passage-locator membership in the pinned snapshot; --tw additionally checks ledger bytes. Work and edition links remain candidates; witness identity is UNPINNED."

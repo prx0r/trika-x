@@ -55,7 +55,14 @@ def ledgers():
 
 
 WORK_OF = {"tsa08": "tsa08", "tsa07": "tsa07", "param": "param", "phr": "phr",
-           "vbt": "vbt", "spanda": "spanda", "span": "spanda", "tal": "tal15"}
+           "vbt": "vbt", "spanda": "spanda", "span": "spanda", "tal": "tal15",
+           "tsa01": "tsa01", "tsa02": "tsa02", "tsa03": "tsa03",
+           "tsa04": "tsa04", "tsa05": "tsa05", "tsa06": "tsa06",
+           "tsa09": "tsa09", "tsa10": "tsa10", "tsa11": "tsa11",
+           "tsa12": "tsa12", "tsa13": "tsa13", "tsa14": "tsa14",
+           "tsa15": "tsa15", "tsa16": "tsa16", "tsa17": "tsa17",
+           "tsa18": "tsa18", "tsa19": "tsa19", "tsa20": "tsa20",
+           "tsa21": "tsa21", "tsa22": "tsa22"}
 
 
 def work_of(locator):

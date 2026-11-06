@@ -643,3 +643,13 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   (613 markers ↔ 62 passages, mechanical via record_volume), bodhapancadasika
   CANDIDATE (exact GRETIL-ID match, builder rule skips non-segments kind),
   dossier LANGUAGE 'en' systematic quirk, 31 RECORDED-but-unmapped frontier.
+
+## Tsa-first pivot (owner: tantrasara finished, start there).
+
+- Reverted tal-a15 volume manifest (uncommitted; their tree clean again).
+  Tal recon is their last queue item — premature wiring, honest DOUBLE-GAP kept.
+- All 22 tsa ahnikas verified CANDIDATE + RECORDED + volumes (finished foundation).
+- Snapshot 7 → 27 works (153 passage IDs @9000e5c8): EVIDENCE/openpatala-map
+  line surgery + WORK_OF prefixes; bridge trinity lockstep verified by inventory.
+- Downstream: composition 23 COMPOSED / 3 PARTIAL / 1 DOUBLE-GAP; nodes 3101
+  (upstream added argmaps); treeka unargued 669 → 578.

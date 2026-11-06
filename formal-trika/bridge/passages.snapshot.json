@@ -1,7 +1,7 @@
 {
   "format": "trika-passage-snapshot/1",
   "repository": "https://github.com/prx0r/translation-work",
-  "revision": "e05e640e192a2ea5a317ba76b0f802f4f54e98cc",
+  "revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
   "works": {
     "param": {
       "ledger": "paramarthasara/passages.jsonl",
@@ -136,137 +136,8 @@
       ],
       "sha256": "932c5554f31d78a94f225b5df8c26b57c695409f183203ae0caad6f3e5ee3efe"
     },
-    "tsa07": {
-      "ledger": "tantrasara-a07/passages.jsonl",
-      "passages": [
-        {
-          "immutable_id": "pt:pid:ts:a07:5452ed74b7a9",
-          "locator": "tsa07-p01",
-          "verses": "7.1-7.28"
-        }
-      ],
-      "sha256": "97431b87befaed9d2916fd1ce007719359765069cca858d705f42f9b06590cf5"
-    },
-    "tsa08": {
-      "ledger": "tantrasara-a08/passages.jsonl",
-      "passages": [
-        {
-          "immutable_id": "pt:pid:ts:a08:5baba4be51e6",
-          "locator": "tsa08-p01",
-          "verses": "8.1-8.17"
-        },
-        {
-          "immutable_id": "pt:pid:ts:a08:11747ca0f435",
-          "locator": "tsa08-p02",
-          "verses": "8.18-8.38"
-        },
-        {
-          "immutable_id": "pt:pid:ts:a08:7f9e4b3307f2",
-          "locator": "tsa08-p03",
-          "verses": "8.39-8.64"
-        },
-        {
-          "immutable_id": "pt:pid:ts:a08:b934ea526829",
-          "locator": "tsa08-p04",
-          "verses": "8.65-8.93"
-        }
-      ],
-      "sha256": "ee765be8bdc54d2461819088e1d5e845a24ebc96289b86936c7453ac0d22ac52"
-    },
-    "vbt": {
-      "ledger": "vbt/passages.jsonl",
-      "passages": [
-        {
-          "immutable_id": "pt:pid:vbt:c1a27b8d2ddb",
-          "locator": "vbt-p01",
-          "verses": "2-11"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:23b67c93ed56",
-          "locator": "vbt-p02",
-          "verses": "12-21"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:2d955a3d5845",
-          "locator": "vbt-p03",
-          "verses": "22-31"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:7c783d3e48dc",
-          "locator": "vbt-p04",
-          "verses": "32-41"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:31ad8d3cd9d3",
-          "locator": "vbt-p05",
-          "verses": "42-51"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:b85914732e12",
-          "locator": "vbt-p06",
-          "verses": "52-61"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:dbf690f211b4",
-          "locator": "vbt-p07",
-          "verses": "62-71"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:98d72db52671",
-          "locator": "vbt-p08",
-          "verses": "72-81"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:8e3c2a0ed6fa",
-          "locator": "vbt-p09",
-          "verses": "82-91"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:1e539379aeb2",
-          "locator": "vbt-p10",
-          "verses": "92-101"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:02b323d3ea30",
-          "locator": "vbt-p11",
-          "verses": "102-111"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:9fbc5bad3919",
-          "locator": "vbt-p12",
-          "verses": "112-121"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:5ecec2b3360a",
-          "locator": "vbt-p13",
-          "verses": "122-131"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:39e60a84999a",
-          "locator": "vbt-p14",
-          "verses": "132-141"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:1c84524da827",
-          "locator": "vbt-p15",
-          "verses": "142-151"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:51a836d05f57",
-          "locator": "vbt-p16",
-          "verses": "152-161"
-        },
-        {
-          "immutable_id": "pt:pid:vbt:03d28b3a60bc",
-          "locator": "vbt-p17",
-          "verses": "162-162"
-        }
-      ],
-      "sha256": "8cc995174d807c533f004bf768a126cb8ac6d4909bab2b064daea77bafe08f61"
-    },
     "tal15": {
       "ledger": "tantraloka-a15/passages.jsonl",
-      "sha256": "2a67675ef5087a99c2e271257ac8052d61b20968bf116d2d77a9cf2f16c6fbde",
       "passages": [
         {
           "immutable_id": "pt:pid:tal:tantraloka-a15001",
@@ -578,7 +449,486 @@
           "locator": "tal-a15-p62",
           "verses": "15.611-15.613"
         }
-      ]
+      ],
+      "sha256": "2a67675ef5087a99c2e271257ac8052d61b20968bf116d2d77a9cf2f16c6fbde"
+    },
+    "tsa01": {
+      "ledger": "tantrasara-a01/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a01:3e3fa21b6ac3",
+          "locator": "tsa01-p01",
+          "verses": "1.1-1.5"
+        }
+      ],
+      "sha256": "13f69a231ce514273bc7cc376f5f28cc2674589f94d9b94166aede9b0701e28b"
+    },
+    "tsa02": {
+      "ledger": "tantrasara-a02/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a02:28a3ace66e1f",
+          "locator": "tsa02-p01",
+          "verses": "2.1-2.4"
+        }
+      ],
+      "sha256": "adf2488dfe4145d64beb89a381fe5b20d586c549f2ca549b75b938edf0f14832"
+    },
+    "tsa03": {
+      "ledger": "tantrasara-a03/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a03:ec3a0fb790e3",
+          "locator": "tsa03-p01",
+          "verses": "3.1-3.13"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a03:86e603daa1e4",
+          "locator": "tsa03-p02",
+          "verses": "3.14-3.34"
+        }
+      ],
+      "sha256": "9cd87a60c2e954e221ac86ea272f64fa094048e1111f5a52324d00540367e89f"
+    },
+    "tsa04": {
+      "ledger": "tantrasara-a04/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a04:65e2e60eaa28",
+          "locator": "tsa04-p01",
+          "verses": "4.1-4.17"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a04:319355141314",
+          "locator": "tsa04-p02",
+          "verses": "4.18-4.33"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a04:d38819637e44",
+          "locator": "tsa04-p03",
+          "verses": "4.34-4.46"
+        }
+      ],
+      "sha256": "683f9a1d1dc139074025904044aee5e559a5aec7e538a458a7b7b0332b56eabd"
+    },
+    "tsa05": {
+      "ledger": "tantrasara-a05/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a05:1543f1598b1c",
+          "locator": "tsa05-p01",
+          "verses": "5.1-5.19"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a05:4d154eed763c",
+          "locator": "tsa05-p02",
+          "verses": "5.20-5.43"
+        }
+      ],
+      "sha256": "ad8997fab5fef8bc0c598094510e84ff444a8bdfd05d74738e90f364f0f8e150"
+    },
+    "tsa06": {
+      "ledger": "tantrasara-a06/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a06:b628e168bf97",
+          "locator": "tsa06-p01",
+          "verses": "6.1-6.17"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a06:aa56d510a194",
+          "locator": "tsa06-p02",
+          "verses": "6.18-6.43"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a06:eeab5d3c2a2b",
+          "locator": "tsa06-p03",
+          "verses": "6.44-6.70"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a06:4badfdaaefe0",
+          "locator": "tsa06-p04",
+          "verses": "6.71-6.82"
+        }
+      ],
+      "sha256": "0c4a4d09410d3dd5eb5d2487f42fa7215e786ce28155161581bb7760f0cf9669"
+    },
+    "tsa07": {
+      "ledger": "tantrasara-a07/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a07:5452ed74b7a9",
+          "locator": "tsa07-p01",
+          "verses": "7.1-7.28"
+        }
+      ],
+      "sha256": "97431b87befaed9d2916fd1ce007719359765069cca858d705f42f9b06590cf5"
+    },
+    "tsa08": {
+      "ledger": "tantrasara-a08/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a08:5baba4be51e6",
+          "locator": "tsa08-p01",
+          "verses": "8.1-8.17"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a08:11747ca0f435",
+          "locator": "tsa08-p02",
+          "verses": "8.18-8.38"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a08:7f9e4b3307f2",
+          "locator": "tsa08-p03",
+          "verses": "8.39-8.64"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a08:b934ea526829",
+          "locator": "tsa08-p04",
+          "verses": "8.65-8.93"
+        }
+      ],
+      "sha256": "ee765be8bdc54d2461819088e1d5e845a24ebc96289b86936c7453ac0d22ac52"
+    },
+    "tsa09": {
+      "ledger": "tantrasara-a09/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a09:2cef78493792",
+          "locator": "tsa09-p01",
+          "verses": "9.1-9.16"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a09:e1c807651fd6",
+          "locator": "tsa09-p02",
+          "verses": "9.17-9.35"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a09:1205d1f54e67",
+          "locator": "tsa09-p03",
+          "verses": "9.36-9.53"
+        }
+      ],
+      "sha256": "228c944fc43a95a70860ad88ec45bd304fbda8cc0abe3929011f617854a9beae"
+    },
+    "tsa10": {
+      "ledger": "tantrasara-a10/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a10:a7312042ee92",
+          "locator": "tsa10-p01",
+          "verses": "10.1-10.18"
+        }
+      ],
+      "sha256": "980dd6f145d0f58d0b439711f991e1f60ae9f97dea1b9aabd8e0e1b26b4334e9"
+    },
+    "tsa11": {
+      "ledger": "tantrasara-a11/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a11:d80b4186da04",
+          "locator": "tsa11-p01",
+          "verses": "11.1-11.2"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a11:69d85b3756cc",
+          "locator": "tsa11-p02",
+          "verses": "11.3-11.3"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a11:15aaa3c9fa1d",
+          "locator": "tsa11-p03",
+          "verses": "11.4-11.4"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a11:ca6e60e17fb1",
+          "locator": "tsa11-p04",
+          "verses": "11.5-11.7"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a11:d0dabd01e185",
+          "locator": "tsa11-p05",
+          "verses": "11.8-11.10"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a11:7b7efd5b1e8b",
+          "locator": "tsa11-p06",
+          "verses": "11.11-11.13"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a11:bc2ca79ca284",
+          "locator": "tsa11-p07",
+          "verses": "11.14-11.16"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a11:7302f9581e80",
+          "locator": "tsa11-p08",
+          "verses": "11.17-11.19"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a11:c4f607ff6a88",
+          "locator": "tsa11-p09",
+          "verses": "11.20-11.22"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a11:7d37ae2fe6dc",
+          "locator": "tsa11-p10",
+          "verses": "11.23-11.25"
+        }
+      ],
+      "sha256": "89c14f0c723ff99754c8dacf3cc163b716d6063177225524bbc3ae4bccbe6618"
+    },
+    "tsa12": {
+      "ledger": "tantrasara-a12/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a12:1a0912144533",
+          "locator": "tsa12-p01",
+          "verses": "12.1-12.10"
+        }
+      ],
+      "sha256": "dc79176ed72c15603b24788862da9c7f825dbcd86bf3f263769f35f58f22c501"
+    },
+    "tsa13": {
+      "ledger": "tantrasara-a13/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a13:64f4e4852ada",
+          "locator": "tsa13-p01",
+          "verses": "13.1-13.19"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a13:d2b0b17f0b22",
+          "locator": "tsa13-p02",
+          "verses": "13.20-13.34"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a13:85d2fd4024a1",
+          "locator": "tsa13-p03",
+          "verses": "13.35-13.61"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a13:70b4dfd8db3f",
+          "locator": "tsa13-p04",
+          "verses": "13.62-13.101"
+        }
+      ],
+      "sha256": "b5509ee13799ec081ad6424f6c62e7b8bb204a4a6ef3eb4bae36f3000e4d4ac0"
+    },
+    "tsa14": {
+      "ledger": "tantrasara-a14/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a14:2aa67e0f9177",
+          "locator": "tsa14-p01",
+          "verses": "14.1-14.29"
+        }
+      ],
+      "sha256": "3a84e9aaf96c0545a25c53af15eab85be47e47fc60dd56cade2a9842ac2578a0"
+    },
+    "tsa15": {
+      "ledger": "tantrasara-a15/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a15:627b83567350",
+          "locator": "tsa15-p01",
+          "verses": "15.1-15.7"
+        }
+      ],
+      "sha256": "244c580cc14c5501c70c782dccdb0a51be0e411dac79b1dfe557a8559d3c508a"
+    },
+    "tsa16": {
+      "ledger": "tantrasara-a16/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a16:b4114057a846",
+          "locator": "tsa16-p01",
+          "verses": "16.1-16.24"
+        }
+      ],
+      "sha256": "8769eaa6a21ec0c587445623989bef5221e54ab8ff3e7e15dd6ad19c267f5fa1"
+    },
+    "tsa17": {
+      "ledger": "tantrasara-a17/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a17:db23385e14b6",
+          "locator": "tsa17-p01",
+          "verses": "17.1-17.6"
+        }
+      ],
+      "sha256": "72556480e79f0fe9cbbcefeab9290ce9f139d7dd6e600848a6b5786ade77df5c"
+    },
+    "tsa18": {
+      "ledger": "tantrasara-a18/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a18:d9ffbc899168",
+          "locator": "tsa18-p01",
+          "verses": "18.1-18.2"
+        }
+      ],
+      "sha256": "f648b4dd6cd9e3163369b8a3fab47215ec8e92d42f36da89d1c394fac9fc4d52"
+    },
+    "tsa19": {
+      "ledger": "tantrasara-a19/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a19:500a17cc749d",
+          "locator": "tsa19-p01",
+          "verses": "19.1-19.7"
+        }
+      ],
+      "sha256": "ebcb8b804a278d66bb4e83b9866f7712fc35757dc33b040fa6f55489e1701ecd"
+    },
+    "tsa20": {
+      "ledger": "tantrasara-a20/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a20:8d892a4f811e",
+          "locator": "tsa20-p01",
+          "verses": "20.1-20.20"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a20:edaaa3ccd3bc",
+          "locator": "tsa20-p02",
+          "verses": "20.21-20.35"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a20:9ba88c8463e6",
+          "locator": "tsa20-p03",
+          "verses": "20.36-20.52"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a20:3f1bb49714d5",
+          "locator": "tsa20-p04",
+          "verses": "20.53-20.65"
+        }
+      ],
+      "sha256": "34cc5b22e0c2072feb95e0dcc3b13ff6f6a7941346bea6693864ca76154e5896"
+    },
+    "tsa21": {
+      "ledger": "tantrasara-a21/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a21:fa93b07da4e5",
+          "locator": "tsa21-p01",
+          "verses": "21.1-21.13"
+        }
+      ],
+      "sha256": "598eaa3fde9633171148811453c0831d48d9f2ec676b8a04c826560e76782e5a"
+    },
+    "tsa22": {
+      "ledger": "tantrasara-a22/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:ts:a22:cc14a8088d13",
+          "locator": "tsa22-p01",
+          "verses": "22.1-22.11"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a22:03b8e922087a",
+          "locator": "tsa22-p02",
+          "verses": "22.12-22.33"
+        },
+        {
+          "immutable_id": "pt:pid:ts:a22:c16e60dd2453",
+          "locator": "tsa22-p03",
+          "verses": "22.34-22.54"
+        }
+      ],
+      "sha256": "28b1aa7c8848d5376cab1bc002889e48643c905afc4782ba44d35c8b1951dc02"
+    },
+    "vbt": {
+      "ledger": "vbt/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:vbt:c1a27b8d2ddb",
+          "locator": "vbt-p01",
+          "verses": "2-11"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:23b67c93ed56",
+          "locator": "vbt-p02",
+          "verses": "12-21"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:2d955a3d5845",
+          "locator": "vbt-p03",
+          "verses": "22-31"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:7c783d3e48dc",
+          "locator": "vbt-p04",
+          "verses": "32-41"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:31ad8d3cd9d3",
+          "locator": "vbt-p05",
+          "verses": "42-51"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:b85914732e12",
+          "locator": "vbt-p06",
+          "verses": "52-61"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:dbf690f211b4",
+          "locator": "vbt-p07",
+          "verses": "62-71"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:98d72db52671",
+          "locator": "vbt-p08",
+          "verses": "72-81"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:8e3c2a0ed6fa",
+          "locator": "vbt-p09",
+          "verses": "82-91"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:1e539379aeb2",
+          "locator": "vbt-p10",
+          "verses": "92-101"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:02b323d3ea30",
+          "locator": "vbt-p11",
+          "verses": "102-111"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:9fbc5bad3919",
+          "locator": "vbt-p12",
+          "verses": "112-121"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:5ecec2b3360a",
+          "locator": "vbt-p13",
+          "verses": "122-131"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:39e60a84999a",
+          "locator": "vbt-p14",
+          "verses": "132-141"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:1c84524da827",
+          "locator": "vbt-p15",
+          "verses": "142-151"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:51a836d05f57",
+          "locator": "vbt-p16",
+          "verses": "152-161"
+        },
+        {
+          "immutable_id": "pt:pid:vbt:03d28b3a60bc",
+          "locator": "vbt-p17",
+          "verses": "162-162"
+        }
+      ],
+      "sha256": "8cc995174d807c533f004bf768a126cb8ac6d4909bab2b064daea77bafe08f61"
     }
   }
 }
