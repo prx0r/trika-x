@@ -30,3 +30,7 @@ failures append with the next number — never edit a closed entry.
 - **F7 (2026-11-06): receipt slug collision.** roboscholar runs sharing a
   day-slug overwrote each other's drafts (3 runs, 1 survivor). Fixed with
   UTC HHMMSS slugs. Rule: every receipt id must be unique at write time.
+- **F8 (2026-11-06): built-but-uncommitted files.** Scorecard + arrivals
+  tool sat untracked for hours across 6 commits (found by status check,
+  not by process). Rule: `git status` is part of every commit command —
+  no push without reading it.
