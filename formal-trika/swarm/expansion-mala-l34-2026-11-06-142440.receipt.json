@@ -1,0 +1,211 @@
+{
+ "format": "expansion-receipt/3",
+ "essay": "expansion-mala-l34-2026-11-06-142440",
+ "date": "2026-11-06",
+ "owner_quotes": 6,
+ "banked_units": 2,
+ "theorems": [],
+ "frozen_claims": [
+  {
+   "id": "CLM-001",
+   "text": "iyati sākṣāt śivaḥ kartā — so far directly Śiva maker.",
+   "verse_id": "tsa-a08-v18",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-002",
+   "text": "aśuddhaṃ punar adhvānam anantāparanāmāghoreśaḥ sṛjati — impure path Aghoreśa-Ananta emits.",
+   "verse_id": "tsa-a08-v18",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-003",
+   "text": "īśvarecchāvaśena prakṣubdhabhogalolikānām aṇūnāṃ bhogasiddhyartham — by Lord's will, for wavered atoms' enjoyment-perfection.",
+   "verse_id": "tsa-a08-v18",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-004",
+   "text": "Aghoreśa-Ananta emits the impure path for craving atoms.",
+   "verse_id": "tsa-a08-v18",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-005",
+   "text": "tatra loliko 'pūrṇam anyatārūpaḥ parispandaḥ akarmakam abhilāṣamātram eva bhaviṣyad avacchedayogyateti — waverer, incomplete, other-natured throbbing, mere longing, future fitness for bounding.",
+   "verse_id": "tsa-a08-v19",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-006",
+   "text": "na malaḥ puṃsas tattvāntaram — not man's impurity nor another category.",
+   "verse_id": "tsa-a08-v19",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-007",
+   "text": "Craving = mere longing, not impurity, no new category.",
+   "verse_id": "tsa-a08-v19",
+   "tier": "R",
+   "kind": "inference"
+  }
+ ],
+ "coverage": {
+  "orphan_bullets": [],
+  "unused_claims": [
+   "CLM-001",
+   "CLM-002",
+   "CLM-003",
+   "CLM-004",
+   "CLM-005",
+   "CLM-006",
+   "CLM-007"
+  ]
+ },
+ "claims": "1/7 CITED + 0 verse-marked",
+ "audit": {
+  "content_sha256": "32dd747750d22c4f451c899e68af9e008516f4192997d49f005c16a7be2d3035",
+  "verifier": "essay-compile/loop",
+  "model": "compiler-v1",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p02: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-001] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-002] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-003] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-004] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-005] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-006] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-007] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v18]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v19]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: initiation... is the removal of impurity and with that fundamental impurity is r"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: When you're in Shambhavuppaya, you're experiencing pure nirvikalpa. Not a trace "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: As long as it does not become permanent, the Shambhava state degenerates back in"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: We find joy in practicing awareness of being of consciousness. Why? Because that"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: Anashrita Shiva means Shiva who has not come out from himself into the world of "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: That which is to be taught. Because it is the cause of what is rightly known... "
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "3 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T14:24:40Z"
+ },
+ "l3": {
+  "essence_map": {
+   "para-0": [],
+   "para-1": [],
+   "para-2": [],
+   "para-3": [],
+   "para-4": [],
+   "para-5": [
+    "[CLM-001]",
+    "[CLM-002]",
+    "[CLM-003]",
+    "[CLM-004]",
+    "[CLM-005]",
+    "[CLM-006]",
+    "[CLM-007]"
+   ],
+   "para-6": []
+  },
+  "read_aloud": "owed (assessor reads draft aloud, logs defects here)",
+  "kill_register": [],
+  "untraced": []
+ },
+ "l4": {
+  "drafts": [
+   "p00",
+   "p01",
+   "p02",
+   "p03",
+   "p04",
+   "p05",
+   "p06"
+  ],
+  "drift_paras": [],
+  "note": "drift = beautification without claims; rework or kill, never smooth"
+ },
+ "graph": {
+  "nodes": 83,
+  "edges": 94
+ },
+ "note": "compiled, not written: owner words verbatim; substance from frozen banked claims"
+}

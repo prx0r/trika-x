@@ -678,6 +678,54 @@
    "id": "verse:tantrasara-a08:tsa-a08-v02",
    "kind": "argmap-unit",
    "question": "What makes a category?"
+  },
+  {
+   "id": "essay:expansion-mala-freeze-test-2026-11-06-142144",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-mala-grace-corpus-2026-11-06-142245",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-mala-l34-test-2026-11-06-142359",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-mala-l34-test-2026-11-06-142409",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-mala-l34-2026-11-06-142424",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-mala-l34-2026-11-06-142440",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
   }
  ],
  "edges": [
@@ -1250,6 +1298,83 @@
   {
    "from": "essay:expansion-densities-adhvan-2026-11-06-140900",
    "to": "verse:tantrasara-a08:tsa-a08-v02",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-freeze-test-2026-11-06-142144",
+   "to": "verse:tantrasara-a08:tsa-a08-v18",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-freeze-test-2026-11-06-142144",
+   "to": "verse:tantrasara-a08:tsa-a08-v19",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-freeze-test-2026-11-06-142144",
+   "to": "verse:tantrasara-a08:tsa-a08-v20",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-freeze-test-2026-11-06-142144",
+   "to": "theorem:Mala.lean :: count_3",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-mala-grace-corpus-2026-11-06-142245",
+   "to": "verse:tantrasara-a08:tsa-a08-v22",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-l34-test-2026-11-06-142359",
+   "to": "verse:tantrasara-a08:tsa-a08-v18",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-l34-test-2026-11-06-142359",
+   "to": "verse:tantrasara-a08:tsa-a08-v19",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-l34-test-2026-11-06-142409",
+   "to": "verse:tantrasara-a08:tsa-a08-v18",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-l34-test-2026-11-06-142409",
+   "to": "verse:tantrasara-a08:tsa-a08-v19",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-l34-2026-11-06-142424",
+   "to": "verse:tantrasara-a08:tsa-a08-v18",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-l34-2026-11-06-142424",
+   "to": "verse:tantrasara-a08:tsa-a08-v19",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-l34-2026-11-06-142440",
+   "to": "verse:tantrasara-a08:tsa-a08-v18",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-l34-2026-11-06-142440",
+   "to": "verse:tantrasara-a08:tsa-a08-v19",
    "rel": "grounds-on",
    "tier": "R"
   }

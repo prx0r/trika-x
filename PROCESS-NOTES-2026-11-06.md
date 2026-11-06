@@ -1066,3 +1066,12 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   --corpus-topic (essay-corpus graded voice, proven on grace/10 quotes).
 - Research roundup filed (volume engine, R2 corpora/renders, GitHub repos,
   density shelf). Endgame reconciliation filed (join keys + batch order).
+
+## L3/L4 essay passes (the endgame shape, proven on mala).
+
+- essay_compile --l3/--l4: sentence tracing fail-closed (quote-context
+  fix, metadata exemptions), per-paragraph DRAFTs, drift audit with
+  voice/structural exemptions. Pilot: 0 untraced, 0 drifts.
+- Discipline change: roboscholar drafts demoted to exploratory — canonical
+  path is compile+L3+L4 (never write a paragraph, only justified edits).
+- Endgame essay = structured data + audits + 2-3 sharpening rounds. Done.

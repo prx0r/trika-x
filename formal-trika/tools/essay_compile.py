@@ -56,6 +56,10 @@ def main() -> int:
                     help="essay-corpus sqlite (idea units by topic+grade as voice)")
     ap.add_argument("--corpus-topic", default="",
                     help="topic tag to SELECT from corpus (grade DESC)")
+    ap.add_argument("--l3", action="store_true",
+                    help="L3 pass: sentence-to-claim tracing enforced (fail-closed), essence map, kill register")
+    ap.add_argument("--l4", action="store_true",
+                    help="L4 pass: per-paragraph DRAFT files (craft_notes + rejected + reads_against) + claim-overlap audit")
     a = ap.parse_args()
     if a.owner is None and a.research is None:
         print("ERROR: need --owner and/or --research voice (compiler never writes voice)")
@@ -191,13 +195,69 @@ def main() -> int:
             graph["nodes"].append({"id": tn, "kind": "theorem", "tier": "T"})
         graph["edges"].append({"from": enode, "to": tn, "rel": "cites-formal"})
     gpath.write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n")
-    report = {"format": "expansion-receipt/2", "essay": slug, "date": day,
+    l3, l4 = None, None
+    if a.l3 or a.l4:
+        # L3: every substantive sentence traces to frozen claims or verbatim
+        # quotes (fail-closed); essence map per paragraph; kill register.
+        paras = [p for p in re.split(r"\n\s*\n", draft) if p.strip()]
+        untraced, essence = [], {}
+        for i, para in enumerate(paras):
+            sents = [s.strip() for s in re.split(r"(?<=[.!?])\s+", para) if s.strip()]
+            emap = []
+            in_quote = para.strip().startswith(">")
+            for s in sents:
+                ids = sorted(set(re.findall(r"\[CLM-\d+\]", s)))
+                quoted = in_quote or (s.startswith('"') or '"' in s[:120])
+                structural = s.startswith(("#", "-", "|"))
+                if not ids and not quoted and not structural:
+                    untraced.append({"para": i, "sentence": s[:120]})
+                emap.extend(ids)
+            essence[f"para-{i}"] = sorted(set(emap))
+        if untraced and a.l3:
+            print(f"ERROR L3: {len(untraced)} untraced sentences (no claim, quote, or structure):")
+            for u in untraced[:5]:
+                print(f"  p{u['para']}: {u['sentence']}")
+            return 1
+        l3 = {"essence_map": essence,
+              "read_aloud": "owed (assessor reads draft aloud, logs defects here)",
+              "kill_register": [],
+              "untraced": untraced}
+    if a.l4:
+        # L4: per-paragraph DRAFT files (craft_notes + rejected + reads_against)
+        # + claim-overlap audit (paragraphs must CARRY claim text; low overlap
+        # = beautification drift, rework, never smoothed).
+        dd = swarm / f"{slug}.l4"
+        dd.mkdir(exist_ok=True)
+        drafts, drifts = [], []
+        paras = [p for p in re.split(r"\n\s*\n", draft) if p.strip()]
+        claim_text = " ".join(fc["text"] for fc in frozen).lower()
+        for i, para in enumerate(paras):
+            words = re.findall(r"[a-zāīūṛṝḷḹēōṃḥṅñṭḍṇśṣ]+", para.lower())
+            overlap = (sum(1 for w in set(words) if len(w) > 4 and w in claim_text)
+                       / max(len({w for w in words if len(w) > 4}), 1))
+            # Voice quotes, headers, and receipt-metadata bullets carry no
+            # claims by design — drift applies to substance paras only
+            # (beauty must not dilute claims).
+            head = para.strip()
+            if overlap < 0.15 and len(words) > 20 and not head.startswith((">", "#")) \
+               and not any(head.startswith("- " + k) for k in
+                           ("owner voice", "grounds:", "formal:", "status:")):
+                drifts.append({"para": i, "overlap": round(overlap, 2)})
+            df = {"para": i, "text": para,
+                  "craft_notes": [], "rejected": [], "reads_against": [],
+                  "claim_overlap": round(overlap, 2)}
+            (dd / f"p{i:02d}.DRAFT.json").write_text(json.dumps(df, ensure_ascii=False, indent=1) + "\n")
+            drafts.append(f"p{i:02d}")
+        l4 = {"drafts": drafts, "drift_paras": drifts,
+              "note": "drift = beautification without claims; rework or kill, never smooth"}
+    report = {"format": "expansion-receipt/3", "essay": slug, "date": day,
               "owner_quotes": len(quotes), "banked_units": len(nodes),
               "theorems": a.theorems,
               "frozen_claims": frozen,
               "coverage": {"orphan_bullets": orphan_bullets, "unused_claims": unused},
               "claims": f"{cited}/{len(table['claims'])} CITED + {verse_marked} verse-marked",
               "audit": receipt,
+              "l3": l3, "l4": l4,
               "graph": {"nodes": len(graph["nodes"]), "edges": len(graph["edges"])},
               "note": "compiled, not written: owner words verbatim; substance from frozen banked claims"}
     (swarm / f"{slug}.receipt.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n")

@@ -25,8 +25,18 @@ a quotation.*
 - Output: `formal-trika/swarm/expansion-*.md` + `.receipt.json` (frozen
   claims, coverage, audit) + graph append. Status MACHINE-COMPILED.
 
-## Stage 2 — Prose (v6 passes)
+## Stage 2 — Prose L3/L4 (translation-work discipline for essays)
 
+- L3 (`--l3`): sentence-to-claim tracing enforced (untraced = fail),
+  essence map per paragraph, kill register, read-aloud owed. Sharp edits
+  only, each justified against a claim. The endgame essay is structured
+  data with audits: raw logical cruxes made beautiful WITHOUT writing —
+  never a paragraph authored, only layers of justified edits.
+- L4 (`--l4`): per-paragraph DRAFT files (craft_notes + rejected-with-
+  killers + reads_against) + claim-overlap audit (drift = beautification
+  without claims; rework or kill, never smooth).
+- Model-drafted prose (roboscholar/Qwen) is EXPLORATORY ONLY — never
+  enters the canonical path. Canonical = compiled + L3 + L4.
 - Protocol: volume `workengestation/transmissions/v6-algorithm.md` (7 axioms,
   Phase 0–6, checksums) + `CLAUDE4.md` (4-pass: Write→Identify→Repair→
   Texture) + `essaygenaudit.md` file map + `antislop.md` 15 rules.
