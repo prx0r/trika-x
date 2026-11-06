@@ -1223,3 +1223,13 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - Lingua essay:expansion atom (svread PR) routes drafts into shared
   language (metadata only, prose withheld). Formal-refs grammar still
   owed (cross-lane decision, in review packet notes).
+
+## Essay-tension-science circuit mapped.
+
+- Tension hub exists (lingua + 57 pushing records with tension field);
+  expansion essays lack tension links — spec'd (tensions field,
+  --tensions flag, tension-private check) in ESSAY-TENSION-SCIENCE.md.
+- Science inventory: BRIDGES-LEVIN + 5 shelves + PubMed-backed
+  counterparts + R2 bridge-essays (PMC/PubMed-joined) + Doyle mirror +
+  LQG shelf. Decision: archive-first, import_paper.py CLI, no science
+  MCP until archive + importer exist. arxiv + pubmed APIs verified live.
