@@ -109,6 +109,35 @@ sys.exit(1)
         with self.assertRaises(ValueError):
             kappa.cohen_kappa(a, b + ["anava"])
 
+    def test_pushback_mock_never_edits_and_shields(self):
+        import json
+        draft = self.dir / "draft.md"
+        draft.write_text('Claim one [w:t].\n\nOwner says "exact words" [w:t].\n')
+        refs = self.dir / "refs.json"
+        refs.write_text(json.dumps([{"kind": "chunk", "work": "w", "target": "t"}]))
+        out = self.dir / "report.md"
+        result = subprocess.run(
+            [sys.executable, str(ROOT / "tools" / "pushback.py"),
+             "--draft", str(draft), "--refs", str(refs),
+             "--model", "mock", "--out", str(out)],
+            text=True, capture_output=True)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        report = out.read_text()
+        self.assertIn("NEVER edits", report)
+        self.assertIn("OBJECTION 1", report)
+        # draft untouched
+        self.assertNotIn("OBJECTION", draft.read_text())
+        # verbatim shielding
+        out2 = self.dir / "report2.md"
+        result = subprocess.run(
+            [sys.executable, str(ROOT / "tools" / "pushback.py"),
+             "--draft", str(draft), "--refs", str(refs),
+             "--model", "mock", "--verbatim", "Owner says",
+             "--out", str(out2)],
+            text=True, capture_output=True)
+        self.assertEqual(result.returncode, 0)
+        self.assertIn("VERBATIM-SHIELDED", out2.read_text())
+
 
 if __name__ == "__main__":
     unittest.main()

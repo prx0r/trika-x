@@ -1,0 +1,42 @@
+{
+ "unit_id": "vbt-d001",
+ "kind": "practice-unit/1",
+ "dharana": 1,
+ "verse": 24,
+ "source_refs": [
+  {
+   "work": "vbt",
+   "locator": "vbt-p03",
+   "verse": 24,
+   "tier": "T-span (passage locator; verse text in T1, not quoted here)"
+  }
+ ],
+ "technique_R": "Stop breath — feel the unfilled void",
+ "technique_provenance": "R-gloss (vbt-daily entry); NOT root text — verify against T1 span before teaching",
+ "trains": "Prāṇa withdrawal into suṣumṇā",
+ "coord": "Āhnika 7 (Cakrodaya)",
+ "upaya": "Breath-Based (Āṇavopāya)",
+ "eligibility": {
+  "eligibility": "doable",
+  "rule": "doable-marker:breath|prāṇāyāma|inhal|exhal",
+  "cautions": [
+   "breath retention: not in pregnancy or with high blood pressure; keep short, stop on dizziness"
+  ]
+ },
+ "steps": [
+  {
+   "n": 1,
+   "text": "Stop breath — feel the unfilled void",
+   "from": "R-gloss (unscheduled: no seconds — model never writes timings)",
+   "seconds": null
+  }
+ ],
+ "safety": [
+  "breath retention: not in pregnancy or with high blood pressure; keep short, stop on dizziness"
+ ],
+ "ask_pointers": [
+  "effects/signs/powers, if any arise, are Ask material — never scripted promises"
+ ],
+ "status": "review",
+ "unit_sha256": "f7fda9b5160ee9b33f8c446a231e7daebf0aab1628e0e331cf97632ed33f652d"
+}

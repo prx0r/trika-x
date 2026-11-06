@@ -25,6 +25,8 @@ check KancukaCorr.lean
 check Grace.lean
 check Upaya.lean
 check EgoOrigin.lean
+check Heaps.lean
+check Application.lean
 mustfail Transitions.lean BrokenTrans.lean trec_preserves_embodiment
 mustfail NonEntail.lean BrokenNonEntail.lean abcde_without_f
 mustfail Conjuncts.lean BrokenConjuncts.lean misidentification_never_recognizes
@@ -36,5 +38,8 @@ mustfail Grace.lean BrokenGrace.lean flip_iff_ready_and_grace
 mustfail Upaya.lean BrokenUpaya.lean sakta_needs_purity
 mustfail EgoOrigin.lean BrokenEgoOrigin.lean sankhya_requires_cause
 mustfail EgoOrigin.lean BrokenEgoRival.lean nonrivalled_does_work
+mustfail Heaps.lean BrokenHeaps.lean heap_has_both_kinds
+mustfail Heaps.lean BrokenHeapsGuna.lean guna_exhaustive
+mustfail Application.lean BrokenApplication.lean unready_unreachable
 echo "== $pass passed, $fail failed =="
 [ "$fail" -eq 0 ]

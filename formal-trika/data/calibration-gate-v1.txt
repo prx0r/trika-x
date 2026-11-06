@@ -1,0 +1,15 @@
+n=200 seed=0 thresholds=gate-thresholds/1
+gold: gate-PASS 142/200 = 0.710
+corrupt:hallucinated: gate-PASS 47/200 = 0.235
+corrupt:truncated: gate-PASS 177/200 = 0.885
+corrupt:term-drift: gate-PASS 145/200 = 0.725
+corrupt:source-repeat: gate-PASS 18/200 = 0.090
+per-dimension PASS rates:
+  gold: SOURCE_BINDING=0.91 COVERAGE=1.00 ABSTENTION=0.96 TERM_CONSISTENCY=1.00 CITATION_GROUNDING=0.82
+  corrupt:hallucinated: SOURCE_BINDING=0.33 COVERAGE=1.00 ABSTENTION=0.96 TERM_CONSISTENCY=1.00 CITATION_GROUNDING=0.82
+  corrupt:truncated: SOURCE_BINDING=1.00 COVERAGE=0.94 ABSTENTION=1.00 TERM_CONSISTENCY=1.00 CITATION_GROUNDING=0.94
+  corrupt:term-drift: SOURCE_BINDING=0.91 COVERAGE=1.00 ABSTENTION=0.99 TERM_CONSISTENCY=1.00 CITATION_GROUNDING=0.82
+  corrupt:source-repeat: SOURCE_BINDING=1.00 COVERAGE=1.00 ABSTENTION=0.09 TERM_CONSISTENCY=0.99 CITATION_GROUNDING=0.98
+false-BLOCK (gold→BLOCKED): 0.290
+false-PASS (corrupt→PASS): corrupt:hallucinated=0.235 corrupt:truncated=0.885 corrupt:term-drift=0.725 corrupt:source-repeat=0.090
+verdict: GATE NEEDS TUNING — see per-dimension rates

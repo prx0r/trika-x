@@ -272,3 +272,27 @@ A pair differing in exactly one content field is not content-equal: the equality
 
 ## AnswerKey.lean :: key_grace_term
 KEY: the śaktipāta term is attested (pins the v35 quote to the machine surface).
+
+## Heaps.lean :: heap_has_both_kinds
+The heap holds five sense and five action faculties: both kinds present.
+
+## Heaps.lean :: heap_eleven
+The heap totals eleven instruments (5+5+1, ladder-consistent).
+
+## Heaps.lean :: guna_threefold
+The nature-heap admits exactly three guṇas.
+
+## Heaps.lean :: guna_exhaustive
+Each guṇa tags exactly one nature-state: no untagged, none double-tagged.
+
+## Avarana.lean :: course_ascends
+Every cross-course adjacent pair strictly ascends in course rank: the covering principle holds where courses differ.
+
+## Avarana.lean :: partial_order_honest
+An intra-course adjacent pair exists: within-course order is undetermined, exhibited not forced.
+
+## Application.lean :: unready_unreachable
+No flip and no means-reach without readiness: the study-fallback, backed across both models.
+
+## Application.lean :: grace_not_a_means
+A graced-but-unready state does not flip: grace is conjunctive with readiness, not a substitute means.

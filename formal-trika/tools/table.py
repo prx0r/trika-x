@@ -17,12 +17,14 @@ OUT = ROOT / "TABLE.md"
 SOURCES = ["control/Mala.lean", "control/Pramatr.lean",
            "control/Kancuka.lean", "control/Recognition.lean",
            "control/AnswerKey.lean", "control/Tattva.lean",
+           "control/Avarana.lean",
            "recognition/Transitions.lean",
            "recognition/NonEntail.lean", "recognition/Conjuncts.lean",
            "recognition/Memory.lean", "recognition/Tractatus.lean",
            "recognition/Coords.lean", "recognition/KancukaCorr.lean",
            "recognition/Grace.lean", "recognition/Upaya.lean",
-           "recognition/EgoOrigin.lean"]
+           "recognition/EgoOrigin.lean", "recognition/Heaps.lean",
+           "recognition/Application.lean"]
 
 
 def source_theorems():

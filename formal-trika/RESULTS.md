@@ -302,6 +302,96 @@ enumeration-collapse vacuous cases (recorded noise, prereg §2).
 
 ---
 
+## 2026-11-06 — Rung 4: heaps (E-HEAP: v71 instrument, v72 nature)
+
+Prereg: PREREGISTRATION-HEAPS-RUNG.md (E-HEAP1–4; thin-premise cap 0.65;
+parts-reading exhibited, causes-reading parked). T-tier ground: tsa08-p04
+argmap v71 (karaṇaskandha named) + v72 (threefold by guṇa difference).
+
+### What was built
+
+- **`Heaps.lean`** — instrument heap (5 sense + 5 action + mind = 11,
+  ladder-consistent) + 3-guṇa nature-states. 4 theorems, all `by decide`
+  (3 zero-axiom, `heap_has_both_kinds` on `[propext]` only).
+- **`BrokenHeaps.lean`** — action slots as sense dupes (heap stays 11):
+  `heap_has_both_kinds` refuses, siblings pass (surgical).
+- **`BrokenHeapsGuna.lean`** — tamas slot as rajas dupe (count stays 3):
+  `guna_exhaustive` refuses, `guna_threefold` passes (surgical).
+- Caught live: `++ [mind]` parsed inside the flatMap lambda (heap came
+  out 15, not 11) — found by running the check, fixed with parens,
+  recorded here. The discipline works.
+
+### Scoring (provisional)
+
+- **E-HEAP1–4: all PASS** (each with a must-fail twin for the two
+  load-bearing ones; E-HEAP2/3 are counts, twin-covered by family).
+- Recognition harness now **24/24**. Evidence **93 theorems, 91+2,
+  0 problems**. TABLE covers all 89+4. Coverage still 7/45 chunks —
+  heaps deepen tsa08-p04, no new chunk.
+- **Honest limits:** 5+5+1 reuses OUR ladder (consistency, not
+  independence); parts-vs-causes NOT decided; thin T premises cap what
+  the rung can ever claim.
+
+---
+
+## 2026-11-06 — Rung 5: āvaraṇa covering-chain (E-AVAR, first second key)
+
+Prereg: PREREGISTRATION-AVARANA-RUNG.md + same-day AMEND (chain
+tautology found by the twin BEFORE any recorded run — first draft
+derived links and cover from the same list; must_fail rejected the
+twin; redesigned to course-rank ascent). T-tier ground: tsa07-p01 v23.
+
+### What was built
+
+- **`Avarana.lean`** (imports Tattva.lean, like Pramatr imports Mala):
+  ladder list (R) + `covers` from INDEPENDENT course-rank rule (gross 0
+  < subtle 1 < mind 2 < impure 3 < pure 4, from v3–v22 magnitudes).
+  2 theorems (`course_ascends`, `partial_order_honest`), both on
+  `[propext]` only.
+- **`BrokenAvarana.lean`** (covering↔purePrinciple swap, single-line
+  diff): `course_ascends` refuses, sibling passes.
+- Genuine finding: the ladder is PARTIALLY ordered — six groups share
+  course .mind; v23 does not rank within a course. Exhibited, not forced.
+
+### Scoring (provisional)
+
+- **E-AVAR1r–3r: all PASS.** Control harness extended. First INDEPENDENT
+  structural constraint (order, disjoint from sizes) — one step toward
+  re-earning a compression claim (v9 embedding designed next).
+- **Honest limits:** order only; sizes untouched; ratio stays downgraded.
+
+---
+
+## 2026-11-06 — Rung 6: applications (A-APP, first consumed theorem)
+
+Prereg: PREREGISTRATION-APPLICATION-RUNG.md (A-APP1–2). Composes Grace
+(flip needs ready∧grace) + Upaya (every means needs ready) with NO
+imports — restates the shared precondition explicitly, cites both.
+
+### What was built
+
+- **`Application.lean`** — product PracticeState {ready, grace, pure}:
+  `unready_unreachable` (¬ready ⟹ no flip under any means),
+  `grace_not_a_means` (graced-but-unready does not flip). Both
+  zero-axiom.
+- **`BrokenApplication.lean`** (flip := grace ∧ (ready ∨ ¬pure):
+  impure-unready flips when graced; A-APP2 witness stays unflipped):
+  `unready_unreachable` refuses, sibling passes. (First twin draft was
+  over-broad — harness rejected it; surgical redraft passed. Twice in
+  one session the negative controls caught design errors, not code bugs.)
+- Consumer wired by citation: syllabus compiler's study-fallback
+  (eligibility.py unknown → study) now cites A-APP1 as its formal
+  backing. First rung whose theorem is USED downstream.
+
+### Scoring (provisional)
+
+- **A-APP1–2: PASS.** See runs ledger for harness totals.
+  EVIDENCE 97/95+2 clean. Dynamic audit: both zero-axiom.
+- **Honest limits:** a compiler rule, not a prescription, not a guru.
+  Composition is ours (R); T ground inherited.
+
+---
+
 ## What "done" would look like (honest checklist)
 - [ ] Every unarmed chunk with an argmap formalized or explicitly parked
 - [ ] Witnesses pinned (needs openpatala resolver)

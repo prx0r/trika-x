@@ -1,0 +1,78 @@
+{
+ "register": "tantrasara-slang/1",
+ "files": [
+  {
+   "file": "tantrasara1",
+   "path": "/root/visuals/outputs/awesome-essays-extracted/awesome-essays/tantrasara1",
+   "bytes": 6281,
+   "sha256": "c21852882c672c44783e26cd21b48466d2697ca2d6b505ad25904f223197d5a2",
+   "head": "\nTantrasāra — Chapter 1\nAbhinavagupta, circa 1000 CE · Slang Edition\n\nThe Essence of Tantra: or, why you’re literally Śiva and somehow haven’t clocked it yet.\n\n",
+   "status": "READY"
+  },
+  {
+   "file": "tantrasara2",
+   "path": "/root/visuals/outputs/awesome-essays-extracted/awesome-essays/tantrasara2",
+   "bytes": 6244,
+   "sha256": "6d5c1bc8231cb22ceaf5237697ebfdb233bcc9889a9fbc6a8104a236a3fe2925",
+   "head": "\n\n\n\nTantrasāra — Chapter 2\nअनुपायप्रकाशनम् — Anupāyaprakāśanam\n\nThe Pathless Path: or, how to attain Śiva without doing a single bloody thing.\n\nRight.\n\nLast cha",
+   "status": "READY"
+  },
+  {
+   "file": "tantrasara3",
+   "path": "/root/visuals/outputs/awesome-essays-extracted/awesome-essays/tantrasara3",
+   "bytes": 89023,
+   "sha256": "25287ce922c6cd9063943eb925703d05b3a4524dfeb94aa0cf9e312f9e17d185",
+   "head": "\n\nSkip to content\nUsing Gmail with screen readers\nThis browser version is no longer supported. Please upgrade to a supported browser.\n1 of 75\n(no subject)\nInbox",
+   "status": "READY"
+  },
+  {
+   "file": "tantrasara3-5",
+   "path": "/root/visuals/outputs/awesome-essays-extracted/awesome-essays/tantrasara3-5",
+   "bytes": 95791,
+   "sha256": "ff8940c76ac45fba4fe704ae8f8b8fa0bc61f3131d064bc68d1fb8fbc082291d",
+   "head": "Gmail\tPrior Trades <tradesprior@gmail.com>\n(no subject)\nPrior Trades <tradesprior@gmail.com>\t2 November 2026 at 14:16\nTo: idonietas@gmail.com\nTantrasāra — Chapt",
+   "status": "READY"
+  },
+  {
+   "file": "tantrasara6-9",
+   "path": "/root/visuals/outputs/awesome-essays-extracted/awesome-essays/tantrasara6-9",
+   "bytes": 142539,
+   "sha256": "c46b6398d1c523965cd227b9fb9502ba74ac13351aac4aaec1241740dfc7f531",
+   "head": "Gmail\tPrior Trades <tradesprior@gmail.com>\n(no subject)\nPrior Trades <tradesprior@gmail.com>\t2 November 2026 at 14:30\nTo: idonietas@gmail.com\nTantrasāra — Chapt",
+   "status": "READY"
+  },
+  {
+   "file": "tantrasara9-13",
+   "path": "/root/visuals/outputs/awesome-essays-extracted/awesome-essays/tantrasara9-13",
+   "bytes": 243428,
+   "sha256": "cb4bd300bade934a4b1fbf6dcb467184edb28086c4339723d8ca018cd8221ce1",
+   "head": "Gmail\tPrior Trades <tradesprior@gmail.com>\n(no subject)\nPrior Trades <tradesprior@gmail.com>\t2 November 2026 at 14:34\nTo: idonietas@gmail.com\nTantrasāra — Chapt",
+   "status": "READY"
+  },
+  {
+   "file": "tantrasara13-19",
+   "path": "/root/visuals/outputs/awesome-essays-extracted/awesome-essays/tantrasara13-19",
+   "bytes": 278583,
+   "sha256": "6bab76911ecad11e6d395db68d5eb63577d1a33cdf9e21797b2bc530af7d01ef",
+   "head": "Gmail\tPrior Trades <tradesprior@gmail.com>\n(no subject)\nPrior Trades <tradesprior@gmail.com>\t3 November 2026 at 06:21\nTo: idonietas@gmail.com\nTantrasāra — Chapt",
+   "status": "READY"
+  },
+  {
+   "file": "tantrasara19-22",
+   "path": "/root/visuals/outputs/awesome-essays-extracted/awesome-essays/tantrasara19-22",
+   "bytes": 298786,
+   "sha256": "9c7b7930c43d0ff634c5d64315fcab35e103ad46dc0f198c8367a307bf0a8cec",
+   "head": "Gmail\tPrior Trades <tradesprior@gmail.com>\n(no subject)\nPrior Trades <tradesprior@gmail.com>\t3 November 2026 at 06:25\nTo: idonietas@gmail.com\nTantrasāra — Chapt",
+   "status": "READY"
+  },
+  {
+   "file": "shivasutrasfinal",
+   "path": "/root/visuals/outputs/awesome-essays-extracted/awesome-essays/shivasutrasfinal",
+   "bytes": 378730,
+   "sha256": "a9708531028a0f0afbdd45e7f506f6776cf2ada98b39fa1eddfe74ae240eeaa5",
+   "head": "Gmail\tPrior Trades <tradesprior@gmail.com>\nAs\nPrior Trades <tradesprior@gmail.com>\t2 November 2026 at 17:30\nTo: idonietas@gmail.com\nशिवसूत्राणि — THE ŚIVA SŪTRA",
+   "status": "READY"
+  }
+ ],
+ "gate": "per-session grant (see CONSENT-SLANG-CHAT.md)"
+}

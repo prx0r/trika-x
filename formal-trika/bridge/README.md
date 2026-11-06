@@ -67,3 +67,30 @@ tar xzf openpatala-repo-2026-11-06.tar.gz -C /root/
 Verify before trusting: `sha256sum -c SHA256SUMS.txt` against downloaded files.
 The two files above were verified round-trip on 2026-11-06 (downloaded hashes
 match originals exactly).
+
+## Local populated DB (box recipe, A-track 2026-11-06)
+
+The R2 dump needs Postgres 18 (`pg_restore: unsupported version (1.16)`
+on PG15). Same 34-table schema builds version-free from the repo's own
+migrations; seeds are the JSON dossiers. Recipe (box-tested):
+
+```sh
+apt-get install -y postgresql
+service postgresql start
+su postgres -c "createdb openpatala"
+su postgres -c "psql -c \"CREATE ROLE patala LOGIN PASSWORD 'patala';\""
+cp /root/openpatala/migrations/*.sql /tmp/ && chmod 644 /tmp/*.sql
+su postgres -c "psql -d openpatala -f /tmp/001_create_all_tables.sql"
+su postgres -c "psql -d openpatala -f /tmp/002_add_missing_tables.sql"
+su postgres -c "psql -d openpatala -c 'GRANT ALL ON ALL TABLES IN SCHEMA public TO patala;'"
+su postgres -c "psql -d openpatala -c 'GRANT USAGE, SELECT ON ALL SEQUENCES IN SCHEMA public TO patala;'"
+python3 formal-trika/tools/openpatala_seed.py   # idempotent; see tool docstring
+```
+
+Seeded 2026-11-06: 444 works (260 availability + 184 gold dossiers),
+442 assertions, 121 external identifiers; events SKIPPED by design
+(dossier events are ID-only stubs — loading them would fabricate
+content); editions/witnesses/etexts/passages 0 (no source data anywhere:
+R2 dump empty, dossiers witness-free, registry witness-field-free).
+DSN convention: `postgresql://patala:patala@localhost:5432/openpatala`.
+Reruns are no-ops (ON CONFLICT DO NOTHING; verified (0,442)/(0,121)).

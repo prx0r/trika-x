@@ -94,7 +94,15 @@
     "EgoOrigin.lean :: accounts_differ_pureI": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Difference claim about OUR two admissions. No external evidence required beyond the file."},
     "EgoOrigin.lean :: accounts_differ_derivative": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Difference claim about OUR two admissions. No external evidence required beyond the file."},
     "EgoOrigin.lean :: nonrivalled_does_work": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v70 non-rivalled clause (structural side; load-bearing IN THIS MODEL)"}], "r_sources": [], "lived": []},
-    "EgoOrigin.lean :: feeling_makership_independent": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Separability claim about OUR bit-model, not a textual claim on v69 (c) (parked). No external evidence required."}
+    "EgoOrigin.lean :: feeling_makership_independent": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Separability claim about OUR bit-model, not a textual claim on v69 (c) (parked). No external evidence required."},
+    "Heaps.lean :: heap_has_both_kinds": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v71 instrument-heap named (structural side; single premise, thin)"}], "r_sources": [], "lived": []},
+    "Heaps.lean :: heap_eleven": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Count over OUR heap (5+5+1 reuses Tattva ladder sizes: consistency, not independent derivation). No external evidence required."},
+    "Heaps.lean :: guna_threefold": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v72 threefold by guna difference (structural side; single premise, thin)"}], "r_sources": [], "lived": []},
+    "Heaps.lean :: guna_exhaustive": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Per-guna tagging claim about OUR 3-state model. No external evidence required beyond the file."},
+    "Avarana.lean :: course_ascends": {"kind": "RULE", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v23 covering principle (rule side); ORDER list itself R"}], "r_sources": [], "lived": []},
+    "Avarana.lean :: partial_order_honest": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Underdetermination exhibit about OUR model (v23 leaves within-course order open). No external evidence required."},
+    "Application.lean :: unready_unreachable": {"kind": "MODEL", "chunks": [], "r_sources": ["Grace.lean flip (necessity side)", "Upaya.lean reach predicates (necessity side)"], "lived": [], "note": "Composed compiler rule (study-fallback backing). R composition; T ground inherited, no new T claims."},
+    "Application.lean :: grace_not_a_means": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Categorical distinction about OUR product model. No external evidence required beyond the file."}
   },
   "exemptions": {
     "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",
