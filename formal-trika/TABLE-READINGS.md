@@ -443,3 +443,9 @@ Peace outranks every other flavour, and nothing outranks peace: śānta on top, 
 
 ## Rasa.lean :: bliss_gradient
 Five blisses in strict ascent, innate to consciousness: the gradient climbs one way.
+
+## Closure.lean :: closure_instance
+Four face-normals, one zero sum: the regular tetrahedron closes — the constraint that grants geometry holds here, once, concretely.
+
+## Closure.lean :: normals_nonzero
+No face vanishes: four genuine normals, none of them nothing.

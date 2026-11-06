@@ -22,7 +22,7 @@ OPEN (hypothesis, paper owed) · IMPORT-OWED (paper known, not vendored).
 | 9 | Rasa / valence / camatkāra | Tymoczko geometry of music; Albers color; QRI shelf | COUNTERPART | HELD (rasa/ shelf) — `RASA-VALENCE-INTO-ESSAY.md` exists locally, not yet compiled |
 | 10 | Māyā / measurement / observer cut | QM interpretations (Maudlin, Rovelli relational) | OPEN | IMPORT-OWED — no Maudlin/Rovelli PDF held (only a Rovelli-bridge txt); first `import_paper.py` customer |
 | 11 | Upāyas (anava/sakta/sambhava/anupaya) | Contemplative neuroscience (meditation HRV — bridge record held: `bridge-arxiv-effect-of-meditation-on-heart-rate-variability`) | COUNTERPART | HELD — join unwritten |
-| 12 | FCC / 570 morontia bodies / 6 edges | Spinfoam vertex (4-simplex gluing); stabilizer entropy of quantum tetrahedra (PDF held) | ISOMORPHISM (claimed) | OPEN — `576lqg.md` claims, `decisive_test_symmetry.py` exists; needs Lean statement before essay may cite |
+| 12 | FCC / 570 morontia bodies / 6 edges | Spinfoam vertex (4-simplex gluing); stabilizer entropy of quantum tetrahedra (PDF held) | COUNTERPART (downgraded 2026-11-06) | `Closure.lean`: one integer closure instance checked + refusing twin; full isomorphism still unformalised — no essay may cite it |
 
 ## How the merge ships (mechanics, already half-built)
 

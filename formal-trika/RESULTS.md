@@ -749,3 +749,18 @@ T-TET; R2 aesthetics text vocabulary verified live before code).
   only. Green after fixes.
 - EVIDENCE 3 rows (r_sources → R2 text, H note); TABLE regenerated;
   evidence_check clean.
+
+## 2026-11-06 — Rung 20: closure instance (Closure, H) + row-12 verdict
+
+Merge-map build #3: attempted the Lean statement, recorded the honest
+outcome — **DOWNGRADE to COUNTERPART**.
+
+- **`Closure.lean`** — one integer normal-quad summing to zero
+  (`closure_instance`) + non-degeneracy (`normals_nonzero`), one
+  refusing twin (perturbed normal). Green.
+- The isomorphism (K₄ ↔ quantum tetrahedron) is NOT stated and cannot
+  be stated at this scope (no quantisation, volumes, spectra). Row 12
+  now reads COUNTERPART with the instance kept. No essay may cite the
+  isomorphism — the file header says so in-line.
+- EVIDENCE 2 rows (r_sources → 1607.08359, PDF import still owed);
+  TABLE 157 lines; evidence_check clean.

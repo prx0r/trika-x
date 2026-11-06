@@ -1772,6 +1772,24 @@
    ],
    "lived": [],
    "note": "H-tier: classical roster stipulated, see PREREGISTRATION-NAV-RUNG.md"
+  },
+  "Closure.lean :: closure_instance": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [
+    "arxiv:1607.08359 (Livine, closure as Bianchi identity — abstract verified; PDF import owed)"
+   ],
+   "lived": [],
+   "note": "H-tier: classical integer instance; isomorphism NOT stated, see file header verdict"
+  },
+  "Closure.lean :: normals_nonzero": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [
+    "arxiv:1607.08359 (Livine, closure as Bianchi identity — abstract verified; PDF import owed)"
+   ],
+   "lived": [],
+   "note": "H-tier: classical integer instance; isomorphism NOT stated, see file header verdict"
   }
  },
  "exemptions": {
