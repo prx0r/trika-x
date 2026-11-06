@@ -695,3 +695,17 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   unreviewed translation). Set-label counter-reading survives (inference-level).
 - Path note: manifest `file` fields are repo-root-relative (../ = above
   translation-work); consumers must join with repo root, not workdir.
+
+## Family-2 blindimai replication CLOSED (M9 done).
+
+- Mistral + qwen independently regenerate Upaya śāmbhava/śākta rules
+  EXACTLY (qwen even proves containment + count by rfl); VOCAB-GAP now
+  three-family consensus. Status: REPLICATED (encoding fidelity; T-C2 still owed).
+- Tool: blind_family2.py (same-prompt, receipted, neurons-logged). One null
+  content logged ERROR + retried (fail-closed, not data).
+- Federation check: 4cd4d3c3 is the largetext SWARM skill (beam drafts,
+  assessor judges, nothing canonical) — pack/video evidence_refs NOT yet
+  built. BACKBONE §5 stays spec; §11 slice dependency recorded.
+- PR #9 open (translation-work, zenodo provenance IDs); PR #8 reviewed
+  (adopt: receipt-replay validation, advisory labels, tmp fixtures — all
+  already our discipline; confirmed, no change needed).
