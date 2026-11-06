@@ -1035,3 +1035,14 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   never grounds. IPK-PARALLELS already does this; affirmed.
 - Bilara: SN55 probe green (segments parse, CC0). BUDDHIST-PATH-NOTE
   extended (fetter program, nibbanahelp coordination, no hand-rolled Pali).
+
+## Density/speculative track opened.
+
+- LAWOFONE-TRIKA-NOTE (inversions first: direction, grace-vs-graduation,
+  freedom-role, 51% gap) + CHANNELING-SABDA-NOTE (apta-test mapping,
+  quote-T/content-H rule) + 8 essay topics filed.
+- essay_compile --owner now optional with --research (speculative pilot
+  compiled: densities x adhvan). Limitation recorded: voice extraction
+  covers `>` quotes; Ra-style `*"` passages not yet parsed (no gold-plate).
+- Tetrahedron verdict stands: combinatorics green, metaphysics H, 9x4
+  tension open and essay-filed.

@@ -42,7 +42,8 @@ def owner_blocks(path: Path):
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__)
-    ap.add_argument("--owner", type=Path, required=True)
+    ap.add_argument("--owner", type=Path, default=None,
+                    help="owner essay file (verbatim voice; optional when --research given: speculative topics compile from research voice + banked chain)")
     ap.add_argument("--work", required=True)
     ap.add_argument("--chunk", required=True)
     ap.add_argument("--verses", nargs="+", required=True)
@@ -52,7 +53,12 @@ def main() -> int:
     ap.add_argument("--research", type=Path, default=None,
                     help="research-library essay/commentary file as second voice (verbatim quotes only)")
     a = ap.parse_args()
-    title, quotes, frames, raw = owner_blocks(a.owner)
+    if a.owner is None and a.research is None:
+        print("ERROR: need --owner and/or --research voice (compiler never writes voice)")
+        return 1
+    title, quotes, frames = "", [], []
+    if a.owner:
+        title, quotes, frames, raw = owner_blocks(a.owner)
     if a.research:
         rtitle, rquotes, rframes, _ = owner_blocks(a.research)
     else:
@@ -64,9 +70,10 @@ def main() -> int:
     day = datetime.date.today().isoformat()
     stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%H%M%S")
     marker_chunk = f"{a.work}:{a.chunk}"
-    parts = [f"# {a.title or title} (EXPANSION DRAFT — compiled, never written)",
+    parts = [f"# {a.title or title or 'Untitled'} (EXPANSION DRAFT — compiled, never written)",
              "",
-             f"- owner voice: `{a.owner}` (verbatim below, unaltered)",
+             f"- owner voice: `{a.owner}` (verbatim below, unaltered)" if a.owner
+             else "- owner voice: none (speculative topic - research voice only)",
              f"- grounds: {a.work}:{a.chunk} ({len(nodes)} gold argmap units, R)",
              (f"- formal: {', '.join(a.theorems)} (T, decide-verified)" if a.theorems else
               "- formal: none cited"),

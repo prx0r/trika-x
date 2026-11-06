@@ -660,6 +660,24 @@
    "chunk": "tantrasara-a08:tsa08-p02",
    "date": "2026-11-06",
    "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-densities-adhvan-2026-11-06-140900",
+   "kind": "expansion-draft",
+   "owner": "None",
+   "chunk": "tantrasara-a08:tsa08-p01",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "verse:tantrasara-a08:tsa-a08-v01",
+   "kind": "argmap-unit",
+   "question": "What is a tattva?"
+  },
+  {
+   "id": "verse:tantrasara-a08:tsa-a08-v02",
+   "kind": "argmap-unit",
+   "question": "What makes a category?"
   }
  ],
  "edges": [
@@ -1220,6 +1238,18 @@
   {
    "from": "essay:expansion-mala-research-voice-2026-11-06-133914",
    "to": "verse:tantrasara-a08:tsa-a08-v22",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-densities-adhvan-2026-11-06-140900",
+   "to": "verse:tantrasara-a08:tsa-a08-v01",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-densities-adhvan-2026-11-06-140900",
+   "to": "verse:tantrasara-a08:tsa-a08-v02",
    "rel": "grounds-on",
    "tier": "R"
   }
