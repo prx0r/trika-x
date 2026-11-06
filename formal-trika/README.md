@@ -57,10 +57,28 @@ attestation, and the hand-written mutants still require semantic diff review.
 
 The `treeka-research-index/2` graph records direct registry references without
 claiming the referenced passages are formalized; `formalized: null` means
-unknown. Its node and queue freshness is not verified. The practice pathway
+unknown. Matched node source/ledger bytes and queue membership are checked;
+their interpretation and source authority remain unverified. The practice pathway
 assembler currently emits study-only items; no review flag in an input file
 can authorize a practice. Cross-repository chain tests are optional and report
 skips if `IPVV_CHECKOUT` and `TRANSLATION_WORK` are unavailable.
+
+The committed graph inputs were rebuilt from a complete, clean translation-work
+checkout at `e05e640e192a2ea5a317ba76b0f802f4f54e98cc` and pushing pointers
+from ipvv `c2cb6b35272bfbd7824063b2fd769f388197495e`. To regenerate, supply
+those full checkouts (not the sparse six-work CI checkout):
+
+```sh
+python3 formal-trika/tools/build_source_map.py --tw "$TW" --out /tmp/trika-source-map.json
+python3 formal-trika/tools/argmap_nodes.py --tw "$TW"
+python3 formal-trika/tools/crux_queue.py --pushing "$IPVV/site/data/pushing"
+python3 formal-trika/tools/treeka.py --tw "$TW" --sourcemap /tmp/trika-source-map.json
+```
+
+Nodes with foreign, conflicting, reversed or ambiguous locators remain
+`UNKNOWN`. Byte hashes bind the candidate join to inputs; they do not validate
+the Sanskrit or the argmap. The queue's pushing paths are relative to the
+supplied pushing directory.
 
 Static axiom hygiene (no Lean needed):
 ```sh

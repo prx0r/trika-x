@@ -21,6 +21,7 @@ Usage: python3 formal-trika/tools/treeka.py [--tw PATH] [--out PATH]
 """
 import argparse
 import glob
+import hashlib
 import json
 from pathlib import Path
 
@@ -62,16 +63,63 @@ def formal_references(evidence):
     return {key: sorted(values) for key, values in refs.items()}
 
 
+def verify_inputs(tw, smap, nodes):
+    """Check the bytes behind every locator join, without claiming meaning."""
+    ledger_hashes = {}
+    for work, meta in smap.items():
+        if Path(work).name != work or work in ('.', '..'):
+            raise ValueError(f'invalid work directory: {work!r}')
+        data = (tw / work / 'passages.jsonl').read_bytes()
+        digest = hashlib.sha256(data).hexdigest()
+        if digest != meta.get('ledger_sha256'):
+            raise ValueError(f'source-map ledger hash mismatch for {work}')
+        ledger_hashes[work] = digest
+    source_hashes = {}
+    for node in nodes:
+        work = node.get('work')
+        if node.get('locator') == 'UNKNOWN' or work not in smap:
+            continue
+        path = Path(node.get('source_file') or '')
+        if path.is_absolute() or '..' in path.parts or not path.parts or path.parts[0] != work:
+            raise ValueError(f'invalid argmap source path for {work}')
+        if path not in source_hashes:
+            source_hashes[path] = hashlib.sha256((tw / path).read_bytes()).hexdigest()
+        if (node.get('source_file_sha256') != source_hashes[path] or
+                node.get('ledger_sha256') != ledger_hashes[work]):
+            raise ValueError(f'stale argmap or ledger for {work}: {path}')
+
+
+def verify_queue(nodes, queue, smap):
+    def identity(item, text):
+        return (item.get('work'), item.get('locator'), item.get('verse_id'),
+                item.get('source_file'), item.get('source_file_sha256'),
+                item.get('ledger_sha256'), text)
+    expected = {identity(n, u.strip()) for n in nodes for u in n.get('uncertainties', []) or []
+                if isinstance(u, str) and u.strip()}
+    for item in queue:
+        if (item.get('kind') != 'argmap-uncertainty' or item.get('locator') == 'UNKNOWN'
+                or item.get('work') not in smap):
+            continue
+        if identity(item, item.get('text')) not in expected:
+            raise ValueError('stale crux queue: no matching source node')
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--tw", type=Path, default=Path("/root/translation-work"))
     ap.add_argument("--sourcemap", type=Path, default=Path("/root/svread/source-map.json"))
+    ap.add_argument("--nodes", type=Path, default=HERE / "data" / "argmap-nodes.jsonl")
+    ap.add_argument("--queue", type=Path, default=HERE / "data" / "crux-queue.jsonl")
     ap.add_argument("--out", type=Path, default=HERE / "data" / "treeka.json")
     a = ap.parse_args()
     smap = json.loads(a.sourcemap.read_text(encoding="utf-8"))["works"]
-    nodes = load_jsonl(HERE / "data" / "argmap-nodes.jsonl")
-    queue = load_jsonl(HERE / "data" / "crux-queue.jsonl")
+    if not isinstance(smap, dict) or not smap:
+        raise ValueError('source map has no works')
+    nodes = load_jsonl(a.nodes)
+    queue = load_jsonl(a.queue)
     ev = json.loads((HERE / "EVIDENCE.json").read_text(encoding="utf-8"))
+    verify_inputs(a.tw, smap, nodes)
+    verify_queue(nodes, queue, smap)
     formal_refs = formal_references(ev)
     nodes_by_key, crux_by_key = {}, {}
     for n in nodes:
@@ -108,8 +156,17 @@ def main():
             ns = nodes_by_key.get((workdir, loc), [])
             argued = any(n.get("premises") for n in ns)
             refs = formal_refs.get((workdir, loc), [])
+            source_keys = sorted({(n['source_file'], n['source_file_sha256'],
+                                   n.get('translation_work_revision') or '',
+                                   n.get('source_checkout_state') or 'UNVERIFIED')
+                                  for n in ns})
             entry = {"work": workdir, "verses": p.get("verses"),
                      "argued": argued, "nodes": len(ns),
+                     "ledger_sha256": meta['ledger_sha256'],
+                     "argument_sources": [
+                         {'path': path, 'sha256': sha, 'translation_work_revision': rev or None,
+                          'checkout_state': state}
+                         for path, sha, rev, state in source_keys],
                      "cruxes": len(crux_by_key.get((workdir, loc), [])),
                      "formalized": None,
                      "formal_reference": bool(refs), "formal_refs": refs,
@@ -127,7 +184,7 @@ def main():
                 gaps["no_formal_reference"].append(key)
     doc = {"format": "treeka-research-index/2",
            "limitations": ["Registry references are unreviewed associations, not proof of a source-to-model interpretation.",
-                           "Node and queue freshness has not been verified by this index."],
+                           "Matched node and ledger bytes and queue membership are checked; semantic interpretation is not verified."],
            "works": works, "gaps": gaps, "ambiguous_locators": sorted(ambiguous),
            "counts": {"passages": len(works), **{k: len(v) for k, v in gaps.items()}}}
     a.out.write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n", encoding="utf-8")

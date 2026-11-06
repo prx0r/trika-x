@@ -29,7 +29,10 @@ def main():
     ap.add_argument("--out", type=Path, default=HERE.parent.parent / "svread" / "source-map.json")
     a = ap.parse_args()
     works = {}
-    for ledger in sorted(a.tw.glob("*/passages.jsonl")):
+    ledgers = sorted(a.tw.glob("*/passages.jsonl"))
+    if not ledgers:
+        raise SystemExit(f"no passage ledgers found under {a.tw}")
+    for ledger in ledgers:
         workdir = ledger.parent.name
         sha = hashlib.sha256(ledger.read_bytes()).hexdigest()
         n = sum(1 for ln in ledger.read_text(encoding="utf-8").splitlines() if ln.strip())
