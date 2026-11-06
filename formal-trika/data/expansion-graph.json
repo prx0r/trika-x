@@ -1,0 +1,123 @@
+{
+ "format": "trika-expansion-graph/1",
+ "nodes": [
+  {
+   "id": "essay:expansion-mala-objectivity-2026-11-06-123025",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "verse:tantrasara-a08:tsa-a08-v18",
+   "kind": "argmap-unit",
+   "question": "Who makes the impure path?"
+  },
+  {
+   "id": "verse:tantrasara-a08:tsa-a08-v19",
+   "kind": "argmap-unit",
+   "question": "Is craving impurity?"
+  },
+  {
+   "id": "verse:tantrasara-a08:tsa-a08-v20",
+   "kind": "argmap-unit",
+   "question": "What is passion?"
+  },
+  {
+   "id": "verse:tantrasara-a08:tsa-a08-v21",
+   "kind": "argmap-unit",
+   "question": "What is action?"
+  },
+  {
+   "id": "verse:tantrasara-a08:tsa-a08-v22",
+   "kind": "argmap-unit",
+   "question": "What is impurity?"
+  },
+  {
+   "id": "theorem:Mala.lean :: count_3",
+   "kind": "theorem",
+   "tier": "T"
+  },
+  {
+   "id": "essay:expansion-mala-objectivity-2026-11-06-123044",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  }
+ ],
+ "edges": [
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123025",
+   "to": "verse:tantrasara-a08:tsa-a08-v18",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123025",
+   "to": "verse:tantrasara-a08:tsa-a08-v19",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123025",
+   "to": "verse:tantrasara-a08:tsa-a08-v20",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123025",
+   "to": "verse:tantrasara-a08:tsa-a08-v21",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123025",
+   "to": "verse:tantrasara-a08:tsa-a08-v22",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123025",
+   "to": "theorem:Mala.lean :: count_3",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123044",
+   "to": "verse:tantrasara-a08:tsa-a08-v18",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123044",
+   "to": "verse:tantrasara-a08:tsa-a08-v19",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123044",
+   "to": "verse:tantrasara-a08:tsa-a08-v20",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123044",
+   "to": "verse:tantrasara-a08:tsa-a08-v21",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123044",
+   "to": "verse:tantrasara-a08:tsa-a08-v22",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-objectivity-2026-11-06-123044",
+   "to": "theorem:Mala.lean :: count_3",
+   "rel": "cites-formal"
+  }
+ ]
+}

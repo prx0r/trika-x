@@ -805,3 +805,15 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - Not built (sequenced): pushing-core reference openpatala fields (client
   side; lingua covers resolution instead — deferred by design), submission
   formal refs (grammar decision), Worker agent accounts (proposal owed).
+
+## Expansion-essay compiler (compiling, not writing).
+
+- tools/essay_compile.py: owner essay (verbatim quotes, never altered) +
+  banked argmap units (R) + theorems (T) + open questions → draft +
+  claim table + link/audit receipts + topic graph (data/expansion-graph.json).
+- Pilot mala-objectivity (E10 × tsa08-p02 v18-v22 + count_3): 6 quotes,
+  5 units, graph 8n/12e. Owner voice + audit chain composed, tiers held.
+- Respond-to-literature = phase 2 (external cites need scholar channel +
+  lore; argmap rule already allows scholarly refs as support, not claims).
+- expansion-essays/ dir (empty, purpose-built) receives PROMOTED drafts
+  only — owner disposes placement; swarm/ holds machine-proposed.
