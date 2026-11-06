@@ -419,6 +419,31 @@ imports — restates the shared precondition explicitly, cites both.
 
 ---
 
+## 2026-11-06 — Correction: PR #4 textual scope (merged 9073a25)
+
+Merged peer-built corrections (reviewed line-by-line; key compound
+`tanmātrapañcakākṣaikādaśa` verified in T1 line 39 pre-merge):
+- TK-R2's eleven reading was substantive-wrong (subtle+gross+mind);
+  corrected to faculties (5+5+1) with the grouped model repaired (kalā
+  in, māyā separate, pure 5, puruṣa subject) + TattvaInventory candidate
+  list + māyā-among-pure negative control. Old runs do not verify the
+  amended model (fresh runs recorded post-merge).
+- A-APP1 "consumed by compiler" claim WITHDRAWN as stated: the theorem
+  is a property of a stipulated product model; it does not validate
+  eligibility, readiness, or practice authorization (eligibility.py and
+  path_assemble.py now render STUDY-only; keyword/doable labels are
+  provisional, never authorizing).
+- Grace/Upaya T-pins downgraded to CONTEXT_ONLY / MODEL (v35, v17, v69
+  do not entail the Boolean rules; T-C2 agreement cannot authorize
+  advice). EVIDENCE carries the corrected notes; TABLE readings fixed
+  (eleven_wombed).
+- Practice assembler + pushback external-text rules tightened (opt-in,
+  no-DIY). My pre-merge artifacts re-rendered to the new law
+  (unit-vbt-d001 STUDY; path tests assert STUDY).
+- Standing corrected-record pattern: history kept, never edited.
+
+---
+
 ## 2026-11-06 — Rung 7: mala fuel (P-PUSH1, pushing row 2)
 
 Prereg: PREREGISTRATION-PUSHING-QUEUE.md (P-PUSH1a–c; row 1 deliberately

@@ -238,7 +238,7 @@ Whatever śākta reaches, śāmbhava reaches: ordering recorded as found.
 The 10× magnitude ladder yields exactly five gross elements.
 
 ## Tattva.lean :: eleven_wombed
-Ahaṃkāra's composition (5 subtle + 5 gross + 1 mind) sums to eleven: the "one-eleven-wombed" formula.
+Eleven faculties: five cognitive + five action + mind (7.9 akṣa-ekādaśa reading; corrected from subtle+gross+mind — see source review).
 
 ## Tattva.lean :: thirty_six
 The ten group-size clauses generate thirty-six principles in total, matching the tradition's count.
@@ -326,3 +326,27 @@ The page's semivowel order is exactly the alphabet's reversed: va-la-ra-ya mirro
 
 ## Reversal.lean :: span_reversed
 The page's 25-letter span is exactly alphabet ka-to-ma reversed: labials-to-gutturals mirrors gutturals-to-labials.
+
+## TattvaInventory.lean :: named_tattvas_36
+Candidate enumeration: 36 named tattvas in conventional descending order (five pure, māyā, five covers, puruṣa, nature, instruments, senses, subtles, gross).
+
+## TattvaInventory.lean :: named_tattvas_unique
+No duplicates in the 36-name list.
+
+## TattvaInventory.lean :: named_tattvas_exhaustive
+Every constructor of the inventory type appears in the list: the enumeration is complete over its own type.
+
+## TattvaInventory.lean :: pure_count
+Five pure principles (māyā and Ananta excluded).
+
+## TattvaInventory.lean :: kancuka_count
+Five coverings (kalā included).
+
+## TattvaInventory.lean :: maya_six_count
+Māyā plus the five: the six-cover reckoning counts six.
+
+## TattvaInventory.lean :: pure_excludes_maya
+Māyā is not among the pure five (placing it there is refused).
+
+## TattvaInventory.lean :: pure_and_kancukas_disjoint
+Pure five and coverings five share no member.

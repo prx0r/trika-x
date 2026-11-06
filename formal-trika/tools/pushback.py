@@ -131,7 +131,9 @@ def main():
         if a.model == "mock":
             out = mock_object(body, markers)
         elif a.model.startswith("go:"):
-            sys.path.insert(0, "/root/scripts")
+            import os as _os
+            _gb = _os.environ.get("GO_BEAM_PATH", "/root/scripts/go_beam.py")
+            sys.path.insert(0, os.path.dirname(_gb))
             import go_beam
             out, _use = go_beam.chat(
                 [{"role": "system", "content": (

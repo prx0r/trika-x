@@ -40,9 +40,12 @@ def main():
     u = json.loads(a.unit.read_text(encoding="utf-8"))
     elig = (u.get("eligibility") or {}).get("eligibility", "study")
     tech = " ".join(s.get("text", "") for s in u.get("steps", []))
+    # Study-only until a real review boundary exists (merged PR #4 law):
+    # no rendered mode authorizes practice; eligibility stays a provisional
+    # keyword label carried alongside, never an authorization.
     if elig == "requires-diksha":
         steps = []
-        gate = {"mode": "STUDY",
+        gate = {"mode": "STUDY", "practice_authorized": False,
                 "note": "Traditionally conferred; no practicable steps emitted.",
                 "conditions": u.get("safety", [])}
     else:
@@ -50,7 +53,9 @@ def main():
                   "title": (u.get("technique_R") or "")[:80],
                   "cue": "TODO-cue (reviewer)", "dur": None,
                   "region": "TODO-region (reviewer)"}]
-        gate = {"mode": "PRACTICE" if elig == "doable" else "STUDY"}
+        gate = {"mode": "STUDY", "practice_authorized": False,
+                "note": "Draft for source study; practice has not been authorized.",
+                "provisional_eligibility": elig}
     doc = {"id": f"{u.get('unit_id')}-syllabus", "kind": "syllabus/1",
            "from_unit": u.get("unit_id"), "from_sha": u.get("unit_sha256"),
            "source_refs": u.get("source_refs", []),
