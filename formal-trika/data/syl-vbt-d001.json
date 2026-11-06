@@ -2,7 +2,7 @@
  "id": "vbt-d001-syllabus",
  "kind": "syllabus/1",
  "from_unit": "vbt-d001",
- "from_sha": "f7fda9b5160ee9b33f8c446a231e7daebf0aab1628e0e331cf97632ed33f652d",
+ "from_sha": "a71fe7268d5b40663d69807854ce0b69e0b7e72bcb1c3b257e798e2daef243e7",
  "source_refs": [
   {
    "work": "vbt",
@@ -11,19 +11,15 @@
    "tier": "T-span (passage locator; verse text in T1, not quoted here)"
   }
  ],
- "eligibility": "doable",
+ "eligibility": "study",
  "gate": {
-  "mode": "PRACTICE"
+  "mode": "STUDY",
+  "practice_authorized": false,
+  "note": "Source study only; no executable practice steps are emitted.",
+  "conditions": [
+   "breath retention: source and individual safety review required"
+  ]
  },
- "steps": [
-  {
-   "id": "vbt-d001-s1",
-   "kind": "hold",
-   "title": "Stop breath — feel the unfilled void",
-   "cue": "TODO-cue (reviewer)",
-   "dur": null,
-   "region": "TODO-region (reviewer)"
-  }
- ],
- "provenance": "assembled from practice-unit (R-gloss); timings/cues/loci REVIEWER-filled downstream"
+ "steps": [],
+ "provenance": "study-only record from practice-unit; source and practice review remain open"
 }

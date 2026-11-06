@@ -12,6 +12,12 @@ corrected one. See [the source review](SANSKRIT-FOUNDATION-REVIEW-2026-11-06.md)
 Old runs do not verify a changed model; a fresh Lean run and independent
 source-to-model review are required.
 
+**Correction for T-C1:** the historical p-value below is a descriptive
+one-sided Fisher calculation on machine-proposed, owner-unreviewed labels.
+The arcs come from repeated observations of one person, so independence
+cannot be assumed; p=0.0462 does not establish that the rāga correspondence
+holds. The mapping remains an unvalidated interpretive hypothesis.
+
 ### Correction run — 2026-11-06
 
 Against the amended files on base `f42a2ea`, the pinned Lean 4.34.1 release
@@ -31,6 +37,14 @@ Exact source hashes: `Tattva.lean` SHA-256
 `3ae1d40958acccb78ccab135a20f2f2a6d94825fa6f989ba61261850826a7f33`.
 The Lean archive hash is the one in README; these checks establish properties
 of the amended models, not the accuracy of the Sanskrit interpretation.
+
+### Combined-branch checks — 2026-11-06
+
+After integrating main through `44e1a09`, Lean 4.34.1 compiled the combined
+control suite and rejected all nine intended mutants, including the restored
+`Pramatr.lean` negative control. The recognition suite reported 26/26
+positive and intended-negative checks. These are model checks, not
+independent verification of sources or interpretations.
 
 ---
 

@@ -9,17 +9,27 @@ body text). Private items are SKIPPED (visibility != public).
 Open = status not in {resolved, closed}. Output: data/tensions-export.jsonl.
 Usage: python3 formal-trika/tools/tensions_export.py
 """
+import argparse
 import json
+import os
 import re
 from pathlib import Path
 
-TENSIONS = Path("/root/nibbanahelp/tensions")
-OUT = Path("/root/trika-x/formal-trika/data/tensions-export.jsonl")
+ROOT = Path(__file__).resolve().parent.parent
+TENSIONS = Path(os.environ.get('NIBBANAHELP_CHECKOUT', ROOT.parent.parent / 'nibbanahelp')) / 'tensions'
+OUT = ROOT / 'data/tensions-export.jsonl'
 CLOSED = {"resolved", "closed"}
 
 
 def parse_header(text):
-    head = text.split("---", 1)[0] if "---" in text else text
+    # A file without the explicit header/body boundary is not safe to export:
+    # treating its body as headers could disclose text or invent visibility.
+    lines = text.splitlines()
+    try:
+        boundary = next(i for i, line in enumerate(lines) if line.strip() == '---')
+    except StopIteration:
+        return {}
+    head = '\n'.join(lines[:boundary])
     d = {}
     for line in head.splitlines():
         m = re.match(r"([A-Za-z_]+):\s*(.*)$", line.strip())
@@ -32,12 +42,15 @@ def parse_header(text):
 
 
 def main():
+    ap = argparse.ArgumentParser(description=__doc__)
+    ap.add_argument('--tensions', type=Path, default=TENSIONS)
+    ap.add_argument('--out', type=Path, default=OUT)
+    a = ap.parse_args()
+    if not a.tensions.is_dir():
+        raise SystemExit(f'tensions directory not found: {a.tensions}')
     cands = []
-    for fp in sorted(TENSIONS.glob("*.md")):
-        try:
-            h = parse_header(fp.read_text(encoding="utf-8"))
-        except OSError:
-            continue
+    for fp in sorted(a.tensions.glob("*.md")):
+        h = parse_header(fp.read_text(encoding="utf-8"))
         if h.get("visibility") != "public":
             continue
         status = (h.get("status") or "unknown").lower()
@@ -46,9 +59,9 @@ def main():
                       "domain": h.get("domain"), "roots": h.get("roots", []),
                       "factors": h.get("factors", []),
                       "summary": (h.get("summary") or "")[:200]})
-    OUT.write_text("\n".join(json.dumps(c, ensure_ascii=False) for c in cands) + "\n",
+    a.out.write_text("\n".join(json.dumps(c, ensure_ascii=False) for c in cands) + "\n",
                    encoding="utf-8")
-    print(f"tensions: {len(cands)} ({sum(1 for c in cands if c['open'])} open) -> {OUT}")
+    print(f"tensions: {len(cands)} ({sum(1 for c in cands if c['open'])} open) -> {a.out}")
 
 
 if __name__ == "__main__":

@@ -3,7 +3,7 @@
  "source": {
   "work": "Mālinīvijayottaratantra ch.3 vv36-41 (nādiphāntā + key stanza 36)",
   "etext": "Muktabodha M00160 (KSTS vol 37, ed. Śāstrī M.R. 1922)",
-  "license": "CC BY-NC 4.0 (MIRI header)",
+  "license": "Reported as CC BY-NC 4.0 in MIRI header; independently verify the source and licence",
   "fetched": "2026-11-06"
  },
  "verses": [
@@ -51,5 +51,5 @@
   }
  ],
  "agreement": "skeleton identical (eyes→ears→throat→heart→hips→knees→feet descent; NA→PHA termini)",
- "status": "EXTRACT (fair-use short passage for comparison; full text at MIRI)"
+ "status": "EXTRACT: edition, transcription, licence and reuse permissions require review; no commercial clearance established"
 }

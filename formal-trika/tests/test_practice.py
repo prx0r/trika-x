@@ -120,38 +120,26 @@ class PracticeTests(unittest.TestCase):
         self.assertIn("ONE truth", result.stdout)
 
 
+    def test_unit_to_syllabus_plug(self):
+        import tempfile
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            for eligibility, status in [('doable', 'approved'), ('study', 'review'),
+                                        ('requires-diksha', 'review')]:
+                unit = {'unit_id': 'synthetic', 'eligibility': {'eligibility': eligibility},
+                        'status': status, 'steps': [{'text': 'draft technique'}],
+                        'technique_R': 'draft technique'}
+                src, out = root / 'unit.json', root / 'score.json'
+                src.write_text(json.dumps(unit))
+                r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'unit_to_score.py'),
+                                    '--unit', str(src), '--out', str(out)],
+                                   text=True, capture_output=True)
+                self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+                result = json.loads(out.read_text())
+                self.assertEqual(result['steps'], [])
+                self.assertEqual(result['gate']['mode'], 'STUDY')
+                self.assertFalse(result['gate']['practice_authorized'])
+
+
 if __name__ == "__main__":
     unittest.main()
-
-    def test_unit_to_syllabus_plug(self):
-        import subprocess
-        import sys as _sys
-        out = Path("/tmp/syl-plug-test.json")
-        r = subprocess.run([_sys.executable, str(ROOT / "tools" / "unit_to_score.py"),
-                            "--unit", str(ROOT / "data" / "unit-vbt-d001.json"),
-                            "--out", str(out)], text=True, capture_output=True)
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        d = json.loads(out.read_text())
-        self.assertEqual(d["kind"], "syllabus/1")
-        self.assertEqual(d["from_unit"], "vbt-d001")
-        self.assertTrue(d["source_refs"])
-        # compiler-compat keys present; no timings written by model
-        for s in d["steps"]:
-            for k in ("id", "kind", "cue", "dur", "region"):
-                self.assertIn(k, s)
-            self.assertIsNone(s["dur"])
-        # diksha units emit no steps
-        du = {"unit_id": "vbt-dX", "unit_sha256": "x",
-              "eligibility": {"eligibility": "requires-diksha"},
-              "safety": ["conferred"], "source_refs": [], "steps": [],
-              "technique_R": "install deity with seed mantra"}
-        dp = Path("/tmp/du-plug-test.json")
-        dp.write_text(json.dumps(du))
-        out2 = Path("/tmp/syl-plug-test2.json")
-        r = subprocess.run([_sys.executable, str(ROOT / "tools" / "unit_to_score.py"),
-                            "--unit", str(dp), "--out", str(out2)],
-                           text=True, capture_output=True)
-        self.assertEqual(r.returncode, 0)
-        d2 = json.loads(out2.read_text())
-        self.assertEqual(d2["steps"], [])
-        self.assertEqual(d2["gate"]["mode"], "STUDY")

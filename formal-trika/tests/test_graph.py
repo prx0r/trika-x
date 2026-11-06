@@ -202,35 +202,46 @@ class GraphTests(unittest.TestCase):
 
     def test_tensions_export_public_only(self):
         import subprocess
-        import sys as _sys
-        r = subprocess.run([_sys.executable, str(ROOT / "tools" / "tensions_export.py")],
-                           text=True, capture_output=True)
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        import json as _json
-        rows = [_json.loads(l) for l in
-                (ROOT / "data" / "tensions-export.jsonl").read_text().splitlines() if l.strip()]
-        self.assertTrue(rows)
-        for c in rows:
-            self.assertEqual(c["kind"], "lived-tension")
-            self.assertIn("status", c)
-            self.assertNotIn("body", c)  # VOICE RULE: no body text crosses
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            (root / 'public.md').write_text('id: public-example\nvisibility: public\nstatus: open\nsummary: synthetic\n---\nSECRET BODY\n')
+            (root / 'private.md').write_text('id: private-example\nvisibility: private\n---\nSECRET BODY\n')
+            (root / 'unbounded.md').write_text('id: unbounded\nvisibility: public\nsummary: SECRET BODY\n')
+            out = root / 'export.jsonl'
+            r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'tensions_export.py'),
+                                '--tensions', str(root), '--out', str(out)],
+                               text=True, capture_output=True)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            exported = out.read_text()
+            rows = [json.loads(line) for line in exported.splitlines() if line.strip()]
+            self.assertEqual([row['id'] for row in rows], ['public-example'])
+            self.assertEqual(rows[0]['kind'], 'lived-tension')
+            self.assertNotIn('SECRET BODY', exported)
 
 
     def test_matrika_study_cards(self):
         import subprocess
-        import sys as _sys
-        r = subprocess.run([_sys.executable, str(ROOT / "tools" / "matrika_study.py")],
-                           text=True, capture_output=True)
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        import json as _json
-        d = _json.loads((ROOT / "data" / "matrika-study.json").read_text())
-        self.assertEqual(len(d["cards"]), 50)
-        for c in d["cards"]:
-            for k in ("phoneme", "dev", "matrika_locus", "malini_locus",
-                      "clip", "class", "study", "trika_link", "needs_scholar"):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            source = root / 'phonemes.json'
+            source.write_text(json.dumps({'phonemes': [{'iast': 'a', 'dev': 'अ',
+                'matrika': {'locus': 'candidate'}, 'malini': {'locus': 'candidate'},
+                'clip': 'sample', 'audio': {'verified': False},
+                'phonetic': {'class': 'vowel'}}]}))
+            out = root / 'study.json'
+            r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'matrika_study.py'),
+                                '--phonemes', str(source), '--out', str(out)],
+                               text=True, capture_output=True)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            d = json.loads(out.read_text())
+            self.assertEqual(len(d['cards']), 1)
+            c = d['cards'][0]
+            for k in ('phoneme', 'dev', 'matrika_locus', 'malini_locus',
+                      'clip', 'class', 'study', 'trika_link', 'needs_scholar'):
                 self.assertIn(k, c)
-            self.assertIsNone(c["trika_link"])  # doctrine never inferred
-            self.assertTrue(c["needs_scholar"])
+            self.assertIsNone(c['trika_link'])
+            self.assertIn('loci', c['needs_scholar'])
+            self.assertIn('source review', c['study'])
 
 
 if __name__ == "__main__":

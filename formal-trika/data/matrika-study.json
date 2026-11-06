@@ -1,8 +1,7 @@
 {
  "format": "matrika-study/1",
  "sources": [
-  "deitybody phonemes.json (loci+clips)",
-  "matrika_body_map v2 (truth)"
+  "deitybody phonemes.json (candidate loci and clips; independent body map not checked)"
  ],
  "cards": [
   {
@@ -13,9 +12,9 @@
    "clip": "a.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ā",
@@ -25,9 +24,9 @@
    "clip": "aa.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "i",
@@ -37,9 +36,9 @@
    "clip": "i.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ī",
@@ -49,9 +48,9 @@
    "clip": "ii.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "u",
@@ -61,9 +60,9 @@
    "clip": "u.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ū",
@@ -73,9 +72,9 @@
    "clip": "uu.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ṛ",
@@ -85,9 +84,9 @@
    "clip": "r.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ṝ",
@@ -97,9 +96,9 @@
    "clip": "rr.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ḷ",
@@ -109,9 +108,9 @@
    "clip": null,
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ḹ",
@@ -121,9 +120,9 @@
    "clip": null,
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "e",
@@ -133,9 +132,9 @@
    "clip": "e.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ai",
@@ -145,9 +144,9 @@
    "clip": "ai.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "o",
@@ -157,9 +156,9 @@
    "clip": "o.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "au",
@@ -169,9 +168,9 @@
    "clip": "au.ogg",
    "audio_verified": false,
    "class": "vowel",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "aṃ",
@@ -181,9 +180,9 @@
    "clip": "anusvara.ogg",
    "audio_verified": false,
    "class": "dependent",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "aḥ",
@@ -193,9 +192,9 @@
    "clip": "visarga.ogg",
    "audio_verified": false,
    "class": "dependent",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ka",
@@ -205,9 +204,9 @@
    "clip": "ka.ogg",
    "audio_verified": false,
    "class": "ka",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "kha",
@@ -217,9 +216,9 @@
    "clip": "kha.ogg",
    "audio_verified": false,
    "class": "ka",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ga",
@@ -229,9 +228,9 @@
    "clip": "ga.ogg",
    "audio_verified": false,
    "class": "ka",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "gha",
@@ -241,9 +240,9 @@
    "clip": "gha.ogg",
    "audio_verified": false,
    "class": "ka",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ṅa",
@@ -253,9 +252,9 @@
    "clip": "nga.ogg",
    "audio_verified": false,
    "class": "ka",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ca",
@@ -265,9 +264,9 @@
    "clip": "ca.ogg",
    "audio_verified": false,
    "class": "ca",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "cha",
@@ -277,9 +276,9 @@
    "clip": "cha.ogg",
    "audio_verified": false,
    "class": "ca",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ja",
@@ -289,9 +288,9 @@
    "clip": "ja.ogg",
    "audio_verified": false,
    "class": "ca",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "jha",
@@ -301,9 +300,9 @@
    "clip": "jha.ogg",
    "audio_verified": false,
    "class": "ca",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ña",
@@ -313,9 +312,9 @@
    "clip": "na_j.ogg",
    "audio_verified": false,
    "class": "ca",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ṭa",
@@ -325,9 +324,9 @@
    "clip": "ta1.ogg",
    "audio_verified": false,
    "class": "ṭa",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ṭha",
@@ -337,9 +336,9 @@
    "clip": "tha1.ogg",
    "audio_verified": false,
    "class": "ṭa",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ḍa",
@@ -349,9 +348,9 @@
    "clip": "da1.ogg",
    "audio_verified": false,
    "class": "ṭa",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ḍha",
@@ -361,9 +360,9 @@
    "clip": "dha1.ogg",
    "audio_verified": false,
    "class": "ṭa",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ṇa",
@@ -373,9 +372,9 @@
    "clip": "na_k.ogg",
    "audio_verified": false,
    "class": "ṭa",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ta",
@@ -385,9 +384,9 @@
    "clip": "ta.ogg",
    "audio_verified": false,
    "class": "ta",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "tha",
@@ -397,9 +396,9 @@
    "clip": "tha.ogg",
    "audio_verified": false,
    "class": "ta",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "da",
@@ -409,9 +408,9 @@
    "clip": "da.ogg",
    "audio_verified": false,
    "class": "ta",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "dha",
@@ -421,9 +420,9 @@
    "clip": "dha.ogg",
    "audio_verified": false,
    "class": "ta",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "na",
@@ -433,9 +432,9 @@
    "clip": "na.ogg",
    "audio_verified": false,
    "class": "ta",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "pa",
@@ -445,9 +444,9 @@
    "clip": "pa.ogg",
    "audio_verified": false,
    "class": "pa",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "pha",
@@ -457,9 +456,9 @@
    "clip": "pha.ogg",
    "audio_verified": false,
    "class": "pa",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ba",
@@ -469,9 +468,9 @@
    "clip": "ba.ogg",
    "audio_verified": false,
    "class": "pa",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "bha",
@@ -481,9 +480,9 @@
    "clip": "bha.ogg",
    "audio_verified": false,
    "class": "pa",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ma",
@@ -493,9 +492,9 @@
    "clip": "ma.ogg",
    "audio_verified": false,
    "class": "pa",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ya",
@@ -505,9 +504,9 @@
    "clip": "ya.ogg",
    "audio_verified": false,
    "class": "antastha",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ra",
@@ -517,9 +516,9 @@
    "clip": "ra.ogg",
    "audio_verified": false,
    "class": "antastha",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "la",
@@ -529,9 +528,9 @@
    "clip": "la.ogg",
    "audio_verified": false,
    "class": "antastha",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "va",
@@ -541,9 +540,9 @@
    "clip": "va.ogg",
    "audio_verified": false,
    "class": "antastha",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "śa",
@@ -553,9 +552,9 @@
    "clip": "sha.ogg",
    "audio_verified": false,
    "class": "ūṣman",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ṣa",
@@ -565,9 +564,9 @@
    "clip": "shha.ogg",
    "audio_verified": false,
    "class": "ūṣman",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "sa",
@@ -577,9 +576,9 @@
    "clip": "sa.ogg",
    "audio_verified": false,
    "class": "ūṣman",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "ha",
@@ -589,9 +588,9 @@
    "clip": "ha.ogg",
    "audio_verified": false,
    "class": "ūṣman",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   },
   {
    "phoneme": "kṣa",
@@ -601,9 +600,9 @@
    "clip": "ksa.ogg",
    "audio_verified": true,
    "class": "conjunct",
-   "study": "touch-first: sound + articulation + touch + locus; glyph later",
+   "study": "compare phoneme, audio and candidate loci; source review required",
    "trika_link": null,
-   "needs_scholar": "tattva-letter mapping needs scholar review (comparison tables exist, rights-reserved)"
+   "needs_scholar": "loci, sequence and any tattva-letter mapping need textual and scholar review"
   }
  ]
 }
