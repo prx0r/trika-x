@@ -306,3 +306,16 @@
   recorded (their assessor reads our models, not vice versa).
 - N7: owner-gated builds respected (ledger/trajectory/jev/vis-mode).
 - Suite 31/31. SYNERGIES-NIBBANA.md canonical for joins.
+
+## Deitybody catch-up (D1–D5 synergies).
+
+- Live engine reviewed (lab, chant dock voice1/voice2, mantra G0–G4 quiz,
+  PTv nights, VBT framework, compile_syllabus.py, audio audit). Lane
+  rules read (JSON contracts, no merge; provenance tiers; no forced
+  ratios; touch-first teaching order a+ā).
+- D1 WIRED: unit_to_score.py (practice-unit→syllabus steps, no timings,
+  diksha emits zero steps) verified against their compiler end-to-end
+  (vbt-d001 → hold event, REVIEW REQUIRED). Tests green.
+- D2 teaching order recorded (a+ā first, Mālinī after instrument known).
+- D3 E8 corrected from their audio truth (48+2, ḷḹ silence+flag).
+- Suite 32/32 (practice 6/6). SYNERGIES-DEITYBODY.md canonical.

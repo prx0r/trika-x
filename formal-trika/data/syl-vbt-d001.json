@@ -1,0 +1,29 @@
+{
+ "id": "vbt-d001-syllabus",
+ "kind": "syllabus/1",
+ "from_unit": "vbt-d001",
+ "from_sha": "f7fda9b5160ee9b33f8c446a231e7daebf0aab1628e0e331cf97632ed33f652d",
+ "source_refs": [
+  {
+   "work": "vbt",
+   "locator": "vbt-p03",
+   "verse": 24,
+   "tier": "T-span (passage locator; verse text in T1, not quoted here)"
+  }
+ ],
+ "eligibility": "doable",
+ "gate": {
+  "mode": "PRACTICE"
+ },
+ "steps": [
+  {
+   "id": "vbt-d001-s1",
+   "kind": "hold",
+   "title": "Stop breath — feel the unfilled void",
+   "cue": "TODO-cue (reviewer)",
+   "dur": null,
+   "region": "TODO-region (reviewer)"
+  }
+ ],
+ "provenance": "assembled from practice-unit (R-gloss); timings/cues/loci REVIEWER-filled downstream"
+}
