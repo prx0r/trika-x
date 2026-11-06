@@ -105,7 +105,6 @@ one shape (open → loosening → resolved-by-essay → video), status flips
 human-only, resolved tensions kept as lineage.
 
 ## 10. Autonomy (what runs without humans)
-
 Nightly verify (proposed cron, logs only); idempotent re-seeds; treeka
 refresh; calibration reruns before any threshold change; PUSHBACK on new
 drafts (mock now, live behind opt-in + quota); Mutate sweeps (transient
@@ -122,3 +121,32 @@ pack with refs → sealed video → taught unit → diary echo → teacher read.
 Plus endgame1 metrics adopted: 2× translation time, >95% span alignment,
 <1% unsupported additions (proof gate measures two of three today).
 Until the slice exists, display formal artifacts as research records only.
+
+## 12. Hardened laws (from PR #4 follow-up merges, 2026-11-06)
+
+1. **Pilot statistics are descriptive.** No HOLDS/NULL verdict language on
+   small-n, single-diarist, machine-proposed data (T-C1 p-value labeled
+   descriptive; independence never assumed). Prereg kill rules still decide
+   next steps; the p-value doesn't.
+2. **Study-only until a real review boundary exists.** Practice assembler,
+   unit renderer, and study cards emit STUDY with `practice_authorized:
+   false`; keyword `doable` labels and input status strings are provisional
+   and never authorize. Spine stations UNMAPPED, prereq edges empty until
+   verified prerequisites exist.
+3. **Joins are work-scoped with reason codes.** Argmap nodes resolve only
+   within their own work (EXACT_LOCATOR / LOCATOR_ONLY / FOREIGN_LOCATOR /
+   AMBIGUOUS_RANGE / NO_COORDINATE …); reversed ranges and cross-work
+   rescues fail instead of guessing; float coordinates (1.10→1.1) never
+   match; every index records git rev + dirty flag + ledger/file SHAs.
+4. **External text needs opt-in; checkouts are configurable.** Live model
+   calls require `--allow-external-text` (regex redaction is incomplete);
+   no hardcoded `/root/<repo>` paths — env overrides
+   (`SVREAD_CHECKOUT`, `GO_BEAM_PATH`, `SATSANG_PRACTICE_CHECKOUT`,
+   `NIBBANAHELP_CHECKOUT`, …) with same-box defaults. Tests use synthetic
+   tmp fixtures, never real units.
+5. **Export boundaries are fail-closed.** Tensions without an explicit
+   header/body boundary are skipped (never parsed as headers — disclosure
+   risk). Bodymap agreement checks candidate files, never source truth.
+6. **Coverage counts honestly.** Treeka v2 reports exact registry
+   references and keeps `formalized: null` for unknown; 45 listed ≠ 45
+   formalized (7 direct). Essay joins scope to the correct work.

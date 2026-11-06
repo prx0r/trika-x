@@ -612,3 +612,15 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   EVIDENCE 121/119+2, bridge 7/107 bytes-match, table green.
 - JSON discipline held (line-surgery ×4 this session; whole-dump
   reformat caught twice before commit).
+
+## PR #4 follow-ups merged (1862bca) + spec continued.
+
+- Reviewed dec5bc6 (argmap join rewrite: chapter-aware spans, no silent
+  swaps, FOREIGN/AMBIGUOUS reasons, git rev+dirty pinning, float trap —
+  strictly better), 99d1955 (study-only exports, T-C1 descriptive, tensions
+  boundary, bodymap candidate-agreement), a56b93b (synthetic-source tests).
+- Merged --no-ff (one run.sh conflict: my Nyasa echo line kept).
+- Post-merge battery: control 20 PASS, recognition 26/26, 46 unit tests,
+  evidence 121/119+2, table/axiom/vocab/blind/runs green, qp 11, claims 6.
+- Endgame spec §12: descriptive-pilots law, study-only law, work-scoped
+  joins, opt-in + configurability, export boundaries, honest coverage.
