@@ -879,3 +879,65 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   Routledge DOI, GRETIL txt, archive.org Chakravarty, wiki finding aid) +
   gaps (5 dossiers unmapped, Tantraloka dossier absent, Param/IPVV absent
   from atlas) + ours-queue. No fork.
+
+## Patalacheckpoints audit trail (P1-P15, in progress).
+
+- P1 governance: ONE RULE (anti-theatre), exact read-order, validators per
+  change (directory manifest, vision manifest, docs audit, docs_state).
+  Stronger doc hygiene than any live repo — adopt the validator pattern,
+  not the files.
+- P2 bibliography: 254 thin records + Trika audited depth (editions/
+  translations/traditions) + ingestion module (thin-JSON entity set,
+  never overwrites rich) + app surface (page.tsx) + Zotero-crosswalk
+  spec (additive, Pāṭala owns identity/epistemics). Verdict: reuse +
+  reference; my sweep already reconciled.
+- P3 Trika: audited.ts covers 11 (MVU, VBT, Paratrimsika cluster, TAL,
+  TSA, MVSlokavarttika, TSB, SSU, Spanda, laghuvrtti); Param/IPVV/
+  stotras absent (mine are first bibliography there). M-numbers thin
+  (2 files) — my 499-file M-index is new coverage.
+- P4 scholar layer: FaBiO/BIBFRAME + WebAnnotation + PROV-O + CiTO +
+  RO-Crate + IIIF composed (NOT invented) — my EVIDENCE/spans/receipts
+  map onto these; label, don't rebuild. TantraFact = unbuilt spec whose
+  shape my claim tables already satisfy (SciFact/FEVER trio).
+- P5 visions: V06 adversarial review == my PUSHBACK (independently
+  reinvented); V07 essay-as-rendering == starters loop; V08 warning
+  (never free-cleanup) already honored by signoff/grants model.
+- P6 integration: Nov-5 box-agent review already mapped visions↔live
+  stack (svread+ipvv+translation-work); adopt its 6 ranked items, don't
+  re-review. My lane adds: treeka/formal/essay-compile rows.
+- P7 IDs: pt:src canonical in pipeline/ + seeds; lingua has no pt:src
+  dimension — crosswalk table built (24 triple); alias gaps named.
+- P12 witness leads: Kramasadbhava proof cites Dyczkowski ed. Muktabodha
+  (NGMPP A 209/23) — concrete reel refs exist in old docs; OCHS +
+  NGMPP catalogue pointers in seed60 (lines ~388-410, unread yet).
+- P13 Lean: mentions only (peer-review/audit docs) — no implementation;
+  no duplication with formal-trika.
+- P10 tiers: ResourceTier A-E (provenance on resources) vs my T/R/X
+  (claim strength) — different axes, document mapping, never merge.
+
+## Patalacheckpoints full audit closed (P1-P20).
+
+- P1 governance noted (ONE RULE, validators, read-order). P2 biblio system
+  mapped (thin+rich+ingestion+app+Zotero spec). P3 Trika audited.ts (11).
+- P4 scholar stack: FaBiO/WebAnnotation/PROV-O/CiTO/RO-Crate/IIIF composed
+  (adopted as BACKBONE labels); TantraFact unbuilt spec == my claim shape.
+- P5 visions: V06 == PUSHBACK, V07 == starters loop, V08 honored already.
+- P6 Nov-5 box review stands; my lanes add treeka/formal/essay rows.
+- P7 pt:src canonical; crosswalk built (24 triple); alias gaps named.
+- P8 TWO-DB QUESTION (new, architectural): patala_core.atlas Postgres vs
+  box openpatala DB — different schemas, same R2 bucket. One DB or
+  crosswalk? Needs owner/lead ruling (not mine to merge).
+- P9 sivaqueue (Siddhanta paddhatis) vs treeka (cruxes): no overlap.
+- P10 ResourceTier A-E (provenance) vs T/R/X (strength): divergent by design.
+- P11 M-numbers thin there; my 499-file M-index is new coverage.
+- P12 witness leads: NGMPP A 209/23 (Kramasadbhava proof), OCHS + NGMPP
+  catalogue pointers (seed60 ~L388-410, partially read).
+- P13 Lean: mentions only, no implementation. P14 factory-certs L0-v1
+  exist (partially examined). P15 app/biblio serves today.
+- P16 dedup: reconciled everywhere; only open Q is two-DB (P8).
+- P17 adopted: standards labels (BACKBONE), V06 framing (already held),
+  essayguide backlog (thesis selection + argument graph missing — queued).
+- P18 KMT: 7 URL misses total (GRETIL patterns from their adapter tried);
+  stays scholar-channel (packet B9). M00547-51 liturgy local, tantra absent.
+- P19 freshness: patalacheckpoints tip Oct 7 (month dormant); Aug docs vs
+  Nov lanes covered by Nov-5 review + my PATALA-COVERAGE.

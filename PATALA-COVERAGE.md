@@ -23,3 +23,19 @@ never fork identity, never duplicate a registry. Status per capability.
 Known alias gaps (crosswalk NONE/PAIR that judgment could close):
 vbt→vijnanabhairava, sivasutra/spanda short keys, stotra variants.
 Aliases need lane agreement — proposed, not implemented.
+
+## Audit 2026-11-06 evening (patalacheckpoints full pass)
+
+- Standards composed per their stack rule (FaBiO/WebAnnotation/PROV-O/
+  CiTO as labels in BACKBONE; nothing rebuilt).
+- TantraFact shape == claim tables (spec unbuilt; export on activation).
+- V06/V07 framings already held; essayguide backlog (thesis selection +
+  argument graph) queued for essay track.
+- **Two-DB question (open, architectural):** patala_core.atlas Postgres
+  vs box openpatala DB — same R2 bucket, different schemas. One DB or
+  crosswalk needs owner/lead ruling.
+- Sivaqueue vs treeka: no overlap. ResourceTier vs T/R/X: divergent.
+- M-index: new coverage (theirs thin). Lean: no duplication.
+- KMT file: 7 misses; scholar channel stands. Frontier targets align
+  (Oct session note matches FRONTIER-READINESS).
+- Patalacheckpoints tip Oct 7 — dormant; live lanes carry the work.
