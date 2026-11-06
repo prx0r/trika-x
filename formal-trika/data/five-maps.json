@@ -1,0 +1,45 @@
+{
+ "format": "five-maps/1",
+ "maps": {
+  "TA15": {
+   "source": "translation-work/tantraloka-a15 (passages+T1+ARGMAP, 12 chunks)",
+   "body_key": "sanskrithelp matrika_body_map v2 (16 vowels + 7 vargas, frozen)",
+   "license": "mixed-roots (check per file)",
+   "status": "READY"
+  },
+  "MVT3": {
+   "source": "MIRI mAlinIvijayottaratan…-IAST.txt + Vasudeva Yoga (control)",
+   "license": "MIRI CC BY-NC 4.0",
+   "status": "FETCH-ON-SPRINT"
+  },
+  "SYM3": {
+   "source": "Törzsök thesis (23/32 chs; revised pending)",
+   "license": "thesis terms",
+   "status": "FETCH-ON-SPRINT"
+  },
+  "TSB3": {
+   "source": "Bang diss ch 3.96-132 (CC BY 4.0)",
+   "license": "CC BY 4.0",
+   "status": "FETCH-ON-SPRINT"
+  },
+  "KMT17": {
+   "source": "GRETIL sa_kubjikamatatantra (xml/html/txt) vv94-109",
+   "license": "CC BY-NC-SA 4.0",
+   "status": "READY-SOURCE"
+  }
+ },
+ "dimensions": [
+  "phoneme->locus",
+  "locus->shakti",
+  "shakti->iconography",
+  "sequence-order (nadiphanta vs shabdarashi)",
+  "direction (srsti/samrta modes)"
+ ],
+ "agreement": "rule-set diff per dimension; divergence = finding, not error",
+ "questions": [
+  "same 50 phonemes? (multiset)",
+  "same loci per phoneme?",
+  "same order? (permutation)",
+  "which map explains Triśirobhairava fragment?"
+ ]
+}

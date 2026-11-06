@@ -1,7 +1,7 @@
 # R2 patala bucket audit — 2026-11-06 (box agent, owner-ordered)
 
 Token: owner-supplied R2 S3 credentials (account `954612afb…`, 0600 at
-`/root/.secrets/r2-patala-env`). **Owner: rotate this token — it was pasted
+`/root/.env`). **Owner: rotate this token — it was pasted
 in chat and must be treated as exposed.**
 
 ## Question

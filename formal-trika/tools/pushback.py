@@ -11,10 +11,14 @@ Usage:
   python3 formal-trika/tools/pushback.py --draft CRUX-DRAFT.md \
       --refs refs.json --model mock --out report.md
   python3 formal-trika/tools/pushback.py --draft CRUX-DRAFT.md \
+      --refs refs.json --model go:beam-free --out report.md
+  python3 formal-trika/tools/pushback.py --draft CRUX-DRAFT.md \
       --refs refs.json --model cf:@cf/mistralai/mistral-small-3.1-24b-instruct \
       --out report.md
 refs.json: [{kind: chunk, work, target}] for claims.link (svread/mcp).
 mock: deterministic templated objections (tests + offline).
+go:<id>: OpenCode Go beam-free via /root/scripts/go_beam.py (default worker;
+  key ONLY in /root/.env 0600, never in repos).
 cf:<id>: Cloudflare Workers AI (token 0600 /root/.cf-api-token; neurons logged).
 """
 import argparse
@@ -115,11 +119,27 @@ def main():
             evpin[m] = loc_index.get(loc, "no formal entry for locator " + loc)
         if a.model == "mock":
             out = mock_object(body, markers)
+        elif a.model.startswith("go:"):
+            sys.path.insert(0, "/root/scripts")
+            import go_beam
+            out, _use = go_beam.chat(
+                [{"role": "system", "content": (
+                    "You are a hostile peer reviewer of Trika scholarship. Destroy-pass rules: "
+                    "every cited claim is suspect until banked evidence supports it; "
+                    "tiers matter (T=root text, R=reconstruction — R never promotes itself); "
+                    "statistics over tiny n are pilots, not findings; name the strongest "
+                    "counter-reading. Reply in exactly three sections: OBJECTION / "
+                    "What-banked-sources-say / Honest-remainder.")},
+                 {"role": "user", "content": (
+                     f"CLAIM UNDER TEST: {body[:1500]}\nMARKERS: {markers}\n"
+                     f"BANKED EVIDENCE (only citable ground): "
+                     f"{json.dumps(evpin, ensure_ascii=False)[:2500]}")}],
+                model=a.model[3:], session="pushback-formal-trika")
         elif a.model.startswith("cf:"):
             out = cf_object(a.model[3:], body, markers,
                             json.dumps(evpin, ensure_ascii=False))
         else:
-            raise SystemExit(f"unknown model {a.model} (mock|cf:<id>)")
+            raise SystemExit(f"unknown model {a.model} (mock|go:<id>|cf:<id>)")
         n_obj += 1
         sections.append(f"\n## OBJECTION {n_obj} (para {c['para']}, markers {markers})\n\n{out}\n")
     sections.append(f"\n---\nobjected: {n_obj}; model: {a.model}; "

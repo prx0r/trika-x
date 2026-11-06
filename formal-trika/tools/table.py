@@ -17,7 +17,7 @@ OUT = ROOT / "TABLE.md"
 SOURCES = ["control/Mala.lean", "control/Pramatr.lean",
            "control/Kancuka.lean", "control/Recognition.lean",
            "control/AnswerKey.lean", "control/Tattva.lean",
-           "control/Avarana.lean",
+           "control/Avarana.lean", "control/MalaFuel.lean",
            "recognition/Transitions.lean",
            "recognition/NonEntail.lean", "recognition/Conjuncts.lean",
            "recognition/Memory.lean", "recognition/Tractatus.lean",

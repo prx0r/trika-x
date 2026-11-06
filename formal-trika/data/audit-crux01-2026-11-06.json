@@ -1,0 +1,49 @@
+{
+ "content_sha256": "7d0630cbd524d04ac7d7cd21f97361b8bbcd8a7af352f870b27adc52014254bf",
+ "verifier": "formal-trika/D6",
+ "model": "",
+ "checks": [
+  {
+   "check": "chunk-resolves",
+   "status": "fail",
+   "detail": "tantrasara-a08:tsa08-p03: Passage unavailable or withheld"
+  },
+  {
+   "check": "marker-mapped",
+   "status": "fail",
+   "detail": "[tantrasara-a08:tsa08-p03] has no supplied source (invented citation?)"
+  },
+  {
+   "check": "quotes-verify",
+   "status": "fail",
+   "detail": "no same-paragraph cited source matches: knowing partially, clinging, I do"
+  },
+  {
+   "check": "quotes-verify",
+   "status": "fail",
+   "detail": "no same-paragraph cited source matches: . The formalization under test maps\nthis structural restriction (kala+ranga acti"
+  },
+  {
+   "check": "quotes-verify",
+   "status": "fail",
+   "detail": "no same-paragraph cited source matches: structure causes feel"
+  },
+  {
+   "check": "quotes-verify",
+   "status": "fail",
+   "detail": "no same-paragraph cited source matches: two vocabularies for one event"
+  },
+  {
+   "check": "uncited-paragraphs",
+   "status": "warn",
+   "detail": "1 paragraphs carry no citation"
+  }
+ ],
+ "verdict": "FAIL",
+ "scope": "draft-source-check/2",
+ "limitations": [
+  "A match is not proof of entailment, peer review or identity.",
+  "User-supplied source text is not independently authenticated."
+ ],
+ "at": "2026-11-06T10:07:43Z"
+}

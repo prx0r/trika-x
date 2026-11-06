@@ -392,6 +392,31 @@ imports — restates the shared precondition explicitly, cites both.
 
 ---
 
+## 2026-11-06 — Rung 7: mala fuel (P-PUSH1, pushing row 2)
+
+Prereg: PREREGISTRATION-PUSHING-QUEUE.md (P-PUSH1a–c; row 1 deliberately
+NOT re-registered — postdiction refused; P-PUSH2 krama-time registered
+as question+method+kills with T-pins TBD). T-tier ground: phr-p04 argmap
+(sūtras 13–16: climb, burn knowables for fuel, grown strong, return by
+recognition not effort).
+
+### What was built
+
+- **`MalaFuel.lean`** — burn state (3 mala flags + knowing) + burnStep
+  (ignites iff knowing) + strength counter: `fuel_terminates` (3 steps
+  → all burnt), `strength_monotone` (never decreases), `grace_ignites`
+  (no knowing, no burning). All zero-axiom. EXTENDS Recognition.lean's
+  removal clause with the strength effect (no contradiction).
+- **`BrokenFuel.lean`** (burns without knowing, single-line diff):
+  `grace_ignites` refuses, siblings pass.
+
+### Scoring (provisional)
+
+- **P-PUSH1a–c: PASS.** Control harness extended. EVIDENCE 100/98+2.
+- **Honest limits:** fuel dynamics only; strength effect is model-level.
+
+---
+
 ## What "done" would look like (honest checklist)
 - [ ] Every unarmed chunk with an argmap formalized or explicitly parked
 - [ ] Witnesses pinned (needs openpatala resolver)

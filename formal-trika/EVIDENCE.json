@@ -102,7 +102,10 @@
     "Avarana.lean :: course_ascends": {"kind": "RULE", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v23 covering principle (rule side); ORDER list itself R"}], "r_sources": [], "lived": []},
     "Avarana.lean :: partial_order_honest": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Underdetermination exhibit about OUR model (v23 leaves within-course order open). No external evidence required."},
     "Application.lean :: unready_unreachable": {"kind": "MODEL", "chunks": [], "r_sources": ["Grace.lean flip (necessity side)", "Upaya.lean reach predicates (necessity side)"], "lived": [], "note": "Composed compiler rule (study-fallback backing). R composition; T ground inherited, no new T claims."},
-    "Application.lean :: grace_not_a_means": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Categorical distinction about OUR product model. No external evidence required beyond the file."}
+    "Application.lean :: grace_not_a_means": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Categorical distinction about OUR product model. No external evidence required beyond the file."},
+    "MalaFuel.lean :: fuel_terminates": {"kind": "MODEL", "chunks": [{"locator": "phr-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "s13-16 return-by-recognition sequence (structural side)"}], "r_sources": [], "lived": []},
+    "MalaFuel.lean :: strength_monotone": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Monotonicity about OUR strength counter. No external evidence required beyond the file."},
+    "MalaFuel.lean :: grace_ignites": {"kind": "MODEL", "chunks": [{"locator": "phr-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "s13 method unspecified: saktipata + grace (ignition side)"}], "r_sources": [], "lived": []}
   },
   "exemptions": {
     "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",

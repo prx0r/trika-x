@@ -181,3 +181,92 @@
 - Score: 95 theorems, 7 receipts, 28 unit tests green.
 
 ## Next: C10 applications design, D5/D6 chain+audit, C6/C7 prep, F1/F5, G-track.
+
+## Sanskritree lineage recovery + field review (COMPLETE).
+
+- Origin found: visuals/outputs/extracted/original-philosophy-archive/
+  sanskritree/home/sanskritree/ (THESIS, RESEARCH_PROGRAMME, proof_engine
+  with lean_checker/fol_bridges/BNF/decomposition/failure-taxonomy,
+  lean_test lake project, ground-truth DBs).
+- Lineage: truth-compressor (PROVED/OUTSIDE_FORMAL/HOLLOW) → our tiers;
+  hybrid oracle (Lean+Human+LLM, LLM never proves) → machine-proposes-
+  human-disposes; node graph → EVIDENCE+treeka; BNF gate → proof gate;
+  failure taxonomy → PUSHBACK remainder+kills; tradition-scoped terms →
+  work-scoped locators; Kāṇḍa layering → T/R tiers; Bhartṛhari thesis →
+  BRAINSTORM-MALINI-LOGIC. Ours added: prereg, mutants, axiom audit,
+  witness ladder, blind, practice compiler, phoneme geometry.
+- Field: Kadvany/Huet/Mishra/Sohoni-Sanskrit-Heritage (Pāṇini computation);
+  panini-nlp (graph+engines); dpaul kāraka-constraints; takuya50
+  (nearest neighbor); Prove2me/oh-my-formalization/Lean-Finder (infra).
+  Lane empty: NOBODY does Śaiva-Lean-prereg-witness-practice. Details in
+  chat + adopt/study/skip list in next session note.
+
+## Beam-free wired (per owner: LLMs via oc key + beam-free).
+
+- Endpoint: opencode.ai/inference/go/openai/v1/chat/completions, model
+  beam-free (1M ctx, reasoning+tools, $0 unlimited). Needs stable
+  x-opencode-session + own UA (else MissingSessionID).
+- Key ONLY in /root/.env (0600); /root/.secrets removed. go_beam.py
+  shared client (/root/scripts, no key inside) verified live ($0).
+  git-tracked scan across 7 repos: clean. Pre-existing R2 creds in
+  patala-audition/*.py (Oct 17, not repos) flagged, not mine.
+- pushback.py gains go:<id> (default worker now beam-free). Live
+  CRUX-01 beam run: 2 objections, HIGH quality (R-gloss flag, tiny-n,
+  tautology risk + counter-reading). Receipt data/pushback-crux01-beam-*.
+- Remaining: point tau judge at beam (tau_pilot.py), then continue 50.
+
+## D5/D6/D4 — chain green, chunk↔verse gap found+spec'd.
+
+- test_chain.py (qp kernel, formal thirty_six claim): PASS/settle/
+  swapped-fails/unsigned-refused/signed+role-PASS. 30/30 suite green.
+- audit CRUX-01: 7 checks, honest FAILs → ROOT CAUSE: Scholar serves
+  VERSES (tsa-a08-vNN), formal cites CHUNKS (tsa08-p03); no map exists;
+  PLUS source_verses={} in tantrasara-a08 projection (emit gap) so ALL
+  its passages raise withheld. Receipt saved; spec CHAIN-GAP-2026-11-06
+  (emit fix + chunk/verse decision + D4 staleness rule) for owning lane.
+- F1 tau: beam-judged pilot logged (chrF .333, bleu1 -.667 @n=3 noise).
+
+## C4 — recognition sweep (Upaya/Grace/Corr/NonEntail) + triage.
+
+- Reinstalled 4.33.1 transiently (disk hit 100%/552M — uninstall right
+  after; back to safe levels). Results: Grace 0, Corr 0 survivors;
+  Upaya 4, NonEntail 23 — ALL vacuous-enumeration family (constant-true/
+  false/collapsed generators make universals vacuous, existentials
+  degenerate). No sharpness-class gap (unlike contentEq -> ||, which was
+  non-vacuous and got fixed). Upaya saktaReach->false surviving via
+  existence-form theorems noted as the weak shape (counts, not witnesses).
+- Full-corpus sweep status: control 5/6 files (Pramatr needs LEAN_PATH
+  multi-file mode — tool limitation, hand twin covers it) + recognition
+  4/9 high-value files swept. Remaining: Transitions/Conjuncts/Memory/
+  Tractatus/Coords/EgoOrigin/Heaps/Avarana/Application — same noise
+  expected; re-run when disk allows (resume: reinstall 4.33.1, lake env
+  lean --run Mutate.lean FILE).
+- C6: PTK1-REVIEW-PACK.md assembled (5 decided questions, 3 rulings,
+  passage-grounding required). Awaiting scholar.
+
+## E9/C5/C10 — pushing row-1 rung, avarana key, applications consumed.
+
+- PREREGISTRATION-PUSHING-QUEUE.md: P-PUSH1 (mala fuel, built same
+  session: MalaFuel.lean 3 theorems + surgical twin, control green,
+  EVIDENCE 100/98+2, all zero-axiom); row-1 re-registration REFUSED
+  (postdiction); P-PUSH2 krama-time as registered question (T-pins TBD).
+- E-AVAR (amended after twin exposed tautology): course-rank ascent +
+  partial-order finding; 2 theorems [propext]; twin refuses. First
+  independent key (order, not sizes).
+- A-APP (first consumed theorem): unready_unreachable + grace_not_a_means
+  (zero-axiom); eligibility.py study-fallback cites A-APP1. Twin discipline
+  held twice (over-broad drafts rejected, surgical redrafts passed).
+- Score: 100 theorems, 10 receipts, control+recognition green.
+
+## Left: C7(station — schema-gap finding recorded, harness built), E10, F5, G1–G4, D3-live(token), C4-rest, C6/C8/C9/T-C2 (humans).
+
+## G1/G2/G3/G4 — geometry scaffold + acquisition truth.
+
+- PHONEMIC-BODY-SPEC.md: relation schema + seed KEY DATA (body map 16+7,
+  frozen, peer-reviewed) + crosswalk-as-second-key + rung design. The
+  nyāsa rung is now buildable (prereg next, not this session).
+- G2: MIRI index grepped live — KuRatnUdd + TSB ABSENT, KMT ancillaries
+  only, MVT/SYM/ṢaṭSS present. GRETIL: KMT ✓, KuRatnUdd/TSB absent.
+  Executable order flips: KMT-17 → ṢaṭSS → KuRatnUdd-on-acquisition.
+  FRONTIER-READINESS.md + data/five-maps.json (G3) + G4 inventory
+  (Jayaratha quote beyond local TĀ range — needs TĀV edition).

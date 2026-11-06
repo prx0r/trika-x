@@ -296,3 +296,12 @@ No flip and no means-reach without readiness: the study-fallback, backed across 
 
 ## Application.lean :: grace_not_a_means
 A graced-but-unready state does not flip: grace is conjunctive with readiness, not a substitute means.
+
+## MalaFuel.lean :: fuel_terminates
+Three burn steps from all-unburned reach all-burnt: burning ends.
+
+## MalaFuel.lean :: strength_monotone
+Burnt-count never decreases along a burn step: strength is monotone.
+
+## MalaFuel.lean :: grace_ignites
+Nothing burns without knowing: ignition needs grace.

@@ -1,0 +1,7 @@
+n=3 cand=@cf/meta/llama-3.1-8b-instruct-fp8 judge=go:beam-free (cross-family by design)
+tau chrF: mean=0.333 per-verse=[1.0, 0.0, 0.0]
+tau bleu1: mean=-0.667 per-verse=[-1.0, -1.0, 0.0]
+tau semantic: mean=1.000 per-verse=[1.0, 1.0, 1.0]
+tau combined: mean=-0.444 per-verse=[-0.33, -1.0, 0.0]
+neurons spent: 18.61 (free tier; ox-alpha quota untouched)
+verdict: PILOT ranks logged; n too small for claims (scale for Phase 1 gate).
