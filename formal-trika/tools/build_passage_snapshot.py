@@ -25,6 +25,12 @@ def git(tw, *args):
 def build(tw):
     specs = json.loads((ROOT / 'EVIDENCE.json').read_text(encoding='utf-8'))['works']
     revision = git(tw, 'rev-parse', '--verify', 'HEAD^{commit}')
+    manifest_rev, manifest_at = None, None
+    try:
+        man = json.loads((tw / 'MANIFEST.json').read_bytes().decode('utf-8'))
+        manifest_rev, manifest_at = man.get('rev'), man.get('at')
+    except (OSError, ValueError, AttributeError):
+        pass
     works = {}
     seen_locators, seen_ids = set(), set()
     for work, spec in sorted(specs.items()):
@@ -58,7 +64,9 @@ def build(tw):
                        'passages': rows}
     return {'format': 'trika-passage-snapshot/1',
             'repository': 'https://github.com/prx0r/translation-work',
-            'revision': revision, 'works': works}
+            'revision': revision,
+            'manifest_rev': manifest_rev, 'manifest_at': manifest_at,
+            'works': works}
 
 
 def main():

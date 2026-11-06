@@ -1,7 +1,9 @@
 {
   "format": "trika-passage-snapshot/1",
+  "manifest_at": "2026-11-06T12:07:12+00:00",
+  "manifest_rev": "f430a18ae099971a73ce6970ec23bf3c82ab3b4f",
   "repository": "https://github.com/prx0r/translation-work",
-  "revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+  "revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
   "works": {
     "param": {
       "ledger": "paramarthasara/passages.jsonl",

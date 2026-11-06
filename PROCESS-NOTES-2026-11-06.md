@@ -709,3 +709,14 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - PR #9 open (translation-work, zenodo provenance IDs); PR #8 reviewed
   (adopt: receipt-replay validation, advisory labels, tmp fixtures — all
   already our discipline; confirmed, no change needed).
+
+## Swarm-formal skill owned (batch leaves my hands).
+
+- skills/swarm-formal/SKILL.md: cast, transmission packets (+traps),
+  task kinds + gates, calibration-before-scale, numbered failure log
+  (F1-F4 seeded from today), porting section. First customer: their
+  formal stage (PR #10, pointer added).
+- a18 batch rung PAUSED at prereg (kept, not deleted); XS harvest resumes
+  only via swarm-calibration or explicit owner call.
+- Snapshot now pins their MANIFEST rev + timestamp beside git rev
+  (build_passage_snapshot; bridge check green).
