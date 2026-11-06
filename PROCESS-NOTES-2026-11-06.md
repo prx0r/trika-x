@@ -594,3 +594,10 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - Code pushed: trika-x seed/ingest/inventory tools + bridge --db
   (975cf69-era); svread source-map.json. /root/openpatala untouched
   (nothing of mine to push there). R2 creds: /root/.env only.
+
+## Translation-lane advice + reader role.
+
+- tw_reader role (SELECT-only, write-refused tested); DSN in /root/.env.
+- ADVICE-TRANSLATION-OPENPATALA.md: cookbook SQL, 6 good practices,
+  7 clean-data rules, 5 real-incident don'ts, ready-vs-human table.
+  Pull-model (their repo untouched).
