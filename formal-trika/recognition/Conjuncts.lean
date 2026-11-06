@@ -1,5 +1,8 @@
 /-
   Formal Recognition — R-REC5 + R-REC6 + R-REC8: conjuncts, targets, unus-ambo.
+  KIND: MODEL (finite Boolean models) checking consequences of a stipulated
+  4-conjunct definition. What this is NOT: a proof that any lived event is
+  recognition, or that the conjuncts are jointly sufficient metaphysically.
 
   From recognitionandsiva.md (R-tier constructor-theoretic schema of T-tier
   doctrine): Recognition_X = Transformation ∧ Reidentification ∧ Veridicality

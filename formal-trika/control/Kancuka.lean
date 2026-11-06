@@ -1,5 +1,8 @@
 /-
   Formal Trika — P-TK2: the 5 kañcukas (coverings).
+  KIND: KEY TABLE (names) + checked property. The `restricts` rows are
+  stipulated pairings (R-tier gloss), not derived rules: `pairings_distinct`
+  checks the table's non-redundancy, never its truth.
 
   Each kañcuka pairs one infinite capacity of the Lord with its finite form
   in the limited experient. Tiers: the FIVE NAMES are T (tsa-a08 T1:
