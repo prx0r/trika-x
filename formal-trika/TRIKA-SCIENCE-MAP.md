@@ -11,7 +11,7 @@ OPEN (hypothesis, paper owed) · IMPORT-OWED (paper known, not vendored).
 
 | # | Trika node | Science counterpart | Relation | Status / holding |
 |---|---|---|---|---|
-| 1 | Tetrahedron K₄ (`Tetrahedron.lean`, T-TET1–3 + twins) | LQG quantum tetrahedron — Bianchi/Donà/Speziale arXiv:1009.3402; Bianchi&Haggard arXiv:1102.5439; Engle-Livine-Rovelli vertex | ISOMORPHISM | GROUNDED — 30 PDFs vendored (`576lqg-sources/`), `576lqg.md` states the mapping, `compute_576_lattice.py` computes |
+| 1 | Tetrahedron K₄ (`Tetrahedron.lean`, T-TET1–3 + twins) | LQG quantum tetrahedron — Bianchi/Donà/Speziale arXiv:1009.3402; Bianchi&Haggard arXiv:1102.5439; Engle-Livine-Rovelli vertex. Lead counterpart: **Etera Livine** (ENS Lyon, 159 papers per INSPIRE; the quantum-tetrahedron program: boundary state 2007, holomorphic factorisation 2010, hyperbolic closure 2015/16, 6j self-duality 2019; 4 PDFs already in `576lqg-sources/`) | ISOMORPHISM | GROUNDED — 30 PDFs vendored, `576lqg.md` states the mapping, `compute_576_lattice.py` computes |
 | 2 | 36 tattvas / 576 lattice / FCC | Dense packings of Platonic/Archimedean solids (×2 PDFs); causal sets (Sorkin axioms + directions + cosmology ×3); Wolfram hypergraph (×2); amplituhedron | COUNTERPART | GROUNDED (papers held) — formal side PARTIAL (lattice.py exists, no Lean lattice yet) |
 | 3 | Spanda / vimarśa (sheath/pulse models) | Levin bioelectric patterning — nerve/tadpole/single-cell papers; constructor theory of information (Deutsch) | COUNTERPART | GROUNDED — `BRIDGES-LEVIN.md` 5 bridges; track F4 |
 | 4 | Pratyabhijñā / recognition | IIT/GWT via ConTraSt bench contrasts; ORION benchmark | CONTRAST | GROUNDED (bench runs) — track F3; IMPORT-OWED: primary IIT/GWT papers |
