@@ -564,3 +564,40 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - Full battery re-ran green: Lean control 14 PASS + recognition 26/26,
   evidence 107/105+2, table/vocab/blind/runs-index checks, bridge bytes,
   33 unit + 11 qp tests. blind/ALL.lean regenerated (new types).
+
+## PR #4 merged (9073a25) + adapted across the tree.
+
+- Reviewed: Tattva corrections verified (tanmātrapañcakākṣaikādaśa in T1
+  line 39 — faculties reading right, mine was wrong); inventory list +
+  māyā-negative-control excellent; Grace/Upaya/Application header scope
+  corrections exact; eligibility/path/pushback tightenings correct;
+  empty-audit fails + receipt-test relabel + opt-in + de-hardcoded paths.
+- Merged --no-ff (clean auto-merge). Adapted: TABLE SOURCES+=Inventory
+  + 8 readings; eleven_wombed reading fixed; unit_to_score STUDY-only;
+  RESULTS correction record (A-APP consumed WITHDRAWN; TK-R2 history
+  labeled); pushback/go_beam paths env-configurable.
+- Post-merge battery: control 16 PASS (incl. Inventory + māyā control),
+  recognition 26/26, evidence 115/113+2, table/vocab/blind/runs green,
+  axiom clean, 36 unit + 11 qp tests. Recorded (receipt 14).
+- Pre-existing bug I inherited fixed by PR (empty-audit success);
+  pre-existing correct items kept (my go: branch, keyed treeka + their
+  v2 validation merged coherently).
+
+## Box DB published to R2 (another-box access).
+
+- pg_dump -Fc (PG15-portable; the old R2 dump needs PG18) → 115KB,
+  sha 57d54032…, uploaded to s3://patala/openpatala/box-2026-11-06/
+  (+ manifest.json: contents, SHAs, restore recipe, trika-x rev).
+- Restore PROVEN on fresh openpatala_verify DB: identical counts
+  (544/1532…/87/87/909/0); verify DB dropped after. Two access paths
+  documented: download+restore OR rebuild-from-repos (bridge README).
+- Code pushed: trika-x seed/ingest/inventory tools + bridge --db
+  (975cf69-era); svread source-map.json. /root/openpatala untouched
+  (nothing of mine to push there). R2 creds: /root/.env only.
+
+## Translation-lane advice + reader role.
+
+- tw_reader role (SELECT-only, write-refused tested); DSN in /root/.env.
+- ADVICE-TRANSLATION-OPENPATALA.md: cookbook SQL, 6 good practices,
+  7 clean-data rules, 5 real-incident don'ts, ready-vs-human table.
+  Pull-model (their repo untouched).

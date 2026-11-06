@@ -13,6 +13,7 @@ Usage: python3 formal-trika/tools/syllabus_unit.py --dharana 1 --out unit.json
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 
 import sys
@@ -20,12 +21,13 @@ sys.path.insert(0, str(Path(__file__).resolve().parent))
 import eligibility as elig
 
 HERE = Path(__file__).resolve().parent.parent
-VBT = Path("/root/satsang-practice/pilot-inputs/vbt-daily.json")
+VBT = Path(os.environ.get('SATSANG_PRACTICE_CHECKOUT', HERE.parent.parent / 'satsang-practice')) / 'pilot-inputs/vbt-daily.json'
+TW = Path(os.environ.get('TRANSLATION_WORK', HERE.parent.parent / 'translation-work'))
 
 
-def vbt_range(work="vbt"):
+def vbt_range(tw=TW, work="vbt"):
     out = []
-    for line in Path(f"/root/translation-work/{work}/passages.jsonl").read_text().splitlines():
+    for line in (tw / work / 'passages.jsonl').read_text().splitlines():
         if line.strip():
             r = json.loads(line)
             out.append((r.get("locator"), r.get("verses")))
@@ -45,13 +47,15 @@ def main():
     ap = argparse.ArgumentParser(description=__doc__)
     ap.add_argument("--dharana", type=int, required=True)
     ap.add_argument("--out", type=Path, required=True)
+    ap.add_argument('--vbt', type=Path, default=VBT)
+    ap.add_argument('--tw', type=Path, default=TW)
     a = ap.parse_args()
-    d = json.loads(VBT.read_text(encoding="utf-8"))
+    d = json.loads(a.vbt.read_text(encoding="utf-8"))
     entries = [e for e in d["entries"] if e.get("dharana") == a.dharana]
     if not entries:
         raise SystemExit(f"dhāraṇā {a.dharana} not in mapped set ({d['count_mapped']}/{d['count_total']})")
     e = entries[0]
-    loc = locate_verse(int(e["verse"]), vbt_range())
+    loc = locate_verse(int(e["verse"]), vbt_range(a.tw))
     gate = elig.classify(e.get("technique", ""), e.get("upaya", ""), e.get("trains", ""))
     unit = {
         "unit_id": f"vbt-d{a.dharana:03d}",
