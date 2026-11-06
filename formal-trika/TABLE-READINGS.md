@@ -368,3 +368,12 @@ The nādiphānta order differs from śabdarāśi: the chief sequence stands apar
 
 ## Nyasa.lean :: multiset_kept
 Both orders hold the same fifty phonemes: conservation.
+
+## Embed.lean :: earth_all5
+Earth holds all five subtle substances: the grossest contains all.
+
+## Embed.lean :: ether_sound_only
+Ether holds sound alone: the finest contains one.
+
+## Embed.lean :: nesting
+Finer substances persist upward: each grosser row includes the next finer.

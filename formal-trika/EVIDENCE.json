@@ -127,7 +127,10 @@
     "Nyasa.lean :: malini_total": {"kind": "MODEL", "chunks": [], "r_sources": ["malini_order.json (MV 3.37-41 order)"], "lived": [], "note": "Totality over OUR encoded list. No external evidence required beyond the file."},
     "Nyasa.lean :: maps_diverge": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Divergence count about OUR two encodings (duality quantified). No external evidence required."},
     "Nyasa.lean :: order_chief": {"kind": "MODEL", "chunks": [{"locator": "tal-a15-p12", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "nādiphānta chief-order doctrine (structural side). Work source NO-SOURCE-RECORD per its record.json; T claim conditional on source resolution."}], "r_sources": ["MV 3.36-41 extract (CC BY-NC)"], "lived": []},
-    "Nyasa.lean :: multiset_kept": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Conservation claim about OUR two encoded lists. No external evidence required."}
+    "Nyasa.lean :: multiset_kept": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Conservation claim about OUR two encoded lists. No external evidence required."},
+    "Embed.lean :: earth_all5": {"kind": "MODEL", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v9 five-substances-included (structural side); gradient reading flagged R, scholar to confirm"}], "r_sources": [], "lived": []},
+    "Embed.lean :: ether_sound_only": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Witness claim about OUR matrix. No external evidence required beyond the file."},
+    "Embed.lean :: nesting": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Inclusion claim about OUR matrix; uniform alternative parked (remodel ready)."}
   },
   "exemptions": {
     "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",

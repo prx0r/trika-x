@@ -9714,9 +9714,12 @@
    "argument_sources": [],
    "cruxes": 0,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Nyasa.lean :: matrika_total",
+    "Nyasa.lean :: order_chief"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-TODO"
   },
@@ -14226,6 +14229,7 @@
    "formal_refs": [
     "AnswerKey.lean :: key_thirtysix_tattvas",
     "Avarana.lean :: course_ascends",
+    "Embed.lean :: earth_all5",
     "Tattva.lean :: eleven_wombed",
     "Tattva.lean :: five_gross_elements",
     "Tattva.lean :: thirty_six",
@@ -16988,7 +16992,6 @@
    "tantraloka-a15:tal-a15-p09",
    "tantraloka-a15:tal-a15-p10",
    "tantraloka-a15:tal-a15-p11",
-   "tantraloka-a15:tal-a15-p12",
    "tantraloka-a15:tal-a15-p13",
    "tantraloka-a15:tal-a15-p14",
    "tantraloka-a15:tal-a15-p15",
@@ -17353,6 +17356,6 @@
   "unargued": 669,
   "cruxless": 62,
   "essayless": 240,
-  "no_formal_reference": 902
+  "no_formal_reference": 901
  }
 }

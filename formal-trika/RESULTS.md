@@ -376,7 +376,6 @@ argmap v71 (karaṇaskandha named) + v72 (threefold by guṇa difference).
 ---
 
 ## 2026-11-06 — Rung 5: āvaraṇa covering-chain (E-AVAR, first second key)
-
 Prereg: PREREGISTRATION-AVARANA-RUNG.md + same-day AMEND (chain
 tautology found by the twin BEFORE any recorded run — first draft
 derived links and cover from the same list; must_fail rejected the
@@ -551,6 +550,31 @@ source, link-first, comparison control). Python pre-verified both EXACT.
 
 - **P-REV1–2: PASS.** Methodological value: external tables checkable
   the same way, rights/register flagged. NOT doctrine, NOT a second key.
+
+---
+
+## 2026-11-06 — Rung 11: containment matrix (E-EMB1–3, gradient-flagged)
+
+Prereg: PREREGISTRATION-EMBED-RUNG.md (E-EMB1–3; gradient reading
+flagged R with scholar-confirmation owed; UNIFORM alternative parked
+with remodel-ready kill). T-tier ground: tsa07-p01 v9 (thin, one
+premise: gross includes subtle substances).
+
+### What was built
+
+- **`Embed.lean`** — 5×5 containment over rank orders: `earth_all5`
+  (5/5), `ether_sound_only` (sound alone), `nesting` (finer persists
+  upward). All zero-axiom.
+- **`BrokenEmbed.lean`** (sound rank lifted; first draft swapped
+  water/earth and broke two theorems — harness rejected, surgical
+  redraft passed): `ether_sound_only` refuses, siblings pass.
+
+### Scoring (provisional)
+
+- **E-EMB1–3: PASS.** Control harness extended. EVIDENCE 122 entries
+  (v9 T-side flagged R/conditional).
+- **Honest limits:** shape only; gradient-vs-uniform undecided here;
+  size composition with group sizes explicitly future.
 
 ---
 

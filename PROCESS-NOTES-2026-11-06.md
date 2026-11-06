@@ -624,3 +624,10 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   evidence 121/119+2, table/axiom/vocab/blind/runs green, qp 11, claims 6.
 - Endgame spec §12: descriptive-pilots law, study-only law, work-scoped
   joins, opt-in + configurability, export boundaries, honest coverage.
+
+## M8 — embedding rung (E-EMB1–3 PASS; uniform alternative parked).
+
+- Prereg with gradient-flagged R + parked uniform + remodel kill.
+  Embed.lean (5×5 rank matrix; 3 zero-axiom theorems) + surgical twin
+  (first draft over-broad, harness rejected — third such catch today).
+- EVIDENCE 124/122+2. Control harness extended.
