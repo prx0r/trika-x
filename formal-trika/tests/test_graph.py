@@ -200,5 +200,38 @@ class GraphTests(unittest.TestCase):
             self.assertEqual(d.main(), 1)
 
 
+    def test_tensions_export_public_only(self):
+        import subprocess
+        import sys as _sys
+        r = subprocess.run([_sys.executable, str(ROOT / "tools" / "tensions_export.py")],
+                           text=True, capture_output=True)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        import json as _json
+        rows = [_json.loads(l) for l in
+                (ROOT / "data" / "tensions-export.jsonl").read_text().splitlines() if l.strip()]
+        self.assertTrue(rows)
+        for c in rows:
+            self.assertEqual(c["kind"], "lived-tension")
+            self.assertIn("status", c)
+            self.assertNotIn("body", c)  # VOICE RULE: no body text crosses
+
+
+    def test_matrika_study_cards(self):
+        import subprocess
+        import sys as _sys
+        r = subprocess.run([_sys.executable, str(ROOT / "tools" / "matrika_study.py")],
+                           text=True, capture_output=True)
+        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        import json as _json
+        d = _json.loads((ROOT / "data" / "matrika-study.json").read_text())
+        self.assertEqual(len(d["cards"]), 50)
+        for c in d["cards"]:
+            for k in ("phoneme", "dev", "matrika_locus", "malini_locus",
+                      "clip", "class", "study", "trika_link", "needs_scholar"):
+                self.assertIn(k, c)
+            self.assertIsNone(c["trika_link"])  # doctrine never inferred
+            self.assertTrue(c["needs_scholar"])
+
+
 if __name__ == "__main__":
     unittest.main()

@@ -113,7 +113,14 @@
     "Application.lean :: grace_not_a_means": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Categorical distinction about OUR product model. No external evidence required beyond the file."},
     "MalaFuel.lean :: fuel_terminates": {"kind": "MODEL", "chunks": [{"locator": "phr-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "s13-16 return-by-recognition sequence (structural side)"}], "r_sources": [], "lived": []},
     "MalaFuel.lean :: strength_monotone": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Monotonicity about OUR strength counter. No external evidence required beyond the file."},
-    "MalaFuel.lean :: grace_ignites": {"kind": "MODEL", "chunks": [{"locator": "phr-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "s13 method unspecified: saktipata + grace (ignition side)"}], "r_sources": [], "lived": []}
+    "MalaFuel.lean :: grace_ignites": {"kind": "MODEL", "chunks": [{"locator": "phr-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "s13 method unspecified: saktipata + grace (ignition side)"}], "r_sources": [], "lived": []},
+    "Pratyahara.lean :: ac_vowels": {"kind": "KEY", "chunks": [], "r_sources": ["Māheśvara sequence (CANDIDATE-EDITION, pin pending: INTAKE-REQUEST-sivasutras.md)"], "lived": [], "note": "Interval regeneration; T-pin open (no translation-work/MIRI/GRETIL source on hand 2026-11-06). Mechanics edition-independent."},
+    "Pratyahara.lean :: hal_consonants": {"kind": "KEY", "chunks": [], "r_sources": ["Māheśvara sequence (CANDIDATE-EDITION, pin pending)"], "lived": [], "note": "Consonant regeneration; same open pin."},
+    "Pratyahara.lean :: markers_excluded": {"kind": "KEY", "chunks": [], "r_sources": [], "lived": [], "note": "Anubandha disjointness about OUR interval mechanics. No external evidence required beyond the file."},
+    "Pratyahara.lean :: inventory_43": {"kind": "KEY", "chunks": [], "r_sources": [], "lived": [], "note": "Count over OUR inventory list. No external evidence required beyond the file."},
+    "Pratyahara.lean :: markers_13": {"kind": "KEY", "chunks": [], "r_sources": [], "lived": [], "note": "Count over OUR marker list (Ṅ twice). No external evidence required beyond the file."},
+    "Reversal.lean :: semi_reversed": {"kind": "COMPARISON", "chunks": [], "r_sources": ["https://www.sanskrit-trikashaivism.com/en/trika-tattva-s-and-sanskrit-1-non-dual-shaivism-of-kashmir/504 (© Gabriel Pradīpaka, practitioner register — comparison control, link-first, no copying)"], "lived": [], "note": "Order arithmetic on third-party table; alphabet constant is public-domain varṇamālā. No doctrine checked."},
+    "Reversal.lean :: span_reversed": {"kind": "COMPARISON", "chunks": [], "r_sources": ["https://www.sanskrit-trikashaivism.com/en/trika-tattva-s-and-sanskrit-1-non-dual-shaivism-of-kashmir/504 (© Gabriel Pradīpaka — comparison control as above)"], "lived": [], "note": "25-letter span reversal; same scope as semi_reversed."}
   },
   "exemptions": {
     "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",

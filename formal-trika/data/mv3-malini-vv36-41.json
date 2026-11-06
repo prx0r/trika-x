@@ -1,0 +1,55 @@
+{
+ "format": "mv3-malini-extract/1",
+ "source": {
+  "work": "Mālinīvijayottaratantra ch.3 vv36-41 (nādiphāntā + key stanza 36)",
+  "etext": "Muktabodha M00160 (KSTS vol 37, ed. Śāstrī M.R. 1922)",
+  "license": "CC BY-NC 4.0 (MIRI header)",
+  "fetched": "2026-11-06"
+ },
+ "verses": [
+  "nyasecchāktaśarīrārthaṃ bhinnayoniṃ tu mālinīm || 36 ||",
+  "",
+  "na śikhā ṝṛ ḷḹ ca śiromālā tha mastakam |",
+  "netrāṇi ca dha vai nāsā ī samudre ṇuṇū śrutī || 37 ||",
+  "",
+  "vakavarga-i-ā vaktradantajihvāsu vāci ca |",
+  "vabhayāḥ kaṇṭhadakṣādiskandhayorbhujayorḍaḍhau || 38 ||",
+  "",
+  "ṭho hastayorjhañau śākhā jraṭau śūlakapālake |",
+  "pahṛcchalau stanau kṣīramā sa jīvo visargayuk || 39 ||",
+  "",
+  "tatparaḥ kathitaḥ prāṇaḥ ṣakṣāvudaranābhigau |",
+  "maśaṃtāḥ kaṭiguhyoruyugmagā jānunī tathā || 40 ||",
+  "",
+  "e-aikārau tathā jaṅghe tatparau caraṇau daphau |"
+ ],
+ "variants_vs_gretil_TA15": [
+  {
+   "slot": "v37 Auge",
+   "MV": "nāsā",
+   "TA-GRETIL": "ghrāṇaṃ"
+  },
+  {
+   "slot": "v37 dhvani",
+   "MV": "dha vai",
+   "TA-GRETIL": "cordhve dho@nye"
+  },
+  {
+   "slot": "v37 liquid",
+   "MV": "ḷḹ (both)",
+   "TA-GRETIL": "ḷḷ (geminate)"
+  },
+  {
+   "slot": "v40",
+   "MV": "maśaṃtāḥ",
+   "TA-GRETIL": "maśāntā"
+  },
+  {
+   "slot": "v41 diphthong",
+   "MV": "e-aikārau",
+   "TA-GRETIL": "eaikārau"
+  }
+ ],
+ "agreement": "skeleton identical (eyes→ears→throat→heart→hips→knees→feet descent; NA→PHA termini)",
+ "status": "EXTRACT (fair-use short passage for comparison; full text at MIRI)"
+}

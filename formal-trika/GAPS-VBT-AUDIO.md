@@ -13,12 +13,12 @@ Missing dhāraṇās: 19, 34, 43, 45, 46, 47, 48, 49, 51, 52, 53, 54, 57, 58,
 Rule: unmapped dhāraṇās are absent from rotation until mapped
 (day-of-year % mapped-count rotates the mapped set only).
 
-## Phoneme clips (filenames 50/50; provenance unverified)
+## Phoneme clips (CORRECTED 2026-11-06 from deitybody, the authority)
 
-50 .ogg files present in sanskrithelp/public/memory/clips/, covering all
-50 Mālinī slots by filename (l/ll = vocalic ḷ/ḹ; ksha present). The SH2
-note "47/50, missing ḷ ḹ kṣa" is STALE as a file count. What remains
-open (sanskrithelp lane): HUMAN-vs-synthesized provenance per clip —
-filenames cannot show it; their recording log decides. Practice-audio
-gap for the C1 pilot: none by filename; verify provenance before
-claiming human-recorded install paths.
+deitybody HANDOVER + audio audit: `site/audio/phonemes/` = **48 human +
+2 synth**; **ḷ/ḹ have NO verified recordings — silence + visible flag,
+never substitution** (kṣa fixed ksa.ogg; lr Yakult-silence swapped to
+ogg). The sanskrithelp clips/ 50 files are filenames only. Practice-audio
+gap for the C1 pilot: avoid ḷ/ḹ-dependent units until recordings verify;
+chant dock voice1 (human guide) vs voice2 (fish synth) swap is
+path-prefix only. SH2 "47/50" retired — use 48+2+silence-flag.

@@ -33,6 +33,15 @@ variants per entry (NEVER used for install) + `ta_15_aṅganyāsa_crosswalk`
   right upper limb, 5 rows each); vowels→head-16; direction duality
   (sṛṣṭi/saṃhāra both installable, TĀ-15 units); nādiphānta order chief
   among mixings (TĀ-15 ~102).
+- Three-nyāsa character (nibbanahelp trika/ta15_nyasa, TĀ 15/115cd–145):
+  Mātṛkā = feminine, alphabetical order; Mālinī = feminine, seeds
+  (vowels/bīja) mixed with matrices (consonants/yoni) — cf. MV 3.36
+  bhinna-yoni verbatim; śabdarāśi = male, Assembly of Sounds, fifty
+  Bhairavas. The pair/triple structure constrains the permutation rung
+  (Idea 2): same 50, typed orders, yugapad coexistence.
+- ORDER key (verified 2026-11-06): MV 3.36–41 (MIRI M00160, CC BY-NC) —
+  na→pha with loci; TĀ-15 GRETIL text same skeleton, 5 reading variants
+  logged (data/mv3-malini-vv36-41.json). malini_order.json == MV order.
 - Theorems: totality (50/50 placed), varga-uniformity (same varga →
   same limb), crosswalk agreement (map vs crosswalk: SAME loci where
   both speak — second key!), chief-order (nādiphānta ≠ śabdarāśi order,

@@ -1,0 +1,1676 @@
+{
+ "works": {
+  "abhinavabharati": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "ajadapramatrsiddhi": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 4,
+    "L0": 3,
+    "argmap_json": 3,
+    "argmap_md": 1,
+    "L2": 7,
+    "c1": 6,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "anubhavanivedana": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 5,
+    "L0": 4,
+    "argmap_json": 4,
+    "argmap_md": 1,
+    "L2": 8,
+    "c1": 7,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "anuttarastika": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 9,
+    "L0": 8,
+    "argmap_json": 8,
+    "argmap_md": 1,
+    "L2": 11,
+    "c1": 11,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "bhairavanukarana": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 6,
+    "L0": 5,
+    "argmap_json": 5,
+    "argmap_md": 1,
+    "L2": 9,
+    "c1": 8,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "bhairavastava": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 11,
+    "L0": 10,
+    "argmap_json": 10,
+    "argmap_md": 1,
+    "L2": 13,
+    "c1": 13,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "bodhapancadasika": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 16,
+    "L0": 15,
+    "argmap_json": 15,
+    "argmap_md": 1,
+    "L2": 18,
+    "c1": 18,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "bodhavilasa": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 6,
+    "L0": 5,
+    "argmap_json": 5,
+    "argmap_md": 1,
+    "L2": 9,
+    "c1": 8,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "dehastha": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 2,
+    "L0": 4,
+    "argmap_json": 2,
+    "argmap_md": 0,
+    "L2": 2,
+    "c1": 3,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "ghatakarpara": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 11,
+    "L0": 3,
+    "argmap_json": 3,
+    "argmap_md": 0,
+    "L2": 9,
+    "c1": 8,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "gitarthasangraha": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 1,
+    "L0": 1,
+    "argmap_json": 1,
+    "argmap_md": 0,
+    "L2": 1,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "ipvv": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 49,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "ipvv-vivrti-vimarsini": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "isvarasiddhi": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 9,
+    "L0": 7,
+    "argmap_json": 7,
+    "argmap_md": 1,
+    "L2": 10,
+    "c1": 9,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "kramastotra": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 31,
+    "L0": 30,
+    "argmap_json": 30,
+    "argmap_md": 1,
+    "L2": 33,
+    "c1": 33,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "lalded": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "logs": {
+   "kind": "infra",
+   "layers": {}
+  },
+  "lore": {
+   "kind": "infra",
+   "layers": {}
+  },
+  "mahopadeshavimshatika": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 2,
+    "L0": 3,
+    "argmap_json": 2,
+    "argmap_md": 0,
+    "L2": 2,
+    "c1": 3,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "malinivijayavarttika": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "mystics": {
+   "kind": "group",
+   "layers": {}
+  },
+  "mystics/lalded": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "SOURCE.txt"
+   }
+  },
+  "mystics/nundrishi": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "SOURCE.txt"
+   }
+  },
+  "mystics/parmanand": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "SOURCE.txt"
+   }
+  },
+  "mystics/rupabhavani": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "SOURCE.txt"
+   }
+  },
+  "mystics/santosh": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": ""
+   }
+  },
+  "nundrishi": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "pancashloki": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 6,
+    "L0": 5,
+    "argmap_json": 5,
+    "argmap_md": 1,
+    "L2": 9,
+    "c1": 8,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "paramarthacarca": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 9,
+    "L0": 8,
+    "argmap_json": 8,
+    "argmap_md": 1,
+    "L2": 12,
+    "c1": 11,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "paramarthadvadasika": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 2,
+    "L0": 4,
+    "argmap_json": 2,
+    "argmap_md": 0,
+    "L2": 2,
+    "c1": 3,
+    "scholar": 0,
+    "gate": 0,
+    "source": "SOURCE.txt"
+   }
+  },
+  "paramarthasara": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 13,
+    "L0": 12,
+    "argmap_json": 12,
+    "argmap_md": 1,
+    "L2": 16,
+    "c1": 15,
+    "scholar": 1,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "parapravesika": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 10,
+    "L0": 9,
+    "argmap_json": 9,
+    "argmap_md": 1,
+    "L2": 12,
+    "c1": 12,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "paratrimshika": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 5,
+    "L0": 4,
+    "argmap_json": 4,
+    "argmap_md": 1,
+    "L2": 7,
+    "c1": 6,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "parmanand": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "paryantapancasika": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 9,
+    "L0": 8,
+    "argmap_json": 8,
+    "argmap_md": 1,
+    "L2": 12,
+    "c1": 11,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "phrdaya": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 6,
+    "L0": 5,
+    "argmap_json": 5,
+    "argmap_md": 1,
+    "L2": 9,
+    "c1": 8,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "process": {
+   "kind": "infra",
+   "layers": {}
+  },
+  "ptvmadhyama": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 5,
+    "L0": 4,
+    "argmap_json": 4,
+    "argmap_md": 1,
+    "L2": 7,
+    "c1": 6,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "rahasyapanchadashika": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 2,
+    "L0": 4,
+    "argmap_json": 2,
+    "argmap_md": 0,
+    "L2": 2,
+    "c1": 3,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "rupabhavani": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "saktavijnana": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 4,
+    "L0": 3,
+    "argmap_json": 3,
+    "argmap_md": 1,
+    "L2": 6,
+    "c1": 5,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "sambandhasiddhi": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 5,
+    "L0": 3,
+    "argmap_json": 3,
+    "argmap_md": 1,
+    "L2": 7,
+    "c1": 6,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "santosh": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "schemas": {
+   "kind": "infra",
+   "layers": {}
+  },
+  "sivastotravali": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 41,
+    "L0": 20,
+    "argmap_json": 20,
+    "argmap_md": 0,
+    "L2": 22,
+    "c1": 43,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "sivasutra": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 9,
+    "L0": 8,
+    "argmap_json": 8,
+    "argmap_md": 1,
+    "L2": 11,
+    "c1": 10,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "sivasutravimarsini": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "skills": {
+   "kind": "infra",
+   "layers": {}
+  },
+  "source-maps": {
+   "kind": "infra",
+   "layers": {}
+  },
+  "spanda": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 5,
+    "L0": 4,
+    "argmap_json": 4,
+    "argmap_md": 1,
+    "L2": 7,
+    "c1": 6,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "spandasandoha": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 5,
+    "L0": 1,
+    "argmap_json": 1,
+    "argmap_md": 0,
+    "L2": 4,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "stavacintamani": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 14,
+    "L0": 13,
+    "argmap_json": 13,
+    "argmap_md": 1,
+    "L2": 17,
+    "c1": 17,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "svabodhasiddhi": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 5,
+    "L0": 4,
+    "argmap_json": 4,
+    "argmap_md": 1,
+    "L2": 7,
+    "c1": 6,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "tantraloka-a01": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a02": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a03": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a04": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a05": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a06": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a07": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a08": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a09": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a10": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a11": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a12": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a13": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a14": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a15": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a16": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a17": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a18": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a19": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a20": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a21": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a22": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a23": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a24": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a25": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a26": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a27": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a28": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a29": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a30": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a31": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a32": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a33": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a34": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a35": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a36": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantraloka-a37": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 1,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 2,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source.txt"
+   }
+  },
+  "tantrasara-a01": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 1,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a02": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 1,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a03": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a04": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a05": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a06": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a07": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a08": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a09": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a10": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a11": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a12": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a13": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a14": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a15": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a16": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a17": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a18": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a19": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 3,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a20": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a21": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tantrasara-a22": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 2,
+    "L0": 2,
+    "argmap_json": 1,
+    "argmap_md": 1,
+    "L2": 3,
+    "c1": 4,
+    "scholar": 0,
+    "gate": 1,
+    "source": "SOURCE.sha"
+   }
+  },
+  "tattvasandoha": {
+   "kind": "work",
+   "layers": {
+    "passages": 0,
+    "T1": 0,
+    "L0": 0,
+    "argmap_json": 0,
+    "argmap_md": 0,
+    "L2": 0,
+    "c1": 0,
+    "scholar": 0,
+    "gate": 0,
+    "source": "source/record.json"
+   }
+  },
+  "tests": {
+   "kind": "infra",
+   "layers": {}
+  },
+  "tools": {
+   "kind": "infra",
+   "layers": {}
+  },
+  "vbt": {
+   "kind": "work",
+   "layers": {
+    "passages": 1,
+    "T1": 18,
+    "L0": 28,
+    "argmap_json": 17,
+    "argmap_md": 1,
+    "L2": 20,
+    "c1": 19,
+    "scholar": 0,
+    "gate": 1,
+    "source": "source/record.json"
+   }
+  },
+  "voice-scripts": {
+   "kind": "infra",
+   "layers": {}
+  }
+ },
+ "summary": {
+  "dirs": 117,
+  "works": 107,
+  "with_ledger": 87,
+  "without_ledger": [
+   "abhinavabharati",
+   "dehastha",
+   "gitarthasangraha",
+   "ipvv-vivrti-vimarsini",
+   "lalded",
+   "mahopadeshavimshatika",
+   "malinivijayavarttika",
+   "mystics/lalded",
+   "mystics/nundrishi",
+   "mystics/parmanand",
+   "mystics/rupabhavani",
+   "mystics/santosh",
+   "nundrishi",
+   "paramarthadvadasika",
+   "parmanand",
+   "rahasyapanchadashika",
+   "rupabhavani",
+   "santosh",
+   "sivasutravimarsini",
+   "tattvasandoha"
+  ]
+ }
+}
