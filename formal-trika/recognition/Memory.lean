@@ -3,7 +3,8 @@
 
   From ESSAY-RECOGNITION-FELT-RE-COGNITION.md (R gloss on T Pāli/Ñāṇavīra
   material): five memories M₁ retention · M₂ continuity · M₃ attribution ·
-  M₄ autonoetic · M₅ identity. Rule: M₁+M₂+M₃ → M₄; M₄ ⇏ M₅.
+  M₄ autonoetic · M₅ identity. Encoded rule: M₄ → M₁+M₂+M₃; M₄ ⇏ M₅.
+  The converse is not assumed: the model admits M₁+M₂+M₃ without M₄.
   Gradation law: stream-enterer SEES deception (Layer 3); arahant has REMOVED
   asmimāna with structure intact (Layer 4). Formula: Knowₒ[p] ⟹̸ Enactₒ[p].
 -/
@@ -33,6 +34,11 @@ def wellformedMems : List Mem5 := allMem5.filter memWellformed
 /-- Foundation rule holds: no well-formed M₄ without M₁–M₃. -/
 theorem m4_requires_foundation :
     (wellformedMems.filter fun m => m.m4 && !(m.m1 && m.m2 && m.m3)).length = 0 := by
+  decide
+
+/-- The converse of the encoded foundation rule does not follow. -/
+theorem foundations_without_m4_exist :
+    (wellformedMems.filter fun m => m.m1 && m.m2 && m.m3 && !m.m4).length > 0 := by
   decide
 
 /-- R-REC7a: M₄ ⇏ M₅ — autonoetic memory without identity-ownership exists. -/

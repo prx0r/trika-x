@@ -1,6 +1,10 @@
 # LEAD HANDOVER — formal Trika, organized for the lead agent
 
-**Date:** 2026-11-06. **Author:** box scout agent (autonomous deep-dive, owner-ordered). **Status:** pack assembled, Lean verified today, 2 known reds, not fixed (lead agent owns the fix).
+> Historical snapshot. The [2026-11-06 peer review](../PEER-REVIEW-2026-11-06.md)
+> supersedes its test status, suggested Coords fix, key-export and qprivately
+> claims. Its absolute `/root/...` paths describe a previous environment.
+
+**Date:** 2026-11-06. **Author:** box scout agent (autonomous deep-dive, owner-ordered). **Status:** SUPERSEDED IN PART — PR #1 (`codex/proof-audit-and-integration`, lead agent) repaired both reds with honest scope corrections + must_fail/CI discipline (see PEER-REVIEW-2026-11-06.md); arm-B build-out (KancukaCorr/Grace/Upaya + T-C1/T-C3/T-C4 pilots + upaya/station/bhakti/arc docs) pushed to the same PR branch. Pack assembled pre-PR; `07-` reds below are historical.
 
 ## 1. Mission
 
@@ -25,7 +29,7 @@ T = root text · R = reconstruction (AM0, inexternalism, capacity glosses — ne
 
 ## 4. Build order for the lead agent
 
-1. **Fix the 2 reds** (`07-` README has lines + fixes): Tractatus syntax (multiline `Layers` fields, Fin literals, Decidable framing) + Coords L67 (`= 1` not `= 0`). Re-run both `run.sh` harnesses to full green.
+1. **Reds fixed by PR #1** (Tractatus repaired with scope corrections; Coords restricted to admitted states + separate raw-count theorem). Then arm B (done, on PR branch): KancukaCorr/Grace/Upaya models + mutants (18/18), T-C1/T-C3/T-C4 pilots hold, T-C2 awaiting rater-2. Next: week-2+ decodes, rater-2 pass, cg worldpack sketch.
 2. **Record**: append recognition rows to `formal-trika/runs/INDEX.md` (currently control-only — stale).
 3. **Emit keys**: run `formal-trika/tools/emit_keys.py` → JSON keys for qp evidence + cg oracle.
 4. **Next rungs** (preregistered R-REC1–8, VISION-ARCHITECTURE §9 build order): Recognition transition relation + no-backslide/idempotence + 3 mala-pathology theorems → qp `sigma-flip-v1` gate (scratch copy) → cg `recognition_world.py` sketch → pushing queue §6 rows 1–2 as preregistered predictions → Treeka formal column → essay `FORMALIZATION` class → pack `formal:` refs → relay cite-receipts rule → comparative paper outline.

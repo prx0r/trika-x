@@ -1,17 +1,19 @@
 #!/bin/sh
-# Formal Recognition run harness (mirrors control/run.sh).
-# Every rung file must CHECK; every Broken twin must FAIL.
-# Exit 0 only if all hold.
-cd "$(dirname "$0")"
+# Check every positive and require the intended false proposition in each mutant.
+cd "$(dirname "$0")" || exit 2
 LEAN="${LEAN:-lean}"
+if ! command -v "$LEAN" >/dev/null 2>&1 || ! "$LEAN" --version | grep -q '^Lean (version 4\.34\.1,'; then
+  echo "FAIL: Lean 4.34.1 is unavailable" >&2
+  exit 2
+fi
 pass=0; fail=0
 check() {
-  if LEAN_PATH=. $LEAN "$1" 2>/dev/null; then echo "PASS $1"; pass=$((pass+1));
+  if LEAN_PATH=. "$LEAN" -DwarningAsError=true "$1"; then echo "PASS $1"; pass=$((pass+1));
   else echo "FAIL $1"; fail=$((fail+1)); fi
 }
 mustfail() {
-  if LEAN_PATH=. $LEAN "$1" >/dev/null 2>&1; then echo "BLIND $1 (break CHECKED)"; fail=$((fail+1));
-  else echo "PASS $1 (break fails, as required)"; pass=$((pass+1)); fi
+  if python3 ../tools/must_fail.py --lean "$LEAN" --positive "$1" --mutant "$2" --theorem "$3"; then
+    pass=$((pass+1)); else fail=$((fail+1)); fi
 }
 check Transitions.lean
 check NonEntail.lean
@@ -19,11 +21,17 @@ check Conjuncts.lean
 check Memory.lean
 check Tractatus.lean
 check Coords.lean
-mustfail BrokenTrans.lean
-mustfail BrokenNonEntail.lean
-mustfail BrokenConjuncts.lean
-mustfail BrokenMemory.lean
-mustfail BrokenReach.lean
-mustfail BrokenCoords.lean
+check KancukaCorr.lean
+check Grace.lean
+check Upaya.lean
+mustfail Transitions.lean BrokenTrans.lean trec_preserves_embodiment
+mustfail NonEntail.lean BrokenNonEntail.lean abcde_without_f
+mustfail Conjuncts.lean BrokenConjuncts.lean misidentification_never_recognizes
+mustfail Memory.lean BrokenMemory.lean m4_requires_foundation
+mustfail Tractatus.lean BrokenReach.lean recognition_needs_reflexive_edge
+mustfail Coords.lean BrokenCoords.lean coords_covered_once
+mustfail KancukaCorr.lean BrokenCorr.lean corr_pull_raga
+mustfail Grace.lean BrokenGrace.lean flip_iff_ready_and_grace
+mustfail Upaya.lean BrokenUpaya.lean sakta_needs_purity
 echo "== $pass passed, $fail failed =="
 [ "$fail" -eq 0 ]

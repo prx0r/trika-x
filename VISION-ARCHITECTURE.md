@@ -1,5 +1,13 @@
 # Visionary Architecture: the Lean Recognition Stack inside the Endgame
 
+> **2026-11-06 review:** This vision is a historical proposal, not an
+> integration status. The source bridge and verified keys do not yet exist,
+> qprivately's current kernel permits empty gates and evidence substitution,
+> cg's current run ID can omit different execution results,
+> and the seven-row count is not a textual-classification proof. Read
+> [the peer review](PEER-REVIEW-2026-11-06.md) before relying on any status
+> or safety claim below. Its correction supersedes conflicting run claims.
+
 **Date:** 2026-11-05. **Status:** PROPOSED (this report asserts nothing built beyond what it cites).
 **Rule (owner):** formalizations arise OUT OF the data. Nothing here defines anything;
 every target lists only where the evidence lives. Machine proposes, human disposes.

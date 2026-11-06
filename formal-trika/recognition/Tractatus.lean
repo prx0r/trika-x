@@ -26,9 +26,10 @@ def supports : Fin 2 → Fin 2 → Bool
   | 1, 1 => true  | 1, _ => false
 
 /-- Every context has a support-set. -/
+def contexts : List (Fin 2) := [0, 1]
+
 theorem every_context_supported :
-    (([0, 1] : List (Fin 2)).filter fun c =>
-      ([0, 1] : List (Fin 2)).any fun s => supports c s)).length = 2 := by
+    (contexts.filter (fun c => contexts.any (fun s => supports c s))).length = 2 := by
   decide
 
 /-- No universal support: no single S serves all contexts. -/
@@ -74,16 +75,34 @@ theorem rec2_without_fullrec :
 /-- Layers L1–L4: each requires the previous (inferential → structural →
     recursive self-inclusion → enacted de-reification). -/
 structure Layers where
-  l1 : Bool  l2 : Bool  l3 : Bool  l4 : Bool
+  l1 : Bool
+  l2 : Bool
+  l3 : Bool
+  l4 : Bool
   deriving DecidableEq, Repr
 
 def layersWellformed (l : Layers) : Bool :=
   !(l.l2 && !l.l1) && !(l.l3 && !l.l2) && !(l.l4 && !l.l3)
 
-/-- T13 (finite shadow): no lossless total self-model — every map from a
-    2-state model to a 4-state observer misses a state. -/
+/-- Finite shadow only: two values cannot cover Fin 4. -/
+theorem finite_missing : ∀ a b : Fin 4, ∃ y : Fin 4, y ≠ a ∧ y ≠ b := by decide
+
+theorem fin_two (x : Fin 2) : x = 0 ∨ x = 1 := by
+  have h : ∀ x : Fin 2, x = 0 ∨ x = 1 := by decide
+  exact h x
+
+/-- Every map from Fin 2 to Fin 4 misses a state. This does not establish a
+    general no-self-model theorem or the philosophical T13 without further
+    justified assumptions connecting that claim to these finite types. -/
 theorem no_total_self_model :
-    ∀ f : Fin 2 → Fin 4, ∃ y : Fin 4, ∀ x : Fin 2, f x ≠ y := by decide
+    ∀ f : Fin 2 → Fin 4, ∃ y : Fin 4, ∀ x : Fin 2, f x ≠ y := by
+  intro f
+  obtain ⟨y, ha, hb⟩ := finite_missing (f 0) (f 1)
+  refine ⟨y, ?_⟩
+  intro x
+  rcases fin_two x with hx | hx
+  · simpa [hx] using Ne.symm ha
+  · simpa [hx] using Ne.symm hb
 
 /-- S/i/0/1 combinatorial shadow (H: S itself untouched): 0/1's entire
     content is relational — 0 means not-1, 1 means not-0. -/

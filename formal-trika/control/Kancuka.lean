@@ -4,8 +4,8 @@
   Each kañcuka pairs one infinite capacity of the Lord with its finite form
   in the limited experient. Tiers: the FIVE NAMES are T (tsa-a08 T1:
   kalā ×50, vidyā ×6, rāga ×3, kāla ×2, niyati ×1); the capacity-pairing
-  gloss is R (standard Trika doctrine, reconstructive here until a GOLD
-  argmap pins each pairing to a cited span).
+  gloss is R (reconstructive here until a reviewed argmap pins each pairing
+  to a cited span). The proposed source references are not pinned in this file.
 -/
 namespace FormalTrika
 
@@ -43,6 +43,6 @@ def restricts : Kancuka → Capacity
 theorem count_5 : kancukas.length = 5 := by decide
 
 /-- The pairing covers 5 distinct capacities (no two coverings limit the same). -/
-theorem pairings_distinct : (kancukas.map restricts).length = 5 := by decide
+theorem pairings_distinct : ((kancukas.map restricts).eraseDups).length = 5 := by decide
 
 end FormalTrika

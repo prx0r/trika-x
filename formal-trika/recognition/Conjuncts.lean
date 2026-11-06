@@ -109,8 +109,8 @@ def allTargets : List TargetState :=
 theorem part_coherent_distinct_tokens :
     (allTargets.filter partHolds).length > 0 := by decide
 
-/-- R-REC6b: PI-status independent of ground assignment — token-aperture
-    identity decides nothing about grounds (different types of claim). -/
+/-- R-REC6b: one modeled state has PI true and unequal ground flags. A single
+    witness does not establish full independence over all assignments. -/
 theorem pi_independent_of_grounds :
     (allTargets.filter fun t => t.pi_pi && (t.g1 != t.g2)).length > 0 := by
   decide

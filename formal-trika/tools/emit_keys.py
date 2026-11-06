@@ -1,8 +1,9 @@
-"""Emit recognition keys: theorem inventory + source pins + file hashes.
+"""Emit an explicitly unverified recognition inventory.
 
-Keys are what qp evidence and cg oracle_hash hold. A key is a claim that
-a THING CHECKS, with its scope and tier — never a proof of doctrine.
-Usage: python3 tools/emit_keys.py > keys/recognition-keys.json
+This program hashes source files; it does not invoke Lean, pin the cited
+source documents, or make evidence suitable for a publication gate. Some
+inventory entries are grouped labels rather than Lean declaration names.
+See PEER-REVIEW-2026-11-06.md before connecting this output to another system.
 """
 import hashlib
 import json
@@ -69,8 +70,11 @@ THEOREMS = [
      "ESSAY-RECOGNITION: gradation law"),
 ]
 
-keys = {"key_format": "trika-recognition-key/1",
-        "lean_toolchain": "leanprover/lean4:v4.34.1",
+keys = {"key_format": "trika-recognition-unverified-inventory/2",
+        "intended_lean_toolchain": "leanprover/lean4:v4.34.1",
+        "verification": "NOT_RUN",
+        "source_pins": "UNRESOLVED",
+        "integration_ready": False,
         "files": {},
         "theorems": []}
 
@@ -82,7 +86,8 @@ for f in FILES:
 
 for name, fil, scope, tier, src in THEOREMS:
     keys["theorems"].append(
-        {"theorem": name, "file": fil, "scope": scope,
-         "tier": tier, "source": src, "status": "decide-checked"})
+        {"inventory_label": name, "file": fil, "scope": scope,
+         "tier": "R", "original_tier_label": tier,
+         "unverified_source_note": src, "status": "NOT_CHECKED"})
 
 print(json.dumps(keys, indent=1, sort_keys=True))

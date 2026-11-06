@@ -62,8 +62,13 @@ def allAgents : List Agent :=
 theorem restricted_perspective_exists :
     (allAgents.filter fun a => a.persp && a.restr).length > 0 := by decide
 
-/-- No restriction ⇒ no particular perspective (0 violations). -/
+/-- The admitted states contain no unrestricted perspective. This follows
+    from agentWellformed and does not establish the philosophical premise. -/
 theorem no_unrestricted_perspective :
-    (allAgents.filter fun a => !agentWellformed a).length = 0 := by decide
+    ((allAgents.filter agentWellformed).filter fun a => a.persp && !a.restr).length = 0 := by decide
+
+/-- One of the four raw Boolean combinations is excluded by the premise. -/
+theorem one_raw_invalid_combination :
+    (allAgents.filter fun a => !agentWellformed a).length = 1 := by decide
 
 end FormalRecognition

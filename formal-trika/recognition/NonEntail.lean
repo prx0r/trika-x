@@ -1,7 +1,7 @@
 /-
   Formal Recognition — R-REC3 + R-REC4: non-entailment countermodels.
 
-  From pushing/research/truthanother.md (T: the chain shape, quoted verbatim):
+  From owner-authored pushing/research/truthanother.md (R: chain proposal):
     A ⇏ B ⇏ C ⇏ D ⇏ E ⇏ F
   "No source is permitted to inherit a later conclusion merely by
   establishing an earlier one."
@@ -10,7 +10,8 @@
 
   Method: each contention is a flag; a countermodel is an assignment where
   the earlier flags hold and the later fails. A non-empty witness set PROVES
-  the arrow is missing inside this model. The model is R; the chain is T.
+  the arrow is missing inside this unconstrained model. Both the model and
+  the chain proposal are R; neither is a root-text quotation.
   Also: V₁–V₇ independence, U non-transitivity, no-global-section triad
   (home-checkpointcharlie, R).
 -/
@@ -86,8 +87,8 @@ def coPresent : Fin 3 → Fin 3 → Bool
 theorem copresence_nontransitive :
     (coPresent 0 1 && coPresent 1 2 && !coPresent 0 2) = true := by decide
 
-/-- R-REC4c (no global section): x=y, y=z, x≠z are pairwise satisfiable
-    but jointly unsatisfiable — local coherence ⇏ global section. -/
+/-- Boolean equality toy: the three constraints are jointly unsatisfiable.
+    This is not a general sheaf theorem; only one pair is exhibited below. -/
 theorem no_global_section :
     ¬∃ (x y z : Bool), x = y ∧ y = z ∧ x ≠ z := by decide
 
