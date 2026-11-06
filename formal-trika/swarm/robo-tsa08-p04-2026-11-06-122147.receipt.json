@@ -1,0 +1,93 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a08:tsa08-p04",
+ "prompt_sha256": "01d24d1728ac6bb1bcd122a64f8d28e04fa8ffd862066cdd52eb4942e871c44e",
+ "claims": "2/2 CITED",
+ "audit": {
+  "content_sha256": "32c165dc2c6171538c6cccd898d756cc1a3e13d66830be9f2ef905fe932fab12",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p04: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v71]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v73]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v75]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "maker-part — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "eṣo 'sya ahaṃkārasya karaṇaskandhaḥ — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "tatra sāttviko yasmāt manaś ca buddhīndriyapañcakaṃ ca — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "kartraṃśaś ca ahaṃkāra eva — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "vāgindriyam — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "pādendriyasyaiva karma — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "sarvatanmātrajanasaṃsāmarthyayuktaḥ — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: karma-antyam"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "pass",
+    "detail": "every substantial paragraph is cited"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T12:21:47Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}

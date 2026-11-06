@@ -27,3 +27,6 @@ failures append with the next number — never edit a closed entry.
   0/15 paras objected across mock + live. Fixed shapes, 1 objection landed.
   Rule: write machine-citable markers from the start; finding: claim tables
   stay UNCITED (linker gap, open item).
+- **F7 (2026-11-06): receipt slug collision.** roboscholar runs sharing a
+  day-slug overwrote each other's drafts (3 runs, 1 survivor). Fixed with
+  UTC HHMMSS slugs. Rule: every receipt id must be unique at write time.

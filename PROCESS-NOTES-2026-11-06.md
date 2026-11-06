@@ -775,3 +775,17 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   records now carry identity to every MCP client. Formalisation dimension
   (theorem refs, grammar decision) + submission-payload refs (worker +
   scholar_service) are sequenced follow-ups, not this PR.
+
+## Roboscholar loop proven (Qwen drafts, harness checks, receipts filed).
+
+- tools/roboscholar.py: banked premises → Qwen (CF, free) → claims.link +
+  audit.audit + mock pushback; drafts+receipts in formal-trika/swarm/.
+- 4 runs today: markers fixed (verse-level sources), verbatim prompting
+  added, slug uniqueness fixed. Final: 2/2 CITED, markers resolve, loose
+  quotes correctly fail, missing tsa-a08 bundle correctly fails.
+- Findings the loop surfaced (not bugs): svread bundles lag gold
+  (tsa-a08 absent — their emit cadence); audit strictness is correct
+  (paraphrase must not pass as quotation).
+- Agents can now run the show: arrivals → nodes → roboscholar drafts →
+  pushback → receipts, all receipted, all free-tier. Backend acts
+  (signoff/submit/publish) stay human.

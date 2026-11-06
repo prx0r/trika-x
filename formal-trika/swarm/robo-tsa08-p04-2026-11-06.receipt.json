@@ -1,0 +1,163 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a08:tsa08-p04",
+ "prompt_sha256": "01d24d1728ac6bb1bcd122a64f8d28e04fa8ffd862066cdd52eb4942e871c44e",
+ "claims": "2/3 CITED",
+ "audit": {
+  "content_sha256": "21c8884522d1a64f033b9e37cfe5934761baf48b758be6567c874ed03feda199",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p04: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v71]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v73]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v75]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: ), termed "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  [tsa-a08-v71]. It posits a "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  source (sāttviko) from which mind (mana) and five mind-senses (buddhīndriyapañc"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  (kartraṃśa) exclusively, with "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  (dve karaṇe) linked to "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  (vidyā) and "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  (kriyā) [tsa-a08-v75]. Actions (karma) are tied to sensory seats (indriya-adhiṣ"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  (karmānantyam) does not imply "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  (indriyānantyam) [tsa-a08-v79]. The interplay between generable mind (manasi ja"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "eṣo 'sya ahaṃkārasya karaṇaskandhaḥ — [tsa-a08-v71]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "tatra sāttviko yasmāt manaś ca buddhīndriyapañcakaṃ ca — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "tatra manasi janye sarvatanmātrajanasaṃsāmarthyayuktaḥ sa janakaḥ — [tsa-a08-v73]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "kartraṃśaś ca ahaṃkāra eva — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "tena mukhye karaṇe dve — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "puṃsaḥ jñāne vidyā kriyāyāṃ kalā — [tsa-a08-v75]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "antaḥ prāṇāśrayakarmānusaṃdhes tu vāgindriyam — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "tena indriyādhiṣṭhāne haste yat gamanaṃ tad api pādendriyasyaiva karma iti manta — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "iti mantavyam tena karmānantyam api na indriyānantyam āvahet — [tsa-a08-v79]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: instrument-heap"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: maker-part"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: all-subtle-birth power"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: two chief instruments"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "1 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T12:21:27Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}
