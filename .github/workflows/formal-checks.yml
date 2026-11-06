@@ -1,0 +1,30 @@
+name: Formal checks
+
+on:
+  pull_request:
+  push:
+    branches: [main, 'codex/**']
+
+permissions:
+  contents: read
+
+jobs:
+  finite-models:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+      - uses: leanprover/lean-action@fe408643ea7367d8c0404a8be3975bb145f5fb64 # v1.7.0
+        with:
+          auto-config: 'false'
+          build: 'false'
+          test: 'false'
+          lint: 'false'
+          use-github-cache: 'false'
+          use-mathlib-cache: 'false'
+      - name: Python evidence-boundary tests
+        run: python3 -m unittest discover -s formal-trika/tests -v
+      - name: Control and recognition models
+        run: |
+          sh formal-trika/control/run.sh
+          sh formal-trika/recognition/run.sh
