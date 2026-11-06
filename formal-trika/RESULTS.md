@@ -417,6 +417,49 @@ recognition not effort).
 
 ---
 
+## 2026-11-06 — Rung 8: pratyāhāra intervals (P-SUT1–4, grammar pilot)
+
+Prereg: PREREGISTRATION-SUTRA-RUNG.md (CANDIDATE-EDITION flagged; T-pin
+open — no translation-work/MIRI/GRETIL source on hand; INTAKE-REQUEST-
+sivasutras.md filed for a 14-line micro-intake). 43 sounds + 14 marker
+tokens; pratyāhāra = sounds from first phoneme up to (excluding) marker.
+Bugs caught live: first phoneme dropped (takeWhile skipped marks instead
+of terminating); `set_option-in` invalid after docstring (moved above).
+
+### What was built
+
+- **`Pratyahara.lean`** — `ac_vowels` (a..C = 9 vowels), `hal_consonants`
+  (ha..L = 34), `markers_excluded` (all 43×13 intervals marker-free;
+  needs maxRecDepth, still `decide`), `inventory_43`, `markers_13`
+  (Ṅ twice). All zero-axiom.
+- **`BrokenSutra.lean`** (ai/au swapped — first twin over-broad,
+  harness rejected; surgical redraft passed): `ac_vowels` refuses.
+
+### Scoring (provisional)
+
+- **P-SUT1–4: PASS.** Study backbone: pratyāhāra classes are study sets.
+
+---
+
+## 2026-11-06 — Rung 9: reversal comparison (P-REV1–2, external pilot)
+
+Prereg: PREREGISTRATION-REVERSAL-RUNG.md (rights flagged: © practitioner
+source, link-first, comparison control). Python pre-verified both EXACT.
+
+### What was built
+
+- **`Reversal.lean`** — `semi_reversed` ([va,la,ra,ya] = reverse
+  [ya,ra,la,va]), `span_reversed` (25-letter ma..ka = reverse alphabet
+  ka..ma). Both zero-axiom.
+- **`BrokenReversal.lean`** (one pair swapped): `semi_reversed` refuses.
+
+### Scoring (provisional)
+
+- **P-REV1–2: PASS.** Methodological value: external tables checkable
+  the same way, rights/register flagged. NOT doctrine, NOT a second key.
+
+---
+
 ## What "done" would look like (honest checklist)
 - [ ] Every unarmed chunk with an argmap formalized or explicitly parked
 - [ ] Witnesses pinned (needs openpatala resolver)

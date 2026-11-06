@@ -305,3 +305,24 @@ Burnt-count never decreases along a burn step: strength is monotone.
 
 ## MalaFuel.lean :: grace_ignites
 Nothing burns without knowing: ignition needs grace.
+
+## Pratyahara.lean :: ac_vowels
+The a-to-C interval is exactly the nine vowels: a generative label for the vowel class.
+
+## Pratyahara.lean :: hal_consonants
+The ha-to-L interval holds 34 consonants once markers are excluded.
+
+## Pratyahara.lean :: markers_excluded
+No meta-marker belongs to any pratyāhāra: markers mark, never sound.
+
+## Pratyahara.lean :: inventory_43
+The sequence carries 43 speech sounds in total.
+
+## Pratyahara.lean :: markers_13
+Thirteen distinct marker kinds (Ṇ twice): the meta-alphabet beside the sounds.
+
+## Reversal.lean :: semi_reversed
+The page's semivowel order is exactly the alphabet's reversed: va-la-ra-ya mirrors ya-ra-la-va.
+
+## Reversal.lean :: span_reversed
+The page's 25-letter span is exactly alphabet ka-to-ma reversed: labials-to-gutturals mirrors gutturals-to-labials.

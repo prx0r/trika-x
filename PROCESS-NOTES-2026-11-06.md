@@ -319,3 +319,20 @@
 - D2 teaching order recorded (a+ā first, Mālinī after instrument known).
 - D3 E8 corrected from their audio truth (48+2, ḷḹ silence+flag).
 - Suite 32/32 (practice 6/6). SYNERGIES-DEITYBODY.md canonical.
+
+## Sanskrit-through-Trika endgame (P-SUTRA + P-REV + study).
+
+- Pradīpaka site reviewed (Śivasūtra 77 word-by-word, upāya-organized;
+  full study ladder; MVT/Parātrīśikā/TĀ+Viveka/Spanda/VBT/Tantrasāra
+  scriptures; Aṣṭādhyāyī 3983 transcribed/0 translated). Rights: © all
+  reserved — comparison controls + pedagogy patterns only, never source.
+- P-SUTRA rung green (5 theorems, twin refuses after surgical redraft;
+  first-phoneme + mark-termination bugs caught live; set_option placement
+  learned: docstrings can't precede commands). CANDIDATE pin + intake
+  request filed (translation-work has no vyākaraṇa source; MIRI/GRETIL
+  checked — GRETIL KMT ✓ but no Aṣṭādhyāyī).
+- P-REV rung green (BOTH reversal claims EXACT: semivowel flip +
+  25-letter span flip; twin refuses). First external comparison theorems.
+- Study: matrika_study.py (50 cards, verified:false propagated,
+  trika_link NULL) + pedagogy patterns adopted + SYNERGIES-SANSKRITHELP.
+- Score: 107 theorems, 12 receipts, 32 tests green.
