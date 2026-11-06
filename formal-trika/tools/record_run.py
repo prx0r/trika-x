@@ -27,6 +27,10 @@ def main():
     if not rev:
         code, out = sh("git", "rev-parse", "--short", "HEAD")
         rev = out.strip() if code == 0 else "unknown"
+        code, out = sh("git", "status", "--porcelain")
+        if code == 0 and out.strip():
+            rev = rev + "+dirty"
+            print(f"note: working tree dirty; recording {rev} (receipt covers HEAD + tree)")
     code, out = sh("lean", "--version")
     lean = out.strip().split("\n")[0] if code == 0 else "missing"
     harnesses = {}

@@ -62,6 +62,24 @@ class BridgeTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'UNPINNED'):
             bridge.inventory(self.snapshot, mapping, self.evidence)
 
+    def test_candidates_are_advisory_never_pins(self):
+        cands = bridge.read_json(bridge.CANDIDATES_PATH)
+        self.assertTrue(cands.get('candidates'))
+        for c in cands['candidates']:
+            self.assertEqual(c.get('status') in ('CANDIDATE', 'CANDIDATE-EDITION'), True)
+        # Even with candidates attached, resolution stays UNPINNED.
+        row = bridge.resolve('chunk:tsa08-p03', self.snapshot, self.mapping,
+                             self.inventory, candidates=cands)
+        self.assertEqual(row['witness_status'], 'UNPINNED')
+        self.assertIn('witness_candidates', row)
+        self.assertTrue(all('source_url' in r or 'note' in r
+                            for c in row['witness_candidates'] for r in c['records']))
+        # And without the file, resolution still works (no promotion path).
+        row2 = bridge.resolve('chunk:tsa08-p03', self.snapshot, self.mapping,
+                              self.inventory, candidates={"candidates": []})
+        self.assertEqual(row2['witness_status'], 'UNPINNED')
+        self.assertNotIn('witness_candidates', row2)
+
     def test_stale_or_duplicate_snapshot_rejected(self):
         snap = copy.deepcopy(self.snapshot)
         snap['works']['tsa08']['passages'][0]['immutable_id'] = snap['works']['tsa08']['passages'][1]['immutable_id']

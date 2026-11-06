@@ -20,6 +20,7 @@ import sys
 
 HERE = Path(__file__).resolve().parent.parent
 MAP_PATH = HERE / 'bridge' / 'openpatala-map.json'
+CANDIDATES_PATH = HERE / 'bridge' / 'witness-candidates.json'
 SNAPSHOT_PATH = HERE / 'bridge' / 'passages.snapshot.json'
 EVIDENCE_PATH = HERE / 'EVIDENCE.json'
 
@@ -83,7 +84,8 @@ def verify_ledgers(tw, snapshot):
             raise ValueError(f'{work}: passage ledger differs from pinned snapshot ({p})')
 
 
-def resolve(ref, snapshot, mapping, by_locator, live_verified=False):
+def resolve(ref, snapshot, mapping, by_locator, live_verified=False,
+            candidates=None):
     loc = ref.removeprefix('chunk:')
     if loc == 'vbt' and ref == 'vbt':
         return {'kind': 'work', 'work': 'vbt', 'record': mapping['works']['vbt'],
@@ -92,7 +94,7 @@ def resolve(ref, snapshot, mapping, by_locator, live_verified=False):
     if ':' in loc or loc not in by_locator:
         raise ValueError(f'unknown passage locator {ref!r}')
     work, passage = by_locator[loc]
-    return {'kind': 'passage', 'locator': loc, 'immutable_id': passage['immutable_id'],
+    out = {'kind': 'passage', 'locator': loc, 'immutable_id': passage['immutable_id'],
             'verses': passage.get('verses'), 'work': work,
             'record': mapping['works'][work], 'witness_status': 'UNPINNED',
             'ledger': {'path': snapshot['works'][work]['ledger'],
@@ -101,6 +103,16 @@ def resolve(ref, snapshot, mapping, by_locator, live_verified=False):
                        'status': 'BYTES_MATCH_SNAPSHOT' if live_verified else 'SNAPSHOT_ONLY'},
             'limitations': ['ledger membership is not a verified witness, edition or reading',
                             'work mappings are candidate links, not authority']}
+    # Advisory only: candidate manuscript/edition pointers for this work's
+    # key. They NEVER change witness_status (hard-enforced UNPINNED above
+    # and in inventory()); promotion needs a verified record, not a pointer.
+    ours = mapping['works'][work].get('openpatala_work_key', '')
+    hits = [c for c in (candidates or {}).get('candidates', [])
+            if c.get('work_key') == ours]
+    if hits:
+        out['witness_candidates'] = hits
+        out['limitations'].append('listed candidates are pointers with provenance, not pins')
+    return out
 
 
 def main():
@@ -111,6 +123,10 @@ def main():
     args = parser.parse_args()
     try:
         snapshot, mapping, evidence = map(read_json, (SNAPSHOT_PATH, MAP_PATH, EVIDENCE_PATH))
+        try:
+            candidates = read_json(CANDIDATES_PATH)
+        except OSError:
+            candidates = {"candidates": []}
         by_locator = inventory(snapshot, mapping, evidence)
         if args.tw is not None:
             verify_ledgers(args.tw, snapshot)
@@ -118,7 +134,7 @@ def main():
             source_status = 'ledger bytes match pinned snapshot' if args.tw is not None else 'snapshot only; live ledger bytes not checked'
             print(f"{len(snapshot['works'])} works, {len(by_locator)} passage IDs; {source_status}; witnesses UNPINNED")
         elif args.ref:
-            print(json.dumps(resolve(args.ref, snapshot, mapping, by_locator, args.tw is not None), ensure_ascii=False, indent=2))
+            print(json.dumps(resolve(args.ref, snapshot, mapping, by_locator, args.tw is not None, candidates), ensure_ascii=False, indent=2))
         else:
             parser.error('give a passage locator or --check')
     except (OSError, json.JSONDecodeError, ValueError, TypeError, KeyError) as exc:

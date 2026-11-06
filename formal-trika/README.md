@@ -49,3 +49,21 @@ The 2026-11-06 review used the official Lean 4.34.1 Linux release, Lean commit
 `47bf4bbd78f70c2e9670598ab7124d92b6efb7330ff33e5fbb4030f6fd72e4e4`.
 The archive is not vendored here. A `--version` match is not by itself binary
 attestation, and the hand-written mutants still require semantic diff review.
+
+Static axiom hygiene (no Lean needed):
+```sh
+python3 formal-trika/tools/axiom_audit.py --check
+```
+rejects `sorry`/`sorryAx`, custom `axiom` declarations, `native_decide`
+(`trustCompiler`/`ofReduceBool`). The dynamic half (`#print axioms` =
+`[propext, Classical.choice, Quot.sound]` per theorem) still needs a Lean box.
+
+Mechanical mutation sweep (SOTA `jubnzv/Mutate.lean`, Lean box only):
+```sh
+MUTATE_LEAN=../Mutate.lean/Mutate.lean \
+  python3 formal-trika/tools/mutate_sweep.py
+```
+Hand-written `Broken*.lean` twins stay the preregistered controls; the sweep
+is additional — `survived` = coverage gap (add an invariant), `stillborn` =
+ill-typed (skip), equivalent mutants recorded explicitly. Fails closed when
+Lean or Mutate.lean is absent.

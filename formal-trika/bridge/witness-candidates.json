@@ -1,0 +1,85 @@
+{
+  "provenance": "Witness/edition CANDIDATES only — evidence pointers with sources, never pins. A candidate here MUST NOT change any witness_status (resolver hard-enforces UNPINNED; see test_bridge.py). Promotion requires an independently verified manuscript record + edition/transcription binding, recorded as a new dated file, never an edit here. Frontier manuscript records: svread/endgame/sanskrithelp/TRANSLATION_FRONTIER.md (NGMPP/FDM URLs). R2 audit 2026-11-06: no populated witness data exists in s3://patala (empty-schema dump, seed dossiers without witnesses, works registry without witness fields).",
+  "candidates": [
+    {
+      "work_key": "srimatottara",
+      "target": "Srimatottara ch.7 (Malini fifty powers)",
+      "records": [
+        {"kind": "manuscript", "shelfmark": "NAK 2/214", "ngmpp": "A 193/3", "note": "complete 339-folio Sanskrit/Newari", "source_url": "https://www-archiv.fdm.uni-hamburg.de/ngmcp/A_193-3_%C5%9Ar%C4%ABmatottaratantra.html"},
+        {"kind": "manuscript", "shelfmark": "NAK 1/1113", "ngmpp": "A 998/2", "note": "older palm-leaf witness", "source_url": "https://www-archiv.fdm.uni-hamburg.de/ngmcp/A_998-2%281%29_%C5%9Ar%C4%ABmatottaratantra.html"}
+      ],
+      "translation_status": "no complete published English translation located",
+      "status": "CANDIDATE"
+    },
+    {
+      "work_key": "kularatnoddyota",
+      "target": "Kularatnoddyota 5.84-101 (~18 verses, first sprint)",
+      "records": [
+        {"kind": "manuscript", "shelfmark": "NGMPP A 149/1", "source_url": "https://www-archiv.fdm.uni-hamburg.de/ngmcp/A_149-1_Kularatnoddyota.html"},
+        {"kind": "manuscript", "shelfmark": "NGMPP A 147/10", "source_url": "https://www-archiv.fdm.uni-hamburg.de/ngmcp/A_147-10_Kularatnoddyota.html"},
+        {"kind": "etext", "note": "Dyczkowski electronic working edition (Muktabodha/MIRI, several manuscripts)"}
+      ],
+      "translation_status": "no complete English translation located; scattered excerpts translated",
+      "status": "CANDIDATE"
+    },
+    {
+      "work_key": "tantrasadbhava",
+      "target": "Tantrasadbhava ch.2 (matrkapujadhikara)",
+      "records": [
+        {"kind": "manuscript", "shelfmark": "NAK 5/445", "ngmpp": "A 44/2", "note": "Nepalese palm-leaf, ca. 1097 CE", "source_url": "https://www-archiv.fdm.uni-hamburg.de/ngmcp/A_44-2_Tantrasadbh%C4%81va.html"},
+        {"kind": "etext", "note": "Dyczkowski partial/provisional edition (Muktabodha)"},
+        {"kind": "translation-control", "note": "Bang diss (CC BY 4.0): chs 1, 3part, 9, 18, 24part, 28 — ch.2 NOT among them", "source_url": "https://ediss.sub.uni-hamburg.de/handle/ediss/9642"}
+      ],
+      "translation_status": "work partially translated; ch.2 strong untranslated target",
+      "status": "CANDIDATE"
+    },
+    {
+      "work_key": "kubjikamata",
+      "target": "Kubjikamatatantra 17.94-109 (fifty-phoneme body; lost Trisirobhairava witness)",
+      "records": [
+        {"kind": "etext", "note": "GRETIL e-text (Vasudeva, after Goudriaan & Schoterman, CC BY-NC-SA 4.0)", "source_url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/html/sa_kubjikamatatantra.htm"},
+        {"kind": "translation-control", "note": "Heilijgers-Seelen chs 14-16 complete (Brill); Dyczkowski scattered verses"}
+      ],
+      "translation_status": "no complete dedicated English translation of KMT 17 located",
+      "status": "CANDIDATE"
+    },
+    {
+      "work_key": "satsahasrasamhita",
+      "target": "Satsahasrasamhita 7.5-38 (expanded Malini system)",
+      "records": [
+        {"kind": "translation-control", "note": "Schoterman chs 1-5 edited/translated/annotated; chs 6-50 largely open"},
+        {"kind": "manuscript-note", "note": "~6,000 verses, 50 chapters; three manuscripts (BnF catalogue)"}
+      ],
+      "translation_status": "7.5-38 strong translation target",
+      "status": "CANDIDATE"
+    },
+    {
+      "work_key": "trisirobhairava",
+      "target": "Trisirobhairava nadiphanta passage (RECONSTRUCTION, not translation)",
+      "records": [
+        {"kind": "quotation", "note": "Jayaratha Tantralokaviveka on TA 15.121-125b preserves the passage"},
+        {"kind": "redaction", "note": "KMT 17.94-109 redacts it; compare MVT 3, SYM 3, TSB 3"}
+      ],
+      "translation_status": "no extant standalone tantra; stemmatic reconstruction project",
+      "status": "CANDIDATE"
+    },
+    {
+      "work_key": "tantrasara",
+      "target": "current gold works (tsa07/tsa08 chunks)",
+      "records": [
+        {"kind": "edition", "note": "GRETIL gretil_tantrasara_clean.txt (Nirnaya Sagara 1918); openpatala work PTCND_sa_abhinavagupta-tantrasAra"}
+      ],
+      "translation_status": "candidate edition; no manuscript witness on record",
+      "status": "CANDIDATE-EDITION"
+    },
+    {
+      "work_key": "paramarthasara",
+      "target": "current gold work (param chunks)",
+      "records": [
+        {"kind": "edition", "note": "GRETIL KSTS 7; openpatala work PTCND_sa_abhinavagupta-paramArthasAra"}
+      ],
+      "translation_status": "candidate edition; no manuscript witness on record",
+      "status": "CANDIDATE-EDITION"
+    }
+  ]
+}

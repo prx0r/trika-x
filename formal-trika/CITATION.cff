@@ -1,0 +1,23 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it as below."
+title: "Formal Trika — machine-checked Śaiva formalization"
+type: software
+authors:
+  - family-names: "prx0r"
+    given-names: "box agent"
+    affiliation: "prx0r"
+repository-code: "https://github.com/prx0r/trika-x"
+abstract: >
+  Lean 4 formalization of Trika Śaiva concepts: malas, kañcukas,
+  experiential stations, recognition (pratyabhijñā), upāya means, and
+  grace — with pre-registration, control/mutant discipline, evidence
+  chain to translation-work gold, and honest scope limits (finite models
+  only; never a claim about minds or metaphysical truth).
+keywords:
+  - "Lean 4"
+  - "formal verification"
+  - "Trika Śaivism"
+  - "pratyabhijñā"
+  - "Abhidhamma method"
+  - "pre-registration"
+license: "CC0-1.0"

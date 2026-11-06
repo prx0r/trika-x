@@ -10,6 +10,8 @@ import unittest
 ROOT = Path(__file__).resolve().parents[1]
 MUST_FAIL = ROOT / "tools" / "must_fail.py"
 EMITTER = ROOT / "tools" / "emit_keys.py"
+AXIOM_AUDIT = ROOT / "tools" / "axiom_audit.py"
+MUTATE_SWEEP = ROOT / "tools" / "mutate_sweep.py"
 
 
 class EvidenceBoundaryTests(unittest.TestCase):
@@ -75,6 +77,37 @@ sys.exit(1)
         self.assertEqual(inventory["source_pins"], "UNRESOLVED")
         self.assertTrue(inventory["theorems"])
         self.assertTrue(all(t["status"] == "NOT_CHECKED" for t in inventory["theorems"]))
+
+    def test_axiom_audit_clean_and_fail_closed(self):
+        result = subprocess.run([sys.executable, str(AXIOM_AUDIT), "--check"],
+                                text=True, capture_output=True)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertIn("CLEAN", result.stdout)
+
+    def test_mutate_sweep_fails_closed_without_instrument(self):
+        env = os.environ.copy()
+        env["MUTATE_LEAN"] = str(self.dir / "no-such-Mutate.lean")
+        result = subprocess.run([sys.executable, str(MUTATE_SWEEP)],
+                                text=True, capture_output=True, env=env)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertNotIn("sweep complete", result.stdout)
+
+    def test_kappa_raw_and_chance_corrected(self):
+        import importlib.util
+        spec = importlib.util.spec_from_file_location(
+            "kappa", str(ROOT / "tools" / "kappa.py"))
+        kappa = importlib.util.module_from_spec(spec)
+        spec.loader.exec_module(kappa)
+        a = ["anava"] * 6 + ["sakta"] * 6
+        b = ["anava"] * 6 + ["sakta"] * 6
+        r = kappa.cohen_kappa(a, b)
+        self.assertEqual(r["raw"], 1.0)
+        self.assertEqual(r["kappa"], 1.0)
+        b2 = ["sakta"] * 6 + ["anava"] * 6
+        r2 = kappa.cohen_kappa(a, b2)
+        self.assertEqual(r2["raw"], 0.0)
+        with self.assertRaises(ValueError):
+            kappa.cohen_kappa(a, b + ["anava"])
 
 
 if __name__ == "__main__":

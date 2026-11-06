@@ -1,0 +1,11 @@
+{
+  "title": "Formal Trika — machine-checked Śaiva formalization",
+  "description": "Lean 4 formalization of Trika Śaiva concepts with pre-registration, control/mutant discipline, and evidence chain to translation-work gold. Finite models only; never a claim about minds or metaphysical truth.",
+  "creators": [{"name": "prx0r box agent"}],
+  "license": "CC0-1.0",
+  "keywords": ["Lean 4", "formal verification", "Trika Śaivism", "pratyabhijñā", "pre-registration"],
+  "related_identifiers": [
+    {"identifier": "https://github.com/prx0r/trika-x", "relation": "isSupplementTo", "scheme": "url"}
+  ],
+  "note": "Not yet submitted to Zenodo. When a release is ready: deposit, record concept DOI here, keep latest DOI in sync (same pattern as formal-abhidhamma/ZENODO.json)."
+}

@@ -40,3 +40,11 @@ Agreement = exact matches / 12. ≥ 0.6 → T-C2 HOLDS (criteria usable).
 Below → rewrite criteria (max 2 rounds) or park, per the kill rule.
 Disagreements are listed verbatim — they are the finding if we fail.
 Rater: ____________ Date: ____________
+
+## Chance-corrected report (SOTA alongside, never re-thresholds)
+
+Raw ≥ 0.6 above is authoritative (preregistered). After collecting both
+columns, also run `python3 tools/kappa.py rater1.json rater2.json` for
+Cohen's κ + per-category agreement (LREC-2026 IAA guide: 2 raters ×
+nominal tags → unweighted κ; Fleiss only if a third rater joins).
+Record κ next to raw; with n=12 say the numbers, not adjectives.

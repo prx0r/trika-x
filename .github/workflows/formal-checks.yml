@@ -36,10 +36,14 @@ jobs:
           echo "$RUNNER_TEMP/lean-4.34.1-linux/bin" >> "$GITHUB_PATH"
       - name: Python evidence-boundary tests
         run: python3 -m unittest discover -s formal-trika/tests -v
+      - name: Lean axiom hygiene (static; no toolchain needed)
+        run: python3 formal-trika/tools/axiom_audit.py --check
       - name: Generated-artifact freshness
         run: |
           python3 formal-trika/tools/vocab.py --check
           python3 formal-trika/tools/table.py --check
+          python3 formal-trika/tools/runs-index.py --check
+          python3 formal-trika/tools/blind.py --check
       - name: Control and recognition models
         run: |
           sh formal-trika/control/run.sh
