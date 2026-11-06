@@ -117,6 +117,44 @@ class PracticeTests(unittest.TestCase):
             json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest())
         # safety present
         self.assertTrue(u["safety"])
+
+    def test_renderer_with_synthetic_sources(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            (root / 'vbt').mkdir()
+            (root / 'vbt/passages.jsonl').write_text(json.dumps({
+                'locator': 'vbt-p03', 'verses': '22-31'}) + '\n')
+            source = root / 'daily.json'
+            source.write_text(json.dumps({'entries': [{'dharana': 2, 'verse': 24,
+                'technique': 'synthetic gloss', 'upaya': '', 'trains': ''}]}))
+            out = root / 'unit.json'
+            r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'syllabus_unit.py'),
+                                '--dharana', '2', '--vbt', str(source), '--tw', str(root),
+                                '--out', str(out)], text=True, capture_output=True)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            result = json.loads(out.read_text())
+            self.assertEqual(result['source_refs'][0]['locator'], 'vbt-p03')
+            self.assertEqual(result['status'], 'review')
+            self.assertIn('NOT root text', result['technique_provenance'])
+
+    def test_bodymap_drift_does_not_claim_source_validation(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            san, db = root / 'sanskrithelp', root / 'deitybody'
+            paths = [san / 'public/memory/data/matrika_body_map.json',
+                     db / 'data/matrika_body_map.json', db / 'site/data/matrika_body_map.json']
+            for path in paths:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text('{"candidate": true}\n')
+            env = os.environ.copy()
+            env.update(SANSKRITHELP_CHECKOUT=str(san), DEITYBODY_CHECKOUT=str(db))
+            cmd = [sys.executable, str(ROOT / 'tools/bodymap_check.py')]
+            match = subprocess.run(cmd, env=env, text=True, capture_output=True)
+            self.assertEqual(match.returncode, 0, match.stdout + match.stderr)
+            self.assertIn('textual accuracy not checked', match.stdout)
+            paths[-1].write_text('{"candidate": false}\n')
+            self.assertNotEqual(subprocess.run(cmd, env=env, capture_output=True).returncode, 0)
+
     @unittest.skipUnless(available(PRACTICE / 'pilot-inputs/vbt-daily.json',
                                   TW / 'vbt/passages.jsonl'),
                          'external practice pilot and translation-work are unavailable')
