@@ -1,0 +1,279 @@
+{
+ "format": "trika-incidence/1",
+ "passages": 909,
+ "theorems": 131,
+ "cells": 44,
+ "cells_sparse": [
+  [
+   "paramarthasara:param-p04",
+   "Pramatr.lean :: seven"
+  ],
+  [
+   "phrdaya:phr-p04",
+   "Mala.lean :: count_3"
+  ],
+  [
+   "phrdaya:phr-p04",
+   "MalaFuel.lean :: fuel_terminates"
+  ],
+  [
+   "phrdaya:phr-p04",
+   "MalaFuel.lean :: grace_ignites"
+  ],
+  [
+   "tantraloka-a15:tal-a15-p12",
+   "Nyasa.lean :: matrika_total"
+  ],
+  [
+   "tantraloka-a15:tal-a15-p12",
+   "Nyasa.lean :: order_chief"
+  ],
+  [
+   "tantraloka-a34:tal-a34-p01",
+   "Ladder.lean :: abandon_strict"
+  ],
+  [
+   "tantraloka-a34:tal-a34-p01",
+   "Ladder.lean :: chain_trans"
+  ],
+  [
+   "tantraloka-a34:tal-a34-p01",
+   "Ladder.lean :: terminal_no_successor"
+  ],
+  [
+   "tantrasara-a07:tsa07-p01",
+   "AnswerKey.lean :: key_thirtysix_tattvas"
+  ],
+  [
+   "tantrasara-a07:tsa07-p01",
+   "Avarana.lean :: course_ascends"
+  ],
+  [
+   "tantrasara-a07:tsa07-p01",
+   "Embed.lean :: earth_all5"
+  ],
+  [
+   "tantrasara-a07:tsa07-p01",
+   "Tattva.lean :: eleven_wombed"
+  ],
+  [
+   "tantrasara-a07:tsa07-p01",
+   "Tattva.lean :: five_gross_elements"
+  ],
+  [
+   "tantrasara-a07:tsa07-p01",
+   "Tattva.lean :: thirty_six"
+  ],
+  [
+   "tantrasara-a07:tsa07-p01",
+   "TattvaInventory.lean :: kancuka_count"
+  ],
+  [
+   "tantrasara-a07:tsa07-p01",
+   "TattvaInventory.lean :: named_tattvas_36"
+  ],
+  [
+   "tantrasara-a08:tsa08-p01",
+   "AnswerKey.lean :: key_five_followers"
+  ],
+  [
+   "tantrasara-a08:tsa08-p01",
+   "TattvaGen.lean :: gen_total"
+  ],
+  [
+   "tantrasara-a08:tsa08-p01",
+   "TattvaGen.lean :: pure_distinct"
+  ],
+  [
+   "tantrasara-a08:tsa08-p01",
+   "TattvaInventory.lean :: pure_count"
+  ],
+  [
+   "tantrasara-a08:tsa08-p01",
+   "TattvaInventory.lean :: pure_excludes_maya"
+  ],
+  [
+   "tantrasara-a08:tsa08-p02",
+   "AnswerKey.lean :: key_grace_term"
+  ],
+  [
+   "tantrasara-a08:tsa08-p02",
+   "Grace.lean :: readiness_insufficient"
+  ],
+  [
+   "tantrasara-a08:tsa08-p02",
+   "Mala.lean :: count_3"
+  ],
+  [
+   "tantrasara-a08:tsa08-p02",
+   "Transitions.lean :: anava_stuck_exists"
+  ],
+  [
+   "tantrasara-a08:tsa08-p02",
+   "Transitions.lean :: karma_loop_exists"
+  ],
+  [
+   "tantrasara-a08:tsa08-p03",
+   "AnswerKey.lean :: key_five_kancukas"
+  ],
+  [
+   "tantrasara-a08:tsa08-p03",
+   "AnswerKey.lean :: key_seven_experients"
+  ],
+  [
+   "tantrasara-a08:tsa08-p03",
+   "Coords.lean :: coords_covered_once"
+  ],
+  [
+   "tantrasara-a08:tsa08-p03",
+   "Kancuka.lean :: count_5"
+  ],
+  [
+   "tantrasara-a08:tsa08-p03",
+   "Kancuka.lean :: pairings_distinct"
+  ],
+  [
+   "tantrasara-a08:tsa08-p03",
+   "KancukaCorr.lean :: corr_pull_raga"
+  ],
+  [
+   "tantrasara-a08:tsa08-p03",
+   "KancukaCorr.lean :: corr_stall_kala"
+  ],
+  [
+   "tantrasara-a08:tsa08-p03",
+   "Pramatr.lean :: seven"
+  ],
+  [
+   "tantrasara-a08:tsa08-p03",
+   "TattvaInventory.lean :: maya_six_count"
+  ],
+  [
+   "tantrasara-a08:tsa08-p04",
+   "EgoOrigin.lean :: nonrivalled_does_work"
+  ],
+  [
+   "tantrasara-a08:tsa08-p04",
+   "EgoOrigin.lean :: sankhya_requires_cause"
+  ],
+  [
+   "tantrasara-a08:tsa08-p04",
+   "EgoOrigin.lean :: trika_self_grounding_exists"
+  ],
+  [
+   "tantrasara-a08:tsa08-p04",
+   "Heaps.lean :: guna_threefold"
+  ],
+  [
+   "tantrasara-a08:tsa08-p04",
+   "Heaps.lean :: heap_has_both_kinds"
+  ],
+  [
+   "tantrasara-a08:tsa08-p04",
+   "Tattva.lean :: eleven_wombed"
+  ],
+  [
+   "tantrasara-a08:tsa08-p04",
+   "TattvaGen.lean :: gen_total"
+  ],
+  [
+   "tantrasara-a08:tsa08-p04",
+   "TattvaGen.lean :: pentad_uniform"
+  ]
+ ],
+ "bare_passages": 900,
+ "lone_theorems": [
+  "AnswerKey.lean :: key_hundred_twelve_dharanas",
+  "Aperture.lean :: aperture_distinct",
+  "Aperture.lean :: aperture_nine",
+  "Application.lean :: grace_not_a_means",
+  "Application.lean :: unready_unreachable",
+  "Avarana.lean :: partial_order_honest",
+  "Conjuncts.lean :: drop_reidentification_loses",
+  "Conjuncts.lean :: drop_stabilization_loses",
+  "Conjuncts.lean :: drop_transformation_loses",
+  "Conjuncts.lean :: drop_veridicality_loses",
+  "Conjuncts.lean :: misidentification_never_recognizes",
+  "Conjuncts.lean :: part_coherent_distinct_tokens",
+  "Conjuncts.lean :: pi_independent_of_grounds",
+  "Conjuncts.lean :: recognition_unique",
+  "Conjuncts.lean :: siva_requires_axioms",
+  "Conjuncts.lean :: unus_ambu_not_identity",
+  "Coords.lean :: no_unrestricted_perspective",
+  "Coords.lean :: one_raw_invalid_combination",
+  "Coords.lean :: restricted_perspective_exists",
+  "EgoOrigin.lean :: accounts_differ_derivative",
+  "EgoOrigin.lean :: accounts_differ_pureI",
+  "EgoOrigin.lean :: feeling_makership_independent",
+  "Embed.lean :: ether_sound_only",
+  "Embed.lean :: nesting",
+  "Grace.lean :: both_gaps_exist",
+  "Grace.lean :: flip_iff_ready_and_grace",
+  "Grace.lean :: grace_insufficient_alone",
+  "Heaps.lean :: guna_exhaustive",
+  "Heaps.lean :: heap_eleven",
+  "KancukaCorr.lean :: corr_doubt_vidya",
+  "KancukaCorr.lean :: coverage_partial",
+  "KancukaCorr.lean :: unknowns_explicit",
+  "MalaFuel.lean :: strength_monotone",
+  "Memory.lean :: foundations_without_m4_exist",
+  "Memory.lean :: m4_requires_foundation",
+  "Memory.lean :: m4_without_m5",
+  "Memory.lean :: no_enacting_without_seeing",
+  "Memory.lean :: sees_without_enacting",
+  "NonEntail.lean :: abcde_without_f",
+  "NonEntail.lean :: aby_not_b",
+  "NonEntail.lean :: b_not_c",
+  "NonEntail.lean :: c_not_d",
+  "NonEntail.lean :: copresence_nontransitive",
+  "NonEntail.lean :: d_not_e",
+  "NonEntail.lean :: e_not_f",
+  "NonEntail.lean :: no_global_section",
+  "NonEntail.lean :: pairwise_satisfiable_xy",
+  "NonEntail.lean :: vim7_independent",
+  "Nyasa.lean :: ka_uniform",
+  "Nyasa.lean :: malini_total",
+  "Nyasa.lean :: maps_diverge",
+  "Nyasa.lean :: multiset_kept",
+  "Pramatr.lean :: eight_combos",
+  "Pramatr.lean :: profile",
+  "Pratyahara.lean :: ac_vowels",
+  "Pratyahara.lean :: hal_consonants",
+  "Pratyahara.lean :: inventory_43",
+  "Pratyahara.lean :: markers_13",
+  "Pratyahara.lean :: markers_excluded",
+  "Recognition.lean :: contentEq_sharp",
+  "Recognition.lean :: recognition_adds_nothing",
+  "Recognition.lean :: recognition_lands_recognized",
+  "Recognition.lean :: recognition_preserves_content",
+  "Reversal.lean :: semi_reversed",
+  "Reversal.lean :: span_reversed",
+  "Tattva.lean :: all_groups_present",
+  "Tattva.lean :: compression_ratio",
+  "TattvaGen.lean :: cut_arith",
+  "TattvaInventory.lean :: named_tattvas_exhaustive",
+  "TattvaInventory.lean :: named_tattvas_unique",
+  "TattvaInventory.lean :: pure_and_kancukas_disjoint",
+  "Tractatus.lean :: bit_content_relational",
+  "Tractatus.lean :: every_context_supported",
+  "Tractatus.lean :: no_total_self_model",
+  "Tractatus.lean :: no_universal_support",
+  "Tractatus.lean :: rec1_without_rec2",
+  "Tractatus.lean :: rec2_without_fullrec",
+  "Tractatus.lean :: recognition_needs_reflexive_edge",
+  "Tractatus.lean :: recognition_reachable",
+  "Tractatus.lean :: suffering_reachable",
+  "Transitions.lean :: acquire_is_not_recognition",
+  "Transitions.lean :: trec_clears_bondage",
+  "Transitions.lean :: trec_idempotent",
+  "Transitions.lean :: trec_preserves_embodiment",
+  "Transitions.lean :: trec_retains_limitation",
+  "Upaya.lean :: anava_needs_repetition",
+  "Upaya.lean :: anava_two_suffice",
+  "Upaya.lean :: anava_within_sambhava",
+  "Upaya.lean :: sakta_needs_purity",
+  "Upaya.lean :: sakta_within_sambhava",
+  "Upaya.lean :: sambhava_immediate"
+ ],
+ "note": "incidence = EVIDENCE chunk cites only; argmap/treeka links are separate columns"
+}

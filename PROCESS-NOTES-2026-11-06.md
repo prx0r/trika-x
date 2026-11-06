@@ -995,3 +995,20 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   — as H-tier inventory → structure → (someday) selector-adjacent claims,
   each rung preregistered with phenomenal claims explicitly out.
 - F9 logged (comma surgery lesson).
+
+## Operationalise formalisation (agents over models, sessions out).
+
+- twin_to_session.py: refusing twins render pushing skeletons (ROUND 0
+  checked claims + true grounds via EVIDENCE lookup; ROUNDs left EMPTY
+  for assessor). Demo on BrokenGenPerm caught a grounds bug first
+  (blind-first-entry → per-theorem lookup; fixed).
+- Loop proven: twin → skeleton → assessor flesh → session → claims →
+  treeka → review. Formal countermodels are now question generators
+  (Beyond→fifth-means? Perm→why-five-each? Leap→why-graded?).
+- incidence_matrix.py: 909×131 with 44 cells (coverage honesty: 900 bare,
+  91 lone). Thon Ly mirror, descriptive.
+- Neural verdict: embeddings for retrieval (agent context, NVIDIA-ontology
+  pattern), never proof (COVCAL/faithfulness: partial signals abstain).
+  "neuraxon qubic" uninterpretted — owner to clarify if specific tech meant.
+- BRIDGES-LEVIN.md: 5 specced bridges (discriminators + non-claims) +
+  Doyle inversion topic + Atlas positioning note. Specs, not papers.
