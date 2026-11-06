@@ -112,6 +112,9 @@ class ReportTests(unittest.TestCase):
         record['openpatala']['work_id'] = 'different'
         self.assertEqual(composition.classify('w', mapping, record), 'CONFLICT')
         self.assertEqual(composition.classify('w', [], None), 'CONFLICT')
+        self.assertEqual(composition.classify('w', {'work': 'w', 'mapping_status': 'UNMAPPED',
+                         'openpatala_work_id': 'not-unmapped'}, None), 'CONFLICT')
+        self.assertEqual(composition.classify('w', {'work': 'w', 'mapping_status': 'INVALID'}, None), 'CONFLICT')
 
     def test_string_similarity_is_not_work_identity(self):
         self.assertEqual(agreement.verdict_for('tantrasara', 'CANDIDATE',

@@ -39,6 +39,12 @@ def classify(workdir, mapping, record):
         return 'CONFLICT'
     if mapping and mapping.get('work') != workdir:
         return 'CONFLICT'
+    if record and rstatus not in {'RECORDED', 'NO-SOURCE-RECORD'}:
+        return 'CONFLICT'
+    if mapping and mstatus not in {'CANDIDATE', 'UNMAPPED'}:
+        return 'CONFLICT'
+    if mstatus == 'UNMAPPED' and mapping.get('openpatala_work_id') is not None:
+        return 'CONFLICT'
     if mstatus == 'CANDIDATE':
         wid, dossier = mapping.get('openpatala_work_id'), mapping.get('dossier')
         digest = dossier.get('sha256') if isinstance(dossier, dict) else None
