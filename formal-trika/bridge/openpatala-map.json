@@ -46,6 +46,15 @@
    "witness": "UNPINNED",
    "status": "CANDIDATE-WORK"
   },
+  "tal15": {
+   "ours": "translation-work/tantraloka-a15",
+   "openpatala_work_key": "tantraloka",
+   "openpatala_work_id": "UNPINNED",
+   "edition": "UNRESOLVED (work record.json: NO-SOURCE-RECORD, no workcfg source)",
+   "source_sha": "translation-work/tantraloka-a15/source/record.json (VERIFIED present; status NO-SOURCE-RECORD)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-WORK"
+  },
   "spanda": {
    "ours": "translation-work/spanda",
    "openpatala_work_key": "spandakarika",

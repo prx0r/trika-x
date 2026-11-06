@@ -263,6 +263,322 @@
         }
       ],
       "sha256": "8cc995174d807c533f004bf768a126cb8ac6d4909bab2b064daea77bafe08f61"
+    },
+    "tal15": {
+      "ledger": "tantraloka-a15/passages.jsonl",
+      "sha256": "2a67675ef5087a99c2e271257ac8052d61b20968bf116d2d77a9cf2f16c6fbde",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15001",
+          "locator": "tal-a15-p01",
+          "verses": "15.1-15.10"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15002",
+          "locator": "tal-a15-p02",
+          "verses": "15.11-15.20"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15003",
+          "locator": "tal-a15-p03",
+          "verses": "15.21-15.30"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15004",
+          "locator": "tal-a15-p04",
+          "verses": "15.31-15.40"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15005",
+          "locator": "tal-a15-p05",
+          "verses": "15.41-15.50"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15006",
+          "locator": "tal-a15-p06",
+          "verses": "15.51-15.60"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15007",
+          "locator": "tal-a15-p07",
+          "verses": "15.61-15.70"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15008",
+          "locator": "tal-a15-p08",
+          "verses": "15.71-15.80"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15009",
+          "locator": "tal-a15-p09",
+          "verses": "15.81-15.90"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15010",
+          "locator": "tal-a15-p10",
+          "verses": "15.91-15.100"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15011",
+          "locator": "tal-a15-p11",
+          "verses": "15.101-15.110"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15012",
+          "locator": "tal-a15-p12",
+          "verses": "15.111-15.120"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15013",
+          "locator": "tal-a15-p13",
+          "verses": "15.121-15.130"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15014",
+          "locator": "tal-a15-p14",
+          "verses": "15.131-15.140"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15015",
+          "locator": "tal-a15-p15",
+          "verses": "15.141-15.150"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15016",
+          "locator": "tal-a15-p16",
+          "verses": "15.151-15.160"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15017",
+          "locator": "tal-a15-p17",
+          "verses": "15.161-15.170"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15018",
+          "locator": "tal-a15-p18",
+          "verses": "15.171-15.180"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15019",
+          "locator": "tal-a15-p19",
+          "verses": "15.181-15.190"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15020",
+          "locator": "tal-a15-p20",
+          "verses": "15.191-15.200"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15021",
+          "locator": "tal-a15-p21",
+          "verses": "15.201-15.210"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15022",
+          "locator": "tal-a15-p22",
+          "verses": "15.211-15.220"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15023",
+          "locator": "tal-a15-p23",
+          "verses": "15.221-15.230"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15024",
+          "locator": "tal-a15-p24",
+          "verses": "15.231-15.240"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15025",
+          "locator": "tal-a15-p25",
+          "verses": "15.241-15.250"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15026",
+          "locator": "tal-a15-p26",
+          "verses": "15.251-15.260"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15027",
+          "locator": "tal-a15-p27",
+          "verses": "15.261-15.270"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15028",
+          "locator": "tal-a15-p28",
+          "verses": "15.271-15.280"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15029",
+          "locator": "tal-a15-p29",
+          "verses": "15.281-15.290"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15030",
+          "locator": "tal-a15-p30",
+          "verses": "15.291-15.300"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15031",
+          "locator": "tal-a15-p31",
+          "verses": "15.301-15.310"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15032",
+          "locator": "tal-a15-p32",
+          "verses": "15.311-15.320"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15033",
+          "locator": "tal-a15-p33",
+          "verses": "15.321-15.330"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15034",
+          "locator": "tal-a15-p34",
+          "verses": "15.331-15.340"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15035",
+          "locator": "tal-a15-p35",
+          "verses": "15.341-15.350"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15036",
+          "locator": "tal-a15-p36",
+          "verses": "15.351-15.360"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15037",
+          "locator": "tal-a15-p37",
+          "verses": "15.361-15.370"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15038",
+          "locator": "tal-a15-p38",
+          "verses": "15.371-15.380"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15039",
+          "locator": "tal-a15-p39",
+          "verses": "15.381-15.390"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15040",
+          "locator": "tal-a15-p40",
+          "verses": "15.391-15.400"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15041",
+          "locator": "tal-a15-p41",
+          "verses": "15.401-15.410"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15042",
+          "locator": "tal-a15-p42",
+          "verses": "15.411-15.420"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15043",
+          "locator": "tal-a15-p43",
+          "verses": "15.421-15.430"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15044",
+          "locator": "tal-a15-p44",
+          "verses": "15.431-15.440"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15045",
+          "locator": "tal-a15-p45",
+          "verses": "15.441-15.450"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15046",
+          "locator": "tal-a15-p46",
+          "verses": "15.451-15.460"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15047",
+          "locator": "tal-a15-p47",
+          "verses": "15.461-15.470"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15048",
+          "locator": "tal-a15-p48",
+          "verses": "15.471-15.480"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15049",
+          "locator": "tal-a15-p49",
+          "verses": "15.481-15.490"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15050",
+          "locator": "tal-a15-p50",
+          "verses": "15.491-15.500"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15051",
+          "locator": "tal-a15-p51",
+          "verses": "15.501-15.510"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15052",
+          "locator": "tal-a15-p52",
+          "verses": "15.511-15.520"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15053",
+          "locator": "tal-a15-p53",
+          "verses": "15.521-15.530"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15054",
+          "locator": "tal-a15-p54",
+          "verses": "15.531-15.540"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15055",
+          "locator": "tal-a15-p55",
+          "verses": "15.541-15.550"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15056",
+          "locator": "tal-a15-p56",
+          "verses": "15.551-15.560"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15057",
+          "locator": "tal-a15-p57",
+          "verses": "15.561-15.570"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15058",
+          "locator": "tal-a15-p58",
+          "verses": "15.571-15.580"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15059",
+          "locator": "tal-a15-p59",
+          "verses": "15.581-15.590"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15060",
+          "locator": "tal-a15-p60",
+          "verses": "15.591-15.600"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15061",
+          "locator": "tal-a15-p61",
+          "verses": "15.601-15.610"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a15062",
+          "locator": "tal-a15-p62",
+          "verses": "15.611-15.613"
+        }
+      ]
     }
   }
 }

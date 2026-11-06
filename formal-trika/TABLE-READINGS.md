@@ -350,3 +350,21 @@ Māyā is not among the pure five (placing it there is refused).
 
 ## TattvaInventory.lean :: pure_and_kancukas_disjoint
 Pure five and coverings five share no member.
+
+## Nyasa.lean :: ka_uniform
+Ka-varga shares one Mālinī locus (teeth): the single uniform varga, observed not derived.
+
+## Nyasa.lean :: matrika_total
+Fifty distinct phonemes placed in the mātṛkā map: totality.
+
+## Nyasa.lean :: malini_total
+Fifty distinct phonemes placed in the Mālinī map: totality.
+
+## Nyasa.lean :: maps_diverge
+All fifty loci differ across the two maps: the duality quantified.
+
+## Nyasa.lean :: order_chief
+The nādiphānta order differs from śabdarāśi: the chief sequence stands apart.
+
+## Nyasa.lean :: multiset_kept
+Both orders hold the same fifty phonemes: conservation.

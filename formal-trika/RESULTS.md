@@ -469,6 +469,34 @@ recognition not effort).
 
 ---
 
+## 2026-11-06 — Rung 10: nyāsa mapping (N-NYASA, geometry first)
+
+Prereg: PREREGISTRATION-NYASA-RUNG.md + same-day AMEND (varga-rules-vs-
+single-table circularity found pre-run; redesigned to independent keys).
+T-tier: tal-a15-p12 (TĀ-15 nyāsa complex; work source NO-SOURCE-RECORD —
+claims conditional) + MV 3.36–41 extract (CC BY-NC) + frozen body keys.
+
+### What was built
+
+- **`Nyasa.lean`** — 50-locus mātṛkā + Mālinī tables; `ka_uniform`
+  (observed shape), `matrika_total` + `malini_total` (50 each),
+  `maps_diverge` (50/50 differ — duality quantified), `order_chief` +
+  `multiset_kept` (permutation pair). All zero-axiom. Varga→limb rules
+  KEPT, labeled unchecked (need second key).
+- **`BrokenNyasa.lean`** (pha unplaced): `malini_total` refuses.
+- **`BrokenNyasaOrder.lean`** (order replaced): `order_chief` refuses.
+- Bridge extended to 7th work (tal15: snapshot + map + EVIDENCE-works;
+  edition explicitly UNRESOLVED per work record — bridged, not laundered).
+
+### Scoring (provisional)
+
+- **N-NYASA (amended IDs): PASS.** Control harness extended. EVIDENCE
+  121/119+2 (tal-a15-p12 cited with source condition). Coverage 8/107.
+- **Honest limits:** mapping inventories + orders; no efficacy/siddhi/
+  medical claims; T-tier conditional on source resolution.
+
+---
+
 ## 2026-11-06 — Rung 8: pratyāhāra intervals (P-SUT1–4, grammar pilot)
 
 Prereg: PREREGISTRATION-SUTRA-RUNG.md (CANDIDATE-EDITION flagged; T-pin

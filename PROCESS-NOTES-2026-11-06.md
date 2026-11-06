@@ -601,3 +601,14 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - ADVICE-TRANSLATION-OPENPATALA.md: cookbook SQL, 6 good practices,
   7 clean-data rules, 5 real-incident don'ts, ready-vs-human table.
   Pull-model (their repo untouched).
+
+## Nyasa rung built (M7 COMPLETE) + tal15 bridged.
+
+- Prereg → amendment (rules-vs-table circularity, same AVAR pattern) →
+  Nyasa.lean (6 theorems, zero-axiom) + 2 surgical twins → run.sh →
+  EVIDENCE (tal-a15-p12 with NO-SOURCE condition) → TABLE all rows.
+- Bridge 7th work: snapshot (62 passages, sha-pinned) + map
+  (CANDIDATE-WORK, edition UNRESOLVED explicit) + EVIDENCE-works.
+  EVIDENCE 121/119+2, bridge 7/107 bytes-match, table green.
+- JSON discipline held (line-surgery ×4 this session; whole-dump
+  reformat caught twice before commit).
