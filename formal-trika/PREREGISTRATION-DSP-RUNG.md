@@ -1,5 +1,9 @@
 # PREREGISTRATION — TAL-a18 concise-rite rung (D-DSP1–4)
 
+**Status: PAUSED at prereg (batch moved to swarm pipeline; resumes only via
+swarm-calibration or explicit owner call). Prereg kept as example input for
+the formal-stage pilot (PR #10).**
+
 ## T-tier ground: NONE.
 
 tantraloka-a18 record = NO-SOURCE-RECORD, mapping UNMAPPED, translation
