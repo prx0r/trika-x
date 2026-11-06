@@ -1204,3 +1204,13 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   proven end to end; next targets: claim-02 (I-ness), claim-03 (rasa).
 - Inheritance rule exercised: their T → my R (verse/translation
   unverified by me). F11 logged (silent-replace caught by PASS count).
+
+## Research tracks live (higher-order mining function).
+
+- data/research-tracks.json: F1-F10 (question/status/grounds/essays/log).
+  F1-4 science bridges, F5 channeling, F6 densities, F7 mala, F8 karma,
+  F9 upaya, F10 embodiment. Per-track append-only logs (data/tracks/).
+- Compiler auto-tags essays to tracks (chunk rules + density heuristic);
+  backfilled existing drafts (F7×10 — includes recompiles as lineage).
+- F1-4 hold zero essays honestly (no science-bridged essays compiled yet;
+  bridge essays are future work, not backfilled wishes).

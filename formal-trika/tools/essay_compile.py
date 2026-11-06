@@ -300,6 +300,32 @@ def main() -> int:
     graph["nodes"].append({"id": enode, "kind": "expansion-draft",
                            "owner": str(a.owner), "chunk": marker_chunk,
                            "date": day, "status": "MACHINE-COMPILED"})
+    TRACK_RULES = {
+        "tantrasara-a08:tsa08-p02": ["F7", "F8"],
+        "tantrasara-a08:tsa08-p04": ["F10"],
+        "tantraloka-a34:tal-a34-p01": ["F9", "F6"],
+    }
+    tracks = sorted(TRACK_RULES.get(marker_chunk, []))
+    if "densit" in (a.slug + " " + (a.title or "")).lower():
+        tracks.append("F6")
+    tracks = sorted(set(tracks))
+    for tr in tracks:
+        tid = f"track:{tr}"
+        if not any(x["id"] == tid for x in graph["nodes"]):
+            graph["nodes"].append({"id": tid, "kind": "research-track"})
+        graph["edges"].append({"from": enode, "to": tid, "rel": "mined-by"})
+    tpath = HERE / "data" / "research-tracks.json"
+    tdoc = json.loads(tpath.read_text(encoding="utf-8"))
+    for tr in tdoc["tracks"]:
+        if tr["id"] in tracks and slug not in tr["essays"]:
+            tr["essays"].append(slug)
+    tpath.write_text(json.dumps(tdoc, ensure_ascii=False, indent=1) + "\n")
+    logdir = HERE / "data" / "tracks"
+    logdir.mkdir(exist_ok=True)
+    for tr in tracks:
+        with (logdir / f"{tr}-LOG.md").open("a", encoding="utf-8") as fh:
+            fh.write(f"\n## {day} — {slug}\n\nCompiled ({len(nodes)} units, "
+                     f"chunk {marker_chunk}).\n")
     for n in nodes:
         vn = f"verse:{a.work}:{n.get('verse_id')}"
         if not any(x["id"] == vn for x in graph["nodes"]):
@@ -319,6 +345,7 @@ def main() -> int:
     gpath.write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n")
     (swarm / f"{slug}.md").write_text(draft + "\n")
     report = {"format": "expansion-receipt/3", "essay": slug, "date": day,
+              "tracks": tracks,
               "owner_quotes": len(quotes), "banked_units": len(nodes),
               "theorems": a.theorems,
               "openpatala": openpatala_block(Path("/root/translation-work"), a.work),
