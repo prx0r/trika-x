@@ -639,6 +639,28 @@ axes, no individual tattva named (elements are (group,index) pairs).
 
 ---
 
+## 2026-11-06 — Rung 14: aperture inventory (A-AP1–2, first H-tier)
+
+Prereg: PREREGISTRATION-APERTURE-RUNG.md (H-ground ONLY: owner
+aperture_spec_v0.7; no text, no chunks — r_sources carry the spec).
+Answers whether the endgame includes consciousness-theory formalisation:
+yes, as H-tier inventory first (phenomenal/selector claims explicitly out).
+
+### What was built
+
+- **`Aperture.lean`** — 9 owner-named ops, `aperture_nine` (count) +
+  `aperture_distinct` (Nodup). Zero-axiom, `decide`.
+- **Two surgical twins**: BrokenApertureDup (dup → distinct only),
+  BrokenApertureDrop (drop → count only).
+
+### Scoring (provisional)
+
+- **A-AP1–2: PASS.** EVIDENCE 131 entries (H, r_sources spec).
+- **Honest limits:** inventory, not theory; MEPIT theses untouched;
+  owner revision remodels (kill armed); human review owed like all.
+
+---
+
 ## What "done" would look like (honest checklist)
 - [ ] Every unarmed chunk with an argmap formalized or explicitly parked
 - [ ] Witnesses pinned (needs openpatala resolver)

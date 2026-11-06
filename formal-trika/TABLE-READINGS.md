@@ -398,3 +398,9 @@ Every modality holds exactly five: uniform derivation, no 6/4 split.
 
 ## TattvaGen.lean :: cut_arith
 Thirty-one manifest as thirty-six minus five: the cut counts check.
+
+## Aperture.lean :: aperture_nine
+Nine operations in the aperture roster: the inventory count holds.
+
+## Aperture.lean :: aperture_distinct
+The nine operations are pairwise distinct: no collapsed entry.

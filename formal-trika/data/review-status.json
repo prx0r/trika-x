@@ -786,6 +786,18 @@
    "reviewer": null,
    "reason": "machine-proposed, unreviewed",
    "date": null
+  },
+  "Aperture.lean :: aperture_distinct": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Aperture.lean :: aperture_nine": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
   }
  }
 }

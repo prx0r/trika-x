@@ -17,6 +17,7 @@ fi
 "$LEAN" -DwarningAsError=true Embed.lean || exit 1
 "$LEAN" -DwarningAsError=true Ladder.lean || exit 1
 "$LEAN" -DwarningAsError=true TattvaGen.lean || exit 1
+"$LEAN" -DwarningAsError=true Aperture.lean || exit 1
 "$LEAN" -DwarningAsError=true AnswerKey.lean || exit 1
 "$LEAN" -DwarningAsError=true Tattva.lean || exit 1
 "$LEAN" -DwarningAsError=true TattvaInventory.lean || exit 1
@@ -50,3 +51,5 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive Ladder.lean --mutant Bro
 python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaGen.lean --mutant BrokenGenDup.lean --theorem pure_distinct || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaGen.lean --mutant BrokenGenPerm.lean --theorem pentad_uniform || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaGen.lean --mutant BrokenGenRoot.lean --theorem gen_total || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Aperture.lean --mutant BrokenApertureDup.lean --theorem aperture_distinct || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Aperture.lean --mutant BrokenApertureDrop.lean --theorem aperture_nine || exit 1

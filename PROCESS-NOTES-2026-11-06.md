@@ -986,3 +986,12 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - tantra/ holds Dyczkowski survey PDF (5.8MB local) → Tantraloka papers
   as local holding (rights review before quoting).
 - utpaladeva-power-of-action PDF noted (Utpaladeva primary, unexamined).
+
+## A-AP rung (consciousness-theory formalisation starts, H-tier).
+
+- Aperture inventory (9 ops) green first try + 2 surgical twins.
+  EVIDENCE 131 (H, spec-carrying r_sources); review-status 133.
+- Endgame answer: YES, formalisation of consciousness theory is in scope
+  — as H-tier inventory → structure → (someday) selector-adjacent claims,
+  each rung preregistered with phenomenal claims explicitly out.
+- F9 logged (comma surgery lesson).

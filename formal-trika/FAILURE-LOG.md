@@ -34,3 +34,8 @@ failures append with the next number — never edit a closed entry.
   tool sat untracked for hours across 6 commits (found by status check,
   not by process). Rule: `git status` is part of every commit command —
   no push without reading it.
+- **F9 (2026-11-06): conditional line surgery.** A list-comp that
+  "preserved" commas dropped one and added another across two EVIDENCE
+  inserts (three repair rounds). Rule: build inserted lines as final
+  strings, validate the joined STRING before writing (never write-then-
+  validate when the file must stay green between runs).
