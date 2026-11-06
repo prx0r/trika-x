@@ -36,3 +36,12 @@ archive/backup/offload only.)
 - arxiv export API: reachable. PubMed eutils: reachable (70k hits test).
 - `tools/import_paper.py` (owed): `arxiv:<id> | pmid:<n> | pmc:<id>` →
   `bridge/science-sources/<id>/` + sha + provenance → `--research` now.
+
+## Vendored via import_paper.py (2026-11-06)
+
+| Ref | Title | Location | sha |
+|---|---|---|---|
+| arxiv:1312.2007 | The Amplituhedron (Arkani-Hamed/Trnka) | `bridge/science-sources/arxiv-1312.2007/` | pdf `55386386…` 746KB |
+
+Retractions: 2601.11142 (nonexistent); 1310.7930 (wrong paper, removed);
+"tetrahedron = simplest amplituhedron" (0 hits in 1312.2007 full text).
