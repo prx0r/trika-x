@@ -1,0 +1,194 @@
+{
+ "format": "expansion-receipt/3",
+ "essay": "expansion-hook-five-knots-2026-11-06-150617676090",
+ "date": "2026-11-06",
+ "owner_quotes": 6,
+ "banked_units": 2,
+ "theorems": [
+  "Kancuka.lean :: count_5",
+  "Kancuka.lean :: pairings_distinct"
+ ],
+ "openpatala": {
+  "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+  "mapping_status": "CANDIDATE",
+  "record_status": "RECORDED",
+  "record_sha256": "41482eba94ca0c054a8c742de645e5440bf75e3c10fc7ba71c00e45036f00d95",
+  "edition_label": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+  "note": "resolved at compile time; re-resolve on review (records move)"
+ },
+ "frozen_claims": [
+  {
+   "id": "CLM-001",
+   "text": "tad idaṃ māyādiṣaṭkaṃ kañcukaṣaṭkam ucyate — this Māyā-and-rest six is called six sheaths.",
+   "verse_id": "tsa-a08-v55",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-002",
+   "text": "Māyā-six = six sheaths named.",
+   "verse_id": "tsa-a08-v55",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-003",
+   "text": "saṃvido māyayā apahastitatvena kalādīnām uparipātināṃ kañcukavat avasthānāt — awareness by Māyā set aside; kalā and the rest falling above stand like sheaths.",
+   "verse_id": "tsa-a08-v56",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-004",
+   "text": "Set-aside awareness; above-falling kalā stands sheath-like.",
+   "verse_id": "tsa-a08-v56",
+   "tier": "R",
+   "kind": "inference"
+  }
+ ],
+ "coverage": {
+  "orphan_bullets": [],
+  "unused_claims": [
+   "CLM-001",
+   "CLM-002",
+   "CLM-003",
+   "CLM-004"
+  ]
+ },
+ "claims": "1/9 CITED + 0 verse-marked",
+ "audit": {
+  "content_sha256": "20537d541113b35203bf8bcec2126c98e0c51d4bbf6f6ac15da6d09fc51dfa18",
+  "verifier": "essay-compile/loop",
+  "model": "compiler-v1",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p03: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-001] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-002] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-003] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-004] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tantrasara-a08:tsa08-p03]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v55]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v56]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: he imagines that as he exhales in his prana there's a little golden hook and it "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: Making you exhale as he inhaled. He would then connect your Prana with his. His "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: successive, systematic, progressive, manifestation, manifestation, consolidation"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: So as in the soul of the temple is the deity, the soul in the body is the deity."
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: If the basic state of the teacher and the one who takes initiation accords with "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: The goddess moves from emptiness to emptiness through emptiness. There is only o"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "4 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T15:06:17Z"
+ },
+ "l3": {
+  "essence_map": {
+   "para-0": [],
+   "para-1": [],
+   "para-2": [],
+   "para-3": [],
+   "para-4": [],
+   "para-5": [
+    "[CLM-001]",
+    "[CLM-002]",
+    "[CLM-003]",
+    "[CLM-004]"
+   ],
+   "para-6": [],
+   "para-7": [],
+   "para-8": []
+  },
+  "read_aloud": "owed (assessor reads draft aloud, logs defects here)",
+  "kill_register": [],
+  "untraced": []
+ },
+ "l4": {
+  "drafts": [
+   "p00",
+   "p01",
+   "p02",
+   "p03",
+   "p04",
+   "p05",
+   "p06",
+   "p07",
+   "p08"
+  ],
+  "drift_paras": [
+   {
+    "para": 7,
+    "overlap": 0.0
+   }
+  ],
+  "note": "drift = beautification without claims; rework or kill, never smooth"
+ },
+ "graph": {
+  "nodes": 110,
+  "edges": 147
+ },
+ "note": "compiled, not written: owner words verbatim; substance from frozen banked claims"
+}

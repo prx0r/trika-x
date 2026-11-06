@@ -199,6 +199,7 @@ def main() -> int:
     for fc in frozen:
         one_line = " ".join(str(fc["text"]).split())
         parts.append(f"- {one_line} [{fc['verse_id']}] (R) [{fc['id']}]")
+    parts.append(f"[{a.work}:{a.chunk}]")
     if a.theorems:
         parts += ["", "## Formal note", ""]
         for t in a.theorems:
@@ -255,7 +256,8 @@ def main() -> int:
             for s in sents:
                 ids = sorted(set(re.findall(r"\[CLM-\d+\]", s)))
                 quoted = in_quote or (s.startswith('"') or '"' in s[:120])
-                structural = in_claim or s.startswith(("#", "-", "|"))
+                structural = in_claim or s.startswith(("#", "-", "|")) or bool(
+                    re.fullmatch(r"\[[A-Za-z0-9][A-Za-z0-9_.:-]{0,159}\]", s))
                 if not ids and not quoted and not structural:
                     untraced.append({"para": i, "sentence": s[:120]})
                 emap.extend(ids)

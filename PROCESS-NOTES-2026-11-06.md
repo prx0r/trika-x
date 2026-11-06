@@ -1104,3 +1104,20 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   on bundle lag + verse-linker gap (both filed, unchanged).
 - Review packets: draft + claims + audit + openpatala + checklist per essay.
 - tal-a34 packet shows honest nulls (DOUBLE-GAP surfaced to reviewers).
+
+## U-round (batch 2 + skeletons + recon + M92/93).
+
+- U2/U3: hook-five-knots (E07×p03 v55-56 + Kancuka pair) + worlds-bodies
+  (E06×p01 v01/02/16 + TattvaGen pair) + packets; graph 110n/147e.
+- Pushback on hook essay forced chunk-marker appending (verse markers miss
+  EVIDENCE chunk banks) + marker-sentence L3 exemption; second run banks
+  speak (9 entries with exact limits). Beam 429 (quota out); deepseek live.
+- U4: all 26 twins skeletonized (tool fixed for buddhist/frontier dirs).
+- U6 recon: qwen-judge = visual design critic (video QA, not essay review
+  — file for factory); tantracola = 100-part documentary library
+  (practices/theory/factory + directors bible + Qwen adapter) — the video
+  endgame estate, noted for factory lanes.
+- U7 M92 (2.0MB ch1-14) + M93 (0.97MB ch15-38): split-ready sizes, need
+  re-download + marker census (bulk deleted for disk; R2-pinned).
+- Kancuka T-tier question filed for lead (p03 entries claim T from gold
+  argmaps — CRUX-03-corrected standard would say R; not unilateral).

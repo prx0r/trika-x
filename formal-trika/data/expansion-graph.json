@@ -836,6 +836,65 @@
    "chunk": "tantraloka-a34:tal-a34-p01",
    "date": "2026-11-06",
    "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-hook-five-knots-2026-11-06-150401681091",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E07_hook_thread.md",
+   "chunk": "tantrasara-a08:tsa08-p03",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "verse:tantrasara-a08:tsa-a08-v55",
+   "kind": "argmap-unit",
+   "question": "What are the six?"
+  },
+  {
+   "id": "verse:tantrasara-a08:tsa-a08-v56",
+   "kind": "argmap-unit",
+   "question": "Why sheaths?"
+  },
+  {
+   "id": "theorem:Kancuka.lean :: count_5",
+   "kind": "theorem-reference",
+   "tier": "UNVERIFIED"
+  },
+  {
+   "id": "theorem:Kancuka.lean :: pairings_distinct",
+   "kind": "theorem-reference",
+   "tier": "UNVERIFIED"
+  },
+  {
+   "id": "essay:expansion-worlds-bodies-2026-11-06-150412851285",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E06_worlds_bodies.md",
+   "chunk": "tantrasara-a08:tsa08-p01",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "verse:tantrasara-a08:tsa-a08-v16",
+   "kind": "argmap-unit",
+   "question": "How do the principles divide?"
+  },
+  {
+   "id": "theorem:TattvaGen.lean :: gen_total",
+   "kind": "theorem-reference",
+   "tier": "UNVERIFIED"
+  },
+  {
+   "id": "theorem:TattvaGen.lean :: pure_distinct",
+   "kind": "theorem-reference",
+   "tier": "UNVERIFIED"
+  },
+  {
+   "id": "essay:expansion-hook-five-knots-2026-11-06-150617676090",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E07_hook_thread.md",
+   "chunk": "tantrasara-a08:tsa08-p03",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
   }
  ],
  "edges": [
@@ -1718,6 +1777,78 @@
   {
    "from": "essay:expansion-nomeans-anupaya-2026-11-06-145909250521",
    "to": "theorem:Ladder.lean :: terminal_no_successor",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-150401681091",
+   "to": "verse:tantrasara-a08:tsa-a08-v55",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-150401681091",
+   "to": "verse:tantrasara-a08:tsa-a08-v56",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-150401681091",
+   "to": "theorem:Kancuka.lean :: count_5",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-150401681091",
+   "to": "theorem:Kancuka.lean :: pairings_distinct",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-150412851285",
+   "to": "verse:tantrasara-a08:tsa-a08-v01",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-150412851285",
+   "to": "verse:tantrasara-a08:tsa-a08-v02",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-150412851285",
+   "to": "verse:tantrasara-a08:tsa-a08-v16",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-150412851285",
+   "to": "theorem:TattvaGen.lean :: gen_total",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-150412851285",
+   "to": "theorem:TattvaGen.lean :: pure_distinct",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-150617676090",
+   "to": "verse:tantrasara-a08:tsa-a08-v55",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-150617676090",
+   "to": "verse:tantrasara-a08:tsa-a08-v56",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-150617676090",
+   "to": "theorem:Kancuka.lean :: count_5",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-150617676090",
+   "to": "theorem:Kancuka.lean :: pairings_distinct",
    "rel": "cites-formal"
   }
  ]

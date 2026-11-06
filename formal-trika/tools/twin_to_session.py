@@ -34,9 +34,15 @@ def main() -> int:
     ap.add_argument("--positive", default="")
     ap.add_argument("--out", type=Path, default=HERE / "swarm")
     a = ap.parse_args()
-    twin = HERE / "control" / (a.twin if a.twin.endswith(".lean") else a.twin + ".lean")
-    if not twin.is_file():
-        print(f"ERROR: no twin {twin}")
+    twinname = a.twin if a.twin.endswith(".lean") else a.twin + ".lean"
+    twin = None
+    for _d in ("control", "buddhist", "frontier", "recognition"):
+        _c = HERE / _d / twinname
+        if _c.is_file():
+            twin = _c
+            break
+    if twin is None:
+        print(f"ERROR: no twin {twinname} in control/buddhist/frontier/recognition")
         return 1
     doc, theorems = parse_twin(twin)
     ev = json.loads((HERE / "EVIDENCE.json").read_text(encoding="utf-8"))

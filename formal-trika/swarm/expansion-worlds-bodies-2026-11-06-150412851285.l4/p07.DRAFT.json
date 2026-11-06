@@ -1,0 +1,8 @@
+{
+ "para": 7,
+ "text": "- TattvaGen.lean :: gen_total: unreviewed model reference; no proof-run receipt checked\n- TattvaGen.lean :: pure_distinct: unreviewed model reference; no proof-run receipt checked",
+ "craft_notes": [],
+ "rejected": [],
+ "reads_against": [],
+ "claim_overlap": 0.0
+}
