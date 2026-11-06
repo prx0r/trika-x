@@ -1,7 +1,7 @@
-# REVIEW PACKET — expansion-nomeans-anupaya-2026-11-06-145909250521
+# REVIEW PACKET — expansion-nomeans-anupaya-2026-11-06-154908158977
 
 - date: 2026-11-06 | format: expansion-receipt/3
-- draft: `swarm/expansion-nomeans-anupaya-2026-11-06-145909250521.md` (machine-compiled, never canonical)
+- draft: `swarm/expansion-nomeans-anupaya-2026-11-06-154908158977.md` (machine-compiled, never canonical)
 - owner quotes: 8 (verbatim) | banked units: 3 (R)
 - theorems: Ladder.lean :: chain_trans, Ladder.lean :: terminal_no_successor
 - claims: 1/9 CITED + 0 verse-marked

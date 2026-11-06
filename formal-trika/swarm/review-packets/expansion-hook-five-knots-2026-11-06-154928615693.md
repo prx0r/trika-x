@@ -1,12 +1,12 @@
-# REVIEW PACKET — expansion-prarabdha-karma-2026-11-06-145904484333
+# REVIEW PACKET — expansion-hook-five-knots-2026-11-06-154928615693
 
 - date: 2026-11-06 | format: expansion-receipt/3
-- draft: `swarm/expansion-prarabdha-karma-2026-11-06-145904484333.md` (machine-compiled, never canonical)
-- owner quotes: 7 (verbatim) | banked units: 3 (R)
-- theorems: Transitions.lean :: karma_loop_exists
+- draft: `swarm/expansion-hook-five-knots-2026-11-06-154928615693.md` (machine-compiled, never canonical)
+- owner quotes: 6 (verbatim) | banked units: 2 (R)
+- theorems: Kancuka.lean :: count_5, Kancuka.lean :: pairings_distinct
 - claims: 1/9 CITED + 0 verse-marked
-- frozen: 8 | orphans: []
-- l3 untraced: {'essence_map': {'para-0': [], 'para-1': [], 'para-2': [], 'para-3': [], 'para-4': [], 'para-5': ['[CLM-001]', '[CLM-002]', '[CLM-003]', '[CLM-004]', '[CLM-005]', '[CLM-006]', '[CLM-007]', '[CLM-008]'], 'para-6': [], 'para-7': [], 'para-8': []}, 'read_aloud': 'owed (assessor reads draft aloud, logs defects here)', 'kill_register': [], 'untraced': []} | l4 drifts: []
+- frozen: 4 | orphans: []
+- l3 untraced: {'essence_map': {'para-0': [], 'para-1': [], 'para-2': [], 'para-3': [], 'para-4': [], 'para-5': ['[CLM-001]', '[CLM-002]', '[CLM-003]', '[CLM-004]'], 'para-6': [], 'para-7': [], 'para-8': []}, 'read_aloud': 'owed (assessor reads draft aloud, logs defects here)', 'kill_register': [], 'untraced': []} | l4 drifts: [{'para': 7, 'overlap': 0.0}]
 
 ## Openpatala identity (how this essay relates to openpatala)
 
