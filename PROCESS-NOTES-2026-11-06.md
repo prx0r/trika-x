@@ -1121,3 +1121,10 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   re-download + marker census (bulk deleted for disk; R2-pinned).
 - Kancuka T-tier question filed for lead (p03 entries claim T from gold
   argmaps — CRUX-03-corrected standard would say R; not unilateral).
+
+## Essay seeds unified (381 across 12 kinds).
+
+- tools/essay_seeds.py + data/essay-seeds.json: owner-original 32,
+  expansion 11, research-essay 10, commentary 9, topics 12, objects 162,
+  density 52, pushing 68, subtle packs 3+1, platinum 20 (scope unclear),
+  idea-units pointer. Statuses kind-default; review lives in lanes.

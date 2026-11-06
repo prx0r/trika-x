@@ -1,0 +1,2687 @@
+{
+ "format": "trika-essay-seeds/1",
+ "seeds": [
+  {
+   "id": "owner:E01_modern_objection",
+   "kind": "owner-original",
+   "title": "01 — Modern Objection: Do You Need Rebirth for This to Work",
+   "path": "/root/tantraessays/essays/essays20/E01_modern_objection.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E02_dying_lab",
+   "kind": "owner-original",
+   "title": "02 — Dying Observed: Senses, Caterpillar, Door Password",
+   "path": "/root/tantraessays/essays/essays20/E02_dying_lab.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E03_rebirth_origins",
+   "kind": "owner-original",
+   "title": "03 — Where Rebirth Came From: Secret, Sramanas, Apurva",
+   "path": "/root/tantraessays/essays/essays20/E03_rebirth_origins.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E04_yama_door",
+   "kind": "owner-original",
+   "title": "04 — Yama Built the Afterlife: Grief, Bridge, Password",
+   "path": "/root/tantraessays/essays/essays20/E04_yama_door.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E05_ghosts_lived",
+   "kind": "owner-original",
+   "title": "05 — Ghosts First: Pretas, Exorcists, Kashi Close",
+   "path": "/root/tantraessays/essays/essays20/E05_ghosts_lived.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E06_worlds_bodies",
+   "kind": "owner-original",
+   "title": "06 — Which World, Which Body: Karma-bhumi to Sky",
+   "path": "/root/tantraessays/essays/essays20/E06_worlds_bodies.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E07_hook_thread",
+   "kind": "owner-original",
+   "title": "07 — Hook and Thread: Extraction Onto Five Knots",
+   "path": "/root/tantraessays/essays/essays20/E07_hook_thread.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E08_travel_burn",
+   "kind": "owner-original",
+   "title": "08 — Travel and Burn: Rebirth-Per-World to Ash",
+   "path": "/root/tantraessays/essays/essays20/E08_travel_burn.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E09_prarabdha_lastbirth",
+   "kind": "owner-original",
+   "title": "09 — Why You Stay Alive: Prarabdha and Last Birth",
+   "path": "/root/tantraessays/essays/essays20/E09_prarabdha_lastbirth.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E10_mala_objectivity",
+   "kind": "owner-original",
+   "title": "10 — Impurity Is Objectivity: Mala to Freedom",
+   "path": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E11_sauh_mother",
+   "kind": "owner-original",
+   "title": "11 — Sauh and the Mother: Seed That Blesses the World",
+   "path": "/root/tantraessays/essays/essays20/E11_sauh_mother.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E12_seeds_board",
+   "kind": "owner-original",
+   "title": "12 — Seed Board: Ham, Sauh, Aim, Krim, Navatma",
+   "path": "/root/tantraessays/essays/essays20/E12_seeds_board.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E13_no_method",
+   "kind": "owner-original",
+   "title": "13 — No Method: Shambhava, Samaveshas, Fire Pervasion",
+   "path": "/root/tantraessays/essays/essays20/E13_no_method.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E14_two_streams",
+   "kind": "owner-original",
+   "title": "14 — Two Streams: Tantra vs Kula Fork",
+   "path": "/root/tantraessays/essays/essays20/E14_two_streams.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E15_kaula_energy",
+   "kind": "owner-original",
+   "title": "15 — Kaula as Energy: Heart Pulse Everywhere",
+   "path": "/root/tantraessays/essays/essays20/E15_kaula_energy.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E16_chakra_map",
+   "kind": "owner-original",
+   "title": "16 — Chakras Are Late: Holes, Triangles, Urmi Wheels",
+   "path": "/root/tantraessays/essays/essays20/E16_chakra_map.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E17_heart_time_bhakti",
+   "kind": "owner-original",
+   "title": "17 — Heart, Time, Devotion: Knowing Is Loving",
+   "path": "/root/tantraessays/essays/essays20/E17_heart_time_bhakti.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E18_tantraloka_hist",
+   "kind": "owner-original",
+   "title": "18 — Who Wrote Tantraloka and From What",
+   "path": "/root/tantraessays/essays/essays20/E18_tantraloka_hist.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E19_tantra_kula_method",
+   "kind": "owner-original",
+   "title": "19 — Tantra Is Method: Aggregate, Rasa, No Discard",
+   "path": "/root/tantraessays/essays/essays20/E19_tantra_kula_method.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:E20_yogini_population",
+   "kind": "owner-original",
+   "title": "20 — A Court Not a Goddess: 11 Types, 8 Families",
+   "path": "/root/tantraessays/essays/essays20/E20_yogini_population.md",
+   "status": "clips+framing (voice source)"
+  },
+  {
+   "id": "owner:01_Do_You_Need_Rebirth",
+   "kind": "owner-original",
+   "title": "01_Do_You_Need_Rebirth",
+   "path": "/root/tantraessays/essays/final12/01_Do_You_Need_Rebirth",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:02_How_Dying_Was_Studied",
+   "kind": "owner-original",
+   "title": "02_How_Dying_Was_Studied",
+   "path": "/root/tantraessays/essays/final12/02_How_Dying_Was_Studied",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:03_Hook_Thread_Burn",
+   "kind": "owner-original",
+   "title": "03_Hook_Thread_Burn",
+   "path": "/root/tantraessays/essays/final12/03_Hook_Thread_Burn",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:04_Why_You_Stay_Alive",
+   "kind": "owner-original",
+   "title": "04_Why_You_Stay_Alive",
+   "path": "/root/tantraessays/essays/final12/04_Why_You_Stay_Alive",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:05_Sauh_And_Seeds",
+   "kind": "owner-original",
+   "title": "05_Sauh_And_Seeds",
+   "path": "/root/tantraessays/essays/final12/05_Sauh_And_Seeds",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:06_No_Method",
+   "kind": "owner-original",
+   "title": "06_No_Method",
+   "path": "/root/tantraessays/essays/final12/06_No_Method",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:07_Two_Streams",
+   "kind": "owner-original",
+   "title": "07_Two_Streams",
+   "path": "/root/tantraessays/essays/final12/07_Two_Streams",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:08_Energy_Everywhere",
+   "kind": "owner-original",
+   "title": "08_Energy_Everywhere",
+   "path": "/root/tantraessays/essays/final12/08_Energy_Everywhere",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:09_Chakras_Corrected",
+   "kind": "owner-original",
+   "title": "09_Chakras_Corrected",
+   "path": "/root/tantraessays/essays/final12/09_Chakras_Corrected",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:10_Yogini_Court",
+   "kind": "owner-original",
+   "title": "10_Yogini_Court",
+   "path": "/root/tantraessays/essays/final12/10_Yogini_Court",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:11_Roots_To_Rock",
+   "kind": "owner-original",
+   "title": "11_Roots_To_Rock",
+   "path": "/root/tantraessays/essays/final12/11_Roots_To_Rock",
+   "status": "rendered"
+  },
+  {
+   "id": "owner:12_Devotion_That_Knows",
+   "kind": "owner-original",
+   "title": "12_Devotion_That_Knows",
+   "path": "/root/tantraessays/essays/final12/12_Devotion_That_Knows",
+   "status": "rendered"
+  },
+  {
+   "id": "expansion:expansion-densities-adhvan-2026-11-06-140900",
+   "kind": "expansion-draft",
+   "title": "Densities x adhvan ascent (speculative pilot) (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-densities-adhvan-2026-11-06-140900.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "expansion:expansion-hook-five-knots-2026-11-06-150617676090",
+   "kind": "expansion-draft",
+   "title": "Hook and Thread (compiled) (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-hook-five-knots-2026-11-06-150617676090.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "expansion:expansion-mala-full-2026-11-06-145904319815",
+   "kind": "expansion-draft",
+   "title": "Impurity Is Objectivity (full) (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-mala-full-2026-11-06-145904319815.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "expansion:expansion-mala-l34-2026-11-06-142440",
+   "kind": "expansion-draft",
+   "title": "Impurity Is Objectivity (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-mala-l34-2026-11-06-142440.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "expansion:expansion-mala-objectivity-2026-11-06-123025",
+   "kind": "expansion-draft",
+   "title": "Impurity Is Objectivity (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-mala-objectivity-2026-11-06-123025.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "expansion:expansion-mala-objectivity-2026-11-06-123044",
+   "kind": "expansion-draft",
+   "title": "Impurity Is Objectivity (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-mala-objectivity-2026-11-06-123044.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "expansion:expansion-mala-research-voice-2026-11-06-133914",
+   "kind": "expansion-draft",
+   "title": "Mala x felt-essence (experimental pairing) (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-mala-research-voice-2026-11-06-133914.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "expansion:expansion-node1-tattva-2026-11-06-145443630878",
+   "kind": "expansion-draft",
+   "title": "Tattva x felt-essence (research-only) (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-node1-tattva-2026-11-06-145443630878.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "expansion:expansion-nomeans-anupaya-2026-11-06-145909250521",
+   "kind": "expansion-draft",
+   "title": "No Method (compiled) (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-nomeans-anupaya-2026-11-06-145909250521.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "expansion:expansion-prarabdha-karma-2026-11-06-145904484333",
+   "kind": "expansion-draft",
+   "title": "Why You Stay Alive (compiled) (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-prarabdha-karma-2026-11-06-145904484333.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "expansion:expansion-worlds-bodies-2026-11-06-150412851285",
+   "kind": "expansion-draft",
+   "title": "Which World, Which Body (compiled) (EXPANSION DRAFT — compiled, never written)",
+   "path": "/root/trika-x/formal-trika/swarm/expansion-worlds-bodies-2026-11-06-150412851285.md",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "research:ESSAY-COLLECTION-framing",
+   "kind": "research-essay",
+   "title": "THE ESSAY COLLECTION — the full ordered set",
+   "path": "/root/projects/research-library/ESSAY-COLLECTION-framing.md",
+   "status": "assigned (collection framing)"
+  },
+  {
+   "id": "research:ESSAY-COMPLETE-5-STAGES",
+   "kind": "research-essay",
+   "title": "THE COMPLETE ESSAY — stages 1–5, the IPK as baseline, and the frontier-honesty",
+   "path": "/root/projects/research-library/ESSAY-COMPLETE-5-STAGES.md",
+   "status": "assigned (collection framing)"
+  },
+  {
+   "id": "research:ESSAY-ISLAND",
+   "kind": "research-essay",
+   "title": "THE ESSAY ISLAND — Recognition, or the Felt Re-cognition of the Self",
+   "path": "/root/projects/research-library/ESSAY-ISLAND.md",
+   "status": "assigned (collection framing)"
+  },
+  {
+   "id": "research:ESSAY-OPENING",
+   "kind": "research-essay",
+   "title": "THE ESSAY'S OPENING — the pointed prelude + the two narration registers",
+   "path": "/root/projects/research-library/ESSAY-OPENING.md",
+   "status": "assigned (collection framing)"
+  },
+  {
+   "id": "research:ESSAY-RECOGNITION-FELT-RE-COGNITION",
+   "kind": "research-essay",
+   "title": "THE ESSAY — RECOGNITION AS THE FELT RE-COGNITION (as a LIVE unfolding of logical arguments)",
+   "path": "/root/projects/research-library/ESSAY-RECOGNITION-FELT-RE-COGNITION.md",
+   "status": "assigned (collection framing)"
+  },
+  {
+   "id": "research:ESSAY-SECONDARY-ASSIGNMENT",
+   "kind": "research-essay",
+   "title": "THE SECONDARY-LITERATURE + MD ASSIGNMENT — the full resource map for the 8-essay collection",
+   "path": "/root/projects/research-library/ESSAY-SECONDARY-ASSIGNMENT.md",
+   "status": "assigned (collection framing)"
+  },
+  {
+   "id": "research:ESSAY-TEACHING-TEXT",
+   "kind": "research-essay",
+   "title": "THE ESSAY AS A TEACHING TEXT — simple verses + giant footnotes",
+   "path": "/root/projects/research-library/ESSAY-TEACHING-TEXT.md",
+   "status": "assigned (collection framing)"
+  },
+  {
+   "id": "research:ESSAY-VERSES-AND-ARGUMENTS",
+   "kind": "research-essay",
+   "title": "THE ESSAY — AS VERSES AND ARGUMENTS (history → debate → Ñāṇavīra's capstone → Stage 1)",
+   "path": "/root/projects/research-library/ESSAY-VERSES-AND-ARGUMENTS.md",
+   "status": "assigned (collection framing)"
+  },
+  {
+   "id": "research:THREE-ESSAYS-ASSIGNMENT",
+   "kind": "research-essay",
+   "title": "THE THREE-ESSAY FILE ASSIGNMENT",
+   "path": "/root/projects/research-library/THREE-ESSAYS-ASSIGNMENT.md",
+   "status": "assigned (collection framing)"
+  },
+  {
+   "id": "research:THREE-ESSAYS-framing",
+   "kind": "research-essay",
+   "title": "THREE ESSAYS — the clean split",
+   "path": "/root/projects/research-library/THREE-ESSAYS-framing.md",
+   "status": "assigned (collection framing)"
+  },
+  {
+   "id": "research:COMMENTARY-INDEX",
+   "kind": "commentary",
+   "title": "ACADEMIC COMMENTARY — MASTER INDEX",
+   "path": "/root/projects/research-library/COMMENTARY-INDEX.md",
+   "status": "analysis (graded in-file)"
+  },
+  {
+   "id": "research:COMMENTARY-NODE1-felt-as-essence",
+   "kind": "commentary",
+   "title": "COMMENTARY II — NODE 1: THE FELT AS THE ESSENCE OF CONSCIOUSNESS",
+   "path": "/root/projects/research-library/COMMENTARY-NODE1-felt-as-essence.md",
+   "status": "analysis (graded in-file)"
+  },
+  {
+   "id": "research:COMMENTARY-NODE2-recognition-felt-delight",
+   "kind": "commentary",
+   "title": "COMMENTARY III — NODE 2: RECOGNITION AS THE FELT RE-COGNITION (the delight of re-cognition)",
+   "path": "/root/projects/research-library/COMMENTARY-NODE2-recognition-felt-delight.md",
+   "status": "analysis (graded in-file)"
+  },
+  {
+   "id": "research:COMMENTARY-NODE3-perception-construction",
+   "kind": "commentary",
+   "title": "COMMENTARY IV — NODE 3: PERCEPTION AS CONSTRUCTION (the post-recognition re-rendering)",
+   "path": "/root/projects/research-library/COMMENTARY-NODE3-perception-construction.md",
+   "status": "analysis (graded in-file)"
+  },
+  {
+   "id": "research:COMMENTARY-STAGE1-ANGLE-MAP",
+   "kind": "commentary",
+   "title": "STAGE 1 — THE ANGLE MAP (original plan ↔ Ratié ↔ the additional-angle papers)",
+   "path": "/root/projects/research-library/COMMENTARY-STAGE1-ANGLE-MAP.md",
+   "status": "analysis (graded in-file)"
+  },
+  {
+   "id": "research:COMMENTARY-STAGE1-REFLEXIVITY-DIALECTIC",
+   "kind": "commentary",
+   "title": "THE REFLEXIVITY DIALECTIC — THE FULL LOGICAL CHAIN (Dharmakīrti, Ñāṇavīra, Abhinavagupta, the traces",
+   "path": "/root/projects/research-library/COMMENTARY-STAGE1-REFLEXIVITY-DIALECTIC.md",
+   "status": "analysis (graded in-file)"
+  },
+  {
+   "id": "research:COMMENTARY-STAGE1-REFLEXIVITY-SYNTHESIS",
+   "kind": "commentary",
+   "title": "STAGE 1 — THE REFLEXIVITY SYNTHESIS (Ratié + Ñāṇavīra + the truth engine + science)",
+   "path": "/root/projects/research-library/COMMENTARY-STAGE1-REFLEXIVITY-SYNTHESIS.md",
+   "status": "analysis (graded in-file)"
+  },
+  {
+   "id": "research:COMMENTARY-STAGE1-ratie-engine",
+   "kind": "commentary",
+   "title": "STAGE 1 COMMENTARY — RATIÉ AS THE STAGE-1 ENGINE (the reflexive, manifest, free)",
+   "path": "/root/projects/research-library/COMMENTARY-STAGE1-ratie-engine.md",
+   "status": "analysis (graded in-file)"
+  },
+  {
+   "id": "research:COMMENTARY-THESIS-NODE-camatkara-felt",
+   "kind": "commentary",
+   "title": "COMMENTARY I — THE THESIS NODE: CAMATKĀRA ↔ FELT-IS-PRIMARY",
+   "path": "/root/projects/research-library/COMMENTARY-THESIS-NODE-camatkara-felt.md",
+   "status": "analysis (graded in-file)"
+  },
+  {
+   "id": "topic:imagination_essay",
+   "kind": "topic",
+   "title": "Imagination as Ontological Operation",
+   "path": "/root/projects/research-library/concept-deepdives/imagination_essay.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:what-the-heck-is-tetrahedron",
+   "kind": "topic",
+   "title": "What the Heck Is the Tetrahedron?",
+   "path": "/root/projects/research-library/concept-deepdives/what-the-heck-is-tetrahedron.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:what-the-heck-is-time",
+   "kind": "topic",
+   "title": "what-the-heck-is-time",
+   "path": "/root/projects/research-library/concept-deepdives/what-the-heck-is-time.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:whattheheckis-exclusion",
+   "kind": "topic",
+   "title": "What the Heck Is Exclusion?",
+   "path": "/root/projects/research-library/concept-deepdives/whattheheckis-exclusion.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:whattheheckisagency",
+   "kind": "topic",
+   "title": "What the Heck Is Agency?",
+   "path": "/root/projects/research-library/concept-deepdives/whattheheckisagency.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:whattheheckischanneling",
+   "kind": "topic",
+   "title": "What the Heck Is Channeling?",
+   "path": "/root/projects/research-library/concept-deepdives/whattheheckischanneling.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:whattheheckisimagination",
+   "kind": "topic",
+   "title": "whattheheckisimagination",
+   "path": "/root/projects/research-library/concept-deepdives/whattheheckisimagination.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:whattheheckismemory",
+   "kind": "topic",
+   "title": "What the Heck Is Memory?",
+   "path": "/root/projects/research-library/concept-deepdives/whattheheckismemory.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:whattheheckisself",
+   "kind": "topic",
+   "title": "Deepdive 2 — What the Heck Is the Self or Boundary?",
+   "path": "/root/projects/research-library/concept-deepdives/whattheheckisself.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:whattheheckissubtlebody",
+   "kind": "topic",
+   "title": "What the Heck Is the Subtle Body? — Corrected Synthesis",
+   "path": "/root/projects/research-library/concept-deepdives/whattheheckissubtlebody.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:whattheheckistime",
+   "kind": "topic",
+   "title": "What the Heck Is Time?",
+   "path": "/root/projects/research-library/concept-deepdives/whattheheckistime.md",
+   "status": "topic node"
+  },
+  {
+   "id": "topic:whattheheckisvalence",
+   "kind": "topic",
+   "title": "Deepdive 1 — What the Heck Is Valence?",
+   "path": "/root/projects/research-library/concept-deepdives/whattheheckisvalence.md",
+   "status": "topic node"
+  },
+  {
+   "id": "ro:README.md",
+   "kind": "research-object",
+   "title": "README.md",
+   "path": "/root/projects/research-library/research-objects/README.md",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-ajahn-lee-in-mind",
+   "kind": "research-object",
+   "title": "ro-ajahn-lee-in-mind",
+   "path": "/root/projects/research-library/research-objects/ro-ajahn-lee-in-mind",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-albertus-minerals",
+   "kind": "research-object",
+   "title": "ro-albertus-minerals",
+   "path": "/root/projects/research-library/research-objects/ro-albertus-minerals",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-aesch-mezareph",
+   "kind": "research-object",
+   "title": "ro-alchemy-aesch-mezareph",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-aesch-mezareph",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-alchemical-mass",
+   "kind": "research-object",
+   "title": "ro-alchemy-alchemical-mass",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-alchemical-mass",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-atalanta",
+   "kind": "research-object",
+   "title": "ro-alchemy-atalanta",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-atalanta",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-bacon-mirror",
+   "kind": "research-object",
+   "title": "ro-alchemy-bacon-mirror",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-bacon-mirror",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-blake-marriage",
+   "kind": "research-object",
+   "title": "ro-alchemy-blake-marriage",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-blake-marriage",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-bloomfield",
+   "kind": "research-object",
+   "title": "ro-alchemy-bloomfield",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-bloomfield",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-catechism-tschoudy",
+   "kind": "research-object",
+   "title": "ro-alchemy-catechism-tschoudy",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-catechism-tschoudy",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-chymical-wedding",
+   "kind": "research-object",
+   "title": "ro-alchemy-chymical-wedding",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-chymical-wedding",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-confessio",
+   "kind": "research-object",
+   "title": "ro-alchemy-confessio",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-confessio",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-emerald-tablet",
+   "kind": "research-object",
+   "title": "ro-alchemy-emerald-tablet",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-emerald-tablet",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-fama",
+   "kind": "research-object",
+   "title": "ro-alchemy-fama",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-fama",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-freher",
+   "kind": "research-object",
+   "title": "ro-alchemy-freher",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-freher",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-glory-of-light",
+   "kind": "research-object",
+   "title": "ro-alchemy-glory-of-light",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-glory-of-light",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-goethe-faust",
+   "kind": "research-object",
+   "title": "ro-alchemy-goethe-faust",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-goethe-faust",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-golden-age-restored",
+   "kind": "research-object",
+   "title": "ro-alchemy-golden-age-restored",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-golden-age-restored",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-hermetic-arcanum",
+   "kind": "research-object",
+   "title": "ro-alchemy-hermetic-arcanum",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-hermetic-arcanum",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-hermetic-triumph",
+   "kind": "research-object",
+   "title": "ro-alchemy-hermetic-triumph",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-hermetic-triumph",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-kelly-stone",
+   "kind": "research-object",
+   "title": "ro-alchemy-kelly-stone",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-kelly-stone",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-khunrath",
+   "kind": "research-object",
+   "title": "ro-alchemy-khunrath",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-khunrath",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-lambspring",
+   "kind": "research-object",
+   "title": "ro-alchemy-lambspring",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-lambspring",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-maria-prophetissa",
+   "kind": "research-object",
+   "title": "ro-alchemy-maria-prophetissa",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-maria-prophetissa",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-novalis-heinrich",
+   "kind": "research-object",
+   "title": "ro-alchemy-novalis-heinrich",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-novalis-heinrich",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-paracelsus-aurora",
+   "kind": "research-object",
+   "title": "ro-alchemy-paracelsus-aurora",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-paracelsus-aurora",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-paracelsus-tincture",
+   "kind": "research-object",
+   "title": "ro-alchemy-paracelsus-tincture",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-paracelsus-tincture",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-ripley-gates",
+   "kind": "research-object",
+   "title": "ro-alchemy-ripley-gates",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-ripley-gates",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-ripley-scroll",
+   "kind": "research-object",
+   "title": "ro-alchemy-ripley-scroll",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-ripley-scroll",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-sendivogius",
+   "kind": "research-object",
+   "title": "ro-alchemy-sendivogius",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-sendivogius",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-sophia-mirror",
+   "kind": "research-object",
+   "title": "ro-alchemy-sophia-mirror",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-sophia-mirror",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-turba",
+   "kind": "research-object",
+   "title": "ro-alchemy-turba",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-turba",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alchemy-vaughan",
+   "kind": "research-object",
+   "title": "ro-alchemy-vaughan",
+   "path": "/root/projects/research-library/research-objects/ro-alchemy-vaughan",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alexander-notes-synthesis",
+   "kind": "research-object",
+   "title": "ro-alexander-notes-synthesis",
+   "path": "/root/projects/research-library/research-objects/ro-alexander-notes-synthesis",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-alkhalili-quantum-bio",
+   "kind": "research-object",
+   "title": "ro-alkhalili-quantum-bio",
+   "path": "/root/projects/research-library/research-objects/ro-alkhalili-quantum-bio",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-amplituhedron-arkanihamed",
+   "kind": "research-object",
+   "title": "ro-amplituhedron-arkanihamed",
+   "path": "/root/projects/research-library/research-objects/ro-amplituhedron-arkanihamed",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-anapanasati-sutta",
+   "kind": "research-object",
+   "title": "ro-anapanasati-sutta",
+   "path": "/root/projects/research-library/research-objects/ro-anapanasati-sutta",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-assembly-theory",
+   "kind": "research-object",
+   "title": "ro-assembly-theory",
+   "path": "/root/projects/research-library/research-objects/ro-assembly-theory",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-barandes-foundations",
+   "kind": "research-object",
+   "title": "ro-barandes-foundations",
+   "path": "/root/projects/research-library/research-objects/ro-barandes-foundations",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-bhagavad-gita",
+   "kind": "research-object",
+   "title": "ro-bhagavad-gita",
+   "path": "/root/projects/research-library/research-objects/ro-bhagavad-gita",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-brahma-sutras",
+   "kind": "research-object",
+   "title": "ro-brahma-sutras",
+   "path": "/root/projects/research-library/research-objects/ro-brahma-sutras",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-campbell-my-big-toe",
+   "kind": "research-object",
+   "title": "ro-campbell-my-big-toe",
+   "path": "/root/projects/research-library/research-objects/ro-campbell-my-big-toe",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-cassiopaean",
+   "kind": "research-object",
+   "title": "ro-cassiopaean",
+   "path": "/root/projects/research-library/research-objects/ro-cassiopaean",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-chakrasambhara-avalon",
+   "kind": "research-object",
+   "title": "ro-chakrasambhara-avalon",
+   "path": "/root/projects/research-library/research-objects/ro-chakrasambhara-avalon",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-chaldean-oracles",
+   "kind": "research-object",
+   "title": "ro-chaldean-oracles",
+   "path": "/root/projects/research-library/research-objects/ro-chaldean-oracles",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-complexity",
+   "kind": "research-object",
+   "title": "ro-complexity",
+   "path": "/root/projects/research-library/research-objects/ro-complexity",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-corbin-imaginal",
+   "kind": "research-object",
+   "title": "ro-corbin-imaginal",
+   "path": "/root/projects/research-library/research-objects/ro-corbin-imaginal",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-corbin-imaginal-expanded",
+   "kind": "research-object",
+   "title": "ro-corbin-imaginal-expanded",
+   "path": "/root/projects/research-library/research-objects/ro-corbin-imaginal-expanded",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-corpus-hermeticum",
+   "kind": "research-object",
+   "title": "ro-corpus-hermeticum",
+   "path": "/root/projects/research-library/research-objects/ro-corpus-hermeticum",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-crowley-cosmology",
+   "kind": "research-object",
+   "title": "ro-crowley-cosmology",
+   "path": "/root/projects/research-library/research-objects/ro-crowley-cosmology",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-crowley-hga",
+   "kind": "research-object",
+   "title": "ro-crowley-hga",
+   "path": "/root/projects/research-library/research-objects/ro-crowley-hga",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-crowley-magick",
+   "kind": "research-object",
+   "title": "ro-crowley-magick",
+   "path": "/root/projects/research-library/research-objects/ro-crowley-magick",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-daimon-guidance",
+   "kind": "research-object",
+   "title": "ro-daimon-guidance",
+   "path": "/root/projects/research-library/research-objects/ro-daimon-guidance",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-daimon-luminous-body",
+   "kind": "research-object",
+   "title": "ro-daimon-luminous-body",
+   "path": "/root/projects/research-library/research-objects/ro-daimon-luminous-body",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-daimon-perfect-nature",
+   "kind": "research-object",
+   "title": "ro-daimon-perfect-nature",
+   "path": "/root/projects/research-library/research-objects/ro-daimon-perfect-nature",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-daimon-shadow",
+   "kind": "research-object",
+   "title": "ro-daimon-shadow",
+   "path": "/root/projects/research-library/research-objects/ro-daimon-shadow",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-death-systems-convergence",
+   "kind": "research-object",
+   "title": "ro-death-systems-convergence",
+   "path": "/root/projects/research-library/research-objects/ro-death-systems-convergence",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-deutsch-constructor",
+   "kind": "research-object",
+   "title": "ro-deutsch-constructor",
+   "path": "/root/projects/research-library/research-objects/ro-deutsch-constructor",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-dhammapada",
+   "kind": "research-object",
+   "title": "ro-dhammapada",
+   "path": "/root/projects/research-library/research-objects/ro-dhammapada",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-dyczkowski-doctrine-vibration",
+   "kind": "research-object",
+   "title": "ro-dyczkowski-doctrine-vibration",
+   "path": "/root/projects/research-library/research-objects/ro-dyczkowski-doctrine-vibration",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-emerald-tablet-extended",
+   "kind": "research-object",
+   "title": "ro-emerald-tablet-extended",
+   "path": "/root/projects/research-library/research-objects/ro-emerald-tablet-extended",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-ficino-daimon",
+   "kind": "research-object",
+   "title": "ro-ficino-daimon",
+   "path": "/root/projects/research-library/research-objects/ro-ficino-daimon",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-ficino-de-sole",
+   "kind": "research-object",
+   "title": "ro-ficino-de-sole",
+   "path": "/root/projects/research-library/research-objects/ro-ficino-de-sole",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-fields-quantum",
+   "kind": "research-object",
+   "title": "ro-fields-quantum",
+   "path": "/root/projects/research-library/research-objects/ro-fields-quantum",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-fields3",
+   "kind": "research-object",
+   "title": "ro-fields3",
+   "path": "/root/projects/research-library/research-objects/ro-fields3",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-fire-sermon",
+   "kind": "research-object",
+   "title": "ro-fire-sermon",
+   "path": "/root/projects/research-library/research-objects/ro-fire-sermon",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-friston-free-energy",
+   "kind": "research-object",
+   "title": "ro-friston-free-energy",
+   "path": "/root/projects/research-library/research-objects/ro-friston-free-energy",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-iamblichean-theurgy",
+   "kind": "research-object",
+   "title": "ro-iamblichean-theurgy",
+   "path": "/root/projects/research-library/research-objects/ro-iamblichean-theurgy",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-ibn-arabi-perfect-man",
+   "kind": "research-object",
+   "title": "ro-ibn-arabi-perfect-man",
+   "path": "/root/projects/research-library/research-objects/ro-ibn-arabi-perfect-man",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-ksemaraja-pratyabhijnahrdayam",
+   "kind": "research-object",
+   "title": "ro-ksemaraja-pratyabhijnahrdayam",
+   "path": "/root/projects/research-library/research-objects/ro-ksemaraja-pratyabhijnahrdayam",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-kybalion",
+   "kind": "research-object",
+   "title": "ro-kybalion",
+   "path": "/root/projects/research-library/research-objects/ro-kybalion",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-lakshmanjoo-shiva-sutras",
+   "kind": "research-object",
+   "title": "ro-lakshmanjoo-shiva-sutras",
+   "path": "/root/projects/research-library/research-objects/ro-lakshmanjoo-shiva-sutras",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-lakshmanjoo-vijnana-bhairava",
+   "kind": "research-object",
+   "title": "ro-lakshmanjoo-vijnana-bhairava",
+   "path": "/root/projects/research-library/research-objects/ro-lakshmanjoo-vijnana-bhairava",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-law-of-one",
+   "kind": "research-object",
+   "title": "ro-law-of-one",
+   "path": "/root/projects/research-library/research-objects/ro-law-of-one",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-laya-daimon-contact",
+   "kind": "research-object",
+   "title": "ro-laya-daimon-contact",
+   "path": "/root/projects/research-library/research-objects/ro-laya-daimon-contact",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-layayoga-absorption",
+   "kind": "research-object",
+   "title": "ro-layayoga-absorption",
+   "path": "/root/projects/research-library/research-objects/ro-layayoga-absorption",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-layayoga-kundalini",
+   "kind": "research-object",
+   "title": "ro-layayoga-kundalini",
+   "path": "/root/projects/research-library/research-objects/ro-layayoga-kundalini",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-layayoga-mantra-science",
+   "kind": "research-object",
+   "title": "ro-layayoga-mantra-science",
+   "path": "/root/projects/research-library/research-objects/ro-layayoga-mantra-science",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-layayoga-subtle-body",
+   "kind": "research-object",
+   "title": "ro-layayoga-subtle-body",
+   "path": "/root/projects/research-library/research-objects/ro-layayoga-subtle-body",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-levin-basal-cognition",
+   "kind": "research-object",
+   "title": "ro-levin-basal-cognition",
+   "path": "/root/projects/research-library/research-objects/ro-levin-basal-cognition",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-aeneid",
+   "kind": "research-object",
+   "title": "ro-literature-aeneid",
+   "path": "/root/projects/research-library/research-objects/ro-literature-aeneid",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-ancient-mariner",
+   "kind": "research-object",
+   "title": "ro-literature-ancient-mariner",
+   "path": "/root/projects/research-library/research-objects/ro-literature-ancient-mariner",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-brothers-karamazov",
+   "kind": "research-object",
+   "title": "ro-literature-brothers-karamazov",
+   "path": "/root/projects/research-library/research-objects/ro-literature-brothers-karamazov",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-candide",
+   "kind": "research-object",
+   "title": "ro-literature-candide",
+   "path": "/root/projects/research-library/research-objects/ro-literature-candide",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-cloud-of-unknowing",
+   "kind": "research-object",
+   "title": "ro-literature-cloud-of-unknowing",
+   "path": "/root/projects/research-library/research-objects/ro-literature-cloud-of-unknowing",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-consolation",
+   "kind": "research-object",
+   "title": "ro-literature-consolation",
+   "path": "/root/projects/research-library/research-objects/ro-literature-consolation",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-divine-comedy",
+   "kind": "research-object",
+   "title": "ro-literature-divine-comedy",
+   "path": "/root/projects/research-library/research-objects/ro-literature-divine-comedy",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-dostoevsky",
+   "kind": "research-object",
+   "title": "ro-literature-dostoevsky",
+   "path": "/root/projects/research-library/research-objects/ro-literature-dostoevsky",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-faerie-queene",
+   "kind": "research-object",
+   "title": "ro-literature-faerie-queene",
+   "path": "/root/projects/research-library/research-objects/ro-literature-faerie-queene",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-frankenstein",
+   "kind": "research-object",
+   "title": "ro-literature-frankenstein",
+   "path": "/root/projects/research-library/research-objects/ro-literature-frankenstein",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-gawain",
+   "kind": "research-object",
+   "title": "ro-literature-gawain",
+   "path": "/root/projects/research-library/research-objects/ro-literature-gawain",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-gilgamesh",
+   "kind": "research-object",
+   "title": "ro-literature-gilgamesh",
+   "path": "/root/projects/research-library/research-objects/ro-literature-gilgamesh",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-glass-bead-game",
+   "kind": "research-object",
+   "title": "ro-literature-glass-bead-game",
+   "path": "/root/projects/research-library/research-objects/ro-literature-glass-bead-game",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-golden-ass",
+   "kind": "research-object",
+   "title": "ro-literature-golden-ass",
+   "path": "/root/projects/research-library/research-objects/ro-literature-golden-ass",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-harry-potter",
+   "kind": "research-object",
+   "title": "ro-literature-harry-potter",
+   "path": "/root/projects/research-library/research-objects/ro-literature-harry-potter",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-his-dark-materials",
+   "kind": "research-object",
+   "title": "ro-literature-his-dark-materials",
+   "path": "/root/projects/research-library/research-objects/ro-literature-his-dark-materials",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-lord-of-the-rings",
+   "kind": "research-object",
+   "title": "ro-literature-lord-of-the-rings",
+   "path": "/root/projects/research-library/research-objects/ro-literature-lord-of-the-rings",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-moby-dick",
+   "kind": "research-object",
+   "title": "ro-literature-moby-dick",
+   "path": "/root/projects/research-library/research-objects/ro-literature-moby-dick",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-narnia",
+   "kind": "research-object",
+   "title": "ro-literature-narnia",
+   "path": "/root/projects/research-library/research-objects/ro-literature-narnia",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-odyssey",
+   "kind": "research-object",
+   "title": "ro-literature-odyssey",
+   "path": "/root/projects/research-library/research-objects/ro-literature-odyssey",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-pearl",
+   "kind": "research-object",
+   "title": "ro-literature-pearl",
+   "path": "/root/projects/research-library/research-objects/ro-literature-pearl",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-piers-plowman",
+   "kind": "research-object",
+   "title": "ro-literature-piers-plowman",
+   "path": "/root/projects/research-library/research-objects/ro-literature-piers-plowman",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-pilgrims-progress",
+   "kind": "research-object",
+   "title": "ro-literature-pilgrims-progress",
+   "path": "/root/projects/research-library/research-objects/ro-literature-pilgrims-progress",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-literature-waste-land",
+   "kind": "research-object",
+   "title": "ro-literature-waste-land",
+   "path": "/root/projects/research-library/research-objects/ro-literature-waste-land",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-loy-musimathics",
+   "kind": "research-object",
+   "title": "ro-loy-musimathics",
+   "path": "/root/projects/research-library/research-objects/ro-loy-musimathics",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-manjusri-namasamgiti",
+   "kind": "research-object",
+   "title": "ro-manjusri-namasamgiti",
+   "path": "/root/projects/research-library/research-objects/ro-manjusri-namasamgiti",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-mimamsa-sutras",
+   "kind": "research-object",
+   "title": "ro-mimamsa-sutras",
+   "path": "/root/projects/research-library/research-objects/ro-mimamsa-sutras",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-morphospace",
+   "kind": "research-object",
+   "title": "ro-morphospace",
+   "path": "/root/projects/research-library/research-objects/ro-morphospace",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-nagarjuna-mulamadhyamaka",
+   "kind": "research-object",
+   "title": "ro-nagarjuna-mulamadhyamaka",
+   "path": "/root/projects/research-library/research-objects/ro-nagarjuna-mulamadhyamaka",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-nanananda-papanca",
+   "kind": "research-object",
+   "title": "ro-nanananda-papanca",
+   "path": "/root/projects/research-library/research-objects/ro-nanananda-papanca",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-nanavira-clearing-path",
+   "kind": "research-object",
+   "title": "ro-nanavira-clearing-path",
+   "path": "/root/projects/research-library/research-objects/ro-nanavira-clearing-path",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-nielsen-chuang",
+   "kind": "research-object",
+   "title": "ro-nielsen-chuang",
+   "path": "/root/projects/research-library/research-objects/ro-nielsen-chuang",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-nyaya-sutras",
+   "kind": "research-object",
+   "title": "ro-nyaya-sutras",
+   "path": "/root/projects/research-library/research-objects/ro-nyaya-sutras",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-parzival-grail",
+   "kind": "research-object",
+   "title": "ro-parzival-grail",
+   "path": "/root/projects/research-library/research-objects/ro-parzival-grail",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-path-liber-8",
+   "kind": "research-object",
+   "title": "ro-path-liber-8",
+   "path": "/root/projects/research-library/research-objects/ro-path-liber-8",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-path-reddit",
+   "kind": "research-object",
+   "title": "ro-path-reddit",
+   "path": "/root/projects/research-library/research-objects/ro-path-reddit",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-penrose-orch-or",
+   "kind": "research-object",
+   "title": "ro-penrose-orch-or",
+   "path": "/root/projects/research-library/research-objects/ro-penrose-orch-or",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-penrose-road-to-reality",
+   "kind": "research-object",
+   "title": "ro-penrose-road-to-reality",
+   "path": "/root/projects/research-library/research-objects/ro-penrose-road-to-reality",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-pkd-exegesis",
+   "kind": "research-object",
+   "title": "ro-pkd-exegesis",
+   "path": "/root/projects/research-library/research-objects/ro-pkd-exegesis",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-proclus-elements",
+   "kind": "research-object",
+   "title": "ro-proclus-elements",
+   "path": "/root/projects/research-library/research-objects/ro-proclus-elements",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-proclus-hymns-berg",
+   "kind": "research-object",
+   "title": "ro-proclus-hymns-berg",
+   "path": "/root/projects/research-library/research-objects/ro-proclus-hymns-berg",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-qri-qualia",
+   "kind": "research-object",
+   "title": "ro-qri-qualia",
+   "path": "/root/projects/research-library/research-objects/ro-qri-qualia",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-quantum-bio",
+   "kind": "research-object",
+   "title": "ro-quantum-bio",
+   "path": "/root/projects/research-library/research-objects/ro-quantum-bio",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-satipatthana-sutta",
+   "kind": "research-object",
+   "title": "ro-satipatthana-sutta",
+   "path": "/root/projects/research-library/research-objects/ro-satipatthana-sutta",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-serpent-power",
+   "kind": "research-object",
+   "title": "ro-serpent-power",
+   "path": "/root/projects/research-library/research-objects/ro-serpent-power",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-seth-dreams",
+   "kind": "research-object",
+   "title": "ro-seth-dreams",
+   "path": "/root/projects/research-library/research-objects/ro-seth-dreams",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-seth-dreams-evolution",
+   "kind": "research-object",
+   "title": "ro-seth-dreams-evolution",
+   "path": "/root/projects/research-library/research-objects/ro-seth-dreams-evolution",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-seth-nature-of-psyche",
+   "kind": "research-object",
+   "title": "ro-seth-nature-of-psyche",
+   "path": "/root/projects/research-library/research-objects/ro-seth-nature-of-psyche",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-shaw-theurgy",
+   "kind": "research-object",
+   "title": "ro-shaw-theurgy",
+   "path": "/root/projects/research-library/research-objects/ro-shaw-theurgy",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-six-yogas-naropa",
+   "kind": "research-object",
+   "title": "ro-six-yogas-naropa",
+   "path": "/root/projects/research-library/research-objects/ro-six-yogas-naropa",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-spacetime-foam",
+   "kind": "research-object",
+   "title": "ro-spacetime-foam",
+   "path": "/root/projects/research-library/research-objects/ro-spacetime-foam",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-steiner-tantraloka-parallels",
+   "kind": "research-object",
+   "title": "ro-steiner-tantraloka-parallels",
+   "path": "/root/projects/research-library/research-objects/ro-steiner-tantraloka-parallels",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-suhrawardi-illumination",
+   "kind": "research-object",
+   "title": "ro-suhrawardi-illumination",
+   "path": "/root/projects/research-library/research-objects/ro-suhrawardi-illumination",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-synesius-dream-daimon",
+   "kind": "research-object",
+   "title": "ro-synesius-dream-daimon",
+   "path": "/root/projects/research-library/research-objects/ro-synesius-dream-daimon",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-consciousness-states",
+   "kind": "research-object",
+   "title": "ro-tantraloka-consciousness-states",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-consciousness-states",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-cosmology",
+   "kind": "research-object",
+   "title": "ro-tantraloka-cosmology",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-cosmology",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-dialogical-revelation",
+   "kind": "research-object",
+   "title": "ro-tantraloka-dialogical-revelation",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-dialogical-revelation",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-initiation",
+   "kind": "research-object",
+   "title": "ro-tantraloka-initiation",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-initiation",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-mantra-breath",
+   "kind": "research-object",
+   "title": "ro-tantraloka-mantra-breath",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-mantra-breath",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-matter-of-wonder",
+   "kind": "research-object",
+   "title": "ro-tantraloka-matter-of-wonder",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-matter-of-wonder",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-ontological-hierarchy",
+   "kind": "research-object",
+   "title": "ro-tantraloka-ontological-hierarchy",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-ontological-hierarchy",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-paratrisika-vivarana",
+   "kind": "research-object",
+   "title": "ro-tantraloka-paratrisika-vivarana",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-paratrisika-vivarana",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-reflection",
+   "kind": "research-object",
+   "title": "ro-tantraloka-reflection",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-reflection",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-sound-metaphysics",
+   "kind": "research-object",
+   "title": "ro-tantraloka-sound-metaphysics",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-sound-metaphysics",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-three-means",
+   "kind": "research-object",
+   "title": "ro-tantraloka-three-means",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-three-means",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-twelve-kalis",
+   "kind": "research-object",
+   "title": "ro-tantraloka-twelve-kalis",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-twelve-kalis",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-vol10",
+   "kind": "research-object",
+   "title": "ro-tantraloka-vol10",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-vol10",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-vol4",
+   "kind": "research-object",
+   "title": "ro-tantraloka-vol4",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-vol4",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tantraloka-vol7",
+   "kind": "research-object",
+   "title": "ro-tantraloka-vol7",
+   "path": "/root/projects/research-library/research-objects/ro-tantraloka-vol7",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tao-te-ching",
+   "kind": "research-object",
+   "title": "ro-tao-te-ching",
+   "path": "/root/projects/research-library/research-objects/ro-tao-te-ching",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tarka-sangraha",
+   "kind": "research-object",
+   "title": "ro-tarka-sangraha",
+   "path": "/root/projects/research-library/research-objects/ro-tarka-sangraha",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tegmark-perceptronium",
+   "kind": "research-object",
+   "title": "ro-tegmark-perceptronium",
+   "path": "/root/projects/research-library/research-objects/ro-tegmark-perceptronium",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-thompson-vedic-cosmology",
+   "kind": "research-object",
+   "title": "ro-thompson-vedic-cosmology",
+   "path": "/root/projects/research-library/research-objects/ro-thompson-vedic-cosmology",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-tsongkhapa-five-stages",
+   "kind": "research-object",
+   "title": "ro-tsongkhapa-five-stages",
+   "path": "/root/projects/research-library/research-objects/ro-tsongkhapa-five-stages",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-upanishads",
+   "kind": "research-object",
+   "title": "ro-upanishads",
+   "path": "/root/projects/research-library/research-objects/ro-upanishads",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-utpaladeva-ipk",
+   "kind": "research-object",
+   "title": "ro-utpaladeva-ipk",
+   "path": "/root/projects/research-library/research-objects/ro-utpaladeva-ipk",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-vakyapadiya",
+   "kind": "research-object",
+   "title": "ro-vakyapadiya",
+   "path": "/root/projects/research-library/research-objects/ro-vakyapadiya",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-voss-imagination-divination",
+   "kind": "research-object",
+   "title": "ro-voss-imagination-divination",
+   "path": "/root/projects/research-library/research-objects/ro-voss-imagination-divination",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-wallace-everett",
+   "kind": "research-object",
+   "title": "ro-wallace-everett",
+   "path": "/root/projects/research-library/research-objects/ro-wallace-everett",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-yoga-sutras",
+   "kind": "research-object",
+   "title": "ro-yoga-sutras",
+   "path": "/root/projects/research-library/research-objects/ro-yoga-sutras",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-yoga-vasistha",
+   "kind": "research-object",
+   "title": "ro-yoga-vasistha",
+   "path": "/root/projects/research-library/research-objects/ro-yoga-vasistha",
+   "status": "object dir"
+  },
+  {
+   "id": "ro:ro-zenil-computable-universe",
+   "kind": "research-object",
+   "title": "ro-zenil-computable-universe",
+   "path": "/root/projects/research-library/research-objects/ro-zenil-computable-universe",
+   "status": "object dir"
+  },
+  {
+   "id": "density:README",
+   "kind": "density",
+   "title": "density",
+   "path": "/root/projects/research-library/density-subtlebody/README.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:agent-spec-framework",
+   "kind": "density",
+   "title": "Agent Specification: Formal Framework Construction",
+   "path": "/root/projects/research-library/density-subtlebody/agent-spec-framework.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:buckminstertetra",
+   "kind": "density",
+   "title": "The Tetrahedron in Fuller's Synergetics",
+   "path": "/root/projects/research-library/density-subtlebody/buckminstertetra.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:buckminstertetra2",
+   "kind": "density",
+   "title": "The Tetrahedron in Synergetics 2",
+   "path": "/root/projects/research-library/density-subtlebody/buckminstertetra2.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:channeled-claims-assessment",
+   "kind": "density",
+   "title": "Channeled Claims Assessment",
+   "path": "/root/projects/research-library/density-subtlebody/channeled-claims-assessment.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:channeling-research-catalog",
+   "kind": "density",
+   "title": "Channeling Research: Source Catalog",
+   "path": "/root/projects/research-library/density-subtlebody/channeling-research-catalog.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:channelingsiva",
+   "kind": "density",
+   "title": "channelingsiva",
+   "path": "/root/projects/research-library/density-subtlebody/channelingsiva.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:coherent-water-matrix-framework",
+   "kind": "density",
+   "title": "The Coherent Water Matrix: A Formalised Subtle Body Framework",
+   "path": "/root/projects/research-library/density-subtlebody/coherent-water-matrix-framework.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:corrected-position",
+   "kind": "density",
+   "title": "The Density Project: Corrected Position After Final Peer Review",
+   "path": "/root/projects/research-library/density-subtlebody/corrected-position.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:cosmometry-metaphysics",
+   "kind": "density",
+   "title": "Cosmometry: A Systematised Metaphysics",
+   "path": "/root/projects/research-library/density-subtlebody/cosmometry-metaphysics.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:exotic-propulsion-catalog",
+   "kind": "density",
+   "title": "Exotic Propulsion and Gravity Modification: A Reference Catalog",
+   "path": "/root/projects/research-library/density-subtlebody/exotic-propulsion-catalog.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:experimental-proof",
+   "kind": "density",
+   "title": "Experimental Proof: The Coherent Water Matrix",
+   "path": "/root/projects/research-library/density-subtlebody/experimental-proof.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:factual-corrections",
+   "kind": "density",
+   "title": "Factual Corrections and Unsupported Claims",
+   "path": "/root/projects/research-library/density-subtlebody/factual-corrections.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:formal-mapping",
+   "kind": "density",
+   "title": "The Complete Formal Mapping",
+   "path": "/root/projects/research-library/density-subtlebody/formal-mapping.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:from-matter-to-life-synthesis",
+   "kind": "density",
+   "title": "From Matter to Life: Information and Causality",
+   "path": "/root/projects/research-library/density-subtlebody/from-matter-to-life-synthesis.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:fuller-del-giudice-integration",
+   "kind": "density",
+   "title": "Fuller and Del Giudice: The Tetrahedron and Coherent Water",
+   "path": "/root/projects/research-library/density-subtlebody/fuller-del-giudice-integration.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:fullercritical",
+   "kind": "density",
+   "title": "Fuller, Critically Reassessed",
+   "path": "/root/projects/research-library/density-subtlebody/fullercritical.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:fullerdir ge",
+   "kind": "density",
+   "title": "Fuller Directory",
+   "path": "/root/projects/research-library/density-subtlebody/fullerdir ge.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:geometry-of-thinking-research-probe",
+   "kind": "density",
+   "title": "Research Probe: The Geometry of Thinking",
+   "path": "/root/projects/research-library/density-subtlebody/geometry-of-thinking-research-probe.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:handover-agent",
+   "kind": "density",
+   "title": "Agent Handover: The Density Project",
+   "path": "/root/projects/research-library/density-subtlebody/handover-agent.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:ipit-critique",
+   "kind": "density",
+   "title": "Critique of Inexternalist Process Identity Theory",
+   "path": "/root/projects/research-library/density-subtlebody/ipit-critique.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:kirby-urner-synthesis",
+   "kind": "density",
+   "title": "What Kirby Urner Contributes",
+   "path": "/root/projects/research-library/density-subtlebody/kirby-urner-synthesis.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:levin-doyle-analysis",
+   "kind": "density",
+   "title": "Levin vs. Doyle: Empirical Assessment of Information Philosophy Claims",
+   "path": "/root/projects/research-library/density-subtlebody/levin-doyle-analysis.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:levin-vs-synergetics",
+   "kind": "density",
+   "title": "Levin vs Synergetics: An Empirical Test of Fuller's Principles",
+   "path": "/root/projects/research-library/density-subtlebody/levin-vs-synergetics.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:mae-wan-ho-convergence",
+   "kind": "density",
+   "title": "Mae-Wan Ho: Key Claims and Convergence",
+   "path": "/root/projects/research-library/density-subtlebody/mae-wan-ho-convergence.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:material-enactment-in-synergetics",
+   "kind": "density",
+   "title": "The Material Enactment Principle in Synergetics",
+   "path": "/root/projects/research-library/density-subtlebody/material-enactment-in-synergetics.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:mepit-framework-refined",
+   "kind": "density",
+   "title": "Materially Enacted Inexternalist Process Identity Theory",
+   "path": "/root/projects/research-library/density-subtlebody/mepit-framework-refined.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:pathpress-cyjack-notes",
+   "kind": "density",
+   "title": "Path Press & Cyjack: Assessment Notes",
+   "path": "/root/projects/research-library/density-subtlebody/pathpress-cyjack-notes.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:primer",
+   "kind": "density",
+   "title": "Montalk Primer: The Unified Scientific Framework",
+   "path": "/root/projects/research-library/density-subtlebody/primer.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:psychohistory",
+   "kind": "density",
+   "title": "psychohistory",
+   "path": "/root/projects/research-library/density-subtlebody/psychohistory.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:ra-science-intersection-analysis",
+   "kind": "density",
+   "title": "Ra Material — Verified Scientific Intersections",
+   "path": "/root/projects/research-library/density-subtlebody/ra-science-intersection-analysis.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:rational-framework",
+   "kind": "density",
+   "title": "Geometry, Water, and Morphogenetic Memory: A Framework",
+   "path": "/root/projects/research-library/density-subtlebody/rational-framework.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:sanskritree-cross-reference",
+   "kind": "density",
+   "title": "Sanskritree Cross-Reference",
+   "path": "/root/projects/research-library/density-subtlebody/sanskritree-cross-reference.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:scienceprimer",
+   "kind": "density",
+   "title": "Science Primer: The Crystallised Metaphysics of Montalk",
+   "path": "/root/projects/research-library/density-subtlebody/scienceprimer.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:seth-synthesis",
+   "kind": "density",
+   "title": "Seth Synthesis: Systematised Metaphysics",
+   "path": "/root/projects/research-library/density-subtlebody/seth-synthesis.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:steiner-apit-commentary",
+   "kind": "density",
+   "title": "Steiner on the APIT Selector Problem",
+   "path": "/root/projects/research-library/density-subtlebody/steiner-apit-commentary.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:steiner-commentary",
+   "kind": "density",
+   "title": "Steiner Commentary: A Synthesis Towards Standardised Metaphysics",
+   "path": "/root/projects/research-library/density-subtlebody/steiner-commentary.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:steiner-deep-dive",
+   "kind": "density",
+   "title": "Steiner Deep Dive: Elemental Beings, Hierarchies, and the Densities of Reality",
+   "path": "/root/projects/research-library/density-subtlebody/steiner-deep-dive.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:steiner-subtle-body-sources",
+   "kind": "density",
+   "title": "Steiner on the Subtle Body: Source Passages",
+   "path": "/root/projects/research-library/density-subtlebody/steiner-subtle-body-sources.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:subtle-body-formal-position",
+   "kind": "density",
+   "title": "The Subtle Body: A Formal Position",
+   "path": "/root/projects/research-library/density-subtlebody/subtle-body-formal-position.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:subtle-body-revised",
+   "kind": "density",
+   "title": "The Subtle Body: Evidence and Formal Position — Revision",
+   "path": "/root/projects/research-library/density-subtlebody/subtle-body-revised.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:subtle-body-thesis",
+   "kind": "density",
+   "title": "The Subtle Body: A Defensible Thesis",
+   "path": "/root/projects/research-library/density-subtlebody/subtle-body-thesis.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:subtle_body_as_resolution",
+   "kind": "density",
+   "title": "The Subtle Body as Aperture Resolution",
+   "path": "/root/projects/research-library/density-subtlebody/subtle_body_as_resolution.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:subtle_body_formal",
+   "kind": "density",
+   "title": "The Subtle Body — Formal Synthesis with Primary Source Citations and Corrected Analysis",
+   "path": "/root/projects/research-library/density-subtlebody/subtle_body_formal.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:subtle_body_synthesis",
+   "kind": "density",
+   "title": "The Subtle Body — Complete Synthesis",
+   "path": "/root/projects/research-library/density-subtlebody/subtle_body_synthesis.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:subtlephenomenology",
+   "kind": "density",
+   "title": "Subtle Phenomenology",
+   "path": "/root/projects/research-library/density-subtlebody/subtlephenomenology.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:tetrahedron-as-selector-proof",
+   "kind": "density",
+   "title": "The Tetrahedron as Selector: A Full Proof",
+   "path": "/root/projects/research-library/density-subtlebody/tetrahedron-as-selector-proof.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:tetralogical",
+   "kind": "density",
+   "title": "The central verdict",
+   "path": "/root/projects/research-library/density-subtlebody/tetralogical.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:water-biology-catalog",
+   "kind": "density",
+   "title": "Water Biology: Source Catalog",
+   "path": "/root/projects/research-library/density-subtlebody/water-biology-catalog.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:water-coherence-math",
+   "kind": "density",
+   "title": "Water Coherence: Quantitative Analysis",
+   "path": "/root/projects/research-library/density-subtlebody/water-coherence-math.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:water-fuller-convergence",
+   "kind": "density",
+   "title": "Water, Geometry, and Life: The Convergence",
+   "path": "/root/projects/research-library/density-subtlebody/water-fuller-convergence.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "density:water-inexternalism-synthesis",
+   "kind": "density",
+   "title": "What the Water Investigation Added to Inexternalism",
+   "path": "/root/projects/research-library/density-subtlebody/water-inexternalism-synthesis.md",
+   "status": "shelf (provenance varies)"
+  },
+  {
+   "id": "pushing:tantraloka/CRITIQUE-tantraloka-flaws-report",
+   "kind": "pushing-session",
+   "title": "CRITIQUE OF THE \"TANTRĀLOKA FLAWS\" REPORT — and the Tantrāloka's response",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/CRITIQUE-tantraloka-flaws-report.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-Q1-reflexivity",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — pushing TĀ 1/52–55 (the reflexivity argument)",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-Q1-reflexivity.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-Q2Q3-powers-upayas",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — pushing TĀ 1/151–153 + 1/229–232 (the three powers ↔ the three upāyas)",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-Q2Q3-powers-upayas.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-abhinavabharati-santa",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the authoritative confirmation: Abhinavabhāratī on śānta and the exact reasoning ",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-abhinavabharati-santa.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-difference-real-at-siva",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch AY: is the difference real even at the ŚIVA level? (completing the realism",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-difference-real-at-siva.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-direction-as-felt",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch X: the direction of self-apprehension is FELT — the bridge to Solms/valenc",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-direction-as-felt.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-fear-love-recoil",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — is everything rooted in love? then what is FEAR?",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-fear-love-recoil.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-four-painful-honest-crux",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the HONEST crux: the four painful vs. four positive emotions, and how the text RE",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-four-painful-honest-crux.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-grace-reversal",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch Y: grace as the reversal — śaktipāta is the self-apprehension re-directing",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-grace-reversal.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-hardest-objections",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the hardest objections: anthropomorphism, \"what is play?\", \"why would Śiva play w",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-hardest-objections.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-impurities-powers",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — pushing the three impurities (āṇava, māyīya, karma) against the three powers",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-impurities-powers.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-kancukas-self-emptying",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the five kañcukas and the self-emptying: why THIS way, and why doesn't it change?",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-kancukas-self-emptying.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-karma-rebirth",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — karma and rebirth in the Tantrāloka: the mechanism, the theodicy, and the deepest",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-karma-rebirth.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-karma-time-freedom",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch CA: karma and time are the SAME contraction — and \"empties itself out of f",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-karma-time-freedom.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-krama-time",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch K: the status of krama (time) — is time a real addition or a mode of manif",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-krama-time.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-love-as-root-geometry",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the gem of the Abhinavabhāratī: love is the root, and anger/fear/grief are love t",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-love-as-root-geometry.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-masterkey-direction",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the deepest synthesis: if recognition adds nothing and removes nothing, what IS t",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-masterkey-direction.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-maya-line-crux",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch BB: the crux of the qualified monism — exactly where does the real Śiva↔po",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-maya-line-crux.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-mothers-grief-honest",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch BK: the honest question — a mother losing her child IS suffering. Is Abhin",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-mothers-grief-honest.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-mothers-recognition-inside",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — first-person: I am the mother, my child is gone. If I recognize myself as Śiva, h",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-mothers-recognition-inside.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-perceiver-universality",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch D: the perceiver — how \"manifest to me\" becomes \"the universal perceiver\"",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-perceiver-universality.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-practical-method",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the practical question: what does one actually DO? (rasa vs recognition vs samādh",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-practical-method.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-rasa-alaukika-felt",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the hardest question in the Abhinavabhāratī: how can rasa be FELT (sva-saṁvedana)",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-rasa-alaukika-felt.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-rasa-santa",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the hard one: HOW does rasa actually work, and why is śānta (peace) the UNDERLYIN",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-rasa-santa.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-rasa-vs-samadhi",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch AR: why does rasa differ from the perfect yogin's samādhi? (aesthetics as ",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-rasa-vs-samadhi.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-santa-direction-valence",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch AD: śānta = the felt of the inward direction — unifying rasa with the mast",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-santa-direction-valence.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-self-undisclosed",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch O: the self as the undisclosed object — the bridge to the pure thesis",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-self-undisclosed.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-suffering-as-rasa",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch BH: is suffering, at the level of the one, literally a RASA? (tasted by th",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-suffering-as-rasa.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-suffering-santa-reset",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch AH: suffering as obstructed śānta — the valence-reset, the healing of suff",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-suffering-santa-reset.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-theodicy-why-impurity",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the theodicy: why does impurity arise at all? can things ever be impure? why woul",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-theodicy-why-impurity.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/LOGICVID-session-upaya-reversal-apoha",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Branch J: the upāyas as the reversal ladder, and the epistemic mechanism (progres",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/LOGICVID-session-upaya-reversal-apoha.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/MOTHERS-LOSS-seven-perceivers",
+   "kind": "pushing-session",
+   "title": "THE MOTHER'S LOSS — the experience of a child's death at every level of the Tantrāloka",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/MOTHERS-LOSS-seven-perceivers.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/PUSHING-TANTRALOKA",
+   "kind": "pushing-session",
+   "title": "PUSHING-TANTRALOKA — hounding the text with the Logicvid method",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/PUSHING-TANTRALOKA.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/RASA-AND-SANTA-derivation",
+   "kind": "pushing-session",
+   "title": "RASA AND ŚĀNTA — the exact derivation (consolidated reference)",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/RASA-AND-SANTA-derivation.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:tantraloka/SELF-CRITIQUE-real-flaws",
+   "kind": "pushing-session",
+   "title": "THE HONEST SELF-CRITIQUE — the real flaws and tensions in the whole system",
+   "path": "/root/ipvv/site/data/pushing/tantraloka/SELF-CRITIQUE-real-flaws.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/BHAIRAVASTAVA-push",
+   "kind": "pushing-session",
+   "title": "PUSHING-BHAIRAVASTAVA — hounding the 10 verses with the Logicvid method",
+   "path": "/root/ipvv/site/data/pushing/ipvv/BHAIRAVASTAVA-push.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/BHAIRAVASTAVA-session-grace",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the stotra says grace is automatic. then what the hell do I do?",
+   "path": "/root/ipvv/site/data/pushing/ipvv/BHAIRAVASTAVA-session-grace.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/IPVV-MEMORY-vs-whattheheckismemory",
+   "kind": "pushing-session",
+   "title": "IPVV MEMORY vs. \"WHAT THE HECK IS MEMORY\" — the deep comparison",
+   "path": "/root/ipvv/site/data/pushing/ipvv/IPVV-MEMORY-vs-whattheheckismemory.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/IPVV-buddhist-co-opting",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the IPVV as Buddhist-co-opting: the co-opting move and its deepest consequence",
+   "path": "/root/ipvv/site/data/pushing/ipvv/IPVV-buddhist-co-opting.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/IPVV-felt-to-ground-argument",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the deepest open crux: does the felt→ground step have an ARGUMENT in the IPVV? (V",
+   "path": "/root/ipvv/site/data/pushing/ipvv/IPVV-felt-to-ground-argument.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/IPVV-internal-arc-vimarsas",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the IPVV's own internal structure: the vimarśa-arc (jñāna→smṛti→apohana→kriyā) an",
+   "path": "/root/ipvv/site/data/pushing/ipvv/IPVV-internal-arc-vimarsas.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/IPVV-internal-method-opponents-agama",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the IPVV's own internal method: the nanu→āha opponent-geography, and why the āgam",
+   "path": "/root/ipvv/site/data/pushing/ipvv/IPVV-internal-method-opponents-agama.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/IPVV-probe-tantraloka-cruxes",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — probing the IPVV with the Tantrāloka's tough cruxes: does it resolve them, or hit",
+   "path": "/root/ipvv/site/data/pushing/ipvv/IPVV-probe-tantraloka-cruxes.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/IPVV-recognition-formulations-vs-mepit",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the IPVV's recognition formulations vs. our recognition-formulation (mepit): the ",
+   "path": "/root/ipvv/site/data/pushing/ipvv/IPVV-recognition-formulations-vs-mepit.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/IPVV-reflexion-vs-nanavira",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — the IPVV reflexion core vs. Ñāṇavīra's reflexion proof: does the IPVV answer the ",
+   "path": "/root/ipvv/site/data/pushing/ipvv/IPVV-reflexion-vs-nanavira.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/LOGICVID-session-ipvv-v3i-parallels-counters",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — parallels & counters: the IPVV kāryakāraṇatāvimarśa (kārikās 20–21) vs. the Tantr",
+   "path": "/root/ipvv/site/data/pushing/ipvv/LOGICVID-session-ipvv-v3i-parallels-counters.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/PARAMARTHASARA-push",
+   "kind": "pushing-session",
+   "title": "LOGICVID SESSION — Paramārtha-sāra: can the *essence* of the real be asked a question?",
+   "path": "/root/ipvv/site/data/pushing/ipvv/PARAMARTHASARA-push.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/PUSHING-IPVV-narrated",
+   "kind": "pushing-session",
+   "title": "PUSHING-IPVV — hounding the Īśvarapratyabhijñāvivṛtivimarśinī",
+   "path": "/root/ipvv/site/data/pushing/ipvv/PUSHING-IPVV-narrated.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:ipvv/PUSHING-IPVV",
+   "kind": "pushing-session",
+   "title": "PUSHING-IPVV — hounding the Īśvarapratyabhijñāvivṛtivimarśinī",
+   "path": "/root/ipvv/site/data/pushing/ipvv/PUSHING-IPVV.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/bigvisionpatala.md",
+   "kind": "pushing-session",
+   "title": "Executive Summary",
+   "path": "/root/ipvv/site/data/pushing/research/bigvisionpatala.md.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/deep-research-report(10).md",
+   "kind": "pushing-session",
+   "title": "Existing frameworks for argumentation and IR",
+   "path": "/root/ipvv/site/data/pushing/research/deep-research-report(10).md.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/deep-research-report(11).md",
+   "kind": "pushing-session",
+   "title": "Executive Summary",
+   "path": "/root/ipvv/site/data/pushing/research/deep-research-report(11).md.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/deep-research-report(12).md",
+   "kind": "pushing-session",
+   "title": "Executive Summary",
+   "path": "/root/ipvv/site/data/pushing/research/deep-research-report(12).md.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/deep-research-report(13).md",
+   "kind": "pushing-session",
+   "title": "Executive Summary",
+   "path": "/root/ipvv/site/data/pushing/research/deep-research-report(13).md.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/deep-research-report(14).md",
+   "kind": "pushing-session",
+   "title": "Executive Summary",
+   "path": "/root/ipvv/site/data/pushing/research/deep-research-report(14).md.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/deep-research-report(5).md",
+   "kind": "pushing-session",
+   "title": "The 7-Fold Comparative Model in Kashmir Śaivism",
+   "path": "/root/ipvv/site/data/pushing/research/deep-research-report(5).md.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/deep-research-report(9).md",
+   "kind": "pushing-session",
+   "title": "Existing frameworks for argumentation and IR",
+   "path": "/root/ipvv/site/data/pushing/research/deep-research-report(9).md.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/deep-research-report.md",
+   "kind": "pushing-session",
+   "title": "Recognition Enquiry across Pratyabhijñā, Its Rivals, and Contemporary Consciousness Research",
+   "path": "/root/ipvv/site/data/pushing/research/deep-research-report.md.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/finalword",
+   "kind": "pushing-session",
+   "title": "Verdict",
+   "path": "/root/ipvv/site/data/pushing/research/finalword.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/finalwordexpansion1",
+   "kind": "pushing-session",
+   "title": "finalwordexpansion1",
+   "path": "/root/ipvv/site/data/pushing/research/finalwordexpansion1.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/finalwordexpansion2",
+   "kind": "pushing-session",
+   "title": "finalwordexpansion2",
+   "path": "/root/ipvv/site/data/pushing/research/finalwordexpansion2.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/hermespatala2.md",
+   "kind": "pushing-session",
+   "title": "hermespatala2.md",
+   "path": "/root/ipvv/site/data/pushing/research/hermespatala2.md.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/toolintegration",
+   "kind": "pushing-session",
+   "title": "S0 — Source Evidence Substrate",
+   "path": "/root/ipvv/site/data/pushing/research/toolintegration.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/truthadvice",
+   "kind": "pushing-session",
+   "title": "The actual result so far",
+   "path": "/root/ipvv/site/data/pushing/research/truthadvice.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/truthagent",
+   "kind": "pushing-session",
+   "title": "TRUTH-SEEKING RESEARCH AGENT",
+   "path": "/root/ipvv/site/data/pushing/research/truthagent.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/truthanother",
+   "kind": "pushing-session",
+   "title": "Recognition Enquiry — Comparative Research Dossier 01",
+   "path": "/root/ipvv/site/data/pushing/research/truthanother.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/truthnext",
+   "kind": "pushing-session",
+   "title": "truthnext",
+   "path": "/root/ipvv/site/data/pushing/research/truthnext.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "pushing:research/truthtranslation",
+   "kind": "pushing-session",
+   "title": "truthtranslation",
+   "path": "/root/ipvv/site/data/pushing/research/truthtranslation.md",
+   "status": "session (verdicts in-file)"
+  },
+  {
+   "id": "subtle:subtle_body_pack",
+   "kind": "subtle-body-pack",
+   "title": "subtle_body_pack",
+   "path": "/root/projects/tantraloka/goldrender/subtle_body_pack.py",
+   "status": "render pack (code)"
+  },
+  {
+   "id": "subtle:subtle_body_platinum",
+   "kind": "subtle-body-pack",
+   "title": "subtle_body_platinum",
+   "path": "/root/projects/tantraloka/goldrender/subtle_body_platinum.py",
+   "status": "render pack (code)"
+  },
+  {
+   "id": "subtle:subtle_body_platinum",
+   "kind": "subtle-body-pack",
+   "title": "subtle_body_platinum",
+   "path": "/root/projects/tantraloka/moderngl/subtle_body_platinum.py",
+   "status": "render pack (code)"
+  },
+  {
+   "id": "platinum:borrowed_voices_platinum",
+   "kind": "platinum",
+   "title": "borrowed_voices_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/borrowed_voices_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:dead_buried_instructions_platinum",
+   "kind": "platinum",
+   "title": "dead_buried_instructions_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/dead_buried_instructions_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:dna_superconductor_platinum",
+   "kind": "platinum",
+   "title": "dna_superconductor_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/dna_superconductor_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:emerald_tablet_platinum",
+   "kind": "platinum",
+   "title": "emerald_tablet_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/emerald_tablet_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:goddess_path_alphabet_platinum",
+   "kind": "platinum",
+   "title": "goddess_path_alphabet_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/goddess_path_alphabet_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:grace_breaks_the_law_platinum",
+   "kind": "platinum",
+   "title": "grace_breaks_the_law_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/grace_breaks_the_law_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:knowledge_binds_platinum",
+   "kind": "platinum",
+   "title": "knowledge_binds_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/knowledge_binds_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:parzival_grail_platinum",
+   "kind": "platinum",
+   "title": "parzival_grail_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/parzival_grail_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:past_can_be_changed_platinum",
+   "kind": "platinum",
+   "title": "past_can_be_changed_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/past_can_be_changed_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:penrose_orch_or_platinum",
+   "kind": "platinum",
+   "title": "penrose_orch_or_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/penrose_orch_or_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:pkd_exegesis_platinum",
+   "kind": "platinum",
+   "title": "pkd_exegesis_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/pkd_exegesis_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:soul_needs_second_body_platinum",
+   "kind": "platinum",
+   "title": "soul_needs_second_body_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/soul_needs_second_body_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:sound_metaphysics_platinum",
+   "kind": "platinum",
+   "title": "sound_metaphysics_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/sound_metaphysics_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:subtle_body_platinum",
+   "kind": "platinum",
+   "title": "subtle_body_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/subtle_body_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:thoughts_reach_14th_century_platinum",
+   "kind": "platinum",
+   "title": "thoughts_reach_14th_century_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/thoughts_reach_14th_century_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:three_upayas_platinum",
+   "kind": "platinum",
+   "title": "three_upayas_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/three_upayas_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:twelve_kalis_platinum",
+   "kind": "platinum",
+   "title": "twelve_kalis_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/twelve_kalis_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:universe_created_every_moment_platinum",
+   "kind": "platinum",
+   "title": "universe_created_every_moment_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/universe_created_every_moment_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:vibration_platinum",
+   "kind": "platinum",
+   "title": "vibration_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/vibration_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "platinum:voice_existed_before_language_platinum",
+   "kind": "platinum",
+   "title": "voice_existed_before_language_platinum",
+   "path": "/root/hxrmxs-truth-engine/queue4/voice_existed_before_language_platinum.py",
+   "status": "unexamined (scope unclear)"
+  },
+  {
+   "id": "subtle:subtle_body_historical",
+   "kind": "subtle-body-historical",
+   "title": "subtle_body_historical",
+   "path": "/root/projects/source-library/frontier/subtle_body_historical",
+   "status": "frontier shelf"
+  },
+  {
+   "id": "corpus:essay-corpus",
+   "kind": "idea-units",
+   "title": "essay-corpus (242 units, TEXT×TOPIC×GRADE×QUESTION)",
+   "path": "github:prx0r/essay-corpus",
+   "status": "external live repo (query via build_corpus.py)"
+  }
+ ],
+ "counts": {
+  "owner-original": 32,
+  "expansion-draft": 11,
+  "research-essay": 10,
+  "commentary": 9,
+  "topic": 12,
+  "research-object": 162,
+  "density": 52,
+  "pushing-session": 68,
+  "subtle-body-pack": 3,
+  "platinum": 20,
+  "subtle-body-historical": 1,
+  "idea-units": 1
+ },
+ "note": "statuses are kind-defaults; per-item review lives in owning lanes"
+}
