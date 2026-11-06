@@ -1046,3 +1046,14 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   covers `>` quotes; Ra-style `*"` passages not yet parsed (no gold-plate).
 - Tetrahedron verdict stands: combinatorics green, metaphysics H, 9x4
   tension open and essay-filed.
+
+## Essay estate unified (workengestation found on volume).
+
+- workengestation: full essay factory (thesis-guide, v6 algorithm with
+  9 prose patterns, typed essays + link graph DAG, ESSAY.schema,
+  dispatch, hermes blueprints). Channeling output dir EMPTY (queued).
+- ESSAY-PIPELINE.md unites it with my chain (compile→prose→audit→
+  pushback→review→publish, gates+owners). Hermes installed on THIS box
+  (gateway CLI + skills + cron present) — activation = owner call.
+- Channeling program queued (Seth → Cassiopaean → subtle-body, āpta-test
+  framing); 8 LoO topics filed earlier stand.
