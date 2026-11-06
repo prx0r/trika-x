@@ -39,3 +39,31 @@ from PostgreSQL; this checkout did not provide a running populated database.
 This observation does not prove that no witnesses exist elsewhere. Do not
 invent a siglum to satisfy a test. A future import must independently bind the
 specific manuscript, its identifier, edition/transcription and exact evidence.
+
+## R2 mirror (openpatala stack backup)
+
+`s3://patala/openpatala/` holds a schema + repo mirror for bringing the stack
+up on another box. **It is a schema backup, not the populated database.**
+
+| File | What | sha256 |
+|---|---|---|
+| `openpatala.dump` | `pg_dump -Fc` of Postgres 18 DB `openpatala`. **Schema complete, all tables 0 rows** (11 MB DB, empty as of 2026-11-06). | `0d2d909c…3a9e8a3` |
+| `openpatala-repo-2026-11-06.tar.gz` | Full `/root/openpatala` (code + docs + `data/gold` 764K + `data/evidence` + `translation-availability.json` [260 works] + both migration SQL files). | `9579e264…e183e2` |
+| `SHA256SUMS.txt` + `OPENPATALA-README.md` | Verification + restore recipe. | — |
+
+**Where the real data lives:** populated rows for works/etexts/ledger/discovery
+tables are **not** in this dump. Row data lives with the GitHub repos the
+owner keeps (`prx0r/patalacheckpoints`, `prx0r/openpatala`), not on this host.
+Any box can recreate the schema from R2; data comes from GitHub.
+
+Restore recipe (from `OPENPATALA-README.md`):
+```sh
+createdb openpatala
+pg_restore -d openpatala openpatala.dump        # schema only
+tar xzf openpatala-repo-2026-11-06.tar.gz -C /root/
+# data: load per repo loader scripts; JSON seeds are in openpatala/data/
+```
+
+Verify before trusting: `sha256sum -c SHA256SUMS.txt` against downloaded files.
+The two files above were verified round-trip on 2026-11-06 (downloaded hashes
+match originals exactly).
