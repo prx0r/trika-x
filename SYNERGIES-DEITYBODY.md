@@ -3,16 +3,14 @@
 deitybody AGENTS.md rule 8: plug via JSON contracts, never merge. All
 writes here are trika-x; deitybody files untouched (owner-active lane).
 
-## D1. Unit → syllabus → score plug (WIRED + TESTED)
+## D1. Unit → syllabus export (study only)
 
-`tools/unit_to_score.py`: practice-unit/1 → syllabus/1 steps (kind
-inference: breath/stop→hold, chant→repeat, attention→focus,
-visualize→visualize; timings/cues/loci left TODO for reviewer — model
-never writes numbers). Verified against their `compile_syllabus.py`:
-vbt-d001 → hold event (TODO region/cue, REVIEW REQUIRED). Chain
-formalisation→syllabus→teach runs mechanically.
-Fail-closed: requires-diksha units emit ZERO steps (STUDY block), so no
-compiler can render them practicable (tested).
+The earlier prototype converted the unreviewed VBT 24 gloss into a `hold`
+step. That is now withdrawn: `tools/unit_to_score.py` emits a study-only
+record with zero steps for every unit, including inputs marked `approved`.
+The prior compiler experiment did not establish a source-to-practice or
+authorization chain. See the Sanskrit foundation review before reconnecting
+this output to a player.
 
 ## D2. Teaching order (READ — aligns path assembly)
 

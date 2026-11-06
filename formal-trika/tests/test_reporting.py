@@ -24,6 +24,14 @@ evidence = load('evidence_check')
 
 
 class ReportTests(unittest.TestCase):
+    def test_chapter_ranges_do_not_match_unqualified_or_wrong_chapter(self):
+        rng = treeka.verse_range('1.1-1.10')
+        self.assertIsNone(treeka.in_range(2, rng))
+        self.assertTrue(treeka.in_range(2, rng, single_chapter=1))
+        self.assertFalse(treeka.in_range('2.2', rng))
+        self.assertIsNone(treeka.in_range(1.10, rng))
+        self.assertIsNone(treeka.verse_range('20-3'))
+
     def test_missing_checkout_is_not_empty_success(self):
         for tool, option in (('treeka_formal.py', '--tw'), ('evidence_check.py', '--root')):
             with self.subTest(tool=tool), tempfile.TemporaryDirectory() as temp:
@@ -47,6 +55,13 @@ class ReportTests(unittest.TestCase):
             (path / 'data' / 'example.argmap.json').write_text('{broken', encoding='utf-8')
             with self.assertRaises(json.JSONDecodeError):
                 treeka.argmap_verses(path)
+
+    def test_unrecognized_argmap_layout_is_unknown(self):
+        with tempfile.TemporaryDirectory() as temp:
+            path = Path(temp)
+            (path / 'data').mkdir()
+            (path / 'data' / 'example.argmap.json').write_text('{"unexpected": []}', encoding='utf-8')
+            self.assertIsNone(treeka.argmap_verses(path))
 
     def test_evidence_keys_include_file_not_only_theorem_name(self):
         with tempfile.TemporaryDirectory() as temp:

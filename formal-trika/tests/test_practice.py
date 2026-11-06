@@ -2,12 +2,26 @@
 import hashlib
 import importlib.util
 import json
+import os
 import subprocess
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+CHECKOUTS = ROOT.parent.parent
+PRACTICE = Path(os.environ.get('SATSANG_PRACTICE_CHECKOUT', CHECKOUTS / 'satsang-practice'))
+TW = Path(os.environ.get('TRANSLATION_WORK', CHECKOUTS / 'translation-work'))
+SAN = Path(os.environ.get('SANSKRITHELP_CHECKOUT', CHECKOUTS / 'sanskrithelp'))
+DB = Path(os.environ.get('DEITYBODY_CHECKOUT', CHECKOUTS / 'deitybody'))
+
+
+def available(*paths):
+    try:
+        return all(path.is_file() for path in paths)
+    except OSError:
+        return False
 
 
 def load_tool(name):
@@ -36,16 +50,19 @@ class PracticeTests(unittest.TestCase):
 
     def test_path_assembly_no_diy_diksha(self):
         import hashlib
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        root = Path(tmp.name)
         units = ROOT / "data" / "unit-vbt-d001.json"
         diksha = {"unit_id": "vbt-dX", "eligibility": {"eligibility": "requires-diksha"},
                   "safety": ["conferred"], "source_refs": []}
         unreviewed = {"unit_id": "vbt-dY", "eligibility": {"eligibility": "doable"},
                       "status": "approved", "steps": [{"text": "a private draft"}]}
-        dp = Path(self._tmp() if hasattr(self, "_tmp") else "/tmp") / "diksha.json"
+        dp = root / 'diksha.json'
         dp.write_text(json.dumps(diksha))
         up = dp.with_name('unreviewed-unit.json')
         up.write_text(json.dumps(unreviewed))
-        out = Path("/tmp/path-test.json")
+        out = root / 'path-test.json'
         r = subprocess.run([sys.executable, str(ROOT / "tools" / "path_assemble.py"),
                             "--units", str(units), str(dp), str(up), "--spine", "ts-six",
                             "--slug", "test", "--out", str(out)],
@@ -66,9 +83,9 @@ class PracticeTests(unittest.TestCase):
             json.dumps(body, sort_keys=True).encode()).hexdigest())
 
     def test_day_gate_counts_posting_days(self):
-        log = Path("/tmp/day-test.jsonl")
-        if log.is_file():
-            log.unlink()
+        tmp = tempfile.TemporaryDirectory()
+        self.addCleanup(tmp.cleanup)
+        log = Path(tmp.name) / 'day-test.jsonl'
         def run(*args):
             return subprocess.run([sys.executable, str(ROOT / "tools" / "day_gate.py"),
                                    "--log", str(log), *args],
@@ -81,7 +98,6 @@ class PracticeTests(unittest.TestCase):
         run("post", "--date", "2026-11-08", "--unit", "vbt-d003")
         st = json.loads(run("status").stdout)
         self.assertEqual(st["day_N"], 2)  # empty 11-07 never advances
-        log.unlink()
 
     def test_c1_unit_invariants(self):
         u = json.loads((ROOT / "data" / "unit-vbt-d001.json").read_text(encoding="utf-8"))
@@ -101,57 +117,86 @@ class PracticeTests(unittest.TestCase):
             json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest())
         # safety present
         self.assertTrue(u["safety"])
-    @unittest.skipUnless(Path('/root/satsang-practice/pilot-inputs/vbt-daily.json').is_file()
-                         and Path('/root/translation-work/vbt/passages.jsonl').is_file(),
+
+    def test_renderer_with_synthetic_sources(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            (root / 'vbt').mkdir()
+            (root / 'vbt/passages.jsonl').write_text(json.dumps({
+                'locator': 'vbt-p03', 'verses': '22-31'}) + '\n')
+            source = root / 'daily.json'
+            source.write_text(json.dumps({'entries': [{'dharana': 2, 'verse': 24,
+                'technique': 'synthetic gloss', 'upaya': '', 'trains': ''}]}))
+            out = root / 'unit.json'
+            r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'syllabus_unit.py'),
+                                '--dharana', '2', '--vbt', str(source), '--tw', str(root),
+                                '--out', str(out)], text=True, capture_output=True)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+            result = json.loads(out.read_text())
+            self.assertEqual(result['source_refs'][0]['locator'], 'vbt-p03')
+            self.assertEqual(result['status'], 'review')
+            self.assertIn('NOT root text', result['technique_provenance'])
+
+    def test_bodymap_drift_does_not_claim_source_validation(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            san, db = root / 'sanskrithelp', root / 'deitybody'
+            paths = [san / 'public/memory/data/matrika_body_map.json',
+                     db / 'data/matrika_body_map.json', db / 'site/data/matrika_body_map.json']
+            for path in paths:
+                path.parent.mkdir(parents=True, exist_ok=True)
+                path.write_text('{"candidate": true}\n')
+            env = os.environ.copy()
+            env.update(SANSKRITHELP_CHECKOUT=str(san), DEITYBODY_CHECKOUT=str(db))
+            cmd = [sys.executable, str(ROOT / 'tools/bodymap_check.py')]
+            match = subprocess.run(cmd, env=env, text=True, capture_output=True)
+            self.assertEqual(match.returncode, 0, match.stdout + match.stderr)
+            self.assertIn('textual accuracy not checked', match.stdout)
+            paths[-1].write_text('{"candidate": false}\n')
+            self.assertNotEqual(subprocess.run(cmd, env=env, capture_output=True).returncode, 0)
+
+    @unittest.skipUnless(available(PRACTICE / 'pilot-inputs/vbt-daily.json',
+                                  TW / 'vbt/passages.jsonl'),
                          'external practice pilot and translation-work are unavailable')
     def test_external_renderer_for_another_mapped_unit(self):
         # This integration test needs the external source checkouts.
-        r = subprocess.run([sys.executable, str(ROOT / "tools" / "syllabus_unit.py"),
-                            "--dharana", "2", "--out", "/tmp/unit-vbt-d002.json"],
-                           text=True, capture_output=True)
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+        with tempfile.TemporaryDirectory() as td:
+            r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'syllabus_unit.py'),
+                                '--dharana', '2', '--vbt', str(PRACTICE / 'pilot-inputs/vbt-daily.json'),
+                                '--tw', str(TW), '--out', str(Path(td) / 'unit.json')],
+                               text=True, capture_output=True)
+            self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
 
-    @unittest.skipUnless(Path('/root/sanskrithelp/public/memory/data/matrika_body_map.json').is_file(),
+    @unittest.skipUnless(available(SAN / 'public/memory/data/matrika_body_map.json',
+                                  DB / 'data/matrika_body_map.json',
+                                  DB / 'site/data/matrika_body_map.json'),
                          'external body-map source is unavailable')
     def test_bodymap_one_truth(self):
         result = subprocess.run([sys.executable, str(ROOT / "tools" / "bodymap_check.py")],
                                 text=True, capture_output=True)
         self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
-        self.assertIn("ONE truth", result.stdout)
+        self.assertIn('mirrors identical; textual accuracy not checked', result.stdout)
+
+
+    def test_unit_to_syllabus_plug(self):
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            for eligibility, status in [('doable', 'approved'), ('study', 'review'),
+                                        ('requires-diksha', 'review')]:
+                unit = {'unit_id': 'synthetic', 'eligibility': {'eligibility': eligibility},
+                        'status': status, 'steps': [{'text': 'draft technique'}],
+                        'technique_R': 'draft technique'}
+                src, out = root / 'unit.json', root / 'score.json'
+                src.write_text(json.dumps(unit))
+                r = subprocess.run([sys.executable, str(ROOT / 'tools' / 'unit_to_score.py'),
+                                    '--unit', str(src), '--out', str(out)],
+                                   text=True, capture_output=True)
+                self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
+                result = json.loads(out.read_text())
+                self.assertEqual(result['steps'], [])
+                self.assertEqual(result['gate']['mode'], 'STUDY')
+                self.assertFalse(result['gate']['practice_authorized'])
 
 
 if __name__ == "__main__":
     unittest.main()
-
-    def test_unit_to_syllabus_plug(self):
-        import subprocess
-        import sys as _sys
-        out = Path("/tmp/syl-plug-test.json")
-        r = subprocess.run([_sys.executable, str(ROOT / "tools" / "unit_to_score.py"),
-                            "--unit", str(ROOT / "data" / "unit-vbt-d001.json"),
-                            "--out", str(out)], text=True, capture_output=True)
-        self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
-        d = json.loads(out.read_text())
-        self.assertEqual(d["kind"], "syllabus/1")
-        self.assertEqual(d["from_unit"], "vbt-d001")
-        self.assertTrue(d["source_refs"])
-        # compiler-compat keys present; no timings written by model
-        for s in d["steps"]:
-            for k in ("id", "kind", "cue", "dur", "region"):
-                self.assertIn(k, s)
-            self.assertIsNone(s["dur"])
-        # diksha units emit no steps
-        du = {"unit_id": "vbt-dX", "unit_sha256": "x",
-              "eligibility": {"eligibility": "requires-diksha"},
-              "safety": ["conferred"], "source_refs": [], "steps": [],
-              "technique_R": "install deity with seed mantra"}
-        dp = Path("/tmp/du-plug-test.json")
-        dp.write_text(json.dumps(du))
-        out2 = Path("/tmp/syl-plug-test2.json")
-        r = subprocess.run([_sys.executable, str(ROOT / "tools" / "unit_to_score.py"),
-                            "--unit", str(dp), "--out", str(out2)],
-                           text=True, capture_output=True)
-        self.assertEqual(r.returncode, 0)
-        d2 = json.loads(out2.read_text())
-        self.assertEqual(d2["steps"], [])
-        self.assertEqual(d2["gate"]["mode"], "STUDY")

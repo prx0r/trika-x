@@ -109,6 +109,20 @@ sys.exit(1)
         with self.assertRaises(ValueError):
             kappa.cohen_kappa(a, b + ["anava"])
 
+    def test_cooccurrence_does_not_promote_a_pilot_to_doctrine(self):
+        tool = ROOT / 'tools' / 'tc1_cooccurrence.py'
+        empty = subprocess.run([sys.executable, str(tool), str(self.dir)],
+                               text=True, capture_output=True)
+        self.assertNotEqual(empty.returncode, 0)
+        (self.dir / 'day-1.jsonl').write_text(json.dumps({
+            'day': 1, 'arc': 'synthetic', 'heads': ['lobha', 'thina'],
+            'felt': []}) + '\n')
+        result = subprocess.run([sys.executable, str(tool), str(self.dir)],
+                                text=True, capture_output=True)
+        self.assertEqual(result.returncode, 0, result.stdout + result.stderr)
+        self.assertIn('Exploratory only', result.stdout)
+        self.assertNotIn('HOLDS', result.stdout)
+
     def test_external_pushback_requires_explicit_text_opt_in(self):
         result = subprocess.run(
             [sys.executable, str(ROOT / 'tools' / 'pushback.py'),

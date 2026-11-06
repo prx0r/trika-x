@@ -19,12 +19,12 @@ Read-only by default (writes nothing; use --json for machine output).
 import argparse
 import json
 import os
-import re
 import subprocess
 import sys
 from pathlib import Path
 
 import bridge_resolve
+import argmap_nodes
 
 HERE = Path(__file__).resolve().parent.parent
 EV = json.loads((HERE / "EVIDENCE.json").read_text(encoding="utf-8"))
@@ -32,31 +32,26 @@ DEFAULT_TW = Path(os.environ.get("TRANSLATION_WORK", HERE.parent.parent / "trans
 
 
 def verse_range(s):
-    m = re.match(r"\s*(\d+)\.(\d+)\s*-\s*(\d+)\.(\d+)\s*$", s or "")
-    if m:
-        a, b, c, d = map(int, m.groups())
-        return (a, b, c, d)
-    m = re.match(r"\s*(\d+)\s*-\s*(\d+)\s*$", s or "")
-    if m:
-        a, b = map(int, m.groups())
-        return (0, a, 0, b)
-    return None
+    span = argmap_nodes.parse_span(s)
+    return span[1:] if span and span[0] == 'verse' else None
 
 
-def in_range(verse_num, rng):
-    # verse_num like 8 / "8" / "v35" / 35 ; rng ((ch1,v1),(ch2,v2)) chapter-aware
-    if verse_num is None or rng is None:
-        return False
-    m = re.search(r"(\d+)$", str(verse_num))
-    if not m:
-        return False
-    v = int(m.group(1))
-    (c1, v1, c2, v2) = rng
-    if c1 == c2 == 0:
-        return v1 <= v <= v2
-    # chapter-scoped ranges (e.g. 8.1-8.17): match verse within chapter span
-    # when chapter unknown, fall back to plain verse span of v1..v2
-    return v1 <= v <= v2
+def in_range(verse_num, rng, single_chapter=None):
+    """True/False only when the coordinate is comparable; otherwise None."""
+    if rng is None:
+        return None
+    coord = (verse_num if isinstance(verse_num, tuple)
+             else argmap_nodes.verse_coordinate({'verse': verse_num}))
+    if coord is None:
+        return None
+    c1, v1, c2, v2 = rng
+    if c1 is None and coord[0] is not None:
+        return None
+    if c1 is not None and coord[0] is None:
+        if c1 != c2 or single_chapter != c1:
+            return None
+        coord = (single_chapter, coord[1])
+    return argmap_nodes.contains(('verse', c1, v1, c2, v2), coord)
 
 
 def work_chunks(work_dir):
@@ -82,9 +77,16 @@ def argmap_verses(work_dir):
         return None
     for f in files:
         rows = json.loads(f.read_text(encoding="utf-8"))
-        items = rows if isinstance(rows, list) else rows.get("units", [])
+        if isinstance(rows, list):
+            items = rows
+        elif isinstance(rows, dict) and ('units' in rows or 'argmaps' in rows):
+            items = rows.get('units', rows.get('argmaps'))
+        else:
+            return None  # unrecognized layout is not an empty argmap
+        if not isinstance(items, list) or any(not isinstance(u, dict) for u in items):
+            raise ValueError(f'invalid argmap units in {f}')
         for u in items:
-            v = u.get("verse", u.get("verse_num"))
+            v = argmap_nodes.verse_coordinate(u)
             counts[v] = counts.get(v, 0) + 1
     return counts
 
@@ -147,10 +149,17 @@ def report(tw, json_output, revision):
                       "param": "paramarthasara", "phr": "phrdaya",
                       "vbt": "vbt", "spanda": "spanda"}[work]
         amap = argmap_verses(wdir)
-        for ch in work_chunks(wdir):
+        chunks = work_chunks(wdir)
+        parsed = [verse_range(ch['verses']) for ch in chunks]
+        chapters = {c for rng in parsed if rng for c in (rng[0], rng[2]) if c is not None}
+        single_chapter = next(iter(chapters)) if len(chapters) == 1 else None
+        for ch in chunks:
             loc = ch["locator"]
             rng = verse_range(ch["verses"])
-            n_arg = sum(n for v, n in amap.items() if in_range(v, rng)) if amap is not None and rng is not None else None
+            comparisons = [(in_range(v, rng, single_chapter), n) for v, n in amap.items()] if amap is not None and rng is not None else None
+            n_arg = (sum(n for matched, n in comparisons if matched)
+                     if comparisons is not None and all(matched is not None for matched, _ in comparisons)
+                     else None)
             if loc in cited:
                 status = "direct_reference"
             elif work in works_with_formal:
