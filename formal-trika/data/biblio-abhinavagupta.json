@@ -642,6 +642,18 @@
      "verified": "live-fetched 2026-11-06",
      "rights_note": "",
      "note": "finding aid, not authority — verify each claim downstream"
+    },
+    {
+     "kind": "survey",
+     "title": "Journey in the World of the Tantras (Dyczkowski)",
+     "credit": "Mark Dyczkowski",
+     "year": "",
+     "publisher": "",
+     "identifiers": {},
+     "url": "",
+     "verified": "local holding 2026-11-06 (5.8MB PDF, not fetched — on-disk file)",
+     "rights_note": "review rights before quoting; holding noted, not hosted",
+     "note": "local: /root/gochema/library/tantra/journey-in-the-world-of-the-tantras-dyczkowski.pdf"
     }
    ],
    "ours": [],

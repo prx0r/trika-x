@@ -971,3 +971,18 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - Provenance: my Transitions/NonEntail already cite their docs (AM0 σ-flip,
   A≢B≢C chain) — headers confirm no fork. Concordance IPVV column
   (chunkM/chunkD/k-chunks) is a future join key to my ledgers (noted).
+
+## Gochema deep dive (compiler-law estate, mirrors confirmed).
+
+- recognition/ mirrors research-library (NODE2 byte-identical — mirror, no
+  fork). aperture/ is a prose/math formal universe (C∞ postulates,
+  inexternalism equations, mepit razor, scienceloka) — complementary to
+  Lean (no Lean there); my Recognition/NonEntail already cite their docs
+  as R-schema (headers confirm).
+- Compiler law == essay_compile law (verbatim voice, never rewrite) —
+  convergent methods; theirs for video, mine for essays.
+- IPVV-PLAIN-ENGLISH-BRIDGE (L1-style readable layer) noted for IPVV lane;
+  RATIE-EXCAVATION-EN (680 lines) = Ratié lore pool for translation lane.
+- tantra/ holds Dyczkowski survey PDF (5.8MB local) → Tantraloka papers
+  as local holding (rights review before quoting).
+- utpaladeva-power-of-action PDF noted (Utpaladeva primary, unexamined).
