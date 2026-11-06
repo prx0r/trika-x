@@ -17,7 +17,7 @@ Trika links to science using our theories and seeds.
 Missing links (all small, all explicit):
 
 ```
-tension --resolves/loosens--> essay --grounds--> theorems --binds--> spans
+tension --resolves/loosens--> essay (at most one tension per essay) --grounds--> theorems --binds--> spans
    ^                                                        |
    +-- personal (private, consent-gated)                   +-- science
    +-- doctrinal (CRUX docs, public)                           (papers as counterparts)
@@ -28,9 +28,10 @@ tension --resolves/loosens--> essay --grounds--> theorems --binds--> spans
 An expansion essay IS a pushing: machine-compiled, claim-frozen, reviewed.
 Proposal (formal lane, no cross-lane writes):
 
-- `essay.json` gains `tensions: [{id, relation, claim_ids}]` where
-  relation ∈ {resolves, loosens, grounds}.
-- Compiler flag `--tensions tension:slug,...` (explicit only, never mined).
+- `essay.json` gains `tension: {id, relation}` (SINGULAR — one essay
+  resolves at most one tension, per TENSIONS-ENDGAME.md law 3).
+  relation ∈ {resolves, loosens}.
+- Compiler flag `--tension tension:slug` (explicit only, never mined).
 - IDs resolve through lingua `tension:<id>` at check time, fail-closed.
 - **Privacy law**: personal tensions (`visibility: private`) are
   unresolvable from expansion essays — check fails with
@@ -85,7 +86,7 @@ Collections (R2, verified live):
 
 ## 5. Ordered next steps
 
-1. `tensions` field + `--tensions` flag + `tension-private` check (formal).
+1. `tension` field (singular) + `--tension` flag + `tension-private` check (formal).
 2. Essay↔tension edges into `expansion-graph.json` (formal).
 3. `tools/import_paper.py` (arxiv/pmid/pmc → vendored + provenance).
 4. `SCIENCE-COLLECTION.md` index of everything above (one page, shas).
