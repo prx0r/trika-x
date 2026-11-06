@@ -1,14 +1,17 @@
 #!/usr/bin/env python3
 """treeka_formal.py — the Treeka formal column (read-only gap report).
 
-For each translation-work chunk: formal_status + argument coverage.
-  formalized — chunk cited by >=1 Lean theorem/KEY in EVIDENCE.json
-  armed      — same work has formal coverage, this chunk not directly cited
-  unarmed    — no formal coverage in this work at all
+For each translation-work chunk: registry references + argument coverage.
+  direct_reference — chunk named in at least one EVIDENCE.json entry
+  work_reference   — another chunk in the work is named, but this one is not
+  no_reference     — no passage in the work is named by an entry
+
+These are registry associations, not evidence that the source was formalized,
+the theorem was checked, or that any interpretation has been reviewed.
 
 Plus per chunk: argmap unit count (units whose verse falls in the chunk's
 verse range), L2 presence. Gap report lists: unarmed chunks, argued-but-
-unformalized chunks, works with zero formal coverage.
+unreferenced chunks, works with zero registry references.
 
 Usage: python3 tools/treeka_formal.py [--tw PATH] [--json]
 Read-only by default (writes nothing; use --json for machine output).
@@ -133,12 +136,11 @@ def report(tw, json_output, revision):
         for c in e.get("chunks", []):
             loc = c.get("locator")
             if loc and loc != "vbt":
-                cited.setdefault(loc, []).append(key.split(" :: ")[-1])
-    works_with_formal = set()
-    for loc in cited:
-        for w in ("tsa08", "tsa07", "param", "phr", "vbt", "spanda"):
-            if loc.startswith(w):
-                works_with_formal.add(w)
+                cited.setdefault(loc, []).append(key)
+    works_with_formal = {
+        work for work, spec in EV["works"].items()
+        if any(loc in cited for loc in spec.get("chunks", []))
+    }
     rows = []
     for work in sorted(EV["works"]):
         wdir = tw / {"tsa08": "tantrasara-a08", "tsa07": "tantrasara-a07",
@@ -150,15 +152,15 @@ def report(tw, json_output, revision):
             rng = verse_range(ch["verses"])
             n_arg = sum(n for v, n in amap.items() if in_range(v, rng)) if amap is not None and rng is not None else None
             if loc in cited:
-                status = "formalized"
+                status = "direct_reference"
             elif work in works_with_formal:
-                status = "armed"
+                status = "work_reference"
             else:
-                status = "unarmed"
+                status = "no_reference"
             rows.append({"locator": loc, "verses": ch["verses"],
                          "immutable_id": ch.get("immutable_id"),
                          "formal": status,
-                         "formal_basis": "curated registry reference; not source entailment",
+                         "formal_basis": "registry association only; no proof or source interpretation assessed",
                          "translation_work_revision": revision,
                          "formal_refs": cited.get(loc, []),
                          "argmap_units": n_arg,
@@ -166,21 +168,21 @@ def report(tw, json_output, revision):
     if json_output:
         print(json.dumps(rows, indent=1))
         return 0
-    print(f"translation-work: {revision}; formalized = registry reference, not verified entailment")
+    print(f"translation-work: {revision}; references are not checked source-to-model entailments")
     print("Argmap counts and L2 matches are scans; no match does not prove absence.")
-    print(f"{'chunk':12} {'verses':10} {'formal':11} {'argmaps':7} L2  refs")
+    print(f"{'chunk':12} {'verses':10} {'formal':16} {'argmaps':7} L2  refs")
     for r in rows:
         refs = ",".join(r["formal_refs"][:2]) + ("…" if len(r["formal_refs"]) > 2 else "")
-        print(f"{r['locator']:12} {str(r['verses']):10} {r['formal']:11} "
+        print(f"{r['locator']:12} {str(r['verses']):10} {r['formal']:16} "
               f"{str(r['argmap_units']):7} {r['has_l2']} {refs}")
-    unarmed = [r["locator"] for r in rows if r["formal"] == "unarmed"]
-    armed = [r["locator"] for r in rows if r["formal"] == "armed"]
+    unarmed = [r["locator"] for r in rows if r["formal"] == "no_reference"]
+    armed = [r["locator"] for r in rows if r["formal"] == "work_reference"]
     noarg = [r["locator"] for r in rows if r["argmap_units"] == 0]
     unknown = [r["locator"] for r in rows if r["argmap_units"] is None]
-    print(f"\ncoverage: {len([r for r in rows if r['formal']=='formalized'])}/{len(rows)} formalized, "
-          f"{len(armed)} armed, {len(unarmed)} unarmed")
-    print("UNARMED (no formal refs in work):", ", ".join(unarmed) or "-")
-    print("ARMED (work covered, chunk not cited):", ", ".join(armed) or "-")
+    print(f"\nreferences: {len([r for r in rows if r['formal']=='direct_reference'])}/{len(rows)} direct, "
+          f"{len(armed)} in referenced works, {len(unarmed)} in unreferenced works")
+    print("NO REFERENCES IN WORK:", ", ".join(unarmed) or "-")
+    print("ANOTHER PASSAGE REFERENCED:", ", ".join(armed) or "-")
     print("NO MATCHED ARGMAP UNITS:", ", ".join(noarg) or "-")
     print("ARGMAP SCAN UNKNOWN:", ", ".join(unknown) or "-")
     return 0

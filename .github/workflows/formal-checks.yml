@@ -34,7 +34,16 @@ jobs:
           echo "47bf4bbd78f70c2e9670598ab7124d92b6efb7330ff33e5fbb4030f6fd72e4e4  $RUNNER_TEMP/lean.tar.zst" | sha256sum -c -
           tar --zstd -xf "$RUNNER_TEMP/lean.tar.zst" -C "$RUNNER_TEMP"
           echo "$RUNNER_TEMP/lean-4.34.1-linux/bin" >> "$GITHUB_PATH"
+      - name: Check out pinned Scholar claims code
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+        with:
+          repository: prx0r/svread
+          ref: f646a66f443132383e6e149cb264bf2031d3b00c
+          path: svread
+          sparse-checkout: mcp
       - name: Python evidence-boundary tests
+        env:
+          SVREAD_CHECKOUT: ${{ github.workspace }}/svread
         run: python3 -m unittest discover -s formal-trika/tests -v
       - name: Lean axiom hygiene (static; no toolchain needed)
         run: python3 formal-trika/tools/axiom_audit.py --check

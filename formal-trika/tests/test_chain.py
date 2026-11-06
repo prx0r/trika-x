@@ -1,34 +1,36 @@
-"""Chain test D5: formal claim -> qp receipt -> settle -> authorize.
+"""Exercise qp receipt mechanics with self-asserted test evidence.
 
-Exercises the REAL ipvv kernel (read-only import) end-to-end on a
-formal-trika claim (thirty_six MODEL_CHECKED record): transition with
-two distinct source classes (formal-trika + translation-work) through
-two-sources-v1, then independent settle with the SAME evidence (must
-hold) and SWAPPED evidence (must fail closed), then the authority
-boundary (unsigned must NOT authorize; signed+role must).
+This imports the ipvv kernel and uses a local ledger hash, but does not run
+Lean, authenticate sources, review a textual mapping, or authorize an essay.
+The source-class labels below are test data supplied by this test.
 """
 import hashlib
 import json
+import os
 import sys
 import unittest
 from pathlib import Path
 
-sys.path.insert(0, "/root/ipvv/tools")
-from qp_acom import gates  # noqa: E402
-from qp_acom import objects as O  # noqa: E402
-from qp_acom import receipts as R  # noqa: E402
-from qp_acom import crypto as C  # noqa: E402
-
-ROOT = Path("/root/trika-x/formal-trika")
+ROOT = Path(__file__).resolve().parents[1]
+IPVV = Path(os.environ.get('IPVV_CHECKOUT', ROOT.parent.parent / 'ipvv'))
+TW = Path(os.environ.get('TRANSLATION_WORK', ROOT.parent.parent / 'translation-work'))
+DEPENDENCIES_PRESENT = ((IPVV / 'tools/qp_acom/__init__.py').is_file() and
+                        (TW / 'tantrasara-a07/passages.jsonl').is_file())
+if DEPENDENCIES_PRESENT:
+    sys.path.insert(0, str(IPVV / 'tools'))
+    from qp_acom import gates  # noqa: E402
+    from qp_acom import objects as O  # noqa: E402
+    from qp_acom import receipts as R  # noqa: E402
+    from qp_acom import crypto as C  # noqa: E402
 
 
 def formal_evidence():
     ev = json.loads((ROOT / "EVIDENCE.json").read_text(encoding="utf-8"))
     entry = ev["entries"]["Tattva.lean :: thirty_six"]
-    ledger = Path("/root/translation-work/tantrasara-a07/passages.jsonl")
+    ledger = TW / 'tantrasara-a07/passages.jsonl'
     return [
-        O.make_evidence("formal-theorem", "Tattva.lean :: thirty_six", "theorem",
-                        "2026-11-06", {"class": "formal-proof", "kind": entry["kind"]}),
+        O.make_evidence("formal-reference", "Tattva.lean :: thirty_six", "reference",
+                        "2026-11-06", {"class": "test-formal-reference", "kind": entry["kind"]}),
         O.make_evidence("ledger-sha",
                         hashlib.sha256(ledger.read_bytes()).hexdigest()[:16],
                         "sha", "2026-11-06", {"class": "ledger-bytes", "ledger": str(ledger)}),
@@ -39,6 +41,8 @@ def sources(ev):
     return {e.get("source", {}).get("class", "?") for e in ev}
 
 
+@unittest.skipUnless(DEPENDENCIES_PRESENT,
+                     'set IPVV_CHECKOUT and TRANSLATION_WORK for the optional cross-repo chain test')
 class ChainTests(unittest.TestCase):
     def test_full_chain(self):
         # two-sources-v1 needs >= 2 distinct accepted source classes
@@ -49,7 +53,7 @@ class ChainTests(unittest.TestCase):
         classes = {e.get("metric") for e in ev}
         self.assertTrue(len(classes) >= 2)
         prop = {"id": "formal:tattva-thirty_six",
-                "claim": O.make_claim("generated total = 36 (MODEL_CHECKED thirty_six)", "formal-trika", "UNKNOWN"),
+                "claim": O.make_claim("test grouped-count claim; no proof run asserted", "formal-trika", "UNKNOWN"),
                 "target": "tsa07-p01"}
         run = O.make_run("task:chain", "chain-test", "test")
         r = R.transition({"status": "unreviewed"}, prop, ev,
@@ -69,7 +73,7 @@ class ChainTests(unittest.TestCase):
     def test_authority_boundary(self):
         ev = formal_evidence()
         prop = {"id": "formal:tattva-thirty_six",
-                "claim": O.make_claim("generated total = 36 (MODEL_CHECKED thirty_six)", "formal-trika", "UNKNOWN"),
+                "claim": O.make_claim("test grouped-count claim; no proof run asserted", "formal-trika", "UNKNOWN"),
                 "target": "tsa07-p01"}
         run = O.make_run("task:chain", "chain-test", "test")
         r = R.transition({"status": "unreviewed"}, prop, ev,

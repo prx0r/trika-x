@@ -23,7 +23,7 @@ class PracticeTests(unittest.TestCase):
         e = load_tool("eligibility")
         self.assertEqual(e.classify("sit and watch the breath", "anava", "")["eligibility"], "doable")
         d = e.classify("stop breath, feel the void", "", "")
-        self.assertEqual(d["eligibility"], "doable")
+        self.assertEqual(d["eligibility"], "study")
         self.assertTrue(any("retention" in c for c in d["cautions"]))
         r = e.classify("install the deity with seed mantra from guru", "", "")
         self.assertEqual(r["eligibility"], "requires-diksha")
@@ -39,11 +39,15 @@ class PracticeTests(unittest.TestCase):
         units = ROOT / "data" / "unit-vbt-d001.json"
         diksha = {"unit_id": "vbt-dX", "eligibility": {"eligibility": "requires-diksha"},
                   "safety": ["conferred"], "source_refs": []}
+        unreviewed = {"unit_id": "vbt-dY", "eligibility": {"eligibility": "doable"},
+                      "status": "approved", "steps": [{"text": "a private draft"}]}
         dp = Path(self._tmp() if hasattr(self, "_tmp") else "/tmp") / "diksha.json"
         dp.write_text(json.dumps(diksha))
+        up = dp.with_name('unreviewed-unit.json')
+        up.write_text(json.dumps(unreviewed))
         out = Path("/tmp/path-test.json")
         r = subprocess.run([sys.executable, str(ROOT / "tools" / "path_assemble.py"),
-                            "--units", str(units), str(dp), "--spine", "ts-six",
+                            "--units", str(units), str(dp), str(up), "--spine", "ts-six",
                             "--slug", "test", "--out", str(out)],
                            text=True, capture_output=True)
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
@@ -52,6 +56,11 @@ class PracticeTests(unittest.TestCase):
         by_id = {it["unit_id"]: it for it in p["items"]}
         self.assertEqual(by_id["vbt-dX"]["render"]["mode"], "STUDY")
         self.assertNotIn("unit", by_id["vbt-dX"]["render"])
+        self.assertEqual(by_id["vbt-dY"]["render"]["mode"], "STUDY")
+        self.assertFalse(by_id["vbt-dY"]["render"]["practice_authorized"])
+        self.assertNotIn("steps", by_id["vbt-dY"]["render"])
+        self.assertEqual(p['prereq_edges'], [])
+        self.assertEqual(len(p['sequence_edges']), 2)
         body = {k: v for k, v in p.items() if k != "path_sha256"}
         self.assertEqual(p["path_sha256"], hashlib.sha256(
             json.dumps(body, sort_keys=True).encode()).hexdigest())
@@ -78,6 +87,7 @@ class PracticeTests(unittest.TestCase):
         u = json.loads((ROOT / "data" / "unit-vbt-d001.json").read_text(encoding="utf-8"))
         self.assertEqual(u["unit_id"], "vbt-d001")
         self.assertEqual(u["status"], "review")
+        self.assertEqual(u['eligibility']['eligibility'], 'study')
         self.assertTrue(u["source_refs"])
         self.assertEqual(u["source_refs"][0]["locator"], "vbt-p03")
         # model never writes timings
@@ -91,13 +101,18 @@ class PracticeTests(unittest.TestCase):
             json.dumps(body, sort_keys=True, ensure_ascii=False).encode()).hexdigest())
         # safety present
         self.assertTrue(u["safety"])
-        # renderer entry point works for another mapped unit
+    @unittest.skipUnless(Path('/root/satsang-practice/pilot-inputs/vbt-daily.json').is_file()
+                         and Path('/root/translation-work/vbt/passages.jsonl').is_file(),
+                         'external practice pilot and translation-work are unavailable')
+    def test_external_renderer_for_another_mapped_unit(self):
+        # This integration test needs the external source checkouts.
         r = subprocess.run([sys.executable, str(ROOT / "tools" / "syllabus_unit.py"),
                             "--dharana", "2", "--out", "/tmp/unit-vbt-d002.json"],
                            text=True, capture_output=True)
         self.assertEqual(r.returncode, 0, r.stdout + r.stderr)
 
-
+    @unittest.skipUnless(Path('/root/sanskrithelp/public/memory/data/matrika_body_map.json').is_file(),
+                         'external body-map source is unavailable')
     def test_bodymap_one_truth(self):
         result = subprocess.run([sys.executable, str(ROOT / "tools" / "bodymap_check.py")],
                                 text=True, capture_output=True)

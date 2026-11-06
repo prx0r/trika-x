@@ -109,6 +109,18 @@ sys.exit(1)
         with self.assertRaises(ValueError):
             kappa.cohen_kappa(a, b + ["anava"])
 
+    def test_external_pushback_requires_explicit_text_opt_in(self):
+        result = subprocess.run(
+            [sys.executable, str(ROOT / 'tools' / 'pushback.py'),
+             '--draft', str(self.dir / 'missing'), '--refs', str(self.dir / 'missing'),
+             '--model', 'cf:example', '--out', str(self.dir / 'out')],
+            text=True, capture_output=True)
+        self.assertNotEqual(result.returncode, 0)
+        self.assertIn('--allow-external-text', result.stderr)
+
+    @unittest.skipUnless((Path(os.environ.get('SVREAD_CHECKOUT', ROOT.parent.parent / 'svread')) /
+                          'mcp/claims.py').is_file(),
+                         'set SVREAD_CHECKOUT to exercise the cross-repo claims integration')
     def test_pushback_mock_never_edits_and_shields(self):
         import json
         draft = self.dir / "draft.md"

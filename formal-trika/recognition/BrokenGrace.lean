@@ -1,17 +1,19 @@
+/- MUTANT: see changed definition. -/
 /-
   Formal Trika — F3: grace as a free variable (F-GRACE).
 
   From the day-7 decode: grace-clauses (#26 "nothing can be done",
   #28 "levitating out", #33 "create the conditions for grace") state
-  necessary-but-insufficient preconditions; the transition itself takes an
-  unconditioned step. T-tier ground: tsa-a08 v35
-  (`parameśvaraśaktipātavaśāt` — by the Lord's power-descent sway) and
-  tsa08-p03 (grace at karma-exhaustion → mala-person ladder).
+  possible preconditions; the transition itself takes an unconditioned step
+  in this reconstruction. Tantrasāra 8.35 and 8.39 mention power-descent
+  and grace in specific contexts; they do not establish this model's
+  universal readiness-and-grace biconditional.
 
   What this file IS: the report's structure. Flip requires BOTH readiness
   (surrender/resolve/readiness predicates — the diarist's "conditions")
-  AND an exogenous grace flag. Either alone is insufficient, inside this
-  finite model of 4 states.
+  AND a grace flag. Treating it as exogenous to the model is a modeling
+  choice, not a claim that grace is external to consciousness. Either flag
+  alone is insufficient inside this finite model of 4 states by definition.
   What it is NOT: a proof that grace exists, or that any lived transition
   involved it. The empirical bite is T-C3 (clause audit), not this file.
 -/
@@ -24,7 +26,7 @@ structure GraceState where
   deriving DecidableEq, Repr
 
 /-- Flip iff BOTH hold. Neither alone suffices — that is the whole claim. -/
-def gflip (_m : GraceState) : Bool := false  -- MUTANT: transition severed (must fail)
+def gflip (_m : GraceState) : Bool := false  -- MUTANT: transition severed
 
 def allGraceStates : List GraceState :=
   [true, false].flatMap fun r => [true, false].map fun g => ⟨r, g⟩

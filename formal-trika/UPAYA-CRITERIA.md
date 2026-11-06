@@ -1,10 +1,12 @@
 # UPAYA-CRITERIA — means tagging criteria (experience language) + rater-1 pass
 
-T-tier pins: tsa-a08 v17 (five pure-course followers: śāmbhava/śākta/
-mantramāheśvara/mantreśvara/mantra — the positions exist); VBT dhāraṇās
-(the means catalog; restraint example "na rāgam bhāvayet"); tsa08-p01
-(five powers/chief-manifestations). The mapping below (which clause
-counts as which means) is R — experience-language, revisable.
+**Research hypotheses only.** Tantrasāra 8.17 names classes of followers;
+it does not establish the rules below for identifying the three upāyas.
+Tantrasāra 1 distinguishes will, knowledge and action as means and also
+names anupāya; śāmbhava and anupāya should not be conflated. See
+[the source review](SANSKRIT-FOUNDATION-REVIEW-2026-11-06.md). No diagnosis,
+practice recommendation or claim about a person's attainment follows from
+these labels. Independent agreement alone cannot validate the mapping.
 
 ## Criteria (tag a clause iff ALL its bullets hold)
 
@@ -18,7 +20,7 @@ counts as which means) is R — experience-language, revisable.
   bodily technique; (3) movement is discrimination → clarity cascade.
   Counter-sign: mere thinking ABOUT doctrine without discrimination-work
   is vitakka, not śākta.
-- **śāmbhava** (no means): (1) no technique named; (2) discontinuity
+- **śāmbhava** (candidate criterion, not equivalent to anupāya): (1) no technique named; (2) discontinuity
   markers ("clicks", "BOOM", sudden); (3) will/awe/surrender adjacent,
   not as steps but as the whole. Counter-sign: post-hoc "I did X then Y"
   succession is NOT śāmbhava evidence (cf grace-audit).

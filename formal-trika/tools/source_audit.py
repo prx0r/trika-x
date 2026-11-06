@@ -10,6 +10,7 @@ Exit 0 with a coverage line; lists the gap (works without any record).
 """
 import argparse
 import json
+import sys
 from pathlib import Path
 
 VARIANTS = ["SOURCE.sha", "SOURCE.txt", "source/record.json",
@@ -24,7 +25,11 @@ def main():
     a = ap.parse_args()
     total, ok, gaps = 0, 0, []
     kinds = {}
-    for ledger in sorted(a.tw.glob("*/passages.jsonl")):
+    ledgers = sorted(a.tw.glob("*/passages.jsonl"))
+    if not ledgers:
+        print(f"ERROR: no passage ledgers found under {a.tw}", file=sys.stderr)
+        return 1
+    for ledger in ledgers:
         wd = ledger.parent
         total += 1
         found = [v for v in VARIANTS if (wd / v).is_file()]
@@ -41,6 +46,7 @@ def main():
             gaps.append(wd.name)
     print(f"works with passages: {total}; with source record: {ok}; gaps: {len(gaps)}")
     print("record-kind histogram:", dict(sorted(kinds.items())))
+    print("Record presence is not edition, witness, rights or content verification.")
     if gaps:
         print("GAP (no source record):")
         for g in gaps:

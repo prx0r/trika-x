@@ -3,8 +3,9 @@
 
 Protocol (PUSHBACK kit): each CITED claim becomes an objection; the model
 hounds what the banked sources actually say; output = Resolution +
-Honest remainder. Owner verbatim is NEVER pushed (pass --verbatim spans
-to shield them). The report NEVER edits the draft — human disposes.
+Honest remainder. External providers receive selected claim text. The caller
+must opt in with --allow-external-text and shield private or verbatim spans;
+a regex cannot guarantee complete redaction. The report never edits the draft.
 Tiers ride every objection (T/R/E/C/H/X); R never promotes itself.
 
 Usage:
@@ -24,13 +25,12 @@ cf:<id>: Cloudflare Workers AI (token 0600 /root/.cf-api-token; neurons logged).
 import argparse
 import hashlib
 import json
+import os
 import re
 import sys
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent.parent
-sys.path.insert(0, "/root/svread/mcp")
-import claims as claim_table  # noqa: E402
 
 CF_ACCOUNT = "954612afb5a97bb15dddcdc70176813d"
 CF_TOKEN_FILE = Path("/root/.cf-api-token")
@@ -79,8 +79,19 @@ def main():
     ap.add_argument("--refs", type=Path, required=True)
     ap.add_argument("--model", default="mock")
     ap.add_argument("--verbatim", default="", help="regex shielding owner-verbatim spans")
+    ap.add_argument("--allow-external-text", action="store_true",
+                    help="allow selected draft text to be sent to the chosen external model")
+    ap.add_argument("--svread", type=Path,
+                    default=Path(os.environ.get('SVREAD_CHECKOUT', HERE.parent.parent / 'svread')))
     ap.add_argument("--out", type=Path, required=True)
     a = ap.parse_args()
+    if a.model != 'mock' and not a.allow_external_text:
+        raise SystemExit('external model calls require --allow-external-text')
+    mcp = a.svread / 'mcp'
+    if not (mcp / 'claims.py').is_file():
+        raise SystemExit('svread claims module unavailable; set --svread or SVREAD_CHECKOUT')
+    sys.path.insert(0, str(mcp))
+    import claims as claim_table
     text = a.draft.read_text(encoding="utf-8")
     refs = json.loads(a.refs.read_text(encoding="utf-8"))
     table = claim_table.link(text, refs=refs)
