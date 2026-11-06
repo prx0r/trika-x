@@ -549,3 +549,18 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - O11 teacher note in BACKBONE §5. O12 BACKBONE.md canonical (flow +
   contents + specs + boundaries). Tests: backbone resolve (+CI skip-guard).
 - Suite 33/33. DB: works 522, editions 87, etexts 87, passages 909.
+
+## Estate-wide openpatala load: ALL translation-work works in DB.
+
+- work_inventory.py: 117 dirs (107 works + infra/group), 87 ledgers,
+  20 no-ledger works. Infra fixed mid-run (schemas/tools/docs mis-
+  classed → stale rows DELETED: 20 assertions, 2 works).
+- Split finding (owning lane): top-level lalded/ (+4 mystics) hold
+  source/record.json while mystics/*/ hold 422KB SOURCE.txt — record vs
+  bytes live apart; co-locate or cross-link.
+- DB now: works 544 (260 availability + 184 dossiers + 100 estate rows),
+  assertions 1512 (442 dossier + 1070 HAS_LAYER), editions 87, etexts 87,
+  passages 909, witnesses 0. All loaders idempotent-verified (reruns +0).
+- Full battery re-ran green: Lean control 14 PASS + recognition 26/26,
+  evidence 107/105+2, table/vocab/blind/runs-index checks, bridge bytes,
+  33 unit + 11 qp tests. blind/ALL.lean regenerated (new types).

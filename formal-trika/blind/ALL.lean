@@ -162,6 +162,15 @@ theorem recognition_lands_recognized :
 theorem recognition_adds_nothing :
     allStates.all (fun m => contentEq m (recognize m)) = true := by decide
 
+/-- S-SHARP1: contentEq discriminates — a pair differing in exactly one
+    content field (o) is NOT content-equal. Without this, `-> ||` and
+    `-> true` mutants survive the P-TK3 suite (found by mechanical sweep):
+    the old theorems hold under weakened equality too. This theorem says
+    the equality means what it says. -/
+theorem contentEq_sharp :
+    contentEq { e := true, p := false, h := false, b := false, o := false, s := true }
+              { e := true, p := false, h := false, b := false, o := true, s := false } = false := by decide
+
 end FormalTrika
 
 -- blind/AnswerKey.lean (from control/AnswerKey.lean)
@@ -226,6 +235,11 @@ theorem key_five_followers : pureFollowers.length = 5 := by decide
     tsa-a08 v35 T1 "by the Supreme Lord's power-descent sway"
     (parameśvaraśaktipātavaśāt, L0 citation). -/
 def key_grace_term_attested : Bool := true
+
+/-- KEY-GRACE: the śaktipāta term flag checks (pins the v35
+    VERIFIED-QUOTE to the machine-checked surface; the evidence note
+    carries the T content, the theorem only the flag). -/
+theorem key_grace_term : key_grace_term_attested = true := by decide
 
 /-- The 112 dhāraṇās (T-count). Refs: translation-work/vbt (GRETIL
     sa_vijñānabhairava vv1-162; vv24-135 = 112 dhāraṇās per

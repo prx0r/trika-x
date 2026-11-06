@@ -103,5 +103,6 @@ is built. No PR stacked: this branch waits until PR #2 is reviewed.
 | 2026-11-06T10:14:23+00:00 | `de6cb8a+` | 4.34.1 | OK | OK | OK |
 | 2026-11-06T10:32:57+00:00 | `cce66a0+` | 4.34.1 | OK | OK | OK |
 | 2026-11-06T10:35:16+00:00 | `cce66a0+` | 4.34.1 | OK | OK | OK |
+| 2026-11-06T10:47:36+00:00 | `946ce3e+` | 4.34.1 | OK | OK | OK |
 
 Exit 0 = all harnesses green at that rev. Generated from runs/runs.jsonl; edit that file, never this table.
