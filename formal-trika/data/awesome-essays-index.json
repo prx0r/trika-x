@@ -1,0 +1,2937 @@
+{
+ "format": "awesome-essays-index/1",
+ "entries": [
+  {
+   "name": ".bash_history",
+   "kind": "file",
+   "bytes": 1909
+  },
+  {
+   "name": ".bashrc",
+   "kind": "file",
+   "bytes": 3708
+  },
+  {
+   "name": ".xsession-errors",
+   "kind": "file",
+   "bytes": 166732
+  },
+  {
+   "name": ".xsession-errors.old",
+   "kind": "file",
+   "bytes": 56611
+  },
+  {
+   "name": "3booksonlife-ficino",
+   "kind": "file",
+   "bytes": 1404407
+  },
+  {
+   "name": "3diary",
+   "kind": "file",
+   "bytes": 4074
+  },
+  {
+   "name": "402arena",
+   "kind": "file",
+   "bytes": 22247
+  },
+  {
+   "name": "402molt",
+   "kind": "file",
+   "bytes": 16362
+  },
+  {
+   "name": "4diary",
+   "kind": "file",
+   "bytes": 6785
+  },
+  {
+   "name": "50qdw",
+   "kind": "file",
+   "bytes": 41146
+  },
+  {
+   "name": "5diary",
+   "kind": "file",
+   "bytes": 1844
+  },
+  {
+   "name": "6diary",
+   "kind": "file",
+   "bytes": 4581
+  },
+  {
+   "name": "7diary",
+   "kind": "file",
+   "bytes": 2474
+  },
+  {
+   "name": "7phase",
+   "kind": "file",
+   "bytes": 4248
+  },
+  {
+   "name": "Aperture inexternalism",
+   "kind": "file",
+   "bytes": 28735
+  },
+  {
+   "name": "Apuleius -De deo Socratis",
+   "kind": "file",
+   "bytes": 1434877
+  },
+  {
+   "name": "Downloads",
+   "kind": "dir",
+   "md": 166,
+   "files": 193,
+   "bytes": 3895446
+  },
+  {
+   "name": "HANDOVER.md",
+   "kind": "file",
+   "bytes": 3264
+  },
+  {
+   "name": "HUAYAN",
+   "kind": "file",
+   "bytes": 23171
+  },
+  {
+   "name": "INDEX.md",
+   "kind": "file",
+   "bytes": 100848
+  },
+  {
+   "name": "Nibbana: The mind stilled",
+   "kind": "file",
+   "bytes": 2702
+  },
+  {
+   "name": "abhinava infotheory",
+   "kind": "file",
+   "bytes": 115251
+  },
+  {
+   "name": "abhinava liberaki",
+   "kind": "file",
+   "bytes": 111717
+  },
+  {
+   "name": "actualfront",
+   "kind": "file",
+   "bytes": 18086
+  },
+  {
+   "name": "agent1checkpoint",
+   "kind": "file",
+   "bytes": 20489
+  },
+  {
+   "name": "agent2task",
+   "kind": "file",
+   "bytes": 21056
+  },
+  {
+   "name": "agenticideas",
+   "kind": "file",
+   "bytes": 25870
+  },
+  {
+   "name": "agenticref",
+   "kind": "file",
+   "bytes": 36027
+  },
+  {
+   "name": "agentlandscape",
+   "kind": "file",
+   "bytes": 20974
+  },
+  {
+   "name": "agentsearchh",
+   "kind": "file",
+   "bytes": 64020
+  },
+  {
+   "name": "agentseodevplan",
+   "kind": "file",
+   "bytes": 26166
+  },
+  {
+   "name": "agentthesis",
+   "kind": "file",
+   "bytes": 33138
+  },
+  {
+   "name": "agenttranslateguide",
+   "kind": "file",
+   "bytes": 25485
+  },
+  {
+   "name": "agrippa",
+   "kind": "file",
+   "bytes": 970009
+  },
+  {
+   "name": "ai humour stuff",
+   "kind": "file",
+   "bytes": 4086
+  },
+  {
+   "name": "aipapers",
+   "kind": "file",
+   "bytes": 3816
+  },
+  {
+   "name": "air",
+   "kind": "file",
+   "bytes": 23575
+  },
+  {
+   "name": "algorand oracle",
+   "kind": "file",
+   "bytes": 43808
+  },
+  {
+   "name": "algorand worker",
+   "kind": "file",
+   "bytes": 6776
+  },
+  {
+   "name": "alpaca final",
+   "kind": "file",
+   "bytes": 34144
+  },
+  {
+   "name": "am0",
+   "kind": "file",
+   "bytes": 28163
+  },
+  {
+   "name": "amrtasiddhicloudflare",
+   "kind": "file",
+   "bytes": 41201
+  },
+  {
+   "name": "ancientastrology",
+   "kind": "file",
+   "bytes": 1381923
+  },
+  {
+   "name": "anotherfrontier",
+   "kind": "file",
+   "bytes": 20868
+  },
+  {
+   "name": "anthologies",
+   "kind": "file",
+   "bytes": 962074
+  },
+  {
+   "name": "antislop",
+   "kind": "file",
+   "bytes": 12884
+  },
+  {
+   "name": "arbatel",
+   "kind": "file",
+   "bytes": 138361
+  },
+  {
+   "name": "archon nights",
+   "kind": "file",
+   "bytes": 14751
+  },
+  {
+   "name": "arena40254",
+   "kind": "file",
+   "bytes": 21365
+  },
+  {
+   "name": "arenavsmoltwork",
+   "kind": "file",
+   "bytes": 16436
+  },
+  {
+   "name": "art2",
+   "kind": "file",
+   "bytes": 40642
+  },
+  {
+   "name": "art3",
+   "kind": "file",
+   "bytes": 22269
+  },
+  {
+   "name": "artlayer",
+   "kind": "file",
+   "bytes": 10696
+  },
+  {
+   "name": "arxivgraph",
+   "kind": "file",
+   "bytes": 45333
+  },
+  {
+   "name": "ascetic yoga roots",
+   "kind": "file",
+   "bytes": 65820
+  },
+  {
+   "name": "astrology",
+   "kind": "file",
+   "bytes": 28922
+  },
+  {
+   "name": "autotranslate.md",
+   "kind": "file",
+   "bytes": 14082
+  },
+  {
+   "name": "avicenna",
+   "kind": "file",
+   "bytes": 1211750
+  },
+  {
+   "name": "azziz",
+   "kind": "file",
+   "bytes": 121518
+  },
+  {
+   "name": "ben williams",
+   "kind": "file",
+   "bytes": 1889
+  },
+  {
+   "name": "bigintegration",
+   "kind": "file",
+   "bytes": 11194
+  },
+  {
+   "name": "binarual tehsis",
+   "kind": "file",
+   "bytes": 8406
+  },
+  {
+   "name": "bittensor product",
+   "kind": "file",
+   "bytes": 6056
+  },
+  {
+   "name": "bottii",
+   "kind": "file",
+   "bytes": 12726
+  },
+  {
+   "name": "breadupp",
+   "kind": "file",
+   "bytes": 11350
+  },
+  {
+   "name": "breadupppagain",
+   "kind": "file",
+   "bytes": 6961
+  },
+  {
+   "name": "buckylordsprayer",
+   "kind": "file",
+   "bytes": 2978
+  },
+  {
+   "name": "buddhism blueprints",
+   "kind": "file",
+   "bytes": 111673
+  },
+  {
+   "name": "bwarden",
+   "kind": "file",
+   "bytes": 3252
+  },
+  {
+   "name": "calibration",
+   "kind": "file",
+   "bytes": 1993
+  },
+  {
+   "name": "canon",
+   "kind": "file",
+   "bytes": 5279
+  },
+  {
+   "name": "captureddd",
+   "kind": "file",
+   "bytes": 2912
+  },
+  {
+   "name": "cessay1",
+   "kind": "file",
+   "bytes": 11096
+  },
+  {
+   "name": "chaincraft full.txt",
+   "kind": "file",
+   "bytes": 171144
+  },
+  {
+   "name": "chatgpt is distribution",
+   "kind": "file",
+   "bytes": 2020
+  },
+  {
+   "name": "chatgpt prompt",
+   "kind": "file",
+   "bytes": 6086
+  },
+  {
+   "name": "checkpoint1",
+   "kind": "file",
+   "bytes": 19872
+  },
+  {
+   "name": "checkpointcharlie",
+   "kind": "file",
+   "bytes": 57336
+  },
+  {
+   "name": "christ jesus",
+   "kind": "file",
+   "bytes": 39560
+  },
+  {
+   "name": "cimc wolfram",
+   "kind": "file",
+   "bytes": 72912
+  },
+  {
+   "name": "cogym seeding",
+   "kind": "file",
+   "bytes": 2101
+  },
+  {
+   "name": "cogym thesis",
+   "kind": "file",
+   "bytes": 14913
+  },
+  {
+   "name": "combinedendgame",
+   "kind": "file",
+   "bytes": 30990
+  },
+  {
+   "name": "comedy material",
+   "kind": "file",
+   "bytes": 2942
+  },
+  {
+   "name": "comedystufff",
+   "kind": "file",
+   "bytes": 3147
+  },
+  {
+   "name": "commentarialgraph",
+   "kind": "file",
+   "bytes": 23976
+  },
+  {
+   "name": "completebuild.md",
+   "kind": "file",
+   "bytes": 16280
+  },
+  {
+   "name": "computinglecture",
+   "kind": "file",
+   "bytes": 44749
+  },
+  {
+   "name": "consumerorganism",
+   "kind": "file",
+   "bytes": 28272
+  },
+  {
+   "name": "consumerorganismtech",
+   "kind": "file",
+   "bytes": 36916
+  },
+  {
+   "name": "consumerrobots",
+   "kind": "file",
+   "bytes": 6362
+  },
+  {
+   "name": "coordinate",
+   "kind": "file",
+   "bytes": 38675
+  },
+  {
+   "name": "corbin blueprint",
+   "kind": "file",
+   "bytes": 156351
+  },
+  {
+   "name": "corbin essays",
+   "kind": "file",
+   "bytes": 81919
+  },
+  {
+   "name": "countrystuff.md",
+   "kind": "file",
+   "bytes": 34067
+  },
+  {
+   "name": "critique",
+   "kind": "file",
+   "bytes": 54078
+  },
+  {
+   "name": "cryptgraphic workerrun",
+   "kind": "file",
+   "bytes": 17600
+  },
+  {
+   "name": "cryptoletta",
+   "kind": "file",
+   "bytes": 42800
+  },
+  {
+   "name": "cryptoprojects",
+   "kind": "file",
+   "bytes": 9334
+  },
+  {
+   "name": "ctmu",
+   "kind": "file",
+   "bytes": 22791
+  },
+  {
+   "name": "current tensions",
+   "kind": "file",
+   "bytes": 2021
+  },
+  {
+   "name": "daddybear",
+   "kind": "file",
+   "bytes": 42344
+  },
+  {
+   "name": "daily practise",
+   "kind": "file",
+   "bytes": 2878
+  },
+  {
+   "name": "dailyfreak",
+   "kind": "file",
+   "bytes": 8760
+  },
+  {
+   "name": "daimon_astrology",
+   "kind": "file",
+   "bytes": 1587634
+  },
+  {
+   "name": "day10",
+   "kind": "file",
+   "bytes": 3114
+  },
+  {
+   "name": "day100 daimon",
+   "kind": "file",
+   "bytes": 5121
+  },
+  {
+   "name": "day9",
+   "kind": "file",
+   "bytes": 1673
+  },
+  {
+   "name": "de sol.md",
+   "kind": "file",
+   "bytes": 56572
+  },
+  {
+   "name": "deathtokene",
+   "kind": "file",
+   "bytes": 4309
+  },
+  {
+   "name": "decenttheoryithink",
+   "kind": "file",
+   "bytes": 24965
+  },
+  {
+   "name": "dee5",
+   "kind": "file",
+   "bytes": 14631
+  },
+  {
+   "name": "deltatunaa",
+   "kind": "file",
+   "bytes": 2596
+  },
+  {
+   "name": "devious",
+   "kind": "file",
+   "bytes": 2806
+  },
+  {
+   "name": "dharmafilm",
+   "kind": "file",
+   "bytes": 53674
+  },
+  {
+   "name": "diary",
+   "kind": "file",
+   "bytes": 6649
+  },
+  {
+   "name": "doctavian",
+   "kind": "file",
+   "bytes": 3312
+  },
+  {
+   "name": "domain module",
+   "kind": "file",
+   "bytes": 17291
+  },
+  {
+   "name": "domainarena",
+   "kind": "file",
+   "bytes": 32541
+  },
+  {
+   "name": "domainarena2",
+   "kind": "file",
+   "bytes": 4443
+  },
+  {
+   "name": "domainarena3",
+   "kind": "file",
+   "bytes": 42292
+  },
+  {
+   "name": "domainintel",
+   "kind": "file",
+   "bytes": 40720
+  },
+  {
+   "name": "doomsday",
+   "kind": "file",
+   "bytes": 38534
+  },
+  {
+   "name": "doorways",
+   "kind": "file",
+   "bytes": 15410
+  },
+  {
+   "name": "doylepatala",
+   "kind": "file",
+   "bytes": 33744
+  },
+  {
+   "name": "doylereview",
+   "kind": "file",
+   "bytes": 21205
+  },
+  {
+   "name": "drainer",
+   "kind": "file",
+   "bytes": 24043
+  },
+  {
+   "name": "drainer3",
+   "kind": "file",
+   "bytes": 38745
+  },
+  {
+   "name": "drainerr",
+   "kind": "file",
+   "bytes": 19529
+  },
+  {
+   "name": "dualagentnextsteps.md",
+   "kind": "file",
+   "bytes": 14862
+  },
+  {
+   "name": "earlybddhism",
+   "kind": "file",
+   "bytes": 9195
+  },
+  {
+   "name": "earth",
+   "kind": "file",
+   "bytes": 24092
+  },
+  {
+   "name": "ecstacy",
+   "kind": "file",
+   "bytes": 2931
+  },
+  {
+   "name": "education2",
+   "kind": "file",
+   "bytes": 28393
+  },
+  {
+   "name": "educationglobal",
+   "kind": "file",
+   "bytes": 46895
+  },
+  {
+   "name": "educationmain",
+   "kind": "file",
+   "bytes": 29126
+  },
+  {
+   "name": "educationn",
+   "kind": "file",
+   "bytes": 13154
+  },
+  {
+   "name": "endgameagain",
+   "kind": "file",
+   "bytes": 30374
+  },
+  {
+   "name": "endgameanother",
+   "kind": "file",
+   "bytes": 39057
+  },
+  {
+   "name": "enlightenment is simply a choice",
+   "kind": "file",
+   "bytes": 2468
+  },
+  {
+   "name": "essay1",
+   "kind": "file",
+   "bytes": 38035
+  },
+  {
+   "name": "essayengine",
+   "kind": "file",
+   "bytes": 6837
+  },
+  {
+   "name": "essaysvol1",
+   "kind": "file",
+   "bytes": 163201
+  },
+  {
+   "name": "ethonline letta",
+   "kind": "file",
+   "bytes": 32775
+  },
+  {
+   "name": "ethonlineworkermolt",
+   "kind": "file",
+   "bytes": 11900
+  },
+  {
+   "name": "etsyhack",
+   "kind": "file",
+   "bytes": 12116
+  },
+  {
+   "name": "everything wrong",
+   "kind": "file",
+   "bytes": 44932
+  },
+  {
+   "name": "externalpaper",
+   "kind": "file",
+   "bytes": 31288
+  },
+  {
+   "name": "factchecksystem",
+   "kind": "file",
+   "bytes": 11498
+  },
+  {
+   "name": "factimnercogym",
+   "kind": "file",
+   "bytes": 50639
+  },
+  {
+   "name": "factminerspec",
+   "kind": "file",
+   "bytes": 35144
+  },
+  {
+   "name": "factoryoszip",
+   "kind": "file",
+   "bytes": 4850
+  },
+  {
+   "name": "ficino blueprint",
+   "kind": "file",
+   "bytes": 158061
+  },
+  {
+   "name": "ficino_essays",
+   "kind": "file",
+   "bytes": 57601
+  },
+  {
+   "name": "ficinoanalysis",
+   "kind": "file",
+   "bytes": 98907
+  },
+  {
+   "name": "finalproof",
+   "kind": "file",
+   "bytes": 21490
+  },
+  {
+   "name": "finaltask",
+   "kind": "file",
+   "bytes": 55954
+  },
+  {
+   "name": "finalword",
+   "kind": "file",
+   "bytes": 25850
+  },
+  {
+   "name": "finalwordexpansion1",
+   "kind": "file",
+   "bytes": 30691
+  },
+  {
+   "name": "finalwordexpansion2",
+   "kind": "file",
+   "bytes": 29971
+  },
+  {
+   "name": "finalworkerkit",
+   "kind": "file",
+   "bytes": 24567
+  },
+  {
+   "name": "fire",
+   "kind": "file",
+   "bytes": 13944
+  },
+  {
+   "name": "fishpow",
+   "kind": "file",
+   "bytes": 19139
+  },
+  {
+   "name": "fleece moltwork",
+   "kind": "file",
+   "bytes": 17832
+  },
+  {
+   "name": "foxireview",
+   "kind": "file",
+   "bytes": 3551
+  },
+  {
+   "name": "freakformat",
+   "kind": "file",
+   "bytes": 3788
+  },
+  {
+   "name": "freakgames",
+   "kind": "file",
+   "bytes": 13848
+  },
+  {
+   "name": "freakjubilee",
+   "kind": "file",
+   "bytes": 19502
+  },
+  {
+   "name": "freakleague",
+   "kind": "file",
+   "bytes": 8632
+  },
+  {
+   "name": "freakloop",
+   "kind": "file",
+   "bytes": 22096
+  },
+  {
+   "name": "freakstreak",
+   "kind": "file",
+   "bytes": 11234
+  },
+  {
+   "name": "freaktown lauchpad",
+   "kind": "file",
+   "bytes": 12644
+  },
+  {
+   "name": "freaktown variants",
+   "kind": "file",
+   "bytes": 6934
+  },
+  {
+   "name": "freakwordle",
+   "kind": "file",
+   "bytes": 31314
+  },
+  {
+   "name": "frontier",
+   "kind": "file",
+   "bytes": 37213
+  },
+  {
+   "name": "frontieragent",
+   "kind": "file",
+   "bytes": 25490
+  },
+  {
+   "name": "frontiercimc",
+   "kind": "file",
+   "bytes": 24591
+  },
+  {
+   "name": "fuckkkk",
+   "kind": "file",
+   "bytes": 14030
+  },
+  {
+   "name": "fullthesis",
+   "kind": "file",
+   "bytes": 16221
+  },
+  {
+   "name": "futureidea.md",
+   "kind": "file",
+   "bytes": 15524
+  },
+  {
+   "name": "fwont",
+   "kind": "file",
+   "bytes": 16668
+  },
+  {
+   "name": "gemaplana",
+   "kind": "file",
+   "bytes": 2621
+  },
+  {
+   "name": "genius",
+   "kind": "file",
+   "bytes": 12601
+  },
+  {
+   "name": "geometryofthinking",
+   "kind": "file",
+   "bytes": 38733
+  },
+  {
+   "name": "get-me-money",
+   "kind": "file",
+   "bytes": 63823
+  },
+  {
+   "name": "git letta",
+   "kind": "file",
+   "bytes": 39939
+  },
+  {
+   "name": "gitclone",
+   "kind": "file",
+   "bytes": 35860
+  },
+  {
+   "name": "gitfish",
+   "kind": "file",
+   "bytes": 60231
+  },
+  {
+   "name": "gitgoblin prompt",
+   "kind": "file",
+   "bytes": 12214
+  },
+  {
+   "name": "githubagent",
+   "kind": "file",
+   "bytes": 32096
+  },
+  {
+   "name": "githubagent2",
+   "kind": "file",
+   "bytes": 28957
+  },
+  {
+   "name": "githubclones",
+   "kind": "file",
+   "bytes": 15982
+  },
+  {
+   "name": "globalarchitecture",
+   "kind": "file",
+   "bytes": 28222
+  },
+  {
+   "name": "globalgoal",
+   "kind": "file",
+   "bytes": 16169
+  },
+  {
+   "name": "globalnext",
+   "kind": "file",
+   "bytes": 26075
+  },
+  {
+   "name": "globalplan",
+   "kind": "file",
+   "bytes": 18507
+  },
+  {
+   "name": "globalstate1",
+   "kind": "file",
+   "bytes": 68339
+  },
+  {
+   "name": "goat",
+   "kind": "file",
+   "bytes": 15932
+  },
+  {
+   "name": "goated thesis",
+   "kind": "file",
+   "bytes": 53643
+  },
+  {
+   "name": "goatshit",
+   "kind": "file",
+   "bytes": 4073
+  },
+  {
+   "name": "goethe essays",
+   "kind": "file",
+   "bytes": 72321
+  },
+  {
+   "name": "golden",
+   "kind": "file",
+   "bytes": 28113
+  },
+  {
+   "name": "goldprobe",
+   "kind": "file",
+   "bytes": 12903
+  },
+  {
+   "name": "goldruntime",
+   "kind": "file",
+   "bytes": 1656
+  },
+  {
+   "name": "googleauth",
+   "kind": "file",
+   "bytes": 1953
+  },
+  {
+   "name": "gotomarketplann",
+   "kind": "file",
+   "bytes": 8199
+  },
+  {
+   "name": "graph1",
+   "kind": "file",
+   "bytes": 31169
+  },
+  {
+   "name": "graph2",
+   "kind": "file",
+   "bytes": 53653
+  },
+  {
+   "name": "greedhatreddelusion",
+   "kind": "file",
+   "bytes": 2842
+  },
+  {
+   "name": "greeek",
+   "kind": "file",
+   "bytes": 6349
+  },
+  {
+   "name": "grimoirerr",
+   "kind": "file",
+   "bytes": 47524
+  },
+  {
+   "name": "guiding principle",
+   "kind": "file",
+   "bytes": 24226
+  },
+  {
+   "name": "gweek",
+   "kind": "file",
+   "bytes": 38115
+  },
+  {
+   "name": "hackathon",
+   "kind": "file",
+   "bytes": 87511
+  },
+  {
+   "name": "hackathon shit",
+   "kind": "file",
+   "bytes": 14637
+  },
+  {
+   "name": "hackathonstodo",
+   "kind": "file",
+   "bytes": 1584
+  },
+  {
+   "name": "handover bb",
+   "kind": "file",
+   "bytes": 10004
+  },
+  {
+   "name": "happy birthday!",
+   "kind": "file",
+   "bytes": 31940
+  },
+  {
+   "name": "hardened",
+   "kind": "file",
+   "bytes": 60317
+  },
+  {
+   "name": "hatha tantric",
+   "kind": "file",
+   "bytes": 57702
+  },
+  {
+   "name": "helios unbound",
+   "kind": "file",
+   "bytes": 812345
+  },
+  {
+   "name": "hellenistic_astrology",
+   "kind": "file",
+   "bytes": 1704626
+  },
+  {
+   "name": "here are our 3",
+   "kind": "file",
+   "bytes": 14187
+  },
+  {
+   "name": "hermesagent3",
+   "kind": "file",
+   "bytes": 18293
+  },
+  {
+   "name": "holy daimon notes",
+   "kind": "file",
+   "bytes": 4122
+  },
+  {
+   "name": "how to actually attain nirvana",
+   "kind": "file",
+   "bytes": 1919
+  },
+  {
+   "name": "howtorank",
+   "kind": "file",
+   "bytes": 7157
+  },
+  {
+   "name": "htask",
+   "kind": "file",
+   "bytes": 3778
+  },
+  {
+   "name": "humantasks",
+   "kind": "file",
+   "bytes": 2546
+  },
+  {
+   "name": "hxrmxs",
+   "kind": "file",
+   "bytes": 7632
+  },
+  {
+   "name": "hxrmxs2",
+   "kind": "file",
+   "bytes": 5712
+  },
+  {
+   "name": "iamblichus blueprint",
+   "kind": "file",
+   "bytes": 92571
+  },
+  {
+   "name": "iamblichustheurgy",
+   "kind": "file",
+   "bytes": 54208
+  },
+  {
+   "name": "idealessay.md",
+   "kind": "file",
+   "bytes": 22234
+  },
+  {
+   "name": "idealismshaivism",
+   "kind": "file",
+   "bytes": 139276
+  },
+  {
+   "name": "ideas1",
+   "kind": "file",
+   "bytes": 27588
+  },
+  {
+   "name": "ideas2",
+   "kind": "file",
+   "bytes": 29437
+  },
+  {
+   "name": "ideas3",
+   "kind": "file",
+   "bytes": 20424
+  },
+  {
+   "name": "ideastrends",
+   "kind": "file",
+   "bytes": 20983
+  },
+  {
+   "name": "ideaz",
+   "kind": "file",
+   "bytes": 29451
+  },
+  {
+   "name": "idekfronteir",
+   "kind": "file",
+   "bytes": 32172
+  },
+  {
+   "name": "idk",
+   "kind": "file",
+   "bytes": 8757
+  },
+  {
+   "name": "imaginal blueprints",
+   "kind": "file",
+   "bytes": 215144
+  },
+  {
+   "name": "imaginal essays",
+   "kind": "file",
+   "bytes": 20402
+  },
+  {
+   "name": "imagination arabi",
+   "kind": "file",
+   "bytes": 45551
+  },
+  {
+   "name": "imaginationarabi",
+   "kind": "file",
+   "bytes": 53659
+  },
+  {
+   "name": "imaginationessay",
+   "kind": "file",
+   "bytes": 70239
+  },
+  {
+   "name": "imaginationheck",
+   "kind": "file",
+   "bytes": 34085
+  },
+  {
+   "name": "implementation  mw letta",
+   "kind": "file",
+   "bytes": 18816
+  },
+  {
+   "name": "inexternalism",
+   "kind": "file",
+   "bytes": 38172
+  },
+  {
+   "name": "inexternalvscimc",
+   "kind": "file",
+   "bytes": 15446
+  },
+  {
+   "name": "ingestion",
+   "kind": "file",
+   "bytes": 23768
+  },
+  {
+   "name": "insane theis",
+   "kind": "file",
+   "bytes": 53643
+  },
+  {
+   "name": "invoketruth",
+   "kind": "file",
+   "bytes": 11695
+  },
+  {
+   "name": "isvara",
+   "kind": "file",
+   "bytes": 32783
+  },
+  {
+   "name": "it from bit from siva",
+   "kind": "file",
+   "bytes": 29630
+  },
+  {
+   "name": "jhanavid",
+   "kind": "file",
+   "bytes": 6007
+  },
+  {
+   "name": "key process",
+   "kind": "file",
+   "bytes": 65277
+  },
+  {
+   "name": "knowledge graph",
+   "kind": "file",
+   "bytes": 40805
+  },
+  {
+   "name": "latest letta",
+   "kind": "file",
+   "bytes": 28003
+  },
+  {
+   "name": "layertools",
+   "kind": "file",
+   "bytes": 20169
+  },
+  {
+   "name": "layertoolsintegration",
+   "kind": "file",
+   "bytes": 22781
+  },
+  {
+   "name": "lettamemory",
+   "kind": "file",
+   "bytes": 31017
+  },
+  {
+   "name": "levin avi",
+   "kind": "file",
+   "bytes": 36201
+  },
+  {
+   "name": "liberaki short",
+   "kind": "file",
+   "bytes": 23383
+  },
+  {
+   "name": "livellmstuff",
+   "kind": "file",
+   "bytes": 39130
+  },
+  {
+   "name": "llmdeals",
+   "kind": "file",
+   "bytes": 48131
+  },
+  {
+   "name": "llmdealsintegration",
+   "kind": "file",
+   "bytes": 26608
+  },
+  {
+   "name": "llminference",
+   "kind": "file",
+   "bytes": 33389
+  },
+  {
+   "name": "loagaeth",
+   "kind": "file",
+   "bytes": 440933
+  },
+  {
+   "name": "logic5",
+   "kind": "file",
+   "bytes": 5945
+  },
+  {
+   "name": "logic6",
+   "kind": "file",
+   "bytes": 20546
+  },
+  {
+   "name": "logic7",
+   "kind": "file",
+   "bytes": 18084
+  },
+  {
+   "name": "logicdog",
+   "kind": "file",
+   "bytes": 22884
+  },
+  {
+   "name": "logicframework",
+   "kind": "file",
+   "bytes": 27580
+  },
+  {
+   "name": "logicframework2",
+   "kind": "file",
+   "bytes": 28013
+  },
+  {
+   "name": "logicvid3",
+   "kind": "file",
+   "bytes": 5371
+  },
+  {
+   "name": "logicvidactual",
+   "kind": "file",
+   "bytes": 6253
+  },
+  {
+   "name": "logicvidskill",
+   "kind": "file",
+   "bytes": 17723
+  },
+  {
+   "name": "logicvidsmethod",
+   "kind": "file",
+   "bytes": 9456
+  },
+  {
+   "name": "longform",
+   "kind": "file",
+   "bytes": 194694
+  },
+  {
+   "name": "longform dzkowski",
+   "kind": "file",
+   "bytes": 28362
+  },
+  {
+   "name": "louis_SIMULATED_AUDIENCE_timeline.json",
+   "kind": "file",
+   "bytes": 3405
+  },
+  {
+   "name": "machineexperience",
+   "kind": "file",
+   "bytes": 18734
+  },
+  {
+   "name": "machineproof",
+   "kind": "file",
+   "bytes": 20666
+  },
+  {
+   "name": "magnum opus",
+   "kind": "file",
+   "bytes": 15143
+  },
+  {
+   "name": "makingg",
+   "kind": "file",
+   "bytes": 20209
+  },
+  {
+   "name": "manuscript",
+   "kind": "file",
+   "bytes": 23668
+  },
+  {
+   "name": "manuscriptcloudflare",
+   "kind": "file",
+   "bytes": 21658
+  },
+  {
+   "name": "manuscriptmega",
+   "kind": "file",
+   "bytes": 26262
+  },
+  {
+   "name": "manuscriptmommyspeed",
+   "kind": "file",
+   "bytes": 31448
+  },
+  {
+   "name": "manuscriptquick",
+   "kind": "file",
+   "bytes": 26344
+  },
+  {
+   "name": "manuscriptschema",
+   "kind": "file",
+   "bytes": 38643
+  },
+  {
+   "name": "marketintelfactory",
+   "kind": "file",
+   "bytes": 16661
+  },
+  {
+   "name": "marketintelligence",
+   "kind": "file",
+   "bytes": 22539
+  },
+  {
+   "name": "marketplacestuff",
+   "kind": "file",
+   "bytes": 41487
+  },
+  {
+   "name": "masterplan",
+   "kind": "file",
+   "bytes": 20220
+  },
+  {
+   "name": "mdev",
+   "kind": "file",
+   "bytes": 26555
+  },
+  {
+   "name": "meggy",
+   "kind": "file",
+   "bytes": 2534
+  },
+  {
+   "name": "mesh direction",
+   "kind": "file",
+   "bytes": 2066
+  },
+  {
+   "name": "metaunoguide.md",
+   "kind": "file",
+   "bytes": 16430
+  },
+  {
+   "name": "middlepillar",
+   "kind": "file",
+   "bytes": 214090
+  },
+  {
+   "name": "minute_v1_kappa_kyle.json",
+   "kind": "file",
+   "bytes": 2031
+  },
+  {
+   "name": "mixxii",
+   "kind": "file",
+   "bytes": 81945
+  },
+  {
+   "name": "moltowrk productisaion vision",
+   "kind": "file",
+   "bytes": 40048
+  },
+  {
+   "name": "moltwork backedn",
+   "kind": "file",
+   "bytes": 18715
+  },
+  {
+   "name": "moltwork canonical features",
+   "kind": "file",
+   "bytes": 49686
+  },
+  {
+   "name": "moltwork letta goated stack",
+   "kind": "file",
+   "bytes": 38146
+  },
+  {
+   "name": "moltwork machine work assets",
+   "kind": "file",
+   "bytes": 22067
+  },
+  {
+   "name": "moltwork marketplace",
+   "kind": "file",
+   "bytes": 44705
+  },
+  {
+   "name": "moltwork moat",
+   "kind": "file",
+   "bytes": 21458
+  },
+  {
+   "name": "moltwork oracle",
+   "kind": "file",
+   "bytes": 41912
+  },
+  {
+   "name": "moltwork orcale",
+   "kind": "file",
+   "bytes": 33479
+  },
+  {
+   "name": "moltwork tee",
+   "kind": "file",
+   "bytes": 47993
+  },
+  {
+   "name": "moltwork thesis",
+   "kind": "file",
+   "bytes": 18688
+  },
+  {
+   "name": "moltworkboard",
+   "kind": "file",
+   "bytes": 12869
+  },
+  {
+   "name": "moltworkcrypto",
+   "kind": "file",
+   "bytes": 28476
+  },
+  {
+   "name": "moltworkendgame",
+   "kind": "file",
+   "bytes": 23406
+  },
+  {
+   "name": "moltworker",
+   "kind": "file",
+   "bytes": 22468
+  },
+  {
+   "name": "moltworker2",
+   "kind": "file",
+   "bytes": 31245
+  },
+  {
+   "name": "moltworker3",
+   "kind": "file",
+   "bytes": 14511
+  },
+  {
+   "name": "moltworkorcaleclear",
+   "kind": "file",
+   "bytes": 7556
+  },
+  {
+   "name": "moltworkrefnew",
+   "kind": "file",
+   "bytes": 23553
+  },
+  {
+   "name": "moltwrok tehsis",
+   "kind": "file",
+   "bytes": 7660
+  },
+  {
+   "name": "monismmania",
+   "kind": "file",
+   "bytes": 15883
+  },
+  {
+   "name": "monstahmvp",
+   "kind": "file",
+   "bytes": 32182
+  },
+  {
+   "name": "morning pretty girl",
+   "kind": "file",
+   "bytes": 2447
+  },
+  {
+   "name": "musiconboard",
+   "kind": "file",
+   "bytes": 3126
+  },
+  {
+   "name": "mysteryy",
+   "kind": "file",
+   "bytes": 45091
+  },
+  {
+   "name": "namess",
+   "kind": "file",
+   "bytes": 2370
+  },
+  {
+   "name": "nanananda",
+   "kind": "file",
+   "bytes": 13581
+  },
+  {
+   "name": "nanavira explained",
+   "kind": "file",
+   "bytes": 33865
+  },
+  {
+   "name": "nanda abhi",
+   "kind": "file",
+   "bytes": 14743
+  },
+  {
+   "name": "new new new new",
+   "kind": "file",
+   "bytes": 20761
+  },
+  {
+   "name": "new thing to do",
+   "kind": "file",
+   "bytes": 28290
+  },
+  {
+   "name": "newbuild",
+   "kind": "file",
+   "bytes": 22816
+  },
+  {
+   "name": "newbuild1",
+   "kind": "file",
+   "bytes": 53542
+  },
+  {
+   "name": "newbuildideas",
+   "kind": "file",
+   "bytes": 23884
+  },
+  {
+   "name": "newbuildmainspec",
+   "kind": "file",
+   "bytes": 37803
+  },
+  {
+   "name": "newbuildplayers",
+   "kind": "file",
+   "bytes": 23271
+  },
+  {
+   "name": "newscholar",
+   "kind": "file",
+   "bytes": 12923
+  },
+  {
+   "name": "newscholareconomics",
+   "kind": "file",
+   "bytes": 12130
+  },
+  {
+   "name": "nibbana essay",
+   "kind": "file",
+   "bytes": 6561
+  },
+  {
+   "name": "nondual synth",
+   "kind": "file",
+   "bytes": 16588
+  },
+  {
+   "name": "notesfortom",
+   "kind": "file",
+   "bytes": 12761
+  },
+  {
+   "name": "nowlinks",
+   "kind": "file",
+   "bytes": 2082
+  },
+  {
+   "name": "o",
+   "kind": "file",
+   "bytes": 78228
+  },
+  {
+   "name": "objectify",
+   "kind": "file",
+   "bytes": 10509
+  },
+  {
+   "name": "observer proofo",
+   "kind": "file",
+   "bytes": 50851
+  },
+  {
+   "name": "occult blueprints",
+   "kind": "file",
+   "bytes": 175919
+  },
+  {
+   "name": "ocheeema",
+   "kind": "file",
+   "bytes": 41724
+  },
+  {
+   "name": "ochemaa",
+   "kind": "file",
+   "bytes": 13520
+  },
+  {
+   "name": "oddhobb endgame",
+   "kind": "file",
+   "bytes": 56890
+  },
+  {
+   "name": "oddhobbhouse",
+   "kind": "file",
+   "bytes": 31691
+  },
+  {
+   "name": "oddhobbpogtown",
+   "kind": "file",
+   "bytes": 26679
+  },
+  {
+   "name": "onbaordtom",
+   "kind": "file",
+   "bytes": 6404
+  },
+  {
+   "name": "onefiles",
+   "kind": "file",
+   "bytes": 12906
+  },
+  {
+   "name": "openrouter ox",
+   "kind": "file",
+   "bytes": 4077
+  },
+  {
+   "name": "opentheory",
+   "kind": "file",
+   "bytes": 59639
+  },
+  {
+   "name": "oracle stuff",
+   "kind": "file",
+   "bytes": 55156
+  },
+  {
+   "name": "organism meh",
+   "kind": "file",
+   "bytes": 26978
+  },
+  {
+   "name": "partnershipss",
+   "kind": "file",
+   "bytes": 24941
+  },
+  {
+   "name": "patalacheckpoints",
+   "kind": "dir",
+   "md": 6,
+   "files": 6,
+   "bytes": 46032
+  },
+  {
+   "name": "patalaendgame",
+   "kind": "file",
+   "bytes": 12026
+  },
+  {
+   "name": "patalagithubs",
+   "kind": "file",
+   "bytes": 33728
+  },
+  {
+   "name": "patalamix",
+   "kind": "file",
+   "bytes": 20922
+  },
+  {
+   "name": "patalaorganism",
+   "kind": "file",
+   "bytes": 16926
+  },
+  {
+   "name": "patalaorganismvisions",
+   "kind": "file",
+   "bytes": 24090
+  },
+  {
+   "name": "patalaorgnaism",
+   "kind": "file",
+   "bytes": 16926
+  },
+  {
+   "name": "patalapath",
+   "kind": "file",
+   "bytes": 36764
+  },
+  {
+   "name": "patalapath2",
+   "kind": "file",
+   "bytes": 28383
+  },
+  {
+   "name": "patalapeerreview",
+   "kind": "file",
+   "bytes": 28747
+  },
+  {
+   "name": "patalaproducts",
+   "kind": "file",
+   "bytes": 13095
+  },
+  {
+   "name": "patalareview",
+   "kind": "file",
+   "bytes": 43083
+  },
+  {
+   "name": "patalatransalte",
+   "kind": "file",
+   "bytes": 30202
+  },
+  {
+   "name": "pathway",
+   "kind": "file",
+   "bytes": 40655
+  },
+  {
+   "name": "peer review",
+   "kind": "file",
+   "bytes": 33380
+  },
+  {
+   "name": "peerevieww",
+   "kind": "file",
+   "bytes": 38421
+  },
+  {
+   "name": "peerreview1.md",
+   "kind": "file",
+   "bytes": 33752
+  },
+  {
+   "name": "peerreview2",
+   "kind": "file",
+   "bytes": 33248
+  },
+  {
+   "name": "peerreviewzip",
+   "kind": "file",
+   "bytes": 5299
+  },
+  {
+   "name": "perfomance1",
+   "kind": "file",
+   "bytes": 37219
+  },
+  {
+   "name": "performancedoyle",
+   "kind": "file",
+   "bytes": 27495
+  },
+  {
+   "name": "pgm",
+   "kind": "file",
+   "bytes": 1179711
+  },
+  {
+   "name": "phalaa",
+   "kind": "file",
+   "bytes": 48032
+  },
+  {
+   "name": "philosophyengine",
+   "kind": "file",
+   "bytes": 36942
+  },
+  {
+   "name": "philosophyengine2",
+   "kind": "file",
+   "bytes": 26786
+  },
+  {
+   "name": "philosophyengine3",
+   "kind": "file",
+   "bytes": 20554
+  },
+  {
+   "name": "pipelineplan.md",
+   "kind": "file",
+   "bytes": 36412
+  },
+  {
+   "name": "plannn",
+   "kind": "file",
+   "bytes": 1804
+  },
+  {
+   "name": "plans",
+   "kind": "file",
+   "bytes": 1887
+  },
+  {
+   "name": "platonic blueprints",
+   "kind": "file",
+   "bytes": 204379
+  },
+  {
+   "name": "platonicbiooo",
+   "kind": "file",
+   "bytes": 31685
+  },
+  {
+   "name": "postagi",
+   "kind": "file",
+   "bytes": 3202
+  },
+  {
+   "name": "postfrontier",
+   "kind": "file",
+   "bytes": 24466
+  },
+  {
+   "name": "postiz",
+   "kind": "file",
+   "bytes": 19396
+  },
+  {
+   "name": "postizhermes",
+   "kind": "file",
+   "bytes": 30819
+  },
+  {
+   "name": "postizplus",
+   "kind": "file",
+   "bytes": 33792
+  },
+  {
+   "name": "powparts",
+   "kind": "file",
+   "bytes": 42635
+  },
+  {
+   "name": "powphysical",
+   "kind": "file",
+   "bytes": 17341
+  },
+  {
+   "name": "powpowpow.md",
+   "kind": "file",
+   "bytes": 6003
+  },
+  {
+   "name": "powstuf",
+   "kind": "file",
+   "bytes": 6402
+  },
+  {
+   "name": "privaccy",
+   "kind": "file",
+   "bytes": 15648
+  },
+  {
+   "name": "private key",
+   "kind": "file",
+   "bytes": 2350
+  },
+  {
+   "name": "private lab roadmap new",
+   "kind": "file",
+   "bytes": 6489
+  },
+  {
+   "name": "procluselements",
+   "kind": "file",
+   "bytes": 30370
+  },
+  {
+   "name": "proclushymns",
+   "kind": "file",
+   "bytes": 838836
+  },
+  {
+   "name": "proclusss",
+   "kind": "file",
+   "bytes": 76268
+  },
+  {
+   "name": "prompt spellfinder",
+   "kind": "file",
+   "bytes": 2914
+  },
+  {
+   "name": "prompts",
+   "kind": "file",
+   "bytes": 120664
+  },
+  {
+   "name": "promptstired",
+   "kind": "file",
+   "bytes": 4831
+  },
+  {
+   "name": "prooof",
+   "kind": "file",
+   "bytes": 32121
+  },
+  {
+   "name": "qdwredteam",
+   "kind": "file",
+   "bytes": 8367
+  },
+  {
+   "name": "qdwsandbox",
+   "kind": "file",
+   "bytes": 25360
+  },
+  {
+   "name": "qrii",
+   "kind": "file",
+   "bytes": 38607
+  },
+  {
+   "name": "qrl",
+   "kind": "file",
+   "bytes": 14407
+  },
+  {
+   "name": "quanutt",
+   "kind": "file",
+   "bytes": 11121
+  },
+  {
+   "name": "rasa abhinava",
+   "kind": "file",
+   "bytes": 22225
+  },
+  {
+   "name": "real_norm_moth.json",
+   "kind": "file",
+   "bytes": 50985
+  },
+  {
+   "name": "realityhistory",
+   "kind": "file",
+   "bytes": 26813
+  },
+  {
+   "name": "realmonsterss",
+   "kind": "file",
+   "bytes": 31670
+  },
+  {
+   "name": "realwork molt",
+   "kind": "file",
+   "bytes": 19497
+  },
+  {
+   "name": "rebirth essay",
+   "kind": "file",
+   "bytes": 8080
+  },
+  {
+   "name": "recognition formulation",
+   "kind": "file",
+   "bytes": 24230
+  },
+  {
+   "name": "recognitionandsiva",
+   "kind": "file",
+   "bytes": 16275
+  },
+  {
+   "name": "recognitionexpounded",
+   "kind": "file",
+   "bytes": 15214
+  },
+  {
+   "name": "redditidealims",
+   "kind": "file",
+   "bytes": 81618
+  },
+  {
+   "name": "render 2",
+   "kind": "file",
+   "bytes": 27490
+  },
+  {
+   "name": "render3",
+   "kind": "file",
+   "bytes": 35540
+  },
+  {
+   "name": "renderr",
+   "kind": "file",
+   "bytes": 53340
+  },
+  {
+   "name": "repoclone",
+   "kind": "file",
+   "bytes": 27756
+  },
+  {
+   "name": "repos",
+   "kind": "dir",
+   "md": 279,
+   "files": 343,
+   "bytes": 6694455
+  },
+  {
+   "name": "repos to clone",
+   "kind": "file",
+   "bytes": 22112
+  },
+  {
+   "name": "repute",
+   "kind": "file",
+   "bytes": 26116
+  },
+  {
+   "name": "researchci2",
+   "kind": "file",
+   "bytes": 21151
+  },
+  {
+   "name": "researchprop",
+   "kind": "file",
+   "bytes": 26554
+  },
+  {
+   "name": "rm",
+   "kind": "file",
+   "bytes": 26583
+  },
+  {
+   "name": "rm1",
+   "kind": "file",
+   "bytes": 11835
+  },
+  {
+   "name": "rm2",
+   "kind": "file",
+   "bytes": 22619
+  },
+  {
+   "name": "rm3",
+   "kind": "file",
+   "bytes": 19347
+  },
+  {
+   "name": "rm4",
+   "kind": "file",
+   "bytes": 8360
+  },
+  {
+   "name": "rm5",
+   "kind": "file",
+   "bytes": 16294
+  },
+  {
+   "name": "rm6",
+   "kind": "file",
+   "bytes": 18224
+  },
+  {
+   "name": "rmart",
+   "kind": "file",
+   "bytes": 22017
+  },
+  {
+   "name": "rmaudit",
+   "kind": "file",
+   "bytes": 25956
+  },
+  {
+   "name": "rmdev",
+   "kind": "file",
+   "bytes": 15979
+  },
+  {
+   "name": "rmdev2",
+   "kind": "file",
+   "bytes": 22305
+  },
+  {
+   "name": "rmreview",
+   "kind": "file",
+   "bytes": 28827
+  },
+  {
+   "name": "robotknowledge",
+   "kind": "file",
+   "bytes": 20937
+  },
+  {
+   "name": "robotmarket",
+   "kind": "file",
+   "bytes": 14017
+  },
+  {
+   "name": "saivismessayssanderson",
+   "kind": "file",
+   "bytes": 1589817
+  },
+  {
+   "name": "samsara essay",
+   "kind": "file",
+   "bytes": 9541
+  },
+  {
+   "name": "samsarthoughts.md",
+   "kind": "file",
+   "bytes": 11751
+  },
+  {
+   "name": "sanskritbenches",
+   "kind": "file",
+   "bytes": 31617
+  },
+  {
+   "name": "sanskritree",
+   "kind": "dir",
+   "md": 0,
+   "files": 73,
+   "bytes": 2095324
+  },
+  {
+   "name": "sanskritree endgame",
+   "kind": "file",
+   "bytes": 15730
+  },
+  {
+   "name": "sanskritree_ref",
+   "kind": "file",
+   "bytes": 10209
+  },
+  {
+   "name": "sanskritreeshit",
+   "kind": "file",
+   "bytes": 19409
+  },
+  {
+   "name": "scholaracquisition",
+   "kind": "file",
+   "bytes": 26058
+  },
+  {
+   "name": "scholarlayer",
+   "kind": "file",
+   "bytes": 18502
+  },
+  {
+   "name": "scholarlayer2",
+   "kind": "file",
+   "bytes": 14866
+  },
+  {
+   "name": "scholarproof",
+   "kind": "file",
+   "bytes": 20917
+  },
+  {
+   "name": "scholarslist",
+   "kind": "file",
+   "bytes": 32227
+  },
+  {
+   "name": "schools ima genius",
+   "kind": "file",
+   "bytes": 24778
+  },
+  {
+   "name": "sciencetime",
+   "kind": "file",
+   "bytes": 51818
+  },
+  {
+   "name": "scratch moltwork new",
+   "kind": "file",
+   "bytes": 23624
+  },
+  {
+   "name": "scry_benjaminrowe",
+   "kind": "file",
+   "bytes": 84985
+  },
+  {
+   "name": "seesawagent",
+   "kind": "file",
+   "bytes": 4046
+  },
+  {
+   "name": "seesawbark",
+   "kind": "file",
+   "bytes": 1722
+  },
+  {
+   "name": "seesawinvariant",
+   "kind": "file",
+   "bytes": 4470
+  },
+  {
+   "name": "seesawww",
+   "kind": "file",
+   "bytes": 6967
+  },
+  {
+   "name": "serpapi hackathon",
+   "kind": "file",
+   "bytes": 41208
+  },
+  {
+   "name": "serpapi live role",
+   "kind": "file",
+   "bytes": 14168
+  },
+  {
+   "name": "serpapi technical",
+   "kind": "file",
+   "bytes": 43119
+  },
+  {
+   "name": "serpapi3",
+   "kind": "file",
+   "bytes": 43119
+  },
+  {
+   "name": "serpapi4",
+   "kind": "file",
+   "bytes": 31340
+  },
+  {
+   "name": "shivasutrasfinal",
+   "kind": "file",
+   "bytes": 378730
+  },
+  {
+   "name": "sim_casey_1_timeline.json",
+   "kind": "file",
+   "bytes": 2306
+  },
+  {
+   "name": "sim_louis_act1_timeline.json",
+   "kind": "file",
+   "bytes": 3229
+  },
+  {
+   "name": "sim_norm_moth_timeline.json",
+   "kind": "file",
+   "bytes": 5218
+  },
+  {
+   "name": "sim_will_1_timeline.json",
+   "kind": "file",
+   "bytes": 6571
+  },
+  {
+   "name": "simulation blueprints",
+   "kind": "file",
+   "bytes": 340684
+  },
+  {
+   "name": "siobserver",
+   "kind": "file",
+   "bytes": 47286
+  },
+  {
+   "name": "sivahistorical",
+   "kind": "file",
+   "bytes": 19452
+  },
+  {
+   "name": "sivaqueue",
+   "kind": "file",
+   "bytes": 56795
+  },
+  {
+   "name": "sivaqueue2",
+   "kind": "file",
+   "bytes": 33929
+  },
+  {
+   "name": "sivaqueue3",
+   "kind": "file",
+   "bytes": 32664
+  },
+  {
+   "name": "sivaqueue34companion",
+   "kind": "file",
+   "bytes": 32184
+  },
+  {
+   "name": "sivaqueue4",
+   "kind": "file",
+   "bytes": 25616
+  },
+  {
+   "name": "sivaqueueguide",
+   "kind": "file",
+   "bytes": 4961
+  },
+  {
+   "name": "sleepythumbnail",
+   "kind": "file",
+   "bytes": 3219
+  },
+  {
+   "name": "smartguy",
+   "kind": "file",
+   "bytes": 53673
+  },
+  {
+   "name": "songs as information states",
+   "kind": "file",
+   "bytes": 1754
+  },
+  {
+   "name": "sourcehxrmxs.md",
+   "kind": "file",
+   "bytes": 21323
+  },
+  {
+   "name": "sourcetranslationprompt.md",
+   "kind": "file",
+   "bytes": 16489
+  },
+  {
+   "name": "specific alpha",
+   "kind": "file",
+   "bytes": 15236
+  },
+  {
+   "name": "specific competition",
+   "kind": "file",
+   "bytes": 1885
+  },
+  {
+   "name": "spirits to self modelling",
+   "kind": "file",
+   "bytes": 74344
+  },
+  {
+   "name": "staccs",
+   "kind": "file",
+   "bytes": 28312
+  },
+  {
+   "name": "storyboard",
+   "kind": "file",
+   "bytes": 37910
+  },
+  {
+   "name": "structure",
+   "kind": "file",
+   "bytes": 4406
+  },
+  {
+   "name": "subtle body",
+   "kind": "file",
+   "bytes": 17609
+  },
+  {
+   "name": "sufisources",
+   "kind": "file",
+   "bytes": 8407
+  },
+  {
+   "name": "swe-chat",
+   "kind": "file",
+   "bytes": 1550
+  },
+  {
+   "name": "tantra blueprints",
+   "kind": "file",
+   "bytes": 129062
+  },
+  {
+   "name": "tantra spoiler",
+   "kind": "file",
+   "bytes": 42727
+  },
+  {
+   "name": "tantrabrief",
+   "kind": "file",
+   "bytes": 39130
+  },
+  {
+   "name": "tantralokan",
+   "kind": "file",
+   "bytes": 60047
+  },
+  {
+   "name": "tantralokan2",
+   "kind": "file",
+   "bytes": 19036
+  },
+  {
+   "name": "tantraprompt",
+   "kind": "file",
+   "bytes": 67259
+  },
+  {
+   "name": "tantrasara1",
+   "kind": "file",
+   "bytes": 6281
+  },
+  {
+   "name": "tantrasara13-19",
+   "kind": "file",
+   "bytes": 278583
+  },
+  {
+   "name": "tantrasara19-22",
+   "kind": "file",
+   "bytes": 298786
+  },
+  {
+   "name": "tantrasara2",
+   "kind": "file",
+   "bytes": 6244
+  },
+  {
+   "name": "tantrasara3",
+   "kind": "file",
+   "bytes": 89023
+  },
+  {
+   "name": "tantrasara3-5",
+   "kind": "file",
+   "bytes": 95791
+  },
+  {
+   "name": "tantrasara6-9",
+   "kind": "file",
+   "bytes": 142539
+  },
+  {
+   "name": "tantrasara9-13",
+   "kind": "file",
+   "bytes": 243428
+  },
+  {
+   "name": "targetz",
+   "kind": "file",
+   "bytes": 7560
+  },
+  {
+   "name": "technialarchitectures",
+   "kind": "file",
+   "bytes": 30440
+  },
+  {
+   "name": "tele hackathon",
+   "kind": "file",
+   "bytes": 3275
+  },
+  {
+   "name": "terraform",
+   "kind": "file",
+   "bytes": 5240
+  },
+  {
+   "name": "terraform password",
+   "kind": "file",
+   "bytes": 4278
+  },
+  {
+   "name": "tetraproof",
+   "kind": "file",
+   "bytes": 14733
+  },
+  {
+   "name": "theplannoww",
+   "kind": "file",
+   "bytes": 15721
+  },
+  {
+   "name": "thesis",
+   "kind": "file",
+   "bytes": 27180
+  },
+  {
+   "name": "thesisapi.md",
+   "kind": "file",
+   "bytes": 32641
+  },
+  {
+   "name": "thesisaprealitysensor",
+   "kind": "file",
+   "bytes": 23214
+  },
+  {
+   "name": "thesissss",
+   "kind": "file",
+   "bytes": 19850
+  },
+  {
+   "name": "theurgy essays",
+   "kind": "file",
+   "bytes": 43722
+  },
+  {
+   "name": "thothwrite",
+   "kind": "file",
+   "bytes": 4074
+  },
+  {
+   "name": "tiktiokorg",
+   "kind": "file",
+   "bytes": 6515
+  },
+  {
+   "name": "tinytools80",
+   "kind": "file",
+   "bytes": 62398
+  },
+  {
+   "name": "to translate",
+   "kind": "file",
+   "bytes": 21294
+  },
+  {
+   "name": "todoproofdesk",
+   "kind": "file",
+   "bytes": 2523
+  },
+  {
+   "name": "toms whiteboard",
+   "kind": "file",
+   "bytes": 4514
+  },
+  {
+   "name": "tone02 thesess",
+   "kind": "file",
+   "bytes": 10591
+  },
+  {
+   "name": "toolintegration.md",
+   "kind": "file",
+   "bytes": 14040
+  },
+  {
+   "name": "toolintegration2",
+   "kind": "file",
+   "bytes": 23852
+  },
+  {
+   "name": "toolintegration3",
+   "kind": "file",
+   "bytes": 23126
+  },
+  {
+   "name": "translationplans",
+   "kind": "file",
+   "bytes": 10706
+  },
+  {
+   "name": "truthadvice",
+   "kind": "file",
+   "bytes": 15520
+  },
+  {
+   "name": "truthagent",
+   "kind": "file",
+   "bytes": 14147
+  },
+  {
+   "name": "truthanother",
+   "kind": "file",
+   "bytes": 25982
+  },
+  {
+   "name": "truthnext",
+   "kind": "file",
+   "bytes": 17644
+  },
+  {
+   "name": "truthtranslation",
+   "kind": "file",
+   "bytes": 38846
+  },
+  {
+   "name": "tunad.txt",
+   "kind": "file",
+   "bytes": 101516
+  },
+  {
+   "name": "ukgraphfinal.md",
+   "kind": "file",
+   "bytes": 49283
+  },
+  {
+   "name": "ukphone",
+   "kind": "file",
+   "bytes": 5101
+  },
+  {
+   "name": "ukstocks",
+   "kind": "file",
+   "bytes": 18630
+  },
+  {
+   "name": "unignorant",
+   "kind": "file",
+   "bytes": 23303
+  },
+  {
+   "name": "uniswap agent",
+   "kind": "file",
+   "bytes": 23536
+  },
+  {
+   "name": "unoanalysis.md",
+   "kind": "file",
+   "bytes": 36790
+  },
+  {
+   "name": "unoguide.md",
+   "kind": "file",
+   "bytes": 20358
+  },
+  {
+   "name": "unomorenotes",
+   "kind": "file",
+   "bytes": 23606
+  },
+  {
+   "name": "userlayer",
+   "kind": "file",
+   "bytes": 34738
+  },
+  {
+   "name": "valence",
+   "kind": "file",
+   "bytes": 42315
+  },
+  {
+   "name": "vediccosmology",
+   "kind": "file",
+   "bytes": 651350
+  },
+  {
+   "name": "venturehub",
+   "kind": "file",
+   "bytes": 36853
+  },
+  {
+   "name": "venturelab typebeat",
+   "kind": "file",
+   "bytes": 11366
+  },
+  {
+   "name": "videoblueprintassessment",
+   "kind": "file",
+   "bytes": 27524
+  },
+  {
+   "name": "vidrebrith",
+   "kind": "file",
+   "bytes": 1625
+  },
+  {
+   "name": "vijanana",
+   "kind": "file",
+   "bytes": 32218
+  },
+  {
+   "name": "vimarsafeedback",
+   "kind": "file",
+   "bytes": 10995
+  },
+  {
+   "name": "visiondev",
+   "kind": "file",
+   "bytes": 17939
+  },
+  {
+   "name": "visionpog",
+   "kind": "file",
+   "bytes": 2551
+  },
+  {
+   "name": "visionproofdev",
+   "kind": "file",
+   "bytes": 17939
+  },
+  {
+   "name": "voiceagent x drop",
+   "kind": "file",
+   "bytes": 25708
+  },
+  {
+   "name": "voidlake",
+   "kind": "file",
+   "bytes": 19832
+  },
+  {
+   "name": "vpsstuff2",
+   "kind": "file",
+   "bytes": 1543
+  },
+  {
+   "name": "water",
+   "kind": "file",
+   "bytes": 25239
+  },
+  {
+   "name": "what is meritt",
+   "kind": "file",
+   "bytes": 21898
+  },
+  {
+   "name": "why this thumbnail",
+   "kind": "file",
+   "bytes": 27977
+  },
+  {
+   "name": "workerkit verification",
+   "kind": "file",
+   "bytes": 22352
+  },
+  {
+   "name": "workerkiteconomics",
+   "kind": "file",
+   "bytes": 13033
+  },
+  {
+   "name": "workershit",
+   "kind": "file",
+   "bytes": 25502
+  },
+  {
+   "name": "workkitfinal",
+   "kind": "file",
+   "bytes": 37250
+  },
+  {
+   "name": "worlds",
+   "kind": "file",
+   "bytes": 27288
+  },
+  {
+   "name": "worldtree",
+   "kind": "file",
+   "bytes": 9457
+  },
+  {
+   "name": "wowreview",
+   "kind": "file",
+   "bytes": 50978
+  },
+  {
+   "name": "woww",
+   "kind": "file",
+   "bytes": 19590
+  },
+  {
+   "name": "xmrbot",
+   "kind": "file",
+   "bytes": 39245
+  },
+  {
+   "name": "yogipacks",
+   "kind": "file",
+   "bytes": 714901
+  },
+  {
+   "name": "youtubemaster",
+   "kind": "file",
+   "bytes": 71442
+  }
+ ],
+ "totals": {
+  "entries": 584,
+  "md": 451
+ }
+}

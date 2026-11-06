@@ -1137,3 +1137,16 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   aggregates (bridge 1652, renders 1610 — counted, not listed).
 - blogengine: absent everywhere (box/volume/R2/GitHub) — recorded, not missing.
 - sanskritree essays/ + truth/ prefixes EMPTY (placeholders).
+
+## Ochema estate mined (disk emergency handled).
+
+- 100%-full disk: Ochema 3GB clone DELETED after top-level inventory
+  (re-cloneable); sparse MD-only checkout kept (/tmp/ochema-md, 1.2MB).
+- Apoha-partition-formal (IPK 1.3.7 + Torella) + abhinavagupta-in-comparison
+  + doyle×2 + concepts/ extracted. Apoha prereg filed (R via Torella).
+- ochema2 (461MB kept for now): confrontations/ = README ONLY (thin —
+  the pipeline lives in research-library/confrontations/ instead).
+- Awesome-essays: 584 entries / 451 MDs indexed (data/awesome-essays-index).
+- Reception zips unpacked (23MB, 1299 files): essayviz engine specs
+  (pipeline/render/audio/agents/genres) + fundamental-structure pack.
+- ochema-site: Next.js (app/content/data), main only — site shell, noted.
