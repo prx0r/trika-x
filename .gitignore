@@ -1,0 +1,7 @@
+# vendored / heavy — pointers only, see lead-pack
+repos/
+papers/
+*.olean
+__pycache__/
+.lean/
+lake-packages/
