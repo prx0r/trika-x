@@ -55,6 +55,7 @@ def main() -> int:
         "platinum-essay": "SOURCE", "video-essay": "SOURCE",
         "idea-units": "SOURCE", "imported-doc": "SOURCE",
         "essay-object": "BRIEF", "essay-seed": "BRIEF", "contention": "BRIEF",
+        "formal-rung": "BRIEF",
         "info-packet": "BRIEF", "pushing-session": "REVIEWED",
         "expansion-draft": "COMPILED", "video-build": "RENDER",
         "essay-render": "RENDER", "research-corpus": "CORPUS",
@@ -76,6 +77,21 @@ def main() -> int:
             d, "released render", category="PUBLISHED")
     for f in sorted((HERE / "swarm").glob("expansion-*.md")):
         add(f"expansion:{f.stem}", "expansion-draft", title_of(f), f, "MACHINE-COMPILED")
+    # Formal-ground seeds: future essays whose grounds are checked-in rungs,
+    # never free-floating topics. Grounded = compilable today.
+    for sid, title, path, grounds in (
+        ("formal:spanda-pulse", "The pulse, checked: two phases, three states, three acts",
+         HERE / "control/Spanda.lean",
+         "Spanda.lean phases_two/glide_all/acts_three + span-p01 (R)"),
+        ("formal:navarasa-roster", "Nine flavours, peace on top, five blisses climbing",
+         HERE / "control/Rasa.lean",
+         "Rasa.lean nine_only/santa_supreme/bliss_gradient (H, stipulated)"),
+        ("formal:tsa08-p04-correction", "The corrected machine: agency survives evolution",
+         HERE / "CRUX-WALKTHROUGH-05.md",
+         "CRUX-05 claim table (T/R) + KancukaCorr KEY presupposition"),
+    ):
+        add(sid, "formal-rung", title, path, "grounded (rung green)",
+            extra={"grounds": grounds})
     for f in sorted(RLIB.glob("ESSAY-*.md")) + sorted(RLIB.glob("THREE-ESSAYS*.md")):
         add(f"research:{f.stem}", "research-essay", title_of(f), f, "assigned (collection framing)")
     for f in sorted(RLIB.glob("COMMENTARY-*.md")):
