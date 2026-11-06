@@ -1,0 +1,851 @@
+{
+ "format": "trika-identity-crosswalk/1",
+ "date": "2026-11-06",
+ "sources": [
+  "patalacheckpoints atlas-bibliography.json (slugs)",
+  "trika map-agreement (tw workdir <-> openpatala work_id)",
+  "rule: normalized match, never guessed; NONE/PAIR rows are gaps, not failures"
+ ],
+ "rows": [
+  {
+   "tw_workdir": "abhinavabharati",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "ajadapramatrsiddhi",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "anubhavanivedana",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "anuttarastika",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "bhairavanukarana",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "bhairavastava",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "bodhapancadasika",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "bodhavilasa",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "dehastha",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "ghatakarpara",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "gitarthasangraha",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "ipvv",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "ipvv-vivrti-vimarsini",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "isvarasiddhi",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "kramastotra",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-kramastotra",
+   "atlas_slugs": [
+    "kramastotra"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "lalded",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "mahopadeshavimshatika",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "malinivijayavarttika",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "nundrishi",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "pancashloki",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "paramarthacarca",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "paramarthadvadasika",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "paramarthasara",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-paramArthasAra",
+   "atlas_slugs": [
+    "paramarthasara"
+   ],
+   "verdict": "AGREE-WORK",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "parapravesika",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "paratrimshika",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "parmanand",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "paryantapancasika",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "phrdaya",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "ptvmadhyama",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "rahasyapanchadashika",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "rupabhavani",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "saktavijnana",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "sambandhasiddhi",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "santosh",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "sivastotravali",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "sivastotravali"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "sivasutra",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "sivasutra"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "sivasutravimarsini",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "spanda",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "spandasandoha",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "stavacintamani",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "svabodhasiddhi",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "tantraloka-a01",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a02",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a03",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a04",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a05",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a06",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a07",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a08",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a09",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a10",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a11",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a12",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a13",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a14",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a15",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a16",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a17",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a18",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a19",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a20",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a21",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a22",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a23",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a24",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a25",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a26",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a27",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a28",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a29",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a30",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a31",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a32",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a33",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a34",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a35",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a36",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantraloka-a37",
+   "openpatala_work_id": null,
+   "atlas_slugs": [
+    "tantraloka"
+   ],
+   "verdict": "MINE-PROPOSAL",
+   "join": "PAIR"
+  },
+  {
+   "tw_workdir": "tantrasara-a01",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a02",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a03",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a04",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a05",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a06",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a07",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "AGREE-WORK",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a08",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "AGREE-WORK",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a09",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a10",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a11",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a12",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a13",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a14",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a15",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a16",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a17",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a18",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a19",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a20",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a21",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tantrasara-a22",
+   "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+   "atlas_slugs": [
+    "tantrasara"
+   ],
+   "verdict": "THEIRS-NEW",
+   "join": "TRIPLE"
+  },
+  {
+   "tw_workdir": "tattvasandoha",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "OPEN",
+   "join": "NONE"
+  },
+  {
+   "tw_workdir": "vbt",
+   "openpatala_work_id": null,
+   "atlas_slugs": [],
+   "verdict": "MINE-PROPOSAL",
+   "join": "NONE"
+  }
+ ]
+}
