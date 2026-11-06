@@ -40,14 +40,21 @@ Reruns idempotent (verified all-skipped). Loader bug caught live
 1. **Packs** (factory lane): `evidence_refs: [{work, locator, ledger_sha,
    snapshot_rev}]` in scene_manifest (fail-closed: render refuses packs
    without refs). Current prose basis stays as description, not identity.
+   STATUS 2026-11-06: unbuilt (federation commit is the swarm skill only).
 2. **Videos**: render receipts carry pack evidence_refs through (which
-   pack rev rendered which video).
+   pack rev rendered which video). STATUS: unbuilt.
 3. **Books** (translation-work zenodo_publish.py): provenance.json gains
    `openpatala_work_id`, `edition_id`, `ledger_sha256` (look up
-   svread/source-map.json at bundle time — file exists).
+   svread/source-map.json at bundle time — file exists). STATUS 2026-11-06:
+   PR #9 implements work_id + mapping + record_sha + edition_label; no
+   edition_id by design (CANDIDATE strings, recorded refusal); open, green.
 4. **Teacher** (nibbanahelp lane): relay passage headers may cite DB work
    IDs when convenient; no schema change (additive field only, ask first
-   per their rules).
+   per their rules). STATUS: untouched.
+5. **Lingua** (svread, shared language): work/chunk records carry the
+   openpatala block as of svread PR #9 (open, green) — resolve_ref and
+   ref_links surface identity to MCP clients. Formalisation dimension
+   (theorem refs) is a follow-up needing a grammar decision, not built.
 
 ## Boundaries (unchanged)
 

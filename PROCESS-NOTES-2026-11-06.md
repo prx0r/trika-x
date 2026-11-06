@@ -754,3 +754,24 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   essay + token (packet C10; PR #9 keeps provenance ready).
 - eleven_wombed now dual-chunked (tsa07-p01 T + tsa08-p04 R); p04 treeka column
   carries it (answers beam's bank objection structurally).
+
+## Scholar/ipvv review verdict (is it working? yes, at code level).
+
+- svread MCP (39 tests green): bundled projections + versions/compare,
+  private docs/reviews/annotations/decisions/sources, Qwen drafts (consent),
+  search (BLOCKED English withheld), audit/link/stale/pushback essay family,
+  resolve_ref/ref_links (verified LIVE via stdio: work:vbt resolves).
+  Earlier "dead resolver" call was my sys.path error — retracted (F7? no:
+  recorded here, no code harmed).
+- ipvv: pytest 1/1, node suites green incl. TRUE e2e (in-memory DB + worker
+  bundle + MCP spawn: login → review → consented draft). Thin counts, deep
+  coverage — graded adequate.
+- Peer review flow: request_review (exact rev) → annotations (immutable
+  snapshot offsets) → signoff (409 on edit, SELF_ATTESTED) → submit (HMAC
+  bridge → PUBLIC git branch, never merged to site). Git versioning = the
+  review surface. Live deploy (Worker/DB/migrations) UNVERIFIED from box —
+  operator-side check owed, not claimed.
+- Wiring landed: svread PR #9 (lingua openpatala block, green) — work/chunk
+  records now carry identity to every MCP client. Formalisation dimension
+  (theorem refs, grammar decision) + submission-payload refs (worker +
+  scholar_service) are sequenced follow-ups, not this PR.
