@@ -1,0 +1,14 @@
+{
+ "ref": "arxiv:1607.08359",
+ "fetched": "2026-11-06",
+ "title": "The closure constraint for the hyperbolic tetrahedron as a Bianchi identity",
+ "authors": [
+  "Christoph Charles",
+  "Etera R. Livine"
+ ],
+ "published": "2016-07-28T08:48:39Z",
+ "abstract": "The closure constraint is a central piece of the mathematics of loop quantum gravity. It encodes the gauge invariance of the spin network states of quantum geometry and provides them with a geometrical interpretation: each decorated vertex of a spin network is dual to a quantized polyhedron in $\\mathbb{R}^{3}$. For instance, a 4-valent vertex is interpreted as a tetrahedron determined by the four normal vectors of its faces. We develop a framework where the closure constraint is re-interpreted as a Bianchi identity, with the normals defined as holonomies around the polyhedron faces of a connection (constructed from the spinning geometry interpretation of twisted geometries). This allows us to define closure constraints for hyperbolic tetrahedra (living in the 3-hyperboloid of unit future-oriented spacelike vectors in $\\mathbb{R}^{3,1}$) in terms of normals living all in $SU(2)$ or in $SB(2,\\mathbb{C})$. The latter fits perfectly with the classical phase space developed for $q$-deformed loop quantum gravity supposed to account for a non-vanishing cosmological constant $Λ>0$. This is the first step towards interpreting $q$-deformed twisted geometries as actual discrete hyperbolic triangulations.",
+ "pdf_url": "https://arxiv.org/pdf/1607.08359.pdf",
+ "pdf_sha256": "4d4381476f6b5434337aeafba7c418709e72c8bf6e9bd3310b656664e3a0433b",
+ "pdf_bytes": 887834
+}

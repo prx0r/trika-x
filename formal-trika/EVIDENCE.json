@@ -1832,6 +1832,34 @@
    ],
    "r_sources": [],
    "lived": []
+  },
+  "Correction.lean :: joints_two": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "ARGMAP+L2",
+     "tier": "R",
+     "status": "SPAN-PINNED",
+     "note": "two correction joints enumerated"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Correction.lean :: grasp_first": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "ARGMAP+L2",
+     "tier": "R",
+     "status": "SPAN-PINNED",
+     "note": "in-chunk order (stipulated)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
   }
  },
  "exemptions": {

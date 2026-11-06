@@ -774,3 +774,13 @@ unmodeled as stated limit). Gap-list order (phr rows after tsa08-p04).
   `epithet_three` (all `decide`). Zero-axiom.
 - **Three surgical twins** (defs only — lessons holding). Green first try.
 - EVIDENCE 3 rows (phr-p01/p02/p03, R); TABLE 160 lines; clean.
+
+## 2026-11-06 — Rung 22: correction joints (C-JNT1–2, R)
+
+Prereg: PREREGISTRATION-JOINTS-RUNG.md. Closes the CRUX-05 formal gap
+at enumeration level (derivation still unmodeled — stated in file).
+
+- **`Correction.lean`** — `joints_two`, `grasp_first`. Zero-axiom.
+- **Two twins**, single-break discipline holding (grasp_first restated
+  via head? after the double-break was caught pre-run). Green.
+- EVIDENCE 2 rows (tsa08-p04, R); TABLE 162 lines; clean.
