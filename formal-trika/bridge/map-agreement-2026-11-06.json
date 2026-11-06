@@ -1,8 +1,8 @@
 {
  "format": "trika-map-agreement/1",
  "date": "2026-11-06",
- "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
- "trika_x_revision": "f6acafdebba8020a966e93aa5bf02aec3c148219+dirty",
+ "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
+ "trika_x_revision": "990610905cb1704f20bd54fc9535d30d2f7bdce6+dirty",
  "counts": {
   "OPEN": 15,
   "MINE-PROPOSAL": 63,

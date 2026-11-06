@@ -1,7 +1,7 @@
 {
  "format": "trika-bridge-composition/1",
  "date": "2026-11-06",
- "snapshot_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+ "snapshot_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
  "counts": {
   "COMPOSED": 23,
   "PARTIAL": 3,
