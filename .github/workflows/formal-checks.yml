@@ -18,15 +18,38 @@ jobs:
         uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
         with:
           repository: prx0r/translation-work
-          ref: e05e640e192a2ea5a317ba76b0f802f4f54e98cc
+          # Keep in sync with formal-trika/bridge/passages.snapshot.json.
+          ref: 79a474b0f0f12e668cf9894c2fc229173e466969
           path: translation-work
           sparse-checkout: |
-            tantrasara-a08
-            tantrasara-a07
             paramarthasara
             phrdaya
-            vbt
             spanda
+            tantraloka-a15
+            tantraloka-a34
+            tantrasara-a01
+            tantrasara-a02
+            tantrasara-a03
+            tantrasara-a04
+            tantrasara-a05
+            tantrasara-a06
+            tantrasara-a07
+            tantrasara-a08
+            tantrasara-a09
+            tantrasara-a10
+            tantrasara-a11
+            tantrasara-a12
+            tantrasara-a13
+            tantrasara-a14
+            tantrasara-a15
+            tantrasara-a16
+            tantrasara-a17
+            tantrasara-a18
+            tantrasara-a19
+            tantrasara-a20
+            tantrasara-a21
+            tantrasara-a22
+            vbt
       - name: Install pinned Lean release
         run: |
           curl -fsSL --retry 3 -o "$RUNNER_TEMP/lean.tar.zst" \
@@ -47,6 +70,8 @@ jobs:
         run: python3 -m unittest discover -s formal-trika/tests -v
       - name: Lean axiom hygiene (static; no toolchain needed)
         run: python3 formal-trika/tools/axiom_audit.py --check
+      - name: Check theorem review-status inventory
+        run: python3 formal-trika/tools/review_status.py --check
       - name: Generated-artifact freshness
         run: |
           python3 formal-trika/tools/vocab.py --check

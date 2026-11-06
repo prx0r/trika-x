@@ -1,5 +1,7 @@
 """Coverage reports must not confuse missing data or work refs with passages."""
 import importlib.util
+import contextlib
+import io
 import json
 from pathlib import Path
 import subprocess
@@ -74,6 +76,28 @@ class ReportTests(unittest.TestCase):
                 self.assertEqual(evidence.theorems(), {'A.lean :: same', 'B.lean :: same'})
             finally:
                 evidence.HERE, evidence.SOURCES = original_root, original_sources
+
+    def test_registry_work_dirs_and_ambiguous_locators_are_scoped(self):
+        with tempfile.TemporaryDirectory() as temp:
+            root = Path(temp)
+            for name in ('new-work-a', 'new-work-b'):
+                (root / name).mkdir()
+                (root / name / 'passages.jsonl').write_text('{"locator":"same-p01","verses":"1-2"}\n')
+            original = treeka.EV
+            treeka.EV = {'works': {
+                'a': {'ledger':'translation-work/new-work-a/passages.jsonl', 'chunks':['same-p01']},
+                'b': {'ledger':'translation-work/new-work-b/passages.jsonl', 'chunks':['same-p01']}},
+                'entries': {'Demo.lean :: t': {'chunks':[{'locator':'same-p01'}]}}}
+            try:
+                output = io.StringIO()
+                with contextlib.redirect_stdout(output):
+                    self.assertEqual(treeka.report(root, True, 'revision'), 0)
+                rows = json.loads(output.getvalue())
+                self.assertEqual(len(rows), 2)
+                self.assertEqual({r['formal'] for r in rows}, {'ambiguous_reference'})
+                self.assertTrue(all(not r['formal_refs'] for r in rows))
+            finally:
+                treeka.EV = original
 
 
 if __name__ == '__main__':

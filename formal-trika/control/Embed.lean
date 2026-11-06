@@ -1,16 +1,17 @@
 /-
   Formal Trika — E-EMB: containment matrix (v9 embedding rung).
 
-  T-tier ground (THIN): tsa07-p01 argmap v9 (gross includes subtle
-  substances). Gradient reading (ether 1 … earth 5) is STANDARD DOCTRINE
-  flagged R — needs scholar confirmation; uniform alternative parked
-  (see prereg). Order: ether finest … earth grossest (accumulation).
+  The earlier 7.9 citation is not a direct statement of this matrix:
+  it locates five subtle elements and eleven faculties in ahaṃkāra.
+  Tantrasāra 8.85–90 discusses previous qualities and an alternative
+  account, but this particular matrix remains a reconstruction requiring
+  textual and scholarly review. Order: ether finest … earth grossest.
 
   What this file IS: 5×5 containment matrix + earth/ether witnesses +
   nesting, over finite Bools.
   What it is NOT: cosmology proof, size claim, or verdict on
-  gradient-vs-uniform (scholar decides; remodel ready). R-tier; T pin
-  thin. Finite model; `decide` inside scope only.
+  gradient-vs-uniform (scholar decides; remodel ready). Finite model;
+  `decide` inside scope only.
 -/
 namespace FormalTrika
 

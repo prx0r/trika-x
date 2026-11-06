@@ -2,7 +2,7 @@
 """essay_compile.py — compile expansion essays, never write them.
 
 An expansion essay = owner voice (verbatim quotes, never altered) +
-banked audit-chain claims (argmap nodes R + Lean theorems T, tiered,
+banked candidate claims (argmap nodes R + unverified Lean references,
 marker-cited) + open questions. The compiler assembles; it invents no
 prose, no doctrine, no verdict. Claim tables + link/audit/pushback
 receipts ride every output. Topic graph grows per compilation.
@@ -12,8 +12,9 @@ receipts ride every output. Topic graph grows per compilation.
       --theorems "Mala.lean :: count_3" --slug mala-objectivity --title "Impurity Is Objectivity"
 
 Owner essays are lore/voice (truthful to the teacher, not grounds).
-Argmaps are grounds for R. Theorems are grounds for T. Witnesses stay
-UNPINNED. Machine proposes; owner + scholar dispose.
+Argmaps and theorem associations need independent review. A theorem name
+does not establish a successful Lean run or a source-to-model entailment.
+Witnesses stay UNPINNED. Machine proposes; owner + scholar dispose.
 """
 import argparse
 import datetime
@@ -27,17 +28,29 @@ HERE = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(HERE / "tools"))
 import roboscholar as robo
 
-sys.path.insert(0, str(Path("/root/svread/mcp")))
-import audit as draft_audit
-import claims as claim_table
-
-
 def owner_blocks(path: Path):
     text = path.read_text(encoding="utf-8")
     quotes = re.findall(r'(?m)^> (.*)$', text)
     frames = re.findall(r'(?m)^\[([^\]]+)\]$', text)
     title = (re.findall(r'(?m)^# (.*)$', text) or ["(untitled)"])[0]
     return title, quotes, frames, text
+
+
+def validate_theorems(work, chunk, names, evidence_path=HERE / 'EVIDENCE.json'):
+    if not names:
+        return
+    evidence = json.loads(evidence_path.read_text(encoding='utf-8'))
+    ledger = f'translation-work/{work}/passages.jsonl'
+    works = [spec for spec in evidence['works'].values()
+             if spec.get('ledger') == ledger and chunk in spec.get('chunks', [])]
+    if len(works) != 1:
+        raise ValueError('work/chunk not uniquely registered in evidence')
+    for name in names:
+        entry = evidence['entries'].get(name)
+        if not isinstance(entry, dict) or not any(
+                isinstance(ref, dict) and ref.get('locator') == chunk
+                for ref in entry.get('chunks', [])):
+            raise ValueError(f'theorem is not registered for this chunk: {name}')
 
 
 def main() -> int:
@@ -50,19 +63,27 @@ def main() -> int:
     ap.add_argument("--slug", required=True)
     ap.add_argument("--title", default="")
     a = ap.parse_args()
-    title, quotes, frames, raw = owner_blocks(a.owner)
-    nodes = robo.premises(a.work, a.verses)
-    if not nodes:
-        print("ERROR: no banked nodes for verses", a.verses)
+    if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{0,99}', a.slug):
+        print('ERROR: invalid output slug', file=sys.stderr)
         return 1
+    try:
+        title, quotes, frames, raw = owner_blocks(a.owner)
+        nodes = robo.premises(a.work, a.verses, a.chunk)
+        validate_theorems(a.work, a.chunk, a.theorems)
+    except (OSError, ValueError, TypeError, KeyError) as exc:
+        print(f'ERROR: {exc}', file=sys.stderr)
+        return 1
+    sys.path.insert(0, str(robo.SVREAD / 'mcp'))
+    import audit as draft_audit
+    import claims as claim_table
     day = datetime.date.today().isoformat()
-    stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%H%M%S")
+    stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%H%M%S%f")
     marker_chunk = f"{a.work}:{a.chunk}"
     parts = [f"# {a.title or title} (EXPANSION DRAFT — compiled, never written)",
              "",
              f"- owner voice: `{a.owner}` (verbatim below, unaltered)",
-             f"- grounds: {a.work}:{a.chunk} ({len(nodes)} gold argmap units, R)",
-             (f"- formal: {', '.join(a.theorems)} (T, decide-verified)" if a.theorems else
+             f"- grounds: {a.work}:{a.chunk} ({len(nodes)} candidate argmap units, R; bytes rechecked)",
+             (f"- formal: {', '.join(a.theorems)} (registry references; proof and textual entailment not checked)" if a.theorems else
               "- formal: none cited"),
              "- status: MACHINE-COMPILED, owner + scholar dispose; witness UNPINNED",
              "",
@@ -82,7 +103,7 @@ def main() -> int:
     if a.theorems:
         parts += ["", "## Formal note", ""]
         for t in a.theorems:
-            parts.append(f"- {t}: checked structure, weaker than the text (T, model only)")
+            parts.append(f"- {t}: unreviewed model reference; no proof-run receipt checked")
     parts += ["",
               "## Open questions (kept open, not smoothed)",
               "- Which banked premises does the owner's framing select, and which does it pass over?",
@@ -130,7 +151,11 @@ def main() -> int:
     for t in a.theorems:
         tn = f"theorem:{t}"
         if not any(x["id"] == tn for x in graph["nodes"]):
-            graph["nodes"].append({"id": tn, "kind": "theorem", "tier": "T"})
+            graph["nodes"].append({"id": tn, "kind": "theorem-reference", "tier": "UNVERIFIED"})
+        else:
+            for node in graph['nodes']:
+                if node['id'] == tn:
+                    node.update(kind='theorem-reference', tier='UNVERIFIED')
         graph["edges"].append({"from": enode, "to": tn, "rel": "cites-formal"})
     gpath.write_text(json.dumps(graph, ensure_ascii=False, indent=1) + "\n")
     report = {"format": "expansion-receipt/1", "essay": slug, "date": day,
