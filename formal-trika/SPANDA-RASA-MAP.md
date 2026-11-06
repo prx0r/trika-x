@@ -31,10 +31,12 @@ Tymoczko (chords are points in an orbifold; felt quality IS location).
 - **Rasa: RICH.** Shelf with Albers/Tymoczko/Doczi analyses, COMPENDIUM,
   music-theory theses 1–5, `RASA-VALENCE-INTO-ESSAY.md`, QRI shelf,
   consciousness/rasa/ in R2 (Tymoczko, Albers, proportional harmonies).
-- **Spanda: THIN.** No Spanda-kārikā text held (not in R2 tantra/, not a
-  translation-work work, no EVIDENCE entries). Only mentions inside
-  pushing docs. The doctrine above is general knowledge — PRIMARY-OWED
-  (GRETIL/Muktabodha carry the text; import, don't quote from memory).
+- **Spanda: HELD — corrected 2026-11-06.** `translation-work/spanda/`
+  (4 passages, 25 verses vv1–25, full T1/L0/argmap/L2/C1/L3/L4/C2 pipeline,
+  R2-verified) + `translation-work/spandasandoha/` (SK 1.1 + Kṣemarāja
+  vivṛti, proof PASS). No EVIDENCE entries yet — the formalisation gap is
+  real, the primary gap is not. Chunk IDs resolvable via lingua
+  (`work:spanda`, spans p01–p04).
 - Seth: synthesis held (CU→EE→matter, Sessions 889/891), primary owed.
 - Del Giudice: integration doc held with sourced papers table (2014 QED
   water coherence, 2013 morphogenesis, 2010 floating bridge).
@@ -89,8 +91,8 @@ Formalisation here means finite checks, never capturing the doctrine:
 ## 8. Ordered builds
 
 1. Vendor 1310.7930, locate-or-retract the tetrahedron statement.
-2. Import Spanda-kārikā (GRETIL/Muktabodha) → translation-work work →
-   S-SPAND prereg.
+2. S-SPAND prereg — UNBLOCKED (spanda spans p01–p04 held, full layers).
+   unmeṣa/nimeṣa alternation check + SK-verse roster; twin-attack from §4.
 3. R-NAV rung (needs only Abhinavabhāratī/TĀ passages already held —
    cheapest formalisation on this page).
 4. Seth primary (coordinate points + value fulfillment) → rasa×Seth join.
