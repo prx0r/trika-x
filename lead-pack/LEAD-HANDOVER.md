@@ -1,5 +1,9 @@
 # LEAD HANDOVER — formal Trika, organized for the lead agent
 
+> Historical snapshot. The [2026-11-06 peer review](../PEER-REVIEW-2026-11-06.md)
+> supersedes its test status, suggested Coords fix, key-export and qprivately
+> claims. Its absolute `/root/...` paths describe a previous environment.
+
 **Date:** 2026-11-06. **Author:** box scout agent (autonomous deep-dive, owner-ordered). **Status:** pack assembled, Lean verified today, 2 known reds, not fixed (lead agent owns the fix).
 
 ## 1. Mission

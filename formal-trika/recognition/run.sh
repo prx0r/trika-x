@@ -8,7 +8,7 @@ if ! command -v "$LEAN" >/dev/null 2>&1 || ! "$LEAN" --version | grep -q '^Lean 
 fi
 pass=0; fail=0
 check() {
-  if LEAN_PATH=. "$LEAN" "$1"; then echo "PASS $1"; pass=$((pass+1));
+  if LEAN_PATH=. "$LEAN" -DwarningAsError=true "$1"; then echo "PASS $1"; pass=$((pass+1));
   else echo "FAIL $1"; fail=$((fail+1)); fi
 }
 mustfail() {

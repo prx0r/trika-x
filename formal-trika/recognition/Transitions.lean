@@ -72,13 +72,14 @@ theorem trec_retains_limitation :
     (allRecStates.filter fun m => (trec m).lim == m.lim).length = 4096 := by
   decide
 
-/-- R-REC1d: idempotent — recognized stays recognized (no backslide). -/
+/-- R-REC1d: applying this function twice has the same result as once.
+    This alone says nothing about backsliding under other transitions. -/
 theorem trec_idempotent :
     (allRecStates.filter fun m => trec (trec m) == trec m).length = 4096 := by
   decide
 
-/-- R-REC2a (āṇava): the stuck state — σ never flips, T_rec never fires.
-    Distinct from recognition: stuck states exist and stay stuck. -/
+/-- R-REC2a: a state with the selected flags exists. No transition relation
+    is defined here, so this does not prove that a state stays stuck. -/
 theorem anava_stuck_exists :
     (allRecStates.filter fun m => m.exh && bondage m).length > 0 := by
   decide
@@ -90,8 +91,8 @@ theorem acquire_is_not_recognition :
       (kept m != kept (acquire m)) && (kept m == kept (trec m))).length = 4096 := by
   decide
 
-/-- R-REC2c (kārma): the self-loop — exempted states re-instantiate.
-    Pre-recognition states with full exclusive positioning exist. -/
+/-- R-REC2c: states with the selected positioning flags exist. No transition
+    or self-loop is proved by this Boolean existence check. -/
 theorem karma_loop_exists :
     (allRecStates.filter fun m =>
       m.xdm && m.exh && m.own && m.agy).length > 0 := by

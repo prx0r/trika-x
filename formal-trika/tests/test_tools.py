@@ -32,9 +32,9 @@ if mode == "accepted":
     sys.exit(0)
 line = 2 if mode == "wrongline" else 1
 reason = "unexpected syntax" if mode == "syntax" else "Tactic `decide` proved that the proposition\\n  1 = 1\\nis false"
-print(f"{sys.argv[1]}:{line}:1: error: {reason}")
+print(f"{sys.argv[-1]}:{line}:1: error: {reason}")
 if mode == "multiple":
-    print(f"{sys.argv[1]}:1:1: error: another error")
+    print(f"{sys.argv[-1]}:1:1: error: another error")
 sys.exit(1)
 ''')
         self.lean.chmod(0o755)

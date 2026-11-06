@@ -45,15 +45,15 @@ def main():
             raise ValueError("positive and mutant theorem statements differ")
         env = os.environ.copy()
         env["LEAN_PATH"] = str(Path(args.mutant).resolve().parent)
-        run = subprocess.run([args.lean, args.mutant], text=True,
+        run = subprocess.run([args.lean, "-DwarningAsError=true", args.mutant], text=True,
                              capture_output=True, timeout=args.timeout, env=env)
         output = run.stdout + run.stderr
         errors = list(re.finditer(r"(?m)^(.+?):(\d+):(\d+): error(?:\([^\n)]*\))?:", output))
         expected = (run.returncode == 1 and len(errors) == 1 and
                     Path(errors[0].group(1)).resolve() == Path(args.mutant).resolve() and
                     int(errors[0].group(2)) == proof_line and
-                    "Tactic `decide` proved that the proposition" in output and
-                    "is false" in output)
+                    re.match(r"\s*Tactic `decide` proved that the proposition\b[\s\S]*?\nis false(?:\n|$)",
+                             output[errors[0].end():]) is not None)
         if not expected:
             raise ValueError("mutant did not fail at the expected false proposition\n" + output)
         print(f"PASS {args.mutant}: {args.theorem} is false in mutant")

@@ -1,5 +1,12 @@
 # LEAD PACK — read-first index
 
+> **Current entry point:** Read [the 2026-11-06 peer review](../../PEER-REVIEW-2026-11-06.md),
+> [the correction to preregistration](../../formal-trika/PREREGISTRATION-2026-11-06.md),
+> and [the fresh-checkout run guide](../../formal-trika/README.md) first. The
+> historical handover below uses an old machine's paths and reports two Lean
+> failures that this review repairs. Its claims about proof keys and ungated
+> transitions are superseded; no source-to-essay gate is built by this review.
+
 **For the incoming lead agent. Owner rule: formalizations arise OUT OF the data. Nothing here defines anything. Machine proposes, human disposes.**
 
 Disk is 98% full — this pack is **pointers, not copies**. Every entry is an absolute on-box path. Read in this order. Do not duplicate bytes.

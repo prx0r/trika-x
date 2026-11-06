@@ -1,5 +1,9 @@
 # TRIKA-X /root/trika-x — formalization literature corpus
 
+> Start with the [peer review](PEER-REVIEW-2026-11-06.md) and
+> [fresh-checkout run guide](formal-trika/README.md). The paths and evidence
+> status below are from a historical environment, not a self-contained corpus.
+
 Imported 2026-11-05. Two corpora that already formalize Buddhist mind in
 mathematics + logic. Read with `/root/TRIKA-X-SEEDS.md` (our evidence index)
 and the formal-system plan (axioms → rules → checker → models → book).

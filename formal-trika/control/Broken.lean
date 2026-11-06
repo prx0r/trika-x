@@ -25,5 +25,5 @@ def wellformed (_ : Pramatr) : Bool := true
 
 def generated : List Pramatr := combos.filter wellformed
 
-/-- MUST FAIL: with R1 deleted the count is 8, not the traditional 7. -/
+/-- MUST FAIL: with R1 deleted the count is 8, not this model's 7. -/
 theorem seven : generated.length = 7 := by decide

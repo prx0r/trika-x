@@ -6,8 +6,8 @@
   The equal counts do not establish a mapping to seven traditional persons;
   in particular a positional split is not encoded by these three axes.
 
-  Source key (T): paramarthasara saptadha-pramātṛ scheme (GOLD) +
-  tantrasara-a08 p03 (māyāgarbhādhikāriṇaḥ … vijñānākala … kalāpuṃviveka …).
+  Proposed source references (not yet pinned or independently reviewed):
+  paramarthasara saptadha-pramātṛ scheme and tantrasara-a08 p03.
   Name-to-row mapping is R (reconstruction): the mantra-triad split
   (mantra/mantreśvara/mantramaheśvara) is adhvan-positional, not
   mala-compositional — see P-TK1b. The COUNT theorem does not depend on names.
