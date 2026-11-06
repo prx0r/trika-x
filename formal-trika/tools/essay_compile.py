@@ -55,6 +55,25 @@ def validate_theorems(work, chunk, names, evidence_path=HERE / 'EVIDENCE.json'):
             raise ValueError(f'theorem is not registered for this chunk: {name}')
 
 
+def resolve_tension(tid: str) -> dict:
+    """Resolve one tension id via svread lingua (fail-closed).
+
+    Returns {"id": tid} on success. Raises ValueError on unknown ids and
+    on private tensions (tension-private: expansion essays never link
+    non-public tensions; consent lives in the owning lane).
+    """
+    import sys as _sys
+    _sys.path.insert(0, "/root/svread/tools")
+    import lingua as _lingua
+    try:
+        row = _lingua.resolve(f"tension:{tid}")
+    except Exception as e:
+        raise ValueError(f"tension unresolvable: {tid} ({e})")
+    if row.get("visibility", "private") == "private":
+        raise ValueError(f"tension-private: {tid} is not public; link refused")
+    return {"id": f"tension:{tid}", "status": row.get("status", "?")}
+
+
 def openpatala_block(tw: Path, work: str) -> dict:
     """Openpatala identity for the essay's work (read-only, never raises).
 
@@ -116,6 +135,10 @@ def main() -> int:
                     help="L3 pass: sentence-to-claim tracing enforced (fail-closed), essence map, kill register")
     ap.add_argument("--l4", action="store_true",
                     help="L4 pass: per-paragraph DRAFT files (craft_notes + rejected + reads_against) + claim-overlap audit")
+    ap.add_argument("--tension", default="",
+                    help="single tension id this essay resolves/loosens (one essay, at most one tension)")
+    ap.add_argument("--tension-rel", default="resolves", choices=("resolves", "loosens"),
+                    help="relation of this essay to --tension")
     a = ap.parse_args()
     if not re.fullmatch(r'[A-Za-z0-9][A-Za-z0-9_-]{0,99}', a.slug):
         print('ERROR: invalid output slug', file=sys.stderr)
@@ -123,6 +146,17 @@ def main() -> int:
     if a.owner is None and a.research is None:
         print("ERROR: need --owner and/or --research voice (compiler never writes voice)")
         return 1
+    tension = None
+    if a.tension:
+        if a.tension_rel not in ("resolves", "loosens"):
+            print("ERROR: --tension-rel must be resolves|loosens", file=sys.stderr)
+            return 1
+        try:
+            row = resolve_tension(a.tension)
+        except ValueError as e:
+            print(f"ERROR: {e}", file=sys.stderr)
+            return 1
+        tension = {"id": row["id"], "relation": a.tension_rel}
     try:
         title, quotes, frames = "", [], []
         if a.owner:
@@ -303,6 +337,8 @@ def main() -> int:
     TRACK_RULES = {
         "tantrasara-a08:tsa08-p02": ["F7", "F8"],
         "tantrasara-a08:tsa08-p04": ["F10"],
+        "tantrasara-a08:tsa08-p03": ["F10"],
+        "tantrasara-a08:tsa08-p01": ["F11"],
         "tantraloka-a34:tal-a34-p01": ["F9", "F6"],
     }
     tracks = sorted(TRACK_RULES.get(marker_chunk, []))
@@ -357,6 +393,21 @@ def main() -> int:
               "graph": {"nodes": len(graph["nodes"]), "edges": len(graph["edges"])},
               "note": "compiled, not written: owner words verbatim; substance from frozen banked claims"}
     (swarm / f"{slug}.receipt.json").write_text(json.dumps(report, ensure_ascii=False, indent=1) + "\n")
+    ej = {"format": "trika-essay/1", "id": f"essay:{slug}", "title": a.title or title,
+          "date": day, "chunk": marker_chunk, "verses": a.verses,
+          "voice": [{"text": q, "source": str(a.owner or a.research or a.corpus_db or "")}
+                    for q in quotes + rquotes] +
+                   [{"text": f"{q} [{u} grade {g}]", "source": f"corpus:{a.corpus_topic}"}
+                    for u, g, q in cquotes],
+          "claims": frozen,
+          "theorems": [{"name": t, "tier": "UNVERIFIED"} for t in a.theorems],
+          "open_questions": ["Which banked premises does framing select?",
+                             "What would a witness change?",
+                             "What rival readings live in uncertainties?"],
+          "tracks": tracks, "openpatala": report["openpatala"],
+          "tension": tension,
+          "status": "MACHINE-COMPILED", "receipt": f"{slug}.receipt.json"}
+    (swarm / f"{slug}.essay.json").write_text(json.dumps(ej, ensure_ascii=False, indent=1) + "\n")
     print(f"compiled -> swarm/{slug}.* | quotes: {len(quotes)} | units: {len(nodes)} | "
           f"{cited}/{len(table['claims'])} CITED | graph: {len(graph['nodes'])}n/{len(graph['edges'])}e")
     return 0
