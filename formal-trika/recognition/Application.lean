@@ -5,14 +5,14 @@
   shared precondition explicitly, cites below):
   - Grace.lean: flip ↔ ready ∧ grace (flip needs readiness AND grace).
   - Upaya.lean: sambhava/sakta/anava each need readiness (plus own gates).
-  Result: a single readiness gate — ¬ready ⟹ no flip under any means —
-  which the syllabus compiler CITES for study-fallback (eligibility.py:
-  unknown → study). First rung whose theorem is consumed downstream.
+  Result: a single readiness condition — ¬ready ⟹ no flip under any means —
+  inside this stipulated model. It cannot validate a compiler's safety,
+  a person's readiness, or authorization to practise.
 
   What this file IS: cross-model robustness of one precondition + the
   grace/means categorical distinction, over a finite product model.
   What it is NOT: a practice prescription, a guru, or metaphysics.
-  R-tier composition; T ground inherited (tsa08-p02 v35; tsa08-p01 v17).
+  R-tier composition; no source entailment is established by these links.
   Finite model; `decide` inside scope only.
 -/
 namespace FormalRecognition
@@ -36,7 +36,7 @@ def flip (s : PracticeState) : Bool := s.ready && s.grace
 /-- The three means' readiness gates (shared shape, restated). -/
 def meansReady (s : PracticeState) : Bool := s.ready
 
-/-- A-APP1: unready ⟹ no flip under any means (study-fallback, backed). -/
+/-- A-APP1: unready ⟹ no flip under any means, in this model. -/
 theorem unready_unreachable :
     (allPractice.filter fun s => !s.ready && flip s).length = 0
     && (allPractice.filter fun s => !s.ready && meansReady s).length = 0 := by decide

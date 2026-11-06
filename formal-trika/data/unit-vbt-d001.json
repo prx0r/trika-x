@@ -17,10 +17,10 @@
  "coord": "Āhnika 7 (Cakrodaya)",
  "upaya": "Breath-Based (Āṇavopāya)",
  "eligibility": {
-  "eligibility": "doable",
-  "rule": "doable-marker:breath|prāṇāyāma|inhal|exhal",
+  "eligibility": "study",
+  "rule": "caution-marker:review-required",
   "cautions": [
-   "breath retention: not in pregnancy or with high blood pressure; keep short, stop on dizziness"
+   "breath retention: source and individual safety review required"
   ]
  },
  "steps": [
@@ -32,11 +32,11 @@
   }
  ],
  "safety": [
-  "breath retention: not in pregnancy or with high blood pressure; keep short, stop on dizziness"
+  "breath retention: source and individual safety review required"
  ],
  "ask_pointers": [
   "effects/signs/powers, if any arise, are Ask material — never scripted promises"
  ],
  "status": "review",
- "unit_sha256": "f7fda9b5160ee9b33f8c446a231e7daebf0aab1628e0e331cf97632ed33f652d"
+ "unit_sha256": "a71fe7268d5b40663d69807854ce0b69e0b7e72bcb1c3b257e798e2daef243e7"
 }

@@ -31,10 +31,14 @@ here runs; it tells future builds what to consume.
 
 ## Build order (teacher track)
 
-1. Rater-2 pass (unblocks T-C2; unlocks means-advice: āṇava→repeat, śākta→discriminate, śāmbhava→stop-techniquing).
+1. A rater-2 pass can assess agreement on T-C2's experimental labels. It
+   cannot validate those labels as Sanskrit-derived criteria or authorize
+   means-specific advice; source, interpretation and practice review remain
+   separate. See [the source review](SANSKRIT-FOUNDATION-REVIEW-2026-11-06.md).
 2. Station pass over all 144 moments (unlocks "which station" answers).
 3. Crux-queue feed: recurring unmapped/contradictory moments become Treeka cruxes (teacher's curriculum).
-4. Relay integration: relay tiers gain `formal_status` (which spans are Lean-checked); teacher cites receipts, never asserts.
+4. Relay integration: carry exact source, model, proof-run and review status
+   separately. A Lean theorem cannot by itself check a Sanskrit span.
 5. Journey-day truth: Day N consumes only gated units (no rung ships without hash+decision+gate+signer — endgame invariant).
 
 ## Non-goals

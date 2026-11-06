@@ -1,8 +1,10 @@
 # End-to-end receipt — tsa08-p03 (one-passage slice, 2026-11-06)
 
-First slice per PEER-REVIEW-2026-11-06 § "Practical first slice": one
-rights-cleared source passage, one exact layer revision, one named theorem
-and its mutation, scholar mapping review. Status of each link for
+Proposed slice per PEER-REVIEW-2026-11-06 § "Practical first slice": one
+source passage, exact layer revision, named theorem and mutation, and scholar
+mapping review. Rights clearance and mapping review have not been established.
+The receipt test uses self-asserted test evidence; it checks receipt mechanics,
+not a verified source-to-proof-to-publication chain. Status of each link for
 **tsa08-p03** (Tantrasāra a08, verses 8.39–8.64):
 
 | Step | Evidence | Outcome |
@@ -23,7 +25,7 @@ refused as passage, unknown locators nonzero-exit, tampered ledgers fail,
 unverified witnesses unpromotable, stale/duplicate snapshots rejected.
 `test_receipts_hardening.py` (ipvv, 11/11) covers the authority side.
 
-## Blocker (single, explicit)
+## Remaining blockers
 
 Witness pinning needs a populated openpatala database (the API reads
 witnesses from PostgreSQL; this box has schema-only dump + repo mirror;
@@ -31,4 +33,5 @@ row data lives in GitHub `prx0r/patalacheckpoints`, `prx0r/openpatala`).
 Until the resolver binds a specific manuscript + identifier +
 edition/transcription, every downstream claim stays `CANDIDATE`, display
 stays research-record-only, and no essay may cite Lean as doctrine.
-Do NOT invent a siglum to satisfy a test.
+Rights, exact source bytes, layer versions and scholar mapping review also
+remain open. Do NOT invent a siglum to satisfy a test.

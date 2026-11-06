@@ -4,11 +4,11 @@
   stipulated 4-state space + MODEL scope. The n≥2 bound formalizes
   "repeated" minimally (a modeling choice, not a textual count).
 
-  From the day-7 decode: mantra-repetition (#23) and insight-cascade
-  (#30–31) share thought-factors but are different MEANS. T-tier ground:
-  tsa-a08 v17 (the five pure-course followers: śāmbhava/śākta/…/mantra)
-  and VBT dhāraṇās (the means catalog; experience-language criteria live
-  in UPAYA-CRITERIA.md, not here).
+  The three labels are experimental analogies from day-7 decode. Tantrasāra
+  8.17 lists five classes of followers, not the three means' definitions.
+  Tantrasāra 1 and 2 distinguish anupāya from the three means: see
+  SANSKRIT-FOUNDATION-REVIEW-2026-11-06.md. No source reviewed here entails
+  the exact Boolean preconditions or the n≥2 threshold.
 
   What this file IS: three transition relations over a minimal means-state
   (readiness + purified-vikalpa flag + application count), with their
@@ -16,7 +16,8 @@
   śākta needs the purified-vikalpa flag; āṇava needs repeated application
   (n ≥ 2). Ordering recorded whichever way it falls.
   What it is NOT: a proof that any lived clause used any means. The
-  empirical bite is T-C2 (rater agreement on criteria), not this file.
+  empirical candidate is T-C2 (rater agreement on criteria); agreement alone
+  cannot validate the criteria or any textual attribution.
 -/
 namespace FormalRecognition
 

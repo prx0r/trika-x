@@ -1,5 +1,10 @@
 # Run the formal Trika checks
 
+Read the [Sanskrit foundation review](SANSKRIT-FOUNDATION-REVIEW-2026-11-06.md)
+before using these models in translation, essays or teaching. The 36-total
+model previously hid compensating classification errors; its old run records
+do not validate the corrected source-to-model mapping.
+
 From a fresh checkout, install [elan](https://github.com/leanprover/elan) and
 allow it to install the version pinned in `../lean-toolchain` (Lean 4.34.1).
 Python 3 and a POSIX shell are required. No `/root/...` checkout layout, source
@@ -49,6 +54,13 @@ The 2026-11-06 review used the official Lean 4.34.1 Linux release, Lean commit
 `47bf4bbd78f70c2e9670598ab7124d92b6efb7330ff33e5fbb4030f6fd72e4e4`.
 The archive is not vendored here. A `--version` match is not by itself binary
 attestation, and the hand-written mutants still require semantic diff review.
+
+The `treeka-research-index/2` graph records direct registry references without
+claiming the referenced passages are formalized; `formalized: null` means
+unknown. Its node and queue freshness is not verified. The practice pathway
+assembler currently emits study-only items; no review flag in an input file
+can authorize a practice. Cross-repository chain tests are optional and report
+skips if `IPVV_CHECKOUT` and `TRANSLATION_WORK` are unavailable.
 
 Static axiom hygiene (no Lean needed):
 ```sh

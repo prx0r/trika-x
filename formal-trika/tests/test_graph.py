@@ -18,6 +18,22 @@ def load_tool(name):
 
 
 class GraphTests(unittest.TestCase):
+    def test_only_explicit_theorem_references_are_counted(self):
+        t = load_tool('treeka')
+        evidence = {
+            'works': {'a': {'ledger': 'translation-work/wa/passages.jsonl',
+                            'chunks': ['a-p01', 'a-p02']}},
+            'entries': {'Example.lean :: result': {'chunks': [{'locator': 'a-p01'},
+                                                                {'locator': 'vbt'}]}}
+        }
+        refs = t.formal_references(evidence)
+        self.assertEqual(refs, {('wa', 'a-p01'): ['Example.lean :: result']})
+        self.assertNotIn(('wa', 'a-p02'), refs)
+        evidence['works']['b'] = {'ledger': 'translation-work/wb/passages.jsonl',
+                                  'chunks': ['a-p01']}
+        with self.assertRaisesRegex(ValueError, 'ambiguous'):
+            t.formal_references(evidence)
+
     def test_range_parsing(self):
         m = load_tool("argmap_nodes")
         self.assertEqual(m.parse_range("8.1-8.17"), ("verse", (1, 17)))
@@ -66,6 +82,9 @@ class GraphTests(unittest.TestCase):
                 '{"locator":"a-p01","verses":"1-9"}\n{"locator":"a-p02","verses":"10-18"}\n')
             (tw / "wb").mkdir()
             (tw / "wb" / "passages.jsonl").write_text('{"locator":"a-p01","verses":"1-5"}\n')
+            essays = tw / 'wb' / 'scholar' / 'essays'
+            essays.mkdir(parents=True)
+            (essays / 'example.json').write_text(json.dumps({'target': 'a-p01'}))
             sm.write_text(json.dumps({"works": {
                 "wa": {"status": "CANDIDATE"}, "wb": {"status": "CANDIDATE"}}}))
             out = Path(td) / "treeka.json"
@@ -78,14 +97,32 @@ class GraphTests(unittest.TestCase):
             self.assertIn("wa:a-p01", doc["works"])
             self.assertIn("wb:a-p01", doc["works"])
             self.assertNotIn("a-p01", doc["works"])
+            self.assertEqual(doc['format'], 'treeka-research-index/2')
+            self.assertIn('a-p01', doc['ambiguous_locators'])
+            self.assertIsNone(doc['works']['wa:a-p01']['formalized'])
+            self.assertEqual(doc['works']['wa:a-p01']['essays'], [])
+            self.assertEqual(doc['works']['wb:a-p01']['essays'], ['example.json'])
 
     def test_audits_run(self):
         s = load_tool("source_audit")
-        sys.argv = ["source_audit.py"]
-        self.assertEqual(s.main(), 0)
         d = load_tool("decision_check")
-        sys.argv = ["decision_check.py"]
-        self.assertEqual(d.main(), 0)
+        with tempfile.TemporaryDirectory() as td:
+            root = Path(td)
+            for module in (s, d):
+                sys.argv = ['audit.py', '--tw', str(root)]
+                self.assertEqual(module.main(), 1)
+            work = root / 'w'
+            work.mkdir()
+            (work / 'passages.jsonl').write_text('{"locator":"w-p01"}\n')
+            (work / 'SOURCE.txt').write_text('candidate')
+            for module in (s, d):
+                sys.argv = ['audit.py', '--tw', str(root)]
+                self.assertEqual(module.main(), 0)
+            scholar = work / 'scholar'
+            scholar.mkdir()
+            (scholar / 'decisions.jsonl').write_text('{malformed\n')
+            sys.argv = ['decision_check.py', '--tw', str(root)]
+            self.assertEqual(d.main(), 1)
 
 
     def test_tensions_export_public_only(self):

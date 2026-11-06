@@ -5,6 +5,33 @@ scored against their preregistration files. Scoring stays **provisional** until
 the scored conditions are fully met (independent raters, replication,
 sufficient n).
 
+**Correction for TK-R2:** the original 36 total masked two compensating
+classification errors, and its eleven-faculty interpretation used the wrong
+groups. The historical entries below describe the earlier model, not the
+corrected one. See [the source review](SANSKRIT-FOUNDATION-REVIEW-2026-11-06.md).
+Old runs do not verify a changed model; a fresh Lean run and independent
+source-to-model review are required.
+
+### Correction run — 2026-11-06
+
+Against the amended files on base `f42a2ea`, the pinned Lean 4.34.1 release
+compiled the control and recognition suites. The control suite rejected its
+seven intended mutants, including a new test that incorrectly places māyā
+among the five pure tattvas; the recognition suite reported 26/26 positive
+and intended-negative checks. `#print axioms` reported none for
+`FormalTrika.eleven_wombed`, `FormalTrika.thirty_six` and
+`FormalTattvaInventory.pure_excludes_maya`, and `[propext]` for
+`FormalTattvaInventory.named_tattvas_exhaustive`.
+
+Exact source hashes: `Tattva.lean` SHA-256
+`06c067d5ea4a0912391156cc359aefcd6fb0a83f89778df9d3eb74f143e7b1ea`;
+`TattvaInventory.lean` SHA-256
+`7845ffef27afdce6c60bb0a722e52ab04bfd7ca10d2bce09e5c24e75fca92535`;
+`Avarana.lean` SHA-256
+`3ae1d40958acccb78ccab135a20f2f2a6d94825fa6f989ba61261850826a7f33`.
+The Lean archive hash is the one in README; these checks establish properties
+of the amended models, not the accuracy of the Sanskrit interpretation.
+
 ---
 
 ## 2026-11-06 — Arm A: control (TK-C1/C2, P-TK1–4)
