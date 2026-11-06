@@ -24,7 +24,7 @@ OUT = HERE / "data" / "review-status.json"
 
 def theorems():
     out = set()
-    for d in ("control", "recognition"):
+    for d in ("control", "recognition", "buddhist", "frontier"):
         for f in sorted((HERE / d).glob("*.lean")):
             if f.name.startswith("Broken"):
                 continue

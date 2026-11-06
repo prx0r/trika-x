@@ -17,7 +17,8 @@ import bridge_resolve
 
 HERE = Path(__file__).resolve().parent.parent
 EV = json.loads((HERE / "EVIDENCE.json").read_text(encoding="utf-8"))
-SOURCES = [str(f.relative_to(HERE)) for d in ("control", "recognition")
+SOURCES = [str(f.relative_to(HERE)) for d in ("control", "recognition",
+                                              "buddhist", "frontier")
            for f in sorted((HERE / d).glob("*.lean")) if not f.name.startswith("Broken")]
 TW = Path(sys.argv[sys.argv.index("--root") + 1]
           if "--root" in sys.argv else os.environ.get("TRANSLATION_WORK", HERE.parent.parent / "translation-work"))

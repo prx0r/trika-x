@@ -64,14 +64,14 @@ reading the encoding. Rows: 139 theorems (incl. 2 scaffolds).*
 | control/TattvaGen.lean | pure_distinct | The five primacy powers are pairwise distinct: no collapsed principle. |
 | control/TattvaGen.lean | pentad_uniform | Every modality holds exactly five: uniform derivation, no 6/4 split. |
 | control/TattvaGen.lean | cut_arith | Thirty-one manifest as thirty-six minus five: the cut counts check. |
-| control/Aperture.lean | aperture_nine | Nine operations in the aperture roster: the inventory count holds. |
-| control/Aperture.lean | aperture_distinct | The nine operations are pairwise distinct: no collapsed entry. |
-| control/Nanavira.lean | matchings_three | Three perfect pairings of four members: columns, rows, both. |
-| control/Nanavira.lean | orders_scale | Orders run four, sixteen, sixty-four: reflexion scales by four. |
-| control/Nanavira.lean | parasite_erase | Removing the extra leaves the structure: erasure without loss. |
-| control/Tetrahedron.lean | gap_five | No five-vertex uniform solid: the gap at five holds. |
-| control/Tetrahedron.lean | unique_four | Exactly one four-vertex uniform solid: the minimum system. |
-| control/Tetrahedron.lean | euler_tet | Four less six plus four is two: the inventory balances. |
+| frontier/Aperture.lean | aperture_nine | Nine operations in the aperture roster: the inventory count holds. |
+| frontier/Aperture.lean | aperture_distinct | The nine operations are pairwise distinct: no collapsed entry. |
+| buddhist/Nanavira.lean | matchings_three | Three perfect pairings of four members: columns, rows, both. |
+| buddhist/Nanavira.lean | orders_scale | Orders run four, sixteen, sixty-four: reflexion scales by four. |
+| buddhist/Nanavira.lean | parasite_erase | Removing the extra leaves the structure: erasure without loss. |
+| frontier/Tetrahedron.lean | gap_five | No five-vertex uniform solid: the gap at five holds. |
+| frontier/Tetrahedron.lean | unique_four | Exactly one four-vertex uniform solid: the minimum system. |
+| frontier/Tetrahedron.lean | euler_tet | Four less six plus four is two: the inventory balances. |
 | recognition/Transitions.lean | trec_preserves_embodiment | De-exclusivizing the 7 positioning bits never touches the 5 embodiment bits, on all 4096 states. |
 | recognition/Transitions.lean | trec_clears_bondage | After T_rec, bondage (limitation + exhaustive-identification + externalization) holds nowhere. |
 | recognition/Transitions.lean | trec_retains_limitation | Limitation survives recognition on every state: no destruction of embodiment. |

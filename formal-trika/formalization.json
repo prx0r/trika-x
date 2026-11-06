@@ -20,15 +20,15 @@
   }
  ],
  "status": {
-  "theorems": 131,
+  "theorems": 139,
   "core": 0,
-  "frontier": 131,
+  "frontier": 139,
   "sorry_count": 0,
   "exemptions": [
    "finite_missing",
    "fin_two"
   ],
-  "trika_x_revision": "c0130cfabce4ec84a585b4f7840d421987574ad0"
+  "trika_x_revision": "89ca3f2e4be07491772acb136d7ff5a2789eef66"
  },
  "review": {
   "status": "self-assessed",
@@ -111,6 +111,18 @@
      "ARGMAP-PINNED"
     ]
    ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Aperture.lean :: aperture_distinct",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Aperture.lean :: aperture_nine",
+   "chunks": [],
    "tier": "Frontier",
    "reading": false
   },
@@ -558,6 +570,24 @@
    "reading": false
   },
   {
+   "lean": "Nanavira.lean :: matchings_three",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Nanavira.lean :: orders_scale",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Nanavira.lean :: parasite_erase",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
    "lean": "NonEntail.lean :: abcde_without_f",
    "chunks": [],
    "tier": "Frontier",
@@ -935,6 +965,24 @@
      "CONTEXT_ONLY"
     ]
    ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tetrahedron.lean :: euler_tet",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tetrahedron.lean :: gap_five",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tetrahedron.lean :: unique_four",
+   "chunks": [],
    "tier": "Frontier",
    "reading": false
   },
