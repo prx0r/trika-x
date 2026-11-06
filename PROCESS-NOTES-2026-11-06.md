@@ -1168,3 +1168,16 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   formalized), tractatus set, film-packs, sleepyshorts.
 - EVIDENCE convention extended (documented): entries MAY carry sanskrit
   (verbatim span), mapping (grid cell + alignment), research_room (bool).
+
+## Ochema2 magnum docs (read, adopted selectively).
+
+- README = crystallised programme (TAL-centered, 3 questions, channeled =
+  hypothesis-generators never evidence; peer-review-chastened). Aligned.
+- Frontiers: master equation Dᵢ=Λₚ(M,Πᵢ,Σᵢ) + TEN PREMISES (X ⟹̸ co-presence
+  ×7 + inclusion/exclusion positive) → NonEntail-family rung candidates
+  (queued, not built). ochema2ref = master inventory (COMPENDIUM 32
+  findings, SYNTHESIS cut-list, rasa audit model, sciencetime).
+- Adoptions: rasarasa attribution-correction practice (PTv vs TĀ vs
+  footnotes — apply to quote validation); song-with-no-singer to voice
+  pool (mythic register, cross-tradition quotes intact).
+- RASA/SPANDA/MANTRA frameworks noted (H/speculative; not formalized).
