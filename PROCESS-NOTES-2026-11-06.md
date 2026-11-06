@@ -653,3 +653,13 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   line surgery + WORK_OF prefixes; bridge trinity lockstep verified by inventory.
 - Downstream: composition 23 COMPOSED / 3 PARTIAL / 1 DOUBLE-GAP; nodes 3101
   (upstream added argmaps); treeka unargued 669 → 578.
+
+## CRUX-03 essay slice (tsa-first): chain runs, tiers corrected by its own gate.
+
+- CRUX-WALKTHROUGH-03 (eleven-wombed faculties): tsa08-p04 argmap nodes
+  (v71/73/75/79) → Tattva.lean eleven_wombed → tiered draft + claim table.
+- PUSHBACK: beam-free + deepseek-v4.1-flash (CF) CONVERGE — claims 1-4 were
+  mis-tiered T, are R (argmap-reconstructed, verbatim-unbound); set-label
+  counter-reading recorded; table relabeled, prose trimmed.
+- Tool fixes: cf_object parses choices-style responses; linker only objects
+  bracket-marked paras (1/15) — tables need markers (open item).

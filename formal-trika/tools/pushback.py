@@ -70,6 +70,10 @@ def cf_object(model, claim, markers, evidence):
     try:
         return d["result"]["response"]
     except (KeyError, TypeError):
+        pass
+    try:  # OpenAI-style chat completion shape (e.g. deepseek-v4.1-flash)
+        return d["result"]["choices"][0]["message"]["content"]
+    except (KeyError, TypeError, IndexError):
         return f"OBJECTION — model call malformed: {json.dumps(d)[:300]}"
 
 
