@@ -15,8 +15,9 @@
 | `python3 -m unittest discover -s formal-trika/tests -v` | PASS | Inventory status and fail-closed mutation-runner regressions. |
 | Missing Lean negative control | PASS | Runner exits 2 before emitting any mutation PASS. |
 
-This is a local rerun, not a signed or independently reproduced CI receipt.
-The hand-written mutation models and the textual bridges still require review.
+This table records the local rerun; the PR also runs the checks on GitHub
+Actions. Neither is a signed release receipt. The hand-written mutation
+models and the textual bridges still require review.
 
 ## Original historical report
 
