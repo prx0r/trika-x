@@ -21,6 +21,7 @@ class ReviewBoundaries(unittest.TestCase):
         self.tools = self.project / 'tools'
         self.tools.mkdir(parents=True)
         (self.project / 'data').mkdir()
+        (self.project / 'data/research-tracks.json').write_text('{"tracks": []}')
         for name in ('review_status.py', 'roboscholar.py', 'essay_compile.py'):
             shutil.copy(ROOT / 'tools' / name, self.tools / name)
         self.tw = self.root / 'translation-work'
