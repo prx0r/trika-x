@@ -845,3 +845,16 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   proposal; Faithfulness-gap papers == PUSHBACK-as-judge validation.
 - Pāṇini literature: Sandhikosh = eval for sandhi follow-up; Heritage
   segmenter = cheda comparison; parser-table compilation == our pattern.
+
+## Axiom steals implemented (formalization.yaml read properly).
+
+- formalization.json: project + pinned sources + honesty counts + review
+  status + per-theorem alignment, assembled (tools/formalization_manifest.py,
+  --check for CI). Our scattered receipts now have one front door.
+- claim.py: blueprint claims before modeling (statement + intended Lean +
+  defs + outline), no-collision enforced, lead approves by edit. Verified
+  (open/collide/close), ledger starts empty.
+- Covers-convention in prereg template (partial notation, no weakening).
+- NOT transferred (recorded): Mathlib-scale deps (no Trika Mathlib exists);
+  EGA/SGA cross-tagging (openpatala could become the authority graph —
+  future); per-tag website (treeka column is our version).

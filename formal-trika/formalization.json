@@ -1,0 +1,1098 @@
+{
+ "format": "trika-formalization-manifest/1",
+ "project": {
+  "name": "formal-trika",
+  "description": "Lean 4 formalizations of Trika structures; R-default, Core only on human review",
+  "license": "see repo root",
+  "responsible": "box agent builds; lead agent + scholar review"
+ },
+ "sources": [
+  {
+   "title": "translation-work passage ledgers",
+   "revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
+   "manifest_rev": "f430a18ae099971a73ce6970ec23bf3c82ab3b4f",
+   "relationship": "formalizes-chunks-of"
+  },
+  {
+   "title": "gold argmaps (same lane, machine-proposed)",
+   "relationship": "reconstructs-from",
+   "note": "R-grounds, never T; independent key owed"
+  }
+ ],
+ "status": {
+  "theorems": 131,
+  "core": 0,
+  "frontier": 131,
+  "sorry_count": 0,
+  "exemptions": [
+   "finite_missing",
+   "fin_two"
+  ],
+  "trika_x_revision": "c0130cfabce4ec84a585b4f7840d421987574ad0"
+ },
+ "review": {
+  "status": "self-assessed",
+  "note": "No scholar review yet; Core promotion needs reviewer+reason (never self)"
+ },
+ "automation": {
+  "methods": [
+   "hand-modeled rungs",
+   "swarm sketches (calibration owed)"
+  ],
+  "notes": "swarm-formal SKILL; blind family-2 replication closed for Upaya encoding"
+ },
+ "alignment": [
+  {
+   "lean": "AnswerKey.lean :: key_five_followers",
+   "chunks": [
+    [
+     "tsa08-p01",
+     "T",
+     "VERIFIED-QUOTE"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "AnswerKey.lean :: key_five_kancukas",
+   "chunks": [
+    [
+     "tsa08-p03",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "AnswerKey.lean :: key_grace_term",
+   "chunks": [
+    [
+     "tsa08-p02",
+     "T",
+     "VERIFIED-QUOTE"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "AnswerKey.lean :: key_hundred_twelve_dharanas",
+   "chunks": [
+    [
+     "vbt",
+     "T",
+     "UNPINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "AnswerKey.lean :: key_seven_experients",
+   "chunks": [
+    [
+     "tsa08-p03",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "AnswerKey.lean :: key_thirtysix_tattvas",
+   "chunks": [
+    [
+     "tsa07-p01",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Application.lean :: grace_not_a_means",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Application.lean :: unready_unreachable",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Avarana.lean :: course_ascends",
+   "chunks": [
+    [
+     "tsa07-p01",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Avarana.lean :: partial_order_honest",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Conjuncts.lean :: drop_reidentification_loses",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Conjuncts.lean :: drop_stabilization_loses",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Conjuncts.lean :: drop_transformation_loses",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Conjuncts.lean :: drop_veridicality_loses",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Conjuncts.lean :: misidentification_never_recognizes",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Conjuncts.lean :: part_coherent_distinct_tokens",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Conjuncts.lean :: pi_independent_of_grounds",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Conjuncts.lean :: recognition_unique",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Conjuncts.lean :: siva_requires_axioms",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Conjuncts.lean :: unus_ambu_not_identity",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Coords.lean :: coords_covered_once",
+   "chunks": [
+    [
+     "tsa08-p03",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Coords.lean :: no_unrestricted_perspective",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Coords.lean :: one_raw_invalid_combination",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Coords.lean :: restricted_perspective_exists",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "EgoOrigin.lean :: accounts_differ_derivative",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "EgoOrigin.lean :: accounts_differ_pureI",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "EgoOrigin.lean :: feeling_makership_independent",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "EgoOrigin.lean :: nonrivalled_does_work",
+   "chunks": [
+    [
+     "tsa08-p04",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "EgoOrigin.lean :: sankhya_requires_cause",
+   "chunks": [
+    [
+     "tsa08-p04",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "EgoOrigin.lean :: trika_self_grounding_exists",
+   "chunks": [
+    [
+     "tsa08-p04",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Embed.lean :: earth_all5",
+   "chunks": [
+    [
+     "tsa07-p01",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Embed.lean :: ether_sound_only",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Embed.lean :: nesting",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Grace.lean :: both_gaps_exist",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Grace.lean :: flip_iff_ready_and_grace",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Grace.lean :: grace_insufficient_alone",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Grace.lean :: readiness_insufficient",
+   "chunks": [
+    [
+     "tsa08-p02",
+     "T",
+     "CONTEXT_ONLY"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Heaps.lean :: guna_exhaustive",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Heaps.lean :: guna_threefold",
+   "chunks": [
+    [
+     "tsa08-p04",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Heaps.lean :: heap_eleven",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Heaps.lean :: heap_has_both_kinds",
+   "chunks": [
+    [
+     "tsa08-p04",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Kancuka.lean :: count_5",
+   "chunks": [
+    [
+     "tsa08-p03",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Kancuka.lean :: pairings_distinct",
+   "chunks": [
+    [
+     "tsa08-p03",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "KancukaCorr.lean :: corr_doubt_vidya",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "KancukaCorr.lean :: corr_pull_raga",
+   "chunks": [
+    [
+     "tsa08-p03",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "KancukaCorr.lean :: corr_stall_kala",
+   "chunks": [
+    [
+     "tsa08-p03",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "KancukaCorr.lean :: coverage_partial",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "KancukaCorr.lean :: unknowns_explicit",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Ladder.lean :: abandon_strict",
+   "chunks": [
+    [
+     "tal-a34-p01",
+     "R",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Ladder.lean :: chain_trans",
+   "chunks": [
+    [
+     "tal-a34-p01",
+     "R",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Ladder.lean :: terminal_no_successor",
+   "chunks": [
+    [
+     "tal-a34-p01",
+     "R",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Mala.lean :: count_3",
+   "chunks": [
+    [
+     "tsa08-p02",
+     "T",
+     "ARGMAP-PINNED"
+    ],
+    [
+     "phr-p04",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "MalaFuel.lean :: fuel_terminates",
+   "chunks": [
+    [
+     "phr-p04",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "MalaFuel.lean :: grace_ignites",
+   "chunks": [
+    [
+     "phr-p04",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "MalaFuel.lean :: strength_monotone",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Memory.lean :: foundations_without_m4_exist",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Memory.lean :: m4_requires_foundation",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Memory.lean :: m4_without_m5",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Memory.lean :: no_enacting_without_seeing",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Memory.lean :: sees_without_enacting",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "NonEntail.lean :: abcde_without_f",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "NonEntail.lean :: aby_not_b",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "NonEntail.lean :: b_not_c",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "NonEntail.lean :: c_not_d",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "NonEntail.lean :: copresence_nontransitive",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "NonEntail.lean :: d_not_e",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "NonEntail.lean :: e_not_f",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "NonEntail.lean :: no_global_section",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "NonEntail.lean :: pairwise_satisfiable_xy",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "NonEntail.lean :: vim7_independent",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Nyasa.lean :: ka_uniform",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Nyasa.lean :: malini_total",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Nyasa.lean :: maps_diverge",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Nyasa.lean :: matrika_total",
+   "chunks": [
+    [
+     "tal-a15-p12",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Nyasa.lean :: multiset_kept",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Nyasa.lean :: order_chief",
+   "chunks": [
+    [
+     "tal-a15-p12",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Pramatr.lean :: eight_combos",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Pramatr.lean :: profile",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Pramatr.lean :: seven",
+   "chunks": [
+    [
+     "tsa08-p03",
+     "T",
+     "ARGMAP-PINNED"
+    ],
+    [
+     "param-p04",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Pratyahara.lean :: ac_vowels",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Pratyahara.lean :: hal_consonants",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Pratyahara.lean :: inventory_43",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Pratyahara.lean :: markers_13",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Pratyahara.lean :: markers_excluded",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Recognition.lean :: contentEq_sharp",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Recognition.lean :: recognition_adds_nothing",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Recognition.lean :: recognition_lands_recognized",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Recognition.lean :: recognition_preserves_content",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Reversal.lean :: semi_reversed",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Reversal.lean :: span_reversed",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tattva.lean :: all_groups_present",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tattva.lean :: compression_ratio",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tattva.lean :: eleven_wombed",
+   "chunks": [
+    [
+     "tsa07-p01",
+     "T",
+     "ARGMAP-PINNED"
+    ],
+    [
+     "tsa08-p04",
+     "R",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tattva.lean :: five_gross_elements",
+   "chunks": [
+    [
+     "tsa07-p01",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tattva.lean :: thirty_six",
+   "chunks": [
+    [
+     "tsa07-p01",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaGen.lean :: cut_arith",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaGen.lean :: gen_total",
+   "chunks": [
+    [
+     "tsa08-p01",
+     "R",
+     "ARGMAP-PINNED"
+    ],
+    [
+     "tsa08-p04",
+     "R",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaGen.lean :: pentad_uniform",
+   "chunks": [
+    [
+     "tsa08-p04",
+     "R",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaGen.lean :: pure_distinct",
+   "chunks": [
+    [
+     "tsa08-p01",
+     "R",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaInventory.lean :: kancuka_count",
+   "chunks": [
+    [
+     "tsa07-p01",
+     "T",
+     "CONTEXT_ONLY"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaInventory.lean :: maya_six_count",
+   "chunks": [
+    [
+     "tsa08-p03",
+     "T",
+     "CONTEXT_ONLY"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaInventory.lean :: named_tattvas_36",
+   "chunks": [
+    [
+     "tsa07-p01",
+     "T",
+     "CONTEXT_ONLY"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaInventory.lean :: named_tattvas_exhaustive",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaInventory.lean :: named_tattvas_unique",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaInventory.lean :: pure_and_kancukas_disjoint",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaInventory.lean :: pure_count",
+   "chunks": [
+    [
+     "tsa08-p01",
+     "T",
+     "CONTEXT_ONLY"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "TattvaInventory.lean :: pure_excludes_maya",
+   "chunks": [
+    [
+     "tsa08-p01",
+     "T",
+     "CONTEXT_ONLY"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: bit_content_relational",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: every_context_supported",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: fin_two",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: finite_missing",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: no_total_self_model",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: no_universal_support",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: rec1_without_rec2",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: rec2_without_fullrec",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: recognition_needs_reflexive_edge",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: recognition_reachable",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Tractatus.lean :: suffering_reachable",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Transitions.lean :: acquire_is_not_recognition",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Transitions.lean :: anava_stuck_exists",
+   "chunks": [
+    [
+     "tsa08-p02",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Transitions.lean :: karma_loop_exists",
+   "chunks": [
+    [
+     "tsa08-p02",
+     "T",
+     "ARGMAP-PINNED"
+    ]
+   ],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Transitions.lean :: trec_clears_bondage",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Transitions.lean :: trec_idempotent",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Transitions.lean :: trec_preserves_embodiment",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Transitions.lean :: trec_retains_limitation",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Upaya.lean :: anava_needs_repetition",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Upaya.lean :: anava_two_suffice",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Upaya.lean :: anava_within_sambhava",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Upaya.lean :: sakta_needs_purity",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Upaya.lean :: sakta_within_sambhava",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  },
+  {
+   "lean": "Upaya.lean :: sambhava_immediate",
+   "chunks": [],
+   "tier": "Frontier",
+   "reading": false
+  }
+ ]
+}
