@@ -119,7 +119,36 @@ def resolve(ref, snapshot, mapping, by_locator, live_verified=False,
     if db_row is not None:
         out['backbone'] = db_row
         out['limitations'].append('backbone identity: box DB (populated from repos, not a witness)')
+    # Dossier layer (read-only): the openpatala gold dossier for this work
+    # id, if present in the local checkout. Reports assertion/event counts
+    # and states the witness-record count explicitly (0 everywhere checked
+    # 2026-11-06). NEVER changes witness_status.
+    out['dossier'] = dossier_lookup(mapping['works'][work].get('openpatala_work_id', ''))
+    out['limitations'].append('dossier is a data pointer; zero witness records is a finding, not a pin')
     return out
+
+
+def dossier_lookup(work_id: str) -> dict:
+    """Find the gold dossier for an openpatala work id in the local
+    checkout. Returns counts; witness_records is 0 (verified 2026-11-06:
+    dossiers carry TITLE/AUTHOR assertions only). Read-only, never raises."""
+    import glob as _glob
+    try:
+        for fp in _glob.glob('/root/openpatala/data/gold/*.json'):
+            try:
+                with open(fp, encoding='utf-8') as fh:
+                    d = json.load(fh)
+            except (ValueError, OSError):
+                continue
+            if d.get('work_id') == work_id or work_id in fp:
+                asserts = d.get('assertions', [])
+                wit = [a for a in asserts if 'wit' in str(a.get('predicate', '')).lower()]
+                return {'file': fp, 'assertions': len(asserts),
+                        'events': d.get('events_count', len(d.get('events', []))),
+                        'witness_records': len(wit)}
+    except OSError:
+        pass
+    return {'file': None, 'assertions': 0, 'events': 0, 'witness_records': 0}
 
 
 def db_lookup(dsn, locator):
