@@ -719,3 +719,19 @@ claim attacked: what single change breaks it?
 - [ ] ti/ca signatures found or coordinates dropped from claims
 - [ ] Station pass over all 144 moments
 - [ ] P-TK1 established or explicitly abandoned
+
+## 2026-11-06 — Rung 18: spanda pulse-facts (S-SPAND1–3, R)
+
+Prereg: PREREGISTRATION-SPAND-RUNG.md (R by inheritance from spanda/
+spans, kill criteria stated, committed before code). First rung against
+the spanda gold (4 passages, 25 verses, full pipeline).
+
+- **`Spanda.lean`** — Phase/State/Act rosters; `phases_two`, `glide_all`,
+  `acts_three` (all `decide`). Zero-axiom.
+- **Three surgical twins** (dropped close, dropped deep, merged act —
+  defs mutated, statements identical per harness rule; first attempt
+  mutated statements and was rewritten). Green.
+- EVIDENCE 3 rows (span-p01, R, SPAN-PINNED); TABLE regenerated (152
+  lines); vocab current; evidence_check green (spanda:span-p01 covered).
+- Design correction applied mid-rung: must_fail requires identical
+  statements — recorded here so the next rung doesn't repeat it.
