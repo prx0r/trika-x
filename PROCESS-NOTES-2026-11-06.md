@@ -1022,3 +1022,16 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   after must_fail statement-identity lesson). 9x4-vs-28 tension filed open.
 - EVIDENCE 137 (R/H mixed); review-status 139; TABLE green.
 - F10 logged (noisy surgery; simplest-insert rule).
+
+## Tetrahedron/Seth verdicts + Bilara probe.
+
+- Tetrahedron: NOT BS at checkable level (gap/uniqueness/Euler green in
+  Lean); selector inference = metaphysics (H, labeled); 9x4-vs-28 tension
+  genuine flaw, pushing material. Essay-worthy: tension piece, Trika-tetra
+  survey (36/upayas/speech), selector-vs-MEPIT piece.
+- Seth objects: channeled metaphysics systematized (Roberts/Steiner/
+  Montalk). Tier rule: quote-tier T (Seth said, verbatim), content-tier H,
+  never R (tradition) — usable as comparative voice (claimant shape),
+  never grounds. IPK-PARALLELS already does this; affirmed.
+- Bilara: SN55 probe green (segments parse, CC0). BUDDHIST-PATH-NOTE
+  extended (fetter program, nibbanahelp coordination, no hand-rolled Pali).
