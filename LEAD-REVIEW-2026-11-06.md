@@ -44,6 +44,14 @@ formalisation, a publication gate or an authorised teaching system.
    model alias and prompt hash still do not pin a provider build, seed,
    generation parameters or exact response. Existing receipts are records
    of particular outputs, not reproducibility or independent review.
+7. **Candidate work reconciliation overstated agreement.** A normalized
+   substring was called `AGREE-WORK`, even if it only resembled a longer
+   identifier; composition also did not compare the record and map IDs or
+   dossier hashes. Similar strings are now `POSSIBLE-MATCH`; mismatched
+   record/map claims are conflicts. Composition rechecks ledger hashes and
+   records the map and record hashes, while explicitly leaving dossier
+   bytes, edition and witness unverified. The dated derived tables have been
+   corrected against the pinned inputs.
 
 ## Rulings on the open method questions
 

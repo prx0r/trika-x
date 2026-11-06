@@ -24,6 +24,7 @@ jobs:
           sparse-checkout: |
             paramarthasara
             phrdaya
+            source-maps
             spanda
             tantraloka-a15
             tantraloka-a34
@@ -89,3 +90,5 @@ jobs:
           python3 formal-trika/tools/bridge_resolve.py --check --tw translation-work
           python3 formal-trika/tools/evidence_check.py --root translation-work
           python3 formal-trika/tools/treeka_formal.py --tw translation-work
+          python3 formal-trika/tools/compose_bridge.py --tw translation-work --out "$RUNNER_TEMP/composition.json"
+          python3 formal-trika/tools/map_agreement.py --tw translation-work --out "$RUNNER_TEMP/agreement.json"

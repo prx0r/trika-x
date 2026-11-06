@@ -23,6 +23,8 @@ def load(name):
 
 treeka = load('treeka_formal')
 evidence = load('evidence_check')
+composition = load('compose_bridge')
+agreement = load('map_agreement')
 
 
 class ReportTests(unittest.TestCase):
@@ -98,6 +100,26 @@ class ReportTests(unittest.TestCase):
                 self.assertTrue(all(not r['formal_refs'] for r in rows))
             finally:
                 treeka.EV = original
+
+    def test_candidate_composition_rejects_disagreeing_records(self):
+        digest = 'a' * 64
+        mapping = {'work': 'w', 'mapping_status': 'CANDIDATE',
+                   'openpatala_work_id': 'candidate', 'dossier': {'sha256': digest}}
+        record = {'work': 'w', 'status': 'RECORDED', 'openpatala': {
+                  'mapping_status': 'CANDIDATE', 'work_id': 'candidate', 'dossier_sha256': digest}}
+        self.assertEqual(composition.classify('w', mapping, record), 'COMPOSED')
+        self.assertEqual(composition.classify('w', mapping, None), 'PARTIAL')
+        record['openpatala']['work_id'] = 'different'
+        self.assertEqual(composition.classify('w', mapping, record), 'CONFLICT')
+        self.assertEqual(composition.classify('w', [], None), 'CONFLICT')
+
+    def test_string_similarity_is_not_work_identity(self):
+        self.assertEqual(agreement.verdict_for('tantrasara', 'CANDIDATE',
+                         'PTCND_sa_abhinavagupta-tantrasAra', 'CANDIDATE'), 'POSSIBLE-MATCH')
+        self.assertEqual(agreement.verdict_for('123', 'CANDIDATE',
+                         'abc', 'CANDIDATE'), 'DIFFERENT-KEYS')
+        self.assertEqual(agreement.verdict_for('same', 'CANDIDATE',
+                         'same', 'CANDIDATE'), 'AGREE-WORK')
 
 
 if __name__ == '__main__':

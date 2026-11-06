@@ -7,7 +7,7 @@
   "OPEN": 15,
   "MINE-PROPOSAL": 63,
   "THEIRS-NEW": 21,
-  "AGREE-WORK": 3
+  "POSSIBLE-MATCH": 3
  },
  "rows": [
   {
@@ -192,7 +192,7 @@
    "mine_work_key": "paramarthasara",
    "theirs_status": "CANDIDATE",
    "theirs_work_id": "PTCND_sa_abhinavagupta-paramArthasAra",
-   "verdict": "AGREE-WORK"
+   "verdict": "POSSIBLE-MATCH"
   },
   {
    "work": "parapravesika",
@@ -688,7 +688,7 @@
    "mine_work_key": "tantrasara",
    "theirs_status": "CANDIDATE",
    "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
-   "verdict": "AGREE-WORK"
+   "verdict": "POSSIBLE-MATCH"
   },
   {
    "work": "tantrasara-a08",
@@ -696,7 +696,7 @@
    "mine_work_key": "tantrasara",
    "theirs_status": "CANDIDATE",
    "theirs_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
-   "verdict": "AGREE-WORK"
+   "verdict": "POSSIBLE-MATCH"
   },
   {
    "work": "tantrasara-a09",
@@ -826,5 +826,6 @@
    "theirs_work_id": null,
    "verdict": "MINE-PROPOSAL"
   }
- ]
+ ],
+ "review_correction": "Verdicts reclassified from recorded keys: substring similarity is only a possible match, not work identity verification."
 }
