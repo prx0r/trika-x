@@ -15,7 +15,7 @@
     {
      "path": "ajadapramatrsiddhi/data/ajad-p01.argmap.json",
      "sha256": "f7f7ec1ce551288d8b4f2e2294a3351a25afefbdc3efb460413975c6e271df80",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -37,7 +37,7 @@
     {
      "path": "ajadapramatrsiddhi/data/ajad-p02.argmap.json",
      "sha256": "219fdaea7b1ec064f598592776c9588da8410c5ff0602b7e76b301842ec3e2bf",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -59,7 +59,7 @@
     {
      "path": "ajadapramatrsiddhi/data/ajad-p03.argmap.json",
      "sha256": "490a3c75d5a0a240a18d12fd06426772ed3765310013943ee3dc2a0ea6c243d2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -81,7 +81,7 @@
     {
      "path": "anubhavanivedana/data/anu-p01.argmap.json",
      "sha256": "7bb46c5518cb68d732a9414ac41929d756e01690b96c44da51e7e60afeed4d80",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -103,7 +103,7 @@
     {
      "path": "anubhavanivedana/data/anu-p02.argmap.json",
      "sha256": "2b4e4e3ba8eb80510c0b86ba74905b1390022189ede4e1a5e42540e09b29e948",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -125,7 +125,7 @@
     {
      "path": "anubhavanivedana/data/anu-p03.argmap.json",
      "sha256": "66d715e84d79fa6564b68afe38291586783b41a62acfa5a7a2654a4d070d7f57",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -147,7 +147,7 @@
     {
      "path": "anubhavanivedana/data/anu-p04.argmap.json",
      "sha256": "4727a3adff01f53f2d8cb8058d1dcf621c657e0a06e0d4e371792a34647722e4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -169,7 +169,7 @@
     {
      "path": "anuttarastika/data/anu-p01.argmap.json",
      "sha256": "123b2cbcbbf287711892d57eae6b6fd85a2041c7129d18b0430dfb36fa3a8d5f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -191,7 +191,7 @@
     {
      "path": "anuttarastika/data/anu-p02.argmap.json",
      "sha256": "49510d98e72b136fdd447e430f2877c16c4707a7c8b278d001879998393d4924",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -213,7 +213,7 @@
     {
      "path": "anuttarastika/data/anu-p03.argmap.json",
      "sha256": "a2d9d519c53cb54bc01bb5d1356e538f000a864e11c11e9cf6fe00fe57bb54ba",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -235,7 +235,7 @@
     {
      "path": "anuttarastika/data/anu-p04.argmap.json",
      "sha256": "26ea129db449baae36f991ce9a44bab60da56d9fb83c146f1c4407640c1451d6",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -257,7 +257,7 @@
     {
      "path": "anuttarastika/data/anu-p05.argmap.json",
      "sha256": "7516f0c667c426d8344af81daf4069fce534f611601bbfb2cb4c5aa75a008802",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -279,7 +279,7 @@
     {
      "path": "anuttarastika/data/anu-p06.argmap.json",
      "sha256": "957a3e61bceff20c652e28c65e29054eadb16ec0262c8e5a93c61814ccede21e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -301,7 +301,7 @@
     {
      "path": "anuttarastika/data/anu-p07.argmap.json",
      "sha256": "17d49dee0cf207e09459fd51266d26fdec55bd4af14efdb9caf6ff80c5d0b4b4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -323,7 +323,7 @@
     {
      "path": "anuttarastika/data/anu-p08.argmap.json",
      "sha256": "d91532fa68efa3e069b21acd0475d90dbf7a064c6702aee86c263c4a11ac6db6",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -345,7 +345,7 @@
     {
      "path": "bhairavanukarana/data/bhair-p01.argmap.json",
      "sha256": "8f434da396a4d17e031d91ebb93a41093727e4ecddddc1115e3bd23e1219d034",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -367,7 +367,7 @@
     {
      "path": "bhairavanukarana/data/bhair-p02.argmap.json",
      "sha256": "25e7f62a73f02b4e99958f1ffdeb2146453aac82551296dd732db692d9224b70",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -389,7 +389,7 @@
     {
      "path": "bhairavanukarana/data/bhair-p03.argmap.json",
      "sha256": "66d79f102cb9cc974e8fe91cbeae74a1cd4277891b759cb21e6e6021f37fd6e7",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -411,7 +411,7 @@
     {
      "path": "bhairavanukarana/data/bhair-p04.argmap.json",
      "sha256": "071db4d7f60847392344165c35677fded1608cb9c18a2d72f547393750c1e531",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -433,7 +433,7 @@
     {
      "path": "bhairavanukarana/data/bhair-p05.argmap.json",
      "sha256": "537cb0941e966c11dc66f28e14442281e3e739df166826b71e624c911cc1eac6",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -455,7 +455,7 @@
     {
      "path": "bhairavastava/data/bh-p01.argmap.json",
      "sha256": "5c3fad98da7776ee4433586080e59665e2f56b6e30b1ab0221c677fb49b64234",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -477,7 +477,7 @@
     {
      "path": "bhairavastava/data/bh-p02.argmap.json",
      "sha256": "459466089c609c4edd7fed84dc08508f7de28a99332abe8e001ba9507e9259d2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -499,7 +499,7 @@
     {
      "path": "bhairavastava/data/bh-p03.argmap.json",
      "sha256": "e6cf7a5ba6fd12fa263c194d617288388003d5721e573956f779a9598107cc92",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -521,7 +521,7 @@
     {
      "path": "bhairavastava/data/bh-p04.argmap.json",
      "sha256": "abfe1cc3f065605725ae5e370e7f428ec4eb2fca89fed318434af42872484874",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -543,7 +543,7 @@
     {
      "path": "bhairavastava/data/bh-p05.argmap.json",
      "sha256": "ec323afc7736a51c7234fc0f7cf1777ac76213ac135fb355437a0d00464ad569",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -565,7 +565,7 @@
     {
      "path": "bhairavastava/data/bh-p06.argmap.json",
      "sha256": "6c10049d167d6cadb7699eccfba39953bb6eda59a0b00b39b8e7af22e71bfdb5",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -587,7 +587,7 @@
     {
      "path": "bhairavastava/data/bh-p07.argmap.json",
      "sha256": "6fabf3ff8b03e737b92f9e142612a0d7cdf4d895dfc796ce22d11d8324b5298f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -609,7 +609,7 @@
     {
      "path": "bhairavastava/data/bh-p08.argmap.json",
      "sha256": "8e4d6a748694a4dc37038ee17e70e1907bb2854b9507435d1babadcc579bd3aa",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -631,7 +631,7 @@
     {
      "path": "bhairavastava/data/bh-p09.argmap.json",
      "sha256": "19bcfc680eef7886ec8cd07af4f72c30f9cd8fc14a58ee98647c857179ce0a01",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -653,7 +653,7 @@
     {
      "path": "bhairavastava/data/bh-p10.argmap.json",
      "sha256": "8bdd586c2c32d4d8820bfbe00cd0893f058e8108fae1e5cc0f5f8551184c8ea0",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -675,7 +675,7 @@
     {
      "path": "bodhapancadasika/data/bod-p01.argmap.json",
      "sha256": "f675423c17a6bda86b08359908ae8229a7c1ec1642f9bbbff8fcfc884f0aa820",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -697,7 +697,7 @@
     {
      "path": "bodhapancadasika/data/bod-p02.argmap.json",
      "sha256": "8aec887c27f21fd79a205a66a3ae990ff9883989cd57e91f04c97617bb9b9bea",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -719,7 +719,7 @@
     {
      "path": "bodhapancadasika/data/bod-p03.argmap.json",
      "sha256": "4d8c51d91795a4aefe27dfaf825257fa67155435d095fe456a1e9790b76602d8",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -741,7 +741,7 @@
     {
      "path": "bodhapancadasika/data/bod-p04.argmap.json",
      "sha256": "56a87deaca0bd65099f82329e9c62f45427905323428267cfbea31f00b220447",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -763,7 +763,7 @@
     {
      "path": "bodhapancadasika/data/bod-p05.argmap.json",
      "sha256": "6ae1d04e6a94228998b760f51bc8d7e11dd39dac196cccd85f6cabce54c63b9b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -785,7 +785,7 @@
     {
      "path": "bodhapancadasika/data/bod-p06.argmap.json",
      "sha256": "0e5a807b37f9368866dbf1e5a25d3f8ad3d677366de29b5473554f66398006a8",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -807,7 +807,7 @@
     {
      "path": "bodhapancadasika/data/bod-p07.argmap.json",
      "sha256": "e9c150514364e2f346bb1f671c096efcf9afaecd914b6daf01e648c9cec3a95e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -829,7 +829,7 @@
     {
      "path": "bodhapancadasika/data/bod-p08.argmap.json",
      "sha256": "4e9e505ff270687e2d975960cf9945097e8908c9f9b0f5aecd3a6e67997c43f1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -851,7 +851,7 @@
     {
      "path": "bodhapancadasika/data/bod-p09.argmap.json",
      "sha256": "7ace17de9c56e5c7e03ffd4d621a3f3e19137fc1c8075abd91d763ba868807ea",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -873,7 +873,7 @@
     {
      "path": "bodhapancadasika/data/bod-p10.argmap.json",
      "sha256": "fb8f927799acf7141ab5d5c9d1d0deb1c09f1c697f7a6c7c372bf91dee7de555",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -895,7 +895,7 @@
     {
      "path": "bodhapancadasika/data/bod-p11.argmap.json",
      "sha256": "d075553f64d60084a215f88bc71e66d2c45f6c73635bc7da5444621a3cec95f2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -917,7 +917,7 @@
     {
      "path": "bodhapancadasika/data/bod-p12.argmap.json",
      "sha256": "a3fe3c0110a42d12d8413bdecc27af8fbd5d1b5b3de1e1908d39ed6eb658ecf5",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -939,7 +939,7 @@
     {
      "path": "bodhapancadasika/data/bod-p13.argmap.json",
      "sha256": "33eb44f3f704394f10fe20d64779b962b94fb8ad2e0d266dcb97880d9280a7ec",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -961,7 +961,7 @@
     {
      "path": "bodhapancadasika/data/bod-p14.argmap.json",
      "sha256": "5cf39bab73f8d04124cd70aaef94528d4790e2d5e761c2c34551e8ada9b16f0e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -983,7 +983,7 @@
     {
      "path": "bodhapancadasika/data/bod-p15.argmap.json",
      "sha256": "36980b4525a9021f7aa611ebcf95ecc3f7898d04dbc3bdb02a6bbd3e16f3ccc5",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1005,7 +1005,7 @@
     {
      "path": "bodhavilasa/data/bodh-p01.argmap.json",
      "sha256": "f0a8fd3ea25899cd1678a71f658b2f23b26da962a63557f3cbbae87d6eac039a",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1027,7 +1027,7 @@
     {
      "path": "bodhavilasa/data/bodh-p02.argmap.json",
      "sha256": "3e6fa5d142b5fb6ac38cb5479fa98e55838bdbd365fac741a585a51ca7dedeba",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1049,7 +1049,7 @@
     {
      "path": "bodhavilasa/data/bodh-p03.argmap.json",
      "sha256": "32d70e3eb6fb525d78fc0e34d936d3dfcd6b692137b53959597a0c568e34a987",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1071,7 +1071,7 @@
     {
      "path": "bodhavilasa/data/bodh-p04.argmap.json",
      "sha256": "6c0308f3c625394068035fd91cd898c36e3af0b73ac4f6a74dc7fddf4d2b8bfd",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1093,7 +1093,7 @@
     {
      "path": "bodhavilasa/data/bodh-p05.argmap.json",
      "sha256": "19d625528e2442b59d215ae51791908784715028466c0dadeb1e1a184b5f787c",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1115,7 +1115,7 @@
     {
      "path": "ghatakarpara/data/ghat-p01.argmap.json",
      "sha256": "ea3ce16fee296487185d4439fcf371df68a8ac728e6fd446c196afbd5fab7f8b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1137,7 +1137,7 @@
     {
      "path": "ghatakarpara/data/ghat-p02.argmap.json",
      "sha256": "a240671227ffd3ec20dedbf765765e453de3bc42ed09990431623a3620710aff",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1159,7 +1159,7 @@
     {
      "path": "ghatakarpara/data/ghat-p03.argmap.json",
      "sha256": "9964bfb73f6c2441b53e44bdf90a4804b9a7c39bd53e9fdb5fdefc51ab294225",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1916,7 +1916,7 @@
     {
      "path": "isvarasiddhi/data/isva-p01.argmap.json",
      "sha256": "c20f73c81950cf881b3c623997a99c16208dfdc2e75f7b1d6bc08eb4eba7c9a6",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1938,7 +1938,7 @@
     {
      "path": "isvarasiddhi/data/isva-p02.argmap.json",
      "sha256": "c4c8b62494227f66c13fd1d0d425c70285252100fb9b587c1a281f6b88b37a11",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1960,7 +1960,7 @@
     {
      "path": "isvarasiddhi/data/isva-p03.argmap.json",
      "sha256": "00c2f088969e166906b371b96d0108f1eb500ee2df21f19321c1deee0ba5ea42",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -1982,7 +1982,7 @@
     {
      "path": "isvarasiddhi/data/isva-p04.argmap.json",
      "sha256": "024945355930cfe8ee7866cb8b47701252ab7f29e4e1753db932659b5b43f4af",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2004,7 +2004,7 @@
     {
      "path": "isvarasiddhi/data/isva-p05.argmap.json",
      "sha256": "b285de39e402d3217189776cfb93620228844637ad4c4c3e51ccf320694bc113",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2026,7 +2026,7 @@
     {
      "path": "isvarasiddhi/data/isva-p06.argmap.json",
      "sha256": "d4fbfc98adc3225cfe77c9a48919610a6c0427d7842992d153edd8484d2cd56d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2048,7 +2048,7 @@
     {
      "path": "isvarasiddhi/data/isva-p07.argmap.json",
      "sha256": "974e960c1c0df84347b11107e6ab491ba85b1003e702e289469339d47c3ceeb3",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2070,7 +2070,7 @@
     {
      "path": "kramastotra/data/kram-p01.argmap.json",
      "sha256": "d543ede44ad6eae62f946fcf4f82db6c052f06977cef546e28118425a5393a42",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2092,7 +2092,7 @@
     {
      "path": "kramastotra/data/kram-p02.argmap.json",
      "sha256": "dcb7db78f28ae2679d57d107804bb0084d212f56e4e2f174f8e51dc71a171b3a",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2114,7 +2114,7 @@
     {
      "path": "kramastotra/data/kram-p03.argmap.json",
      "sha256": "0e9c37bbff51ec3b1db20accacc9bb96c450bdb3411cd3ef2bf78a4b3ee81a1f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2136,7 +2136,7 @@
     {
      "path": "kramastotra/data/kram-p04.argmap.json",
      "sha256": "b384a861f1650437f05fa2775d2ab6750e415ed1d89e9fde2be998c2ea2082b9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2158,7 +2158,7 @@
     {
      "path": "kramastotra/data/kram-p05.argmap.json",
      "sha256": "378c7340fbc9bf698ad9e790b101ab247ff286a8dcddf336b0c6afb6d0cc1d7d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2180,7 +2180,7 @@
     {
      "path": "kramastotra/data/kram-p06.argmap.json",
      "sha256": "e9fac9732ea4f0785a853f5c288077cfb311f5771416ab066fd53f03884624d9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2202,7 +2202,7 @@
     {
      "path": "kramastotra/data/kram-p07.argmap.json",
      "sha256": "71fe271934bda9a5c2d32720e6c3ac3f164973c3835b70781bb3ad8868a5f9d3",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2224,7 +2224,7 @@
     {
      "path": "kramastotra/data/kram-p08.argmap.json",
      "sha256": "dd7eafe297781937667840073639411f5a93818f34f4823d29a2fdd5d0df26a3",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2246,7 +2246,7 @@
     {
      "path": "kramastotra/data/kram-p09.argmap.json",
      "sha256": "bfd60918398c720c421badbbfea3544403dcae42c3c8053a27b4fc16d64cf23f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2268,7 +2268,7 @@
     {
      "path": "kramastotra/data/kram-p10.argmap.json",
      "sha256": "501034c02d143b1302541e11b521d25cd74c7d3887176aee01848c4168b5beef",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2290,7 +2290,7 @@
     {
      "path": "kramastotra/data/kram-p11.argmap.json",
      "sha256": "cfb5cd29e59cc1f2d31b448f9509d23846b0df35a2fcb0fc3fac3d71273763d7",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2312,7 +2312,7 @@
     {
      "path": "kramastotra/data/kram-p12.argmap.json",
      "sha256": "cc75a2a4a9d5b63adfb67a45653d9be3df530a68d4217897640d0c634741a7bf",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2334,7 +2334,7 @@
     {
      "path": "kramastotra/data/kram-p13.argmap.json",
      "sha256": "9768a477ab6d132b4c3f5ff8285e67638554ec48dcb00afae28cc9a37abe4961",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2356,7 +2356,7 @@
     {
      "path": "kramastotra/data/kram-p14.argmap.json",
      "sha256": "e05acddfc60b07f3e8958cb6fd6d1661472dfcd52218a39b3a905c6949a2c16f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2378,7 +2378,7 @@
     {
      "path": "kramastotra/data/kram-p15.argmap.json",
      "sha256": "b9e4c934d20e6ae138a074c1884c905c0f8212f0785899f61ec615bc573b83f7",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2400,7 +2400,7 @@
     {
      "path": "kramastotra/data/kram-p16.argmap.json",
      "sha256": "122e18aab122959654e07d365ad9b17e90a6b0df7081e5352ecfab10a2bec9fc",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2422,7 +2422,7 @@
     {
      "path": "kramastotra/data/kram-p17.argmap.json",
      "sha256": "4df5aa399b8ad9d79eb63135a75fc3edd4611284f958e0af009510c87909d4f2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2444,7 +2444,7 @@
     {
      "path": "kramastotra/data/kram-p18.argmap.json",
      "sha256": "91ecca9efc0f9b61e3a229d37eb791905d5ca2578390a5147998f8a3bdfcfb21",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2466,7 +2466,7 @@
     {
      "path": "kramastotra/data/kram-p19.argmap.json",
      "sha256": "1f1089440be06835bdf3be78c1d53c44223c2fa69f0d792e305d4d2bf9b6324d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2488,7 +2488,7 @@
     {
      "path": "kramastotra/data/kram-p20.argmap.json",
      "sha256": "1261240dcf85ddb03274873bb8c702e6a987c81510c97d0dcce6004702d2f6eb",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2510,7 +2510,7 @@
     {
      "path": "kramastotra/data/kram-p21.argmap.json",
      "sha256": "0ed723a6ead3742f0e5f998ef9ff6e22659f8af4cd78a2cd385dc8051632482e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2532,7 +2532,7 @@
     {
      "path": "kramastotra/data/kram-p22.argmap.json",
      "sha256": "cabd4efd6a578bebbfc6091489c1b42c2f712fbaddd10550754ca877f566f39f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2554,7 +2554,7 @@
     {
      "path": "kramastotra/data/kram-p23.argmap.json",
      "sha256": "0c1798e6cd0cd084d1320e59e9f837692c0bdaaff8b6eaf35305e8d7534d094c",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2576,7 +2576,7 @@
     {
      "path": "kramastotra/data/kram-p24.argmap.json",
      "sha256": "47435a4e38edc124b48333ae36791a786177441428845298a8a0cd79aa24675e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2598,7 +2598,7 @@
     {
      "path": "kramastotra/data/kram-p25.argmap.json",
      "sha256": "fb5d6535b1d5aeb31701b9312e84e2bd0e26ed56fea47b65365a8182cda96a07",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2620,7 +2620,7 @@
     {
      "path": "kramastotra/data/kram-p26.argmap.json",
      "sha256": "107f8b3eb5f819ff2f1d64428270006d3247e453860e368d5912151f179e5c13",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2642,7 +2642,7 @@
     {
      "path": "kramastotra/data/kram-p27.argmap.json",
      "sha256": "a615adc1f89ac73fb5b692d89e080ca4dc2510acf1ebfa6ec948cb162b8a476e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2664,7 +2664,7 @@
     {
      "path": "kramastotra/data/kram-p28.argmap.json",
      "sha256": "d7da3b28feec254c804fd4845aa8fb38e48565bfdbb60bd173975c682c23b2ff",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2686,7 +2686,7 @@
     {
      "path": "kramastotra/data/kram-p29.argmap.json",
      "sha256": "b8dded088e02988c0cee0e538a2f5d944ab9f3ed7c7a1a8984bb9919eeec1f41",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2708,7 +2708,7 @@
     {
      "path": "kramastotra/data/kram-p30.argmap.json",
      "sha256": "5c6c994f04cda4b926c9952877e534c8db3b12f7f3f4a2b5e606fc7eaa21bebe",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2730,7 +2730,7 @@
     {
      "path": "pancashloki/data/pan-p01.argmap.json",
      "sha256": "54300b99e3422f37dffe771aa89fa8e5f5939ca3ab0488b8aabc59061f4e1df3",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2752,7 +2752,7 @@
     {
      "path": "pancashloki/data/pan-p02.argmap.json",
      "sha256": "6cce2fa5b98f9599e2be937224e11afe835bed5786a250396bee890aa2e61534",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2774,7 +2774,7 @@
     {
      "path": "pancashloki/data/pan-p03.argmap.json",
      "sha256": "40455d3fbd9d11b27e3ff2ad1e84ab695d462d639c5e02bc5788c17a20a3fdd1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2796,7 +2796,7 @@
     {
      "path": "pancashloki/data/pan-p04.argmap.json",
      "sha256": "60bd9cd41039f214ee7a1b69e505d3eb7bfed3a0bf467edc317197c94f3b785e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2818,7 +2818,7 @@
     {
      "path": "pancashloki/data/pan-p05.argmap.json",
      "sha256": "91d53fe5d6d72836f49e53b7fa91e096d896333c51fc83a1ab82862dc00ffdb7",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2840,7 +2840,7 @@
     {
      "path": "paramarthacarca/data/par-p01.argmap.json",
      "sha256": "7d7f6414d247a2c92a5dbf7f844773b3573edde5e722d860c8892869370ac010",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2862,7 +2862,7 @@
     {
      "path": "paramarthacarca/data/par-p02.argmap.json",
      "sha256": "3d618f9ab8186885167f6852a0005a59815efd281ce9be59dbf28f95dd1b2e2a",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2884,7 +2884,7 @@
     {
      "path": "paramarthacarca/data/par-p03.argmap.json",
      "sha256": "9609d63f0ddf0a244c50aaf0e9964ed3fb5f6a274d91261461b8ff5cccd30338",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2906,7 +2906,7 @@
     {
      "path": "paramarthacarca/data/par-p04.argmap.json",
      "sha256": "b8edc25e2fda5f600b875deffa741fa518ea7fb73b9e80f01ab357f388dad37f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2928,7 +2928,7 @@
     {
      "path": "paramarthacarca/data/par-p05.argmap.json",
      "sha256": "9c20be312716fd9abfe536fbf3fb63da8fb35c1157f1d612b1f8ec9fdd231382",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2950,7 +2950,7 @@
     {
      "path": "paramarthacarca/data/par-p06.argmap.json",
      "sha256": "70e1326899382902476399f236bd127253720417023a2bcdd32019c80e0e55a8",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2972,7 +2972,7 @@
     {
      "path": "paramarthacarca/data/par-p07.argmap.json",
      "sha256": "44a8df1ca1e5fdd9ca9c039144143f9ff0e487d529761c214527db8a6bbdcfc9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -2994,7 +2994,7 @@
     {
      "path": "paramarthacarca/data/par-p08.argmap.json",
      "sha256": "208966077d853db974b8a7f7b514777c30d77a8c9243af341eddb22f6294aa5e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3016,7 +3016,7 @@
     {
      "path": "paramarthasara/data/param-p01.argmap.json",
      "sha256": "109f9205de54285a27ebad5d64f8b6e85ef5384270cda029037584a81b67f7d6",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3038,7 +3038,7 @@
     {
      "path": "paramarthasara/data/param-p02.argmap.json",
      "sha256": "2539fc4dd59011d5b6761df8297b78772e34b27a7b3a6f586876441860d8a362",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3060,7 +3060,7 @@
     {
      "path": "paramarthasara/data/param-p03.argmap.json",
      "sha256": "1a65cb4ae6a3e1d8e70370fd58eb0ee0c81074112dd5889e851ad1a77ee53c45",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3082,7 +3082,7 @@
     {
      "path": "paramarthasara/data/param-p04.argmap.json",
      "sha256": "eb218a128b009b28ccb5e14f9c1cd285778ba0fd280d7285b3b07ac51eb095b1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3106,7 +3106,7 @@
     {
      "path": "paramarthasara/data/param-p05.argmap.json",
      "sha256": "7abdcd044bf5247ee208c3fd194a39a0b8a90a600a3a29a15c3bdeca08356a51",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3128,7 +3128,7 @@
     {
      "path": "paramarthasara/data/param-p06.argmap.json",
      "sha256": "a12198b08cf6600fb9ff3cd4f67567c6ced517f0a7c45acb8cb78acbe509b96b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3150,7 +3150,7 @@
     {
      "path": "paramarthasara/data/param-p07.argmap.json",
      "sha256": "37ae53f2057afb1712ff3b2b7aa208cc3f74e0be1d431ca88be9087b72cc42f3",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3172,7 +3172,7 @@
     {
      "path": "paramarthasara/data/param-p08.argmap.json",
      "sha256": "4897285ea28a53d7f0892b116b8ad0b1b6a6cd06a9cb8dbbc35ef3f190fdba7a",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3194,7 +3194,7 @@
     {
      "path": "paramarthasara/data/param-p09.argmap.json",
      "sha256": "433a5838f378482fc01063dc6b2683a6c3909e5c12d96223d7e68f5993974ef2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3216,7 +3216,7 @@
     {
      "path": "paramarthasara/data/param-p10.argmap.json",
      "sha256": "4a508f07293e1b1e75c7e00e49c18b8046a5670b3f68408180d366c09ba2e973",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3238,7 +3238,7 @@
     {
      "path": "paramarthasara/data/param-p11.argmap.json",
      "sha256": "382ab47da3547c90ed7a9fe3e450c5573ec9659e02cbc613f7ffbad0044a6a61",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3260,7 +3260,7 @@
     {
      "path": "paramarthasara/data/param-p12.argmap.json",
      "sha256": "e8b5d7c98b31b121f2ea724f1fbe9addf32ce20cd8fba7cf715910948d08f0cf",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3282,7 +3282,7 @@
     {
      "path": "parapravesika/data/par-p01.argmap.json",
      "sha256": "b8d0540d35dd7525c022fe76e637da927b28a0b975116a8aab8a429d5a9d4686",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3304,7 +3304,7 @@
     {
      "path": "parapravesika/data/par-p02.argmap.json",
      "sha256": "42c8ac1856068a765a7d18a5cdb67621ad50c8dfea85013ea5072462dae425ed",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3326,7 +3326,7 @@
     {
      "path": "parapravesika/data/par-p03.argmap.json",
      "sha256": "dac0ed73607636946d771a2a061521bc80c7f0035c68ede9ea247417286ccffc",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3348,7 +3348,7 @@
     {
      "path": "parapravesika/data/par-p04.argmap.json",
      "sha256": "1db2c5eeda301f51b9c24b88381aee0b532ef5250a23ecbdd7c51edb9bfc58d4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3370,7 +3370,7 @@
     {
      "path": "parapravesika/data/par-p05.argmap.json",
      "sha256": "7e8da4304e1066af6388362df5197784742c13dbf26d90445244b85d257b3a37",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3392,7 +3392,7 @@
     {
      "path": "parapravesika/data/par-p06.argmap.json",
      "sha256": "59aea615a952990f164e7412647317d2bcb88876ddfaee13faba46b31f1db5c4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3414,7 +3414,7 @@
     {
      "path": "parapravesika/data/par-p07.argmap.json",
      "sha256": "4eb4e5f75764c7f3655a245c124de88ef08944193e739590e226eaaba34d4343",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3436,7 +3436,7 @@
     {
      "path": "parapravesika/data/par-p08.argmap.json",
      "sha256": "b1a89edae97a2f2f032827272a000f3c63910e34a8fcde79e6a964ae1ccd59f2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3458,7 +3458,7 @@
     {
      "path": "parapravesika/data/par-p09.argmap.json",
      "sha256": "22644f78b15a766ea22109956e0b66d5fea9bea271084a8305fc8ab6b88e8828",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3540,7 +3540,7 @@
     {
      "path": "paryantapancasika/data/pary-p01.argmap.json",
      "sha256": "078c7d0b0fafddd9e924918a75df60ecf10c89f2afd83446c414120ad7390805",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3562,7 +3562,7 @@
     {
      "path": "paryantapancasika/data/pary-p02.argmap.json",
      "sha256": "cb041f8ce3b0f7f69d5eac695eb1d26b5b8fbe3e34950372a6b47f25206e5050",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3584,7 +3584,7 @@
     {
      "path": "paryantapancasika/data/pary-p03.argmap.json",
      "sha256": "bc8105926ba60b44aa5852f2a15e0a281e2a8cb2e964c4e86e41ea8249e57ed2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3606,7 +3606,7 @@
     {
      "path": "paryantapancasika/data/pary-p04.argmap.json",
      "sha256": "8b0f9bfdd25eec12ffb2d53698bc1620991a57648e81291142e77760bc954132",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3628,7 +3628,7 @@
     {
      "path": "paryantapancasika/data/pary-p05.argmap.json",
      "sha256": "c87236697bfe7d1de9704ea8ae1d351827e2f00afde5d6b5ea90aef43320747c",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3650,7 +3650,7 @@
     {
      "path": "paryantapancasika/data/pary-p06.argmap.json",
      "sha256": "8091f19d9514c3b601427d91d9e814d0df9ee81678a655f40eedc5410792e8e6",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3672,7 +3672,7 @@
     {
      "path": "paryantapancasika/data/pary-p07.argmap.json",
      "sha256": "2a83059d29b2d17327242ae04a1d370e1cfb066fa63de004796fc63c2c051c98",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3694,7 +3694,7 @@
     {
      "path": "paryantapancasika/data/pary-p08.argmap.json",
      "sha256": "8c76bbc549f87b67d3c059220dcbdffebe2ea3e68444cb0a49b5f9f9e91c59a2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3716,7 +3716,7 @@
     {
      "path": "phrdaya/data/phr-p01.argmap.json",
      "sha256": "af5bbacdf7d9309881b7734a9bf2502a0fbd29a7215c8995fb3dcd3e021c438c",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3738,7 +3738,7 @@
     {
      "path": "phrdaya/data/phr-p02.argmap.json",
      "sha256": "44cc00d624707c63ab8d71da01558594e71bb059e1c34a90056f1ea61abcb91b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3760,7 +3760,7 @@
     {
      "path": "phrdaya/data/phr-p03.argmap.json",
      "sha256": "89170c930b84de744976faafabb09fb856f1c9d7ecfe6e9f121a062f042e86f9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3782,7 +3782,7 @@
     {
      "path": "phrdaya/data/phr-p04.argmap.json",
      "sha256": "2851d08bf49078ef8b310ba71b3fbccb91e04ef4ee07b7a2b25791aa093777b2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3808,7 +3808,7 @@
     {
      "path": "phrdaya/data/phr-p05.argmap.json",
      "sha256": "71b2dd8ff1931f8ecacb4b865f58ccd2a35d59c239735382eb21be46143aec10",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3830,7 +3830,7 @@
     {
      "path": "ptvmadhyama/data/ptvm-p01.argmap.json",
      "sha256": "3bab316e52d7549ddf0d73c850ed9654e4cb3824ddcfbb5756dcaa4949e79a71",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3852,7 +3852,7 @@
     {
      "path": "ptvmadhyama/data/ptvm-p02.argmap.json",
      "sha256": "c5a079aac851f3c77fd3d79236161f9c82a10c6e0ad21df992f90ef6556263c0",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3874,7 +3874,7 @@
     {
      "path": "ptvmadhyama/data/ptvm-p03.argmap.json",
      "sha256": "ead4d763f5e6c5def13e3e88f373a2925e0080afee6cd34b9f1a9218301473e4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3896,7 +3896,7 @@
     {
      "path": "ptvmadhyama/data/ptvm-p04.argmap.json",
      "sha256": "ae490f1b9ab728fae59b52c91f59d4dfa93c918eaacf8598f55b9583b8b3096e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3918,7 +3918,7 @@
     {
      "path": "saktavijnana/data/sakt-p01.argmap.json",
      "sha256": "5c73d5bcd9804de7aca103585cf9743e341ffcbed1e9f3d08a64d63aa681d52e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3940,7 +3940,7 @@
     {
      "path": "saktavijnana/data/sakt-p02.argmap.json",
      "sha256": "f3a0ca300b19d1deef2f870f6277768b0701efbb213259fa6f2f9da0add7fc50",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3962,7 +3962,7 @@
     {
      "path": "saktavijnana/data/sakt-p03.argmap.json",
      "sha256": "da2979ca38a30e2abf63aecb835d161317c7f4bf5221c31493726f5545ded951",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -3984,7 +3984,7 @@
     {
      "path": "sambandhasiddhi/data/samb-p01.argmap.json",
      "sha256": "369f5a8e2279379d4921c6016d0e90abaa7f2adb941dd6f85cb390240035de4d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4006,7 +4006,7 @@
     {
      "path": "sambandhasiddhi/data/samb-p02.argmap.json",
      "sha256": "84c5246dfdf8b9d57098c7d82298eb65c3369ae90113175962d754cb35c70d03",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4028,7 +4028,7 @@
     {
      "path": "sambandhasiddhi/data/samb-p03.argmap.json",
      "sha256": "034c6aa91e5474a4ef56e4d58cff1aa17de4ec6ee1b9b1b54ece4347d1989083",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4050,25 +4050,25 @@
     {
      "path": "sivastotravali/data/s01.argmap.json",
      "sha256": "a44c8ec09a30c577f2a792c1255d4290f49a6138c456bb687bc00e78a3902949",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s02.argmap.json",
      "sha256": "8005f1a4a79f0d5abbdad78cab784e063a13d59500d50ae5d144a4fcbd5f135f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s03.argmap.json",
      "sha256": "6031865ed4354e1a0b68e92e45982647d2a77664f4d25a7235d1a3cc8ae7b9f1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s04.argmap.json",
      "sha256": "dfcaab7456983e24aaf87727d4a70ddd7ab3a84a9627d47821e68801fd9a3e39",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4090,25 +4090,25 @@
     {
      "path": "sivastotravali/data/s05.argmap.json",
      "sha256": "52e82c7a96166567c612ea8f5d86de3b530387f14a9903129f27b1d5496718a9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s06.argmap.json",
      "sha256": "e5348caab467cf388dc86f36fb9eb3403a7b04eac2fb22c41012c30698a42ea6",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s07.argmap.json",
      "sha256": "e22999f7bcd1b8f1ad4cf9a4c0d682121062c7924558dfc638a7b3e17153d63c",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s08.argmap.json",
      "sha256": "b9228a3b8cabb7cf10181c65e13eef0bcab6f80a5f22b3878e44bdcd7c190ffb",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4130,25 +4130,25 @@
     {
      "path": "sivastotravali/data/s09.argmap.json",
      "sha256": "6ac430fc9768a325d726b71b0ac5e6c1eac57a5afe8d661b897a279fe7cba471",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s10.argmap.json",
      "sha256": "d29c40eb5af83fef1c383bda1cfcec5f9ab402a84d210e5690d8e7cea996eed5",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s11.argmap.json",
      "sha256": "00bc32a0348892f1c6db728c08942fcb1740419779a251ae7bdb8891cefeb4ca",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s12.argmap.json",
      "sha256": "78ae9a8622546aeb8dce52eed826c21203dd8f8919556a4e75567be922b637ec",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4170,25 +4170,25 @@
     {
      "path": "sivastotravali/data/s13.argmap.json",
      "sha256": "40abb7b1932cd306f83a832371e2beb7c6d87d9dbefa5fb318e88f0a9282923e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s14.argmap.json",
      "sha256": "36425a20626e568bb6424ed578ee9f884b07a08dc91a45d28ae802be937a1522",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s15.argmap.json",
      "sha256": "8381956c7bb24cd6aa6506b81050561b68a9dc6004c32e9fc363af68a9a2110f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s16.argmap.json",
      "sha256": "4882e37ce41284caace69d8f7327d097b8fb46535f6da9007da18c70b79262b1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4210,25 +4210,25 @@
     {
      "path": "sivastotravali/data/s17.argmap.json",
      "sha256": "f7fd013077b88052a0663fecf208cae2a97735e42d78985f33d80a6940e4dce1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s18.argmap.json",
      "sha256": "35339e88f1130c8b94e9a931e55deb2522d9302646793ee59bfa181650c52d0e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s19.argmap.json",
      "sha256": "33fa500d8399dd9701407cbf86316730589f1e1bc1ccd60c92b7987ae5e89e61",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     },
     {
      "path": "sivastotravali/data/s20.argmap.json",
      "sha256": "edcecf7247bfa4ce4419f55a4d4381c7e1ed19f76c8b1385298b71e8c619d260",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4370,7 +4370,7 @@
     {
      "path": "spanda/data/span-p01.argmap.json",
      "sha256": "ee78909227454574548fcfd6a7d50f4cea70abd7d4f44ffd6f073ed7144bcbac",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4392,7 +4392,7 @@
     {
      "path": "spanda/data/span-p02.argmap.json",
      "sha256": "cc26070f479c2b19c4449ff58859a4088e7dd871f11efa48b1fd3f5380b3ae0e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4414,7 +4414,7 @@
     {
      "path": "spanda/data/span-p03.argmap.json",
      "sha256": "98536010c145178ca86d7d9ab698796ee645319cbc120984c00311534ad2bdf9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4481,7 +4481,7 @@
     {
      "path": "spandasandoha/data/sand-p01.argmap.json",
      "sha256": "797b222f96bc18efa653a2f7ed9ac78693e55832df9ec575cca705f628ffc768",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4503,7 +4503,7 @@
     {
      "path": "stavacintamani/data/stav-p01.argmap.json",
      "sha256": "0805ddde9cb157309898ccf556043d81e7ff1124b3ae80233231f2e4b9f9d37e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4525,7 +4525,7 @@
     {
      "path": "stavacintamani/data/stav-p02.argmap.json",
      "sha256": "ab6fc93ba134cc15551c49f9ab76091bd1098f0fcb128d9f53520a297b8b544f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4547,7 +4547,7 @@
     {
      "path": "stavacintamani/data/stav-p03.argmap.json",
      "sha256": "a7cf85204c0bdd639f0e89e846ad30bd8431034762a16706f27aa3dcb8af474a",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4569,7 +4569,7 @@
     {
      "path": "stavacintamani/data/stav-p04.argmap.json",
      "sha256": "f8d43789777a4ab5d210b728496c8a3ea6deefc1ccbdd1c926f02b8b0d897522",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4591,7 +4591,7 @@
     {
      "path": "stavacintamani/data/stav-p05.argmap.json",
      "sha256": "cef5999bf9147bf92e0264a3d57773aa215c333a22bd6244274726c66c6f313e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4613,7 +4613,7 @@
     {
      "path": "stavacintamani/data/stav-p06.argmap.json",
      "sha256": "b5b876391503483a898e6ee4623ff291947b54cec58b2649446dcbf928c89b3e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4635,7 +4635,7 @@
     {
      "path": "stavacintamani/data/stav-p07.argmap.json",
      "sha256": "8f10d9ffb68981ed6fec06c8d5dde25d034ee913cf650003975573983d1e365a",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4657,7 +4657,7 @@
     {
      "path": "stavacintamani/data/stav-p08.argmap.json",
      "sha256": "5810e9547f4229729a32fc8512d53e80f857d88aa59579af2893a7fd979014cf",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4679,7 +4679,7 @@
     {
      "path": "stavacintamani/data/stav-p09.argmap.json",
      "sha256": "89773120eb937c4bfad182f7fbf5f1e3313806c2fe218ee0d823d51ee0057611",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4701,7 +4701,7 @@
     {
      "path": "stavacintamani/data/stav-p10.argmap.json",
      "sha256": "9d23c8b9c5414edf5b86dd3483f1ae3e49293019172a7e1612ea2a31f00d27fd",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4723,7 +4723,7 @@
     {
      "path": "stavacintamani/data/stav-p11.argmap.json",
      "sha256": "89304e2aa5ad9762189d052ab770177e6aed8b04a4c289f0dea0f87575c57492",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4745,7 +4745,7 @@
     {
      "path": "stavacintamani/data/stav-p12.argmap.json",
      "sha256": "e4e3c3b508762f67d1034aa6f565e26e6b3f5040c94af50f4fe91776e8bc1ec5",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4767,7 +4767,7 @@
     {
      "path": "svabodhasiddhi/data/svab-p01.argmap.json",
      "sha256": "a3204b65e4a1c5b62dedce012abb36201bcc2420a10e6a8517f476e29aba6e89",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4789,7 +4789,7 @@
     {
      "path": "svabodhasiddhi/data/svab-p02.argmap.json",
      "sha256": "f96ec57d2ef883afbddff0dc4881b1b03bb907fbcb00c2483ffda525c934033f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4811,7 +4811,7 @@
     {
      "path": "svabodhasiddhi/data/svab-p03.argmap.json",
      "sha256": "bd4d1569243552a9e81ad7cb9e50dc77a87849c2264c5e3410328df4cdcd16c8",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -4833,7 +4833,7 @@
     {
      "path": "svabodhasiddhi/data/svab-p04.argmap.json",
      "sha256": "4a638c8fe7951fcf3ac60459ac47d8870c2462cbc5a4e5c470d93bf6126bc968",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -5365,7 +5365,7 @@
     {
      "path": "tantraloka-a02/data/tal-a02.argmap.json",
      "sha256": "83977de9061edb561da744ef540f8efb23412fe6c224b6f3f3297374dbbae2e1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -5387,7 +5387,7 @@
     {
      "path": "tantraloka-a02/data/tal-a02.argmap.json",
      "sha256": "83977de9061edb561da744ef540f8efb23412fe6c224b6f3f3297374dbbae2e1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -5409,7 +5409,7 @@
     {
      "path": "tantraloka-a02/data/tal-a02.argmap.json",
      "sha256": "83977de9061edb561da744ef540f8efb23412fe6c224b6f3f3297374dbbae2e1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -5431,7 +5431,7 @@
     {
      "path": "tantraloka-a02/data/tal-a02.argmap.json",
      "sha256": "83977de9061edb561da744ef540f8efb23412fe6c224b6f3f3297374dbbae2e1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -5453,7 +5453,7 @@
     {
      "path": "tantraloka-a02/data/tal-a02.argmap.json",
      "sha256": "83977de9061edb561da744ef540f8efb23412fe6c224b6f3f3297374dbbae2e1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -6975,7 +6975,7 @@
     {
      "path": "tantraloka-a07/data/tal-a07.argmap.json",
      "sha256": "69adf1e112e9c105ef23b26eb21d648a474fadf23f9ac30466ccaf712887cf86",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -6997,7 +6997,7 @@
     {
      "path": "tantraloka-a07/data/tal-a07.argmap.json",
      "sha256": "69adf1e112e9c105ef23b26eb21d648a474fadf23f9ac30466ccaf712887cf86",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -7019,7 +7019,7 @@
     {
      "path": "tantraloka-a07/data/tal-a07.argmap.json",
      "sha256": "69adf1e112e9c105ef23b26eb21d648a474fadf23f9ac30466ccaf712887cf86",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -7041,7 +7041,7 @@
     {
      "path": "tantraloka-a07/data/tal-a07.argmap.json",
      "sha256": "69adf1e112e9c105ef23b26eb21d648a474fadf23f9ac30466ccaf712887cf86",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -7063,7 +7063,7 @@
     {
      "path": "tantraloka-a07/data/tal-a07.argmap.json",
      "sha256": "69adf1e112e9c105ef23b26eb21d648a474fadf23f9ac30466ccaf712887cf86",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -7085,7 +7085,7 @@
     {
      "path": "tantraloka-a07/data/tal-a07.argmap.json",
      "sha256": "69adf1e112e9c105ef23b26eb21d648a474fadf23f9ac30466ccaf712887cf86",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -7107,7 +7107,7 @@
     {
      "path": "tantraloka-a07/data/tal-a07.argmap.json",
      "sha256": "69adf1e112e9c105ef23b26eb21d648a474fadf23f9ac30466ccaf712887cf86",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -7129,7 +7129,7 @@
     {
      "path": "tantraloka-a07/data/tal-a07.argmap.json",
      "sha256": "69adf1e112e9c105ef23b26eb21d648a474fadf23f9ac30466ccaf712887cf86",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -8966,7 +8966,7 @@
     {
      "path": "tantraloka-a12/data/tal-a12.argmap.json",
      "sha256": "0b8b244a8a78d43522d02764323168e44978b55834b04ae1cb4ff5430673ab06",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -8988,7 +8988,7 @@
     {
      "path": "tantraloka-a12/data/tal-a12.argmap.json",
      "sha256": "0b8b244a8a78d43522d02764323168e44978b55834b04ae1cb4ff5430673ab06",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -9010,7 +9010,7 @@
     {
      "path": "tantraloka-a12/data/tal-a12.argmap.json",
      "sha256": "0b8b244a8a78d43522d02764323168e44978b55834b04ae1cb4ff5430673ab06",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -9587,7 +9587,7 @@
     {
      "path": "tantraloka-a14/data/tal-a14.argmap.json",
      "sha256": "57dbf17228ab32893979d6ce143e3e2d64d85e526058b1b5ab6a8df5644e0ec4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -9609,7 +9609,7 @@
     {
      "path": "tantraloka-a14/data/tal-a14.argmap.json",
      "sha256": "57dbf17228ab32893979d6ce143e3e2d64d85e526058b1b5ab6a8df5644e0ec4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -9631,7 +9631,7 @@
     {
      "path": "tantraloka-a14/data/tal-a14.argmap.json",
      "sha256": "57dbf17228ab32893979d6ce143e3e2d64d85e526058b1b5ab6a8df5644e0ec4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -9653,7 +9653,7 @@
     {
      "path": "tantraloka-a14/data/tal-a14.argmap.json",
      "sha256": "57dbf17228ab32893979d6ce143e3e2d64d85e526058b1b5ab6a8df5644e0ec4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -9675,7 +9675,7 @@
     {
      "path": "tantraloka-a14/data/tal-a14.argmap.json",
      "sha256": "57dbf17228ab32893979d6ce143e3e2d64d85e526058b1b5ab6a8df5644e0ec4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11305,7 +11305,7 @@
     {
      "path": "tantraloka-a18/data/tal-a18.argmap.json",
      "sha256": "05b4258741e6c8f9247510f484a87f0a470ffa6ca84829e0f4130f577641984a",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11327,7 +11327,7 @@
     {
      "path": "tantraloka-a18/data/tal-a18.argmap.json",
      "sha256": "05b4258741e6c8f9247510f484a87f0a470ffa6ca84829e0f4130f577641984a",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11349,7 +11349,7 @@
     {
      "path": "tantraloka-a19/data/tal-a19.argmap.json",
      "sha256": "cb3553d305e12dcb3830fc7abe1cddd00efcf4d763ec43195204f6d2ab851840",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11371,7 +11371,7 @@
     {
      "path": "tantraloka-a19/data/tal-a19.argmap.json",
      "sha256": "cb3553d305e12dcb3830fc7abe1cddd00efcf4d763ec43195204f6d2ab851840",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11393,7 +11393,7 @@
     {
      "path": "tantraloka-a19/data/tal-a19.argmap.json",
      "sha256": "cb3553d305e12dcb3830fc7abe1cddd00efcf4d763ec43195204f6d2ab851840",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11415,7 +11415,7 @@
     {
      "path": "tantraloka-a19/data/tal-a19.argmap.json",
      "sha256": "cb3553d305e12dcb3830fc7abe1cddd00efcf4d763ec43195204f6d2ab851840",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11437,7 +11437,7 @@
     {
      "path": "tantraloka-a19/data/tal-a19.argmap.json",
      "sha256": "cb3553d305e12dcb3830fc7abe1cddd00efcf4d763ec43195204f6d2ab851840",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11459,7 +11459,7 @@
     {
      "path": "tantraloka-a19/data/tal-a19.argmap.json",
      "sha256": "cb3553d305e12dcb3830fc7abe1cddd00efcf4d763ec43195204f6d2ab851840",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11481,7 +11481,7 @@
     {
      "path": "tantraloka-a20/data/tal-a20.argmap.json",
      "sha256": "0e2c3f7d9e298884fb3296e47547e93e3afd424d41d3aa57c265555fa09bf860",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11503,7 +11503,7 @@
     {
      "path": "tantraloka-a20/data/tal-a20.argmap.json",
      "sha256": "0e2c3f7d9e298884fb3296e47547e93e3afd424d41d3aa57c265555fa09bf860",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11525,7 +11525,7 @@
     {
      "path": "tantraloka-a21/data/tal-a21.argmap.json",
      "sha256": "8ee7bb3fb7b0e124922f2989389ccca6b9d13ab6b474ee420efad8e2f8a4b08d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11547,7 +11547,7 @@
     {
      "path": "tantraloka-a21/data/tal-a21.argmap.json",
      "sha256": "8ee7bb3fb7b0e124922f2989389ccca6b9d13ab6b474ee420efad8e2f8a4b08d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11569,7 +11569,7 @@
     {
      "path": "tantraloka-a21/data/tal-a21.argmap.json",
      "sha256": "8ee7bb3fb7b0e124922f2989389ccca6b9d13ab6b474ee420efad8e2f8a4b08d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11591,7 +11591,7 @@
     {
      "path": "tantraloka-a21/data/tal-a21.argmap.json",
      "sha256": "8ee7bb3fb7b0e124922f2989389ccca6b9d13ab6b474ee420efad8e2f8a4b08d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11613,7 +11613,7 @@
     {
      "path": "tantraloka-a21/data/tal-a21.argmap.json",
      "sha256": "8ee7bb3fb7b0e124922f2989389ccca6b9d13ab6b474ee420efad8e2f8a4b08d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11635,7 +11635,7 @@
     {
      "path": "tantraloka-a21/data/tal-a21.argmap.json",
      "sha256": "8ee7bb3fb7b0e124922f2989389ccca6b9d13ab6b474ee420efad8e2f8a4b08d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11657,7 +11657,7 @@
     {
      "path": "tantraloka-a21/data/tal-a21.argmap.json",
      "sha256": "8ee7bb3fb7b0e124922f2989389ccca6b9d13ab6b474ee420efad8e2f8a4b08d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11679,7 +11679,7 @@
     {
      "path": "tantraloka-a22/data/tal-a22.argmap.json",
      "sha256": "843d230746bbad9423d1b94221f6c85c4f9fe6cd6db3158bd9a8f14ae3e2f099",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11701,7 +11701,7 @@
     {
      "path": "tantraloka-a22/data/tal-a22.argmap.json",
      "sha256": "843d230746bbad9423d1b94221f6c85c4f9fe6cd6db3158bd9a8f14ae3e2f099",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11723,7 +11723,7 @@
     {
      "path": "tantraloka-a22/data/tal-a22.argmap.json",
      "sha256": "843d230746bbad9423d1b94221f6c85c4f9fe6cd6db3158bd9a8f14ae3e2f099",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11745,7 +11745,7 @@
     {
      "path": "tantraloka-a22/data/tal-a22.argmap.json",
      "sha256": "843d230746bbad9423d1b94221f6c85c4f9fe6cd6db3158bd9a8f14ae3e2f099",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11767,7 +11767,7 @@
     {
      "path": "tantraloka-a22/data/tal-a22.argmap.json",
      "sha256": "843d230746bbad9423d1b94221f6c85c4f9fe6cd6db3158bd9a8f14ae3e2f099",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11954,7 +11954,7 @@
     {
      "path": "tantraloka-a24/data/tal-a24.argmap.json",
      "sha256": "32cec79b2f773bbecd08ec100f84b80b46b896257af2fc562d95e97917d8eff3",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11976,7 +11976,7 @@
     {
      "path": "tantraloka-a24/data/tal-a24.argmap.json",
      "sha256": "32cec79b2f773bbecd08ec100f84b80b46b896257af2fc562d95e97917d8eff3",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -11998,7 +11998,7 @@
     {
      "path": "tantraloka-a24/data/tal-a24.argmap.json",
      "sha256": "32cec79b2f773bbecd08ec100f84b80b46b896257af2fc562d95e97917d8eff3",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12020,7 +12020,7 @@
     {
      "path": "tantraloka-a25/data/tal-a25.argmap.json",
      "sha256": "cbbdc08e62b9885704e1d8d25a43bc6f1aa735b9152c752ed3cf2716cf7394d9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12042,7 +12042,7 @@
     {
      "path": "tantraloka-a25/data/tal-a25.argmap.json",
      "sha256": "cbbdc08e62b9885704e1d8d25a43bc6f1aa735b9152c752ed3cf2716cf7394d9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12064,7 +12064,7 @@
     {
      "path": "tantraloka-a25/data/tal-a25.argmap.json",
      "sha256": "cbbdc08e62b9885704e1d8d25a43bc6f1aa735b9152c752ed3cf2716cf7394d9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12086,7 +12086,7 @@
     {
      "path": "tantraloka-a26/data/tal-a26.argmap.json",
      "sha256": "0b1b7e1c03e02c1e7b91f29a8d1a1d5cac5f2cf25a6cb40da69e445897a9bfe4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12108,7 +12108,7 @@
     {
      "path": "tantraloka-a26/data/tal-a26.argmap.json",
      "sha256": "0b1b7e1c03e02c1e7b91f29a8d1a1d5cac5f2cf25a6cb40da69e445897a9bfe4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12130,7 +12130,7 @@
     {
      "path": "tantraloka-a26/data/tal-a26.argmap.json",
      "sha256": "0b1b7e1c03e02c1e7b91f29a8d1a1d5cac5f2cf25a6cb40da69e445897a9bfe4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12152,7 +12152,7 @@
     {
      "path": "tantraloka-a26/data/tal-a26.argmap.json",
      "sha256": "0b1b7e1c03e02c1e7b91f29a8d1a1d5cac5f2cf25a6cb40da69e445897a9bfe4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12174,7 +12174,7 @@
     {
      "path": "tantraloka-a26/data/tal-a26.argmap.json",
      "sha256": "0b1b7e1c03e02c1e7b91f29a8d1a1d5cac5f2cf25a6cb40da69e445897a9bfe4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12196,7 +12196,7 @@
     {
      "path": "tantraloka-a26/data/tal-a26.argmap.json",
      "sha256": "0b1b7e1c03e02c1e7b91f29a8d1a1d5cac5f2cf25a6cb40da69e445897a9bfe4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12218,7 +12218,7 @@
     {
      "path": "tantraloka-a26/data/tal-a26.argmap.json",
      "sha256": "0b1b7e1c03e02c1e7b91f29a8d1a1d5cac5f2cf25a6cb40da69e445897a9bfe4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12240,7 +12240,7 @@
     {
      "path": "tantraloka-a26/data/tal-a26.argmap.json",
      "sha256": "0b1b7e1c03e02c1e7b91f29a8d1a1d5cac5f2cf25a6cb40da69e445897a9bfe4",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12262,7 +12262,7 @@
     {
      "path": "tantraloka-a27/data/tal-a27.argmap.json",
      "sha256": "acb24271b5abb8c7784ae81549b759b5047dcf7eb6527032d37617c6fdb0c4cb",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12284,7 +12284,7 @@
     {
      "path": "tantraloka-a27/data/tal-a27.argmap.json",
      "sha256": "acb24271b5abb8c7784ae81549b759b5047dcf7eb6527032d37617c6fdb0c4cb",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12306,7 +12306,7 @@
     {
      "path": "tantraloka-a27/data/tal-a27.argmap.json",
      "sha256": "acb24271b5abb8c7784ae81549b759b5047dcf7eb6527032d37617c6fdb0c4cb",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12328,7 +12328,7 @@
     {
      "path": "tantraloka-a27/data/tal-a27.argmap.json",
      "sha256": "acb24271b5abb8c7784ae81549b759b5047dcf7eb6527032d37617c6fdb0c4cb",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12350,7 +12350,7 @@
     {
      "path": "tantraloka-a27/data/tal-a27.argmap.json",
      "sha256": "acb24271b5abb8c7784ae81549b759b5047dcf7eb6527032d37617c6fdb0c4cb",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -12372,7 +12372,7 @@
     {
      "path": "tantraloka-a27/data/tal-a27.argmap.json",
      "sha256": "acb24271b5abb8c7784ae81549b759b5047dcf7eb6527032d37617c6fdb0c4cb",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -13954,7 +13954,7 @@
     {
      "path": "tantraloka-a32/data/tal-a32.argmap.json",
      "sha256": "cc60c9970997ac7847e9548e130e725c4274db18ffc5f1a476f42caaf8f96e2f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -13976,7 +13976,7 @@
     {
      "path": "tantraloka-a32/data/tal-a32.argmap.json",
      "sha256": "cc60c9970997ac7847e9548e130e725c4274db18ffc5f1a476f42caaf8f96e2f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -13998,7 +13998,7 @@
     {
      "path": "tantraloka-a32/data/tal-a32.argmap.json",
      "sha256": "cc60c9970997ac7847e9548e130e725c4274db18ffc5f1a476f42caaf8f96e2f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14020,7 +14020,7 @@
     {
      "path": "tantraloka-a32/data/tal-a32.argmap.json",
      "sha256": "cc60c9970997ac7847e9548e130e725c4274db18ffc5f1a476f42caaf8f96e2f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14042,7 +14042,7 @@
     {
      "path": "tantraloka-a32/data/tal-a32.argmap.json",
      "sha256": "cc60c9970997ac7847e9548e130e725c4274db18ffc5f1a476f42caaf8f96e2f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14064,7 +14064,7 @@
     {
      "path": "tantraloka-a32/data/tal-a32.argmap.json",
      "sha256": "cc60c9970997ac7847e9548e130e725c4274db18ffc5f1a476f42caaf8f96e2f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14086,7 +14086,7 @@
     {
      "path": "tantraloka-a32/data/tal-a32.argmap.json",
      "sha256": "cc60c9970997ac7847e9548e130e725c4274db18ffc5f1a476f42caaf8f96e2f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14108,7 +14108,7 @@
     {
      "path": "tantraloka-a33/data/tal-a33.argmap.json",
      "sha256": "b81d604b5055bd59e1e0801797dba0d7e037acaa8d77d90a060a8191e2caae33",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14130,7 +14130,7 @@
     {
      "path": "tantraloka-a33/data/tal-a33.argmap.json",
      "sha256": "b81d604b5055bd59e1e0801797dba0d7e037acaa8d77d90a060a8191e2caae33",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14152,7 +14152,7 @@
     {
      "path": "tantraloka-a33/data/tal-a33.argmap.json",
      "sha256": "b81d604b5055bd59e1e0801797dba0d7e037acaa8d77d90a060a8191e2caae33",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14174,7 +14174,7 @@
     {
      "path": "tantraloka-a33/data/tal-a33.argmap.json",
      "sha256": "b81d604b5055bd59e1e0801797dba0d7e037acaa8d77d90a060a8191e2caae33",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14196,7 +14196,7 @@
     {
      "path": "tantraloka-a34/data/tal-a34.argmap.json",
      "sha256": "2a50ac44785e432c888c88a0c3b71b9cf3718c3eec984f16dac1609310e6719b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14222,7 +14222,7 @@
     {
      "path": "tantraloka-a35/data/tal-a35.argmap.json",
      "sha256": "06152ee28f132572501ca4d0df091c251936736dd2f464a5da7181d0ea6886c2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14244,7 +14244,7 @@
     {
      "path": "tantraloka-a35/data/tal-a35.argmap.json",
      "sha256": "06152ee28f132572501ca4d0df091c251936736dd2f464a5da7181d0ea6886c2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14266,7 +14266,7 @@
     {
      "path": "tantraloka-a35/data/tal-a35.argmap.json",
      "sha256": "06152ee28f132572501ca4d0df091c251936736dd2f464a5da7181d0ea6886c2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14288,7 +14288,7 @@
     {
      "path": "tantraloka-a35/data/tal-a35.argmap.json",
      "sha256": "06152ee28f132572501ca4d0df091c251936736dd2f464a5da7181d0ea6886c2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14310,7 +14310,7 @@
     {
      "path": "tantraloka-a35/data/tal-a35.argmap.json",
      "sha256": "06152ee28f132572501ca4d0df091c251936736dd2f464a5da7181d0ea6886c2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14332,7 +14332,7 @@
     {
      "path": "tantraloka-a36/data/tal-a36.argmap.json",
      "sha256": "46606f66e4d8bdbbaa72b0ba518a149799aa7e3c8002b0c8b4e2166930c569a8",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14354,7 +14354,7 @@
     {
      "path": "tantraloka-a36/data/tal-a36.argmap.json",
      "sha256": "46606f66e4d8bdbbaa72b0ba518a149799aa7e3c8002b0c8b4e2166930c569a8",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14376,7 +14376,7 @@
     {
      "path": "tantraloka-a37/data/tal-a37.argmap.json",
      "sha256": "3f9d62c5cea8d28d156dd0a9ecf656d18c230adc069bea7a9a98aae6dca29198",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14398,7 +14398,7 @@
     {
      "path": "tantraloka-a37/data/tal-a37.argmap.json",
      "sha256": "3f9d62c5cea8d28d156dd0a9ecf656d18c230adc069bea7a9a98aae6dca29198",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14420,7 +14420,7 @@
     {
      "path": "tantraloka-a37/data/tal-a37.argmap.json",
      "sha256": "3f9d62c5cea8d28d156dd0a9ecf656d18c230adc069bea7a9a98aae6dca29198",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14442,7 +14442,7 @@
     {
      "path": "tantraloka-a37/data/tal-a37.argmap.json",
      "sha256": "3f9d62c5cea8d28d156dd0a9ecf656d18c230adc069bea7a9a98aae6dca29198",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14464,7 +14464,7 @@
     {
      "path": "tantraloka-a37/data/tal-a37.argmap.json",
      "sha256": "3f9d62c5cea8d28d156dd0a9ecf656d18c230adc069bea7a9a98aae6dca29198",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14486,7 +14486,7 @@
     {
      "path": "tantraloka-a37/data/tal-a37.argmap.json",
      "sha256": "3f9d62c5cea8d28d156dd0a9ecf656d18c230adc069bea7a9a98aae6dca29198",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14508,7 +14508,7 @@
     {
      "path": "tantraloka-a37/data/tal-a37.argmap.json",
      "sha256": "3f9d62c5cea8d28d156dd0a9ecf656d18c230adc069bea7a9a98aae6dca29198",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14530,7 +14530,7 @@
     {
      "path": "tantraloka-a37/data/tal-a37.argmap.json",
      "sha256": "3f9d62c5cea8d28d156dd0a9ecf656d18c230adc069bea7a9a98aae6dca29198",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14552,7 +14552,7 @@
     {
      "path": "tantraloka-a37/data/tal-a37.argmap.json",
      "sha256": "3f9d62c5cea8d28d156dd0a9ecf656d18c230adc069bea7a9a98aae6dca29198",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14574,7 +14574,7 @@
     {
      "path": "tantrasara-a01/data/tsa-a01.argmap.json",
      "sha256": "bee519476287df9eebdd0d61d46dae41bfc223933ba3298da8a7aa17db8ec24c",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14596,7 +14596,7 @@
     {
      "path": "tantrasara-a02/data/tsa-a02.argmap.json",
      "sha256": "f280d8eb2c616d9bb362c0850db8d32519b3b9b39d3d87f2645342e0d5b3295e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14618,7 +14618,7 @@
     {
      "path": "tantrasara-a03/data/tsa-a03.argmap.json",
      "sha256": "b0178b024bbfa441d146fcec006ca1268d0f9d8e3e5edbb6432bdbd20131a95d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14640,7 +14640,7 @@
     {
      "path": "tantrasara-a03/data/tsa-a03.argmap.json",
      "sha256": "b0178b024bbfa441d146fcec006ca1268d0f9d8e3e5edbb6432bdbd20131a95d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14662,7 +14662,7 @@
     {
      "path": "tantrasara-a04/data/tsa-a04.argmap.json",
      "sha256": "994fb4ed109c4175358f7b865ef8e2804538bfef04e291ef8e5d1835c16e07e9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14684,7 +14684,7 @@
     {
      "path": "tantrasara-a04/data/tsa-a04.argmap.json",
      "sha256": "994fb4ed109c4175358f7b865ef8e2804538bfef04e291ef8e5d1835c16e07e9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14706,7 +14706,7 @@
     {
      "path": "tantrasara-a04/data/tsa-a04.argmap.json",
      "sha256": "994fb4ed109c4175358f7b865ef8e2804538bfef04e291ef8e5d1835c16e07e9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14728,7 +14728,7 @@
     {
      "path": "tantrasara-a05/data/tsa-a05.argmap.json",
      "sha256": "2279e14b374f91806f62ab494d816c55b51669bb9b655a6e8073ac34db6a2db2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14750,7 +14750,7 @@
     {
      "path": "tantrasara-a05/data/tsa-a05.argmap.json",
      "sha256": "2279e14b374f91806f62ab494d816c55b51669bb9b655a6e8073ac34db6a2db2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14772,7 +14772,7 @@
     {
      "path": "tantrasara-a06/data/tsa-a06.argmap.json",
      "sha256": "93f9daf01583726c2303795868a6783ef518f2ed6ee3ed3b47a75b8372423a6f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14794,7 +14794,7 @@
     {
      "path": "tantrasara-a06/data/tsa-a06.argmap.json",
      "sha256": "93f9daf01583726c2303795868a6783ef518f2ed6ee3ed3b47a75b8372423a6f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14816,7 +14816,7 @@
     {
      "path": "tantrasara-a06/data/tsa-a06.argmap.json",
      "sha256": "93f9daf01583726c2303795868a6783ef518f2ed6ee3ed3b47a75b8372423a6f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14838,7 +14838,7 @@
     {
      "path": "tantrasara-a06/data/tsa-a06.argmap.json",
      "sha256": "93f9daf01583726c2303795868a6783ef518f2ed6ee3ed3b47a75b8372423a6f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14860,7 +14860,7 @@
     {
      "path": "tantrasara-a07/data/tsa-a07.argmap.json",
      "sha256": "3a5cd1ea18f85ea139bbf1059805e1e35fbaaa10a3fe05ce89b696b3054489f1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14891,7 +14891,7 @@
     {
      "path": "tantrasara-a08/data/tsa-a08.argmap.json",
      "sha256": "8485f5769b3ddd4ce4af4a7072f89361e1e908e58a134e13b8073da6d1d6b7f1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14917,7 +14917,7 @@
     {
      "path": "tantrasara-a08/data/tsa-a08.argmap.json",
      "sha256": "8485f5769b3ddd4ce4af4a7072f89361e1e908e58a134e13b8073da6d1d6b7f1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14945,7 +14945,7 @@
     {
      "path": "tantrasara-a08/data/tsa-a08.argmap.json",
      "sha256": "8485f5769b3ddd4ce4af4a7072f89361e1e908e58a134e13b8073da6d1d6b7f1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14977,7 +14977,7 @@
     {
      "path": "tantrasara-a08/data/tsa-a08.argmap.json",
      "sha256": "8485f5769b3ddd4ce4af4a7072f89361e1e908e58a134e13b8073da6d1d6b7f1",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -14989,7 +14989,8 @@
     "EgoOrigin.lean :: sankhya_requires_cause",
     "EgoOrigin.lean :: trika_self_grounding_exists",
     "Heaps.lean :: guna_threefold",
-    "Heaps.lean :: heap_has_both_kinds"
+    "Heaps.lean :: heap_has_both_kinds",
+    "Tattva.lean :: eleven_wombed"
    ],
    "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
@@ -15005,7 +15006,7 @@
     {
      "path": "tantrasara-a09/data/tsa-a09.argmap.json",
      "sha256": "ba83c9a9dc186be140a0137e5b24517009549be3ca0e7d93c30cfd3af08aab5e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15027,7 +15028,7 @@
     {
      "path": "tantrasara-a09/data/tsa-a09.argmap.json",
      "sha256": "ba83c9a9dc186be140a0137e5b24517009549be3ca0e7d93c30cfd3af08aab5e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15049,7 +15050,7 @@
     {
      "path": "tantrasara-a09/data/tsa-a09.argmap.json",
      "sha256": "ba83c9a9dc186be140a0137e5b24517009549be3ca0e7d93c30cfd3af08aab5e",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15071,7 +15072,7 @@
     {
      "path": "tantrasara-a10/data/tsa-a10.argmap.json",
      "sha256": "603c8d83033fadf9c5fcd9fef8c9aecbff3a3ff79a749d8ba4803570b2eabbd8",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15093,7 +15094,7 @@
     {
      "path": "tantrasara-a11/data/tsa-a11.argmap.json",
      "sha256": "69b33bd64d7adff0b9ea464bae2869a8ca0238d914ec6f62bbcc16a1c2bef247",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15115,7 +15116,7 @@
     {
      "path": "tantrasara-a11/data/tsa-a11.argmap.json",
      "sha256": "69b33bd64d7adff0b9ea464bae2869a8ca0238d914ec6f62bbcc16a1c2bef247",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15137,7 +15138,7 @@
     {
      "path": "tantrasara-a11/data/tsa-a11.argmap.json",
      "sha256": "69b33bd64d7adff0b9ea464bae2869a8ca0238d914ec6f62bbcc16a1c2bef247",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15159,7 +15160,7 @@
     {
      "path": "tantrasara-a11/data/tsa-a11.argmap.json",
      "sha256": "69b33bd64d7adff0b9ea464bae2869a8ca0238d914ec6f62bbcc16a1c2bef247",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15181,7 +15182,7 @@
     {
      "path": "tantrasara-a11/data/tsa-a11.argmap.json",
      "sha256": "69b33bd64d7adff0b9ea464bae2869a8ca0238d914ec6f62bbcc16a1c2bef247",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15203,7 +15204,7 @@
     {
      "path": "tantrasara-a11/data/tsa-a11.argmap.json",
      "sha256": "69b33bd64d7adff0b9ea464bae2869a8ca0238d914ec6f62bbcc16a1c2bef247",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15225,7 +15226,7 @@
     {
      "path": "tantrasara-a11/data/tsa-a11.argmap.json",
      "sha256": "69b33bd64d7adff0b9ea464bae2869a8ca0238d914ec6f62bbcc16a1c2bef247",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15247,7 +15248,7 @@
     {
      "path": "tantrasara-a11/data/tsa-a11.argmap.json",
      "sha256": "69b33bd64d7adff0b9ea464bae2869a8ca0238d914ec6f62bbcc16a1c2bef247",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15269,7 +15270,7 @@
     {
      "path": "tantrasara-a11/data/tsa-a11.argmap.json",
      "sha256": "69b33bd64d7adff0b9ea464bae2869a8ca0238d914ec6f62bbcc16a1c2bef247",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15291,7 +15292,7 @@
     {
      "path": "tantrasara-a11/data/tsa-a11.argmap.json",
      "sha256": "69b33bd64d7adff0b9ea464bae2869a8ca0238d914ec6f62bbcc16a1c2bef247",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15313,7 +15314,7 @@
     {
      "path": "tantrasara-a12/data/tsa-a12.argmap.json",
      "sha256": "65443d11abf9b74d131888862ba79279790a4accbf2132649049066d8017712f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15335,7 +15336,7 @@
     {
      "path": "tantrasara-a13/data/tsa-a13.argmap.json",
      "sha256": "17da917497b40efbc5a8264b3d4684e7fb30722ca3b0be18ffd73ef577ce6dc7",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15357,7 +15358,7 @@
     {
      "path": "tantrasara-a13/data/tsa-a13.argmap.json",
      "sha256": "17da917497b40efbc5a8264b3d4684e7fb30722ca3b0be18ffd73ef577ce6dc7",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15379,7 +15380,7 @@
     {
      "path": "tantrasara-a13/data/tsa-a13.argmap.json",
      "sha256": "17da917497b40efbc5a8264b3d4684e7fb30722ca3b0be18ffd73ef577ce6dc7",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15401,7 +15402,7 @@
     {
      "path": "tantrasara-a13/data/tsa-a13.argmap.json",
      "sha256": "17da917497b40efbc5a8264b3d4684e7fb30722ca3b0be18ffd73ef577ce6dc7",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15423,7 +15424,7 @@
     {
      "path": "tantrasara-a14/data/tsa-a14.argmap.json",
      "sha256": "d83f2926f19caf86f46f4d16f83ec318f3e8837e0bb8753feb7f3319b9304386",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15445,7 +15446,7 @@
     {
      "path": "tantrasara-a15/data/tsa-a15.argmap.json",
      "sha256": "9752079328e49764bed25934474d578dbba2b109e72f9d61f19960614a4c2414",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15467,7 +15468,7 @@
     {
      "path": "tantrasara-a16/data/tsa-a16.argmap.json",
      "sha256": "f0ff8631a24741d407f5690d91fb68621359c58908156d4f00b529d7bc1cae3b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15489,7 +15490,7 @@
     {
      "path": "tantrasara-a17/data/tsa-a17.argmap.json",
      "sha256": "348ac1beb9d8a581f0f8af7b49833d6f24538b3a9417f39f989171060f547866",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15511,7 +15512,7 @@
     {
      "path": "tantrasara-a18/data/tsa-a18.argmap.json",
      "sha256": "d050e53c22c76599e7b14a6568a0eb9c78cd4c191ea0267443965b9011807c95",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15533,7 +15534,7 @@
     {
      "path": "tantrasara-a19/data/tsa-a19.argmap.json",
      "sha256": "bf7692a662c043a85b6056a605fac4dcac2864582a6376ffd0cf36ece76e05fc",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15555,7 +15556,7 @@
     {
      "path": "tantrasara-a20/data/tsa-a20.argmap.json",
      "sha256": "312209591f6f3655e024e42a51fc13ca34903a8186c96c628c0826c6e507ef21",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15577,7 +15578,7 @@
     {
      "path": "tantrasara-a20/data/tsa-a20.argmap.json",
      "sha256": "312209591f6f3655e024e42a51fc13ca34903a8186c96c628c0826c6e507ef21",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15599,7 +15600,7 @@
     {
      "path": "tantrasara-a20/data/tsa-a20.argmap.json",
      "sha256": "312209591f6f3655e024e42a51fc13ca34903a8186c96c628c0826c6e507ef21",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15621,7 +15622,7 @@
     {
      "path": "tantrasara-a20/data/tsa-a20.argmap.json",
      "sha256": "312209591f6f3655e024e42a51fc13ca34903a8186c96c628c0826c6e507ef21",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15643,7 +15644,7 @@
     {
      "path": "tantrasara-a21/data/tsa-a21.argmap.json",
      "sha256": "b6f2d99a3342ee23c92bba20f34956db80147fa92b127b861fae315271b4d8d0",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15665,7 +15666,7 @@
     {
      "path": "tantrasara-a22/data/tsa-a22.argmap.json",
      "sha256": "36b48a42310639f951acd375a3bc4a151789b0ba4b69a1a3fed2604eae765c5b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15687,7 +15688,7 @@
     {
      "path": "tantrasara-a22/data/tsa-a22.argmap.json",
      "sha256": "36b48a42310639f951acd375a3bc4a151789b0ba4b69a1a3fed2604eae765c5b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15709,7 +15710,7 @@
     {
      "path": "tantrasara-a22/data/tsa-a22.argmap.json",
      "sha256": "36b48a42310639f951acd375a3bc4a151789b0ba4b69a1a3fed2604eae765c5b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15731,7 +15732,7 @@
     {
      "path": "vbt/data/vbt-p01.argmap.json",
      "sha256": "afaafbf5f6a8e2b4655a7c148bf7580badbf7b3d3e99621f8c64ea8d1d78a477",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15753,7 +15754,7 @@
     {
      "path": "vbt/data/vbt-p02.argmap.json",
      "sha256": "d85704543aebab042797aa861a6d095b7b2c9e35ec4a2ed2aeb88e0a5c7ebf6d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15775,7 +15776,7 @@
     {
      "path": "vbt/data/vbt-p03.argmap.json",
      "sha256": "ad97bcf08b4031c23e2bd9da2e48dd11a313a49d3b170d085374af614d0504e2",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15797,7 +15798,7 @@
     {
      "path": "vbt/data/vbt-p04.argmap.json",
      "sha256": "6164d763be2e9ac927609f4a1de844b5fb602efc6355d2caa1e3d662f985ce8b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15819,7 +15820,7 @@
     {
      "path": "vbt/data/vbt-p05.argmap.json",
      "sha256": "7dd7ca3c6886d550af4e16f9ad21252dfa3a9662a1a35226a871a3ef30e0f91b",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15841,7 +15842,7 @@
     {
      "path": "vbt/data/vbt-p06.argmap.json",
      "sha256": "34b8b7bbbb349fc0f9673c0eb06d9b3f74708d8e985aa3f5fd942227389ceb5a",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15863,7 +15864,7 @@
     {
      "path": "vbt/data/vbt-p07.argmap.json",
      "sha256": "869f86721a1c5a0d35433c4857e450fc489f4654186a516d69d55b3730cf7207",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15885,7 +15886,7 @@
     {
      "path": "vbt/data/vbt-p08.argmap.json",
      "sha256": "084813cf329efeb5cd692c509a1cde053362ac94934369d2bb129c0ed847dc7f",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15907,7 +15908,7 @@
     {
      "path": "vbt/data/vbt-p09.argmap.json",
      "sha256": "5544b9c8b237abe53dd608738fe05717a0f86a8b04e9f57fae51d18e43f87f75",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15929,7 +15930,7 @@
     {
      "path": "vbt/data/vbt-p10.argmap.json",
      "sha256": "b7dcd8854a05719272dc0bc3c9be50f6231bbf666de180bca92df82504eeac93",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15951,7 +15952,7 @@
     {
      "path": "vbt/data/vbt-p11.argmap.json",
      "sha256": "6688c0a24b6830fe917a466595ee50ab670be2a5bb50f1a6d5253578c3766920",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15973,7 +15974,7 @@
     {
      "path": "vbt/data/vbt-p12.argmap.json",
      "sha256": "52868566f22896dbf7a12a7fffb37c62c2d050ebe99dc8fe4e7a04f355f679fb",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -15995,7 +15996,7 @@
     {
      "path": "vbt/data/vbt-p13.argmap.json",
      "sha256": "8aca21fc9a9bd33c52467575583b4ce0123c91fca86e17058ff21398eea109f9",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -16017,7 +16018,7 @@
     {
      "path": "vbt/data/vbt-p14.argmap.json",
      "sha256": "99ddedd8a102b8a970993e1d8eb48d878f627200447cdb968237732aaa3266a7",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -16039,7 +16040,7 @@
     {
      "path": "vbt/data/vbt-p15.argmap.json",
      "sha256": "f0b8e529d2bb974c0760c830d064f5c6f75b778376967d4fc0815b9684523e15",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -16061,7 +16062,7 @@
     {
      "path": "vbt/data/vbt-p16.argmap.json",
      "sha256": "3a9b7c3d11b6001d6e912c3ce89624ddcf230656816e4d8824a72e47a226d75d",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],
@@ -16083,7 +16084,7 @@
     {
      "path": "vbt/data/vbt-p17.argmap.json",
      "sha256": "467d71c0a86d1fcf630dfffe31c3024fb0c494b0407756a1e245ba70146b51ac",
-     "translation_work_revision": "9000e5c80fe79fade92e7744270e5c4087e0085a",
+     "translation_work_revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
      "checkout_state": "CLEAN"
     }
    ],

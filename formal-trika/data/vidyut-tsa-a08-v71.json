@@ -1,0 +1,123 @@
+{
+ "format": "trika-vidyut-pilot/1",
+ "work": "tantrasara-a08",
+ "verse": "tsa-a08-v71",
+ "span_text": "eṣo 'sya ahaṃkārasya karaṇaskandhaḥ // AbhTs_8.71\n",
+ "analysis_normalization": "editorial markers + verse numbers dropped, avagraha/bar/slash stripped from an analysis COPY; span bytes authoritative",
+ "span_sha_note": "span bytes from volume manifest (see bind receipts)",
+ "machine_tokens": [
+  {
+   "text": "eza",
+   "lemma": "ez",
+   "kind": "Subanta",
+   "linga": "Linga",
+   "vibhakti": "Vibhakti",
+   "vacana": "Vacana",
+   "lakara": "None",
+   "gana": "Gana",
+   "dhatu": "ezf~\\\\"
+  },
+  {
+   "text": "U",
+   "lemma": "u",
+   "kind": "Subanta",
+   "linga": "Linga",
+   "vibhakti": "Vibhakti",
+   "vacana": "Vacana"
+  },
+  {
+   "text": "si",
+   "lemma": "si",
+   "kind": "Subanta",
+   "linga": "Linga",
+   "vibhakti": "Vibhakti",
+   "vacana": "Vacana"
+  },
+  {
+   "text": "a",
+   "lemma": "a",
+   "kind": "Subanta",
+   "linga": "Linga",
+   "vibhakti": "Vibhakti",
+   "vacana": "Vacana"
+  },
+  {
+   "text": "aham",
+   "lemma": "aha",
+   "kind": "Subanta",
+   "linga": "Linga",
+   "vibhakti": "Vibhakti",
+   "vacana": "Vacana"
+  },
+  {
+   "text": "kArasya",
+   "lemma": "kf",
+   "kind": "Subanta",
+   "linga": "Linga",
+   "vibhakti": "Vibhakti",
+   "vacana": "Vacana",
+   "lakara": "None",
+   "gana": "Gana",
+   "dhatu": "kf\\\\Y"
+  },
+  {
+   "text": "karaRas",
+   "lemma": "kf",
+   "kind": "Subanta",
+   "linga": "Linga",
+   "vibhakti": "Vibhakti",
+   "vacana": "Vacana",
+   "lakara": "None",
+   "gana": "Gana",
+   "dhatu": "kf\\\\Y"
+  },
+  {
+   "text": "kanDas",
+   "lemma": "kaMDa",
+   "kind": "Subanta",
+   "linga": "Linga",
+   "vibhakti": "Vibhakti",
+   "vacana": "Vacana"
+  }
+ ],
+ "l0_compare": [
+  {
+   "l0_surface": "eṣo",
+   "l0_morph": "m.nom.sg (etad, -s + a sandhi)",
+   "l0_status": "PARSED",
+   "fork": "none",
+   "vidyut_hit": false,
+   "vidyut_lemmas": []
+  },
+  {
+   "l0_surface": "'sya",
+   "l0_morph": "m./n.gen.sg (idam, a elided)",
+   "l0_status": "PARSED",
+   "fork": "none",
+   "vidyut_hit": false,
+   "vidyut_lemmas": []
+  },
+  {
+   "l0_surface": "ahaṃkārasya",
+   "l0_morph": "m.gen.sg (ahaṃkāra)",
+   "l0_status": "PARSED",
+   "fork": "none",
+   "vidyut_hit": true,
+   "vidyut_lemmas": [
+    "aha"
+   ]
+  },
+  {
+   "l0_surface": "karaṇaskandhaḥ",
+   "l0_morph": "m.nom.sg (karaṇa-skandha)",
+   "l0_status": "PARSED",
+   "fork": "none",
+   "vidyut_hit": true,
+   "vidyut_lemmas": [
+    "kf"
+   ]
+  }
+ ],
+ "verdict": "2/4 L0 surfaces align with machine tokens; no live forks in verse",
+ "note": "machine proposes, grammarian disposes; never overwrites L0"
+}
