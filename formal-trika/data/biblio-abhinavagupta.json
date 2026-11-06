@@ -1,0 +1,642 @@
+{
+ "format": "trika-biblio-sweep/1",
+ "date": "2026-11-06",
+ "dossiers": 8,
+ "works": {
+  "PTCND_sa_abhinavagupta-IzvarapratyabhijJAvimarzinI": {
+   "title": "Īśvarapratyabhijñāvimarśinī",
+   "assertions": 3,
+   "predicates": [
+    "AUTHOR",
+    "LANGUAGE",
+    "TITLE"
+   ],
+   "external_ids": [
+    [
+     "GRETIL",
+     "sa_abhinavagupta-IzvarapratyabhijJAvimarzinI"
+    ]
+   ],
+   "mapped_workdirs": [],
+   "records": {},
+   "lore_links": [],
+   "bibliography": {
+    "editions": [],
+    "translations": [
+     {
+      "kind": "translation",
+      "title": "The Īśvarapratyabhijñākārikā with the author's Vṛtti: critical edition + annotated English translation",
+      "credit": "Raffaele Torella",
+      "year": "1994/2002/2021(2nd rev)",
+      "publisher": "IsMEO/MLBD",
+      "identifiers": {
+       "isbn": "9788120818675 / 9789390713653"
+      },
+      "url": "https://www.mlbd.in/products/the-isvarapratyabhijnakarika-of-utpaladeva-with-the-authors-vrtti-critical-edition-and-annotated-translation-9789390713653-939071365x-9789390713646-9390713641",
+      "verified": "live-fetched 2026-11-06",
+      "rights_note": "",
+      "note": "Utpaladeva mula + Vrtti (Abhinavagupta comments in Vimarśinī); Malayalam ms breakthrough; Buddhist pramana notes"
+     }
+    ],
+    "papers": [],
+    "ours": []
+   },
+   "gaps": [
+    "Vimarsini Italian (Torella, Adelphi 2013 — publisher-cited, URL unverified)",
+    "papers bibliography",
+    "our publications (none yet)"
+   ]
+  },
+  "PTCND_sa_abhinavagupta-anuttarASTikA": {
+   "title": "Anuttarāṣṭikā",
+   "assertions": 3,
+   "predicates": [
+    "AUTHOR",
+    "LANGUAGE",
+    "TITLE"
+   ],
+   "external_ids": [
+    [
+     "GRETIL",
+     "sa_abhinavagupta-anuttarASTikA"
+    ]
+   ],
+   "mapped_workdirs": [],
+   "records": {},
+   "lore_links": [],
+   "bibliography": {
+    "editions": [],
+    "translations": [],
+    "papers": [],
+    "ours": []
+   },
+   "gaps": [
+    "editions bibliography",
+    "translations bibliography",
+    "papers bibliography",
+    "our publications (none yet)"
+   ]
+  },
+  "PTCND_sa_abhinavagupta-bhairavastava": {
+   "title": "Bhairavastava",
+   "assertions": 3,
+   "predicates": [
+    "AUTHOR",
+    "LANGUAGE",
+    "TITLE"
+   ],
+   "external_ids": [
+    [
+     "GRETIL",
+     "sa_abhinavagupta-bhairavastava"
+    ]
+   ],
+   "mapped_workdirs": [],
+   "records": {},
+   "lore_links": [],
+   "bibliography": {
+    "editions": [],
+    "translations": [],
+    "papers": [],
+    "ours": []
+   },
+   "gaps": [
+    "editions bibliography",
+    "translations bibliography",
+    "papers bibliography",
+    "our publications (none yet)"
+   ]
+  },
+  "PTCND_sa_abhinavagupta-bodhapaJcadazikA": {
+   "title": "Bodhapañcadaśikā",
+   "assertions": 3,
+   "predicates": [
+    "AUTHOR",
+    "LANGUAGE",
+    "TITLE"
+   ],
+   "external_ids": [
+    [
+     "GRETIL",
+     "sa_abhinavagupta-bodhapaJcadazikA"
+    ]
+   ],
+   "mapped_workdirs": [],
+   "records": {},
+   "lore_links": [],
+   "bibliography": {
+    "editions": [],
+    "translations": [],
+    "papers": [],
+    "ours": []
+   },
+   "gaps": [
+    "editions bibliography",
+    "translations bibliography",
+    "papers bibliography",
+    "our publications (none yet)"
+   ]
+  },
+  "PTCND_sa_abhinavagupta-kramastotra": {
+   "title": "Kramastotra",
+   "assertions": 3,
+   "predicates": [
+    "AUTHOR",
+    "LANGUAGE",
+    "TITLE"
+   ],
+   "external_ids": [
+    [
+     "GRETIL",
+     "sa_abhinavagupta-kramastotra"
+    ]
+   ],
+   "mapped_workdirs": [
+    "kramastotra"
+   ],
+   "records": {
+    "kramastotra": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold",
+     "projection": true
+    }
+   },
+   "lore_links": [],
+   "bibliography": {
+    "editions": [],
+    "translations": [],
+    "papers": [],
+    "ours": []
+   },
+   "gaps": [
+    "editions bibliography",
+    "translations bibliography",
+    "papers bibliography",
+    "our publications (none yet)"
+   ]
+  },
+  "PTCND_sa_abhinavagupta-mAlinIzlokavArttika": {
+   "title": "Mālinīślokavārttika",
+   "assertions": 3,
+   "predicates": [
+    "AUTHOR",
+    "LANGUAGE",
+    "TITLE"
+   ],
+   "external_ids": [
+    [
+     "GRETIL",
+     "sa_abhinavagupta-mAlinIzlokavArttika"
+    ]
+   ],
+   "mapped_workdirs": [],
+   "records": {},
+   "lore_links": [],
+   "bibliography": {
+    "editions": [],
+    "translations": [],
+    "papers": [],
+    "ours": []
+   },
+   "gaps": [
+    "editions bibliography",
+    "translations bibliography",
+    "papers bibliography",
+    "our publications (none yet)"
+   ]
+  },
+  "PTCND_sa_abhinavagupta-paramArthasAra": {
+   "title": "Paramārthasāra",
+   "assertions": 3,
+   "predicates": [
+    "AUTHOR",
+    "LANGUAGE",
+    "TITLE"
+   ],
+   "external_ids": [
+    [
+     "GRETIL",
+     "sa_abhinavagupta-paramArthasAra"
+    ]
+   ],
+   "mapped_workdirs": [
+    "paramarthasara"
+   ],
+   "records": {
+    "paramarthasara": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL KSTS 7 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold",
+     "projection": true
+    }
+   },
+   "lore_links": [],
+   "bibliography": {
+    "editions": [
+     {
+      "kind": "edition",
+      "title": "Paramārthasāra + Yogarāja comm. (KSTS 7, rev. 9 mss)",
+      "credit": "text input Bansat-Boudon/Codet/Törzsök",
+      "year": "2020-07-31",
+      "publisher": "GRETIL",
+      "identifiers": {
+       "gretil": "sa_abhinavagupta-paramArthasAra-comm"
+      },
+      "url": "https://gretil.sub.uni-goettingen.de/gretil/corpustei/transformations/plaintext/sa_abhinavagupta-paramArthasAra-comm.txt",
+      "verified": "live-fetched 2026-11-06",
+      "rights_note": "",
+      "note": "plaintext transform of TEI xml"
+     }
+    ],
+    "translations": [
+     {
+      "kind": "translation",
+      "title": "An Introduction to Tantric Philosophy (Paramarthasara + Yogaraja, critically revised text)",
+      "credit": "Lyne Bansat-Boudon, Kamaleshadatta Tripathi",
+      "year": "2011",
+      "publisher": "Routledge",
+      "identifiers": {
+       "doi": "10.4324/9780203845936",
+       "isbn": "9780415836951"
+      },
+      "url": "https://www.routledge.com/An-Introduction-to-Tantric-Philosophy-The-Paramarthasara-of-Abhinavagupta-with-the-Commentary-of-Yogaraja/Bansat-Boudon-Tripathi/p/book/9780415836951",
+      "verified": "live-fetched 2026-11-06",
+      "rights_note": "",
+      "note": "first annotated English of both texts"
+     },
+     {
+      "kind": "translation",
+      "title": "Essence of the Exact Reality (Paramarthasara, with notes)",
+      "credit": "B.N. Pandit",
+      "year": "1991",
+      "publisher": "Munshiram Manoharlal",
+      "identifiers": {
+       "isbn": "81-215-0523-0"
+      },
+      "url": "",
+      "verified": "live-fetched 2026-11-06",
+      "rights_note": "",
+      "note": "cited in edition preface; URL unverified — no link listed"
+     }
+    ],
+    "papers": [],
+    "ours": []
+   },
+   "gaps": [
+    "papers bibliography",
+    "our publications (none yet)"
+   ]
+  },
+  "PTCND_sa_abhinavagupta-tantrasAra": {
+   "title": "Tantrasāra",
+   "assertions": 3,
+   "predicates": [
+    "AUTHOR",
+    "LANGUAGE",
+    "TITLE"
+   ],
+   "external_ids": [
+    [
+     "GRETIL",
+     "sa_abhinavagupta-tantrasAra"
+    ]
+   ],
+   "mapped_workdirs": [
+    "tantrasara-a01",
+    "tantrasara-a02",
+    "tantrasara-a03",
+    "tantrasara-a04",
+    "tantrasara-a05",
+    "tantrasara-a06",
+    "tantrasara-a07",
+    "tantrasara-a08",
+    "tantrasara-a09",
+    "tantrasara-a10",
+    "tantrasara-a11",
+    "tantrasara-a12",
+    "tantrasara-a13",
+    "tantrasara-a14",
+    "tantrasara-a15",
+    "tantrasara-a16",
+    "tantrasara-a17",
+    "tantrasara-a18",
+    "tantrasara-a19",
+    "tantrasara-a20",
+    "tantrasara-a21",
+    "tantrasara-a22"
+   ],
+   "records": {
+    "tantrasara-a01": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold",
+     "projection": true
+    },
+    "tantrasara-a02": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold",
+     "projection": true
+    },
+    "tantrasara-a03": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a04": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a05": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a06": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a07": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a08": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a09": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a10": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a11": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a12": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a13": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a14": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a15": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a16": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a17": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold",
+     "projection": true
+    },
+    "tantrasara-a18": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold",
+     "projection": true
+    },
+    "tantrasara-a19": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold",
+     "projection": true
+    },
+    "tantrasara-a20": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a21": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    },
+    "tantrasara-a22": {
+     "record": "RECORDED",
+     "edition": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+     "rights": "KNOWN-NC",
+     "registry": "gold (machine-proposed)",
+     "projection": true
+    }
+   },
+   "lore_links": [],
+   "bibliography": {
+    "editions": [
+     {
+      "kind": "edition",
+      "title": "Tantrasāra (KSTS 17)",
+      "credit": "ed. Mukund Ram Shastri",
+      "year": "1918",
+      "publisher": "KSTS / Muktabodha M-series",
+      "identifiers": {
+       "ksts": "17"
+      },
+      "url": "",
+      "verified": "live-fetched 2026-11-06",
+      "rights_note": "",
+      "note": "GRETIL e-text sa_abhinavagupta-tantrasAra (dossier ext-ID)"
+     }
+    ],
+    "translations": [
+     {
+      "kind": "translation",
+      "title": "Tantrasara of Abhinavagupta",
+      "credit": "H.N. Chakravarty, ed. Boris Marjanovic, preface Swami Chetanananda",
+      "year": "2012",
+      "publisher": "Rudra Press",
+      "identifiers": {
+       "isbn": "978-0915801787"
+      },
+      "url": "https://archive.org/stream/TantrasaraByH.NChakravarty/Tantrasara%20by%20H.N%20Chakravarty_djvu.txt",
+      "verified": "live-fetched 2026-11-06",
+      "rights_note": "© Rudra Press — link only, never copy",
+      "note": "full text on archive.org"
+     }
+    ],
+    "papers": [],
+    "ours": []
+   },
+   "gaps": [
+    "papers bibliography",
+    "our publications (none yet)"
+   ]
+  }
+ },
+ "counts": {
+  "dossiers": 8,
+  "mapped_workdirs": 24,
+  "works_without_dossiers": 2
+ },
+ "works_without_dossiers": {
+  "tantraloka (37 ahnikas)": {
+   "note": "NO openpatala dossier — the biggest gap in the spine (recon complete, 14 gold, 827 nodes, zero dossier)",
+   "editions": [
+    {
+     "kind": "edition",
+     "title": "Tantrāloka + Jayaratha Viveka (KSTS 23, 12 vols)",
+     "credit": "ed. Mukund Ram Shastri",
+     "year": "1918-1947",
+     "publisher": "KSTS / Muktabodha M-series",
+     "identifiers": {
+      "ksts": "23"
+     },
+     "url": "",
+     "verified": "live-fetched 2026-11-06",
+     "rights_note": "",
+     "note": "Muktabodha M-series e-texts"
+    }
+   ],
+   "translations": [
+    {
+     "kind": "translation",
+     "title": "Tantraloka, complete Italian",
+     "credit": "Raniero Gnoli",
+     "year": "1972 (2nd ed. later)",
+     "publisher": "IsMEO/UTET",
+     "identifiers": {},
+     "url": "",
+     "verified": "live-fetched 2026-11-06",
+     "rights_note": "",
+     "note": "only complete translation in a European language for decades; URL unverified — no link listed"
+    },
+    {
+     "kind": "translation",
+     "title": "Tantraloka ch.1-5 + Jayaratha extracts, French",
+     "credit": "Lilian Silburn, André Padoux",
+     "year": "1998",
+     "publisher": "",
+     "identifiers": {},
+     "url": "",
+     "verified": "live-fetched 2026-11-06",
+     "rights_note": "",
+     "note": "URL unverified — no link listed"
+    },
+    {
+     "kind": "translation",
+     "title": "The Kula Ritual (TA ch.29 + Viveka, English, first of any chapter)",
+     "credit": "John R. Dupuche",
+     "year": "2009",
+     "publisher": "",
+     "identifiers": {},
+     "url": "",
+     "verified": "live-fetched 2026-11-06",
+     "rights_note": "",
+     "note": "URL unverified — no link listed"
+    },
+    {
+     "kind": "translation",
+     "title": "Tantraloka, complete English + Viveka (11 vols)",
+     "credit": "Mark Dyczkowski",
+     "year": "2023+",
+     "publisher": "self-published Varanasi",
+     "identifiers": {
+      "isbn": "979-8-3761-3921-9 (vol I)"
+     },
+     "url": "",
+     "verified": "live-fetched 2026-11-06",
+     "rights_note": "",
+     "note": "URL unverified — no link listed"
+    },
+    {
+     "kind": "translation",
+     "title": "Tantraloka ch.1-4 revelation/discussion (3 vols)",
+     "credit": "Swami Lakshmanjoo / Universal Shaiva Fellowship",
+     "year": "2017/2021/2023",
+     "publisher": "USF",
+     "identifiers": {},
+     "url": "",
+     "verified": "live-fetched 2026-11-06",
+     "rights_note": "",
+     "note": "URL unverified — no link listed"
+    }
+   ],
+   "papers": [
+    {
+     "kind": "site",
+     "title": "Tantrāloka survey (translations, editions, studies list)",
+     "credit": "Wikipedia contributors",
+     "year": "",
+     "publisher": "Wikipedia",
+     "identifiers": {},
+     "url": "https://en.wikipedia.org/wiki/Tantr%C4%81loka",
+     "verified": "live-fetched 2026-11-06",
+     "rights_note": "",
+     "note": "finding aid, not authority — verify each claim downstream"
+    }
+   ],
+   "ours": []
+  },
+  "kramastotra/bhairavastava/anuttarastika/bodhapancadasika/malinivijayavarttika": {
+   "note": "dossiers exist (3 stubs each); 1-2 mapped workdirs; no published-translation bibliography found in this sweep",
+   "editions": [],
+   "translations": [],
+   "papers": [],
+   "ours": []
+  }
+ }
+}

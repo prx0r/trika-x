@@ -858,3 +858,15 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - NOT transferred (recorded): Mathlib-scale deps (no Trika Mathlib exists);
   EGA/SGA cross-tagging (openpatala could become the authority graph —
   future); per-tag website (treeka column is our version).
+
+## R2 patala bucket verified (token live, listing read-only).
+
+- Bucket `patala`: openpatala/ (repo tarball + dump + box-2026-11-06 mirror),
+  source/ingestion/{GRETIL full+html+TEI, MUKTABODHA 87MB library tarball
+  (sha-pinned manifest), MITRASAMGRAHA, PANDIT}, source/objects (87
+  content blobs), artifacts/registries (argmap/l0/l1/l2/c1/corroboration).
+- manuscripts/ EMPTY (0 objects) — the witness gap, visible in the bucket.
+- YES for Sanskrit works: GRETIL+TEI+html, Muktabodha library, Mitrasamgraha,
+  layer registries, box mirror. Muktabodha tarball NOT downloaded (87MB+ on
+  96% disk — sequenced endgame, needs headroom).
+- Credentials: single /root/.env 0600 (deduped); rotation confirmed by use.
