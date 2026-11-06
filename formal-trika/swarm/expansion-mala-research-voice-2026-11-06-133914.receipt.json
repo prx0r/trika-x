@@ -1,0 +1,88 @@
+{
+ "format": "expansion-receipt/1",
+ "essay": "expansion-mala-research-voice-2026-11-06-133914",
+ "date": "2026-11-06",
+ "owner_quotes": 6,
+ "banked_units": 2,
+ "theorems": [],
+ "claims": "1/9 CITED + 0 verse-marked",
+ "audit": {
+  "content_sha256": "681571ed86e6fffaf9ee0322c0c923e8aa09675e99dd0814fe13c3aebce92a7b",
+  "verifier": "essay-compile/loop",
+  "model": "compiler-v1",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p02: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v18]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v22]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: initiation... is the removal of impurity and with that fundamental impurity is r"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: When you're in Shambhavuppaya, you're experiencing pure nirvikalpa. Not a trace "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: As long as it does not become permanent, the Shambhava state degenerates back in"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: We find joy in practicing awareness of being of consciousness. Why? Because that"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: Anashrita Shiva means Shiva who has not come out from himself into the world of "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: That which is to be taught. Because it is the cause of what is rightly known... "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: The essential nature of light is reflective awareness (vimarśa); otherwise light"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: Reflective awareness (pratyavamarśa) constitutes the primary essence (mukhya\n> ā"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "4 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T13:39:14Z"
+ },
+ "graph": {
+  "nodes": 74,
+  "edges": 79
+ },
+ "note": "compiled, not written: owner words verbatim; substance from banked chain"
+}

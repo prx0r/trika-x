@@ -46,6 +46,620 @@
    "chunk": "tantrasara-a08:tsa08-p02",
    "date": "2026-11-06",
    "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:A",
+   "kind": "research-essay",
+   "title": "The Greek Daimon Stream",
+   "register": "mythic/participatory",
+   "tiers": [
+    "T"
+   ],
+   "status": "ASSIGNED (THREE-ESSAYS/collection framing)"
+  },
+  {
+   "id": "essay:B",
+   "kind": "research-essay",
+   "title": "The Buddhist Stream",
+   "register": "structural/soteriological",
+   "tiers": [
+    "T"
+   ],
+   "status": "ASSIGNED (THREE-ESSAYS/collection framing)"
+  },
+  {
+   "id": "essay:C",
+   "kind": "research-essay",
+   "title": "The IPK-IPVV-Ratié Razor",
+   "register": "pure recognition",
+   "tiers": [
+    "T"
+   ],
+   "status": "ASSIGNED (THREE-ESSAYS/collection framing)"
+  },
+  {
+   "id": "essay:D",
+   "kind": "research-essay",
+   "title": "The Speculative Solms/Valence Thesis",
+   "register": "felt-is-primary",
+   "tiers": [
+    "R",
+    "C"
+   ],
+   "status": "ASSIGNED (THREE-ESSAYS/collection framing)"
+  },
+  {
+   "id": "essay:E",
+   "kind": "research-essay",
+   "title": "Consciousness-Fundamental + Aperture + Frontier",
+   "register": "push",
+   "tiers": [
+    "C"
+   ],
+   "status": "ASSIGNED (THREE-ESSAYS/collection framing)"
+  },
+  {
+   "id": "essay:F",
+   "kind": "research-essay",
+   "title": "The Reflexion Debate",
+   "register": "formal dialectic",
+   "tiers": [
+    "R"
+   ],
+   "status": "ASSIGNED (THREE-ESSAYS/collection framing)"
+  },
+  {
+   "id": "essay:G",
+   "kind": "research-essay",
+   "title": "The IPVV Translation Work",
+   "register": "unique contribution",
+   "tiers": [
+    "T"
+   ],
+   "status": "ASSIGNED (THREE-ESSAYS/collection framing)"
+  },
+  {
+   "id": "essay:H",
+   "kind": "research-essay",
+   "title": "The Comparative Web",
+   "register": "parallels",
+   "tiers": [
+    "C"
+   ],
+   "status": "ASSIGNED (THREE-ESSAYS/collection framing)"
+  },
+  {
+   "id": "thesis:recognition-felt",
+   "kind": "thesis",
+   "title": "Recognition = the felt re-cognition of the self"
+  },
+  {
+   "id": "commentary:COMMENTARY-INDEX",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/COMMENTARY-INDEX.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:COMMENTARY-NODE1-felt-as-essence",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/COMMENTARY-NODE1-felt-as-essence.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:COMMENTARY-NODE2-recognition-felt-delight",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/COMMENTARY-NODE2-recognition-felt-delight.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:COMMENTARY-NODE3-perception-construction",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/COMMENTARY-NODE3-perception-construction.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:COMMENTARY-STAGE1-ANGLE-MAP",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/COMMENTARY-STAGE1-ANGLE-MAP.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:COMMENTARY-STAGE1-REFLEXIVITY-DIALECTIC",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/COMMENTARY-STAGE1-REFLEXIVITY-DIALECTIC.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:COMMENTARY-STAGE1-REFLEXIVITY-SYNTHESIS",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/COMMENTARY-STAGE1-REFLEXIVITY-SYNTHESIS.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:COMMENTARY-STAGE1-ratie-engine",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/COMMENTARY-STAGE1-ratie-engine.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:COMMENTARY-THESIS-NODE-camatkara-felt",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/COMMENTARY-THESIS-NODE-camatkara-felt.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:ESSAY-COLLECTION-framing",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/ESSAY-COLLECTION-framing.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:ESSAY-COMPLETE-5-STAGES",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/ESSAY-COMPLETE-5-STAGES.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:ESSAY-ISLAND",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/ESSAY-ISLAND.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:ESSAY-OPENING",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/ESSAY-OPENING.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:ESSAY-RECOGNITION-FELT-RE-COGNITION",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/ESSAY-RECOGNITION-FELT-RE-COGNITION.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:ESSAY-SECONDARY-ASSIGNMENT",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/ESSAY-SECONDARY-ASSIGNMENT.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:ESSAY-TEACHING-TEXT",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/ESSAY-TEACHING-TEXT.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "commentary:ESSAY-VERSES-AND-ARGUMENTS",
+   "kind": "commentary",
+   "file": "/root/projects/research-library/ESSAY-VERSES-AND-ARGUMENTS.md",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "id": "topic:imagination_essay",
+   "kind": "topic",
+   "title": "imagination_essay",
+   "file": "/root/projects/research-library/concept-deepdives/imagination_essay.md"
+  },
+  {
+   "id": "topic:what-the-heck-is-tetrahedron",
+   "kind": "topic",
+   "title": "tetrahedron",
+   "file": "/root/projects/research-library/concept-deepdives/what-the-heck-is-tetrahedron.md"
+  },
+  {
+   "id": "topic:what-the-heck-is-time",
+   "kind": "topic",
+   "title": "time",
+   "file": "/root/projects/research-library/concept-deepdives/what-the-heck-is-time.md"
+  },
+  {
+   "id": "topic:whattheheckis-exclusion",
+   "kind": "topic",
+   "title": " exclusion",
+   "file": "/root/projects/research-library/concept-deepdives/whattheheckis-exclusion.md"
+  },
+  {
+   "id": "topic:whattheheckisagency",
+   "kind": "topic",
+   "title": "agency",
+   "file": "/root/projects/research-library/concept-deepdives/whattheheckisagency.md"
+  },
+  {
+   "id": "topic:whattheheckischanneling",
+   "kind": "topic",
+   "title": "channeling",
+   "file": "/root/projects/research-library/concept-deepdives/whattheheckischanneling.md"
+  },
+  {
+   "id": "topic:whattheheckisimagination",
+   "kind": "topic",
+   "title": "imagination",
+   "file": "/root/projects/research-library/concept-deepdives/whattheheckisimagination.md"
+  },
+  {
+   "id": "topic:whattheheckismemory",
+   "kind": "topic",
+   "title": "memory",
+   "file": "/root/projects/research-library/concept-deepdives/whattheheckismemory.md"
+  },
+  {
+   "id": "topic:whattheheckisself",
+   "kind": "topic",
+   "title": "self",
+   "file": "/root/projects/research-library/concept-deepdives/whattheheckisself.md"
+  },
+  {
+   "id": "topic:whattheheckissubtlebody",
+   "kind": "topic",
+   "title": "subtlebody",
+   "file": "/root/projects/research-library/concept-deepdives/whattheheckissubtlebody.md"
+  },
+  {
+   "id": "topic:whattheheckistime",
+   "kind": "topic",
+   "title": "time",
+   "file": "/root/projects/research-library/concept-deepdives/whattheheckistime.md"
+  },
+  {
+   "id": "topic:whattheheckisvalence",
+   "kind": "topic",
+   "title": "valence",
+   "file": "/root/projects/research-library/concept-deepdives/whattheheckisvalence.md"
+  },
+  {
+   "id": "voice:backster-plant-perception",
+   "kind": "external-voice",
+   "file": "/root/projects/research-library/claimants/backster-plant-perception.md"
+  },
+  {
+   "id": "voice:eskridge-analysis",
+   "kind": "external-voice",
+   "file": "/root/projects/research-library/claimants/eskridge-analysis.md"
+  },
+  {
+   "id": "voice:grebennikov-cse-steelman",
+   "kind": "external-voice",
+   "file": "/root/projects/research-library/claimants/grebennikov-cse-steelman.md"
+  },
+  {
+   "id": "voice:grebennikov-deepdive",
+   "kind": "external-voice",
+   "file": "/root/projects/research-library/claimants/grebennikov-deepdive.md"
+  },
+  {
+   "id": "voice:revelation-insight-delusion",
+   "kind": "external-voice",
+   "file": "/root/projects/research-library/claimants/revelation-insight-delusion.md"
+  },
+  {
+   "id": "voice:schneider-thor-deepdive",
+   "kind": "external-voice",
+   "file": "/root/projects/research-library/claimants/schneider-thor-deepdive.md"
+  },
+  {
+   "id": "voice:walter-russell-deepdive",
+   "kind": "external-voice",
+   "file": "/root/projects/research-library/claimants/walter-russell-deepdive.md"
+  },
+  {
+   "id": "concordance:1",
+   "kind": "concordance-claim",
+   "claim": "The felt is the essence of consciousness",
+   "ipk": "1.5.11 (vimarśa=camatkṛti)",
+   "ratie": "Ch7 (23295–23301)",
+   "solms": "Ch4-5, 11 (feelings=essence)",
+   "ipvv": "k1.3, chunkM",
+   "xref": "[exact] IPK=Ratié; [R] Solms",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:2",
+   "kind": "concordance-claim",
+   "claim": "Sentience = the felt self-savouring",
+   "ipk": "1.5.11 (no camatkṛti → inert crystal)",
+   "ratie": "Ch7 (footnote 61, Gnoli)",
+   "solms": "Ch11 (not cognitive but affective)",
+   "ipvv": "chunkM",
+   "xref": "[exact]",
+   "tiers": [
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:3",
+   "kind": "concordance-claim",
+   "claim": "The felt is the essence = freedom",
+   "ipk": "1.5.13 (vimarśa = supreme Word = freedom)",
+   "ratie": "Ch7 (22931)",
+   "solms": "Ch5 (Law of Affect: valence guides)",
+   "ipvv": "k1.3, k1.5",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:4",
+   "kind": "concordance-claim",
+   "claim": "The \"I\" is a recognition (felt)",
+   "ipk": "I.2 (aham-pratīti); pratyabhijñāpratyaya",
+   "ratie": "Ch4 (12272–12351)",
+   "solms": "Ch2 (conscious id); Ch9 (\"I feel like this about that\")",
+   "ipvv": "k1.2, chunkD",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:5",
+   "kind": "concordance-claim",
+   "claim": "Recognition is elementary, not constructed",
+   "ipk": "Conclusion (no new knowledge)",
+   "ratie": "Ch4 (Q6: experience not construction)",
+   "solms": "Ch9 (felt uncertainty; precision)",
+   "ipvv": "chunkM, chunkN",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:6",
+   "kind": "concordance-claim",
+   "claim": "Recognition's delight = decreasing uncertainty",
+   "ipk": "1.5.11–12 (camatkāra)",
+   "ratie": "Conclusion (the possessed man); Ch7 (camatkāra)",
+   "solms": "Ch9; report7 (pleasure at certainty)",
+   "ipvv": "(Vol 2 not T1'd)",
+   "xref": "[C]",
+   "tiers": [
+    "C"
+   ]
+  },
+  {
+   "id": "concordance:7",
+   "kind": "concordance-claim",
+   "claim": "Memory = re-appropriation (never lost)",
+   "ipk": "1.3.4 (asampramoṣa)",
+   "ratie": "Ch2 (6924–6981)",
+   "solms": "Ch8 (generative model, self-evidencing)",
+   "ipvv": "chunkD, k1.2",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:8",
+   "kind": "concordance-claim",
+   "claim": "Synthesis (anusandhāna) = the life of cognition",
+   "ipk": "1.3.6",
+   "ratie": "Ch2 (7409–7424)",
+   "solms": "Ch8 (prediction-error integration)",
+   "ipvv": "chunkM",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:9",
+   "kind": "concordance-claim",
+   "claim": "The unifier of cognitions (the bearer)",
+   "ipk": "1.3.7 (Maheśvara, jñāna-smṛti-apohana)",
+   "ratie": "Ch3 (8591–8596)",
+   "solms": "Ch6 (PAG = primal self)",
+   "ipvv": "chunkM, chunkN",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:10",
+   "kind": "concordance-claim",
+   "claim": "The three powers jñāna-smṛti-apohana",
+   "ipk": "1.3.7 ⚠️ (corrected)",
+   "ratie": "Ch3 (8741)",
+   "solms": "Ch8 (prediction/retention/selection)",
+   "ipvv": "chunkM",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:11",
+   "kind": "concordance-claim",
+   "claim": "Identity = dynamism (svātantrya)",
+   "ipk": "I.3.7, II.2.1; 1.5.13",
+   "ratie": "Ch4 (14425–14449); Ch7",
+   "solms": "Ch12 (self-evidencing, self-revising)",
+   "ipvv": "k1.3",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:12",
+   "kind": "concordance-claim",
+   "claim": "Consciousness creates (yogin), not reveals (mirror)",
+   "ipk": "1.5.7 (nirupādāna)",
+   "ratie": "Ch6 (18829–18834)",
+   "solms": "Ch6, 8, 10 (perception as construction)",
+   "ipvv": "(Vol 2)",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:13",
+   "kind": "concordance-claim",
+   "claim": "Perception is construction",
+   "ipk": "1.5.1–3 (object is light)",
+   "ratie": "Ch6; Ch5 (tādātmya)",
+   "solms": "Ch8 (best-guess), Ch10 (VR)",
+   "ipvv": "(Vol 2)",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:14",
+   "kind": "concordance-claim",
+   "claim": "The felt is non-objective / non-positional",
+   "ipk": "1.5.11 (vimarśa)",
+   "ratie": "Ch1 (Sartre link); Ch7",
+   "solms": "Ch5 (felt is not a thing); Ch9",
+   "ipvv": "chunkM",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:15",
+   "kind": "concordance-claim",
+   "claim": "The felt is causal (guides action)",
+   "ipk": "1.5.13 (freedom); 1.5.15",
+   "ratie": "Ch7 (freedom to become other)",
+   "solms": "Ch5 (Law of Affect); Ch9 (causal)",
+   "ipvv": "k1.3",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:16",
+   "kind": "concordance-claim",
+   "claim": "Suffering = misrecognition",
+   "ipk": "Intro (alienation); Ch7 (IV)",
+   "ratie": "Ch7 (26239); Ch4",
+   "solms": "Ch9 (increased uncertainty = bad)",
+   "ipvv": "chunkC",
+   "xref": "[C]",
+   "tiers": [
+    "C"
+   ]
+  },
+  {
+   "id": "concordance:17",
+   "kind": "concordance-claim",
+   "claim": "Difference = deployment of the Self",
+   "ipk": "II 4.17–21 (pratibimba)",
+   "ratie": "Ch9 (31822–31834)",
+   "solms": "Ch10 (perception as display of deviations)",
+   "ipvv": "(Vol 3)",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:18",
+   "kind": "concordance-claim",
+   "claim": "The other is recognized, not inferred",
+   "ipk": "1.1.5 (ūhyate ≠ anumīyate)",
+   "ratie": "Ch8 (28721–28753)",
+   "solms": "Ch5 (felt of the other)",
+   "ipvv": "k1.4-1.5",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:19",
+   "kind": "concordance-claim",
+   "claim": "The felt survives without the cognitive",
+   "ipk": "1.5.11 (essence, not cognitive)",
+   "ratie": "Ch4 (experience not construction)",
+   "solms": "Ch3 (hydranencephaly)",
+   "ipvv": "chunkM",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "concordance:20",
+   "kind": "concordance-claim",
+   "claim": "The subject IS the felt (affect)",
+   "ipk": "1.3.7 (bearer = consciousness)",
+   "ratie": "Ch8 (the other as pramātṛ)",
+   "solms": "Ch12 (subject constituted by affect)",
+   "ipvv": "chunkM",
+   "xref": "[R]",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "id": "essay:expansion-mala-research-voice-2026-11-06-133914",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
   }
  ],
  "edges": [
@@ -118,6 +732,496 @@
    "from": "essay:expansion-mala-objectivity-2026-11-06-123044",
    "to": "theorem:Mala.lean :: count_3",
    "rel": "cites-formal"
+  },
+  {
+   "from": "essay:A",
+   "to": "thesis:recognition-felt",
+   "rel": "argues",
+   "tiers": [
+    "T"
+   ]
+  },
+  {
+   "from": "essay:B",
+   "to": "thesis:recognition-felt",
+   "rel": "argues",
+   "tiers": [
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "thesis:recognition-felt",
+   "rel": "argues",
+   "tiers": [
+    "T"
+   ]
+  },
+  {
+   "from": "essay:D",
+   "to": "thesis:recognition-felt",
+   "rel": "argues",
+   "tiers": [
+    "R",
+    "C"
+   ]
+  },
+  {
+   "from": "essay:E",
+   "to": "thesis:recognition-felt",
+   "rel": "argues",
+   "tiers": [
+    "C"
+   ]
+  },
+  {
+   "from": "essay:F",
+   "to": "thesis:recognition-felt",
+   "rel": "argues",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "essay:G",
+   "to": "thesis:recognition-felt",
+   "rel": "argues",
+   "tiers": [
+    "T"
+   ]
+  },
+  {
+   "from": "essay:H",
+   "to": "thesis:recognition-felt",
+   "rel": "argues",
+   "tiers": [
+    "C"
+   ]
+  },
+  {
+   "from": "commentary:COMMENTARY-INDEX",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:COMMENTARY-NODE1-felt-as-essence",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:COMMENTARY-NODE2-recognition-felt-delight",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:COMMENTARY-NODE3-perception-construction",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:COMMENTARY-STAGE1-ANGLE-MAP",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:COMMENTARY-STAGE1-REFLEXIVITY-DIALECTIC",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:COMMENTARY-STAGE1-REFLEXIVITY-SYNTHESIS",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:COMMENTARY-STAGE1-ratie-engine",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:COMMENTARY-THESIS-NODE-camatkara-felt",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:ESSAY-COLLECTION-framing",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:ESSAY-COMPLETE-5-STAGES",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:ESSAY-ISLAND",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:ESSAY-OPENING",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:ESSAY-RECOGNITION-FELT-RE-COGNITION",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:ESSAY-SECONDARY-ASSIGNMENT",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:ESSAY-TEACHING-TEXT",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "commentary:ESSAY-VERSES-AND-ARGUMENTS",
+   "to": "thesis:recognition-felt",
+   "rel": "supports",
+   "tiers": [
+    "R"
+   ]
+  },
+  {
+   "from": "concordance:1",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:1",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:2",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:2",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:3",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:3",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:4",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:4",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:5",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:5",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:6",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "C"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:6",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:7",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:7",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:8",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:8",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:9",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:9",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:10",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:10",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:11",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:11",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:12",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:12",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:13",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:13",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:14",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:14",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:15",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:15",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:16",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "C"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:16",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:17",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:17",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:18",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:18",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:19",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:19",
+   "rel": "cites"
+  },
+  {
+   "from": "concordance:20",
+   "to": "thesis:recognition-felt",
+   "rel": "grounds",
+   "tiers": [
+    "R",
+    "T"
+   ]
+  },
+  {
+   "from": "essay:C",
+   "to": "concordance:20",
+   "rel": "cites"
+  },
+  {
+   "from": "essay:expansion-mala-research-voice-2026-11-06-133914",
+   "to": "verse:tantrasara-a08:tsa-a08-v18",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-research-voice-2026-11-06-133914",
+   "to": "verse:tantrasara-a08:tsa-a08-v22",
+   "rel": "grounds-on",
+   "tier": "R"
   }
  ]
 }

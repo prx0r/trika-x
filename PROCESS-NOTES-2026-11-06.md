@@ -956,3 +956,18 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - D8 TantraFact export: deferred by design (spec dormant; claim tables
   already satisfy the shape; export on activation).
 - D9 file index filed (PATALA-COVERAGE).
+
+## Research-library unification (one place at last).
+
+- Tier language unified: TIERS.md adopts their six definitions verbatim
+  (T/R/E/C/H/X) + my-track mapping + standing examples. My tiers were
+  declared but E/C/H/X never defined — fixed by adoption, not invention.
+- ingest_research_library.py: 8 essays (A-H tiers) + thesis + commentary/
+  essay files + 12 concept topics + claimants + 20 concordance claims
+  (graded tiers) → expansion graph (73n/77e). Mirrors untouched (projects/
+  canonical; damn/ left alone).
+- essay_compile --research: second verbatim voice (proven on NODE1;
+  pairings labeled experimental until topic-matched).
+- Provenance: my Transitions/NonEntail already cite their docs (AM0 σ-flip,
+  A≢B≢C chain) — headers confirm no fork. Concordance IPVV column
+  (chunkM/chunkD/k-chunks) is a future join key to my ledgers (noted).

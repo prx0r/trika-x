@@ -49,8 +49,14 @@ def main() -> int:
     ap.add_argument("--theorems", nargs="*", default=[])
     ap.add_argument("--slug", required=True)
     ap.add_argument("--title", default="")
+    ap.add_argument("--research", type=Path, default=None,
+                    help="research-library essay/commentary file as second voice (verbatim quotes only)")
     a = ap.parse_args()
     title, quotes, frames, raw = owner_blocks(a.owner)
+    if a.research:
+        rtitle, rquotes, rframes, _ = owner_blocks(a.research)
+    else:
+        rtitle, rquotes, rframes = "", [], []
     nodes = robo.premises(a.work, a.verses)
     if not nodes:
         print("ERROR: no banked nodes for verses", a.verses)
@@ -70,6 +76,12 @@ def main() -> int:
              ""]
     for q in quotes:
         parts.append(f"> {q}")
+    if rquotes:
+        parts.append("")
+        parts.append(f"## Research voice (verbatim, from `{a.research.name}` — unaltered)")
+        parts.append("")
+        for q in rquotes[:8]:
+            parts.append(f"> {q}")
     for f in frames[:6]:
         parts.append(f"[{f}]")
     parts += ["", "## Banked claims (audit chain, tiered)", ""]
