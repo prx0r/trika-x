@@ -9,29 +9,30 @@ Usage: python3 tools/evidence_check.py [--root translation-work-path]
 """
 import json
 import re
+import os
 import sys
 from pathlib import Path
 
+import bridge_resolve
+
 HERE = Path(__file__).resolve().parent.parent
 EV = json.loads((HERE / "EVIDENCE.json").read_text(encoding="utf-8"))
-SOURCES = ["control/Mala.lean", "control/Pramatr.lean", "control/Kancuka.lean",
-           "control/Recognition.lean", "control/AnswerKey.lean",
-           "recognition/Transitions.lean", "recognition/NonEntail.lean",
-           "recognition/Conjuncts.lean", "recognition/Memory.lean",
-           "recognition/Tractatus.lean", "recognition/Coords.lean",
-           "recognition/KancukaCorr.lean", "recognition/Grace.lean",
-           "recognition/Upaya.lean"]
+SOURCES = [str(f.relative_to(HERE)) for d in ("control", "recognition")
+           for f in sorted((HERE / d).glob("*.lean")) if not f.name.startswith("Broken")]
 TW = Path(sys.argv[sys.argv.index("--root") + 1]
-          if "--root" in sys.argv else "/root/translation-work")
+          if "--root" in sys.argv else os.environ.get("TRANSLATION_WORK", HERE.parent.parent / "translation-work"))
 
 
 def theorems():
-    out = {}
+    out = set()
     for f in SOURCES:
         text = (HERE / f).read_text(encoding="utf-8")
         for m in re.finditer(r"(?m)^theorem\s+([A-Za-z0-9_]+)", text):
             from os.path import basename as _bn
-            out[m.group(1)] = _bn(f)
+            key = f"{_bn(f)} :: {m.group(1)}"
+            if key in out:
+                raise ValueError(f"duplicate theorem: {key}")
+            out.add(key)
     return out
 
 
@@ -43,7 +44,12 @@ def ledgers():
         for line in p.read_text(encoding="utf-8").splitlines():
             if line.strip():
                 r = json.loads(line)
-                rows[r.get("locator")] = r
+                locator = r.get("locator")
+                if not locator or locator in rows:
+                    raise ValueError(f"missing or duplicate passage locator in {p}")
+                rows[locator] = r
+        if not rows:
+            raise ValueError(f"empty passage ledger: {p}")
         out[work] = rows
     return out
 
@@ -62,26 +68,31 @@ def work_of(locator):
 
 
 def main():
+    snapshot = bridge_resolve.read_json(bridge_resolve.SNAPSHOT_PATH)
+    bridge_resolve.inventory(snapshot, bridge_resolve.read_json(bridge_resolve.MAP_PATH), EV)
+    bridge_resolve.verify_ledgers(TW, snapshot)
     thms = theorems()
     entries, exempt = EV["entries"], EV["exemptions"]
     problems = []
-    for name, f in sorted(thms.items()):
-        key = f"{f} :: {name}"
+    for name, reason in exempt.items():
+        matches = [key for key in thms if key.split(" :: ", 1)[1] == name]
+        if len(matches) != 1 or not isinstance(reason, str) or not reason.strip():
+            problems.append(f"exemption must identify one theorem and explain why: {name}")
+    for key in sorted(thms):
+        name = key.split(" :: ", 1)[1]
         if key not in entries and name not in exempt:
             problems.append(f"no evidence entry: {key}")
     for key in entries:
-        if key.split(" :: ")[1] not in thms:
+        if key not in thms:
             problems.append(f"evidence without theorem: {key}")
     led = ledgers()
-    locator_ok, locator_bad, covered = 0, [], set()
+    locator_ok, locator_bad, covered, work_refs = 0, [], set(), set()
     for key, e in entries.items():
         for c in e.get("chunks", []):
             loc = c["locator"]
             w = work_of(loc)
-            if w is None or loc == "vbt" and w == "vbt":
-                pass
             if loc == "vbt":
-                covered.add(("vbt", "*work-level*"))
+                work_refs.add("vbt")
                 locator_ok += 1
                 continue
             if w is None or loc not in led.get(w, {}):
@@ -99,8 +110,10 @@ def main():
     print(f"theorems: {len(thms)}, entries: {len(entries)}, "
           f"exemptions: {len(exempt)}")
     print(f"chunk refs resolve: {locator_ok}, bad: {len(locator_bad)} {locator_bad}")
-    print(f"coverage: {len(covered)}/{total} gold chunks "
+    print(f"direct registry references: {len(covered)}/{total} passage chunks "
           f"({100 * len(covered) // max(total, 1)}%)")
+    print("work-level references (not passage coverage):", sorted(work_refs))
+    print("Registry references are not independently verified source-to-theorem entailments.")
     print("covered:", sorted(f"{w}:{l}" for w, l in covered))
     print("gaps (Treeka formal-column seed):",
           sorted(f"{w}:{l}" for w, l in gaps))
@@ -110,4 +123,8 @@ def main():
 
 
 if __name__ == "__main__":
-    raise SystemExit(main())
+    try:
+        raise SystemExit(main())
+    except (OSError, json.JSONDecodeError, ValueError, TypeError, KeyError) as exc:
+        print(f"ERROR: {exc}", file=sys.stderr)
+        raise SystemExit(1)
