@@ -1,176 +1,1754 @@
 {
-  "provenance": "Every formal claim resolves to chunk locators (translation-work passages.jsonl) and/or R-sources (gochema docs) and/or lived decodes (nibbanahelp play/). Statuses: VERIFIED-QUOTE (read this session) / ARGMAP-PINNED (argmap passage id) / UNPINNED (work cited, exact chunk not yet verified) / R-SOURCE (reconstruction doc, not a chunk) / LIVED (machine-proposed decode, owner-unreviewed). Generated nothing; hand-maintained, machine-checked by tools/evidence_check.py.",
-  "works": {
-    "tsa08": {"ledger": "translation-work/tantrasara-a08/passages.jsonl", "chunks": ["tsa08-p01", "tsa08-p02", "tsa08-p03", "tsa08-p04"]},
-    "tsa07": {"ledger": "translation-work/tantrasara-a07/passages.jsonl", "chunks": ["tsa07-p01"]},
-    "param": {"ledger": "translation-work/paramarthasara/passages.jsonl", "chunks": ["param-p01", "param-p02", "param-p03", "param-p04", "param-p05", "param-p06", "param-p07", "param-p08", "param-p09", "param-p10", "param-p11", "param-p12"]},
-    "phr": {"ledger": "translation-work/phrdaya/passages.jsonl", "chunks": ["phr-p01", "phr-p02", "phr-p03", "phr-p04", "phr-p05"]},
-    "vbt": {"ledger": "translation-work/vbt/passages.jsonl", "chunks": ["vbt-p01", "vbt-p02", "vbt-p03", "vbt-p04", "vbt-p05", "vbt-p06", "vbt-p07", "vbt-p08", "vbt-p09", "vbt-p10", "vbt-p11", "vbt-p12", "vbt-p13", "vbt-p14", "vbt-p15", "vbt-p16", "vbt-p17"]},
-    "spanda": {"ledger": "translation-work/spanda/passages.jsonl", "chunks": ["span-p01", "span-p02", "span-p03", "span-p04", "span-p05", "span-p06"]},
-    "tal15": {"ledger": "translation-work/tantraloka-a15/passages.jsonl", "chunks": ["tal-a15-p01", "tal-a15-p02", "tal-a15-p03", "tal-a15-p04", "tal-a15-p05", "tal-a15-p06", "tal-a15-p07", "tal-a15-p08", "tal-a15-p09", "tal-a15-p10", "tal-a15-p11", "tal-a15-p12", "tal-a15-p13", "tal-a15-p14", "tal-a15-p15", "tal-a15-p16", "tal-a15-p17", "tal-a15-p18", "tal-a15-p19", "tal-a15-p20", "tal-a15-p21", "tal-a15-p22", "tal-a15-p23", "tal-a15-p24", "tal-a15-p25", "tal-a15-p26", "tal-a15-p27", "tal-a15-p28", "tal-a15-p29", "tal-a15-p30", "tal-a15-p31", "tal-a15-p32", "tal-a15-p33", "tal-a15-p34", "tal-a15-p35", "tal-a15-p36", "tal-a15-p37", "tal-a15-p38", "tal-a15-p39", "tal-a15-p40", "tal-a15-p41", "tal-a15-p42", "tal-a15-p43", "tal-a15-p44", "tal-a15-p45", "tal-a15-p46", "tal-a15-p47", "tal-a15-p48", "tal-a15-p49", "tal-a15-p50", "tal-a15-p51", "tal-a15-p52", "tal-a15-p53", "tal-a15-p54", "tal-a15-p55", "tal-a15-p56", "tal-a15-p57", "tal-a15-p58", "tal-a15-p59", "tal-a15-p60", "tal-a15-p61", "tal-a15-p62"]},
-    "tal-a34": {"ledger": "translation-work/tantraloka-a34/passages.jsonl", "chunks": ["tal-a34-p01"]},
-    "tsa01": {"ledger": "translation-work/tantrasara-a01/passages.jsonl", "chunks": ["tsa01-p01"]},
-    "tsa02": {"ledger": "translation-work/tantrasara-a02/passages.jsonl", "chunks": ["tsa02-p01"]},
-    "tsa03": {"ledger": "translation-work/tantrasara-a03/passages.jsonl", "chunks": ["tsa03-p01", "tsa03-p02"]},
-    "tsa04": {"ledger": "translation-work/tantrasara-a04/passages.jsonl", "chunks": ["tsa04-p01", "tsa04-p02", "tsa04-p03"]},
-    "tsa05": {"ledger": "translation-work/tantrasara-a05/passages.jsonl", "chunks": ["tsa05-p01", "tsa05-p02"]},
-    "tsa06": {"ledger": "translation-work/tantrasara-a06/passages.jsonl", "chunks": ["tsa06-p01", "tsa06-p02", "tsa06-p03", "tsa06-p04"]},
-    "tsa09": {"ledger": "translation-work/tantrasara-a09/passages.jsonl", "chunks": ["tsa09-p01", "tsa09-p02", "tsa09-p03"]},
-    "tsa10": {"ledger": "translation-work/tantrasara-a10/passages.jsonl", "chunks": ["tsa10-p01"]},
-    "tsa11": {"ledger": "translation-work/tantrasara-a11/passages.jsonl", "chunks": ["tsa11-p01", "tsa11-p02", "tsa11-p03", "tsa11-p04", "tsa11-p05", "tsa11-p06", "tsa11-p07", "tsa11-p08", "tsa11-p09", "tsa11-p10"]},
-    "tsa12": {"ledger": "translation-work/tantrasara-a12/passages.jsonl", "chunks": ["tsa12-p01"]},
-    "tsa13": {"ledger": "translation-work/tantrasara-a13/passages.jsonl", "chunks": ["tsa13-p01", "tsa13-p02", "tsa13-p03", "tsa13-p04"]},
-    "tsa14": {"ledger": "translation-work/tantrasara-a14/passages.jsonl", "chunks": ["tsa14-p01"]},
-    "tsa15": {"ledger": "translation-work/tantrasara-a15/passages.jsonl", "chunks": ["tsa15-p01"]},
-    "tsa16": {"ledger": "translation-work/tantrasara-a16/passages.jsonl", "chunks": ["tsa16-p01"]},
-    "tsa17": {"ledger": "translation-work/tantrasara-a17/passages.jsonl", "chunks": ["tsa17-p01"]},
-    "tsa18": {"ledger": "translation-work/tantrasara-a18/passages.jsonl", "chunks": ["tsa18-p01"]},
-    "tsa19": {"ledger": "translation-work/tantrasara-a19/passages.jsonl", "chunks": ["tsa19-p01"]},
-    "tsa20": {"ledger": "translation-work/tantrasara-a20/passages.jsonl", "chunks": ["tsa20-p01", "tsa20-p02", "tsa20-p03", "tsa20-p04"]},
-    "tsa21": {"ledger": "translation-work/tantrasara-a21/passages.jsonl", "chunks": ["tsa21-p01"]},
-    "tsa22": {"ledger": "translation-work/tantrasara-a22/passages.jsonl", "chunks": ["tsa22-p01", "tsa22-p02", "tsa22-p03"]}
+ "provenance": "Every formal claim resolves to chunk locators (translation-work passages.jsonl) and/or R-sources (gochema docs) and/or lived decodes (nibbanahelp play/). Statuses: VERIFIED-QUOTE (read this session) / ARGMAP-PINNED (argmap passage id) / UNPINNED (work cited, exact chunk not yet verified) / R-SOURCE (reconstruction doc, not a chunk) / LIVED (machine-proposed decode, owner-unreviewed). Generated nothing; hand-maintained, machine-checked by tools/evidence_check.py.",
+ "works": {
+  "tsa08": {
+   "ledger": "translation-work/tantrasara-a08/passages.jsonl",
+   "chunks": [
+    "tsa08-p01",
+    "tsa08-p02",
+    "tsa08-p03",
+    "tsa08-p04"
+   ]
   },
-  "entries": {
-    "Mala.lean :: count_3": {"kind": "KEY", "chunks": [{"locator": "tsa08-p02", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "mala doctrine, stain = concealment-will"}, {"locator": "phr-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "mala adjudication on the record"}], "r_sources": [], "lived": []},
-    "Pramatr.lean :: eight_combos": {"kind": "RULE", "chunks": [], "r_sources": ["gochema FORMALIZATION-OF-RECOGNITION (3 mala axes)"], "lived": [], "note": "Combinatorial fact over the R-tier axes; evidence lands on seven, not eight."},
-    "Pramatr.lean :: seven": {"kind": "RULE", "chunks": [{"locator": "tsa08-p03", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "Māyā-person ladder; vijñānākala above Māyā; mala-person→Śiva-equality"}, {"locator": "param-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "bandha doctrine (bondage structure the axes formalize)"}], "r_sources": ["paramarthasara saptadhā-pramātṛ scheme (work-cited, exact chunk UNPINNED)"], "lived": []},
-    "Pramatr.lean :: profile": {"kind": "KEY", "chunks": [], "r_sources": [], "lived": [], "note": "Observed shape of OUR model (R). Explicitly NOT tradition. No evidence required beyond the model run itself."},
-    "Kancuka.lean :: count_5": {"kind": "KEY", "chunks": [{"locator": "tsa08-p03", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "kañcuka-six reckoning; five + māyā (mixed reckonings recorded)"}], "r_sources": [], "lived": []},
-    "Kancuka.lean :: pairings_distinct": {"kind": "KEY", "chunks": [{"locator": "tsa08-p03", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "kalā→partial agency; rāga functions; kāla/niyati delimiting (pairing gloss itself R)"}], "r_sources": [], "lived": []},
-    "Recognition.lean :: recognition_preserves_content": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema FORMALIZATION-OF-RECOGNITION (AM0 σ-flip, content-clause)"], "lived": []},
-    "Recognition.lean :: recognition_lands_recognized": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema FORMALIZATION-OF-RECOGNITION (σ-flip target)"], "lived": []},
-    "Recognition.lean :: recognition_adds_nothing": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema FORMALIZATION-OF-RECOGNITION (removal clause)"], "lived": []},
-    "Recognition.lean :: contentEq_sharp": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Sharpness claim about OUR equality predicate (mechanical-sweep hardening, S-SHARP). No external evidence required beyond the file."},
-    "AnswerKey.lean :: key_grace_term": {"kind": "KEY", "chunks": [{"locator": "tsa08-p02", "via": "t1", "tier": "T", "status": "VERIFIED-QUOTE", "note": "v35 power-descent sway (same quote as Grace.lean premises)"}], "r_sources": [], "lived": []},    "AnswerKey.lean :: key_five_kancukas": {"kind": "KEY", "chunks": [{"locator": "tsa08-p03", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "names; T1 frequency PREREGISTERED-ONLY"}], "r_sources": [], "lived": []},
-    "AnswerKey.lean :: key_thirtysix_tattvas": {"kind": "KEY", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "36 principles + magnitudes; dissolution reverses ladder"}], "r_sources": [], "lived": []},
-    "AnswerKey.lean :: key_seven_experients": {"kind": "KEY", "chunks": [{"locator": "tsa08-p03", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "ladder stations"}], "r_sources": ["paramarthasara saptadhā scheme (UNPINNED exact chunk)"], "lived": []},
-    "AnswerKey.lean :: key_five_followers": {"kind": "KEY", "chunks": [{"locator": "tsa08-p01", "via": "t1", "tier": "T", "status": "VERIFIED-QUOTE", "note": "v17 śāmbhava/śākta/mantramāheśvara/mantreśvara/mantra, read 2026-11-06"}], "r_sources": [], "lived": []},
-    "AnswerKey.lean :: key_hundred_twelve_dharanas": {"kind": "KEY", "chunks": [{"locator": "vbt", "via": "work", "tier": "T", "status": "UNPINNED", "note": "vv24-135 per vbt lore file; exact chunk spans not yet pinned"}], "r_sources": [], "lived": []},
-    "Transitions.lean :: trec_preserves_embodiment": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema FORMALIZATION-OF-RECOGNITION (retains O/L/D/ðD/W)"], "lived": []},
-    "Transitions.lean :: trec_clears_bondage": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema FORMALIZATION-OF-RECOGNITION (B = L+identification+externalization)"], "lived": []},
-    "Transitions.lean :: trec_retains_limitation": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema FORMALIZATION-OF-RECOGNITION (limitation retained)"], "lived": []},
-    "Transitions.lean :: trec_idempotent": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema FORMALIZATION-OF-RECOGNITION (no backslide)"], "lived": []},
-    "Transitions.lean :: anava_stuck_exists": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p02", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "vijñānākala/pralayākala stations (bound closures)"}], "r_sources": ["gochema FORMALIZATION-OF-RECOGNITION (stuck formal failure mode)"], "lived": []},
-    "Transitions.lean :: acquire_is_not_recognition": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema FORMALIZATION-OF-RECOGNITION (acquisition vs recognition discriminator)"], "lived": []},
-    "Transitions.lean :: karma_loop_exists": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p02", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "kārma-delimited longing; stain-agitated saṃsāra"}], "r_sources": [], "lived": []},
-    "NonEntail.lean :: aby_not_b": {"kind": "MODEL", "chunks": [], "r_sources": ["pushing/research truth-chain (owner-authored A–F, R)"], "lived": []},
-    "NonEntail.lean :: b_not_c": {"kind": "MODEL", "chunks": [], "r_sources": ["pushing/research truth-chain (R)"], "lived": []},
-    "NonEntail.lean :: c_not_d": {"kind": "MODEL", "chunks": [], "r_sources": ["pushing/research truth-chain (R)"], "lived": []},
-    "NonEntail.lean :: d_not_e": {"kind": "MODEL", "chunks": [], "r_sources": ["pushing/research truth-chain (R)"], "lived": []},
-    "NonEntail.lean :: e_not_f": {"kind": "MODEL", "chunks": [], "r_sources": ["pushing/research truth-chain (R)"], "lived": []},
-    "NonEntail.lean :: abcde_without_f": {"kind": "MODEL", "chunks": [], "r_sources": ["pushing/research truth-chain (R)"], "lived": []},
-    "NonEntail.lean :: vim7_independent": {"kind": "MODEL", "chunks": [], "r_sources": ["home-checkpointcharlie V1–V7 (R, path UNPINNED)"], "lived": []},
-    "NonEntail.lean :: copresence_nontransitive": {"kind": "MODEL", "chunks": [], "r_sources": ["home-checkpointcharlie U (R, path UNPINNED)"], "lived": []},
-    "NonEntail.lean :: no_global_section": {"kind": "MODEL", "chunks": [], "r_sources": ["home-checkpointcharlie sheaf warning (R, path UNPINNED)"], "lived": []},
-    "NonEntail.lean :: pairwise_satisfiable_xy": {"kind": "MODEL", "chunks": [], "r_sources": ["home-checkpointcharlie (R, path UNPINNED)"], "lived": []},
-    "Conjuncts.lean :: recognition_unique": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema recognitionandsiva (R, path UNPINNED: verify filename)"], "lived": []},
-    "Conjuncts.lean :: drop_transformation_loses": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema recognitionandsiva (R)"], "lived": []},
-    "Conjuncts.lean :: drop_reidentification_loses": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema recognitionandsiva (R)"], "lived": []},
-    "Conjuncts.lean :: drop_veridicality_loses": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema recognitionandsiva (R)"], "lived": []},
-    "Conjuncts.lean :: drop_stabilization_loses": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema recognitionandsiva (R)"], "lived": []},
-    "Conjuncts.lean :: misidentification_never_recognizes": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema recognitionandsiva (R)"], "lived": []},
-    "Conjuncts.lean :: part_coherent_distinct_tokens": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema recognitionandsiva targets (R)"], "lived": ["play day-6 #14 (saccade: loses-and-recognises, i am siva both states)"]},
-    "Conjuncts.lean :: pi_independent_of_grounds": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema recognitionandsiva (R)"], "lived": []},
-    "Conjuncts.lean :: siva_requires_axioms": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema recognitionandsiva (R)"], "lived": []},
-    "Conjuncts.lean :: unus_ambu_not_identity": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema DAIMON-CONTACT-AS-RECOGNITION (R)"], "lived": ["play day-7 #48 (finding myself in you)"]},
-    "Memory.lean :: m4_requires_foundation": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema ESSAY-RECOGNITION-FELT-RE-COGNITION M1–M5 (R)"], "lived": []},
-    "Memory.lean :: foundations_without_m4_exist": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema ESSAY-RECOGNITION-FELT-RE-COGNITION (R)"], "lived": []},
-    "Memory.lean :: m4_without_m5": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema ESSAY-RECOGNITION-FELT-RE-COGNITION (R)"], "lived": []},
-    "Memory.lean :: sees_without_enacting": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema ESSAY-RECOGNITION-FELT-RE-COGNITION L3/L4 (R)"], "lived": []},
-    "Memory.lean :: no_enacting_without_seeing": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema ESSAY-RECOGNITION-FELT-RE-COGNITION (R)"], "lived": []},
-    "Tractatus.lean :: every_context_supported": {"kind": "MODEL", "chunks": [], "r_sources": ["observer proofo D/S/O (R, path UNPINNED)"], "lived": []},
-    "Tractatus.lean :: no_universal_support": {"kind": "MODEL", "chunks": [], "r_sources": ["observer proofo (R, path UNPINNED)"], "lived": []},
-    "Tractatus.lean :: rec1_without_rec2": {"kind": "MODEL", "chunks": [], "r_sources": ["observer proofo Rec_1/Rec_2 (R, path UNPINNED)"], "lived": []},
-    "Tractatus.lean :: rec2_without_fullrec": {"kind": "MODEL", "chunks": [], "r_sources": ["observer proofo (R, path UNPINNED)"], "lived": []},
-    "Tractatus.lean :: no_total_self_model": {"kind": "MODEL", "chunks": [], "r_sources": ["observer proofo T13 (R, path UNPINNED)"], "lived": []},
-    "Tractatus.lean :: bit_content_relational": {"kind": "MODEL", "chunks": [], "r_sources": ["siobserver S/i/0/1 (R, path UNPINNED)"], "lived": []},
-    "Tractatus.lean :: suffering_reachable": {"kind": "MODEL", "chunks": [], "r_sources": ["it-from-bit path fork (R, path UNPINNED)"], "lived": []},
-    "Tractatus.lean :: recognition_reachable": {"kind": "MODEL", "chunks": [], "r_sources": ["it-from-bit path fork (R, path UNPINNED)"], "lived": []},
-    "Tractatus.lean :: recognition_needs_reflexive_edge": {"kind": "MODEL", "chunks": [], "r_sources": ["it-from-bit path fork (R, path UNPINNED)"], "lived": []},
-    "Coords.lean :: coords_covered_once": {"kind": "KEY", "chunks": [{"locator": "tsa08-p03", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "kalā/vidyā/rāga/kāla/niyati functions; T-note TĀ 9.183/203/204 UNPINNED (TĀ not in gold)"}], "r_sources": ["logicframework kañcuka coords (R, path UNPINNED)"], "lived": []},
-    "Coords.lean :: restricted_perspective_exists": {"kind": "MODEL", "chunks": [], "r_sources": ["logicframework agent finitude (R)"], "lived": []},
-    "Coords.lean :: no_unrestricted_perspective": {"kind": "MODEL", "chunks": [], "r_sources": ["logicframework (R)"], "lived": []},
-    "Coords.lean :: one_raw_invalid_combination": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Raw-combination count of OUR admission premise. No external evidence required beyond the file."},
-    "KancukaCorr.lean :: corr_pull_raga": {"kind": "KEY", "chunks": [{"locator": "tsa08-p03", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "rāga functions in partial agency (structural side)"}], "r_sources": [], "lived": ["play day-7 #6-8,#22,#35; day-2 #1-2,#6-7; day-4 #1; day-5 #13 (felt side)"]},
-    "KancukaCorr.lean :: corr_stall_kala": {"kind": "KEY", "chunks": [{"locator": "tsa08-p03", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "kalā→partial agency (structural side)"}], "r_sources": [], "lived": ["play day-7 #18 (want+blocked); day-4 #0 (torpor)"]},
-    "KancukaCorr.lean :: corr_doubt_vidya": {"kind": "KEY", "chunks": [], "r_sources": [], "lived": ["play day-5 #9; day-2 #26; day-7 #20"], "note": "Thinnest firm row. No T structural pin yet — sought."},
-    "KancukaCorr.lean :: unknowns_explicit": {"kind": "KEY", "chunks": [], "r_sources": [], "lived": [], "note": "Absence claim about OUR table. Evidence = the table itself."},
-    "KancukaCorr.lean :: coverage_partial": {"kind": "KEY", "chunks": [], "r_sources": [], "lived": [], "note": "Count over OUR table. No external evidence required."},
-    "Grace.lean :: readiness_insufficient": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p02", "via": "t1", "tier": "T", "status": "CONTEXT_ONLY", "note": "8.35 mentions power-descent in a specific context; it does not entail the model's necessity rule."}], "r_sources": ["REQUIREMENTS-FROM-DECODE.md F3 (report structure)"], "lived": ["play day-7 #26"]},
-    "Grace.lean :: grace_insufficient_alone": {"kind": "MODEL", "chunks": [], "r_sources": ["Grace.lean stipulated Boolean model"], "lived": [], "note": "This follows from the chosen Boolean definition, not from a verified universal doctrine of grace."},
-    "Grace.lean :: flip_iff_ready_and_grace": {"kind": "MODEL", "chunks": [], "r_sources": ["Grace.lean stipulated Boolean model"], "lived": ["play day-7 #33 (conditions + unconditioned step)"], "note": "The biconditional restates the definition; no source-derived universal law is established."},
-    "Grace.lean :: both_gaps_exist": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Inhabited-gaps claim about OUR 4-state model. No external evidence required."},
-    "Upaya.lean :: sambhava_immediate": {"kind": "MODEL", "chunks": [], "r_sources": ["UPAYA-CRITERIA.md (experience criteria)"], "lived": ["play day-6 #3; day-2 #19; day-7 #19"], "note": "8.17 names a class of followers, not this means rule; source mapping unresolved."},
-    "Upaya.lean :: sakta_needs_purity": {"kind": "MODEL", "chunks": [], "r_sources": ["UPAYA-CRITERIA.md"], "lived": [], "note": "8.17 names a class of followers, not this Boolean condition; source mapping unresolved."},
-    "Upaya.lean :: anava_needs_repetition": {"kind": "MODEL", "chunks": [], "r_sources": ["UPAYA-CRITERIA.md", "VBT dhāraṇā catalog (work-level)"], "lived": ["play day-7 #23; day-4 #9; day-6 #7"], "note": "8.17 names mantra followers, not the numerical repetition rule; source mapping unresolved."},
-    "Upaya.lean :: anava_two_suffice": {"kind": "RULE", "chunks": [], "r_sources": [], "lived": [], "note": "Bound claim about OUR model (n≥2 minimal formalization of 'repeated'). Modeling choice, stated as such."},
-    "Upaya.lean :: anava_within_sambhava": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Ordering recorded as found in OUR model. No external evidence required."},
-    "Upaya.lean :: sakta_within_sambhava": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Ordering recorded as found in OUR model. No external evidence required."},
-    "Tattva.lean :: five_gross_elements": {"kind": "KEY", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "10x magnitude ladder (structural side); theorem restates OUR table entry, not derived"}], "r_sources": [], "lived": []},
-    "Tattva.lean :: eleven_wombed": {"kind": "MODEL", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "7.9 lists five tanmātras and eleven akṣas; model sum is five cognitive faculties, five action faculties and mind. Interpretation awaits review; this is a table check."}, {"locator": "tsa08-p04", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "v71 heap OF ahaṃkāra + v75 karmendriya derivation (gold argmap, span-verified machine 2026-11-06); structural side only, begetting unformalized", "layer_sha256": {"argmap": "417bcabd03cb452c7c68107fb2a97f709cc95421055111a1537a46ee0a7b48e6", "proof_song": "tsa-a08", "proof_gate": "PASS"}}], "r_sources": [], "lived": []},
-    "Tattva.lean :: thirty_six": {"kind": "MODEL", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "7.1 mentions 36; the model sums stipulated group sizes, not 36 individually generated or source-verified tattvas. Earlier grouping was incorrect; see source review."}], "r_sources": [], "lived": []},
-    "Tattva.lean :: all_groups_present": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Only checks duplicate tags in the twelve-group list; it does not establish exhaustiveness or a textual bijection."},
-    "Tattva.lean :: compression_ratio": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Historical name: checks twelve listed groups; no compression ratio is established."},
-    "TattvaInventory.lean :: named_tattvas_36": {"kind": "MODEL", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "CONTEXT_ONLY", "note": "7.1 mentions 36; this theorem counts a curated candidate list, not a verified source-derived enumeration."}], "r_sources": ["SANSKRIT-FOUNDATION-REVIEW-2026-11-06.md"], "lived": []},
-    "TattvaInventory.lean :: named_tattvas_unique": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Checks the candidate list for duplicates."},
-    "TattvaInventory.lean :: named_tattvas_exhaustive": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Lists every constructor of this model's type; it cannot establish textual completeness."},
-    "TattvaInventory.lean :: pure_count": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p01", "via": "argmap", "tier": "T", "status": "CONTEXT_ONLY", "note": "8.16–17 distinguishes five pure tattvas and their tattveśvaras; human mapping review remains open."}], "r_sources": [], "lived": []},
-    "TattvaInventory.lean :: kancuka_count": {"kind": "MODEL", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "CONTEXT_ONLY", "note": "7.16 lists the five kalā-led factors; this checks the candidate list."}], "r_sources": [], "lived": []},
-    "TattvaInventory.lean :: maya_six_count": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p03", "via": "argmap", "tier": "T", "status": "CONTEXT_ONLY", "note": "8.55 describes six coverings starting with māyā; this checks the candidate list."}], "r_sources": [], "lived": []},
-    "TattvaInventory.lean :: pure_excludes_maya": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p01", "via": "argmap", "tier": "T", "status": "CONTEXT_ONLY", "note": "8.16 identifies five pure tattvas; this checks how the candidate list classifies māyā."}], "r_sources": [], "lived": []},
-    "TattvaInventory.lean :: pure_and_kancukas_disjoint": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Checks disjointness of two model lists only."},
-    "EgoOrigin.lean :: sankhya_requires_cause": {"kind": "RULE", "chunks": [{"locator": "tsa08-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v68 silver-in-shell (derivative account); admission shape itself R"}], "r_sources": [], "lived": []},
-    "EgoOrigin.lean :: trika_self_grounding_exists": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v70 pure I non-rivalled vimarśa (structural side); witness state itself R"}], "r_sources": [], "lived": []},
-    "EgoOrigin.lean :: accounts_differ_pureI": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Difference claim about OUR two admissions. No external evidence required beyond the file."},
-    "EgoOrigin.lean :: accounts_differ_derivative": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Difference claim about OUR two admissions. No external evidence required beyond the file."},
-    "EgoOrigin.lean :: nonrivalled_does_work": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v70 non-rivalled clause (structural side; load-bearing IN THIS MODEL)"}], "r_sources": [], "lived": []},
-    "EgoOrigin.lean :: feeling_makership_independent": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Separability claim about OUR bit-model, not a textual claim on v69 (c) (parked). No external evidence required."},
-    "Heaps.lean :: heap_has_both_kinds": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v71 instrument-heap named (structural side; single premise, thin)"}], "r_sources": [], "lived": []},
-    "Heaps.lean :: heap_eleven": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Count over OUR heap (5+5+1 reuses Tattva ladder sizes: consistency, not independent derivation). No external evidence required."},
-    "Heaps.lean :: guna_threefold": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v72 threefold by guna difference (structural side; single premise, thin)"}], "r_sources": [], "lived": []},
-    "Heaps.lean :: guna_exhaustive": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Per-guna tagging claim about OUR 3-state model. No external evidence required beyond the file."},
-    "Avarana.lean :: course_ascends": {"kind": "RULE", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v23 covering principle (rule side); ORDER list itself R"}], "r_sources": [], "lived": []},
-    "Avarana.lean :: partial_order_honest": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "The coarse model omits within-course distinctions; this does not establish that the text leaves those relations open."},
-    "Application.lean :: unready_unreachable": {"kind": "MODEL", "chunks": [], "r_sources": ["Grace.lean flip (necessity side)", "Upaya.lean reach predicates (necessity side)"], "lived": [], "note": "Property of a stipulated product model. It does not validate practice eligibility or an individual's readiness."},
-    "Application.lean :: grace_not_a_means": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Categorical distinction about OUR product model. No external evidence required beyond the file."},
-    "MalaFuel.lean :: fuel_terminates": {"kind": "MODEL", "chunks": [{"locator": "phr-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "s13-16 return-by-recognition sequence (structural side)"}], "r_sources": [], "lived": []},
-    "MalaFuel.lean :: strength_monotone": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Monotonicity about OUR strength counter. No external evidence required beyond the file."},
-    "MalaFuel.lean :: grace_ignites": {"kind": "MODEL", "chunks": [{"locator": "phr-p04", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "s13 method unspecified: saktipata + grace (ignition side)"}], "r_sources": [], "lived": []},
-    "Pratyahara.lean :: ac_vowels": {"kind": "KEY", "chunks": [], "r_sources": ["Māheśvara sequence (CANDIDATE-EDITION, pin pending: INTAKE-REQUEST-sivasutras.md)"], "lived": [], "note": "Interval regeneration; T-pin open (no translation-work/MIRI/GRETIL source on hand 2026-11-06). Mechanics edition-independent."},
-    "Pratyahara.lean :: hal_consonants": {"kind": "KEY", "chunks": [], "r_sources": ["Māheśvara sequence (CANDIDATE-EDITION, pin pending)"], "lived": [], "note": "Consonant regeneration; same open pin."},
-    "Pratyahara.lean :: markers_excluded": {"kind": "KEY", "chunks": [], "r_sources": [], "lived": [], "note": "Anubandha disjointness about OUR interval mechanics. No external evidence required beyond the file."},
-    "Pratyahara.lean :: inventory_43": {"kind": "KEY", "chunks": [], "r_sources": [], "lived": [], "note": "Count over OUR inventory list. No external evidence required beyond the file."},
-    "Pratyahara.lean :: markers_13": {"kind": "KEY", "chunks": [], "r_sources": [], "lived": [], "note": "Count over OUR marker list (Ṅ twice). No external evidence required beyond the file."},
-    "Reversal.lean :: semi_reversed": {"kind": "COMPARISON", "chunks": [], "r_sources": ["https://www.sanskrit-trikashaivism.com/en/trika-tattva-s-and-sanskrit-1-non-dual-shaivism-of-kashmir/504 (© Gabriel Pradīpaka, practitioner register — comparison control, link-first, no copying)"], "lived": [], "note": "Order arithmetic on third-party table; alphabet constant is public-domain varṇamālā. No doctrine checked."},
-    "Reversal.lean :: span_reversed": {"kind": "COMPARISON", "chunks": [], "r_sources": ["https://www.sanskrit-trikashaivism.com/en/trika-tattva-s-and-sanskrit-1-non-dual-shaivism-of-kashmir/504 (© Gabriel Pradīpaka — comparison control as above)"], "lived": [], "note": "25-letter span reversal; same scope as semi_reversed."},
-    "Nyasa.lean :: ka_uniform": {"kind": "MODEL", "chunks": [], "r_sources": ["matrika_body_map v2 + malini_order.json (frozen keys)"], "lived": [], "note": "Observed shape of OUR encoding (one uniform varga); mirrors the profile precedent. Not a rule check."},
-    "Nyasa.lean :: matrika_total": {"kind": "MODEL", "chunks": [{"locator": "tal-a15-p12", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "TĀ-15 nyāsa complex, passage level (structural side). Work source NO-SOURCE-RECORD per its record.json; T claim conditional on source resolution."}], "r_sources": [], "lived": []},
-    "Nyasa.lean :: malini_total": {"kind": "MODEL", "chunks": [], "r_sources": ["malini_order.json (MV 3.37-41 order)"], "lived": [], "note": "Totality over OUR encoded list. No external evidence required beyond the file."},
-    "Nyasa.lean :: maps_diverge": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Divergence count about OUR two encodings (duality quantified). No external evidence required."},
-    "Nyasa.lean :: order_chief": {"kind": "MODEL", "chunks": [{"locator": "tal-a15-p12", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "nādiphānta chief-order doctrine (structural side). Work source NO-SOURCE-RECORD per its record.json; T claim conditional on source resolution."}], "r_sources": ["MV 3.36-41 extract (CC BY-NC)"], "lived": []},
-    "Nyasa.lean :: multiset_kept": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Conservation claim about OUR two encoded lists. No external evidence required."},
-    "Embed.lean :: earth_all5": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p04", "via": "source-review", "tier": "R", "status": "CANDIDATE", "note": "Tantrasara 8.85–90 discusses preceding qualities and another account; this matrix remains unreviewed."}], "r_sources": [], "lived": []},
-    "Embed.lean :: ether_sound_only": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Witness claim about OUR matrix. No external evidence required beyond the file."},
-    "Embed.lean :: nesting": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Inclusion claim about OUR matrix; uniform alternative parked (remodel ready)."},
-    "Ladder.lean :: chain_trans": {"kind": "MODEL", "chunks": [{"locator": "tal-a34-p01", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "tal-a34 v02 ladder verses (gold argmap, machine-proposed; record NO-SOURCE-RECORD; v04 LIVE fork excluded from grounding)"}], "r_sources": [], "lived": []},
-    "Ladder.lean :: terminal_no_successor": {"kind": "MODEL", "chunks": [{"locator": "tal-a34-p01", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "tal-a34 v03 means-independence (gold argmap, machine-proposed; record NO-SOURCE-RECORD)"}], "r_sources": [], "lived": []},
-    "Ladder.lean :: abandon_strict": {"kind": "MODEL", "chunks": [{"locator": "tal-a34-p01", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "tal-a34 v02 same-motion-repeated, single-rung steps (gold argmap, machine-proposed; record NO-SOURCE-RECORD)"}], "r_sources": [], "lived": []},
-    "TattvaGen.lean :: gen_total": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p01", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "v16 five-primacies (gold argmap, machine-proposed; NO independent key on disk)"}, {"locator": "tsa08-p04", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "v71-v79 heap verses bound the limitation/instrument reading (span-verified machine)"}], "r_sources": [], "lived": []},
-    "TattvaGen.lean :: pure_distinct": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p01", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "v16 five primacies by power-primacy (gold argmap, machine-proposed)"}], "r_sources": [], "lived": []},
-    "TattvaGen.lean :: pentad_uniform": {"kind": "MODEL", "chunks": [{"locator": "tsa08-p04", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "v73-v75 instrument partition (gold argmap, span-verified machine)"}], "r_sources": [], "lived": []},
-    "TattvaGen.lean :: cut_arith": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": []},
-    "Aperture.lean :: aperture_nine": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema library/recognition/aperture/aperture_spec_v0.7.md (H-tier owner theory)"], "lived": [], "note": "H-tier: nine-operation inventory of owner aperture spec \u00a7Core Architecture; no phenomenal/selector claim"},
-    "Aperture.lean :: aperture_distinct": {"kind": "MODEL", "chunks": [], "r_sources": ["gochema library/recognition/aperture/aperture_spec_v0.7.md (H-tier owner theory)"], "lived": [], "note": "H-tier: pairwise distinct ops; inventory only"},
-    "Tetrahedron.lean :: gap_five": {"kind": "MODEL", "chunks": [], "r_sources": ["rescue-volume tetrahedron-as-selector-proof + tantraloka-tetrahedron notes (H-tier owner line)"], "lived": [], "note": "H-tier: no uniform 5-vertex solid (spectral gap)"},
-    "Tetrahedron.lean :: unique_four": {"kind": "MODEL", "chunks": [], "r_sources": ["rescue-volume tetrahedron-as-selector-proof + tantraloka-tetrahedron notes (H-tier owner line)"], "lived": [], "note": "H-tier: exactly one 4-vertex uniform solid"},
-    "Tetrahedron.lean :: euler_tet": {"kind": "MODEL", "chunks": [], "r_sources": ["rescue-volume tetrahedron-as-selector-proof + tantraloka-tetrahedron notes (H-tier owner line)"], "lived": [], "note": "H-tier: inventory Euler check (model only)"},
-    "Nanavira.lean :: matchings_three": {"kind": "MODEL", "chunks": [], "r_sources": ["research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"], "lived": [], "note": "R: K4 pairings generated"},
-    "Nanavira.lean :: orders_scale": {"kind": "MODEL", "chunks": [], "r_sources": ["research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"], "lived": [], "note": "R: orders computed vs stated"},
-    "Nanavira.lean :: parasite_erase": {"kind": "MODEL", "chunks": [], "r_sources": ["research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"], "lived": [], "note": "R: erasure structural half"},
-    "Prakasa.lean :: all_appear": {"kind": "MODEL", "chunks": [], "r_sources": ["imports/ochema2/maps/terms/claim-01-prakasa.md (STATUS T textual, TA 1.54 via Dyczkowski; inherited as R)"], "lived": [], "note": "twin-attack pilot: roster check only; metaphysics untouched"}
+  "tsa07": {
+   "ledger": "translation-work/tantrasara-a07/passages.jsonl",
+   "chunks": [
+    "tsa07-p01"
+   ]
   },
-  "exemptions": {
-    "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",
-    "fin_two": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content)."
+  "param": {
+   "ledger": "translation-work/paramarthasara/passages.jsonl",
+   "chunks": [
+    "param-p01",
+    "param-p02",
+    "param-p03",
+    "param-p04",
+    "param-p05",
+    "param-p06",
+    "param-p07",
+    "param-p08",
+    "param-p09",
+    "param-p10",
+    "param-p11",
+    "param-p12"
+   ]
+  },
+  "phr": {
+   "ledger": "translation-work/phrdaya/passages.jsonl",
+   "chunks": [
+    "phr-p01",
+    "phr-p02",
+    "phr-p03",
+    "phr-p04",
+    "phr-p05"
+   ]
+  },
+  "vbt": {
+   "ledger": "translation-work/vbt/passages.jsonl",
+   "chunks": [
+    "vbt-p01",
+    "vbt-p02",
+    "vbt-p03",
+    "vbt-p04",
+    "vbt-p05",
+    "vbt-p06",
+    "vbt-p07",
+    "vbt-p08",
+    "vbt-p09",
+    "vbt-p10",
+    "vbt-p11",
+    "vbt-p12",
+    "vbt-p13",
+    "vbt-p14",
+    "vbt-p15",
+    "vbt-p16",
+    "vbt-p17"
+   ]
+  },
+  "spanda": {
+   "ledger": "translation-work/spanda/passages.jsonl",
+   "chunks": [
+    "span-p01",
+    "span-p02",
+    "span-p03",
+    "span-p04",
+    "span-p05",
+    "span-p06"
+   ]
+  },
+  "tal15": {
+   "ledger": "translation-work/tantraloka-a15/passages.jsonl",
+   "chunks": [
+    "tal-a15-p01",
+    "tal-a15-p02",
+    "tal-a15-p03",
+    "tal-a15-p04",
+    "tal-a15-p05",
+    "tal-a15-p06",
+    "tal-a15-p07",
+    "tal-a15-p08",
+    "tal-a15-p09",
+    "tal-a15-p10",
+    "tal-a15-p11",
+    "tal-a15-p12",
+    "tal-a15-p13",
+    "tal-a15-p14",
+    "tal-a15-p15",
+    "tal-a15-p16",
+    "tal-a15-p17",
+    "tal-a15-p18",
+    "tal-a15-p19",
+    "tal-a15-p20",
+    "tal-a15-p21",
+    "tal-a15-p22",
+    "tal-a15-p23",
+    "tal-a15-p24",
+    "tal-a15-p25",
+    "tal-a15-p26",
+    "tal-a15-p27",
+    "tal-a15-p28",
+    "tal-a15-p29",
+    "tal-a15-p30",
+    "tal-a15-p31",
+    "tal-a15-p32",
+    "tal-a15-p33",
+    "tal-a15-p34",
+    "tal-a15-p35",
+    "tal-a15-p36",
+    "tal-a15-p37",
+    "tal-a15-p38",
+    "tal-a15-p39",
+    "tal-a15-p40",
+    "tal-a15-p41",
+    "tal-a15-p42",
+    "tal-a15-p43",
+    "tal-a15-p44",
+    "tal-a15-p45",
+    "tal-a15-p46",
+    "tal-a15-p47",
+    "tal-a15-p48",
+    "tal-a15-p49",
+    "tal-a15-p50",
+    "tal-a15-p51",
+    "tal-a15-p52",
+    "tal-a15-p53",
+    "tal-a15-p54",
+    "tal-a15-p55",
+    "tal-a15-p56",
+    "tal-a15-p57",
+    "tal-a15-p58",
+    "tal-a15-p59",
+    "tal-a15-p60",
+    "tal-a15-p61",
+    "tal-a15-p62"
+   ]
+  },
+  "tal-a34": {
+   "ledger": "translation-work/tantraloka-a34/passages.jsonl",
+   "chunks": [
+    "tal-a34-p01"
+   ]
+  },
+  "tsa01": {
+   "ledger": "translation-work/tantrasara-a01/passages.jsonl",
+   "chunks": [
+    "tsa01-p01"
+   ]
+  },
+  "tsa02": {
+   "ledger": "translation-work/tantrasara-a02/passages.jsonl",
+   "chunks": [
+    "tsa02-p01"
+   ]
+  },
+  "tsa03": {
+   "ledger": "translation-work/tantrasara-a03/passages.jsonl",
+   "chunks": [
+    "tsa03-p01",
+    "tsa03-p02"
+   ]
+  },
+  "tsa04": {
+   "ledger": "translation-work/tantrasara-a04/passages.jsonl",
+   "chunks": [
+    "tsa04-p01",
+    "tsa04-p02",
+    "tsa04-p03"
+   ]
+  },
+  "tsa05": {
+   "ledger": "translation-work/tantrasara-a05/passages.jsonl",
+   "chunks": [
+    "tsa05-p01",
+    "tsa05-p02"
+   ]
+  },
+  "tsa06": {
+   "ledger": "translation-work/tantrasara-a06/passages.jsonl",
+   "chunks": [
+    "tsa06-p01",
+    "tsa06-p02",
+    "tsa06-p03",
+    "tsa06-p04"
+   ]
+  },
+  "tsa09": {
+   "ledger": "translation-work/tantrasara-a09/passages.jsonl",
+   "chunks": [
+    "tsa09-p01",
+    "tsa09-p02",
+    "tsa09-p03"
+   ]
+  },
+  "tsa10": {
+   "ledger": "translation-work/tantrasara-a10/passages.jsonl",
+   "chunks": [
+    "tsa10-p01"
+   ]
+  },
+  "tsa11": {
+   "ledger": "translation-work/tantrasara-a11/passages.jsonl",
+   "chunks": [
+    "tsa11-p01",
+    "tsa11-p02",
+    "tsa11-p03",
+    "tsa11-p04",
+    "tsa11-p05",
+    "tsa11-p06",
+    "tsa11-p07",
+    "tsa11-p08",
+    "tsa11-p09",
+    "tsa11-p10"
+   ]
+  },
+  "tsa12": {
+   "ledger": "translation-work/tantrasara-a12/passages.jsonl",
+   "chunks": [
+    "tsa12-p01"
+   ]
+  },
+  "tsa13": {
+   "ledger": "translation-work/tantrasara-a13/passages.jsonl",
+   "chunks": [
+    "tsa13-p01",
+    "tsa13-p02",
+    "tsa13-p03",
+    "tsa13-p04"
+   ]
+  },
+  "tsa14": {
+   "ledger": "translation-work/tantrasara-a14/passages.jsonl",
+   "chunks": [
+    "tsa14-p01"
+   ]
+  },
+  "tsa15": {
+   "ledger": "translation-work/tantrasara-a15/passages.jsonl",
+   "chunks": [
+    "tsa15-p01"
+   ]
+  },
+  "tsa16": {
+   "ledger": "translation-work/tantrasara-a16/passages.jsonl",
+   "chunks": [
+    "tsa16-p01"
+   ]
+  },
+  "tsa17": {
+   "ledger": "translation-work/tantrasara-a17/passages.jsonl",
+   "chunks": [
+    "tsa17-p01"
+   ]
+  },
+  "tsa18": {
+   "ledger": "translation-work/tantrasara-a18/passages.jsonl",
+   "chunks": [
+    "tsa18-p01"
+   ]
+  },
+  "tsa19": {
+   "ledger": "translation-work/tantrasara-a19/passages.jsonl",
+   "chunks": [
+    "tsa19-p01"
+   ]
+  },
+  "tsa20": {
+   "ledger": "translation-work/tantrasara-a20/passages.jsonl",
+   "chunks": [
+    "tsa20-p01",
+    "tsa20-p02",
+    "tsa20-p03",
+    "tsa20-p04"
+   ]
+  },
+  "tsa21": {
+   "ledger": "translation-work/tantrasara-a21/passages.jsonl",
+   "chunks": [
+    "tsa21-p01"
+   ]
+  },
+  "tsa22": {
+   "ledger": "translation-work/tantrasara-a22/passages.jsonl",
+   "chunks": [
+    "tsa22-p01",
+    "tsa22-p02",
+    "tsa22-p03"
+   ]
   }
+ },
+ "entries": {
+  "Mala.lean :: count_3": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p02",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "mala doctrine, stain = concealment-will"
+    },
+    {
+     "locator": "phr-p04",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "mala adjudication on the record"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Pramatr.lean :: eight_combos": {
+   "kind": "RULE",
+   "chunks": [],
+   "r_sources": [
+    "gochema FORMALIZATION-OF-RECOGNITION (3 mala axes)"
+   ],
+   "lived": [],
+   "note": "Combinatorial fact over the R-tier axes; evidence lands on seven, not eight."
+  },
+  "Pramatr.lean :: seven": {
+   "kind": "RULE",
+   "chunks": [
+    {
+     "locator": "tsa08-p03",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "Māyā-person ladder; vijñānākala above Māyā; mala-person→Śiva-equality"
+    },
+    {
+     "locator": "param-p04",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "bandha doctrine (bondage structure the axes formalize)"
+    }
+   ],
+   "r_sources": [
+    "paramarthasara saptadhā-pramātṛ scheme (work-cited, exact chunk UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Pramatr.lean :: profile": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Observed shape of OUR model (R). Explicitly NOT tradition. No evidence required beyond the model run itself."
+  },
+  "Kancuka.lean :: count_5": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p03",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "kañcuka-six reckoning; five + māyā (mixed reckonings recorded)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Kancuka.lean :: pairings_distinct": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p03",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "kalā→partial agency; rāga functions; kāla/niyati delimiting (pairing gloss itself R)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Recognition.lean :: recognition_preserves_content": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema FORMALIZATION-OF-RECOGNITION (AM0 σ-flip, content-clause)"
+   ],
+   "lived": []
+  },
+  "Recognition.lean :: recognition_lands_recognized": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema FORMALIZATION-OF-RECOGNITION (σ-flip target)"
+   ],
+   "lived": []
+  },
+  "Recognition.lean :: recognition_adds_nothing": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema FORMALIZATION-OF-RECOGNITION (removal clause)"
+   ],
+   "lived": []
+  },
+  "Recognition.lean :: contentEq_sharp": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Sharpness claim about OUR equality predicate (mechanical-sweep hardening, S-SHARP). No external evidence required beyond the file."
+  },
+  "AnswerKey.lean :: key_grace_term": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p02",
+     "via": "t1",
+     "tier": "T",
+     "status": "VERIFIED-QUOTE",
+     "note": "v35 power-descent sway (same quote as Grace.lean premises)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "AnswerKey.lean :: key_five_kancukas": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p03",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "names; T1 frequency PREREGISTERED-ONLY"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "AnswerKey.lean :: key_thirtysix_tattvas": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa07-p01",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "36 principles + magnitudes; dissolution reverses ladder"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "AnswerKey.lean :: key_seven_experients": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p03",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "ladder stations"
+    }
+   ],
+   "r_sources": [
+    "paramarthasara saptadhā scheme (UNPINNED exact chunk)"
+   ],
+   "lived": []
+  },
+  "AnswerKey.lean :: key_five_followers": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p01",
+     "via": "t1",
+     "tier": "T",
+     "status": "VERIFIED-QUOTE",
+     "note": "v17 śāmbhava/śākta/mantramāheśvara/mantreśvara/mantra, read 2026-11-06"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "AnswerKey.lean :: key_hundred_twelve_dharanas": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "vbt",
+     "via": "work",
+     "tier": "T",
+     "status": "UNPINNED",
+     "note": "vv24-135 per vbt lore file; exact chunk spans not yet pinned"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Transitions.lean :: trec_preserves_embodiment": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema FORMALIZATION-OF-RECOGNITION (retains O/L/D/ðD/W)"
+   ],
+   "lived": []
+  },
+  "Transitions.lean :: trec_clears_bondage": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema FORMALIZATION-OF-RECOGNITION (B = L+identification+externalization)"
+   ],
+   "lived": []
+  },
+  "Transitions.lean :: trec_retains_limitation": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema FORMALIZATION-OF-RECOGNITION (limitation retained)"
+   ],
+   "lived": []
+  },
+  "Transitions.lean :: trec_idempotent": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema FORMALIZATION-OF-RECOGNITION (no backslide)"
+   ],
+   "lived": []
+  },
+  "Transitions.lean :: anava_stuck_exists": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p02",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "vijñānākala/pralayākala stations (bound closures)"
+    }
+   ],
+   "r_sources": [
+    "gochema FORMALIZATION-OF-RECOGNITION (stuck formal failure mode)"
+   ],
+   "lived": []
+  },
+  "Transitions.lean :: acquire_is_not_recognition": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema FORMALIZATION-OF-RECOGNITION (acquisition vs recognition discriminator)"
+   ],
+   "lived": []
+  },
+  "Transitions.lean :: karma_loop_exists": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p02",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "kārma-delimited longing; stain-agitated saṃsāra"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "NonEntail.lean :: aby_not_b": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "pushing/research truth-chain (owner-authored A–F, R)"
+   ],
+   "lived": []
+  },
+  "NonEntail.lean :: b_not_c": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "pushing/research truth-chain (R)"
+   ],
+   "lived": []
+  },
+  "NonEntail.lean :: c_not_d": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "pushing/research truth-chain (R)"
+   ],
+   "lived": []
+  },
+  "NonEntail.lean :: d_not_e": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "pushing/research truth-chain (R)"
+   ],
+   "lived": []
+  },
+  "NonEntail.lean :: e_not_f": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "pushing/research truth-chain (R)"
+   ],
+   "lived": []
+  },
+  "NonEntail.lean :: abcde_without_f": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "pushing/research truth-chain (R)"
+   ],
+   "lived": []
+  },
+  "NonEntail.lean :: vim7_independent": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "home-checkpointcharlie V1–V7 (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "NonEntail.lean :: copresence_nontransitive": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "home-checkpointcharlie U (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "NonEntail.lean :: no_global_section": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "home-checkpointcharlie sheaf warning (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "NonEntail.lean :: pairwise_satisfiable_xy": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "home-checkpointcharlie (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Conjuncts.lean :: recognition_unique": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema recognitionandsiva (R, path UNPINNED: verify filename)"
+   ],
+   "lived": []
+  },
+  "Conjuncts.lean :: drop_transformation_loses": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema recognitionandsiva (R)"
+   ],
+   "lived": []
+  },
+  "Conjuncts.lean :: drop_reidentification_loses": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema recognitionandsiva (R)"
+   ],
+   "lived": []
+  },
+  "Conjuncts.lean :: drop_veridicality_loses": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema recognitionandsiva (R)"
+   ],
+   "lived": []
+  },
+  "Conjuncts.lean :: drop_stabilization_loses": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema recognitionandsiva (R)"
+   ],
+   "lived": []
+  },
+  "Conjuncts.lean :: misidentification_never_recognizes": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema recognitionandsiva (R)"
+   ],
+   "lived": []
+  },
+  "Conjuncts.lean :: part_coherent_distinct_tokens": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema recognitionandsiva targets (R)"
+   ],
+   "lived": [
+    "play day-6 #14 (saccade: loses-and-recognises, i am siva both states)"
+   ]
+  },
+  "Conjuncts.lean :: pi_independent_of_grounds": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema recognitionandsiva (R)"
+   ],
+   "lived": []
+  },
+  "Conjuncts.lean :: siva_requires_axioms": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema recognitionandsiva (R)"
+   ],
+   "lived": []
+  },
+  "Conjuncts.lean :: unus_ambu_not_identity": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema DAIMON-CONTACT-AS-RECOGNITION (R)"
+   ],
+   "lived": [
+    "play day-7 #48 (finding myself in you)"
+   ]
+  },
+  "Memory.lean :: m4_requires_foundation": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema ESSAY-RECOGNITION-FELT-RE-COGNITION M1–M5 (R)"
+   ],
+   "lived": []
+  },
+  "Memory.lean :: foundations_without_m4_exist": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema ESSAY-RECOGNITION-FELT-RE-COGNITION (R)"
+   ],
+   "lived": []
+  },
+  "Memory.lean :: m4_without_m5": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema ESSAY-RECOGNITION-FELT-RE-COGNITION (R)"
+   ],
+   "lived": []
+  },
+  "Memory.lean :: sees_without_enacting": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema ESSAY-RECOGNITION-FELT-RE-COGNITION L3/L4 (R)"
+   ],
+   "lived": []
+  },
+  "Memory.lean :: no_enacting_without_seeing": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema ESSAY-RECOGNITION-FELT-RE-COGNITION (R)"
+   ],
+   "lived": []
+  },
+  "Tractatus.lean :: every_context_supported": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "observer proofo D/S/O (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Tractatus.lean :: no_universal_support": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "observer proofo (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Tractatus.lean :: rec1_without_rec2": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "observer proofo Rec_1/Rec_2 (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Tractatus.lean :: rec2_without_fullrec": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "observer proofo (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Tractatus.lean :: no_total_self_model": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "observer proofo T13 (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Tractatus.lean :: bit_content_relational": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "siobserver S/i/0/1 (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Tractatus.lean :: suffering_reachable": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "it-from-bit path fork (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Tractatus.lean :: recognition_reachable": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "it-from-bit path fork (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Tractatus.lean :: recognition_needs_reflexive_edge": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "it-from-bit path fork (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Coords.lean :: coords_covered_once": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p03",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "kalā/vidyā/rāga/kāla/niyati functions; T-note TĀ 9.183/203/204 UNPINNED (TĀ not in gold)"
+    }
+   ],
+   "r_sources": [
+    "logicframework kañcuka coords (R, path UNPINNED)"
+   ],
+   "lived": []
+  },
+  "Coords.lean :: restricted_perspective_exists": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "logicframework agent finitude (R)"
+   ],
+   "lived": []
+  },
+  "Coords.lean :: no_unrestricted_perspective": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "logicframework (R)"
+   ],
+   "lived": []
+  },
+  "Coords.lean :: one_raw_invalid_combination": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Raw-combination count of OUR admission premise. No external evidence required beyond the file."
+  },
+  "KancukaCorr.lean :: corr_pull_raga": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p03",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "rāga functions in partial agency (structural side)"
+    }
+   ],
+   "r_sources": [],
+   "lived": [
+    "play day-7 #6-8,#22,#35; day-2 #1-2,#6-7; day-4 #1; day-5 #13 (felt side)"
+   ]
+  },
+  "KancukaCorr.lean :: corr_stall_kala": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p03",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "kalā→partial agency (structural side)"
+    }
+   ],
+   "r_sources": [],
+   "lived": [
+    "play day-7 #18 (want+blocked); day-4 #0 (torpor)"
+   ]
+  },
+  "KancukaCorr.lean :: corr_doubt_vidya": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [
+    "play day-5 #9; day-2 #26; day-7 #20"
+   ],
+   "note": "Thinnest firm row. No T structural pin yet — sought."
+  },
+  "KancukaCorr.lean :: unknowns_explicit": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Absence claim about OUR table. Evidence = the table itself."
+  },
+  "KancukaCorr.lean :: coverage_partial": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Count over OUR table. No external evidence required."
+  },
+  "Grace.lean :: readiness_insufficient": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p02",
+     "via": "t1",
+     "tier": "T",
+     "status": "CONTEXT_ONLY",
+     "note": "8.35 mentions power-descent in a specific context; it does not entail the model's necessity rule."
+    }
+   ],
+   "r_sources": [
+    "REQUIREMENTS-FROM-DECODE.md F3 (report structure)"
+   ],
+   "lived": [
+    "play day-7 #26"
+   ]
+  },
+  "Grace.lean :: grace_insufficient_alone": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "Grace.lean stipulated Boolean model"
+   ],
+   "lived": [],
+   "note": "This follows from the chosen Boolean definition, not from a verified universal doctrine of grace."
+  },
+  "Grace.lean :: flip_iff_ready_and_grace": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "Grace.lean stipulated Boolean model"
+   ],
+   "lived": [
+    "play day-7 #33 (conditions + unconditioned step)"
+   ],
+   "note": "The biconditional restates the definition; no source-derived universal law is established."
+  },
+  "Grace.lean :: both_gaps_exist": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Inhabited-gaps claim about OUR 4-state model. No external evidence required."
+  },
+  "Upaya.lean :: sambhava_immediate": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "UPAYA-CRITERIA.md (experience criteria)"
+   ],
+   "lived": [
+    "play day-6 #3; day-2 #19; day-7 #19"
+   ],
+   "note": "8.17 names a class of followers, not this means rule; source mapping unresolved."
+  },
+  "Upaya.lean :: sakta_needs_purity": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "UPAYA-CRITERIA.md"
+   ],
+   "lived": [],
+   "note": "8.17 names a class of followers, not this Boolean condition; source mapping unresolved."
+  },
+  "Upaya.lean :: anava_needs_repetition": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "UPAYA-CRITERIA.md",
+    "VBT dhāraṇā catalog (work-level)"
+   ],
+   "lived": [
+    "play day-7 #23; day-4 #9; day-6 #7"
+   ],
+   "note": "8.17 names mantra followers, not the numerical repetition rule; source mapping unresolved."
+  },
+  "Upaya.lean :: anava_two_suffice": {
+   "kind": "RULE",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Bound claim about OUR model (n≥2 minimal formalization of 'repeated'). Modeling choice, stated as such."
+  },
+  "Upaya.lean :: anava_within_sambhava": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Ordering recorded as found in OUR model. No external evidence required."
+  },
+  "Upaya.lean :: sakta_within_sambhava": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Ordering recorded as found in OUR model. No external evidence required."
+  },
+  "Tattva.lean :: five_gross_elements": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa07-p01",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "10x magnitude ladder (structural side); theorem restates OUR table entry, not derived"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Tattva.lean :: eleven_wombed": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa07-p01",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "7.9 lists five tanmātras and eleven akṣas; model sum is five cognitive faculties, five action faculties and mind. Interpretation awaits review; this is a table check."
+    },
+    {
+     "locator": "tsa08-p04",
+     "via": "argmap",
+     "tier": "R",
+     "status": "ARGMAP-PINNED",
+     "note": "v71 heap OF ahaṃkāra + v75 karmendriya derivation (gold argmap, span-verified machine 2026-11-06); structural side only, begetting unformalized",
+     "layer_sha256": {
+      "argmap": "417bcabd03cb452c7c68107fb2a97f709cc95421055111a1537a46ee0a7b48e6",
+      "proof_song": "tsa-a08",
+      "proof_gate": "PASS"
+     }
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Tattva.lean :: thirty_six": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa07-p01",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "7.1 mentions 36; the model sums stipulated group sizes, not 36 individually generated or source-verified tattvas. Earlier grouping was incorrect; see source review."
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Tattva.lean :: all_groups_present": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Only checks duplicate tags in the twelve-group list; it does not establish exhaustiveness or a textual bijection."
+  },
+  "Tattva.lean :: compression_ratio": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Historical name: checks twelve listed groups; no compression ratio is established."
+  },
+  "TattvaInventory.lean :: named_tattvas_36": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa07-p01",
+     "via": "argmap",
+     "tier": "T",
+     "status": "CONTEXT_ONLY",
+     "note": "7.1 mentions 36; this theorem counts a curated candidate list, not a verified source-derived enumeration."
+    }
+   ],
+   "r_sources": [
+    "SANSKRIT-FOUNDATION-REVIEW-2026-11-06.md"
+   ],
+   "lived": []
+  },
+  "TattvaInventory.lean :: named_tattvas_unique": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Checks the candidate list for duplicates."
+  },
+  "TattvaInventory.lean :: named_tattvas_exhaustive": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Lists every constructor of this model's type; it cannot establish textual completeness."
+  },
+  "TattvaInventory.lean :: pure_count": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p01",
+     "via": "argmap",
+     "tier": "T",
+     "status": "CONTEXT_ONLY",
+     "note": "8.16–17 distinguishes five pure tattvas and their tattveśvaras; human mapping review remains open."
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "TattvaInventory.lean :: kancuka_count": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa07-p01",
+     "via": "argmap",
+     "tier": "T",
+     "status": "CONTEXT_ONLY",
+     "note": "7.16 lists the five kalā-led factors; this checks the candidate list."
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "TattvaInventory.lean :: maya_six_count": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p03",
+     "via": "argmap",
+     "tier": "T",
+     "status": "CONTEXT_ONLY",
+     "note": "8.55 describes six coverings starting with māyā; this checks the candidate list."
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "TattvaInventory.lean :: pure_excludes_maya": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p01",
+     "via": "argmap",
+     "tier": "T",
+     "status": "CONTEXT_ONLY",
+     "note": "8.16 identifies five pure tattvas; this checks how the candidate list classifies māyā."
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "TattvaInventory.lean :: pure_and_kancukas_disjoint": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Checks disjointness of two model lists only."
+  },
+  "EgoOrigin.lean :: sankhya_requires_cause": {
+   "kind": "RULE",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "v68 silver-in-shell (derivative account); admission shape itself R"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "EgoOrigin.lean :: trika_self_grounding_exists": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "v70 pure I non-rivalled vimarśa (structural side); witness state itself R"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "EgoOrigin.lean :: accounts_differ_pureI": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Difference claim about OUR two admissions. No external evidence required beyond the file."
+  },
+  "EgoOrigin.lean :: accounts_differ_derivative": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Difference claim about OUR two admissions. No external evidence required beyond the file."
+  },
+  "EgoOrigin.lean :: nonrivalled_does_work": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "v70 non-rivalled clause (structural side; load-bearing IN THIS MODEL)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "EgoOrigin.lean :: feeling_makership_independent": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Separability claim about OUR bit-model, not a textual claim on v69 (c) (parked). No external evidence required."
+  },
+  "Heaps.lean :: heap_has_both_kinds": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "v71 instrument-heap named (structural side; single premise, thin)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Heaps.lean :: heap_eleven": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Count over OUR heap (5+5+1 reuses Tattva ladder sizes: consistency, not independent derivation). No external evidence required."
+  },
+  "Heaps.lean :: guna_threefold": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "v72 threefold by guna difference (structural side; single premise, thin)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Heaps.lean :: guna_exhaustive": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Per-guna tagging claim about OUR 3-state model. No external evidence required beyond the file."
+  },
+  "Avarana.lean :: course_ascends": {
+   "kind": "RULE",
+   "chunks": [
+    {
+     "locator": "tsa07-p01",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "v23 covering principle (rule side); ORDER list itself R"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Avarana.lean :: partial_order_honest": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "The coarse model omits within-course distinctions; this does not establish that the text leaves those relations open."
+  },
+  "Application.lean :: unready_unreachable": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "Grace.lean flip (necessity side)",
+    "Upaya.lean reach predicates (necessity side)"
+   ],
+   "lived": [],
+   "note": "Property of a stipulated product model. It does not validate practice eligibility or an individual's readiness."
+  },
+  "Application.lean :: grace_not_a_means": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Categorical distinction about OUR product model. No external evidence required beyond the file."
+  },
+  "MalaFuel.lean :: fuel_terminates": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "phr-p04",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "s13-16 return-by-recognition sequence (structural side)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "MalaFuel.lean :: strength_monotone": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Monotonicity about OUR strength counter. No external evidence required beyond the file."
+  },
+  "MalaFuel.lean :: grace_ignites": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "phr-p04",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "s13 method unspecified: saktipata + grace (ignition side)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Pratyahara.lean :: ac_vowels": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [
+    "Māheśvara sequence (CANDIDATE-EDITION, pin pending: INTAKE-REQUEST-sivasutras.md)"
+   ],
+   "lived": [],
+   "note": "Interval regeneration; T-pin open (no translation-work/MIRI/GRETIL source on hand 2026-11-06). Mechanics edition-independent."
+  },
+  "Pratyahara.lean :: hal_consonants": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [
+    "Māheśvara sequence (CANDIDATE-EDITION, pin pending)"
+   ],
+   "lived": [],
+   "note": "Consonant regeneration; same open pin."
+  },
+  "Pratyahara.lean :: markers_excluded": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Anubandha disjointness about OUR interval mechanics. No external evidence required beyond the file."
+  },
+  "Pratyahara.lean :: inventory_43": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Count over OUR inventory list. No external evidence required beyond the file."
+  },
+  "Pratyahara.lean :: markers_13": {
+   "kind": "KEY",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Count over OUR marker list (Ṅ twice). No external evidence required beyond the file."
+  },
+  "Reversal.lean :: semi_reversed": {
+   "kind": "COMPARISON",
+   "chunks": [],
+   "r_sources": [
+    "https://www.sanskrit-trikashaivism.com/en/trika-tattva-s-and-sanskrit-1-non-dual-shaivism-of-kashmir/504 (© Gabriel Pradīpaka, practitioner register — comparison control, link-first, no copying)"
+   ],
+   "lived": [],
+   "note": "Order arithmetic on third-party table; alphabet constant is public-domain varṇamālā. No doctrine checked."
+  },
+  "Reversal.lean :: span_reversed": {
+   "kind": "COMPARISON",
+   "chunks": [],
+   "r_sources": [
+    "https://www.sanskrit-trikashaivism.com/en/trika-tattva-s-and-sanskrit-1-non-dual-shaivism-of-kashmir/504 (© Gabriel Pradīpaka — comparison control as above)"
+   ],
+   "lived": [],
+   "note": "25-letter span reversal; same scope as semi_reversed."
+  },
+  "Nyasa.lean :: ka_uniform": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "matrika_body_map v2 + malini_order.json (frozen keys)"
+   ],
+   "lived": [],
+   "note": "Observed shape of OUR encoding (one uniform varga); mirrors the profile precedent. Not a rule check."
+  },
+  "Nyasa.lean :: matrika_total": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tal-a15-p12",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "TĀ-15 nyāsa complex, passage level (structural side). Work source NO-SOURCE-RECORD per its record.json; T claim conditional on source resolution."
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Nyasa.lean :: malini_total": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "malini_order.json (MV 3.37-41 order)"
+   ],
+   "lived": [],
+   "note": "Totality over OUR encoded list. No external evidence required beyond the file."
+  },
+  "Nyasa.lean :: maps_diverge": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Divergence count about OUR two encodings (duality quantified). No external evidence required."
+  },
+  "Nyasa.lean :: order_chief": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tal-a15-p12",
+     "via": "argmap",
+     "tier": "T",
+     "status": "ARGMAP-PINNED",
+     "note": "nādiphānta chief-order doctrine (structural side). Work source NO-SOURCE-RECORD per its record.json; T claim conditional on source resolution."
+    }
+   ],
+   "r_sources": [
+    "MV 3.36-41 extract (CC BY-NC)"
+   ],
+   "lived": []
+  },
+  "Nyasa.lean :: multiset_kept": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Conservation claim about OUR two encoded lists. No external evidence required."
+  },
+  "Embed.lean :: earth_all5": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "source-review",
+     "tier": "R",
+     "status": "CANDIDATE",
+     "note": "Tantrasara 8.85–90 discusses preceding qualities and another account; this matrix remains unreviewed."
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Embed.lean :: ether_sound_only": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Witness claim about OUR matrix. No external evidence required beyond the file."
+  },
+  "Embed.lean :: nesting": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": [],
+   "note": "Inclusion claim about OUR matrix; uniform alternative parked (remodel ready)."
+  },
+  "Ladder.lean :: chain_trans": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tal-a34-p01",
+     "via": "argmap",
+     "tier": "R",
+     "status": "ARGMAP-PINNED",
+     "note": "tal-a34 v02 ladder verses (gold argmap, machine-proposed; record NO-SOURCE-RECORD; v04 LIVE fork excluded from grounding)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Ladder.lean :: terminal_no_successor": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tal-a34-p01",
+     "via": "argmap",
+     "tier": "R",
+     "status": "ARGMAP-PINNED",
+     "note": "tal-a34 v03 means-independence (gold argmap, machine-proposed; record NO-SOURCE-RECORD)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Ladder.lean :: abandon_strict": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tal-a34-p01",
+     "via": "argmap",
+     "tier": "R",
+     "status": "ARGMAP-PINNED",
+     "note": "tal-a34 v02 same-motion-repeated, single-rung steps (gold argmap, machine-proposed; record NO-SOURCE-RECORD)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "TattvaGen.lean :: gen_total": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p01",
+     "via": "argmap",
+     "tier": "R",
+     "status": "ARGMAP-PINNED",
+     "note": "v16 five-primacies (gold argmap, machine-proposed; NO independent key on disk)"
+    },
+    {
+     "locator": "tsa08-p04",
+     "via": "argmap",
+     "tier": "R",
+     "status": "ARGMAP-PINNED",
+     "note": "v71-v79 heap verses bound the limitation/instrument reading (span-verified machine)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "TattvaGen.lean :: pure_distinct": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p01",
+     "via": "argmap",
+     "tier": "R",
+     "status": "ARGMAP-PINNED",
+     "note": "v16 five primacies by power-primacy (gold argmap, machine-proposed)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "TattvaGen.lean :: pentad_uniform": {
+   "kind": "MODEL",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "argmap",
+     "tier": "R",
+     "status": "ARGMAP-PINNED",
+     "note": "v73-v75 instrument partition (gold argmap, span-verified machine)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "TattvaGen.lean :: cut_arith": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [],
+   "lived": []
+  },
+  "Aperture.lean :: aperture_nine": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema library/recognition/aperture/aperture_spec_v0.7.md (H-tier owner theory)"
+   ],
+   "lived": [],
+   "note": "H-tier: nine-operation inventory of owner aperture spec §Core Architecture; no phenomenal/selector claim"
+  },
+  "Aperture.lean :: aperture_distinct": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "gochema library/recognition/aperture/aperture_spec_v0.7.md (H-tier owner theory)"
+   ],
+   "lived": [],
+   "note": "H-tier: pairwise distinct ops; inventory only"
+  },
+  "Tetrahedron.lean :: gap_five": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "rescue-volume tetrahedron-as-selector-proof + tantraloka-tetrahedron notes (H-tier owner line)"
+   ],
+   "lived": [],
+   "note": "H-tier: no uniform 5-vertex solid (spectral gap)"
+  },
+  "Tetrahedron.lean :: unique_four": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "rescue-volume tetrahedron-as-selector-proof + tantraloka-tetrahedron notes (H-tier owner line)"
+   ],
+   "lived": [],
+   "note": "H-tier: exactly one 4-vertex uniform solid"
+  },
+  "Tetrahedron.lean :: euler_tet": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "rescue-volume tetrahedron-as-selector-proof + tantraloka-tetrahedron notes (H-tier owner line)"
+   ],
+   "lived": [],
+   "note": "H-tier: inventory Euler check (model only)"
+  },
+  "Nanavira.lean :: matchings_three": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"
+   ],
+   "lived": [],
+   "note": "R: K4 pairings generated"
+  },
+  "Nanavira.lean :: orders_scale": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"
+   ],
+   "lived": [],
+   "note": "R: orders computed vs stated"
+  },
+  "Nanavira.lean :: parasite_erase": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "research-library NANAVIRA-FUNDAMENTAL-STRUCTURE-SYNTHESIS.md"
+   ],
+   "lived": [],
+   "note": "R: erasure structural half"
+  },
+  "Prakasa.lean :: all_appear": {
+   "kind": "MODEL",
+   "chunks": [],
+   "r_sources": [
+    "imports/ochema2/maps/terms/claim-01-prakasa.md (STATUS T textual, TA 1.54 via Dyczkowski; inherited as R)"
+   ],
+   "lived": [],
+   "note": "twin-attack pilot: roster check only; metaphysics untouched"
+  },
+  "Spanda.lean :: phases_two": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "span-p01",
+     "via": "L2+C1",
+     "tier": "R",
+     "status": "SPAN-PINNED",
+     "note": "SK 1.1 unmesa-nimesa, vv1"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Spanda.lean :: glide_all": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "span-p01",
+     "via": "L2+C1",
+     "tier": "R",
+     "status": "SPAN-PINNED",
+     "note": "jagradadi glide, v3"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Spanda.lean :: acts_three": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "span-p01",
+     "via": "L2+C1",
+     "tier": "R",
+     "status": "SPAN-PINNED",
+     "note": "pravrtti-sthiti-samhrti, v6"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  }
+ },
+ "exemptions": {
+  "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",
+  "fin_two": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content)."
+ }
 }

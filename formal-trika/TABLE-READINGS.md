@@ -425,3 +425,12 @@ Four less six plus four is two: the inventory balances.
 
 ## Prakasa.lean :: all_appear
 Everything in the account appears: manifestation first, no exceptions.
+
+## Spanda.lean :: phases_two
+Opening and closing are exactly two, and they differ: the pulse has two phases, never one, never three.
+
+## Spanda.lean :: glide_all
+Three states, and the perceiver holds through each: waking, dreaming, deep sleep — none of them loses the witness.
+
+## Spanda.lean :: acts_three
+Forthgoing, standing, dissolving: three acts, none collapsing into another — the inner wheel turns three ways.

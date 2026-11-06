@@ -21,6 +21,7 @@ fi
 "$LEAN" -DwarningAsError=true ../frontier/Aperture.lean || exit 1
 "$LEAN" -DwarningAsError=true ../buddhist/Nanavira.lean || exit 1
 "$LEAN" -DwarningAsError=true ../frontier/Tetrahedron.lean || exit 1
+"$LEAN" -DwarningAsError=true Spanda.lean || exit 1
 "$LEAN" -DwarningAsError=true AnswerKey.lean || exit 1
 "$LEAN" -DwarningAsError=true Tattva.lean || exit 1
 "$LEAN" -DwarningAsError=true TattvaInventory.lean || exit 1
@@ -63,3 +64,6 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive ../buddhist/Nanavira.lea
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Tetrahedron.lean --mutant ../frontier/BrokenTetFive.lean --theorem gap_five || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Tetrahedron.lean --mutant ../frontier/BrokenTetDrop.lean --theorem unique_four || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Tetrahedron.lean --mutant ../frontier/BrokenTetEdges.lean --theorem euler_tet || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Spanda.lean --mutant BrokenSpandaPhase.lean --theorem phases_two || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Spanda.lean --mutant BrokenSpandaState.lean --theorem glide_all || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Spanda.lean --mutant BrokenSpandaAct.lean --theorem acts_three || exit 1
