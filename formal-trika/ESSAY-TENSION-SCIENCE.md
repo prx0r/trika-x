@@ -64,7 +64,7 @@ Collections (R2, verified live):
   (freedom/indeterminism/responsibility pages, walker-matter-to-life
   PDF+txt, CIMC whitepaper, download.log).
 - `atlas-sources/pdfs/`: Corbin/mundus-imaginalis, ibn-arabi-barzakh.
-- `volume frontier-physics/`: LQG shelf (Maudlin PDF inside).
+- LQG shelf is LOCAL (`/root/damn/research-library/frontier-physics/`: 576lqg.md + 30 sources + tetrahedron-lqg docs) — corrected 2026-11-06, see SCIENCE-COLLECTION.md.
 
 ## 4. Science MCP vs archive — decision: archive-first, thin lookup
 

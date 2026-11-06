@@ -1233,3 +1233,16 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   counterparts + R2 bridge-essays (PMC/PubMed-joined) + Doyle mirror +
   LQG shelf. Decision: archive-first, import_paper.py CLI, no science
   MCP until archive + importer exist. arxiv + pubmed APIs verified live.
+
+## Science sorted + merge mapped.
+
+- SCIENCE-COLLECTION.md: every holding verified (local 155M research
+  library + 643M /root/library with 327 frontier files; R2
+  source-library frontier 399 / consciousness 346 / tantra 588;
+  bridge-essays PMC/PubMed-joined; Doyle mirror; academia bundles).
+  Corrected: LQG shelf is local, no volume bucket — prior note fixed.
+- TRIKA-SCIENCE-MAP.md: 12-row merge (formal node x counterpart x
+  relation x status). 4 grounded, rest partial/open/import-owed.
+  Claims cite paper IDs like theorem names; OPEN rows un-citable.
+  First builds: import_paper run (Maudlin/Rovelli) -> mala x phase-14
+  essay -> K4 isomorphism hardening or downgrade.
