@@ -1150,3 +1150,21 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - Reception zips unpacked (23MB, 1299 files): essayviz engine specs
   (pipeline/render/audio/agents/genres) + fundamental-structure pack.
 - ochema-site: Next.js (app/content/data), main only — site shell, noted.
+
+## Ochema repos mined (site + Ochema MDs + ochema2).
+
+- ochema-site (2.2MB): app/confrontations (page + slug) + scripts/
+  reconfront (versioned re-verdicting: thesis bump → stale records →
+  ADDITIVE reruns, never overwrite) + gen-works/maps/inventory/atlas-triage
+  + content/bundle.json. Adopted pattern: review packets re-run additively
+  (already true of pushback receipts; stated as rule).
+- Ochema (sparse MDs): apoha doc (prereg filed), abhinavagupta comparison,
+  doyle×2, concepts/ core+essays. Stale path noted: scripts reference
+  /root/projects/ochema (absent here) — their lane's rot, not mine.
+- ochema2 (461MB kept): METHOD (tier system origin — mine inherits it),
+  maps/terms claim ledger (STATUS+LABEL+SOURCE Sanskrit+MAPPING+RESEARCH —
+  EVIDENCE optional fields adopted going forward: sanskrit/mapping/
+  research_room, no backfill), SPANDA-FRAMEWORK (H, 6D speculative — not
+  formalized), tractatus set, film-packs, sleepyshorts.
+- EVIDENCE convention extended (documented): entries MAY carry sanskrit
+  (verbatim span), mapping (grid cell + alignment), research_room (bool).
