@@ -582,3 +582,15 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - Pre-existing bug I inherited fixed by PR (empty-audit success);
   pre-existing correct items kept (my go: branch, keyed treeka + their
   v2 validation merged coherently).
+
+## Box DB published to R2 (another-box access).
+
+- pg_dump -Fc (PG15-portable; the old R2 dump needs PG18) → 115KB,
+  sha 57d54032…, uploaded to s3://patala/openpatala/box-2026-11-06/
+  (+ manifest.json: contents, SHAs, restore recipe, trika-x rev).
+- Restore PROVEN on fresh openpatala_verify DB: identical counts
+  (544/1532…/87/87/909/0); verify DB dropped after. Two access paths
+  documented: download+restore OR rebuild-from-repos (bridge README).
+- Code pushed: trika-x seed/ingest/inventory tools + bridge --db
+  (975cf69-era); svread source-map.json. /root/openpatala untouched
+  (nothing of mine to push there). R2 creds: /root/.env only.
