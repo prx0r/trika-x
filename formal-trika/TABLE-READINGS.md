@@ -233,3 +233,42 @@ Whatever āṇava reaches in 2 steps, śāmbhava reaches: ordering recorded as f
 
 ## Upaya.lean :: sakta_within_sambhava
 Whatever śākta reaches, śāmbhava reaches: ordering recorded as found.
+
+## Tattva.lean :: five_gross_elements
+The 10× magnitude ladder yields exactly five gross elements.
+
+## Tattva.lean :: eleven_wombed
+Ahaṃkāra's composition (5 subtle + 5 gross + 1 mind) sums to eleven: the "one-eleven-wombed" formula.
+
+## Tattva.lean :: thirty_six
+The ten group-size clauses generate thirty-six principles in total, matching the tradition's count.
+
+## Tattva.lean :: all_groups_present
+All ten groups are accounted for exactly once: no orphan, no double-count.
+
+## Tattva.lean :: compression_ratio
+The file defines ten groups: the clause count behind the 10/36 compression ratio (computed in RESULTS.md, not proved here).
+
+## EgoOrigin.lean :: sankhya_requires_cause
+Every Sāṅkhya-admitted ego-state carries a derivative cause.
+
+## EgoOrigin.lean :: trika_self_grounding_exists
+The pure-I state (no cause, with I-feeling and makership, non-rivalled) is admitted: self-reflexive ego is consistent in the model.
+
+## EgoOrigin.lean :: accounts_differ_pureI
+The pure-I state is Trika-admitted but not Sāṅkhya-admitted.
+
+## EgoOrigin.lean :: accounts_differ_derivative
+A derivative state is Sāṅkhya-admitted but not Trika-admitted: neither admission contains the other.
+
+## EgoOrigin.lean :: nonrivalled_does_work
+Every Trika-admitted state is rival-free: the "non-rivalled" clause excludes states, it is not decorative.
+
+## EgoOrigin.lean :: feeling_makership_independent
+I-feeling without makership occurs in the model: the two bits are separable here (a model fact, not a textual claim).
+
+## Recognition.lean :: contentEq_sharp
+A pair differing in exactly one content field is not content-equal: the equality discriminates.
+
+## AnswerKey.lean :: key_grace_term
+KEY: the śaktipāta term is attested (pins the v35 quote to the machine surface).

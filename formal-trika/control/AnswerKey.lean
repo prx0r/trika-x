@@ -72,6 +72,11 @@ theorem key_five_followers : pureFollowers.length = 5 := by decide
     (parameśvaraśaktipātavaśāt, L0 citation). -/
 def key_grace_term_attested : Bool := true
 
+/-- KEY-GRACE: the śaktipāta term flag checks (pins the v35
+    VERIFIED-QUOTE to the machine-checked surface; the evidence note
+    carries the T content, the theorem only the flag). -/
+theorem key_grace_term : key_grace_term_attested = true := by decide
+
 /-- The 112 dhāraṇās (T-count). Refs: translation-work/vbt (GRETIL
     sa_vijñānabhairava vv1-162; vv24-135 = 112 dhāraṇās per
     vbt/lore-2026-11-04.md; legacy verse-count confusion documented there).

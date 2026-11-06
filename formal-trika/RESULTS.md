@@ -1,0 +1,313 @@
+# Results — formal Trika
+
+Results are appended below; an earlier result is never edited. Predictions are
+scored against their preregistration files. Scoring stays **provisional** until
+the scored conditions are fully met (independent raters, replication,
+sufficient n).
+
+---
+
+## 2026-11-06 — Arm A: control (TK-C1/C2, P-TK1–4)
+
+`control/run.sh` (Lean 4.34.1, no dependencies) → **PASS.**
+
+### What was built
+
+- **`Mala.lean`** — 3 malas inductive, `count_3`.
+- **`Pramatr.lean`** — 3 binary axes → 8 combos; R1 (no free-floating kārma)
+  → 7 well-formed rows; profile `[2,3,1,2,1,2,0]`; unverified name labels
+  (positional, R-tier, flagged).
+- **`Kancuka.lean`** — 5 kañcukas, `restricts` table (capacity pairings, R),
+  `count_5`, `pairings_distinct`.
+- **`Recognition.lean`** — AM0 σ-flip over 64 states: content preserved,
+  always lands ¬Sv(O), adds nothing.
+- **`Broken.lean` / `BrokenKancuka.lean`** — mutants; `must_fail.py` requires
+  the named `by decide` theorem to be false (same statement, pinned Lean,
+  warnings-as-errors).
+
+### What checks
+
+| Theorem | Statement |
+|---|---|
+| `count_3` | tradition counts 3 malas |
+| `eight_combos` | 3 binary axes = 8 combinations |
+| `seven` | R1 excludes exactly 1; 7 rows survive |
+| `profile` | mala-count profile [2,3,1,2,1,2,0] in generation order |
+| `count_5` | tradition counts 5 kañcukas |
+| `pairings_distinct` | 5 distinct capacities (no overlap) |
+| `recognition_preserves_content` | σ-flip changes no content bits (64 states) |
+| `recognition_lands_recognized` | always lands ¬Sv(O) |
+| `recognition_adds_nothing` | content before = after |
+
+### Scoring (provisional)
+
+- **TK-C1 (7+1 from general rules): PASS** — but P-TK1 (one-to-one textual
+  class mapping) **UNESTABLISHED** (PREREGISTRATION-2026-11-06 §1: the
+  mantra-triad split is adhvan-positional, not mala-compositional).
+- **TK-C2 (known failure): PASS** — R1 deletion breaks the count; must_fail
+  confirms the mutant refuses.
+- **P-TK2 (5 kañcukas): PASS** — count_5 + pairings_distinct check.
+- **P-TK3 (σ-flip): PASS** — content preserved, lands ¬Sv(O), adds nothing.
+- **P-TK4 (compression < 1.0): PASS** — 1 rule clause ÷ 7 rows ≈ 0.14.
+
+### Honest limits
+
+The 7 Boolean rows have no proven one-to-one mapping to the traditional
+seven experients (saptapramātṛ). The name labels are R-tier proposals,
+unused by any count theorem. The capacity pairings in Kancuka.lean are
+stipulated (R), not derived from the text.
+
+---
+
+## 2026-11-06 — Arm A: recognition rungs (R-REC1–8)
+
+`recognition/run.sh` (Lean 4.34.1) → **PASS, 18/18** (9 positive + 9
+must-fail mutants).
+
+### What was built
+
+- **`Transitions.lean`** — R-REC1 (σ-laws over 12-bit RecState, 4096 states:
+  embodiment kept, bondage cleared, limitation retained, idempotent) +
+  R-REC2 (mala pathologies: āṇava stuck, acquisition ≠ recognition, kārma
+  self-loop — each distinct from T_rec).
+- **`NonEntail.lean`** — R-REC3 (A–F chain: six one-step countermodels +
+  A..E-without-F) + R-REC4 (V₁–V₇ independence 128 combos, U non-transitive,
+  no-global-section triad).
+- **`Conjuncts.lean`** — R-REC5 (recognition unique 1/16, 4 drop-one
+  theorems, misidentification never recognizes) + R-REC6 (Part coherent,
+  PI-independent, Śiva-requires-S) + R-REC8 (unus-ambo exhibit).
+- **`Memory.lean`** — R-REC7 (M₄ requires M₁–M₃, M₄⇏M₅, sees-without-enacts,
+  no enacts-without-sees).
+- **`Tractatus.lean`** — support-set locality (no universal S), Rec₁/Rec₂/
+  FullRec hierarchy, layers L1–L4, finite no-self-model shadow, path fork
+  (suffering vs recognition reachable; reflexive edge load-bearing).
+- **`Coords.lean`** — kañcuka→coordinate bijection (5 distinct), agent
+  finitude (restricted perspective exists, no unrestricted among admitted).
+
+### Scoring (provisional)
+
+- **R-REC1–8: all PASS** (each with a must-fail mutant that refuses).
+- Kill conditions not triggered (no Broken twin checks).
+- Honest limits: finite models only (12-bit/64/128/4096 states); station
+  tags applied to ~4 moments of 144 lived decodes; ti/ca coordinates have
+  no felt signature (F-CORR partial, 3/5).
+
+---
+
+## 2026-11-06 — Arm B: decode rung (T-C1, T-C3, T-C4)
+
+Prereg: PREREGISTRATION-DECODE-RUNG.md (committed before code).
+
+### What was built
+
+- **`KancukaCorr.lean`** — felt→coordinate map (pull→va, stall→ac, doubt→kn;
+  push/urgency/placedness = explicit unknowns). KEY (stipulated + evidence-
+  pinned), not derived. `coverage_partial` (3/5 coords).
+- **`Grace.lean`** — flip ↔ ready ∧ grace over 4 states; readiness and grace
+  each necessary, jointly sufficient; both gaps inhabited.
+- **`Upaya.lean`** — śāmbhava (1-step), śākta (needs purity), āṇava (needs
+  n≥2 repetition); distinctness checked; orderings recorded as found.
+- **`tc1_cooccurrence.py`** — Fisher exact over vendored decodes (26 arcs).
+
+### Scoring (provisional)
+
+- **T-C1 (pull+stall co-occur): HOLDS** — p=0.0462 one-sided, 26 arcs.
+  3/3 thin/churn arcs carry lobha; thin never without lobha. Pilot only:
+  n small, single diarist, machine-proposed decodes, owner-unreviewed.
+- **T-C3 (grace variable): KEPT** — 5/5 grace-clauses keep the variable
+  (residual unconditioned step). Kill not triggered. Single rater.
+- **T-C4 (conjunct audit): HOLDS** — claimed-recognition 3.0 vs state-
+  craving 0.0 (n=4). S=0 throughout (no stabilization evidence yet).
+- **T-C2 (upaya agreement): UNRESOLVED** — rater-2 sheet ready, awaiting
+  independent mind.
+
+### Honest limits
+
+All decodes are machine-proposed, owner-unreviewed. n is tiny. The grace
+audit may be circular (looking for residual steps finds them). ti/ca
+coordinates silent. Station tags on 4/144 moments.
+
+---
+
+## 2026-11-06 — Arm C: methodology instruments
+
+Prereg: PREREGISTRATION-ARMC.md (committed before verification).
+
+### What was built
+
+- **`AnswerKey.lean`** — 5 tradition figures (5 kañcukas / 36 tattvas /
+  7 experients / 5 followers / 112 dhāraṇās) with per-figure status
+  (VERIFIED-QUOTE / ARGMAP-PINNED / PREREGISTERED-ONLY). Excluded list
+  names our non-traditional constructs.
+- **`vocab.py` + `Vocab.lean`** — 26 types extracted, Lean-checking,
+  `--check` green (blind protocol instrument).
+- **`table.py` + `TABLE.md` + `TABLE-READINGS.md`** — 76 theorems with
+  hand-written plain-English readings; staleness-checked.
+- **`TRIKA-METHOD.md`** — tiers, layers-as-variable, kill rules, compression
+  honesty, machine-proposes-human-disposes.
+- **`BLIND.md`** — second-encoder protocol (never run yet).
+
+### Scoring (provisional)
+
+- M-KEY / M-BLIND / M-TABLE / M-LEDGER / M-GREEN: all HOLD (PREREGISTRATION-
+  ARMC predictions). Blind re-derivation: instrument built, no run yet.
+
+---
+
+## 2026-11-06 — Arm D+E+F: evidence chain + bridge + cruxes
+
+### What was built
+
+- **`EVIDENCE.json`** — 74 theorem entries + 2 exemptions, each pinned to
+  chunk locators / R-sources / lived decodes. `evidence_check.py`: 22/22
+  chunk refs resolve.
+- **`treeka_formal.py`** — formal column: 6/45 formalized, 16 armed,
+  23 unarmed + gap list.
+- **`bridge/`** — passage snapshot (SHA-256 ledger pins), openpatala-map
+  (CANDIDATE-* status, witnesses UNPINNED), `bridge_resolve.py` with
+  `--tw` byte-verification.
+- **`CRUX-WALKTHROUGH-01`** — rāga↔lobha (tsa08-p03): chunk → formal →
+  argument → essay draft with claim table + PUSHBACK. Chain runs.
+- **`CRUX-WALKTHROUGH-02`** — ego-origin (tsa08-p04): derivative (Sāṅkhya)
+  vs self-reflexive (Trika). Formal gap identified (no ego-origin model).
+  Chain runs on a second crux.
+
+### Scoring (provisional)
+
+- Coverage 6/45 (13%) — the formal core exists but most gold is untouched.
+- Witnesses all UNPINNED (needs openpatala resolver).
+- Both cruxes prove the chain runs; neither proves its claim (open by design).
+
+---
+
+## 2026-11-06 — Rung 2: tattva ladder generation (TK-R2)
+
+Prereg: PREREGISTRATION-DECODE-RUNG.md §F-UPAYA-adjacent (structural rules,
+not trained). T-tier ground: tsa07-p01 argmap (36 natures, magnitude ladder,
+"one-eleven-wombed ahaṃkāra" = aikādaśagarbha = 5 tanmātra + 5 mahābhūta +
+1 manas).
+
+### What was built
+
+- **`Tattva.lean`** — general rules over the tattva ladder structure:
+  10 group-size clauses (5 gross elements via 10× ladder, 5 subtle, 5 sense,
+  5 action, 1 mind, 1 intellect, 1 ego [11-wombed], 1 nature, 5 coverings,
+  7 pure principles). Generation from structural rules; count check.
+- **`BrokenTattva.lean`** — mutant: purePrinciple size 7→6; `must_fail.py`
+  confirms `thirty_six` refuses.
+
+### What checks
+
+| Theorem | Statement |
+|---|---|
+| `five_gross_elements` | 10× ladder yields exactly 5 gross elements |
+| `eleven_wombed` | ahaṃkāra = 5 tanmātra + 5 mahābhūta + 1 manas = 11 |
+| `thirty_six` | generated total = 36 (matches AnswerKey) |
+| `all_groups_present` | every group accounted, no orphan/double-count |
+| `compression_ratio` | 10 group-size clauses ÷ 36 rows ≈ 0.28 |
+
+### Scoring (provisional)
+
+- **TK-R2 (36 from structural rules): PASS** — `thirty_six` checks;
+  BrokenTattva mutant refuses.
+- **Compression: 0.28** (10 clauses ÷ 36 rows). Thon Ly's sangaha:
+  0.22 over 121, 0.30 over 89. Comparable — the tattva structure is
+  hierarchical (groups of different sizes), not combinatorial (independent
+  axes), hence slightly worse than the citta count but same order.
+- **Honest limits:** group sizes are structural data (derived from the
+  ladder's own composition, not from the text's per-item enumeration).
+  The "11-wombed" formula is T-tier (tsa07-p01 v09). The pure-principle
+  count (7) is our reconstruction — the text's list may differ; flagged.
+
+---
+
+## 2026-11-06 — Rung 3: ego-origin accounts (E-EGO, CRUX-02 gap)
+
+Prereg: PREREGISTRATION-EGO-RUNG.md (committed before code; E-EGO1–5).
+T-tier ground: tsa08-p04 argmap (v68 silver-in-shell, v69 rejection of
+Sāṅkhya on I-feeling + makership, v70 pure I as non-rivalled vimarśa;
+v71/v72 heaps parked).
+
+### What was built
+
+- **`EgoOrigin.lean`** — 16-state bit-model (D/F/M/R flags): Sāṅkhya
+  admission = D ∧ ¬F ∧ ¬M; Trika admission = ¬D ∧ F ∧ M ∧ ¬R (pure-I
+  witness). 6 theorems, all `by decide`, all **zero-axiom** (`#print
+  axioms`: no axioms at all).
+- **`BrokenEgoOrigin.lean`** — mutant: Sāṅkhya D-requirement dropped
+  (single definition line + header); `must_fail.py` confirms
+  `sankhya_requires_cause` refuses.
+- **`BrokenEgoRival.lean`** — mutant: Trika N-requirement dropped;
+  `nonrivalled_does_work` refuses.
+
+### Scoring (provisional)
+
+- **E-EGO1–5: all PASS** (each key theorem with a must-fail twin for the
+  two load-bearing ones; E-EGO3a/b and E-EGO5 are exhibits, twin-covered
+  by family).
+- Recognition harness now **21/21** (10 positive + 11 must-fail).
+  Evidence coverage **7/45 (15%)** — tsa08-p04 formalized.
+- **Honest limits:** consistency of two axiom sets only; no verdict on
+  which account is true about minds (prereg §2). Silver-in-shell read as
+  origin-dependence (structure reading parked). F/M separability is
+  model-level, not a textual claim on (c). Heaps unmodeled. Absence claim
+  scoped to formal-trika (Thon Ly corpus unsurveyed).
+
+---
+
+## 2026-11-06 — Correction: TK-R2 compression claim downgraded
+(Correction record; the 2026-11-06 Rung 2 section above is not edited.)
+
+Legitimacy review against Thon Ly's bar found the 0.28 ratio unearned:
+unlike sangaha (general constraints over axes + an INDEPENDENT per-factor
+second key), our group sizes are table data (`groupSize` lookup) and the
+cross-checks (`eleven_wombed`, `five_gross_elements`) reuse the same
+sizes. **TK-R2 stands as a checked restatement with internal consistency
+(`thirty_six` + refusing mutant), NOT as compression in Thon Ly's sense.**
+EVIDENCE.json Tattva notes corrected the same session (restatement
+language, no-independent-key flags). To earn a ratio: find independent
+textual constraints on group sizes (second key), or drop the claim.
+Status of `thirty_six` itself (36 generated, mutant refuses): unchanged.
+
+---
+
+## 2026-11-06 — Hardening pass: sharpness + grace-key (S-SHARP)
+
+Prereg: PREREGISTRATION-SHARPNESS.md (S-SHARP1–2, S-GRACEKEY).
+Found by the first mechanical sweep (`jubnzv/Mutate.lean`, built from
+source this session, Lean 4.33.1 frontend): `contentEq -> ||` / `-> true`
+mutants SURVIVED the P-TK3 suite, and `key_grace_term_attested` had NO
+covering theorem. Full-sweep disposition: Mala/Kancuka/Tattva
+survived=0; AnswerKey 3 survivors = the grace flag (fixed here);
+Recognition 17 survivors = weakened-equality (fixed here) +
+enumeration-collapse vacuous cases (recorded noise, prereg §2).
+
+### What was built
+
+- **`contentEq_sharp`** (Recognition.lean): single-field difference ⟹
+  NOT content-equal. Zero-axiom. Twin `BrokenSharp.lean` (one conjunct
+  dropped, single-line diff): old 3 theorems PASS on it, sharp FAILS —
+  proving discriminating power the old suite lacked (S-SHARP2).
+- **`key_grace_term`** (AnswerKey.lean): pins the v35 VERIFIED-QUOTE flag.
+  Zero-axiom. EVIDENCE entry KEY/VERIFIED-QUOTE.
+- TABLE source list fixed (predated Tattva; claimed 76, repo had 81):
+  all 89 covered, count dynamic, 13 hand readings added.
+
+### Scoring (provisional)
+
+- **S-SHARP1–2, S-GRACEKEY: all PASS.** Control harness extended
+  (BrokenSharp twin). Dynamic axiom audit: 89/89 CLEAN (75 zero-axiom).
+- **Honest limits:** sharpness is OUR predicate's property, not textual.
+  Vacuous-enumeration survivors are mutation-testing noise, not gaps.
+
+---
+
+## What "done" would look like (honest checklist)
+- [ ] Every unarmed chunk with an argmap formalized or explicitly parked
+- [ ] Witnesses pinned (needs openpatala resolver)
+- [ ] Blind re-derivation run at least once (Upaya first)
+- [ ] T-C2 scored (rater-2)
+- [ ] Week-2+ decodes re-running frozen tests
+- [ ] ti/ca signatures found or coordinates dropped from claims
+- [ ] Station pass over all 144 moments
+- [ ] P-TK1 established or explicitly abandoned

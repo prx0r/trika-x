@@ -53,4 +53,13 @@ theorem recognition_lands_recognized :
 theorem recognition_adds_nothing :
     allStates.all (fun m => contentEq m (recognize m)) = true := by decide
 
+/-- S-SHARP1: contentEq discriminates — a pair differing in exactly one
+    content field (o) is NOT content-equal. Without this, `-> ||` and
+    `-> true` mutants survive the P-TK3 suite (found by mechanical sweep):
+    the old theorems hold under weakened equality too. This theorem says
+    the equality means what it says. -/
+theorem contentEq_sharp :
+    contentEq { e := true, p := false, h := false, b := false, o := false, s := true }
+              { e := true, p := false, h := false, b := false, o := true, s := false } = false := by decide
+
 end FormalTrika
