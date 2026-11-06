@@ -8970,7 +8970,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -8992,7 +8992,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -9014,7 +9014,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -9613,7 +9613,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -9635,7 +9635,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -9657,7 +9657,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -9679,7 +9679,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -11309,7 +11309,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 3,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -11485,7 +11485,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -11507,7 +11507,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -11683,7 +11683,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -11705,7 +11705,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -11749,7 +11749,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -11771,7 +11771,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -11958,7 +11958,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -11980,7 +11980,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 4,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -12002,7 +12002,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -12024,7 +12024,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -12046,7 +12046,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -12068,7 +12068,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -14112,7 +14112,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -14134,7 +14134,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 8,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -14200,11 +14200,15 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Ladder.lean :: abandon_strict",
+    "Ladder.lean :: chain_trans",
+    "Ladder.lean :: terminal_no_successor"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-TODO"
   },
@@ -14222,7 +14226,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -14244,7 +14248,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -14266,7 +14270,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -14288,7 +14292,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -14310,7 +14314,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 1,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -14332,7 +14336,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 4,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -14354,7 +14358,7 @@
      "checkout_state": "CLEAN"
     }
    ],
-   "cruxes": 0,
+   "cruxes": 2,
    "formalized": null,
    "formal_reference": false,
    "formal_refs": [],
@@ -16712,15 +16716,7 @@
    "tantraloka-a07:tal-a07-p06",
    "tantraloka-a07:tal-a07-p07",
    "tantraloka-a07:tal-a07-p08",
-   "tantraloka-a12:tal-a12-p01",
-   "tantraloka-a12:tal-a12-p02",
-   "tantraloka-a12:tal-a12-p03",
    "tantraloka-a14:tal-a14-p01",
-   "tantraloka-a14:tal-a14-p02",
-   "tantraloka-a14:tal-a14-p03",
-   "tantraloka-a14:tal-a14-p04",
-   "tantraloka-a14:tal-a14-p05",
-   "tantraloka-a18:tal-a18-p01",
    "tantraloka-a18:tal-a18-p02",
    "tantraloka-a19:tal-a19-p01",
    "tantraloka-a19:tal-a19-p02",
@@ -16728,8 +16724,6 @@
    "tantraloka-a19:tal-a19-p04",
    "tantraloka-a19:tal-a19-p05",
    "tantraloka-a19:tal-a19-p06",
-   "tantraloka-a20:tal-a20-p01",
-   "tantraloka-a20:tal-a20-p02",
    "tantraloka-a21:tal-a21-p01",
    "tantraloka-a21:tal-a21-p02",
    "tantraloka-a21:tal-a21-p03",
@@ -16737,17 +16731,7 @@
    "tantraloka-a21:tal-a21-p05",
    "tantraloka-a21:tal-a21-p06",
    "tantraloka-a21:tal-a21-p07",
-   "tantraloka-a22:tal-a22-p01",
-   "tantraloka-a22:tal-a22-p02",
    "tantraloka-a22:tal-a22-p03",
-   "tantraloka-a22:tal-a22-p04",
-   "tantraloka-a22:tal-a22-p05",
-   "tantraloka-a24:tal-a24-p01",
-   "tantraloka-a24:tal-a24-p02",
-   "tantraloka-a24:tal-a24-p03",
-   "tantraloka-a25:tal-a25-p01",
-   "tantraloka-a25:tal-a25-p02",
-   "tantraloka-a25:tal-a25-p03",
    "tantraloka-a26:tal-a26-p01",
    "tantraloka-a26:tal-a26-p02",
    "tantraloka-a26:tal-a26-p03",
@@ -16769,18 +16753,8 @@
    "tantraloka-a32:tal-a32-p05",
    "tantraloka-a32:tal-a32-p06",
    "tantraloka-a32:tal-a32-p07",
-   "tantraloka-a33:tal-a33-p01",
-   "tantraloka-a33:tal-a33-p02",
    "tantraloka-a33:tal-a33-p03",
    "tantraloka-a33:tal-a33-p04",
-   "tantraloka-a34:tal-a34-p01",
-   "tantraloka-a35:tal-a35-p01",
-   "tantraloka-a35:tal-a35-p02",
-   "tantraloka-a35:tal-a35-p03",
-   "tantraloka-a35:tal-a35-p04",
-   "tantraloka-a35:tal-a35-p05",
-   "tantraloka-a36:tal-a36-p01",
-   "tantraloka-a36:tal-a36-p02",
    "tantraloka-a37:tal-a37-p01",
    "tantraloka-a37:tal-a37-p02",
    "tantraloka-a37:tal-a37-p03",
@@ -17983,7 +17957,6 @@
    "tantraloka-a33:tal-a33-p02",
    "tantraloka-a33:tal-a33-p03",
    "tantraloka-a33:tal-a33-p04",
-   "tantraloka-a34:tal-a34-p01",
    "tantraloka-a35:tal-a35-p01",
    "tantraloka-a35:tal-a35-p02",
    "tantraloka-a35:tal-a35-p03",
@@ -18082,8 +18055,8 @@
  "counts": {
   "passages": 909,
   "unargued": 578,
-  "cruxless": 153,
+  "cruxless": 123,
   "essayless": 331,
-  "no_formal_reference": 901
+  "no_formal_reference": 900
  }
 }

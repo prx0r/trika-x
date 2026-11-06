@@ -377,3 +377,12 @@ Ether holds sound alone: the finest contains one.
 
 ## Embed.lean :: nesting
 Finer substances persist upward: each grosser row includes the next finer.
+
+## Ladder.lean :: chain_trans
+Chained resorts compose: leaving rung after rung lands inside the ladder's reach.
+
+## Ladder.lean :: terminal_no_successor
+The last means has no next rung: means-independence ends the ladder.
+
+## Ladder.lean :: abandon_strict
+Every resort climbs exactly one rung: no leaps, no loops, no staying put.

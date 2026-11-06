@@ -8,6 +8,7 @@
     "vbt": {"ledger": "translation-work/vbt/passages.jsonl", "chunks": ["vbt-p01", "vbt-p02", "vbt-p03", "vbt-p04", "vbt-p05", "vbt-p06", "vbt-p07", "vbt-p08", "vbt-p09", "vbt-p10", "vbt-p11", "vbt-p12", "vbt-p13", "vbt-p14", "vbt-p15", "vbt-p16", "vbt-p17"]},
     "spanda": {"ledger": "translation-work/spanda/passages.jsonl", "chunks": ["span-p01", "span-p02", "span-p03", "span-p04", "span-p05", "span-p06"]},
     "tal15": {"ledger": "translation-work/tantraloka-a15/passages.jsonl", "chunks": ["tal-a15-p01", "tal-a15-p02", "tal-a15-p03", "tal-a15-p04", "tal-a15-p05", "tal-a15-p06", "tal-a15-p07", "tal-a15-p08", "tal-a15-p09", "tal-a15-p10", "tal-a15-p11", "tal-a15-p12", "tal-a15-p13", "tal-a15-p14", "tal-a15-p15", "tal-a15-p16", "tal-a15-p17", "tal-a15-p18", "tal-a15-p19", "tal-a15-p20", "tal-a15-p21", "tal-a15-p22", "tal-a15-p23", "tal-a15-p24", "tal-a15-p25", "tal-a15-p26", "tal-a15-p27", "tal-a15-p28", "tal-a15-p29", "tal-a15-p30", "tal-a15-p31", "tal-a15-p32", "tal-a15-p33", "tal-a15-p34", "tal-a15-p35", "tal-a15-p36", "tal-a15-p37", "tal-a15-p38", "tal-a15-p39", "tal-a15-p40", "tal-a15-p41", "tal-a15-p42", "tal-a15-p43", "tal-a15-p44", "tal-a15-p45", "tal-a15-p46", "tal-a15-p47", "tal-a15-p48", "tal-a15-p49", "tal-a15-p50", "tal-a15-p51", "tal-a15-p52", "tal-a15-p53", "tal-a15-p54", "tal-a15-p55", "tal-a15-p56", "tal-a15-p57", "tal-a15-p58", "tal-a15-p59", "tal-a15-p60", "tal-a15-p61", "tal-a15-p62"]},
+    "tal-a34": {"ledger": "translation-work/tantraloka-a34/passages.jsonl", "chunks": ["tal-a34-p01"]},
     "tsa01": {"ledger": "translation-work/tantrasara-a01/passages.jsonl", "chunks": ["tsa01-p01"]},
     "tsa02": {"ledger": "translation-work/tantrasara-a02/passages.jsonl", "chunks": ["tsa02-p01"]},
     "tsa03": {"ledger": "translation-work/tantrasara-a03/passages.jsonl", "chunks": ["tsa03-p01", "tsa03-p02"]},
@@ -150,7 +151,10 @@
     "Nyasa.lean :: multiset_kept": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Conservation claim about OUR two encoded lists. No external evidence required."},
     "Embed.lean :: earth_all5": {"kind": "MODEL", "chunks": [{"locator": "tsa07-p01", "via": "argmap", "tier": "T", "status": "ARGMAP-PINNED", "note": "v9 five-substances-included (structural side); gradient reading flagged R, scholar to confirm"}], "r_sources": [], "lived": []},
     "Embed.lean :: ether_sound_only": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Witness claim about OUR matrix. No external evidence required beyond the file."},
-    "Embed.lean :: nesting": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Inclusion claim about OUR matrix; uniform alternative parked (remodel ready)."}
+    "Embed.lean :: nesting": {"kind": "MODEL", "chunks": [], "r_sources": [], "lived": [], "note": "Inclusion claim about OUR matrix; uniform alternative parked (remodel ready)."},
+    "Ladder.lean :: chain_trans": {"kind": "MODEL", "chunks": [{"locator": "tal-a34-p01", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "tal-a34 v02 ladder verses (gold argmap, machine-proposed; record NO-SOURCE-RECORD; v04 LIVE fork excluded from grounding)"}], "r_sources": [], "lived": []},
+    "Ladder.lean :: terminal_no_successor": {"kind": "MODEL", "chunks": [{"locator": "tal-a34-p01", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "tal-a34 v03 means-independence (gold argmap, machine-proposed; record NO-SOURCE-RECORD)"}], "r_sources": [], "lived": []},
+    "Ladder.lean :: abandon_strict": {"kind": "MODEL", "chunks": [{"locator": "tal-a34-p01", "via": "argmap", "tier": "R", "status": "ARGMAP-PINNED", "note": "tal-a34 v02 same-motion-repeated, single-rung steps (gold argmap, machine-proposed; record NO-SOURCE-RECORD)"}], "r_sources": [], "lived": []}
   },
   "exemptions": {
     "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",

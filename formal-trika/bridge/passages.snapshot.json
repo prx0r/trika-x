@@ -136,6 +136,17 @@
       ],
       "sha256": "932c5554f31d78a94f225b5df8c26b57c695409f183203ae0caad6f3e5ee3efe"
     },
+    "tal-a34": {
+      "ledger": "tantraloka-a34/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a34001",
+          "locator": "tal-a34-p01",
+          "verses": "34.1-34.4"
+        }
+      ],
+      "sha256": "4e8d95a2ac1d58e187ba5e507eebdec02188d7792a63751941bc29a0bc63353e"
+    },
     "tal15": {
       "ledger": "tantraloka-a15/passages.jsonl",
       "passages": [

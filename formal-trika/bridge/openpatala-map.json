@@ -243,6 +243,15 @@
    "source_sha": "translation-work/tantrasara-a22/SOURCE.sha (VERIFIED present)",
    "witness": "UNPINNED",
    "status": "CANDIDATE-EDITION"
+  },
+  "tal-a34": {
+   "ours": "translation-work/tantraloka-a34",
+   "openpatala_work_key": "tantraloka",
+   "openpatala_work_id": "UNPINNED",
+   "edition": "UNRESOLVED (work record.json: NO-SOURCE-RECORD, no workcfg source)",
+   "source_sha": "translation-work/tantraloka-a34/source/record.json (VERIFIED present; status NO-SOURCE-RECORD)",
+   "witness": "UNPINNED",
+   "status": "CANDIDATE-WORK"
   }
  },
  "note": "The resolver verifies exact passage-locator membership in the pinned snapshot; --tw additionally checks ledger bytes. Work and edition links remain candidates; witness identity is UNPINNED."

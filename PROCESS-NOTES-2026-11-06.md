@@ -673,3 +673,16 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   current; HEAD stable since. Tier-1 re-PARSED argmaps flow into our next
   rebuild automatically (no interface change).
 - JOURNEY-NOTE-2026-11-06.md: trajectory spec only, owner-gated, no code.
+
+## L-LAD rung (first TAL formal; firewall earned its keep twice).
+
+- Cycle law-twin REJECTED by must_fail (exactly-one-refusal rule) → three
+  surgical twins (chain/leap/beyond), all green. Terminality's only mutant
+  is a fifth rung — real structural finding, not test trivia.
+- Bounded-quantifier escape caught pre-run (3,4) ∉ ranks → pair-quantified
+  terminal instead. New rule: bounds are claims too; check twin escape.
+- JSON comma lesson: assert line-end state before comma surgery (doubled a
+  comma on the tal15 line; repaired + validated). WORK_OF: longer prefixes
+  first (tal-a34 before tal) — first match wins.
+- Trinity now 28 works / 154 passages; composition 23/3/2 (tal-a34 second
+  DOUBLE-GAP, honest: gold translation, no source spans yet).

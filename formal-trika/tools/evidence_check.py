@@ -55,7 +55,10 @@ def ledgers():
 
 
 WORK_OF = {"tsa08": "tsa08", "tsa07": "tsa07", "param": "param", "phr": "phr",
-           "vbt": "vbt", "spanda": "spanda", "span": "spanda", "tal": "tal15",
+           "vbt": "vbt", "spanda": "spanda", "span": "spanda",
+           # longer prefixes BEFORE shorter ones: "tal-a34-p01" must not
+           # route via "tal" (first match wins in work_of).
+           "tal-a34": "tal-a34", "tal": "tal15",
            "tsa01": "tsa01", "tsa02": "tsa02", "tsa03": "tsa03",
            "tsa04": "tsa04", "tsa05": "tsa05", "tsa06": "tsa06",
            "tsa09": "tsa09", "tsa10": "tsa10", "tsa11": "tsa11",

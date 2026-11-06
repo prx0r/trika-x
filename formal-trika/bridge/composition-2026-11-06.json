@@ -5,7 +5,7 @@
  "counts": {
   "COMPOSED": 23,
   "PARTIAL": 3,
-  "DOUBLE-GAP": 1
+  "DOUBLE-GAP": 2
  },
  "rows": [
   {
@@ -40,6 +40,17 @@
    "dossier_sha256": null,
    "volumes": 1,
    "verdict": "PARTIAL"
+  },
+  {
+   "snapshot_key": "tal-a34",
+   "workdir": "tantraloka-a34",
+   "passages": 1,
+   "mapping_status": "UNMAPPED",
+   "record_status": "NO-SOURCE-RECORD",
+   "openpatala_work_id": null,
+   "dossier_sha256": null,
+   "volumes": 0,
+   "verdict": "DOUBLE-GAP"
   },
   {
    "snapshot_key": "tal15",

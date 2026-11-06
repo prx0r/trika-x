@@ -578,6 +578,35 @@ premise: gross includes subtle substances).
 
 ---
 
+## 2026-11-06 — Rung 12: ladder law (L-LAD1–3, first Tantraloka formal)
+
+Prereg: PREREGISTRATION-LADDER-RUNG.md (R-ground ONLY: gold argmap
+tal-a34-v01..v04, machine-proposed, NO-SOURCE-RECORD; v04 LIVE fork
+excluded; v00 frame unit excluded). T-tier ground: none.
+
+### What was built
+
+- **`Ladder.lean`** — 4 ranked means, resort steps, stipulated closure;
+  `chain_trans` (chained resorts compose), `terminal_no_successor`
+  (no outgoing resort at rank 3, pair-quantified), `abandon_strict`
+  (every step +1). All zero-axiom, `decide`.
+- **Three surgical twins** (the firewall rejected a law-twin: must_fail
+  demands exactly one refusal per file): `BrokenLadderChain` (closure
+  drops (0,2) → chain only), `BrokenLadderLeap` (leap (0,2) → strict
+  only), `BrokenLadderBeyond` (fifth rung (3,4) → terminal only).
+  Finding: terminality has no in-rank mutant — the (3,4) formulation is
+  the discovery; bounded quantification would have let it escape
+  (caught pre-run, pair-quantified instead).
+
+### Scoring (provisional)
+
+- **L-LAD1–3: PASS.** EVIDENCE 125 entries (tal-a34-p01 chunks, tier R,
+  ARGMAP-PINNED). Snapshot trinity 28 works / 154 passages.
+- **Honest limits:** membership model, not begetting; closure stipulated
+  (model-only, like Tattva sums); translation unreviewed; no witness.
+
+---
+
 ## What "done" would look like (honest checklist)
 - [ ] Every unarmed chunk with an argmap formalized or explicitly parked
 - [ ] Witnesses pinned (needs openpatala resolver)
