@@ -45,7 +45,12 @@
     "Vimarsini Italian (Torella, Adelphi 2013 — publisher-cited, URL unverified)",
     "papers bibliography",
     "our publications (none yet)"
-   ]
+   ],
+   "atlas_ref": {
+    "file": "/root/patalacheckpoints/data/atlas/audited.ts",
+    "id": null,
+    "note": "absent from atlas audited set — entries here are first bibliography; upstream merge proposed"
+   }
   },
   "PTCND_sa_abhinavagupta-anuttarASTikA": {
    "title": "Anuttarāṣṭikā",
@@ -288,7 +293,12 @@
    "gaps": [
     "papers bibliography",
     "our publications (none yet)"
-   ]
+   ],
+   "atlas_ref": {
+    "file": "/root/patalacheckpoints/data/atlas/audited.ts",
+    "id": null,
+    "note": "absent from atlas audited set — entries here are first bibliography; upstream merge proposed"
+   }
   },
   "PTCND_sa_abhinavagupta-tantrasAra": {
    "title": "Tantrasāra",
@@ -524,7 +534,12 @@
    "gaps": [
     "papers bibliography",
     "our publications (none yet)"
-   ]
+   ],
+   "atlas_ref": {
+    "file": "/root/patalacheckpoints/data/atlas/audited.ts",
+    "id": "tantrasara",
+    "note": "atlas holds editions/translations depth; entries below are live-verified additions only"
+   }
   }
  },
  "counts": {
@@ -534,7 +549,7 @@
  },
  "works_without_dossiers": {
   "tantraloka (37 ahnikas)": {
-   "note": "NO openpatala dossier — the biggest gap in the spine (recon complete, 14 gold, 827 nodes, zero dossier)",
+   "note": "NO openpatala dossier — the biggest gap in the spine (recon complete, 14 gold, 827 nodes, zero dossier) | bibliography home = atlas audited.ts (prior art, Aug); this file records live-verified additions + gaps only — no fork",
    "editions": [
     {
      "kind": "edition",
@@ -629,7 +644,12 @@
      "note": "finding aid, not authority — verify each claim downstream"
     }
    ],
-   "ours": []
+   "ours": [],
+   "atlas_ref": {
+    "file": "/root/patalacheckpoints/data/atlas/audited.ts",
+    "id": "tantraloka",
+    "note": "atlas has Dyczkowski 11-vol + Singh/Maheshvarananda + WisdomLib e-text + lectures; below are verified additions/corrections"
+   }
   },
   "kramastotra/bhairavastava/anuttarastika/bodhapancadasika/malinivijayavarttika": {
    "note": "dossiers exist (3 stubs each); 1-2 mapped workdirs; no published-translation bibliography found in this sweep",
@@ -638,5 +658,9 @@
    "papers": [],
    "ours": []
   }
+ },
+ "method": {
+  "prior_art": "/root/patalacheckpoints (254-record atlas + Trika audited depth + tiered strategy + identity spec)",
+  "rule": "reference atlas IDs, never duplicate lists; this file holds live-verified additions + gaps + ours-queue"
  }
 }

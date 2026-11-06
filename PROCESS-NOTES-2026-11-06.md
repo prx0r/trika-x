@@ -870,3 +870,12 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   layer registries, box mirror. Muktabodha tarball NOT downloaded (87MB+ on
   96% disk — sequenced endgame, needs headroom).
 - Credentials: single /root/.env 0600 (deduped); rotation confirmed by use.
+
+## Bibliography reconciliation (user was right — prior art found).
+
+- patalacheckpoints holds 254-record atlas + Trika audited depth (editions/
+  translations/traditions) + tiered strategy + identity spec. My sweep now
+  REFERENCES atlas IDs; holds only live-verified additions (MLBD Torella,
+  Routledge DOI, GRETIL txt, archive.org Chakravarty, wiki finding aid) +
+  gaps (5 dossiers unmapped, Tantraloka dossier absent, Param/IPVV absent
+  from atlas) + ours-queue. No fork.
