@@ -62,10 +62,24 @@ maps = the first comparative-formal rung + visual truth).
 - Process notes appended same session (this file's companion
   PROCESS-NOTES-*.md). No silent work.
 
-## Scoreboard (updated as todos complete)
+## Scoreboard (2026-11-06 close of autonomous build; verified at push)
 
-- Formal: 89 theorems / 13 refusing mutants / 7+1 chunks / axiom-clean.
-- Treeka: coverage 7/45 → climbing; gap list live.
--DB: schema-restored → seeded → queried (A-track receipts).
-- Bench: calibration + sweep logged; tau pending quota.
-- Practice: C1 rendered; gates tested; lists published.
+- Formal: 107 theorems / 19 refusing mutants / control 11 PASS /
+  recognition 26/26 / axiom 107 CLEAN (77 zero-axiom) / TABLE all rows.
+- Evidence: 105 entries + 2 exemptions, 0 problems; coverage 8/45 chunks
+  (tsa08 full + tsa07-p01 + 6 param/phr/vbt/span stations).
+- Treeka: 909 passages keyed; gaps unargued=659, cruxless=70,
+  essayless=250, unformalized=864; 13 ambiguous locators recorded.
+- DB: postgres live, 444 works / 442 assertions / 121 ext-ids, idempotent
+  loader, recipe in bridge README.
+- Bench: thresholds/1 NEEDS TUNING (logged); tau pilots logged (null-ish);
+  round-trip prototype (uncalibrated); F3 refused by design.
+- Practice: C1 unit + eligibility + paths (no-DIY asserted) + day-gate +
+  bodymap drift-clean + slang pack + unit→syllabus→score plug PROVEN.
+- Live model rails: beam-free ($0, go_beam.py) + CF REST (neurons logged);
+  ox-alpha quota untouched; PUSHBACK live on both.
+- Pushes: trika-x b730c6d-era → current; svread source-map; ipvv acom/0.2.
+- Disk 3.5G free; secrets /root/.env ONLY, repo scans clean.
+- Human-gated remainder: witnesses, P-TK1/ti-ca/rater-2, Zenodo token,
+  tau-scale, Mutate remainder, F3 pairs, dīkṣā policy, owner flips
+  (ledger/trajectory/vis-mode, sit player, catalog migration).

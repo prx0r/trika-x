@@ -336,3 +336,196 @@
 - Study: matrika_study.py (50 cards, verified:false propagated,
   trika_link NULL) + pedagogy patterns adopted + SYNERGIES-SANSKRITHELP.
 - Score: 107 theorems, 12 receipts, 32 tests green.
+
+---
+
+# FULL SESSION RECORD — autonomous endgame build, 2026-11-06 (consolidated)
+
+Everything below happened this session, in order. Earlier sections of this
+file are the live log; this section is the consolidated account (numbers
+re-verified at write time). Commits: b069256, 77bcdf7a→77bcdf4 (SOTA gates),
+de6cb8a, f42a2ea (50 todos), 80e9c82 (nibbanahelp), cce66a0 (deitybody),
+b730c6d (sanskrithelp). Plus svread d5bfe9f (source-map) and ipvv c2cb6b35
+(qp 0.2, rebased clean).
+
+## 0. Start: mid-formalisation review
+
+Reviewed svread (ENDGAME 7 varieties, Scholar live), trika-x (formal-trika
+arms A–F + Tattva rung uncommitted), ipvv (49 chunks, migration map,
+r2-staging). Answered the 36-tattva question: TK-R2 PASS with honest
+limits; found 5 Tattva theorems missing from EVIDENCE.json (fixed).
+
+## 1. SOTA deep dive (10 todos)
+
+Thon Ly corpus fully inventoried (control 6-rules/8-rows, sangaha 9+18 →
+89/121 at 0.22, canon rung, blind deriver+refuter, runs ledger, OTS+Zenodo).
+Barendregt 2202.05700 extracted locally (implicit-spec axioms, (i,s,a)
+triples, attenuation derived = the applications bar). SOTA mapped:
+Sigstore/Rekor + in-toto/SLSA (receipts), #print-axioms audit pattern
+(zeta-23/l4s-disprove), Mutate.lean (mechanical mutants), Chapman modal
+catuṣkoṭi (Buddhist Lean precedent), Cohen/Fleiss κ + LREC-2026 guide
+(IAA), PIT mutant literature (equivalent-mutant problem).
+
+## 2. SOTA implementation (trika-x + ipvv + svread)
+
+- EVIDENCE Tattva rows; PREREGISTRATION-TATTVA-RUNG.md (dedicated).
+- tools/axiom_audit.py (sorry/sorryAx/axiom/native_decide/ofReduceBool/
+  trustCompiler) + CI step + test. tools/mutate_sweep.py (jubnzv/Mutate.lean
+  wrapper, fail-closed) + test. tools/kappa.py (raw + Cohen κ, threshold
+  untouched) + sheet note + test. bridge/witness-candidates.json (NGMPP
+  records, advisory-only) + resolver support + test (never promotes).
+  tools/build_source_map.py → svread/source-map.json (87 works).
+- ipvv qp acom/0.2: empty/unknown gates FAIL, byte-roots, program_hash pins,
+  digest_full, authorize boundary, settle compares roots; 11 hardening tests;
+  verify_site handles both protocols; receipts regenerated (2288); SITE GATES
+  PASS; CLAIMS logged (lane rule 5).
+- svread Scholar P1 VERIFIED already closed by PR #8 (exact repro in tests).
+- END-TO-END-tsa08-p03.md (first-slice receipt; witness = single blocker).
+
+## 3. Qubic/Neuraxon + ternary verdict
+
+Qubic (quorum compute, uPoW, Abra/Qupla, oracles) + Neuraxon (trinary
++1/0/-1 continuous-time, plasticity, MIT code, IEEE AMLDS best oral,
+ARC-AGI-3 0.25 CPU). Verdict table: adopt IDEAS (neutral-buffer design,
+1.58-bit watch, σ metric), never the stack (ARC 0.25 ≪ free models;
+  quorum-voting contradicts provenance trust model; no ternary hardware
+  exists). Neuraxon ternary = neural dynamics, NOT proof logic (Chapman
+  already covers non-classical Lean). Endgame pipeline table + order.
+
+## 4. R2 patala audit (owner token, since rotated-note filed)
+
+Bucket inventory (openpatala/ 0.9MB SHAs VERIFIED; projects snapshot
+@4147a19; releases works.jsonl 147,339 rows SHA-verified, 7-key schema,
+no witness fields; source/ 1.1GB + staging/ 2.3GB NOT fetched (disk);
+artifacts/public/shared small). Witness data: NONE, triple-confirmed
+(empty dump + witness-free dossiers + field-free registry). R2 doc
+R2-PATALA-AUDIT-2026-11-06.md. 26MB registry deleted after verify.
+
+## 5. Disk 909M → 3.8G
+
+btmp + uv/pip caches (~380M); rail-db (1.1G, stale upstream);
+rail-announcements/humor/deitydb/telegraph-scorers (~1.2G, .git bloat,
+third-party). All re-cloneable. Remaining levers documented (venv 631M,
+.git 2.3G needs shallow re-clone, content dirs need owner eyes).
+/tmp/ipvv + svread-compat are SYMLINKS (not duplicates — caught before
+deleting). opencode.db 2.2G = harness memory (untouched).
+
+## 6. Lean boot + full reruns
+
+elan had 4.34.1 (PATH fix); version+commit match README pin exactly.
+Control PASS, recognition 18/18 → now 26/26. Dynamic axiom audit built
+from scratch: 87 → now 107 theorems (73→77 zero-axiom), zero sorryAx/
+trustCompiler everywhere. record_run.py +dirty flag; runs ledger 12
+receipts. Connected repos surveyed (translation-work @ pinned e05e640).
+
+## 7. New rungs (all prereg-first, all with refusing twins)
+
+- E-EGO (ego-origin, CRUX-02 gap): 16-state bit-model, Sāṅkhya vs Trika
+  admissions, 6 theorems + 2 single-line-diff twins.
+- S-SHARP (Mutate sweep found it): contentEq `-> ||` survivors proved
+  weak equality; sharpness theorem + twin (old suite passes, sharp fails);
+  grace flag got its theorem (was unchecked def).
+- E-HEAP (v71/v72 heaps): LIVE precedence bug caught (`++ [mind]`
+  inside lambda → 15 not 11); surgical twins (dupes not deletions —
+  over-broad first drafts correctly rejected by must_fail).
+- E-AVAR (v23 covering chain): twin EXPOSED TAUTOLOGY (links+cover from
+  same list) → same-day amendment → course-rank redesign → genuine
+  partial-order finding (six groups share .mind).
+- A-APP (first consumed theorem): unready_unreachable + grace_not_a_means,
+  cited by eligibility.py study-fallback. Twin discipline held 3× total.
+- P-PUSH1 (mala fuel, pushing row 2; row-1 re-registration refused as
+  postdiction; P-PUSH2 krama-time as registered question).
+- P-SUTRA (pratyāhāra intervals: aC=9, haL=34, markers excluded, 43/13;
+  first-phoneme + mark-termination bugs caught; set_option placement
+  learned; CANDIDATE pin + intake request — no vyākaraṇa source in-estate).
+- P-REV (Pradīpaka reversal claims: BOTH EXACT — semivowel flip +
+  25-letter span flip; © link-first comparison control).
+
+## 8. Legitimacy audit (vs Thon Ly / Barendregt / SOTA)
+
+Method honest (prereg/controls/mutants/evidence/axiom-audit at/above small-
+project norm); Tattva 0.28 DOWNGRADED via correction record (table data,
+no second key); P-TK1 UNESTABLISHED with review pack; TK-C2 mismatch
+documented; blind pilot SAME×5 + VOCAB-GAP×1 (repetition missing from
+vocab — best-kind finding); no applications rung then (A-APP fills it);
+witnesses unpinned; timestamps present-unverified. Verdict: WORKING yes,
+LEGIT with named gaps, DONE no, PUBLISHABLE no (concurs peer review).
+
+## 9. 50-todo autonomous build (A–G tracks)
+
+- A: postgres 15 + 34-table schema from migrations (R2 dump needs PG18);
+  loader fought 4 mismatches honestly (arrays, NOT NULLs, identifier≠value,
+  stub events SKIPPED not fabricated); seeded 444/442/121, idempotent;
+  recipe in bridge README.
+- B: source audit 87/87; decision checker (1/87 ledgers, 0 layer-accept —
+  owning lane); argmap nodes 2269 (join debugging: bare ranges, singles,
+  stotra-aware, cross-work flags; 103 UNKNOWN = real gaps: 5 works with
+  argmaps but NO ledgers + span orphans); crux queue 888; treeka keyed
+  work:locator (12 collisions found + recorded); tests.
+- C: above + station pass (22 thin proposals + schema-gap finding) +
+  PTK1 pack + Mutate partial sweep (Upaya/NonEntail survivors all
+  vacuous-family; 4.33.1 installed/uninstalled transiently, disk watched).
+- D: pushback CLI (mock + CF mistral + beam-free; live runs caught my
+  locator bug); CF probe green; beam-free wired (go_beam.py, /root/.env
+  ONLY, scans clean, pushback go: + tau judge); chain test green; audit
+  receipts exposing chunk↔verse gap (spec'd); Zenodo dry-run builds.
+- E: C1 unit (retention-caution catch live) + eligibility + paths
+  (no-DIY assert) + day-gate + bodymap drift check + VBT/audio gaps +
+  slang pack + consent gate.
+- F: calibration thresholds/1 = NEEDS TUNING (coverage blind 0.885,
+  consistency vacuous, grounding over-blocks, abstention trusted);
+  beam-judged tau pilots (null-ish, honest); round-trip prototype; F3
+  refused on pair-data (by design).
+- G: phonemic spec (frozen body map as seed key + crosswalk second key);
+  acquisition truth (MIRI/GRETIL grepped: KMT ✓, KuRatnUdd/TSB absent —
+  order flips to KMT-17 first); five-maps scaffold; Triśirobhairava
+  inventory (quote beyond local TĀ range).
+
+## 10. Mālinī brainstorm → verified control
+
+TĀ-15 units read (nyāsa function, disordered alphabet doctrine, pair,
+mother-future): 6 ideas (nyāsa rung, permutation+fixed-point, parked
+mysteries ×2, Sanskrit-embedded program, VBT empirical check).
+N1 VERIFIED: MV 3.36–41 fetched (MIRI M00160, CC BY-NC) — order matches
+malini_order (na→pha) + 5 reading variants vs GRETIL-TĀ (skeleton agrees).
+BRAINSTORM-MALINI-LOGIC.md keeper.
+
+## 11. Sanskritree recovery + field
+
+Origin found (truth compressor → tiers; hybrid oracle → proposes/disposes;
+node graph → EVIDENCE/treeka; BNF → proof gate; Kāṇḍa → T/R tiers;
+Bhartṛhari thesis → brainstorm). Field: Kadvany/Huet/Sohoni/Mishra/Amba
+(Pāṇini computation — cite/study list), panini-nlp (adopt), dpaul kāraka
+(study), takuya50 (contact), Pramaana/token-efficiency/Lean-Finder (skip).
+Lane empty: Śaiva×Lean×prereg×witness×practice — nobody there.
+
+## 12. Nibbanahelp synergy (read-only discipline)
+
+MV control + variants (above); tensions exporter (3 open, no body text
+crosses — in test); three-nyāsa character into spec; day-gate halves
+mapped; R2 env names mapped; teacher-stage0 reviewed (corrections journal
+= future T-C2/station/ti-ca consumer); owner-gated builds respected.
+SYNERGIES-NIBBANA.md.
+
+## 13. Deitybody synergy (contract discipline)
+
+unit_to_score.py verified against their compile_syllabus.py end-to-end
+(vbt-d001 → hold event, REVIEW REQUIRED); teaching order recorded
+(a+ā first); E8 corrected from their audio truth (48+2, ḷḹ silence+flag);
+locks adopted by reference. SYNERGIES-DEITYBODY.md.
+
+## 14. Sanskrit-through-Trika endgame (Pradīpaka site, © controls only)
+
+Full Śivasūtra word-by-word + study ladder + Trika tracks + technique
+compendia + Aṣṭādhyāyī 3983/0 reviewed. Tattva-letter table → BOTH
+reversals EXACT (P-REV). matrika_study.py (50 cards, verified:false
+propagated, trika_link NULL). Pedagogy adopted (sandhi-through-sūtras,
+pronunciation-through-aphorisms, First-Steps shape). SYNERGIES-SANSKRITHELP.md.
+
+## Scoreboard (verified at push)
+
+107 theorems · 19 refusing mutants · control 11 PASS · recognition 26/26 ·
+evidence 105/103+2, 0 problems · TABLE all rows · axiom 107 CLEAN ·
+34 unit tests + 11 qp tests green · 12 runs receipts · 50/50 todos
+(5 human/token-gated with resume paths) · 3 pushes (trika-x f42a2ea…,
+svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
