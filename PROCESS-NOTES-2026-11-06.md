@@ -1128,3 +1128,12 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   expansion 11, research-essay 10, commentary 9, topics 12, objects 162,
   density 52, pushing 68, subtle packs 3+1, platinum 20 (scope unclear),
   idea-units pointer. Statuses kind-default; review lives in lanes.
+
+## Essay seeds filled (489 across 22 kinds, --r2 for corpora).
+
+- Added: gochema video-essays (18), basecamp objects/seeds/contentions/
+  packets + works-corpus aggregate (1917 neuroscience JSONs, 1 node),
+  volume essayviz builds (3), sanskritree platinum essays (17), R2
+  aggregates (bridge 1652, renders 1610 — counted, not listed).
+- blogengine: absent everywhere (box/volume/R2/GitHub) — recorded, not missing.
+- sanskritree essays/ + truth/ prefixes EMPTY (placeholders).

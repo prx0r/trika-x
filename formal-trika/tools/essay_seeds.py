@@ -34,6 +34,11 @@ def title_of(md: Path) -> str:
 
 
 def main() -> int:
+    import argparse
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--r2", action="store_true",
+                    help="include R2 corpora (needs R2 creds in env; slower)")
+    opts = ap.parse_args()
     seeds = []
 
     def add(sid, kind, title, path, status, extra=None):
@@ -75,10 +80,68 @@ def main() -> int:
         add(f"subtle:{f.name}", "subtle-body-historical", f.name, f, "frontier shelf")
     add("corpus:essay-corpus", "idea-units", "essay-corpus (242 units, TEXT×TOPIC×GRADE×QUESTION)",
         "github:prx0r/essay-corpus", "external live repo (query via build_corpus.py)")
+    # gochema video-essays (per-dir seeds; storyboard/narration where present)
+    goch = Path("/root/gochema/essays")
+    if goch.is_dir():
+        for d in sorted(p for p in goch.iterdir() if p.is_dir()):
+            n_md = sum(1 for _ in d.rglob("*.md"))
+            add(f"gochema:{d.name}", "video-essay", d.name, d,
+                f"essay dir ({n_md} md files; storyboard where built)")
+    # basecamp knowledge (objects, seeds, contentions, packets, works corpus)
+    bck = Path("/root/projects/basecamp/knowledge")
+    if bck.is_dir():
+        for kind, sub in (("essay-object", "essay-objects"), ("essay-seed", "essay-seeds"),
+                          ("contention", "contentions"), ("info-packet", "information-packets")):
+            base = bck / sub
+            if base.is_dir():
+                for f in sorted(base.iterdir()):
+                    add(f"basecamp:{f.stem}", kind, title_of(f) if f.is_file() else f.name,
+                        f, f"{kind} (basecamp)")
+        works = bck / "works"
+        if works.is_dir():
+            n = sum(1 for _ in works.iterdir())
+            add("basecamp:works-corpus", "research-corpus",
+                f"basecamp works corpus ({n} pubmed/bridge JSONs)", works,
+                "aggregate node (neuroscience research corpus)")
+    # volume essayviz builds
+    evb = Path("/mnt/HC_Volume_106959365/root/projects/essayviz-workspace/build")
+    if evb.is_dir():
+        for d in sorted(p for p in evb.iterdir() if p.is_dir()):
+            add(f"essayviz:{d.name}", "video-build", d.name, d, "essayviz build dir (volume)")
+    # sanskritree platinum essays (R2, per-file; small set)
+    # R2 corpora aggregates (opt-in: network + creds)
+    if opts.r2:
+        try:
+            import boto3
+            s3 = boto3.client("s3", endpoint_url="https://954612afb5a97bb15dddcdc70176813d.r2.cloudflarestorage.com",
+                              aws_access_key_id="36c9d71d3defa6b43f53536bdc6f65f3",
+                              aws_secret_access_key="c55689c3f176e4b839a7fb93861778960ed1020ba6253decec11538e7b187691")
+            pg = s3.get_paginator("list_objects_v2")
+            plats = []
+            for page in pg.paginate(Bucket="sanskritree", Prefix="platinum/"):
+                for o in page.get("Contents", []):
+                    if o["Key"].endswith("/"):
+                        continue
+                    plats.append((o["Key"], o["Size"]))
+            for k, s in plats:
+                add(f"platinum:{Path(k).stem}", "platinum-essay", Path(k).stem,
+                    f"r2:sanskritree/{k}", f"platinum essay ({s}B, R2)")
+            for bucket, prefix, kind in [("research-datasets", "bridge-essays/", "bridge-corpus"),
+                                         ("blog-video-assets", "renders/essay", "essay-render")]:
+                n = 0
+                for page in pg.paginate(Bucket=bucket, Prefix=prefix):
+                    n += len(page.get("Contents", []))
+                    if n > 8000:
+                        break
+                add(f"r2:{bucket}/{prefix}", kind, f"{bucket}/{prefix} ({n} objects)",
+                    f"r2:{bucket}/{prefix}", "aggregate node (corpus too large per-file)")
+        except Exception as e:
+            print(f"R2 section skipped: {str(e)[:100]}")
     from collections import Counter
     counts = dict(Counter(s["kind"] for s in seeds))
     doc = {"format": "trika-essay-seeds/1", "seeds": seeds, "counts": counts,
-           "note": "statuses are kind-defaults; per-item review lives in owning lanes"}
+           "note": ("statuses are kind-defaults; per-item review lives in owning lanes. "
+                    "blogengine: not found anywhere (box, volume, R2, GitHub) — recorded absent, not missing")}
     (HERE / "data" / "essay-seeds.json").write_text(json.dumps(doc, ensure_ascii=False, indent=1) + "\n")
     print(f"essay seeds: {len(seeds)}")
     for k, v in sorted(counts.items()):

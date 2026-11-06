@@ -2667,6 +2667,762 @@
    "title": "essay-corpus (242 units, TEXT×TOPIC×GRADE×QUESTION)",
    "path": "github:prx0r/essay-corpus",
    "status": "external live repo (query via build_corpus.py)"
+  },
+  {
+   "id": "gochema:buddhist-cosmologies",
+   "kind": "video-essay",
+   "title": "buddhist-cosmologies",
+   "path": "/root/gochema/essays/buddhist-cosmologies",
+   "status": "essay dir (5 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:daimon-companion",
+   "kind": "video-essay",
+   "title": "daimon-companion",
+   "path": "/root/gochema/essays/daimon-companion",
+   "status": "essay dir (3 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:dependent-origination",
+   "kind": "video-essay",
+   "title": "dependent-origination",
+   "path": "/root/gochema/essays/dependent-origination",
+   "status": "essay dir (2 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:devas-real",
+   "kind": "video-essay",
+   "title": "devas-real",
+   "path": "/root/gochema/essays/devas-real",
+   "status": "essay dir (3 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:fire-simile",
+   "kind": "video-essay",
+   "title": "fire-simile",
+   "path": "/root/gochema/essays/fire-simile",
+   "status": "essay dir (12 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:fundamental-structure",
+   "kind": "video-essay",
+   "title": "fundamental-structure",
+   "path": "/root/gochema/essays/fundamental-structure",
+   "status": "essay dir (19 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:global-rebirth",
+   "kind": "video-essay",
+   "title": "global-rebirth",
+   "path": "/root/gochema/essays/global-rebirth",
+   "status": "essay dir (52 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:guru-finds-you",
+   "kind": "video-essay",
+   "title": "guru-finds-you",
+   "path": "/root/gochema/essays/guru-finds-you",
+   "status": "essay dir (1 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:karma-explained",
+   "kind": "video-essay",
+   "title": "karma-explained",
+   "path": "/root/gochema/essays/karma-explained",
+   "status": "essay dir (7 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:letters",
+   "kind": "video-essay",
+   "title": "letters",
+   "path": "/root/gochema/essays/letters",
+   "status": "essay dir (1 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:nibbana-sermons",
+   "kind": "video-essay",
+   "title": "nibbana-sermons",
+   "path": "/root/gochema/essays/nibbana-sermons",
+   "status": "essay dir (1 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:prayer-explained",
+   "kind": "video-essay",
+   "title": "prayer-explained",
+   "path": "/root/gochema/essays/prayer-explained",
+   "status": "essay dir (3 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:rebirth-explained",
+   "kind": "video-essay",
+   "title": "rebirth-explained",
+   "path": "/root/gochema/essays/rebirth-explained",
+   "status": "essay dir (38 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:shamatha",
+   "kind": "video-essay",
+   "title": "shamatha",
+   "path": "/root/gochema/essays/shamatha",
+   "status": "essay dir (3 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:transference",
+   "kind": "video-essay",
+   "title": "transference",
+   "path": "/root/gochema/essays/transference",
+   "status": "essay dir (7 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:transmission-explained",
+   "kind": "video-essay",
+   "title": "transmission-explained",
+   "path": "/root/gochema/essays/transmission-explained",
+   "status": "essay dir (1 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:vipassana",
+   "kind": "video-essay",
+   "title": "vipassana",
+   "path": "/root/gochema/essays/vipassana",
+   "status": "essay dir (3 md files; storyboard where built)"
+  },
+  {
+   "id": "gochema:what-is-jhana",
+   "kind": "video-essay",
+   "title": "what-is-jhana",
+   "path": "/root/gochema/essays/what-is-jhana",
+   "status": "essay dir (12 md files; storyboard where built)"
+  },
+  {
+   "id": "basecamp:eo-q-brain-if-consciousness-fundamental-v1-auto",
+   "kind": "essay-object",
+   "title": "eo-q-brain-if-consciousness-fundamental-v1-auto",
+   "path": "/root/projects/basecamp/knowledge/essay-objects/eo-q-brain-if-consciousness-fundamental-v1-auto",
+   "status": "essay-object (basecamp)"
+  },
+  {
+   "id": "basecamp:eo-q-brain-if-consciousness-fundamental-v2",
+   "kind": "essay-object",
+   "title": "eo-q-brain-if-consciousness-fundamental-v2",
+   "path": "/root/projects/basecamp/knowledge/essay-objects/eo-q-brain-if-consciousness-fundamental-v2",
+   "status": "essay-object (basecamp)"
+  },
+  {
+   "id": "basecamp:eo-q-brain-if-consciousness-fundamental-v3",
+   "kind": "essay-object",
+   "title": "eo-q-brain-if-consciousness-fundamental-v3",
+   "path": "/root/projects/basecamp/knowledge/essay-objects/eo-q-brain-if-consciousness-fundamental-v3",
+   "status": "essay-object (basecamp)"
+  },
+  {
+   "id": "basecamp:eo-reflexivity-anupaya-v7",
+   "kind": "essay-object",
+   "title": "eo-reflexivity-anupaya-v7",
+   "path": "/root/projects/basecamp/knowledge/essay-objects/eo-reflexivity-anupaya-v7",
+   "status": "essay-object (basecamp)"
+  },
+  {
+   "id": "basecamp:eo-reflexivity-groundless-v6",
+   "kind": "essay-object",
+   "title": "eo-reflexivity-groundless-v6",
+   "path": "/root/projects/basecamp/knowledge/essay-objects/eo-reflexivity-groundless-v6",
+   "status": "essay-object (basecamp)"
+  },
+  {
+   "id": "basecamp:eo-reflexivity-levels-distinction-v2",
+   "kind": "essay-object",
+   "title": "eo-reflexivity-levels-distinction-v2",
+   "path": "/root/projects/basecamp/knowledge/essay-objects/eo-reflexivity-levels-distinction-v2",
+   "status": "essay-object (basecamp)"
+  },
+  {
+   "id": "basecamp:eo-reflexivity-original-arguments-v3",
+   "kind": "essay-object",
+   "title": "eo-reflexivity-original-arguments-v3",
+   "path": "/root/projects/basecamp/knowledge/essay-objects/eo-reflexivity-original-arguments-v3",
+   "status": "essay-object (basecamp)"
+  },
+  {
+   "id": "basecamp:eo-reflexivity-self-grounding-v5",
+   "kind": "essay-object",
+   "title": "eo-reflexivity-self-grounding-v5",
+   "path": "/root/projects/basecamp/knowledge/essay-objects/eo-reflexivity-self-grounding-v5",
+   "status": "essay-object (basecamp)"
+  },
+  {
+   "id": "basecamp:eo-reflexivity-structural-local-v1",
+   "kind": "essay-object",
+   "title": "eo-reflexivity-structural-local-v1",
+   "path": "/root/projects/basecamp/knowledge/essay-objects/eo-reflexivity-structural-local-v1",
+   "status": "essay-object (basecamp)"
+  },
+  {
+   "id": "basecamp:eo-reflexivity-two-aspects-v4",
+   "kind": "essay-object",
+   "title": "eo-reflexivity-two-aspects-v4",
+   "path": "/root/projects/basecamp/knowledge/essay-objects/eo-reflexivity-two-aspects-v4",
+   "status": "essay-object (basecamp)"
+  },
+  {
+   "id": "basecamp:reflexivity-intrinsic-or-constructed.seed",
+   "kind": "essay-seed",
+   "title": "reflexivity-intrinsic-or-constructed.seed",
+   "path": "/root/projects/basecamp/knowledge/essay-seeds/reflexivity-intrinsic-or-constructed.seed.json",
+   "status": "essay-seed (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-accepts-apoha-recontextualizes",
+   "kind": "contention",
+   "title": "abh-accepts-apoha-recontextualizes",
+   "path": "/root/projects/basecamp/knowledge/contentions/abh-accepts-apoha-recontextualizes.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-anupaya-meta-perspective",
+   "kind": "contention",
+   "title": "abh-anupaya-meta-perspective",
+   "path": "/root/projects/basecamp/knowledge/contentions/abh-anupaya-meta-perspective.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-crystal-refutes-buddhist",
+   "kind": "contention",
+   "title": "abh-crystal-refutes-buddhist",
+   "path": "/root/projects/basecamp/knowledge/contentions/abh-crystal-refutes-buddhist.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-grahya-grahaka-two-aspects",
+   "kind": "contention",
+   "title": "abh-grahya-grahaka-two-aspects",
+   "path": "/root/projects/basecamp/knowledge/contentions/abh-grahya-grahaka-two-aspects.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-original-argument-svasamvedana",
+   "kind": "contention",
+   "title": "abh-original-argument-svasamvedana",
+   "path": "/root/projects/basecamp/knowledge/contentions/abh-original-argument-svasamvedana.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-self-grounding-two-aspects",
+   "kind": "contention",
+   "title": "abh-self-grounding-two-aspects",
+   "path": "/root/projects/basecamp/knowledge/contentions/abh-self-grounding-two-aspects.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-svasamvedana-nature",
+   "kind": "contention",
+   "title": "abh-svasamvedana-nature",
+   "path": "/root/projects/basecamp/knowledge/contentions/abh-svasamvedana-nature.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:batch-extracted",
+   "kind": "contention",
+   "title": "batch-extracted",
+   "path": "/root/projects/basecamp/knowledge/contentions/batch-extracted.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:example",
+   "kind": "contention",
+   "title": "example",
+   "path": "/root/projects/basecamp/knowledge/contentions/example.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:nanavira-groundless-reflexivity",
+   "kind": "contention",
+   "title": "nanavira-groundless-reflexivity",
+   "path": "/root/projects/basecamp/knowledge/contentions/nanavira-groundless-reflexivity.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:nanavira-presence-reflexivity",
+   "kind": "contention",
+   "title": "nanavira-presence-reflexivity",
+   "path": "/root/projects/basecamp/knowledge/contentions/nanavira-presence-reflexivity.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:neurosynth-consciousness",
+   "kind": "contention",
+   "title": "neurosynth-consciousness",
+   "path": "/root/projects/basecamp/knowledge/contentions/neurosynth-consciousness.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:next-probe",
+   "kind": "contention",
+   "title": "next-probe",
+   "path": "/root/projects/basecamp/knowledge/contentions/next-probe.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:probe-agency-knowledge-experiment",
+   "kind": "contention",
+   "title": "probe-agency-knowledge-experiment",
+   "path": "/root/projects/basecamp/knowledge/contentions/probe-agency-knowledge-experiment.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:q17-appearance-sources",
+   "kind": "contention",
+   "title": "q17-appearance-sources",
+   "path": "/root/projects/basecamp/knowledge/contentions/q17-appearance-sources.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:q17-pp-doc-systematic-review",
+   "kind": "contention",
+   "title": "q17-pp-doc-systematic-review",
+   "path": "/root/projects/basecamp/knowledge/contentions/q17-pp-doc-systematic-review.json",
+   "status": "contention (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-accepts-apoha-claims",
+   "kind": "info-packet",
+   "title": "abh-accepts-apoha-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/abh-accepts-apoha-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-anupaya-claims",
+   "kind": "info-packet",
+   "title": "abh-anupaya-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/abh-anupaya-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-crystal-refutes-claims",
+   "kind": "info-packet",
+   "title": "abh-crystal-refutes-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/abh-crystal-refutes-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-grahya-grahaka-claims",
+   "kind": "info-packet",
+   "title": "abh-grahya-grahaka-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/abh-grahya-grahaka-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-original-svasamvedana-claims",
+   "kind": "info-packet",
+   "title": "abh-original-svasamvedana-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/abh-original-svasamvedana-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-self-grounding-claims",
+   "kind": "info-packet",
+   "title": "abh-self-grounding-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/abh-self-grounding-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:abh-svasamvedana-nature-claims",
+   "kind": "info-packet",
+   "title": "abh-svasamvedana-nature-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/abh-svasamvedana-nature-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:abhinavagupta-vimarsa-reflexivity-claims",
+   "kind": "info-packet",
+   "title": "abhinavagupta-vimarsa-reflexivity-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/abhinavagupta-vimarsa-reflexivity-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:appearance-within-consciousness-claims",
+   "kind": "info-packet",
+   "title": "appearance-within-consciousness-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/appearance-within-consciousness-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:buddhist-response-crystal-argument-claims",
+   "kind": "info-packet",
+   "title": "buddhist-response-crystal-argument-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/buddhist-response-crystal-argument-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:constructed-ownership-claims",
+   "kind": "info-packet",
+   "title": "constructed-ownership-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/constructed-ownership-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:delta-amplituhedron",
+   "kind": "info-packet",
+   "title": "delta-amplituhedron",
+   "path": "/root/projects/basecamp/knowledge/information-packets/delta-amplituhedron.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:delta-nanavira-gated",
+   "kind": "info-packet",
+   "title": "delta-nanavira-gated",
+   "path": "/root/projects/basecamp/knowledge/information-packets/delta-nanavira-gated.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:dharmakirti-pv3-reflexivity-claims",
+   "kind": "info-packet",
+   "title": "dharmakirti-pv3-reflexivity-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/dharmakirti-pv3-reflexivity-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:nanavira-fundamental-structure-claims",
+   "kind": "info-packet",
+   "title": "nanavira-fundamental-structure-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/nanavira-fundamental-structure-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:nanavira-fundamental-structure-gate-report",
+   "kind": "info-packet",
+   "title": "nanavira-fundamental-structure-gate-report",
+   "path": "/root/projects/basecamp/knowledge/information-packets/nanavira-fundamental-structure-gate-report.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:nanavira-groundless-claims",
+   "kind": "info-packet",
+   "title": "nanavira-groundless-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/nanavira-groundless-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:nanavira-presence-claims",
+   "kind": "info-packet",
+   "title": "nanavira-presence-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/nanavira-presence-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:nyaya-atmatattvaviveka-subject-claims",
+   "kind": "info-packet",
+   "title": "nyaya-atmatattvaviveka-subject-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/nyaya-atmatattvaviveka-subject-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:perspectival-partition-sheaf-gluing-claims",
+   "kind": "info-packet",
+   "title": "perspectival-partition-sheaf-gluing-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/perspectival-partition-sheaf-gluing-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:protocol-agency-knowledge-boundary-claims",
+   "kind": "info-packet",
+   "title": "protocol-agency-knowledge-boundary-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/protocol-agency-knowledge-boundary-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:q17-appearance-sources-claims",
+   "kind": "info-packet",
+   "title": "q17-appearance-sources-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/q17-appearance-sources-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:q17-brain-lesion-empirical-claims",
+   "kind": "info-packet",
+   "title": "q17-brain-lesion-empirical-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/q17-brain-lesion-empirical-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:q17-brain-role-web-claims",
+   "kind": "info-packet",
+   "title": "q17-brain-role-web-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/q17-brain-role-web-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:q17-dataset-feasibility-finding",
+   "kind": "info-packet",
+   "title": "q17-dataset-feasibility-finding",
+   "path": "/root/projects/basecamp/knowledge/information-packets/q17-dataset-feasibility-finding.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:q17-dissociation-vs-contraction-differential",
+   "kind": "info-packet",
+   "title": "q17-dissociation-vs-contraction-differential",
+   "path": "/root/projects/basecamp/knowledge/information-packets/q17-dissociation-vs-contraction-differential.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:q17-filter-response-lesion-claims",
+   "kind": "info-packet",
+   "title": "q17-filter-response-lesion-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/q17-filter-response-lesion-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:q17-phenomenological-interview-wager",
+   "kind": "info-packet",
+   "title": "q17-phenomenological-interview-wager",
+   "path": "/root/projects/basecamp/knowledge/information-packets/q17-phenomenological-interview-wager.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:q17-recovery-trajectory-wager",
+   "kind": "info-packet",
+   "title": "q17-recovery-trajectory-wager",
+   "path": "/root/projects/basecamp/knowledge/information-packets/q17-recovery-trajectory-wager.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:reflexivity-bridge-mapping-proof-claims",
+   "kind": "info-packet",
+   "title": "reflexivity-bridge-mapping-proof-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/reflexivity-bridge-mapping-proof-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:reflexivity-manifestness-joint-defense-claims",
+   "kind": "info-packet",
+   "title": "reflexivity-manifestness-joint-defense-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/reflexivity-manifestness-joint-defense-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:reflexivity-manifestness-joint-defense-gate-report",
+   "kind": "info-packet",
+   "title": "reflexivity-manifestness-joint-defense-gate-report",
+   "path": "/root/projects/basecamp/knowledge/information-packets/reflexivity-manifestness-joint-defense-gate-report.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:reflexivity-nanavira-dharmakirti-bridge-claims",
+   "kind": "info-packet",
+   "title": "reflexivity-nanavira-dharmakirti-bridge-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/reflexivity-nanavira-dharmakirti-bridge-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:saiva-decombination-bind-claims",
+   "kind": "info-packet",
+   "title": "saiva-decombination-bind-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/saiva-decombination-bind-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:scientific-exclusion-principles-claims",
+   "kind": "info-packet",
+   "title": "scientific-exclusion-principles-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/scientific-exclusion-principles-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:svasamvitti-svabhava-vs-phala-claims",
+   "kind": "info-packet",
+   "title": "svasamvitti-svabhava-vs-phala-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/svasamvitti-svabhava-vs-phala-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:test-amplituhedron",
+   "kind": "info-packet",
+   "title": "test-amplituhedron",
+   "path": "/root/projects/basecamp/knowledge/information-packets/test-amplituhedron.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:trika-vimarsa-manifestness-claims",
+   "kind": "info-packet",
+   "title": "trika-vimarsa-manifestness-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/trika-vimarsa-manifestness-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:trika-vimarsa-nature-claims",
+   "kind": "info-packet",
+   "title": "trika-vimarsa-nature-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/trika-vimarsa-nature-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:utpaladeva-aps-universalization-claims",
+   "kind": "info-packet",
+   "title": "utpaladeva-aps-universalization-claims",
+   "path": "/root/projects/basecamp/knowledge/information-packets/utpaladeva-aps-universalization-claims.json",
+   "status": "info-packet (basecamp)"
+  },
+  {
+   "id": "basecamp:works-corpus",
+   "kind": "research-corpus",
+   "title": "basecamp works corpus (1917 pubmed/bridge JSONs)",
+   "path": "/root/projects/basecamp/knowledge/works",
+   "status": "aggregate node (neuroscience research corpus)"
+  },
+  {
+   "id": "essayviz:math-demo",
+   "kind": "video-build",
+   "title": "math-demo",
+   "path": "/mnt/HC_Volume_106959365/root/projects/essayviz-workspace/build/math-demo",
+   "status": "essayviz build dir (volume)"
+  },
+  {
+   "id": "essayviz:tetrahedron-essay",
+   "kind": "video-build",
+   "title": "tetrahedron-essay",
+   "path": "/mnt/HC_Volume_106959365/root/projects/essayviz-workspace/build/tetrahedron-essay",
+   "status": "essayviz build dir (volume)"
+  },
+  {
+   "id": "essayviz:tetrahedron-long",
+   "kind": "video-build",
+   "title": "tetrahedron-long",
+   "path": "/mnt/HC_Volume_106959365/root/projects/essayviz-workspace/build/tetrahedron-long",
+   "status": "essayviz build dir (volume)"
+  },
+  {
+   "id": "platinum:a_bird_may_see_the_earths_magnetic_field_platinum",
+   "kind": "platinum-essay",
+   "title": "a_bird_may_see_the_earths_magnetic_field_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/a_bird_may_see_the_earths_magnetic_field_platinum.py",
+   "status": "platinum essay (39681B, R2)"
+  },
+  {
+   "id": "platinum:a_markov_blanket_is_not_the_skin_of_the_self_platinum",
+   "kind": "platinum-essay",
+   "title": "a_markov_blanket_is_not_the_skin_of_the_self_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/a_markov_blanket_is_not_the_skin_of_the_self_platinum.py",
+   "status": "platinum essay (39463B, R2)"
+  },
+  {
+   "id": "platinum:a_tumor_may_be_a_cell_that_forgot_the_body_platinum",
+   "kind": "platinum-essay",
+   "title": "a_tumor_may_be_a_cell_that_forgot_the_body_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/a_tumor_may_be_a_cell_that_forgot_the_body_platinum.py",
+   "status": "platinum essay (39557B, R2)"
+  },
+  {
+   "id": "platinum:an_organism_survives_by_predicting_itself_platinum",
+   "kind": "platinum-essay",
+   "title": "an_organism_survives_by_predicting_itself_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/an_organism_survives_by_predicting_itself_platinum.py",
+   "status": "platinum essay (44581B, R2)"
+  },
+  {
+   "id": "platinum:body_diagram_platinum",
+   "kind": "platinum-essay",
+   "title": "body_diagram_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/body_diagram_platinum.py",
+   "status": "platinum essay (30996B, R2)"
+  },
+  {
+   "id": "platinum:body_remembers_shape_platinum",
+   "kind": "platinum-essay",
+   "title": "body_remembers_shape_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/body_remembers_shape_platinum.py",
+   "status": "platinum essay (51547B, R2)"
+  },
+  {
+   "id": "platinum:infinite_had_to_become_hungry_platinum",
+   "kind": "platinum-essay",
+   "title": "infinite_had_to_become_hungry_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/infinite_had_to_become_hungry_platinum.py",
+   "status": "platinum essay (41851B, R2)"
+  },
+  {
+   "id": "platinum:knowledge_binds_platinum",
+   "kind": "platinum-essay",
+   "title": "knowledge_binds_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/knowledge_binds_platinum.py",
+   "status": "platinum essay (33038B, R2)"
+  },
+  {
+   "id": "platinum:life_crosses_barriers_platinum",
+   "kind": "platinum-essay",
+   "title": "life_crosses_barriers_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/life_crosses_barriers_platinum.py",
+   "status": "platinum essay (47682B, R2)"
+  },
+  {
+   "id": "platinum:self_two_moments_platinum",
+   "kind": "platinum-essay",
+   "title": "self_two_moments_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/self_two_moments_platinum.py",
+   "status": "platinum essay (31034B, R2)"
+  },
+  {
+   "id": "platinum:self_world_hold_each_other_upright_pack",
+   "kind": "platinum-essay",
+   "title": "self_world_hold_each_other_upright_pack",
+   "path": "r2:sanskritree/platinum/platinumessay/self_world_hold_each_other_upright_pack.zip",
+   "status": "platinum essay (4306662B, R2)"
+  },
+  {
+   "id": "platinum:the_whole_can_act_before_any_part_understands_it_platinum",
+   "kind": "platinum-essay",
+   "title": "the_whole_can_act_before_any_part_understands_it_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/the_whole_can_act_before_any_part_understands_it_platinum.py",
+   "status": "platinum essay (37221B, R2)"
+  },
+  {
+   "id": "platinum:twelve_kalis_visual_essay_package",
+   "kind": "platinum-essay",
+   "title": "twelve_kalis_visual_essay_package",
+   "path": "r2:sanskritree/platinum/platinumessay/twelve_kalis_visual_essay_package.zip",
+   "status": "platinum essay (722627B, R2)"
+  },
+  {
+   "id": "platinum:world_arrives_before_name_platinum",
+   "kind": "platinum-essay",
+   "title": "world_arrives_before_name_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/world_arrives_before_name_platinum.py",
+   "status": "platinum essay (29867B, R2)"
+  },
+  {
+   "id": "platinum:world_learns_to_feel_platinum",
+   "kind": "platinum-essay",
+   "title": "world_learns_to_feel_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/world_learns_to_feel_platinum.py",
+   "status": "platinum essay (34458B, R2)"
+  },
+  {
+   "id": "platinum:your_cells_may_be_solving_a_problem_called_you_platinum",
+   "kind": "platinum-essay",
+   "title": "your_cells_may_be_solving_a_problem_called_you_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/your_cells_may_be_solving_a_problem_called_you_platinum.py",
+   "status": "platinum essay (43518B, R2)"
+  },
+  {
+   "id": "platinum:your_senses_are_already_eating_the_universe_platinum",
+   "kind": "platinum-essay",
+   "title": "your_senses_are_already_eating_the_universe_platinum",
+   "path": "r2:sanskritree/platinum/platinumessay/your_senses_are_already_eating_the_universe_platinum.py",
+   "status": "platinum essay (43909B, R2)"
+  },
+  {
+   "id": "r2:research-datasets/bridge-essays/",
+   "kind": "bridge-corpus",
+   "title": "research-datasets/bridge-essays/ (1652 objects)",
+   "path": "r2:research-datasets/bridge-essays/",
+   "status": "aggregate node (corpus too large per-file)"
+  },
+  {
+   "id": "r2:blog-video-assets/renders/essay",
+   "kind": "essay-render",
+   "title": "blog-video-assets/renders/essay (1610 objects)",
+   "path": "r2:blog-video-assets/renders/essay",
+   "status": "aggregate node (corpus too large per-file)"
   }
  ],
  "counts": {
@@ -2681,7 +3437,17 @@
   "subtle-body-pack": 3,
   "platinum": 20,
   "subtle-body-historical": 1,
-  "idea-units": 1
+  "idea-units": 1,
+  "video-essay": 18,
+  "essay-object": 10,
+  "essay-seed": 1,
+  "contention": 16,
+  "info-packet": 40,
+  "research-corpus": 1,
+  "video-build": 3,
+  "platinum-essay": 17,
+  "bridge-corpus": 1,
+  "essay-render": 1
  },
- "note": "statuses are kind-defaults; per-item review lives in owning lanes"
+ "note": "statuses are kind-defaults; per-item review lives in owning lanes. blogengine: not found anywhere (box, volume, R2, GitHub) — recorded absent, not missing"
 }
