@@ -663,3 +663,13 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
   counter-reading recorded; table relabeled, prose trimmed.
 - Tool fixes: cf_object parses choices-style responses; linker only objects
   bracket-marked paras (1/15) — tables need markers (open item).
+
+## Arrivals e05e640 → 9000e5c8 (their agent, ingested, no action owed).
+
+- 2907 files (mostly data-layer upgrades) + shastra_squeeze (tiered AMBIGUOUS
+  upgrade, Tier-1-only PARSED) + validate_all (ONE gate, fail-closed sweep) +
+  shastra_merge + workcfg +318 (taloka verse tables for recon batches).
+- Our derived data rebuilt at 9000e5c8 (nodes 3101, queue 882); snapshot pin
+  current; HEAD stable since. Tier-1 re-PARSED argmaps flow into our next
+  rebuild automatically (no interface change).
+- JOURNEY-NOTE-2026-11-06.md: trajectory spec only, owner-gated, no code.
