@@ -1,0 +1,81 @@
+"""Regression tests for the evidence boundary; fake Lean output is synthetic."""
+import json
+import os
+from pathlib import Path
+import subprocess
+import sys
+import tempfile
+import unittest
+
+ROOT = Path(__file__).resolve().parents[1]
+MUST_FAIL = ROOT / "tools" / "must_fail.py"
+EMITTER = ROOT / "tools" / "emit_keys.py"
+
+
+class EvidenceBoundaryTests(unittest.TestCase):
+    def setUp(self):
+        self.temp = tempfile.TemporaryDirectory()
+        self.addCleanup(self.temp.cleanup)
+        self.dir = Path(self.temp.name)
+        self.positive = self.dir / "Positive.lean"
+        self.mutant = self.dir / "Broken.lean"
+        self.positive.write_text("theorem example : 1 = 1 := by decide\n")
+        self.mutant.write_text("theorem example : 1 = 1 := by decide\n")
+        self.lean = self.dir / "lean"
+        self.lean.write_text('''#!/usr/bin/env python3
+import os, sys
+mode = os.environ.get("FAKE_CASE", "false")
+if "--version" in sys.argv:
+    print("Lean (version 4.0.0, fake)" if mode == "version" else "Lean (version 4.34.1, fake)")
+    sys.exit(0)
+if mode == "accepted":
+    sys.exit(0)
+line = 2 if mode == "wrongline" else 1
+reason = "unexpected syntax" if mode == "syntax" else "Tactic `decide` proved that the proposition\\n  1 = 1\\nis false"
+print(f"{sys.argv[1]}:{line}:1: error: {reason}")
+if mode == "multiple":
+    print(f"{sys.argv[1]}:1:1: error: another error")
+sys.exit(1)
+''')
+        self.lean.chmod(0o755)
+
+    def run_helper(self, mode="false", lean=None):
+        env = os.environ.copy()
+        env["FAKE_CASE"] = mode
+        return subprocess.run([sys.executable, str(MUST_FAIL),
+                               "--lean", str(lean or self.lean),
+                               "--positive", str(self.positive),
+                               "--mutant", str(self.mutant),
+                               "--theorem", "example"],
+                              text=True, capture_output=True, env=env)
+
+    def test_only_expected_false_goal_passes(self):
+        self.assertEqual(self.run_helper().returncode, 0)
+        for case in ("accepted", "version", "syntax", "multiple", "wrongline"):
+            with self.subTest(case=case):
+                result = self.run_helper(case)
+                self.assertNotEqual(result.returncode, 0, result.stdout + result.stderr)
+                self.assertNotIn("PASS", result.stdout)
+
+    def test_missing_compiler_fails(self):
+        result = self.run_helper(lean=self.dir / "missing")
+        self.assertNotEqual(result.returncode, 0)
+        self.assertNotIn("PASS", result.stdout)
+
+    def test_changed_theorem_cannot_pass(self):
+        self.mutant.write_text("theorem example : 1 = 2 := by decide\n")
+        self.assertNotEqual(self.run_helper().returncode, 0)
+
+    def test_inventory_never_claims_to_have_checked_proofs(self):
+        result = subprocess.run([sys.executable, str(EMITTER)], check=True,
+                                text=True, capture_output=True)
+        inventory = json.loads(result.stdout)
+        self.assertEqual(inventory["verification"], "NOT_RUN")
+        self.assertFalse(inventory["integration_ready"])
+        self.assertEqual(inventory["source_pins"], "UNRESOLVED")
+        self.assertTrue(inventory["theorems"])
+        self.assertTrue(all(t["status"] == "NOT_CHECKED" for t in inventory["theorems"]))
+
+
+if __name__ == "__main__":
+    unittest.main()

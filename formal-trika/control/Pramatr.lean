@@ -2,7 +2,9 @@
   Formal Trika — CONTROL TK-C1: the seven experients (saptapramātṛ).
 
   Three binary mala axes (āṇava × māyīya × kārma) give 8 combinations; ONE is
-  ill-formed by general rule R1, leaving exactly the traditional 7.
+  ill-formed by general rule R1, leaving seven Boolean configurations.
+  The equal counts do not establish a mapping to seven traditional persons;
+  in particular a positional split is not encoded by these three axes.
 
   Source key (T): paramarthasara saptadha-pramātṛ scheme (GOLD) +
   tantrasara-a08 p03 (māyāgarbhādhikāriṇaḥ … vijñānākala … kalāpuṃviveka …).
@@ -43,7 +45,7 @@ def malaCount (p : Pramatr) : Nat :=
 /-- TK-C1a: eight axis combinations. -/
 theorem eight_combos : combos.length = 8 := by decide
 
-/-- TK-C1b: the tradition's seven (saptapramātṛ). -/
+/-- TK-C1b: seven Boolean rows survive the R1 model. -/
 theorem seven : generated.length = 7 := by decide
 
 /-- TK-C1c: mala-count profile of the seven rows, in generation order.
@@ -52,10 +54,11 @@ theorem seven : generated.length = 7 := by decide
     (F,T,F)=1, (F,T,T)=2, (F,F,F)=0. -/
 theorem profile : generated.map malaCount = [2, 3, 1, 2, 1, 2, 0] := by decide
 
-/-- R-tier name attachment (documentation only — counts do not depend on it).
+/-- UNVERIFIED R-tier name proposal (counts do not depend on it).
+    This mapping is incomplete and is not a validated traditional classification.
     sakala (3) · pralayākala (A+K) · vijñānākala (A) · mantra stations (pure
     adhvan, positional split — P-TK1b exception, flagged R) · śiva (0). -/
-def traditionalName : Pramatr → String
+def unverifiedProposedLabel : Pramatr → String
   | ⟨true, true, true⟩   => "sakala"
   | ⟨true, false, true⟩  => "pralayakala"
   | ⟨true, false, false⟩ => "vijnanakala"

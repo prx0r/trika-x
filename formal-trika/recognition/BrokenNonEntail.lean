@@ -18,7 +18,7 @@ structure Chain where
   f : Bool
   deriving DecidableEq, Repr
 
-def allChains : List Chain :=
+def rawChains : List Chain :=
   [true, false].flatMap fun a => [true, false].flatMap fun b =>
     [true, false].flatMap fun c => [true, false].flatMap fun d =>
       [true, false].flatMap fun e => [true, false].map fun f =>
@@ -28,10 +28,10 @@ def allChains : List Chain :=
 def wellformed (m : Chain) : Bool :=
   !((m.a && m.b && m.c && m.d && m.e) && !m.f)
 
-def admitted : List Chain := allChains.filter wellformed
+def allChains : List Chain := rawChains.filter wellformed
 
 /-- MUST FAIL: the witness was excluded by fiat, so the set is empty. -/
 theorem abcde_without_f :
-    (admitted.filter fun m =>
+    (allChains.filter fun m =>
       m.a && m.b && m.c && m.d && m.e && !m.f).length > 0 := by
   decide

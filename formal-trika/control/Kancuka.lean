@@ -43,6 +43,6 @@ def restricts : Kancuka → Capacity
 theorem count_5 : kancukas.length = 5 := by decide
 
 /-- The pairing covers 5 distinct capacities (no two coverings limit the same). -/
-theorem pairings_distinct : (kancukas.map restricts).length = 5 := by decide
+theorem pairings_distinct : ((kancukas.map restricts).eraseDups).length = 5 := by decide
 
 end FormalTrika
