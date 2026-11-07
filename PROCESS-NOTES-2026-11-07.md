@@ -365,6 +365,23 @@ here, without touching their repos:
  multiplexed, dead child excluded, routing + unknown-tool verified).
  Videofactory#1 filed: https://github.com/prx0r/videofactory/issues/1.
 
+## 4i. svread Sanskrit surface: review + spec (2026-11-07)
+
+ Review of bookfactory 118b227 (fetched origin/master, read-only): GREEN —
+ 10 lessons Vol I (sounds→language→instructions, real source_refs), Panini-
+ citing rule boxes (curated, stay curated), audio plan 20 clips awaiting
+ owner go, gate canonical with exactly 2 DUE-LATER (ship handoff, PDF proof).
+ Notes: Google Fonts CDN in lesson HTML (self-host the vendored OFL fonts at
+ deploy); :8600 serves on the lane's box only (nothing here).
+ Spec SVREAD-SANSKRIT-SPEC-2026-11-07.md (proposal, trika-x lane): header
+ item + ?view=sanskrit route (same gated loaders), subdomain reality-check
+ (nested sub of pages.dev not provisionable — view now, separate project +
+ custom domain later), lesson payload vendored at release (emit step, hash-
+ pinned), feature parity table (reader/chat/recitation/scholar/pushing),
+ grammar-breakdown ML mapping (deterministic L0 spine first; Vidyut+ByT5
+ candidates labelled; Mitra 5,552 + chrF baselines; COMET thresholded-only;
+ proof gate over everything; Panini-ML = gap needing its own gold).
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh
