@@ -489,6 +489,24 @@ here, without touching their repos:
  Lesson data gap noted honestly: mpa lessons + l10 show reader-forthcoming
  (no ledger/projection — owning lanes).
 
+## 4n. AI discoverability: be what ChatGPT cites (2026-11-07)
+
+ Q: when ChatGPT gets asked about one of these texts, how do we make OURS
+ the page it finds? A: svread branch box/ai-discoverability (owner lane
+ adjacent — propose, they dispose): tools/emit_discovery.py (deterministic,
+ fail-closed) emits llms.txt (site map for LLMs: views, data endpoints,
+ layers, HOW TO CITE with honesty vocabulary, rights) + sitemap.xml
+ (entry points) + robots.txt (permissive incl. named AI crawlers, sitemap
+ pointer) + data/pushing.json (115 pushing questions + hound verdicts,
+ read-only digest of ipvv INDEX). JSON-LD WebSite in index.html head.
+ Fixed en route: biblio provenance leaked box DB password → now
+ host/db only; test caught devotional "Bearer of freedom" (tightened to
+ auth-shaped matches). Privacy sweep green across all crawler-facing files
+ (projections carry owner-attested public records only — no cookies,
+ tokens, accounts, emails). No private drafts, reviews, or sessions exposed
+ anywhere — verified, not assumed. Full suite 46 tests / 43 pass / 0 fail
+ (3 pre-existing env skips). Pushed, awaiting deploy go.
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh
