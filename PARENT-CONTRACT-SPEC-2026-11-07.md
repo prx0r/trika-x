@@ -1,9 +1,14 @@
 # PARENT CONTRACT — openpatala as federated MCP parent (spec v1, 2026-11-07)
 
- Status: SPEC (no code). Child lanes (translation / book / video / scholar /
- formal) implement their own MCPs; this file freezes what the parent promises
- so children conform without cross-repo writes. Machine proposes, human
- disposes. Nothing here auto-signs, auto-publishes, or grants rights.
+ Status: REFERENCE IMPLEMENTATION (trika-x only, 2026-11-07). Child lanes
+ (translation / book / video / scholar / formal) implement their own MCPs;
+ this file froze the contract they conform to without cross-repo writes.
+ Implementation: formal-trika/tools/federation_gateway.py (stdio parent:
+ prefixed tools/list, FailOpen routing, local openpatala__* + guide) +
+ data/federation-children.json (default child commands, FEDERATION_CONFIG
+ override) + tests/test_federation_gateway.py (6 tests GREEN: live scholar
+ + live bookfactory multiplexed, dead child excluded, unknown = Unknown
+ tool). Machine proposes, human disposes.
 
 ## 0. Identity root (the one key)
 

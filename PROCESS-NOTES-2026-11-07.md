@@ -337,6 +337,34 @@ here, without touching their repos:
  restore recipes. Rules for editors ride along: prereg before code, tiers on
  everything, fail-closed, machine proposes/human disposes, lanes read-only.
 
+## 4h. Children MCPs reviewed + parent gateway built (2026-11-07)
+
+ Children all pushed MCPs (fetched, read-only via origin/master — no tree
+ touches except one disposable /tmp worktree, removed + pruned after):
+ - translation-work `shastra` (FastMCP stdio, 14 tools) + MCP.md (expansive
+   manual) + HANDOVER-2026-11-07-MCP.md. Verdict CLEAN: "No pushes, no
+   signoffs, no PASS minting. Ever." promote refuses on gate failure.
+ - videofactory `vf_*` (18 tools) + docs/MCP.md (full ref) + tests/test_mcp.
+   Gated BUT: vf_launch/vf_queue ship=True default, vf_pack/vf_publish
+   publish=True default. Gates hold (approval+green+one-video-law), seal/ears
+   owner-only — filed as videofactory#1 (flip defaults to False, opt-in).
+ - bookfactory `bf_mcp` (custom NDJSON stdio, 22 tools) + README + tools.py.
+   Verdict CLEAN: draft-only previews, gated builds, no ship tool. Note:
+   their paths are /home/box (another machine) — re-register with /root
+   paths here; owner ruling respected (no Hermes registration).
+ Naming: shastra/bf unprefixed, vf_ prefixed — gateway prefixes structurally,
+ no renames needed. Wire: shastra FastMCP + vf/openpatala SDK imports missing
+ here (pip mcp installed, legacy paths absent) — lanes' problem, FailOpen
+ covers it. bf_mcp stdlib-only, runs anywhere (verified live).
+ Parent gateway BUILT (trika-x, our lane): formal-trika/tools/
+ federation_gateway.py — stdio NDJSON parent, prefixed tools/list, route by
+ first segment, FailOpen (dead child excluded, Unknown tool on miss),
+ local openpatala__resolve/coverage (source-map backed) + federation__guide.
+ Config data/federation-children.json (FEDERATION_CONFIG override).
+ Tests: 6 GREEN (live scholar 33 tools + live bookfactory 22 tools
+ multiplexed, dead child excluded, routing + unknown-tool verified).
+ Videofactory#1 filed: https://github.com/prx0r/videofactory/issues/1.
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh
