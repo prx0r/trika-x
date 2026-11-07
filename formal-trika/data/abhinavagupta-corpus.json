@@ -1,0 +1,28 @@
+{
+  "format": "trika-abhinavagupta-corpus/1",
+  "date": "2026-11-07",
+  "provenance_finding_aid": "https://en.wikipedia.org/wiki/Abhinavagupta (finding aid only — each entry below records its own status basis; verify via Rastogi 1987 / Torella / GRETIL author listing before any stronger claim)",
+  "method": "mirror seed_atlas_biblio.py conventions: deterministic seed: ids, ON CONFLICT DO NOTHING, rights never upgraded (UNKNOWN unless KNOWN-NC from translation-work SOURCE records), no witness/edition claims for lost works, no second ledger",
+  "works_lost_or_unverified": [
+    {"slug": "lost-purvapancika", "title": "Pūrvapañcikā", "note": "Commentary on Pūrvatantra (Mālinīvijaya Tantra)", "status": "LOST", "status_basis": "Wikipedia/Abhinavagupta: 'lost to this day' (cites Rastogi/Gnoli lineage)"},
+    {"slug": "lost-kramakeli", "title": "Kramakeli", "note": "Commentary on Kramastotra ('Krama's Play')", "status": "LOST", "status_basis": "Wikipedia/Abhinavagupta: 'now lost'"},
+    {"slug": "lost-sivashaktyavinabhava-stotra", "title": "Śivaśaktyavinābhāva-stotra", "note": "Hymn on the inseparability of Śiva and Śakti", "status": "LOST", "status_basis": "Wikipedia/Abhinavagupta: 'was lost'"},
+    {"slug": "lost-sivadrishti-locana", "title": "Śivadṛṣṭyālocana", "note": "Commentary on a Pratyabhijñā work (Śivadṛṣṭi)", "status": "LOST", "status_basis": "Wikipedia/Abhinavagupta: 'now lost'"},
+    {"slug": "lost-padarthapravesha-nirnaya-tika", "title": "Padārthapraveśanirṇaya-ṭīkā", "status": "LOST", "status_basis": "Wikipedia/Abhinavagupta: 'Another lost commentary is ...'"},
+    {"slug": "lost-prakirnavivarana", "title": "Prakīrṇakavivaraṇa", "note": "Comment on Vākyapadīya ch.3 ('Notebook')", "status": "LOST", "status_basis": "Wikipedia/Abhinavagupta: listed with the lost commentaries"},
+    {"slug": "lost-kavyakautukavivarana", "title": "Kāvyakautukavivaraṇa", "note": "Commentary on Bhaṭṭa Tauta's Kāvyakautuka", "status": "LOST", "status_basis": "Wikipedia/Abhinavagupta: 'now lost'"},
+    {"slug": "tantroccaya", "title": "Tantroccaya", "note": "Summary of Tantrasāra (intermediate between Tantrasāra and Tantravaṭadhānikā)", "status": "ATTESTED-UNVERIFIED", "status_basis": "Attested in the Tantrasāra summary lineage; no manuscript/edition verified in this sweep — do not shelve as lost or extant"},
+    {"slug": "tantravatadhanika", "title": "Tantravaṭadhānikā", "note": "'Seed of Tantra' — shortest summary of Tantrasāra", "status": "ATTESTED-UNVERIFIED", "status_basis": "Attested in the Tantrasāra summary lineage; no manuscript/edition verified in this sweep"},
+    {"slug": "kathamukha-tilaka", "title": "Kathāmukhatilaka", "note": "'Ornament of the Face of Discourses' (philosophical)", "status": "ATTESTED-UNVERIFIED", "status_basis": "Title attested in works lists; no manuscript/edition verified in this sweep"},
+    {"slug": "bhedavada-vidarana", "title": "Bhedavādavidāraṇa", "note": "'Confrontation of the Dualist Thesis' (philosophical)", "status": "ATTESTED-UNVERIFIED", "status_basis": "Title attested in works lists; no manuscript/edition verified in this sweep"}
+  ],
+  "tantraloka_edition": {"title": "Tantrāloka + Jayaratha Viveka (KSTS 23, 12 vols), ed. Mukund Ram Shastri 1918-1947, KSTS/Muktabodha M-series", "note": "Muktabodha M-series e-texts; GRETIL has Tantrāloka e-texts per availability seed"},
+  "tantraloka_translations": [
+    {"translator": "Raniero Gnoli", "title": "Tantraloka, complete Italian", "coverage": "COMPLETE", "note": "only complete European-language translation for decades; 1972/2nd ed.; IsMEO/UTET"},
+    {"translator": "Lilian Silburn", "title": "Tantraloka ch.1-5 + Jayaratha extracts, French (with André Padoux)", "coverage": "PARTIAL", "note": "1998; co-credit André Padoux"},
+    {"translator": "John R. Dupuche", "title": "The Kula Ritual (TA ch.29 + Viveka, first English of any chapter)", "coverage": "PARTIAL", "note": "2009"},
+    {"translator": "Mark Dyczkowski", "title": "Tantraloka, complete English + Viveka (11 vols)", "coverage": "COMPLETE", "note": "DUPLICATE of seed:atlas:tantraloka:t0 — atlas-covered; loader skips entries with skip:true", "skip": true},
+    {"translator": "Swami Lakshman Joo", "title": "Tantraloka ch.1-4 revelation/discussion (3 vols, Universal Shaiva Fellowship)", "coverage": "PARTIAL", "note": "2017/2021/2023"}
+  ],
+  "people_extra": ["John R. Dupuche", "André Padoux", "Boris Marjanovic", "Lyne Bansat-Boudon", "Kamaleshadatta Tripathi", "B. N. Pandit", "Raffaele Torella", "Abhinavagupta"]
+}

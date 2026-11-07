@@ -97,8 +97,12 @@ vertices; CU/EE structuring ≈ intertwiners decorating them.
 ## 5. What upgrades each OPEN row (ordered, cheapest first)
 
 1. **Primary-text Seth**: we hold synthesis, not *Seth Speaks* / *Unknown
-   Reality*. Vendor primary passages (coordinate points, Session 550–560
-   karma material) before any Seth-citing essay. IMPORT-OWED.
+   Reality*. Sourcing attempt 2026-11-06: no Seth holdings on R2
+   (source-library modern/ = Swedenborg/Steiner only; research-datasets
+   source/ = none). *Seth Speaks* is in-copyright (Amber-Allen) — full
+   text cannot be vendored; fair-use quotes only, via a held copy the
+   owner provides. Until then IMPORT-OWED, and no essay cites Seth beyond
+   the held synthesis with session refs.
 2. **Lean closure**: formalise the closure constraint on K₄ (normals sum
    zero as a checkable predicate) — upgrades rows closure/mala from OPEN
    to COUNTERPART and gives the mala hypothesis something to bite on.

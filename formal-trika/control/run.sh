@@ -24,6 +24,8 @@ fi
 "$LEAN" -DwarningAsError=true ../frontier/Closure.lean || exit 1
 "$LEAN" -DwarningAsError=true Spanda.lean || exit 1
 "$LEAN" -DwarningAsError=true Rasa.lean || exit 1
+"$LEAN" -DwarningAsError=true Phrdaya.lean || exit 1
+"$LEAN" -DwarningAsError=true Correction.lean || exit 1
 "$LEAN" -DwarningAsError=true AnswerKey.lean || exit 1
 "$LEAN" -DwarningAsError=true Tattva.lean || exit 1
 "$LEAN" -DwarningAsError=true TattvaInventory.lean || exit 1
@@ -73,3 +75,8 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive Spanda.lean --mutant Bro
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Rasa.lean --mutant BrokenRasaTen.lean --theorem nine_only || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Rasa.lean --mutant BrokenRasaTopple.lean --theorem santa_supreme || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Rasa.lean --mutant BrokenRasaBliss.lean --theorem bliss_gradient || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrThirty.lean --theorem pentads_thirtyfive || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrFourActs.lean --theorem five_acts || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrTwoEpithets.lean --theorem epithet_three || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Correction.lean --mutant BrokenJointsOne.lean --theorem joints_two || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Correction.lean --mutant BrokenJointsSwap.lean --theorem grasp_first || exit 1

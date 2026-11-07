@@ -1790,6 +1790,76 @@
    ],
    "lived": [],
    "note": "H-tier: classical integer instance; isomorphism NOT stated, see file header verdict"
+  },
+  "Phrdaya.lean :: pentads_thirtyfive": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "phr-p02",
+     "via": "L2+C1",
+     "tier": "R",
+     "status": "SPAN-PINNED",
+     "note": "saptapancaka, C1 key terms"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Phrdaya.lean :: five_acts": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "phr-p03",
+     "via": "L2+C1",
+     "tier": "R",
+     "status": "SPAN-PINNED",
+     "note": "pancakrtya count; names unmodeled (limit stated)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Phrdaya.lean :: epithet_three": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "phr-p01",
+     "via": "L2+C1",
+     "tier": "R",
+     "status": "SPAN-PINNED",
+     "note": "v1 triple epithet, argmap+L2+C1"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Correction.lean :: joints_two": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "ARGMAP+L2",
+     "tier": "R",
+     "status": "SPAN-PINNED",
+     "note": "two correction joints enumerated"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
+  },
+  "Correction.lean :: grasp_first": {
+   "kind": "KEY",
+   "chunks": [
+    {
+     "locator": "tsa08-p04",
+     "via": "ARGMAP+L2",
+     "tier": "R",
+     "status": "SPAN-PINNED",
+     "note": "in-chunk order (stipulated)"
+    }
+   ],
+   "r_sources": [],
+   "lived": []
   }
  },
  "exemptions": {

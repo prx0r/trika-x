@@ -764,3 +764,23 @@ outcome — **DOWNGRADE to COUNTERPART**.
   isomorphism — the file header says so in-line.
 - EVIDENCE 2 rows (r_sources → 1607.08359, PDF import still owed);
   TABLE 157 lines; evidence_check clean.
+
+## 2026-11-06 — Rung 21: phrdaya count-facts (P-PHR1–3, R)
+
+Prereg: PREREGISTRATION-PHR-RUNG.md (R by inheritance; act-names
+unmodeled as stated limit). Gap-list order (phr rows after tsa08-p04).
+
+- **`Phrdaya.lean`** — `pentads_thirtyfive`, `five_acts`,
+  `epithet_three` (all `decide`). Zero-axiom.
+- **Three surgical twins** (defs only — lessons holding). Green first try.
+- EVIDENCE 3 rows (phr-p01/p02/p03, R); TABLE 160 lines; clean.
+
+## 2026-11-06 — Rung 22: correction joints (C-JNT1–2, R)
+
+Prereg: PREREGISTRATION-JOINTS-RUNG.md. Closes the CRUX-05 formal gap
+at enumeration level (derivation still unmodeled — stated in file).
+
+- **`Correction.lean`** — `joints_two`, `grasp_first`. Zero-axiom.
+- **Two twins**, single-break discipline holding (grasp_first restated
+  via head? after the double-break was caught pre-run). Green.
+- EVIDENCE 2 rows (tsa08-p04, R); TABLE 162 lines; clean.

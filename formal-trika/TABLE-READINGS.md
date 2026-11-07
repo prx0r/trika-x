@@ -449,3 +449,18 @@ Four face-normals, one zero sum: the regular tetrahedron closes — the constrai
 
 ## Closure.lean :: normals_nonzero
 No face vanishes: four genuine normals, none of them nothing.
+
+## Phrdaya.lean :: pentads_thirtyfive
+Seven pentads, thirty-five stations: seven groups of five, summed and checked.
+
+## Phrdaya.lean :: five_acts
+Five acts, no sixth, no repeats: the contracted performance counts to five.
+
+## Phrdaya.lean :: epithet_three
+Consciousness, independent, cause of the universe's accomplishment: three terms, each its own.
+
+## Correction.lean :: joints_two
+Two grants, no third: grasp and agency, each its own joint.
+
+## Correction.lean :: grasp_first
+Grasp comes first: the order in-chunk starts with reflexivity, then agency.

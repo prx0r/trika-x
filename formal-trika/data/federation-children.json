@@ -1,0 +1,27 @@
+{
+  "format": "trika-federation-children/1",
+  "date": "2026-11-07",
+  "note": "Default child MCP commands (local stdio). Override any child for tests via FEDERATION_CONFIG pointing at another JSON file with the same shape. Missing/unstartable child = FailOpen (excluded from tools/list, calls to it error), never fatal.",
+  "children": {
+    "scholar": {
+      "cmd": ["python3", "/root/svread/mcp/scholar_server.py"],
+      "cwd": "/root/svread/mcp"
+    },
+    "bookfactory": {
+      "cmd": ["python3", "/root/bookfactory/bf_mcp/server.py"],
+      "cwd": "/root/bookfactory"
+    },
+    "translation": {
+      "cmd": ["python3", "/root/translation-work/mcp_server.py", "--serve"],
+      "cwd": "/root/translation-work"
+    },
+    "video": {
+      "cmd": ["python3", "/root/videofactory/vf_mcp_server.py"],
+      "cwd": "/root/videofactory"
+    },
+    "openpatala_mcp": {
+      "cmd": ["python3", "/root/openpatala/patala/mcp_server.py"],
+      "cwd": "/root/openpatala"
+    }
+  }
+}
