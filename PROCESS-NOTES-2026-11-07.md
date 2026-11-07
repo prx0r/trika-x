@@ -396,6 +396,17 @@ here, without touching their repos:
  Gaps recorded in spec §7: pronunciation scoring, Panini-ML gold. Spec +
  notes committed (see push below).
 
+## 4k. Sanskrit rail locked: fish recitation + voice chat, lesson/lore aware (2026-11-07)
+
+ User decision: recitation = fish (pre-rendered R2), right-rail chat = voice
+ (same as home). Spec updated (§3 rail row + new §3b context contract): same
+ `/api/chat/:work` RAG spine (bge-m3 → gate-weighted → probes/hounds →
+ diverse → reranker → arg-packets → lexical fallback → Qwen), scoped to the
+ lesson's works, with pinned lesson+lore context prepended like chainCtx
+ (verse + L2 + essence + L0 glosses + rule boxes + lore concepts; deterministic
+ first, ML labelled). Voice = same ScholarVoice client on the rail (talk →
+ transcript-as-message → reply text + audio). Committed below.
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh

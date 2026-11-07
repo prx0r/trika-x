@@ -63,9 +63,37 @@
  |---|---|
  | Reader (verses + layers, hash-checked) | Same, lessons address chunk locators (bh-p02…) resolved via lingua/openpatala bridge; layer labels use PUBLIC names (layer-names.json: literal-gloss, argument-map…) with codes underneath |
  | Chat rail (chat box + pushing rotation) | Same component, Sanskrit-tuned placeholder; Qwen needs existing consent + quotas; no training on user text |
- | Recitation (R2 audio + karaoke, per-section play) | Same player; verse voice + granny how-to from audio-plan.json AFTER owner go; the gate controls audio like every surface |
+ | Right-rail voice chat | Same ScholarVoice client as Scholar, attached to the chat rail (Talk → transcribe → send as chat message → reply plays back via the same audio path). No new infra (§7) |
+ | Recitation (R2 audio + karaoke, per-section play) | Fish Audio (`POST /api/read` → `read-v2` R2 cache); verse + granny voices from audio-plan.json AFTER owner go; the gate controls audio like every surface |
  | Scholar context (versions, signoff state) | Same panel (read-only here; signoff stays in Scholar) |
  | Pushing Lab link | Same; Sanskrit questions can enter the crux queue via existing exporter |
+
+## 3b. Right-rail chat context contract (lesson + lore + Sanskrit aware)
+
+ Same spine as home chat (`POST /api/chat/:work`: bge-m3 embed → gate-weighted
+ retrieval PASS/PUBLISHED/OWNER only, BLOCKED=0 → pushing-probe template match
+ + hound verdicts → diverse pick per work → bge-reranker → argument-packet
+ graph walk → lexical fallback → Qwen drafts with relayed ids; sessions in
+ D1). The Sanskrit rail differs only in SCOPE + PINNED CONTEXT:
+
+ - Scope: `works` param = the lesson's work(s) (e.g. bhairavastava for l01).
+   Retrieval never leaves the lesson's works unless the learner asks outward
+   (then it behaves exactly like home chat).
+ - Pinned context (prepended like the existing chainCtx prior-enquiry block,
+   same mechanism, no new infra): the lesson's verse (Sanskrit + L2 +
+   essence), its L0 key glosses, its rule boxes, and linked lore concept
+   entries (translation-work lore/concepts + trika_glossary_index). Deterministic
+   layers first (L0/rule boxes answer grammar questions directly); vectors
+   second; ML candidates labelled per §4.
+ - Lore-aware means: concept entries resolve through the same passage/chunk
+   refs (no separate lore index to build — cite the concept file + its
+   sources, same as essay citations).
+ - Sanskrit-aware means: sandhi/morphology questions hit the L0 spine +
+   rule boxes before any model; Vidyut/ByT5 outputs render as labelled
+   candidates beside the deterministic answer, never instead of it.
+ - Voice on the rail: Talk transcribes → transcript becomes the chat message
+   (visible, editable before send — same consent shape as Scholar) → reply
+   streams as text + plays as audio. Sessions persist in D1 per lesson.
 
 ## 4. Grammar-breakdown tab (which ML for which job — gated)
 
