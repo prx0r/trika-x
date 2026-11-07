@@ -382,6 +382,20 @@ here, without touching their repos:
  candidates labelled; Mitra 5,552 + chrF baselines; COMET thresholded-only;
  proof gate over everything; Panini-ML = gap needing its own gold).
 
+## 4j. Qwen realtime voice: reuse, don't rebuild (2026-11-07)
+
+ Q: can the Sanskrit view reuse the Qwen realtime voice stuff? A: yes —
+ both voice paths already exist and split the jobs correctly. (1) Recitation
+ = Fish Audio POST /api/read → R2 read-v2 cache (s2.1-pro-free); the Learn
+ Sanskrit audio-plan plugs in here after owner go. (2) Spoken conversation =
+ scholar-voice.js (push-to-talk PCM client) + worker WS proxy
+ (scholar-workspace.js:252-307, DashScope allowlist, omni-flash-realtime,
+ key server-side, consent + quota + private transcripts). Sanskrit view
+ instantiates the same client with lesson context. Switch-on is owner-gated
+ (three env flags/keys) + one browser e2e (wire proven, session unverified).
+ Gaps recorded in spec §7: pronunciation scoring, Panini-ML gold. Spec +
+ notes committed (see push below).
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh

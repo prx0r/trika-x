@@ -100,6 +100,30 @@
  ledger, no second ID scheme (chunk locators resolve via the bridge).
  Voice/browser e2e gaps carry over (text first, same as Scholar).
 
+## 7. Voice: reuse both existing paths, build nothing new
+
+ Two voice jobs, two wired paths — the Sanskrit view reuses both:
+
+ - Recitation (verse audio): Fish Audio via worker `POST /api/read` →
+   R2 (`read-v2/<work>/<passage>_<lang>_<sha>.mp3`, s2.1-pro-free, cached,
+   hash-keyed). The Learn Sanskrit audio-plan (verse + granny voices, 20
+   clips) plugs in HERE once the owner gives the render go. Never use
+   realtime for recitation (uncacheable, non-deterministic, eats quota).
+ - Spoken conversation (lesson Q&A, repeat-after-me): Qwen realtime via the
+   EXISTING stack — browser client `svread/scholar-voice.js` (push-to-talk,
+   16kHz in / 24kHz out, OpenAI-realtime-style protocol) + worker WS proxy
+   (`ipvv/worker/src/scholar-workspace.js:252-307`, allowlisted DashScope
+   `/api-ws/v1/realtime`, model `qwen3.8-omni-flash-realtime`, key server-side,
+   consent modal + quota warning + private transcripts in the Scholar UI).
+   The Sanskrit view instantiates the same client with lesson context instead
+   of essay context. No new infra.
+ To switch on (owner-gated, all three): `QWEN_REALTIME_ENABLED=true` +
+ `SCHOLAR_QWEN_FREE_TIER_CONFIRMED=true` + `SCHOLAR_DASHSCOPE_API_KEY` (+
+ `SCHOLAR_DASHSCOPE_API_KEY` for text), then a browser e2e session (wire
+ proven, session unverified — SPEC §8). Gap (not built): explicit
+ pronunciation scoring (the model hears learner audio conversationally today;
+ phoneme-level feedback needs its own design + gold, same rules as Panini-ML).
+
 ## 6. Acceptance (one slice)
 
  `?view=sanskrit` shows lesson l01 (mamātmā) with its verse, literal-gloss
