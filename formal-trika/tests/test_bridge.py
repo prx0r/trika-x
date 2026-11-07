@@ -107,9 +107,15 @@ class BridgeTests(unittest.TestCase):
         d = _json.loads(r.stdout)
         self.assertEqual(d["witness_status"], "UNPINNED")
         b = d["backbone"]
-        self.assertEqual(b["work"]["id"], "PTCND_sa_abhinavagupta-tantrasAra")
+        # Canonical: box DB keys by translation-work workdir (federation
+        # contract); the dossier work_id survives as a CANDIDATE link in
+        # openpatala-map.json, not as the passage key.
+        self.assertEqual(b["work"]["id"], "tantrasara-a08")
         self.assertTrue(b["editions"])
         self.assertTrue(b["etexts"])
+        self.assertTrue(all(e["id"].startswith("tantrasara-a08:")
+                            for e in b["editions"] + b["etexts"]),
+                        "editions/etexts keyed by tw workdir, not dossier")
         self.assertEqual(b["witnesses"], [])
         self.assertEqual(b["passage_id"], "pt:pid:ts:a08:7f9e4b3307f2")
         r2 = subprocess.run([_sys.executable, str(BRIDGE), "chunk:nope-p99", "--db"],

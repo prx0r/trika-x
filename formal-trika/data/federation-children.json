@@ -12,7 +12,7 @@
       "cwd": "/root/bookfactory"
     },
     "translation": {
-      "cmd": ["python3", "/root/translation-work/mcp_server.py"],
+      "cmd": ["python3", "/root/translation-work/mcp_server.py", "--serve"],
       "cwd": "/root/translation-work"
     },
     "video": {

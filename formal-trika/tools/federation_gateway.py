@@ -21,6 +21,7 @@ from __future__ import annotations
 import json
 import os
 import queue
+import re
 import subprocess
 import sys
 import threading
@@ -29,6 +30,7 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent.parent
 DATA = HERE / "data" / "federation-children.json"
+TRACE_BUNDLE = HERE / "tools" / "trace_bundle.py"
 SOURCE_MAP = Path("/root/svread/source-map.json")
 
 SYS_IDENT = "federation-gateway/1 trika-x"
@@ -173,9 +175,37 @@ GUIDE = """Navigate from openpatala (identity root) across the federation:
 5. book__* (bookfactory) — draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.
 6. video__* (videofactory) — vf_gate/vf_triage to read state; vf_launch/vf_queue ship ONLY gated+approved renders (see videofactory#1: defaults should be explicit opt-in).
 7. openpatala__coverage — how much of the corpus is bridged.
+8. formal__trace {work, target} — full Sanskrit-to-essay trace bundle for one
+   chunk (source bytes, layers, proofs, formal theorems, citing essays).
+   Verdict COMPLETE/PARTIAL + named gaps; BLOCKED stays BLOCKED.
 
 Laws: UNRESOLVED/draft-only inputs stay draft-only. No auto-sign, auto-publish, auto-ship. Human disposes; receipts are the trail.
 """
+
+
+def formal_trace(args: dict, timeout: float = 120.0) -> dict:
+    """Run trace_bundle.py for one chunk; return the bundle (or raise)."""
+    work = (args.get("work") or "").strip()
+    target = (args.get("target") or "").strip()
+    if not work or not target:
+        raise ValueError("work and target required")
+    if not re.fullmatch(r"[a-z0-9][a-z0-9_-]*", work):
+        raise ValueError("invalid work id")
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_.:-]*", target):
+        raise ValueError("invalid target id")
+    try:
+        p = subprocess.run(
+            [sys.executable, str(TRACE_BUNDLE), "--work", work,
+             "--target", target],
+            capture_output=True, text=True, timeout=timeout)
+    except subprocess.TimeoutExpired:
+        raise ValueError("trace build timed out")
+    if p.returncode != 0:
+        raise ValueError(f"trace failed: {(p.stderr or '')[:300]}")
+    try:
+        return json.loads(p.stdout)
+    except ValueError:
+        raise ValueError("trace produced no bundle")
 
 
 def main() -> int:
@@ -200,10 +230,16 @@ def main() -> int:
             {"name": "openpatala__coverage",
              "description": "Source-map coverage: ledger works bridged vs todo (witnesses UNPINNED).",
              "inputSchema": {"type": "object", "properties": {}}},
-            {"name": "federation__guide",
-             "description": "How an agent navigates openpatala -> translation -> scholar -> factories.",
-             "inputSchema": {"type": "object", "properties": {}}},
-        ]
+        {"name": "federation__guide",
+         "description": "How an agent navigates openpatala -> translation -> scholar -> factories.",
+         "inputSchema": {"type": "object", "properties": {}}},
+        {"name": "formal__trace",
+         "description": "Full Sanskrit-to-essay trace bundle for one chunk (bytes, layers, proofs, theorems, citing essays).",
+         "inputSchema": {"type": "object",
+                         "properties": {"work": {"type": "string"},
+                                        "target": {"type": "string"}},
+                         "required": ["work", "target"]}},
+    ]
         for name, child in children.items():
             if not child.alive:
                 continue
@@ -271,6 +307,15 @@ def main() -> int:
                     out({"jsonrpc": "2.0", "id": mid,
                          "result": {"content": [{"type": "text",
                                                  "text": json.dumps(res)}]}})
+                elif name == "formal__trace":
+                    try:
+                        res = formal_trace(args)
+                        out({"jsonrpc": "2.0", "id": mid,
+                             "result": {"content": [{"type": "text",
+                                                     "text": json.dumps(res)}]}})
+                    except (ValueError, TypeError) as e:
+                        out({"jsonrpc": "2.0", "id": mid, "isError": True,
+                             "error": {"code": -32602, "message": str(e)}})
                 elif "__" in name:
                     child_name, tool = name.split("__", 1)
                     child = children.get(child_name)

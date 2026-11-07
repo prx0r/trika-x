@@ -1,12 +1,19 @@
-# FORMAL-MCP SPEC — trika-x read-only tools (spec v1, 2026-11-07)
+# FORMAL-MCP SPEC — trika-x read-only tools (v2, 2026-11-07)
 
- Status: SPEC (no server code yet). All tools read-only, deterministic,
- fail-closed. No Lean writes, no EVIDENCE writes, no translation-work writes
- via MCP. Machine proposes, human disposes. Tiers ride every claim (T/R/E/
- C/H/X); R never promotes itself; only `decide` proves (inside its finite
- scope).
+ Status: PARTIAL IMPLEMENTATION (gateway serves `formal__trace` live;
+ items 1–6 remain specced). All tools read-only, deterministic, fail-closed.
+ No Lean writes, no EVIDENCE writes, no translation-work writes via MCP.
+ Machine proposes, human disposes. Tiers ride every claim (T/R/E/C/H/X);
+ R never promotes itself; only `decide` proves (inside its finite scope).
 
 ## Tools
+
+0. `formal__trace {work, target}` → LIVE in the gateway. Full
+   trika-trace/1 bundle for one chunk: source bytes hash, layer hashes,
+   proof results, formal theorems (MODEL_CHECKED, in-scope only), citing
+   essays (verbatim mention only). Verdict COMPLETE/PARTIAL + named gaps;
+   BLOCKED stays BLOCKED. Unknown chunk → clean error. Backend:
+   formal-trika/tools/trace_bundle.py (read-only; --verify re-checks).
 
 1. `formal__bridge {chunk}` → work/edition/etext rows for a chunk locator
    (wraps `bridge_resolve.py chunk:X [--db]`). Returns locator, ledger sha,
