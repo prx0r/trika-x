@@ -365,6 +365,23 @@ here, without touching their repos:
  multiplexed, dead child excluded, routing + unknown-tool verified).
  Videofactory#1 filed: https://github.com/prx0r/videofactory/issues/1.
 
+## 4h-b. Sanskrit review + spec (2026-11-07, pre-build)
+
+ Review of bookfactory 118b227 (fetched origin/master, read-only): GREEN —
+ 10 lessons Vol I (sounds→language→instructions, real source_refs), Panini-
+ citing rule boxes (curated, stay curated), audio plan 20 clips awaiting
+ owner go, gate canonical with exactly 2 DUE-LATER (ship handoff, PDF proof).
+ Notes: Google Fonts CDN in lesson HTML (self-host the vendored OFL fonts at
+ deploy); :8600 serves on the lane's box only (nothing here).
+ Spec SVREAD-SANSKRIT-SPEC-2026-11-07.md (proposal, trika-x lane): header
+ item + ?view=sanskrit route (same gated loaders), subdomain reality-check
+ (nested sub of pages.dev not provisionable — view now, separate project +
+ custom domain later), lesson payload vendored at release (emit step, hash-
+ pinned), feature parity table (reader/chat/recitation/scholar/pushing),
+ grammar-breakdown ML mapping (deterministic L0 spine first; Vidyut+ByT5
+ candidates labelled; Mitra 5,552 + chrF baselines; COMET thresholded-only;
+ proof gate over everything; Panini-ML = gap needing its own gold).
+
 ## 4i. Sanskrit view BUILT + preview-deployed (2026-11-07)
 
  User: build the Sanskrit tab. Done in svread on branch box/sanskrit-view
@@ -382,22 +399,40 @@ here, without touching their repos:
  rule boxes). Production svread.pages.dev untouched (serves main) — merge =
  lane/owner call.
 
-## 4. Commands to re-verify (copy-paste)
+## 4l. Atlas-everywhere audit (2026-11-07) — canonical vs mirrors vs derivatives
 
- Review of bookfactory 118b227 (fetched origin/master, read-only): GREEN —
- 10 lessons Vol I (sounds→language→instructions, real source_refs), Panini-
- citing rule boxes (curated, stay curated), audio plan 20 clips awaiting
- owner go, gate canonical with exactly 2 DUE-LATER (ship handoff, PDF proof).
- Notes: Google Fonts CDN in lesson HTML (self-host the vendored OFL fonts at
- deploy); :8600 serves on the lane's box only (nothing here).
- Spec SVREAD-SANSKRIT-SPEC-2026-11-07.md (proposal, trika-x lane): header
- item + ?view=sanskrit route (same gated loaders), subdomain reality-check
- (nested sub of pages.dev not provisionable — view now, separate project +
- custom domain later), lesson payload vendored at release (emit step, hash-
- pinned), feature parity table (reader/chat/recitation/scholar/pushing),
- grammar-breakdown ML mapping (deterministic L0 spine first; Vidyut+ByT5
- candidates labelled; Mitra 5,552 + chrF baselines; COMET thresholded-only;
- proof gate over everything; Panini-ML = gap needing its own gold).
+ Q: "find all atlas work on R2/patala/volume/github." A: ONE canonical
+ source; everything else is a mirror or a derivative. Do not rebuild any
+ of it.
+
+ CANONICAL (sole source of truth): prx0r/patalacheckpoints data/atlas/*.ts
+ (audited, bibliographySeed, texts, people — file list IDENTICAL to the
+ volume's; md5-identical 4/4 checked; live git log stable since Aug 12–15,
+ last touch resources.ts survey Aug 15). Rule stands: reference atlas IDs,
+ never duplicate lists.
+ MIRRORS (identical bytes, backups, never edit): attached volume
+ /mnt/HC_Volume_106959365/root/projects/patala (Aug-14 snapshot of the same
+ lineage — live history contains its commits; rescue backup only).
+ DERIVATIVES (reference the canonical, add value, keep): box DB
+ seed:atlas:* rows (live queryable mirror via seed_atlas_biblio.py);
+ trika-x biblio-abhinavagupta.json (live-verified ADDITIONS + gaps, Nov 6);
+ trika-x abhinavagupta-corpus seed (lost works — nowhere else).
+ READ-ONLY NEIGHBOURS (not atlas records, don't confuse): R2 bulk libraries
+ — research-library 813f/154MB, tantraloka 5,363f/910MB, source-library
+ 11,810f/4.4GB, patalafinal 3,660f/3.2GB, sanskrit-gretil 17f/400MB,
+ sanskrit-text-corpus 285f/661MB (e-texts/PDFs/audio for reference, not
+ bibliography). R2 projects/openpatala/snapshots/2026-11-05 (repo backup).
+ TRAPS (recorded, not fixed — owner disposes): (1) R2
+ shared/atlas-corpus-export.json is MISNAMED — content is IPVV C1/L0/T1
+ golds, not atlas; suggest rename to ipvv-golds-export.json (don't break
+ unknown consumers blindly). (2) GitHub prx0r/patala repo (main, Aug 19)
+ looks alive but is SUPERSEDED by patalacheckpoints + spun-out repos —
+ archive-flag or README-redirect candidate; never delete outright.
+ GAPS (inventory, not builds): who-put-what in the 4.4GB source-library
+ (no acquisition log sampled); R2 bulk has no manifest.
+ Verified counts this run: R2 listings via boto3; md5 live-vs-volume (4/4
+ identical); gh repo list (60+ repos; atlas-bearing: patalacheckpoints,
+ translation-work lore, trika-x seeds, box DB).
 
 ## 4j. Qwen realtime voice: reuse, don't rebuild (2026-11-07)
 
