@@ -525,6 +525,27 @@ here, without touching their repos:
  (content-addressed on EVIDENCE bytes now, not trika rev). Live verified:
  llms.txt real content, biblio 0 password hits, sitemap/robots 200.
 
+## 4o. Google AI reality check + full discoverability deploy (2026-11-07)
+
+ Research verdict (honest, sourced): Google Search/AI Overviews/AI Mode/
+ Gemini IGNORE llms.txt (documented repeatedly; 97% of llms.txt never
+ fetched). What gets Google citations: indexed pages + snippet eligibility +
+ classic SEO. Our llms.txt still serves agentic tools, Claude (documented
+ retrieval support), and training crawlers (GPTBot biggest fetcher) — zero
+ harm, real upside elsewhere. Test: site:svread.pages.dev = ZERO hits
+ (not indexed yet — days-old site, no inbound links, never submitted).
+ Competitors today: tantra.org (masters + day-by-day reader), hareesh.org
+ (Wallis series), archive.org full text, Amazon, Goodreads.
+ Shipped anyway (all green, 46 tests): sitemap now lists 10 STATIC lesson
+ pages (crawlable without JS — the honest Google lever), robots names
+ OAI-SearchBot explicitly (ChatGPT search requirement), meta description,
+ JSON-LD, pushing digest (115). Merged + DEPLOYED; verified live: llms.txt
+ real content, sitemap 10 lessons, robots OAI hit, biblio 0 password hits
+ (live leak fixed), pushing.json 200. Owner actions remaining (not mine to
+ do): Search Console verify + sitemap submit + generative-AI setting check;
+ inbound links (tantra.org/hareesh.org/Wikipedia outreach); Bing Webmaster
+ for Copilot.
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh
