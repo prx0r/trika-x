@@ -321,6 +321,22 @@ here, without touching their repos:
    Scholar MCP / site / packs / lingua changes are PROPOSED (lane owners
    dispose); nothing renamed anywhere today.
 
+## 4g. Git-versioned (2026-11-07) — commit 65e0a5c on box/peer-review-batch
+
+ All 10 session files committed + pushed (origin/box/peer-review-batch):
+ PARENT-CONTRACT-SPEC, FORMAL-MCP-SPEC, LAYER-NAMES-SPEC, layer-names.json,
+ layer_names.py + tests, abhinavagupta-corpus.json, seed_abhinavagupta.py,
+ federation_pretest.py, PROCESS-NOTES. Secrets grepped pre-commit (clean;
+ local box DSN matches repo-documented convention). Other process's dirty
+ files untouched (staged exactly 10, verified via diff --cached --name-only).
+ Anyone can now: clone the branch, edit, run the suites
+ (evidence/table/vocab/blind/runs-index/axiom/bridge/unittest/Lean harnesses/
+ federation_pretest), commit, push — versions accumulate as history. DB state
+ itself isn't in git by design; it replays from versioned seeds
+ (openpatala_seed + ingest + seed_atlas_biblio + seed_abhinavagupta) per the
+ restore recipes. Rules for editors ride along: prereg before code, tiers on
+ everything, fail-closed, machine proposes/human disposes, lanes read-only.
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh
