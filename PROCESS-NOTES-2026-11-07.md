@@ -459,6 +459,21 @@ here, without touching their repos:
  first, ML labelled). Voice = same ScholarVoice client on the rail (talk →
  transcript-as-message → reply text + audio). Committed below.
 
+## 4m. Bibliography as a view on the DB (2026-11-07) + trika-x integrated
+
+ User: biblio index with all links = a view on the DB (ground layer), then
+ trika-x integration. Built in svread on branch box/biblio-view (owner-
+ directed): tools/emit_biblio.py (DB -> data/biblio.json, fail-closed, --check;
+ 555 works, 101 ours, 11 lost/unverified with reported basis, translation
+ links, FORMAL column from trika-x EVIDENCE chunks per work, ESSAYS column
+ from scholar projections). ?view=biblio (no header tab — linked from
+ Sanskrit view + direct URL): search + status filter, lost section, reader /
+ scholar / source links per row. Tests: emit validation + real-Chromium
+ render/filter (zero page errors); full suite 41 pass / 0 fail. Pushed, NOT
+ deployed (awaiting go — production still serves main+Sanskrit).
+ Trika-x integration = the formal column (first consumer of EVIDENCE in a
+ reader surface); next: full treeka gap view + masterplan tracks.
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh
