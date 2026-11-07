@@ -474,6 +474,21 @@ here, without touching their repos:
  Trika-x integration = the formal column (first consumer of EVIDENCE in a
  reader surface); next: full treeka gap view + masterplan tracks.
 
+## 4n. Sanskrit verbatim import + Index tab LIVE on production (2026-11-07)
+
+ Owner corrections applied: (1) Index IS a main header tab (Browse Library,
+ Scholar, Sanskrit, Index — Pushing Lab + Text Search links removed; page
+ itself untouched). (2) Sanskrit lessons imported VERBATIM (iframe of the
+ lane's own HTML, only Google-Fonts <link>s replaced with vendored OFL
+ @font-face — design untouched, zero trackers). (3) Chat follows the lesson:
+ same rail, ?work= scoped, Ask button prefills, iframe navigation re-syncs
+ parent context (clean-URL tolerant). Built on box/sanskrit-import (merged
+ box/biblio-view in), full suite 41 pass / 0 fail + real-Chromium lesson +
+ biblio tests green. Merged to main, deployed: svread.pages.dev verified
+ (nav, lesson 200 with tabs + rule boxes, biblio 200, no pushing).
+ Lesson data gap noted honestly: mpa lessons + l10 show reader-forthcoming
+ (no ledger/projection — owning lanes).
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh
