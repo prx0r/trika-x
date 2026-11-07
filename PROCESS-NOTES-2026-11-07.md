@@ -507,6 +507,24 @@ here, without touching their repos:
  anywhere — verified, not assumed. Full suite 46 tests / 43 pass / 0 fail
  (3 pre-existing env skips). Pushed, awaiting deploy go.
 
+## 4n. Trace bundles: Sanskrit-upwards formalisation, live (2026-11-07)
+
+ User: formalise from the Sanskrit upwards so ChatGPT can trace it. Built:
+ trika-trace/1 compiler + verifier (formal-trika/tools/trace_bundle.py,
+ read-only across translation-work + box DB + EVIDENCE + scholar projections;
+ writes only data/traces/). Per chunk: source bytes hash, layer hashes
+ (exact vs whole-song BOUND-WHOLE-SONG honestly labelled), proof results,
+ formal theorems (MODEL_CHECKED), citing essays (verbatim-mention only),
+ verdict COMPLETE/PARTIAL + named gaps + caveats (BLOCKED stays BLOCKED).
+ 7 tests GREEN incl. negatives (tampered bytes fail + hop named; unknown
+ chunk fails; --no-db marks UNKNOWN). 2 committed example bundles, both
+ VERIFIED. Gateway serves formal__trace live (all 5 children up, 98 tools).
+ Fixed en route: bridge test asserted the retired dossier key (now asserts
+ federated canonical). svread side merged + DEPLOYED: llms.txt cites
+ formal__trace for verification, biblio provenance de-credentialed
+ (content-addressed on EVIDENCE bytes now, not trika rev). Live verified:
+ llms.txt real content, biblio 0 password hits, sitemap/robots 200.
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh

@@ -7,7 +7,7 @@
 
  Companion docs: PARENT-CONTRACT-SPEC-2026-11-07.md (contract),
  FORMAL-MCP-SPEC-2026-11-07.md (formal tools), LAYER-NAMES-SPEC-2026-11-07.md
- (internal/external layer names), PROCESS-NOTES-2026-11-07.md (§4–§4h, the
+ (internal/external layer names), PROCESS-NOTES-2026-11-07.md (§4–§4n, the
  session log), BACKBONE.md (identity spine), OPERATIONS.md (box manual).
 
 ## 1. Architecture (one diagram)
@@ -182,16 +182,20 @@
 
  | Artifact | Where | Version |
  |---|---|---|
- | Gateway (parent server) | trika-x/formal-trika/tools/federation_gateway.py | format via guide v1 (in-file) |
+ | Gateway (parent server) | trika-x/formal-trika/tools/federation_gateway.py | stdio NDJSON; all 5 children live (98 tools); serves formal__trace |
  | Children config | trika-x/formal-trika/data/federation-children.json | trika-federation-children/1 |
- | Gateway tests (6 GREEN) | trika-x/formal-trika/tests/test_federation_gateway.py | — |
+ | Gateway tests (6 GREEN incl. live trace) | trika-x/formal-trika/tests/test_federation_gateway.py | — |
+ | Trace compiler + verifier | trika-x/formal-trika/tools/trace_bundle.py | trika-trace/1 |
+ | Trace spec | trika-x/formal-trika/TRACE-SPEC-2026-11-07.md | trika-trace/1 |
+ | Trace tests (7 GREEN incl. negatives) | trika-x/formal-trika/tests/test_trace_bundle.py | — |
+ | Example trace bundles (VERIFIED) | trika-x/formal-trika/data/traces/ | trika-trace/1 |
  | Contract pre-tests (GREEN) | trika-x/tools/federation_pretest.py | — |
  | Parent contract | trika-x/PARENT-CONTRACT-SPEC-2026-11-07.md | spec v1 → impl. status |
  | Formal MCP spec | trika-x/FORMAL-MCP-SPEC-2026-11-07.md | spec v1 |
  | Layer names + resolver + tests | trika-x/formal-trika/data/layer-names.json, tools/layer_names.py, tests/test_layer_names.py | trika-layer-names/1, 6 tests GREEN |
  | Layer adoption spec | trika-x/LAYER-NAMES-SPEC-2026-11-07.md | spec v1 |
  | Abhinavagupta seed + data | trika-x/formal-trika/tools/seed_abhinavagupta.py, data/abhinavagupta-corpus.json | seed:trika:abhinavagupta-corpus:1 |
- | Session log | trika-x/PROCESS-NOTES-2026-11-07.md (§4–§4h) | dated entries |
+ | Session log | trika-x/PROCESS-NOTES-2026-11-07.md (§4–§4n) | dated entries |
  | Box DB (live) | postgres openpatala (555/909/102/87/1559/121/20/0) | replays from seeds (see §10) |
  | Openpatala API | :8821 (uvicorn, /tmp/openpatala-api-8821.log) | v1.0.0 |
  | Upstream code | prx0r/openpatala (wiggly), translation-work, svread, bookfactory, videofactory | lanes own; read-only here |
