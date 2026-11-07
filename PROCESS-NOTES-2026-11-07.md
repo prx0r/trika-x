@@ -546,6 +546,51 @@ here, without touching their repos:
  inbound links (tantra.org/hareesh.org/Wikipedia outreach); Bing Webmaster
  for Copilot.
 
+## 4p. Audit → self-verification → honest gates (2026-11-07)
+
+ FULL AUDIT (measured, not remembered). Real: trika-x 73 tests + both Lean
+ harnesses green; svread 49/0; gateway 98 tools, 5 live children; 13 traces
+ verify; API 555/909; site serving everything. BS found and fixed:
+ (a) 40 dead reader links in biblio → has_reader now computed from disk,
+     view says "N passages · reader pending" instead of linking nowhere;
+ (b) FORMAL-MCP spec claimed 6 tools, only formal__trace existed → implemented
+     formal__bridge/evidence/table/gaps/runs/axioms, tested (8 gateway tests);
+ (c) traces unreachable to outsiders → published bundles + verification packs;
+ (d) TAL traces PARTIAL with no explanation → work-level MD binding
+     (BOUND-WORK-MD) + true relative paths (path bug caught by the publisher);
+ (e) llms.txt overclaimed "101 works with layered translations" → now measured
+     (101 pipeline / 87 ledgers / 50 readable / 55 projections / 28 formalised),
+     enforced by tests/wiring.test.cjs.
+
+ THE UNLOCK — verification without our code. svread tools/emit_verify.py
+ publishes, per chunk, the exact bytes the trace hashes (source.txt, layer
+ files, proof) plus a manifest; it REFUSES to publish when any hash fails to
+ reproduce the trace (fail-closed — this is what caught the TAL path bug).
+ Anyone can now verify with curl + sha256sum only:
+   LIVE-PROVEN 2026-11-07:
+     source.txt  -> 7f9e4b3307f2f52f461436d213aae6208090bb8f6dd007b0255a45e3b306a1fd
+     argmap      -> 8485f5769b3ddd4ce4af4a7072f89361e1e908e58a134e13b8073da6d1d6b7f1
+   both equal the trace/manifest values exactly.
+ tests/verify-pack.test.cjs simulates an external agent: fetch + sha256 only,
+ no Python, no project internals; it must reproduce every hash.
+
+ LLM VISIBILITY: data/formal.json (151 theorems, scope statement, unformalised
+ gap list) + llms.txt pointers to traces, packs, formal registry and the
+ no-code recipe. ?view=verify renders the recipe and inventory (linked from
+ Index, not a 4th tab).
+
+ OPENPATALA CLEANED (honestly): check.py now exists and reports PASS/FAIL/
+ BLOCKED per suite (api-import, mcp-server, evidence-bundle, db-seeded PASS;
+ conformance BLOCKED — adapters discover nothing, the known peer-review issue,
+ NOT faked; witnesses BLOCKED — 0 corpus-wide). OPENPATALA.md documents the
+ real state + reproduce recipe + the dangling schema_uri and assertion.json
+ drift. MODULES.md: every repo with measured status and gate. ROADMAP.md:
+ five rungs with done-gates (R1 trace all readable passages, R2 witnesses,
+ R3 formalisation by gap list, R4 chat cites traces, R5 inbound links).
+
+ Commits: svread a05ca0a + cb299c0 (deployed), trika-x e10a503, openpatala
+ 7af046d. All pushed.
+
 ## 4. Commands to re-verify (copy-paste)
 
 ```sh
