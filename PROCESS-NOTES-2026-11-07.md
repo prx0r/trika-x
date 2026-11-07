@@ -365,7 +365,24 @@ here, without touching their repos:
  multiplexed, dead child excluded, routing + unknown-tool verified).
  Videofactory#1 filed: https://github.com/prx0r/videofactory/issues/1.
 
-## 4i. svread Sanskrit surface: review + spec (2026-11-07)
+## 4i. Sanskrit view BUILT + preview-deployed (2026-11-07)
+
+ User: build the Sanskrit tab. Done in svread on branch box/sanskrit-view
+ (their repo, owner-directed): header item + ?view=sanskrit (lesson index by
+ stage, 10 vendored lessons with Learn/Decode/Recognise tabs, rule boxes,
+ witness, recitation guide, practice, provenance). Payload vendored from
+ bookfactory 118b227 via svread/tools/emit_sanskrit.py (deterministic,
+ fail-closed, no Google fonts, no scripts; 13 data/sanskrit/*.json in release
+ manifest). Chat rail built on the Sanskrit path (same rail, ?work= scoped,
+ ask-about-this-verse prefill); recitation reuses the reader; mpa + l10
+ honestly reader-less (no ledger/projection — owning lanes).
+ Tests: new view-contract + real-Chromium render/tab/chat-prefill (zero page
+ errors); full suite 38 pass/0 fail. Deployed to branch preview
+ https://box-sanskrit-view.svread.pages.dev (verified live: view, lessons,
+ rule boxes). Production svread.pages.dev untouched (serves main) — merge =
+ lane/owner call.
+
+## 4. Commands to re-verify (copy-paste)
 
  Review of bookfactory 118b227 (fetched origin/master, read-only): GREEN —
  10 lessons Vol I (sounds→language→instructions, real source_refs), Panini-
