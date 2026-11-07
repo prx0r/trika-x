@@ -72,7 +72,9 @@ def load_ledger(tw: Path, work: str) -> list:
 
 def layer_candidates(tw: Path, work: str, target: str, layer: str):
     """Yield (path, status): exact chunk files first, else song-guess files
-    (marked BOUND-WHOLE-SONG — span-level binding needs a verse-range join)."""
+    (BOUND-WHOLE-SONG), else work-level markdown (BOUND-WORK-MD — the TAL
+    layout ships L1/L2/L200/T1 as work files, not per-song JSON; recorded
+    as bound-to-work, never as chunk-level proof)."""
     exact = tw / work / "data" / f"{target}.{layer}.json"
     if exact.exists():
         yield exact, "BOUND"
@@ -82,6 +84,16 @@ def layer_candidates(tw: Path, work: str, target: str, layer: str):
         p = tw / work / "data" / f"{sg}.{layer}.json"
         if p.exists():
             yield p, "BOUND-WHOLE-SONG"
+            return
+    wl = (tw / work / "data" / f"{work}.{layer}.json")
+    if wl.exists():
+        yield wl, "BOUND-WORK-MD"
+        return
+    md_names = {"t1": "T1.md", "l2": "L2.md", "argmap": "ARGMAP.md",
+                "c1": "C1.md", "l1": "L1.md", "l200": "L200.md"}
+    md = md_names.get(layer)
+    if md and (tw / work / md).exists():
+        yield (tw / work / md), "BOUND-WORK-MD"
 
 
 def compile_bundle(work: str, target: str, tw: Path, sv: Path,
@@ -177,11 +189,18 @@ def compile_bundle(work: str, target: str, tw: Path, sv: Path,
             continue
         p, status = got[0]
         raw = p.read_bytes()
+        try:
+            rel = p.relative_to(tw).as_posix()
+        except ValueError:
+            rel = f"{work}/{p.name}"
         entry = {"present": True, "sha256": sha(raw),
-                 "path": f"{work}/data/{p.name}", "status": status}
-        if status != "BOUND":
+                 "path": rel, "status": status}
+        if status == "BOUND-WHOLE-SONG":
             entry["note"] = ("chunk is a span of this song file; "
                              "span-level binding needs a verse-range join")
+        elif status == "BOUND-WORK-MD":
+            entry["note"] = ("work-level markdown layer, not per-chunk JSON; "
+                             "bound to the work, not the chunk span")
         layers[layer] = entry
     proofs = {}
     song = re.sub(r"-v\d+$", "", target)
