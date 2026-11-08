@@ -1,0 +1,85 @@
+{
+ "measured_at": "2026-11-08T05:33:43Z",
+ "git": {
+  "trika-x": {
+   "rev": "2c83925",
+   "branch": "box/peer-review-batch",
+   "dirty": 113
+  },
+  "openpatala": {
+   "rev": "7af046d",
+   "branch": "master",
+   "dirty": 0
+  },
+  "svread": {
+   "rev": "cb299c0",
+   "branch": "main",
+   "dirty": 0
+  }
+ },
+ "disk": {
+  "value": {
+   "free_gb": 1.72,
+   "used_pct": 96.8
+  },
+  "command": "df -h /"
+ },
+ "openpatala_db": {
+  "value": {
+   "works": 555,
+   "passages": 909,
+   "editions": 102,
+   "etexts": 87,
+   "assertions": 1559,
+   "translations": 121,
+   "people": 20,
+   "witnesses": 0
+  },
+  "command": "psql -d openpatala -t -c 'SELECT count(*) FROM works/passages/editions/etexts/assertions/translations/people/witnesses'",
+  "source_sha256": "58c5240505f376d0067bd0d08471b54a4a2c2d389dbcd1c52432d9a314c177b4"
+ },
+ "formal_evidence": {
+  "value": {
+   "theorems": 153,
+   "entries": 151,
+   "exemptions": 2,
+   "chunk_refs_resolve": 53,
+   "chunk_refs_bad": 0,
+   "direct_refs": 13,
+   "total_chunks": 154,
+   "status": "MEASURED"
+  },
+  "command": "python3 formal-trika/tools/evidence_check.py"
+ },
+ "bridge": {
+  "value": {
+   "status": "MEASURED",
+   "works": 28,
+   "passage_ids": 154,
+   "witnesses": "UNPINNED"
+  },
+  "command": "python3 formal-trika/tools/bridge_resolve.py --check --tw /root/translation-work"
+ },
+ "svread_traces": {
+  "value": 13,
+  "command": "cat /root/svread/data/traces/index.json",
+  "source_sha256": "17ee5c87d7001db8e1d5d93208d420200ae68d49adb413403aca93c42ca50690"
+ },
+ "svread_source_map": {
+  "value": {
+   "total": 87,
+   "bridged": 6,
+   "todo": 81
+  },
+  "command": "cat /root/svread/source-map.json",
+  "source_sha256": "2bcdf83b803102712f988736507424d5b3c61e66d273cb60f1eca809bcb25a72"
+ },
+ "svread_surface": {
+  "value": {
+   "scholar_projections": 56,
+   "manifest_assets": 504
+  },
+  "command": "ls /root/svread/data/scholar/*.json; jq assets /root/svread/data/release-manifest.json",
+  "source_sha256": "039729926f47add598f089c676b52de514384dd16feca3ebeab94c42a278265e"
+ }
+}
