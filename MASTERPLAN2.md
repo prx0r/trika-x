@@ -271,7 +271,7 @@ rung choice.
 | Essays with DOI | 0 | 0 | 1 | several |
 | Sanskrit lessons live | 10 (verbatim) | l01 slice | full slice | audio (go) |
 | Discoverability | 0 indexed | submitted | indexed | ≥1 ref domain |
-| Tests | 93 / 49+ / 11 | +new | +new | CI gate |
+| Tests | 94 / 51 / 11 | +new | +new | CI gate |
 | Disk free | 3.9G (95%) | ≥15% | ≥15% | ≥15% |
 
 Never report a numerator without its denominator. Never report "complete"
@@ -479,7 +479,7 @@ tools/mcp_catalog.py --check` (SHARP).
   queryable gap report (`--work`, `--queue`, `--md`; rung-queue order:
   phr mala → VBT clusters → tsa08 remainder → rest). Refresh caught real
   drift: the committed `treeka.json` lacked registry refs for phr-p01..04
-  and span-p01 that EVIDENCE already had — now 895 unformalised (was 900),
+  and span-p01 that EVIDENCE already had — now 893 unformalised (was 900),
   matching `evidence_check` 16/154 chunks.
 
 
