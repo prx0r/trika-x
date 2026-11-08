@@ -3,13 +3,17 @@
 
   Ground (R, inherited): translation-work `phrdaya/` L2 + C1 key terms +
   ARGMAP token premises (sūtras 1–20, 5 passages). See
-  PREREGISTRATION-PHR-RUNG.md. Checks THREE finite facts: seven pentads,
-  five acts, triple epithet.
+  PREREGISTRATION-PHR-RUNG.md (P-PHR1–3) and
+  PREREGISTRATION-PHR-CLOSE-RUNG.md (P-PHR4–5: phr-p05 closing sequence).
+  Checks FIVE finite facts: seven pentads, five acts, triple epithet,
+  four-closing sequence, once-named means.
 
   What this file IS: finite roster arithmetic (`decide` inside scope).
   What it is NOT: the 35 names (unlisted), the 5 act-names (unmodeled —
-  absent from held layers, stated limit), or any recognition doctrine
-  beyond verse grammar. Covers: pentads + acts + epithet (all of rung).
+  absent from held layers, stated limit), v.20's identity claim
+  (recognition doctrine beyond verse grammar — not modeled), or anything
+  beyond held L2 headings and ledger order. Covers: pentads + acts +
+  epithet + closing sequence (all of both rungs).
 -/
 namespace FormalTrika
 
@@ -47,5 +51,17 @@ def epithets : List Epithet :=
 
 /-- P-PHR3: three terms, distinct. -/
 theorem epithet_three : epithets.length = 3 ∧ epithets.Nodup := by decide
+
+/-- The closing sequence: sūtras 17–20 in order (ledger phr-p05, L2). -/
+def closes : List Nat := [17, 18, 19, 20]
+
+/-- P-PHR4: exactly the four closing sūtras, in order. -/
+theorem closes_four : closes.length = 4 ∧ closes = [17, 18, 19, 20] := by decide
+
+/-- Sūtra numbers naming a means-term (upāyāḥ in v.18 only). -/
+def meansAt : List Nat := [18]
+
+/-- P-PHR5: named exactly once. -/
+theorem means_once : meansAt.length = 1 ∧ meansAt.Nodup := by decide
 
 end FormalTrika

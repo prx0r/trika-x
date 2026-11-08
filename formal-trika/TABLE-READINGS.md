@@ -459,6 +459,12 @@ Five acts, no sixth, no repeats: the contracted performance counts to five.
 ## Phrdaya.lean :: epithet_three
 Consciousness, independent, cause of the universe's accomplishment: three terms, each its own.
 
+## Phrdaya.lean :: closes_four
+Sūtras seventeen to twenty, in that order — the passage closes in four steps, counted and sequenced.
+
+## Phrdaya.lean :: means_once
+The means is named once, at the eighteenth sūtra: one pivot, no doubling.
+
 ## Correction.lean :: joints_two
 Two grants, no third: grasp and agency, each its own joint.
 

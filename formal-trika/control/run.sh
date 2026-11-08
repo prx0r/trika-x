@@ -78,5 +78,7 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive Rasa.lean --mutant Broke
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrThirty.lean --theorem pentads_thirtyfive || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrFourActs.lean --theorem five_acts || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrTwoEpithets.lean --theorem epithet_three || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrThreeCloses.lean --theorem closes_four || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrTwoMeans.lean --theorem means_once || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Correction.lean --mutant BrokenJointsOne.lean --theorem joints_two || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Correction.lean --mutant BrokenJointsSwap.lean --theorem grasp_first || exit 1
