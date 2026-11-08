@@ -1,0 +1,72 @@
+{
+  "concept_id": "con:love",
+  "name": "Love",
+  "current_version": "1.0.0",
+  "status": "active",
+  "last_updated": "2026-07-31",
+  "formal_core": {
+    "file": "core.md",
+    "statement": "Love is coherence across the boundary \u2014 the compatibility condition, met (the register's coherence extended: the overlap S_ij widening, the exclusion softening).",
+    "grade": "C (structural \u2014 follows from the thesis's own machinery)",
+    "layers": [
+      "L1",
+      "L3",
+      "L5",
+      "L7",
+      "L8"
+    ],
+    "invariants": [
+      "orchestration-law",
+      "the-invariant",
+      "moment-triad"
+    ]
+  },
+  "essays": [
+    {
+      "essay_id": "ess:love-v1",
+      "title": "What the Heck Is Love?",
+      "file": "essays/whattheheckis-love-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0",
+      "date": "2026-07-31",
+      "status": "current"
+    }
+  ],
+  "evidence": {
+    "supports": [
+      {
+        "source": "Valence = coherence functional (ochemamath \u00a77)",
+        "strength": "A/D",
+        "layer": "L1/L7"
+      },
+      {
+        "source": "The boundary = the exclusion (Takesaki)",
+        "strength": "A",
+        "layer": "L1"
+      },
+      {
+        "source": "The encounter = the overlap S_ij (quantum Bayes)",
+        "strength": "A",
+        "layer": "L3"
+      },
+      {
+        "source": "Social engagement system / attachment science (the enactment)",
+        "strength": "B",
+        "layer": "L5"
+      },
+      {
+        "source": "The freedom theorem (coherence \u2192 compatibility \u2192 futures)",
+        "strength": "B",
+        "layer": "L3/L4"
+      }
+    ],
+    "negates": [],
+    "gaps": [
+      "No direct measurement of the overlap (the dyad's coherence)"
+    ]
+  },
+  "renderings": {
+    "whattheheckis": "essays/whattheheckis-love-v1.md",
+    "video": "PLANNED \u2014 the first huge video, the meta-summary"
+  }
+}

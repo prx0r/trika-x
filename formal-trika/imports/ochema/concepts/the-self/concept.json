@@ -1,0 +1,36 @@
+{
+  "concept_id": "con:the-self",
+  "name": "The Self",
+  "current_version": "1.0.0",
+  "status": "active",
+  "last_updated": "2026-07-31",
+  "formal_core": {
+    "file": "core.md",
+    "statement": "The self is the invariant: ι_i = M_i^{σ^ω} — the modular fixed-point subalgebra, the structure that survives content changes",
+    "grade": "A (math) / C (identification)",
+    "layers": ["L1", "L6", "L7"],
+    "invariants": ["the-invariant"]
+  },
+  "essays": [
+    {
+      "essay_id": "ess:the-self-v1",
+      "title": "What the Heck Is the Self?",
+      "file": "essays/whattheheckis-the-self-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0",
+      "date": "2026-07-31",
+      "status": "current"
+    }
+  ],
+  "evidence": {
+    "supports": [
+      {"source": "Modular fixed-point subalgebras", "strength": "++", "layer": "L1"},
+      {"source": "Thermal time", "strength": "++", "layer": "L1"},
+      {"source": "Spanda / Ñāṇavīra / Tibetan", "strength": "+", "layer": "L6"},
+      {"source": "Friesen unity thesis", "strength": "+", "layer": "L7"}
+    ],
+    "negates": [],
+    "gaps": ["no direct measure of ι_i", "subalgebra-to-phenomenal-continuity untested"]
+  },
+  "renderings": {"whattheheckis": "essays/whattheheckis-the-self-v1.md", "video": null}
+}

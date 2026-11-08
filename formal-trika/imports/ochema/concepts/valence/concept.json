@@ -1,0 +1,59 @@
+{
+  "concept_id": "con:valence",
+  "name": "Valence",
+  "current_version": "1.1.0",
+  "status": "active",
+  "last_updated": "2026-08-01",
+  "formal_core": {
+    "file": "core.md",
+    "statement": "Valence is the coherence of the state: \u03bd_i = coherence functional, heavy-tailed (HTVH); quality as the spectrum of the modular Hamiltonian",
+    "grade": "B (HTVH) / D (operator form)",
+    "layers": [
+      "L1",
+      "L6",
+      "L7"
+    ],
+    "invariants": [
+      "harmonic-ladder"
+    ]
+  },
+  "essays": [
+    {
+      "essay_id": "ess:valence-v1",
+      "title": "What the Heck Is Valence?",
+      "file": "essays/whattheheckis-valence-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0",
+      "date": "2026-07-31",
+      "status": "current"
+    }
+  ],
+  "evidence": {
+    "supports": [
+      {
+        "source": "HTVH (G\u00f3mez-Emilsson & Percy 2023)",
+        "strength": "+++",
+        "layer": "L7"
+      },
+      {
+        "source": "Perelman entropy / coherence functional",
+        "strength": "+",
+        "layer": "L1"
+      },
+      {
+        "source": "Five blisses (tradition)",
+        "strength": "+",
+        "layer": "L6"
+      }
+    ],
+    "negates": [],
+    "gaps": [
+      "spectral-quality test unrun",
+      "operator identification is D"
+    ]
+  },
+  "renderings": {
+    "whattheheckis": "essays/whattheheckis-valence-v1.md",
+    "video": null
+  }
+}

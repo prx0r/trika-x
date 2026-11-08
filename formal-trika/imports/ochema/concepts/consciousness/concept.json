@@ -1,0 +1,49 @@
+{
+  "concept_id": "con:consciousness",
+  "name": "Consciousness",
+  "current_version": "1.0.0",
+  "status": "active",
+  "last_updated": "2026-07-31",
+  "formal_core": {
+    "file": "core.md",
+    "statement": "Consciousness is the intrinsic presence of a materially enacted process that regulates its own future through a unified field of significance: D_i ≡_int A_i, the identity of the phenomenal and physical descriptions under equivalence (postulated, not derived).",
+    "grade": "E (identity postulate, mainstreamed via IIT 4.0 as B/C); architecture demonstrated at 8 levels (B/C)",
+    "layers": ["L1", "L3", "L5", "L6", "L7", "L8"],
+    "invariants": ["moment-triad", "exclusion", "the-invariant", "time-from-state", "orchestration-law", "harmonic-ladder"]
+  },
+  "essays": [
+    {
+      "essay_id": "ess:consciousness-v1",
+      "title": "What the Heck Is Consciousness?",
+      "file": "essays/whattheheckis-consciousness-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0",
+      "date": "2026-07-31",
+      "status": "current"
+    }
+  ],
+  "evidence": {
+    "supports": [
+      {"source": "IIT 4.0 (Tononi & Boly 2025)", "strength": "++", "layer": "L7"},
+      {"source": "Thermal time + quantum Bayes (orchestration law corollary)", "strength": "++", "layer": "L1/L3"},
+      {"source": "Moment-triad, 5 independent traditions", "strength": "+++", "layer": "L6"},
+      {"source": "Exclusion, 4 independent derivations", "strength": "+++", "layer": "L1/L7"},
+      {"source": "Levin corpus (Manicka 2023 in-vivo)", "strength": "+++", "layer": "L5"},
+      {"source": "Bennett 2025 (preprint, valence tapestries)", "strength": "+", "layer": "L7"}
+    ],
+    "negates": [
+      {"source": "Peer review v1.15.1: nonlocal-encoding→survival is a category error", "strength": "−−−", "layer": "L8"},
+      {"source": "Decoherence numbers: quantum layer refuted-as-stated", "strength": "−−", "layer": "L3"}
+    ],
+    "gaps": [
+      "L3 collapse-as-experience (zero direct evidence)",
+      "L1 thermal-time discrimination experiment",
+      "L7 identity vs correlation",
+      "L8 survival claims (no mechanism, no evidence)"
+    ]
+  },
+  "renderings": {
+    "whattheheckis": "essays/whattheheckis-consciousness-v1.md",
+    "video": null
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "concept_id": "con:exclusion",
+  "name": "Exclusion",
+  "current_version": "1.0.0",
+  "status": "active",
+  "last_updated": "2026-07-31",
+  "formal_core": {
+    "file": "core.md",
+    "statement": "Determination is selection: E_i is the conditional expectation onto the subject's subalgebra, existing iff the pole is modular-invariant",
+    "grade": "A (math) / D (application)",
+    "layers": ["L1", "L3", "L6", "L7", "L8"],
+    "invariants": ["exclusion"]
+  },
+  "essays": [
+    {
+      "essay_id": "ess:exclusion-v1",
+      "title": "What the Heck Is Exclusion?",
+      "file": "essays/whattheheckis-exclusion-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0",
+      "date": "2026-07-31",
+      "status": "current"
+    }
+  ],
+  "evidence": {
+    "supports": [
+      {"source": "Takesaki's theorem", "strength": "+++", "layer": "L1"},
+      {"source": "IIT exclusion axiom", "strength": "++", "layer": "L7"},
+      {"source": "Collapse as spectral projection", "strength": "++", "layer": "L3"},
+      {"source": "Apoha", "strength": "+", "layer": "L6"},
+      {"source": "Bardo dissolution", "strength": "+", "layer": "L8"}
+    ],
+    "negates": [],
+    "gaps": ["phenomenal-boundary identification untested", "exclusion constitutive vs descriptive"]
+  },
+  "renderings": {"whattheheckis": "essays/whattheheckis-exclusion-v1.md", "video": null}
+}

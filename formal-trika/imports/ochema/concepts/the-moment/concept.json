@@ -1,0 +1,36 @@
+{
+  "concept_id": "con:the-moment",
+  "name": "The Moment",
+  "current_version": "1.0.0",
+  "status": "active",
+  "last_updated": "2026-07-31",
+  "formal_core": {
+    "file": "core.md",
+    "statement": "The state transition — the triad's withdrawal where the flow is redefined (ω → ω′, σ^ω → σ^ω′)",
+    "grade": "A (math) / C (identification)",
+    "layers": ["L1", "L3", "L6", "L7"],
+    "invariants": ["the-moment", "time-from-state"]
+  },
+  "essays": [
+    {
+      "essay_id": "ess:the-moment-v1",
+      "title": "What the Heck Is the Moment?",
+      "file": "essays/whattheheckis-the-moment-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0",
+      "date": "2026-07-31",
+      "status": "current"
+    }
+  ],
+  "evidence": {
+    "supports": [
+      {"source": "Triad in 5 traditions", "strength": "+++", "layer": "L6"},
+      {"source": "State transition (operator-algebraic)", "strength": "++", "layer": "L1"},
+      {"source": "Orch-OR collapse-as-moment", "strength": "+", "layer": "L3"},
+      {"source": "Bennett Temporal Gap", "strength": "+", "layer": "L7"}
+    ],
+    "negates": [],
+    "gaps": ["collapse-as-experience (GAP #3)", "identification is C"]
+  },
+  "renderings": {"whattheheckis": "essays/whattheheckis-the-moment-v1.md", "video": null}
+}

@@ -1,0 +1,42 @@
+{
+  "concept_id": "con:time",
+  "name": "Time",
+  "current_version": "1.0.0",
+  "status": "active",
+  "last_updated": "2026-07-31",
+  "formal_core": {
+    "file": "core.md",
+    "statement": "Time is the modular flow of the state: σ_t^ω = Δ^{it} A Δ^{-it} (Tomita–Takesaki; Connes–Rovelli thermal time). The state determines the time. The moment-triad (emergence–persistence–withdrawal) is the structure of state transition. Adequate determinism = deterministic modular flow within a state, random transitions between states.",
+    "grade": "A (theorem) / C (physical-time identification)",
+    "layers": ["L1", "L3", "L4", "L6", "L8"],
+    "invariants": ["time-from-state", "moment-triad"]
+  },
+  "essays": [
+    {
+      "essay_id": "ess:time-v1",
+      "title": "What the Heck Is Time?",
+      "file": "essays/whattheheckis-time-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0",
+      "date": "2026-07-31",
+      "status": "current"
+    }
+  ],
+  "evidence": {
+    "supports": [
+      {"source": "Tomita–Takesaki theorem", "strength": "+++", "layer": "L1"},
+      {"source": "Connes–Rovelli 1994 (FRW time from CMB state)", "strength": "++", "layer": "L1"},
+      {"source": "Spanda: non-sequential action is the source of time", "strength": "+", "layer": "L6"},
+      {"source": "Ñāṇavīra: time is the present hierarchy", "strength": "+", "layer": "L6"},
+      {"source": "Doyle: adequate determinism (classical shadow)", "strength": "+", "layer": "L4"}
+    ],
+    "negates": [],
+    "gaps": [
+      "No experiment distinguishes thermal time from extrinsic time"
+    ]
+  },
+  "renderings": {
+    "whattheheckis": "essays/whattheheckis-time-v1.md",
+    "video": null
+  }
+}

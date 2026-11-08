@@ -1,0 +1,56 @@
+{
+  "concept_id": "con:god",
+  "name": "God (the Christian notion, Polkinghorne-rigorized)",
+  "current_version": "1.0.0",
+  "status": "active",
+  "last_updated": "2026-08-04",
+  "formal_core": {
+    "file": "core.md",
+    "statement": "God, in the Christian notion as rigorously stated by Polkinghorne, is the self-authenticating ground of all that is — not an entity among entities, but the source of all; the one whose deepest reality is relational (perichoresis: the mutual exchange of love between the three Persons); veiled in his encounter with finite humanity; aseity (being-in-itself) who does not call for evaluation by any other criteria. Epistemic structure: the economic Trinity (God as experienced) is the immanent Trinity (God in himself) — Rahner's rule: approach from below, experience is trustworthy.",
+    "grade": "A (structure: the rigorous definition of the Christian notion) / C (identification with the thesis's machinery — God as the coherence of the whole; the Veil; the compatibility condition as the divine self-limitation / kenosis)",
+    "layers": ["L6", "L7", "L8"],
+    "invariants": ["veil", "orchestration-law", "harmonic-ladder", "moment-triad"]
+  },
+  "essays": [
+    {
+      "essay_id": "ess:god-v1",
+      "title": "What the Heck Is God? (in Christianity, stated rigorously)",
+      "file": "essays/whattheheckis-god-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0 + Polkinghorne corpus (reason-and-reality-1991, quantum-physics-and-theology-2007, papers-divine-action/)",
+      "date": "2026-08-04",
+      "status": "current"
+    },
+    {
+      "essay_id": "ess:god-vs-shiva-v1",
+      "title": "What the Heck Is God vs. Śiva?",
+      "file": "essays/whattheheckis-god-vs-shiva-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0 + POLKINGHORNE-VS-SIVA.md + Tantrāloka corpus",
+      "date": "2026-08-04",
+      "status": "current"
+    }
+  ],
+  "evidence": {
+    "supports": [
+      {"source": "Polkinghorne, Reason and Reality (1991): aseity, self-authentication, 'Subject of worship and not the object of scrutiny'", "strength": "+++", "layer": "L7"},
+      {"source": "Polkinghorne, Reason and Reality (1991): 'God is necessarily veiled in his encounter with finite humanity'", "strength": "+++", "layer": "L7"},
+      {"source": "Polkinghorne, Quantum Physics and Theology (2007): Trinity = the theologians' GUT; perichoresis; 'the true Theory of Everything is trinitarian theology'", "strength": "+++", "layer": "L6"},
+      {"source": "Rahner's rule (economic = immanent Trinity) — approach from below, experience trustworthy", "strength": "++", "layer": "L7"},
+      {"source": "Kenosis papers (Silva, The Causality Distinction, Kenosis...): divine self-limitation as the ground of creaturely freedom", "strength": "++", "layer": "L7"},
+      {"source": "Ochema machinery: Veil = the compatibility condition (thesis Part 8); love = coherence across the boundary (con:love); the harmonic ladder", "strength": "+", "layer": "L1-L8"}
+    ],
+    "negates": [
+      {"source": "Polkinghorne's own caution: 'no facile kind of direct transfer is possible between physics and theology' (QPT preface) — the structural identification is graded C, not assumed", "strength": "++", "layer": "L7"}
+    ],
+    "gaps": [
+      "God's existence is not derivable from the thesis's machinery (the thesis is silent on the underlying domain)",
+      "The identification of the Veil with the divine self-limitation (kenosis) is structural analogy, not theorem",
+      "Swinburne's duplication objection to pattern-based continuity (addressed by subject-as-fixed-point, not by this concept)"
+    ]
+  },
+  "renderings": {
+    "whattheheckis": "essays/whattheheckis-god-v1.md",
+    "video": null
+  }
+}

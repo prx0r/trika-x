@@ -1,0 +1,37 @@
+{
+  "concept_id": "con:the-register",
+  "name": "The Register",
+  "current_version": "1.0.0",
+  "status": "active",
+  "last_updated": "2026-07-31",
+  "formal_core": {
+    "file": "core.md",
+    "statement": "the state ω — the accumulated weighting that determines selection",
+    "grade": "A (math) / C-D (identification)",
+    "layers": ["L1", "L3", "L5"],
+    "invariants": ["orchestration-law"]
+  },
+  "essays": [
+    {
+      "essay_id": "ess:the-register-v1",
+      "title": "What the Heck Is the Register?",
+      "file": "essays/whattheheckis-the-register-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0",
+      "date": "2026-07-31",
+      "status": "current"
+    }
+  ],
+  "evidence": {
+    "supports": [
+      {"source": "von Neumann algebra theory", "strength": "++", "layer": "L1"},
+      {"source": "Thermal time", "strength": "+++", "layer": "L1"},
+      {"source": "Quantum Bayes", "strength": "++", "layer": "L3"},
+      {"source": "Attention = precision weighting (Friston)", "strength": "+++", "layer": "L4"},
+      {"source": "Manicka 2023", "strength": "++", "layer": "L5"}
+    ],
+    "negates": [],
+    "gaps": ["L1 bearer-identification", "microstate uncontrollability"]
+  },
+  "renderings": {"whattheheckis": "essays/whattheheckis-the-register-v1.md", "video": null}
+}

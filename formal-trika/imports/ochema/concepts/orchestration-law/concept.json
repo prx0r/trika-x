@@ -1,0 +1,40 @@
+{
+  "concept_id": "con:orchestration-law",
+  "name": "The Orchestration Law",
+  "current_version": "1.0.0",
+  "status": "active",
+  "last_updated": "2026-07-31",
+  "formal_core": {
+    "file": "core.md",
+    "statement": "state at threshold determines outcome (corollary of thermal time + quantum Bayes + Manicka)",
+    "grade": "A (math) / C-D (identification)",
+    "layers": [
+      "L1",
+      "L3",
+      "L5"
+    ],
+    "invariants": [
+      "orchestration-law"
+    ]
+  },
+  "essays": [
+    {
+      "essay_id": "ess:orchestration-law-v1",
+      "title": "What the Heck Is the Orchestration Law?",
+      "file": "essays/whattheheckis-orchestration-law-v1.md",
+      "version": "1.0.0",
+      "rendered_from": "core.md @ 1.0.0",
+      "date": "2026-07-31",
+      "status": "current"
+    }
+  ],
+  "evidence": {
+    "supports": [],
+    "negates": [],
+    "gaps": []
+  },
+  "renderings": {
+    "whattheheckis": "essays/whattheheckis-orchestration-law-v1.md",
+    "video": null
+  }
+}
