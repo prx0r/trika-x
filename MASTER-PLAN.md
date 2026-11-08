@@ -87,3 +87,61 @@ maps = the first comparative-formal rung + visual truth).
 - Human-gated remainder: witnesses, P-TK1/ti-ca/rater-2, Zenodo token,
   tau-scale, Mutate remainder, F3 pairs, dīkṣā policy, owner flips
   (ledger/trajectory/vis-mode, sit player, catalog migration).
+
+---
+
+## AMENDMENT 2026-11-08 — measured progress since the 11-06 baseline
+
+*Appended, not rewritten. The 11-06 plan above stands as architecture and
+order; this section updates the scoreboard only. Full audit:
+`REVIEW-2026-11-08.md`. Execution plan: `MASTERPLAN2.md`.*
+
+### What changed (verified on box 2026-11-08)
+
+| Track | 11-06 claim | 11-08 measured | Verdict |
+|---|---|---|---|
+| A openpatala | 444 works | **555 works / 909 passages / 0 witnesses**; `check.py` GREEN with 2 recorded BLOCKED (conformance: adapters discover nothing; witnesses: 0) | real, honestly gated |
+| A identity | — | Abhinavagupta corpus seeded (7 LOST + 4 ATTESTED-UNVERIFIED, reported-status only); 101 ours-translations registered (71 gold-proposed / 30 pending); 122 translation rows | real, human review pending |
+| B chunks/layers | 28 works / 154 IDs bridged | unchanged **28 / 154 BYTES_MATCH, witnesses UNPINNED**; `source-map.json` 87 works, **6 bridged / 81 todo** | bridge solid, coverage thin |
+| C formal | 107 theorems / 19 mutants | **153 theorems / 151 entries + 2 exemptions**, 0 bad chunk refs, axiom CLEAN (static half); 73 tests green | climbing |
+| C coverage | 8/45 chunks | **13/154 passage chunks (8%)**; gap list published | honest, low |
+| C traces | — | **13 trace bundles** (12 COMPLETE / 1 PARTIAL with caveat), external verify pack live (curl+sha256 proven) | new, real |
+| D essays | PUSHBACK mock | `formal-trika/tools/pushback.py` live (mock/go/cf, opt-in, verbatim shield); Zenodo dry-run only | PUSHBACK done, DOI gated |
+| E teaching/practice | C1 unit | Sanskrit surface BUILT + preview-deployed: 10 lessons verbatim, fish recitation rail, lesson/lore-aware chat, `?view=verify` | new, live |
+| F bench | tau null-ish | unchanged — tau scale still quota-blocked; CPU calibration ready | blocked on quota |
+| H corpus/biblio | seeds | bibliography = DB view; atlas/Abhinavagupta seeds in box DB; refs not fork | real |
+| Surface | — | svread live: 50 readable / 55 projections / 504 assets; llms.txt + sitemap + robots + JSON-LD measured, enforced by wiring test | real |
+
+### New standing facts
+
+1. **Checkability is live.** `svread/tools/emit_verify.py` publishes exact
+   bytes per chunk; an outsider reproduces every hash with `curl` +
+   `sha256sum`, no project code. This is now the moat line.
+2. **Honesty gate replaced headline gates.** openpatala `check.py` reports
+   PASS/FAIL/BLOCKED; BLOCKED ≠ PASS. Old README counts (1099/247/2181) are
+   stale — canonical counts are the box DB and the evidence bundle.
+3. **Federation exists.** `federation_gateway.py` multiplexes 98 tools across
+   openpatala/formal/scholar/translation/bookfactory/video; PARENT-CONTRACT and
+   FORMAL-MCP specs frozen; 8 gateway tests green.
+4. **Layer names for callers.** `layer-names.json` maps internal codes to
+   public slugs (literal-gloss, argument-map, …); callers never see `l0`.
+5. **Docs are now measurable.** MODULES.md (every repo + gate), ROADMAP.md
+   (five rungs with done-gates), REVIEW-2026-11-08.md (staleness register).
+
+### Corrected open items (supersede 11-06 wording)
+
+- Variety 1 = **PUSHBACK done; Zenodo token still the only gate** (was
+  "PUSHBACK + token pending").
+- Formal rungs = work the **published gap list** (phr-p05 head → VBT
+  clusters → tsa08 remainder); next prereg already exists
+  (`PREREGISTRATION-PHR-RUNG.md`).
+- Witnesses = still **0 corpus-wide**; WITNESS-OCR is a proposal doc, not a
+  wired pipeline. NGMPP eyes remain the only path.
+- Hygiene = disk **98% (1.7G)**, branch `box/peer-review-batch` dirty,
+  nightly cron still not installed (owner call), R2/Go rotation unconfirmed.
+
+### Rule reaffirmed for the next agent
+
+Only the 11-07/11-08 measured docs are canonical for numbers. Anything older
+that quotes a count is reference, not evidence. Never re-quote a headline
+without `bytes + hash + where to re-fetch`.
