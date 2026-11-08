@@ -1,10 +1,10 @@
 {
- "measured_at": "2026-11-08T05:33:43Z",
+ "measured_at": "2026-11-08T05:50:55Z",
  "git": {
   "trika-x": {
-   "rev": "2c83925",
+   "rev": "b9724e7",
    "branch": "box/peer-review-batch",
-   "dirty": 113
+   "dirty": 924
   },
   "openpatala": {
    "rev": "7af046d",
@@ -59,6 +59,18 @@
    "witnesses": "UNPINNED"
   },
   "command": "python3 formal-trika/tools/bridge_resolve.py --check --tw /root/translation-work"
+ },
+ "trika_traces": {
+  "value": {
+   "count": 909,
+   "verdicts": {
+    "COMPLETE": 236,
+    "PARTIAL": 673
+   },
+   "errors": 0
+  },
+  "command": "python3 formal-trika/tools/trace_all.py --index-only",
+  "source_sha256": "5ddf008578f53a69bf0c6cca18b60d4146cefca3c76a13e2a0ea152d7e10e3d5"
  },
  "svread_traces": {
   "value": 13,

@@ -144,6 +144,20 @@ def svread_traces() -> dict:
                       "cat /root/svread/data/traces/index.json")
 
 
+def trika_traces() -> dict:
+    idx = REPO / "formal-trika" / "data" / "traces" / "index.json"
+    try:
+        d = json.load(open(idx))
+        return metric({"count": d.get("count"),
+                       "verdicts": d.get("verdicts", {}),
+                       "errors": len(d.get("errors", []))},
+                      "python3 formal-trika/tools/trace_all.py --index-only",
+                      sha256_file(idx))
+    except Exception as e:  # noqa: BLE001
+        return metric({"status": "BLOCKED", "reason": str(e)[:120]},
+                      "python3 formal-trika/tools/trace_all.py --index-only")
+
+
 def svread_source_map() -> dict:
     p = SVREAD / "source-map.json"
     try:
@@ -208,6 +222,7 @@ def gather() -> dict:
         "bridge": metric(parse_bridge(),
                          "python3 formal-trika/tools/bridge_resolve.py --check "
                          f"--tw {TW}"),
+        "trika_traces": trika_traces(),
         "svread_traces": svread_traces(),
         "svread_source_map": svread_source_map(),
         "svread_surface": svread_surface(),
@@ -215,8 +230,9 @@ def gather() -> dict:
 
 
 def stable(d: dict) -> dict:
-    """Metric values only — context (timestamps, revs, dirt) is not a claim."""
-    skip = {"measured_at", "git"}
+    """Metric values only — context (timestamps, revs, dirt, free disk) is not
+    a claim. Disk is environment, not data; it is reported but never gates."""
+    skip = {"measured_at", "git", "disk"}
     out = {}
     for k, v in d.items():
         if k in skip:
