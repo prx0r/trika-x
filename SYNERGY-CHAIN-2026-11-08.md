@@ -141,6 +141,9 @@ re-fetch**. A hop that cannot name its input fails closed.
 - No work starts on a dirty tree. Either commit it (with the regenerating
   command) or stash it with a dated reason. The 2026-11-06 swarm refresh is
   committed under this rule.
+- Before deleting regenerated duplicates, log sha256 of kept vs removed
+  (one line in process notes). "Byte-identical, therefore deleted" is a
+  claim — hash it first (lead review F12, 2026-11-08).
 
 ### Data-sharp ritual (run before every push)
 

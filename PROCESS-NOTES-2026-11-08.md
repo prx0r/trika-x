@@ -387,3 +387,28 @@ table --check rc=0 · bridge BYTES_MATCH (28/154, UNPINNED) · axiom CLEAN
 deterministically (909, 0 errors) · essay_derive rc=0 (6 PARTIAL, 0 BROKEN)
 · openpatala GREEN + 2 recorded BLOCKEDs. Full Lean harness receipt
 (record_run.py, detached) LANDED 2026-11-08T08:46:13Z rev 247d897: exit 0/0/0.
+
+---
+
+## 16. Lead review + repairs (2026-11-08)
+
+Independent reviewer re-ran everything read-only: all 19 commits' numbers
+reproduce (tests 79, evidence 157/155, 16/154 chunks, 909 traces, 882 queue,
+882... — full text in `LEAD-REVIEW-2026-11-08.md`, saved verbatim; ask in
+`REVIEW-REQUEST-2026-11-08.md`). Highest-severity class (number fails to
+reproduce): none found.
+
+Repairs made, all committed here:
+- F13: truncated pushback remainder annotated in-file (dated reviewer note;
+  substance preserved, truncated sentences marked unquotable). Not
+  regenerated — a mock re-render would defeat the cross-family purpose.
+- F12/R4: sha256-before-delete rule added to SYNERGY-CHAIN dirty-tree policy.
+- R5: treeka↔EVIDENCE count cross-check is now a unit test
+  (`test_treeka_matches_evidence_refs`) — next refresh proves itself in CI.
+- R3: Q12 now requires a first DERIVED exemplar before any DOI.
+- R1/R2/R6/R7: accepted as ruled (R-tier only, second-encoder owed before
+  promotion, queue order over count velocity).
+- F5 note: `check.py` prints three BLOCKED lines from two root causes
+  (conformance + adapter-conformance share the upstream adapter gap).
+
+Both review docs committed (ask + verdict) as the permanent record.

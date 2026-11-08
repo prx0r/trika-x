@@ -391,7 +391,7 @@ row closes on intent. `P` = phase (0 hygiene, 1 moat, 2 close loop, 3 scale).
 | Q09 | One VERIFIED witness (NGMPP shelfmark) | W4 | `witness.status = VERIFIED`, trace source hop cites it, UNKNOWN kept elsewhere | owner/scholar | archive access | blocked (human) |
 | Q10 | Layer-accept decision rows at ingest | W5 | unsigned load-bearing decision refused (409) | translation-work lane | lane wiring | pending (other lane) |
 | Q11 | Treeka view live | W5 | gap report queryable: unargued/cruxless/essayless/unformalised | trika-x (+ svread view) | Q05 | pending |
-| Q12 | Variety 1: PUSHBACK default + Zenodo DOI | W6 | PUSHBACK runs pre-review; one DOI resolves and replays to witness | svread + owner | Zenodo token | blocked (token) |
+| Q12 | Variety 1: PUSHBACK default + first DERIVED exemplar + Zenodo DOI | W6 | PUSHBACK runs pre-review; one essay chain goes DERIVED (`essay_derive`); one DOI resolves and replays to witness | svread + owner | Zenodo token | blocked (token; DERIVED exemplar owed first per lead R3) |
 | Q13 | Crux queue + Svatantrya propose loop | W6 | prioritized queue; draft per crux (assisted flagged), audit+PUSHBACK, never auto-sign | trika-x + scholar | Q11, quota | pilot done 2026-11-08: queue 882; param-p02 drafted (qwen) → audit → PUSHBACK (mistral) 2 objections; proposal only |
 | Q14 | Peer-review debt: LEAD 16 flaws + PR #5 scope | W6 | each flaw marked fixed/accepted/rejected with evidence, dated note | trika-x | — | pending |
 | Q15 | Sanskrit `?view=sanskrit` l01 slice | W7 | lesson → locator → bytes → gate replay; ML lines labelled | svread lane | — | pending (spec ready) |
