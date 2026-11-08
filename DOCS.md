@@ -13,6 +13,16 @@ reads, then the gates. Everything else is reference.*
 3. **`SYNERGY-CHAIN-2026-11-08.md` §1–§2** — how the parts compose; what each
    hop creates, carries, and must pass.
 
+**If you are picking up the SEO/GEO build**, skip to
+`/root/svread/HANDOVER-SEO-2026-11-08.md` — it is a self-contained buildable
+handover: state, reuse map, data contracts, 20 todos, page spec, JSON-LD,
+10 traps with file:line, commands, and the domain-cutover runbook. Its
+research basis is `docs/AI-DISCOVERABILITY-2026-11-08.md`; the execution
+spec is `svread/SEO-GEO-PLAN-2026-11-08.md`.
+
+**If you are an external reviewer**, read `docs/REVIEW-BRIEF-2026-11-08.md`
+(what to check, what is not done, what is messy, what needs insight).
+
 Then run the gates (§3). If any gate fails, the docs are stale — fix the
 number, never the gate.
 
