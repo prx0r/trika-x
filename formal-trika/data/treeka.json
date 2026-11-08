@@ -15757,9 +15757,11 @@
    ],
    "cruxes": 1,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Vbt.lean :: forms_eight"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-WORK"
   },
@@ -15779,9 +15781,11 @@
    ],
    "cruxes": 0,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Vbt.lean :: coords_three"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-WORK"
   },
@@ -18034,8 +18038,6 @@
    "tantrasara-a22:tsa22-p01",
    "tantrasara-a22:tsa22-p02",
    "tantrasara-a22:tsa22-p03",
-   "vbt:vbt-p01",
-   "vbt:vbt-p02",
    "vbt:vbt-p03",
    "vbt:vbt-p04",
    "vbt:vbt-p05",
@@ -18072,6 +18074,6 @@
   "unargued": 578,
   "cruxless": 123,
   "essayless": 331,
-  "no_formal_reference": 895
+  "no_formal_reference": 893
  }
 }

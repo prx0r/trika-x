@@ -1591,6 +1591,34 @@
    "r_sources": [
     "UPAYA-CRITERIA.md (experience criteria)"
    ]
+  },
+  "Vbt.lean :: coords_three": {
+   "chunks": [
+    {
+     "locator": "vbt-p02",
+     "note": "dik/kāla/kalanā; C1 enumerates three",
+     "status": "SPAN-PINNED",
+     "tier": "R",
+     "via": "L2+C1"
+    }
+   ],
+   "kind": "KEY",
+   "lived": [],
+   "r_sources": []
+  },
+  "Vbt.lean :: forms_eight": {
+   "chunks": [
+    {
+     "locator": "vbt-p01",
+     "note": "8 candidate-form terms, opening question",
+     "status": "SPAN-PINNED",
+     "tier": "R",
+     "via": "ARGMAP+L2+C1"
+    }
+   ],
+   "kind": "KEY",
+   "lived": [],
+   "r_sources": []
   }
  },
  "exemptions": {

@@ -1,10 +1,10 @@
 {
- "measured_at": "2026-11-08T06:33:37Z",
+ "measured_at": "2026-11-08T08:43:59Z",
  "git": {
   "trika-x": {
-   "rev": "ab5dfcc",
+   "rev": "aad2be1",
    "branch": "box/peer-review-batch",
-   "dirty": 3
+   "dirty": 17
   },
   "openpatala": {
    "rev": "7af046d",
@@ -19,8 +19,8 @@
  },
  "disk": {
   "value": {
-   "free_gb": 1.38,
-   "used_pct": 97.2
+   "free_gb": 3.89,
+   "used_pct": 94.1
   },
   "command": "df -h /"
  },
@@ -40,12 +40,12 @@
  },
  "formal_evidence": {
   "value": {
-   "theorems": 155,
-   "entries": 153,
+   "theorems": 157,
+   "entries": 155,
    "exemptions": 2,
-   "chunk_refs_resolve": 55,
+   "chunk_refs_resolve": 57,
    "chunk_refs_bad": 0,
-   "direct_refs": 14,
+   "direct_refs": 16,
    "total_chunks": 154,
    "status": "MEASURED"
   },
@@ -71,6 +71,13 @@
   },
   "command": "python3 formal-trika/tools/trace_all.py --index-only",
   "source_sha256": "5ddf008578f53a69bf0c6cca18b60d4146cefca3c76a13e2a0ea152d7e10e3d5"
+ },
+ "trika_essays": {
+  "value": {
+   "status": "BLOCKED",
+   "reason": "Expecting value: line 1 column 1 (char 0)"
+  },
+  "command": "python3 formal-trika/tools/essay_derive.py --json"
  },
  "svread_traces": {
   "value": 13,

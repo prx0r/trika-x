@@ -158,6 +158,22 @@ def trika_traces() -> dict:
                       "python3 formal-trika/tools/trace_all.py --index-only")
 
 
+def trika_essays() -> dict:
+    import subprocess
+    cmd = [__import__("sys").executable,
+           str(HERE / "formal-trika" / "tools" / "essay_derive.py"), "--json"]
+    try:
+        out = subprocess.run(cmd, capture_output=True, text=True,
+                             timeout=120, cwd=REPO).stdout
+        d = json.loads(out)
+        return metric({"count": d.get("count"),
+                       "verdicts": d.get("verdicts", {})},
+                      "python3 formal-trika/tools/essay_derive.py --json")
+    except Exception as e:  # noqa: BLE001
+        return metric({"status": "BLOCKED", "reason": str(e)[:120]},
+                      "python3 formal-trika/tools/essay_derive.py --json")
+
+
 def svread_source_map() -> dict:
     p = SVREAD / "source-map.json"
     try:
@@ -223,6 +239,7 @@ def gather() -> dict:
                          "python3 formal-trika/tools/bridge_resolve.py --check "
                          f"--tw {TW}"),
         "trika_traces": trika_traces(),
+        "trika_essays": trika_essays(),
         "svread_traces": svread_traces(),
         "svread_source_map": svread_source_map(),
         "svread_surface": svread_surface(),

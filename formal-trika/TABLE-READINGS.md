@@ -470,3 +470,9 @@ Two grants, no third: grasp and agency, each its own joint.
 
 ## Correction.lean :: grasp_first
 Grasp comes first: the order in-chunk starts with reflexivity, then agency.
+
+## Vbt.lean :: forms_eight
+Eight offered forms, each its own: word-heap, nine-self, three-head, power-triad, nāda-drop, moon-crescent, wheel, unsmeared — the opening question's whole inventory, counted and distinct.
+
+## Vbt.lean :: coords_three
+No direction, no time, no counting: three coordinates refused, each its own.

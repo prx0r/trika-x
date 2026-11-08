@@ -360,3 +360,19 @@ CITED; audit 12 checks; receipt `robo-param-p02-2026-11-08-071651.receipt.json`.
 entries for these locators — correctly refused as authority.
 Files: draft + receipt + `.pushback.md`, all MACHINE-PROPOSED, owner +
 scholar dispose. No signoff, no publish. Quota spent: none (CF free neurons).
+
+---
+
+## 14. N05/N06 — VBT rungs (2026-11-08)
+
+P-VBT1 (prereg `PREREGISTRATION-VBT-RUNG.md`): opening question banks
+exactly 8 candidate-form terms (ARGMAP roster + L2 v.2–v.4 + C1).
+`control/Vbt.lean`, twin `BrokenVbtSeven` (drop anacka) refuses.
+P-VBT2 (`PREREGISTRATION-VBT2-RUNG.md`): p02 frees exactly 3 coordinates
+(dik/kāla/kalanā; L2 v.14 + C1 SUMMARY enumeration). Twin
+`BrokenVbtTwoCoords` refuses. Rejected this session: "p02 negates the 8
+p01 terms" — false on held spans (v.11 also negates bhairava; kalā not
+explicitly negated); recorded in the prereg so it stays dead.
+Coverage now 157 theorems / 155 entries, 16/154 chunks (10%);
+unformalised 893; queue head vbt-p03. Full harness receipt running
+detached; commit lands with the receipt.

@@ -331,6 +331,47 @@ reported with its denominator and its replay path.
 
 ---
 
+## 16. NORTHSTAR — everything derivable from Sanskrit to essays (2026-11-08)
+
+**The northstar:** every essay in the estate resolves to Sanskrit bytes
+through a machine-checked chain — essay claim → chunk locator → layer bytes
+→ trace bundle → source bytes + witness status. Anything that does not
+resolve is labelled PARTIAL or BROKEN, never shipped, never signed.
+
+**Honest status against the northstar (measured 2026-11-08):**
+
+- openpatala is NOT fully done: adapters discover nothing (upstream gap),
+  witnesses 0 corpus-wide, 81/87 works unbridged, DEV-PLAN phases 1.1–1.8
+  open. It is an honest working root (555 works / 909 passages, gated),
+  not a complete identity system.
+- trika-x is NOT fully done: 155 theorems over 14/154 chunks (9%); 895/909
+  passages without registry refs; no witnesses; human gates open.
+- trika-x CAN serve as the foundation for essays and peer review TODAY for
+  the machine side: essay gate (`essay_check`), claim tables, audit_draft,
+  PUSHBACK, review packets, Core promotion refused without authenticated
+  review. What it cannot do alone: verse-pin chunks (chunk↔verse map, lane),
+  sign layer decisions (lane), witness anything (archive), or rule (humans).
+
+**The 10-item derivability queue (all autonomous — no owner, lane, or quota):**
+
+| ID | Item | Done means |
+|---|---|---|
+| N01 | `essay_derive.py` chain audit | every essay claim carries chunk → layer → trace → source-bytes status |
+| N02 | Derivation audit over all compiled essays | DERIVED/PARTIAL/BROKEN per essay; machine-fixable breaks fixed |
+| N03 | Candidate chunk↔verse map (read-only, trika-x side) | verse ranges for every chunk, all CANDIDATE, lane disposes |
+| N04 | Decision-trail audit across works | unsigned load-bearing decisions listed per work |
+| N05 | VBT-cluster rung P-VBT1 (8 candidate forms) | prereg → model → twin → EVIDENCE + TABLE | done 2026-11-08: Vbt.lean, twin refused |
+| N06 | Second rung P-VBT2 (3 unpointability coordinates) | same discipline | done 2026-11-08: twin refused; negation-count variant rejected on held spans |
+| N07 | Machine review packets for top queued cruxes | audit + PUSHBACK queued; rulings stay human |
+| N08 | Essay seeds for top queue items | machine-proposed, labelled, never canonical |
+| N09 | Freshness tracks essay-derivation metrics | derived/partial/broken counts in the ledger |
+| N10 | Full regression battery + log | every gate green in one archived run |
+
+Rule: no essay, seed, packet, or rung ships a claim its chain cannot
+produce. The chain is the product; the prose is its rendering.
+
+---
+
 ## 12. The 20-item execution queue (2026-11-08)
 
 Single ordered queue. IDs are stable — refer to them in commits and process

@@ -25,6 +25,7 @@ fi
 "$LEAN" -DwarningAsError=true Spanda.lean || exit 1
 "$LEAN" -DwarningAsError=true Rasa.lean || exit 1
 "$LEAN" -DwarningAsError=true Phrdaya.lean || exit 1
+"$LEAN" -DwarningAsError=true Vbt.lean || exit 1
 "$LEAN" -DwarningAsError=true Correction.lean || exit 1
 "$LEAN" -DwarningAsError=true AnswerKey.lean || exit 1
 "$LEAN" -DwarningAsError=true Tattva.lean || exit 1
@@ -80,5 +81,7 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant Br
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrTwoEpithets.lean --theorem epithet_three || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrThreeCloses.lean --theorem closes_four || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Phrdaya.lean --mutant BrokenPhrTwoMeans.lean --theorem means_once || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Vbt.lean --mutant BrokenVbtSeven.lean --theorem forms_eight || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Vbt.lean --mutant BrokenVbtTwoCoords.lean --theorem coords_three || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Correction.lean --mutant BrokenJointsOne.lean --theorem joints_two || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Correction.lean --mutant BrokenJointsSwap.lean --theorem grasp_first || exit 1
