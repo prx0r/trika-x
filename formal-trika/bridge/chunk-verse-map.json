@@ -1,0 +1,2770 @@
+{
+ "chunks_total": 105,
+ "format": "trika-chunk-verse-map/1",
+ "note": "Consolidated CANDIDATE chunk<->verse<->byte maps. Regenerate with tools/chunk_verse_map.py --write. Per-work sources: bridge/chunk-verse-<work>-<date>.json. Nothing here is a verified edition or witness claim.",
+ "works": {
+  "bhairavanukarana": {
+   "chunks": {
+    "bhair-p01": {
+     "byte_end": 1651,
+     "byte_start": 204,
+     "span_shas": [
+      "320565630d68",
+      "9af28d50880f",
+      "a18b36dd867d",
+      "f1e14d155c00",
+      "dee8dec50393",
+      "564c90c732fa",
+      "2393872d5c97",
+      "a8410ef9ec99",
+      "0a17fb59b1f8",
+      "6f15b5e9975d"
+     ],
+     "verse_spans": [
+      "bhair-p01-v01",
+      "bhair-p01-v02",
+      "bhair-p01-v03",
+      "bhair-p01-v04",
+      "bhair-p01-v05",
+      "bhair-p01-v06",
+      "bhair-p01-v07",
+      "bhair-p01-v08",
+      "bhair-p01-v09",
+      "bhair-p01-v10"
+     ],
+     "verses": "1-10"
+    },
+    "bhair-p02": {
+     "byte_end": 3068,
+     "byte_start": 1651,
+     "span_shas": [
+      "8ca2af59349d",
+      "c8ba8ce05dcc",
+      "cdede073d601",
+      "257e456bf655",
+      "10bcf8ff7a57",
+      "b946a9373455",
+      "9d730c014a5e",
+      "905f48e0eb4b",
+      "0af97aa50af2",
+      "bc03b2ebd9f9"
+     ],
+     "verse_spans": [
+      "bhair-p02-v11",
+      "bhair-p02-v12",
+      "bhair-p02-v13",
+      "bhair-p02-v14",
+      "bhair-p02-v15",
+      "bhair-p02-v16",
+      "bhair-p02-v17",
+      "bhair-p02-v18",
+      "bhair-p02-v19",
+      "bhair-p02-v20"
+     ],
+     "verses": "11-20"
+    },
+    "bhair-p03": {
+     "byte_end": 4468,
+     "byte_start": 3068,
+     "span_shas": [
+      "97c25066424b",
+      "f1bb02604a20",
+      "1b1dc7ed801f",
+      "3866e1894b5b",
+      "6742f4e13190",
+      "71a13bc54cb8",
+      "6eb52c197cbe",
+      "b9b20ecdad11",
+      "82bc3c565cea",
+      "d8ee07404a24"
+     ],
+     "verse_spans": [
+      "bhair-p03-v21",
+      "bhair-p03-v22",
+      "bhair-p03-v23",
+      "bhair-p03-v24",
+      "bhair-p03-v25",
+      "bhair-p03-v26",
+      "bhair-p03-v27",
+      "bhair-p03-v28",
+      "bhair-p03-v29",
+      "bhair-p03-v30"
+     ],
+     "verses": "21-30"
+    },
+    "bhair-p04": {
+     "byte_end": 5849,
+     "byte_start": 4468,
+     "span_shas": [
+      "b9334eb6b8fd",
+      "ce21a596e4ec",
+      "f22ca1b640bc",
+      "a2bdb21acabe",
+      "e61e868dc56e",
+      "ae59fe5a889c",
+      "56274056eaa8",
+      "5b142a9f1a6f",
+      "8f5edc958828",
+      "8784001c78f2"
+     ],
+     "verse_spans": [
+      "bhair-p04-v31",
+      "bhair-p04-v32",
+      "bhair-p04-v33",
+      "bhair-p04-v34",
+      "bhair-p04-v35",
+      "bhair-p04-v36",
+      "bhair-p04-v37",
+      "bhair-p04-v38",
+      "bhair-p04-v39",
+      "bhair-p04-v40"
+     ],
+     "verses": "31-40"
+    },
+    "bhair-p05": {
+     "byte_end": 6932,
+     "byte_start": 5849,
+     "span_shas": [
+      "dacbf2cff371",
+      "bba255610991",
+      "ef9231c69dbf",
+      "553d50e17c28",
+      "51cf1898e5f1",
+      "c388bb2371af",
+      "d7cfce42b7a0",
+      "69bb1b586db7"
+     ],
+     "verse_spans": [
+      "bhair-p05-v41",
+      "bhair-p05-v42",
+      "bhair-p05-v43",
+      "bhair-p05-v44",
+      "bhair-p05-v45",
+      "bhair-p05-v46",
+      "bhair-p05-v47",
+      "bhair-p05-v48"
+     ],
+     "verses": "41-48"
+    }
+   },
+   "manifests": [
+    "ksemaraja-bhairavanukarana.json"
+   ],
+   "source_file": "chunk-verse-bhairavanukarana-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "bodhapancadasika": {
+   "chunks": {
+    "bod-p01": {
+     "byte_end": 338,
+     "byte_start": 223,
+     "span_shas": [
+      "66271581d9da"
+     ],
+     "verse_spans": [
+      "bod-p01-v01"
+     ],
+     "verses": "1"
+    },
+    "bod-p02": {
+     "byte_end": 461,
+     "byte_start": 338,
+     "span_shas": [
+      "eb8f6f89d0d9"
+     ],
+     "verse_spans": [
+      "bod-p02-v02"
+     ],
+     "verses": "2"
+    },
+    "bod-p03": {
+     "byte_end": 579,
+     "byte_start": 461,
+     "span_shas": [
+      "7b8bebca25c3"
+     ],
+     "verse_spans": [
+      "bod-p03-v03"
+     ],
+     "verses": "3"
+    },
+    "bod-p04": {
+     "byte_end": 702,
+     "byte_start": 579,
+     "span_shas": [
+      "1a783a5c2319"
+     ],
+     "verse_spans": [
+      "bod-p04-v04"
+     ],
+     "verses": "4"
+    },
+    "bod-p05": {
+     "byte_end": 829,
+     "byte_start": 702,
+     "span_shas": [
+      "e26b57e358af"
+     ],
+     "verse_spans": [
+      "bod-p05-v05"
+     ],
+     "verses": "5"
+    },
+    "bod-p06": {
+     "byte_end": 961,
+     "byte_start": 829,
+     "span_shas": [
+      "b324424d9d79"
+     ],
+     "verse_spans": [
+      "bod-p06-v06"
+     ],
+     "verses": "6"
+    },
+    "bod-p07": {
+     "byte_end": 1071,
+     "byte_start": 961,
+     "span_shas": [
+      "d2e2d01bb4d9"
+     ],
+     "verse_spans": [
+      "bod-p07-v07"
+     ],
+     "verses": "7"
+    },
+    "bod-p08": {
+     "byte_end": 1191,
+     "byte_start": 1071,
+     "span_shas": [
+      "7cdb7b6adc75"
+     ],
+     "verse_spans": [
+      "bod-p08-v08"
+     ],
+     "verses": "8"
+    },
+    "bod-p09": {
+     "byte_end": 1324,
+     "byte_start": 1191,
+     "span_shas": [
+      "6f337884237a"
+     ],
+     "verse_spans": [
+      "bod-p09-v09"
+     ],
+     "verses": "9"
+    },
+    "bod-p10": {
+     "byte_end": 1451,
+     "byte_start": 1324,
+     "span_shas": [
+      "5b6e978fda0a"
+     ],
+     "verse_spans": [
+      "bod-p10-v10"
+     ],
+     "verses": "10"
+    },
+    "bod-p11": {
+     "byte_end": 1584,
+     "byte_start": 1451,
+     "span_shas": [
+      "34ab12ffed60"
+     ],
+     "verse_spans": [
+      "bod-p11-v11"
+     ],
+     "verses": "11"
+    },
+    "bod-p12": {
+     "byte_end": 1698,
+     "byte_start": 1584,
+     "span_shas": [
+      "04836fb3ae1e"
+     ],
+     "verse_spans": [
+      "bod-p12-v12"
+     ],
+     "verses": "12"
+    },
+    "bod-p13": {
+     "byte_end": 1839,
+     "byte_start": 1698,
+     "span_shas": [
+      "4674f91bbd63"
+     ],
+     "verse_spans": [
+      "bod-p13-v13"
+     ],
+     "verses": "13"
+    },
+    "bod-p14": {
+     "byte_end": 1953,
+     "byte_start": 1839,
+     "span_shas": [
+      "980416f21173"
+     ],
+     "verse_spans": [
+      "bod-p14-v14"
+     ],
+     "verses": "14"
+    },
+    "bod-p15": {
+     "byte_end": 2082,
+     "byte_start": 1953,
+     "span_shas": [
+      "e7f9e3024b0d"
+     ],
+     "verse_spans": [
+      "bod-p15-v15"
+     ],
+     "verses": "15"
+    }
+   },
+   "manifests": [
+    "abhinavagupta-bodhapaJcadasika.json"
+   ],
+   "source_file": "chunk-verse-bodhapancadasika-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "kramastotra": {
+   "chunks": {
+    "kram-p01": {
+     "byte_end": 421,
+     "byte_start": 199,
+     "span_shas": [
+      "ccc97315e79d"
+     ],
+     "verse_spans": [
+      "kram-p01-v01"
+     ],
+     "verses": "1"
+    },
+    "kram-p02": {
+     "byte_end": 663,
+     "byte_start": 421,
+     "span_shas": [
+      "88e92d20930a"
+     ],
+     "verse_spans": [
+      "kram-p02-v02"
+     ],
+     "verses": "2"
+    },
+    "kram-p03": {
+     "byte_end": 912,
+     "byte_start": 663,
+     "span_shas": [
+      "beb748e1939a"
+     ],
+     "verse_spans": [
+      "kram-p03-v03"
+     ],
+     "verses": "3"
+    },
+    "kram-p04": {
+     "byte_end": 1142,
+     "byte_start": 912,
+     "span_shas": [
+      "aadba669d866"
+     ],
+     "verse_spans": [
+      "kram-p04-v04"
+     ],
+     "verses": "4"
+    },
+    "kram-p05": {
+     "byte_end": 1360,
+     "byte_start": 1142,
+     "span_shas": [
+      "160e9c999e60"
+     ],
+     "verse_spans": [
+      "kram-p05-v05"
+     ],
+     "verses": "5"
+    },
+    "kram-p06": {
+     "byte_end": 1594,
+     "byte_start": 1360,
+     "span_shas": [
+      "54c8d2414876"
+     ],
+     "verse_spans": [
+      "kram-p06-v06"
+     ],
+     "verses": "6"
+    },
+    "kram-p07": {
+     "byte_end": 1836,
+     "byte_start": 1594,
+     "span_shas": [
+      "9ac1dd293e46"
+     ],
+     "verse_spans": [
+      "kram-p07-v07"
+     ],
+     "verses": "7"
+    },
+    "kram-p08": {
+     "byte_end": 2061,
+     "byte_start": 1836,
+     "span_shas": [
+      "908baece66cb"
+     ],
+     "verse_spans": [
+      "kram-p08-v08"
+     ],
+     "verses": "8"
+    },
+    "kram-p09": {
+     "byte_end": 2298,
+     "byte_start": 2061,
+     "span_shas": [
+      "50e453a3984c"
+     ],
+     "verse_spans": [
+      "kram-p09-v09"
+     ],
+     "verses": "9"
+    },
+    "kram-p10": {
+     "byte_end": 2529,
+     "byte_start": 2298,
+     "span_shas": [
+      "2a192999c397"
+     ],
+     "verse_spans": [
+      "kram-p10-v10"
+     ],
+     "verses": "10"
+    },
+    "kram-p11": {
+     "byte_end": 2761,
+     "byte_start": 2529,
+     "span_shas": [
+      "78e9d30c9862"
+     ],
+     "verse_spans": [
+      "kram-p11-v11"
+     ],
+     "verses": "11"
+    },
+    "kram-p12": {
+     "byte_end": 3005,
+     "byte_start": 2761,
+     "span_shas": [
+      "d017b49aa6e7"
+     ],
+     "verse_spans": [
+      "kram-p12-v12"
+     ],
+     "verses": "12"
+    },
+    "kram-p13": {
+     "byte_end": 3240,
+     "byte_start": 3005,
+     "span_shas": [
+      "5cf254713ddb"
+     ],
+     "verse_spans": [
+      "kram-p13-v13"
+     ],
+     "verses": "13"
+    },
+    "kram-p14": {
+     "byte_end": 3496,
+     "byte_start": 3240,
+     "span_shas": [
+      "b8b15b97f2be"
+     ],
+     "verse_spans": [
+      "kram-p14-v14"
+     ],
+     "verses": "14"
+    },
+    "kram-p15": {
+     "byte_end": 3735,
+     "byte_start": 3496,
+     "span_shas": [
+      "28ec7a7a3828"
+     ],
+     "verse_spans": [
+      "kram-p15-v15"
+     ],
+     "verses": "15"
+    },
+    "kram-p16": {
+     "byte_end": 3973,
+     "byte_start": 3735,
+     "span_shas": [
+      "11835b2c8d51"
+     ],
+     "verse_spans": [
+      "kram-p16-v16"
+     ],
+     "verses": "16"
+    },
+    "kram-p17": {
+     "byte_end": 4221,
+     "byte_start": 3973,
+     "span_shas": [
+      "67f011802e8d"
+     ],
+     "verse_spans": [
+      "kram-p17-v17"
+     ],
+     "verses": "17"
+    },
+    "kram-p18": {
+     "byte_end": 4480,
+     "byte_start": 4221,
+     "span_shas": [
+      "7a2a23cb824c"
+     ],
+     "verse_spans": [
+      "kram-p18-v18"
+     ],
+     "verses": "18"
+    },
+    "kram-p19": {
+     "byte_end": 4711,
+     "byte_start": 4480,
+     "span_shas": [
+      "c567fe276513"
+     ],
+     "verse_spans": [
+      "kram-p19-v19"
+     ],
+     "verses": "19"
+    },
+    "kram-p20": {
+     "byte_end": 4944,
+     "byte_start": 4711,
+     "span_shas": [
+      "76f290427467"
+     ],
+     "verse_spans": [
+      "kram-p20-v20"
+     ],
+     "verses": "20"
+    },
+    "kram-p21": {
+     "byte_end": 5194,
+     "byte_start": 4944,
+     "span_shas": [
+      "015a3767ba2a"
+     ],
+     "verse_spans": [
+      "kram-p21-v21"
+     ],
+     "verses": "21"
+    },
+    "kram-p22": {
+     "byte_end": 5441,
+     "byte_start": 5194,
+     "span_shas": [
+      "1f81484175d7"
+     ],
+     "verse_spans": [
+      "kram-p22-v22"
+     ],
+     "verses": "22"
+    },
+    "kram-p23": {
+     "byte_end": 5678,
+     "byte_start": 5441,
+     "span_shas": [
+      "436557b935bc"
+     ],
+     "verse_spans": [
+      "kram-p23-v23"
+     ],
+     "verses": "23"
+    },
+    "kram-p24": {
+     "byte_end": 5899,
+     "byte_start": 5678,
+     "span_shas": [
+      "ec2c33ae5e82"
+     ],
+     "verse_spans": [
+      "kram-p24-v24"
+     ],
+     "verses": "24"
+    },
+    "kram-p25": {
+     "byte_end": 6122,
+     "byte_start": 5899,
+     "span_shas": [
+      "61895c7e39b1"
+     ],
+     "verse_spans": [
+      "kram-p25-v25"
+     ],
+     "verses": "25"
+    },
+    "kram-p26": {
+     "byte_end": 6344,
+     "byte_start": 6122,
+     "span_shas": [
+      "fb7a7dfb09a7"
+     ],
+     "verse_spans": [
+      "kram-p26-v26"
+     ],
+     "verses": "26"
+    },
+    "kram-p27": {
+     "byte_end": 6594,
+     "byte_start": 6344,
+     "span_shas": [
+      "42978ab01fef"
+     ],
+     "verse_spans": [
+      "kram-p27-v27"
+     ],
+     "verses": "27"
+    },
+    "kram-p28": {
+     "byte_end": 6760,
+     "byte_start": 6594,
+     "span_shas": [
+      "3c21e4b86ffe"
+     ],
+     "verse_spans": [
+      "kram-p28-v28"
+     ],
+     "verses": "28"
+    },
+    "kram-p29": {
+     "byte_end": 6960,
+     "byte_start": 6760,
+     "span_shas": [
+      "42a2c62cf6fc"
+     ],
+     "verse_spans": [
+      "kram-p29-v29"
+     ],
+     "verses": "29"
+    },
+    "kram-p30": {
+     "byte_end": 7079,
+     "byte_start": 6961,
+     "span_shas": [
+      "fe9662ba4a9d"
+     ],
+     "verse_spans": [
+      "kram-p30-v30"
+     ],
+     "verses": "30"
+    }
+   },
+   "manifests": [
+    "kramastotra.json"
+   ],
+   "source_file": "chunk-verse-kramastotra-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "paramarthasara": {
+   "chunks": {
+    "param-p01": {
+     "byte_end": 1590,
+     "byte_start": 378,
+     "span_shas": [
+      "9840d77dc71a",
+      "dd02361f74fa",
+      "fcb27069bcd3",
+      "66c22c6f16ff",
+      "697fbe4bb144",
+      "bee59e350609",
+      "308d9e6bdcd8",
+      "8953f00e0928",
+      "e4955c2711f7"
+     ],
+     "verse_spans": [
+      "param-p01-v02",
+      "param-p01-v03",
+      "param-p01-v04",
+      "param-p01-v05",
+      "param-p01-v06",
+      "param-p01-v07",
+      "param-p01-v08",
+      "param-p01-v09",
+      "param-p01-v10"
+     ],
+     "verses": "2-10"
+    },
+    "param-p02": {
+     "byte_end": 2782,
+     "byte_start": 1590,
+     "span_shas": [
+      "7cfdf548f76d",
+      "32bc822346ca",
+      "469aa10120cf",
+      "b2d4a050ca9e",
+      "2d3cc1dad26b",
+      "a3d1bc5c3427",
+      "f47e0bee1cf4",
+      "74cdfed90e3b",
+      "aadd05d529dc"
+     ],
+     "verse_spans": [
+      "param-p02-v11",
+      "param-p02-v12",
+      "param-p02-v13",
+      "param-p02-v14",
+      "param-p02-v15",
+      "param-p02-v16",
+      "param-p02-v17",
+      "param-p02-v18",
+      "param-p02-v19"
+     ],
+     "verses": "11-19"
+    },
+    "param-p03": {
+     "byte_end": 3995,
+     "byte_start": 2782,
+     "span_shas": [
+      "9a369c56dac7",
+      "d72bd172cadd",
+      "34f84a7c8d6f",
+      "c4c75b118d12",
+      "2bc65484fcf1",
+      "de1c6dd41f2c",
+      "9d4e8c6e9d51",
+      "d9fb3f5c8e3b",
+      "866ab25cc61c"
+     ],
+     "verse_spans": [
+      "param-p03-v20",
+      "param-p03-v21",
+      "param-p03-v22",
+      "param-p03-v23",
+      "param-p03-v24",
+      "param-p03-v25",
+      "param-p03-v26",
+      "param-p03-v27",
+      "param-p03-v28"
+     ],
+     "verses": "20-28"
+    },
+    "param-p04": {
+     "byte_end": 5189,
+     "byte_start": 3995,
+     "span_shas": [
+      "3ad765f29e1e",
+      "9bd4debd2fb2",
+      "a463d6a58a89",
+      "b0ff467473d9",
+      "a5e6a1956611",
+      "31d61a49124f",
+      "38213339a9d5",
+      "afaa4084118f",
+      "323d86183599"
+     ],
+     "verse_spans": [
+      "param-p04-v29",
+      "param-p04-v30",
+      "param-p04-v31",
+      "param-p04-v32",
+      "param-p04-v33",
+      "param-p04-v34",
+      "param-p04-v35",
+      "param-p04-v36",
+      "param-p04-v37"
+     ],
+     "verses": "29-37"
+    },
+    "param-p05": {
+     "byte_end": 6382,
+     "byte_start": 5189,
+     "span_shas": [
+      "0d17f8e0fd69",
+      "665950e2e651",
+      "9f9163f0101b",
+      "8117d02e0175",
+      "f6a926bc389e",
+      "85b06a1eb797",
+      "e41b9cd463d1",
+      "1291ae29bb80",
+      "f0bb2ed68d84"
+     ],
+     "verse_spans": [
+      "param-p05-v38",
+      "param-p05-v39",
+      "param-p05-v40",
+      "param-p05-v41",
+      "param-p05-v42",
+      "param-p05-v43",
+      "param-p05-v44",
+      "param-p05-v45",
+      "param-p05-v46"
+     ],
+     "verses": "38-46"
+    },
+    "param-p06": {
+     "byte_end": 7558,
+     "byte_start": 6382,
+     "span_shas": [
+      "34a8debb6d9b",
+      "03bac54724ff",
+      "3c412cb8a5f0",
+      "7878839187ef",
+      "8c6544653c3d",
+      "b77ac32f2030",
+      "ae035f96d26a",
+      "52508b18b04e",
+      "9483fdc3c1a9"
+     ],
+     "verse_spans": [
+      "param-p06-v47",
+      "param-p06-v48",
+      "param-p06-v49",
+      "param-p06-v50",
+      "param-p06-v51",
+      "param-p06-v52",
+      "param-p06-v53",
+      "param-p06-v54",
+      "param-p06-v55"
+     ],
+     "verses": "47-55"
+    },
+    "param-p07": {
+     "byte_end": 8724,
+     "byte_start": 7558,
+     "span_shas": [
+      "889762a2ba0b",
+      "0a897fd643fc",
+      "171531d9920e",
+      "9db58a2ed9ae",
+      "23007a6a0ad0",
+      "77afd42c74ad",
+      "1ff6de239ab7",
+      "92de72f4e757",
+      "b10b59d0cd6a"
+     ],
+     "verse_spans": [
+      "param-p07-v56",
+      "param-p07-v57",
+      "param-p07-v58",
+      "param-p07-v59",
+      "param-p07-v60",
+      "param-p07-v61",
+      "param-p07-v62",
+      "param-p07-v63",
+      "param-p07-v64"
+     ],
+     "verses": "56-64"
+    },
+    "param-p08": {
+     "byte_end": 9924,
+     "byte_start": 8724,
+     "span_shas": [
+      "6a89d95dbd8b",
+      "187f22745abd",
+      "7bd434f5288e",
+      "6aabdc099557",
+      "936d20bd1255",
+      "84d0583bb671",
+      "20ec8a52faaf",
+      "363329295684",
+      "c9b5745bbe83"
+     ],
+     "verse_spans": [
+      "param-p08-v65",
+      "param-p08-v66",
+      "param-p08-v67",
+      "param-p08-v68",
+      "param-p08-v69",
+      "param-p08-v70",
+      "param-p08-v71",
+      "param-p08-v72",
+      "param-p08-v73"
+     ],
+     "verses": "65-73"
+    },
+    "param-p09": {
+     "byte_end": 11163,
+     "byte_start": 9924,
+     "span_shas": [
+      "7249cd9661c8",
+      "1bcae4ee5d97",
+      "73f0e0284a3a",
+      "36bb244c72d6",
+      "ab32e5ae6da1",
+      "90a86ba21bd2",
+      "e6b532e300ca",
+      "6961b12a76ea",
+      "4297c30fbfe0"
+     ],
+     "verse_spans": [
+      "param-p09-v74",
+      "param-p09-v75",
+      "param-p09-v76",
+      "param-p09-v77",
+      "param-p09-v78",
+      "param-p09-v79",
+      "param-p09-v80",
+      "param-p09-v81",
+      "param-p09-v82"
+     ],
+     "verses": "74-82"
+    },
+    "param-p10": {
+     "byte_end": 12400,
+     "byte_start": 11163,
+     "span_shas": [
+      "05d159197bae",
+      "9506d2d780e8",
+      "7eddfdb773ed",
+      "6351a55b10bf",
+      "34080930ecbb",
+      "bbeada2a1189",
+      "3ef77c9c6715",
+      "8818697e4f0b",
+      "5cd760874c45"
+     ],
+     "verse_spans": [
+      "param-p10-v83",
+      "param-p10-v84",
+      "param-p10-v85",
+      "param-p10-v86",
+      "param-p10-v87",
+      "param-p10-v88",
+      "param-p10-v89",
+      "param-p10-v90",
+      "param-p10-v91"
+     ],
+     "verses": "83-91"
+    },
+    "param-p11": {
+     "byte_end": 13587,
+     "byte_start": 12400,
+     "span_shas": [
+      "b1301aa0f6da",
+      "b9b07602bb2c",
+      "f3aa12b3d70d",
+      "21bd97e73f72",
+      "760422e395c4",
+      "6cb6e2003db4",
+      "67ef164d1a02",
+      "d9a861efccbd",
+      "824662f7ca78"
+     ],
+     "verse_spans": [
+      "param-p11-v92",
+      "param-p11-v93",
+      "param-p11-v94",
+      "param-p11-v95",
+      "param-p11-v96",
+      "param-p11-v97",
+      "param-p11-v98",
+      "param-p11-v99",
+      "param-p11-v100"
+     ],
+     "verses": "92-100"
+    },
+    "param-p12": {
+     "byte_end": 14247,
+     "byte_start": 13587,
+     "span_shas": [
+      "b08725bceff7",
+      "bd2f72a26f31",
+      "678c662ca4d5",
+      "fb77f21bfb00",
+      "1f306f6a2476"
+     ],
+     "verse_spans": [
+      "param-p12-v101",
+      "param-p12-v102",
+      "param-p12-v103",
+      "param-p12-v104",
+      "param-p12-v105"
+     ],
+     "verses": "101-105"
+    }
+   },
+   "manifests": [
+    "paramarthasara.json"
+   ],
+   "source_file": "chunk-verse-paramarthasara-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a02": {
+   "chunks": {
+    "tsa02-p01": {
+     "byte_end": 5593,
+     "byte_start": 4401,
+     "span_shas": [
+      "a66fee7bf4f4",
+      "47c334350f96",
+      "e30796e841cb",
+      "98a86a18a9dc"
+     ],
+     "verse_spans": [
+      "tsa-a02-v01",
+      "tsa-a02-v02",
+      "tsa-a02-v03",
+      "tsa-a02-v04"
+     ],
+     "verses": "2.1-2.4"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a02-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a03": {
+   "chunks": {
+    "tsa03-p01": {
+     "byte_end": 8670,
+     "byte_start": 5627,
+     "span_shas": [
+      "01d579f0467e",
+      "313714b43cc1",
+      "7bef1c085543",
+      "63907f8ed391",
+      "1a3c826007d8",
+      "9c98cacfacb6",
+      "2267a244121a",
+      "def190ac639d",
+      "f998827c76aa",
+      "be280a396528",
+      "217ee8bc56b1",
+      "9231a924ad42",
+      "5cba6f39232f"
+     ],
+     "verse_spans": [
+      "tsa-a03-v01",
+      "tsa-a03-v02",
+      "tsa-a03-v03",
+      "tsa-a03-v04",
+      "tsa-a03-v05",
+      "tsa-a03-v06",
+      "tsa-a03-v07",
+      "tsa-a03-v08",
+      "tsa-a03-v09",
+      "tsa-a03-v10",
+      "tsa-a03-v11",
+      "tsa-a03-v12",
+      "tsa-a03-v13"
+     ],
+     "verses": "3.1-3.13"
+    },
+    "tsa03-p02": {
+     "byte_end": 11697,
+     "byte_start": 8670,
+     "span_shas": [
+      "51c1f950227d",
+      "6498fc3117c8",
+      "263369d0e737",
+      "b48c96b885b5",
+      "7169002126e4",
+      "d315f2fad2da",
+      "581b6d1ab007",
+      "04dca84caefa",
+      "e34af00f3cf5",
+      "0a82aec9ca34",
+      "8785eb9b5191",
+      "94a7fbe0e0ad",
+      "ee9853638b57",
+      "d4b3c7b7ee2d",
+      "f24eb8fb2f56",
+      "e98b8b0ef846",
+      "016b4f98ecc7",
+      "b8123806ee87",
+      "652c0fd4d613",
+      "e17c72ede393",
+      "6be830e6726a"
+     ],
+     "verse_spans": [
+      "tsa-a03-v14",
+      "tsa-a03-v15",
+      "tsa-a03-v16",
+      "tsa-a03-v17",
+      "tsa-a03-v18",
+      "tsa-a03-v19",
+      "tsa-a03-v20",
+      "tsa-a03-v21",
+      "tsa-a03-v22",
+      "tsa-a03-v23",
+      "tsa-a03-v24",
+      "tsa-a03-v25",
+      "tsa-a03-v26",
+      "tsa-a03-v27",
+      "tsa-a03-v28",
+      "tsa-a03-v29",
+      "tsa-a03-v30",
+      "tsa-a03-v31",
+      "tsa-a03-v32",
+      "tsa-a03-v33",
+      "tsa-a03-v34"
+     ],
+     "verses": "3.14-3.34"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a03-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a04": {
+   "chunks": {
+    "tsa04-p01": {
+     "byte_end": 14792,
+     "byte_start": 11730,
+     "span_shas": [
+      "6ee146d66873",
+      "4535757c8606",
+      "b3a1394cdbfc",
+      "10e5508cd2c1",
+      "3dc5b4fb6861",
+      "d3592ba34606",
+      "0266c97a26b0",
+      "e179aa32a736",
+      "4e33775a098a",
+      "3f34ea71a60e",
+      "55f1a313fb1a",
+      "730675f36a98",
+      "06e81e3675aa",
+      "baa0fe90ab46",
+      "2c371749bd5d",
+      "1dc7160c8001",
+      "34044f830d0f"
+     ],
+     "verse_spans": [
+      "tsa-a04-v01",
+      "tsa-a04-v02",
+      "tsa-a04-v03",
+      "tsa-a04-v04",
+      "tsa-a04-v05",
+      "tsa-a04-v06",
+      "tsa-a04-v07",
+      "tsa-a04-v08",
+      "tsa-a04-v09",
+      "tsa-a04-v10",
+      "tsa-a04-v11",
+      "tsa-a04-v12",
+      "tsa-a04-v13",
+      "tsa-a04-v14",
+      "tsa-a04-v15",
+      "tsa-a04-v16",
+      "tsa-a04-v17"
+     ],
+     "verses": "4.1-4.17"
+    },
+    "tsa04-p02": {
+     "byte_end": 17917,
+     "byte_start": 14792,
+     "span_shas": [
+      "6eaf87bc9896",
+      "d2efa8259d31",
+      "8500fb4c962a",
+      "fb11eb974311",
+      "bb5a206b0ad0",
+      "a9b45683a66e",
+      "e4e560a77f29",
+      "68745305fcd2",
+      "02c233fa2591",
+      "f205fb94b09a",
+      "5722dec66018",
+      "ce67265626d2",
+      "b0e5a8cefab3",
+      "9967ad0588f3",
+      "7df9f5a4806e",
+      "4c6d3bd075bc"
+     ],
+     "verse_spans": [
+      "tsa-a04-v18",
+      "tsa-a04-v19",
+      "tsa-a04-v20",
+      "tsa-a04-v21",
+      "tsa-a04-v22",
+      "tsa-a04-v23",
+      "tsa-a04-v24",
+      "tsa-a04-v25",
+      "tsa-a04-v26",
+      "tsa-a04-v27",
+      "tsa-a04-v28",
+      "tsa-a04-v29",
+      "tsa-a04-v30",
+      "tsa-a04-v31",
+      "tsa-a04-v32",
+      "tsa-a04-v33"
+     ],
+     "verses": "4.18-4.33"
+    },
+    "tsa04-p03": {
+     "byte_end": 21221,
+     "byte_start": 17917,
+     "span_shas": [
+      "7754ed9eca27",
+      "e3865498e560",
+      "799354084afb",
+      "d405b00b51f6",
+      "0ec281277ebd",
+      "2241628a1133",
+      "720c08ffa80c",
+      "e2fce601ccf8",
+      "a4250c9bec2a",
+      "095519d01449",
+      "abbca1df3391",
+      "6618c0cbb1e7",
+      "8bafb4577fb0"
+     ],
+     "verse_spans": [
+      "tsa-a04-v34",
+      "tsa-a04-v35",
+      "tsa-a04-v36",
+      "tsa-a04-v37",
+      "tsa-a04-v38",
+      "tsa-a04-v39",
+      "tsa-a04-v40",
+      "tsa-a04-v41",
+      "tsa-a04-v42",
+      "tsa-a04-v43",
+      "tsa-a04-v44",
+      "tsa-a04-v45",
+      "tsa-a04-v46"
+     ],
+     "verses": "4.34-4.46"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a04-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a05": {
+   "chunks": {
+    "tsa05-p01": {
+     "byte_end": 24605,
+     "byte_start": 21254,
+     "span_shas": [
+      "1473acf50663",
+      "67d63c682010",
+      "9e7446808334",
+      "4d73eb2f81f1",
+      "6bd836818e24",
+      "a3ff2b469f16",
+      "d083206d81a5",
+      "5b137b6b9fc5",
+      "3cc649b27436",
+      "8729640f0484",
+      "518e7df6784b",
+      "fc29977fbffb",
+      "6108c4e267de",
+      "89b2fe7023dc",
+      "489ae8aeac44",
+      "2a34f838dc3a",
+      "28097db03b09",
+      "b6c0ce4352a8",
+      "8ef35c67fa37"
+     ],
+     "verse_spans": [
+      "tsa-a05-v01",
+      "tsa-a05-v02",
+      "tsa-a05-v03",
+      "tsa-a05-v04",
+      "tsa-a05-v05",
+      "tsa-a05-v06",
+      "tsa-a05-v07",
+      "tsa-a05-v08",
+      "tsa-a05-v09",
+      "tsa-a05-v10",
+      "tsa-a05-v11",
+      "tsa-a05-v12",
+      "tsa-a05-v13",
+      "tsa-a05-v14",
+      "tsa-a05-v15",
+      "tsa-a05-v16",
+      "tsa-a05-v17",
+      "tsa-a05-v18",
+      "tsa-a05-v19"
+     ],
+     "verses": "5.1-5.19"
+    },
+    "tsa05-p02": {
+     "byte_end": 27406,
+     "byte_start": 24605,
+     "span_shas": [
+      "0fa66d28e66f",
+      "2985be9a853d",
+      "4aa575f511e5",
+      "629c875ca188",
+      "ae03de2ecd45",
+      "a175f8087a1f",
+      "01a0a6a892dc",
+      "428b9de45827",
+      "918e1e44eaf6",
+      "95487c21021a",
+      "37baae4bc670",
+      "080af17183d5",
+      "f33872fd4af3",
+      "2004416278b0",
+      "a41ca9ed6281",
+      "44b02a8dd2d2",
+      "f9b4ada89d6e",
+      "0dd89aabf720",
+      "fd592c5617d9",
+      "413ee889ce6a",
+      "febb59ba03da",
+      "ff72c7a36ce8",
+      "48dd00af84a0",
+      "a96061aa17dc"
+     ],
+     "verse_spans": [
+      "tsa-a05-v20",
+      "tsa-a05-v21",
+      "tsa-a05-v22",
+      "tsa-a05-v23",
+      "tsa-a05-v24",
+      "tsa-a05-v25",
+      "tsa-a05-v26",
+      "tsa-a05-v27",
+      "tsa-a05-v28",
+      "tsa-a05-v29",
+      "tsa-a05-v30",
+      "tsa-a05-v31",
+      "tsa-a05-v32",
+      "tsa-a05-v33",
+      "tsa-a05-v34",
+      "tsa-a05-v35",
+      "tsa-a05-v36",
+      "tsa-a05-v37",
+      "tsa-a05-v38",
+      "tsa-a05-v39",
+      "tsa-a05-v40",
+      "tsa-a05-v41",
+      "tsa-a05-v42",
+      "tsa-a05-v43"
+     ],
+     "verses": "5.20-5.43"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a05-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a07": {
+   "chunks": {
+    "tsa07-p01": {
+     "byte_end": 42000,
+     "byte_start": 39222,
+     "span_shas": [
+      "81a8a9d67f87",
+      "7c26226c48d9",
+      "a06ad1de67e2",
+      "95631bd90974",
+      "1fc9cdb688ef",
+      "847b0c87b05d",
+      "e39b906eda3c",
+      "b85ec2928a45",
+      "1294b537c588",
+      "e1eaa4b90f25",
+      "97aa633a3814",
+      "964c5f02b57e",
+      "78ac340ae7bc",
+      "fc883fb6dec7",
+      "706317fccc97",
+      "00f44f6d7658",
+      "ea627b155970",
+      "67ab243e0f29",
+      "48b7f8469a52",
+      "aa0253ee495e",
+      "7fd66c802ad1",
+      "c145d7d81a69",
+      "e34ebb294ab5",
+      "888f6093d96b",
+      "2cdc02a3189f",
+      "2314c476e552",
+      "97586e913d4b",
+      "01c812eb1510"
+     ],
+     "verse_spans": [
+      "tsa-a07-v01",
+      "tsa-a07-v02",
+      "tsa-a07-v03",
+      "tsa-a07-v04",
+      "tsa-a07-v05",
+      "tsa-a07-v06",
+      "tsa-a07-v07",
+      "tsa-a07-v08",
+      "tsa-a07-v09",
+      "tsa-a07-v10",
+      "tsa-a07-v11",
+      "tsa-a07-v12",
+      "tsa-a07-v13",
+      "tsa-a07-v14",
+      "tsa-a07-v15",
+      "tsa-a07-v16",
+      "tsa-a07-v17",
+      "tsa-a07-v18",
+      "tsa-a07-v19",
+      "tsa-a07-v20",
+      "tsa-a07-v21",
+      "tsa-a07-v22",
+      "tsa-a07-v23",
+      "tsa-a07-v24",
+      "tsa-a07-v25",
+      "tsa-a07-v26",
+      "tsa-a07-v27",
+      "tsa-a07-v28"
+     ],
+     "verses": "7.1-7.28"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a07-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a08": {
+   "chunks": {
+    "tsa08-p01": {
+     "byte_end": 45157,
+     "byte_start": 42035,
+     "span_shas": [
+      "41b148a1180f",
+      "848d920db07c",
+      "684cbec895de",
+      "44b2fed13903",
+      "6b257352bf34",
+      "3d434c2f515f",
+      "46ffde82e895",
+      "e8c1d88f64bd",
+      "b91697d532df",
+      "b2c56d540a29",
+      "e4ea86f2c093",
+      "a17ee8c01136",
+      "1c86ff48b3f0",
+      "766aab83e90b",
+      "e390bb80591d",
+      "5d562d6785ed",
+      "631207cabace"
+     ],
+     "verse_spans": [
+      "tsa-a08-v01",
+      "tsa-a08-v02",
+      "tsa-a08-v03",
+      "tsa-a08-v04",
+      "tsa-a08-v05",
+      "tsa-a08-v06",
+      "tsa-a08-v07",
+      "tsa-a08-v08",
+      "tsa-a08-v09",
+      "tsa-a08-v10",
+      "tsa-a08-v11",
+      "tsa-a08-v12",
+      "tsa-a08-v13",
+      "tsa-a08-v14",
+      "tsa-a08-v15",
+      "tsa-a08-v16",
+      "tsa-a08-v17"
+     ],
+     "verses": "8.1-8.17"
+    },
+    "tsa08-p02": {
+     "byte_end": 48233,
+     "byte_start": 45157,
+     "span_shas": [
+      "ea8fd370400a",
+      "7652e174b322",
+      "308d2423c8b9",
+      "04b0b63e1fba",
+      "eeac752b2039",
+      "c67623b1234d",
+      "115878281f3c",
+      "a5958a905e1b",
+      "cce75f82392d",
+      "ae09022b87a8",
+      "53f31d553d55",
+      "1eb66654efe2",
+      "0da1fd98dbf9",
+      "0a793176c4dc",
+      "d4adf0f75b91",
+      "a44aa51b81aa",
+      "b85b197f66a3",
+      "fd9ad4445130",
+      "3b2eb514fe26",
+      "21e32c330379",
+      "4b69ff90408a"
+     ],
+     "verse_spans": [
+      "tsa-a08-v18",
+      "tsa-a08-v19",
+      "tsa-a08-v20",
+      "tsa-a08-v21",
+      "tsa-a08-v22",
+      "tsa-a08-v23",
+      "tsa-a08-v24",
+      "tsa-a08-v25",
+      "tsa-a08-v26",
+      "tsa-a08-v27",
+      "tsa-a08-v28",
+      "tsa-a08-v29",
+      "tsa-a08-v30",
+      "tsa-a08-v31",
+      "tsa-a08-v32",
+      "tsa-a08-v33",
+      "tsa-a08-v34",
+      "tsa-a08-v35",
+      "tsa-a08-v36",
+      "tsa-a08-v37",
+      "tsa-a08-v38"
+     ],
+     "verses": "8.18-8.38"
+    },
+    "tsa08-p03": {
+     "byte_end": 51380,
+     "byte_start": 48233,
+     "span_shas": [
+      "34cab88a9796",
+      "394bbe788621",
+      "373ff084c28a",
+      "12a4cac06185",
+      "a28c44b5ea2a",
+      "99dab3dd4df2",
+      "67ae2b10ba98",
+      "34b462b97073",
+      "473541de32c0",
+      "f08ccae4de9b",
+      "b6a8d72e1320",
+      "fc1ca655c035",
+      "30271ccae9f8",
+      "1d03b8abec05",
+      "c185284e8f68",
+      "ecf51a1730f3",
+      "93b0f2f08605",
+      "0bf4494d0eaf",
+      "dac30c8dcabc",
+      "da928552dae0",
+      "c0a1b4a78366",
+      "17e7f8a35c2b",
+      "f6e52c9456d5",
+      "40a2f96dfa35",
+      "7576a9beab46",
+      "f9780fbece55"
+     ],
+     "verse_spans": [
+      "tsa-a08-v39",
+      "tsa-a08-v40",
+      "tsa-a08-v41",
+      "tsa-a08-v42",
+      "tsa-a08-v43",
+      "tsa-a08-v44",
+      "tsa-a08-v45",
+      "tsa-a08-v46",
+      "tsa-a08-v47",
+      "tsa-a08-v48",
+      "tsa-a08-v49",
+      "tsa-a08-v50",
+      "tsa-a08-v51",
+      "tsa-a08-v52",
+      "tsa-a08-v53",
+      "tsa-a08-v54",
+      "tsa-a08-v55",
+      "tsa-a08-v56",
+      "tsa-a08-v57",
+      "tsa-a08-v58",
+      "tsa-a08-v59",
+      "tsa-a08-v60",
+      "tsa-a08-v61",
+      "tsa-a08-v62",
+      "tsa-a08-v63",
+      "tsa-a08-v64"
+     ],
+     "verses": "8.39-8.64"
+    },
+    "tsa08-p04": {
+     "byte_end": 55347,
+     "byte_start": 51380,
+     "span_shas": [
+      "62014bd03177",
+      "715c16e5915f",
+      "4ed9d4aaf449",
+      "98369050faec",
+      "1347e9ab7cdd",
+      "442a326d3dfd",
+      "546855864b55",
+      "a23547cbe2b9",
+      "e2a8c594b162",
+      "b4980ba75fa8",
+      "be3635351a6c",
+      "4672c7054c95",
+      "7ef86a6b2cff",
+      "604502f5c2cc",
+      "a30c884c0b32",
+      "895ddbc33950",
+      "99e588a9745d",
+      "f2441899e78e",
+      "059a7636f425",
+      "1b22f1a5743f",
+      "94bf3304d735",
+      "69a77578be63",
+      "6a4326d75480",
+      "78866ee2981c",
+      "897a14cb69f8",
+      "8efa57b5a213",
+      "f7b6018a478a",
+      "ce579b1d2744",
+      "f0c409b7301f"
+     ],
+     "verse_spans": [
+      "tsa-a08-v65",
+      "tsa-a08-v66",
+      "tsa-a08-v67",
+      "tsa-a08-v68",
+      "tsa-a08-v69",
+      "tsa-a08-v70",
+      "tsa-a08-v71",
+      "tsa-a08-v72",
+      "tsa-a08-v73",
+      "tsa-a08-v74",
+      "tsa-a08-v75",
+      "tsa-a08-v76",
+      "tsa-a08-v77",
+      "tsa-a08-v78",
+      "tsa-a08-v79",
+      "tsa-a08-v80",
+      "tsa-a08-v81",
+      "tsa-a08-v82",
+      "tsa-a08-v83",
+      "tsa-a08-v84",
+      "tsa-a08-v85",
+      "tsa-a08-v86",
+      "tsa-a08-v87",
+      "tsa-a08-v88",
+      "tsa-a08-v89",
+      "tsa-a08-v90",
+      "tsa-a08-v91",
+      "tsa-a08-v92",
+      "tsa-a08-v93"
+     ],
+     "verses": "8.65-8.93"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a08-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a09": {
+   "chunks": {
+    "tsa09-p01": {
+     "byte_end": 58799,
+     "byte_start": 55378,
+     "span_shas": [
+      "dde75be90793",
+      "7b9d9583dd97",
+      "ca6abbbdaf6b",
+      "d0d1db0a108d",
+      "31f91ff495ce",
+      "baa3471d5d1e",
+      "4ca1a0e8588b",
+      "7fae7905ce88",
+      "bf12624676c4",
+      "b90901986fe2",
+      "93b22e01765f",
+      "ab379f8088f3",
+      "8303a97fd950",
+      "1f74d810e71a",
+      "023725d86534",
+      "9ce0069bf092"
+     ],
+     "verse_spans": [
+      "tsa-a09-v01",
+      "tsa-a09-v02",
+      "tsa-a09-v03",
+      "tsa-a09-v04",
+      "tsa-a09-v05",
+      "tsa-a09-v06",
+      "tsa-a09-v07",
+      "tsa-a09-v08",
+      "tsa-a09-v09",
+      "tsa-a09-v10",
+      "tsa-a09-v11",
+      "tsa-a09-v12",
+      "tsa-a09-v13",
+      "tsa-a09-v14",
+      "tsa-a09-v15",
+      "tsa-a09-v16"
+     ],
+     "verses": "9.1-9.16"
+    },
+    "tsa09-p02": {
+     "byte_end": 62006,
+     "byte_start": 58799,
+     "span_shas": [
+      "382a88a8c570",
+      "e9ed152d4830",
+      "7fc403512919",
+      "1ae0daf3486d",
+      "163bc906684e",
+      "fc50fad190b3",
+      "9f1b5f4b9531",
+      "9ee2dafa18df",
+      "af32dfe8f288",
+      "73f09710101d",
+      "be8e83f0192b",
+      "5073623089c4",
+      "d870cdd96f92",
+      "d64f593422dd",
+      "70df4e72331c",
+      "4fe233a7bdc5",
+      "8f34dc467580",
+      "86fa309b3acf",
+      "af95e0a8594b"
+     ],
+     "verse_spans": [
+      "tsa-a09-v17",
+      "tsa-a09-v18",
+      "tsa-a09-v19",
+      "tsa-a09-v20",
+      "tsa-a09-v21",
+      "tsa-a09-v22",
+      "tsa-a09-v23",
+      "tsa-a09-v24",
+      "tsa-a09-v25",
+      "tsa-a09-v26",
+      "tsa-a09-v27",
+      "tsa-a09-v28",
+      "tsa-a09-v29",
+      "tsa-a09-v30",
+      "tsa-a09-v31",
+      "tsa-a09-v32",
+      "tsa-a09-v33",
+      "tsa-a09-v34",
+      "tsa-a09-v35"
+     ],
+     "verses": "9.17-9.35"
+    },
+    "tsa09-p03": {
+     "byte_end": 65770,
+     "byte_start": 62006,
+     "span_shas": [
+      "ba2f8fc0ce77",
+      "e85a601e7cf9",
+      "4fa56f88318e",
+      "79b41e533cb5",
+      "2ece29f2427d",
+      "8d85479bb46b",
+      "dc3dfd4f2d2a",
+      "5e333fe65200",
+      "635e65a6e03b",
+      "648330ee80f5",
+      "6b43c10654bf",
+      "e5cbbbb2a160",
+      "177e9e6f8c8c",
+      "ab8e9e13f094",
+      "2cf07b125f13",
+      "bf87a974d4fc",
+      "b22d93cf72f2",
+      "d05ec7c499cf"
+     ],
+     "verse_spans": [
+      "tsa-a09-v36",
+      "tsa-a09-v37",
+      "tsa-a09-v38",
+      "tsa-a09-v39",
+      "tsa-a09-v40",
+      "tsa-a09-v41",
+      "tsa-a09-v42",
+      "tsa-a09-v43",
+      "tsa-a09-v44",
+      "tsa-a09-v45",
+      "tsa-a09-v46",
+      "tsa-a09-v47",
+      "tsa-a09-v48",
+      "tsa-a09-v49",
+      "tsa-a09-v50",
+      "tsa-a09-v51",
+      "tsa-a09-v52",
+      "tsa-a09-v53"
+     ],
+     "verses": "9.36-9.53"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a09-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a10": {
+   "chunks": {
+    "tsa10-p01": {
+     "byte_end": 68165,
+     "byte_start": 65802,
+     "span_shas": [
+      "7a29b83fe891",
+      "c2643c564f22",
+      "ad7ed0368fe9",
+      "3f3740fcfe56",
+      "aee5950f7721",
+      "e53da0bee81d",
+      "de722debb2a2",
+      "ff6a614df353",
+      "5a8c9e952311",
+      "f2dcba0d57a0",
+      "012cda4656e0",
+      "d3eb6992ba4e",
+      "24bbc19e5754",
+      "f3d328ff8631",
+      "77ed10075178",
+      "c2ecf4163af3",
+      "4d2733eef835",
+      "af2e02c95be3"
+     ],
+     "verse_spans": [
+      "tsa-a10-v01",
+      "tsa-a10-v02",
+      "tsa-a10-v03",
+      "tsa-a10-v04",
+      "tsa-a10-v05",
+      "tsa-a10-v06",
+      "tsa-a10-v07",
+      "tsa-a10-v08",
+      "tsa-a10-v09",
+      "tsa-a10-v10",
+      "tsa-a10-v11",
+      "tsa-a10-v12",
+      "tsa-a10-v13",
+      "tsa-a10-v14",
+      "tsa-a10-v15",
+      "tsa-a10-v16",
+      "tsa-a10-v17",
+      "tsa-a10-v18"
+     ],
+     "verses": "10.1-10.18"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a10-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a11": {
+   "chunks": {
+    "tsa11-p01": {
+     "byte_end": 68479,
+     "byte_start": 68199,
+     "span_shas": [
+      "727e4cf26102",
+      "d4b820d4359d"
+     ],
+     "verse_spans": [
+      "tsa-a11-v01",
+      "tsa-a11-v02"
+     ],
+     "verses": "11.1-11.2"
+    },
+    "tsa11-p02": {
+     "byte_end": 69290,
+     "byte_start": 68479,
+     "span_shas": [
+      "02f46ddaa97c"
+     ],
+     "verse_spans": [
+      "tsa-a11-v03"
+     ],
+     "verses": "11.3-11.3"
+    },
+    "tsa11-p03": {
+     "byte_end": 69535,
+     "byte_start": 69290,
+     "span_shas": [
+      "40f43dd81a29"
+     ],
+     "verse_spans": [
+      "tsa-a11-v04"
+     ],
+     "verses": "11.4-11.4"
+    },
+    "tsa11-p04": {
+     "byte_end": 71324,
+     "byte_start": 69535,
+     "span_shas": [
+      "14e4a482a6ef",
+      "f3c1ff77abd1",
+      "d39267d754c0"
+     ],
+     "verse_spans": [
+      "tsa-a11-v05",
+      "tsa-a11-v06",
+      "tsa-a11-v07"
+     ],
+     "verses": "11.5-11.7"
+    },
+    "tsa11-p05": {
+     "byte_end": 71854,
+     "byte_start": 71324,
+     "span_shas": [
+      "31ddd3beb137",
+      "b32da36a9b95",
+      "06af0d01b18e"
+     ],
+     "verse_spans": [
+      "tsa-a11-v08",
+      "tsa-a11-v09",
+      "tsa-a11-v10"
+     ],
+     "verses": "11.8-11.10"
+    },
+    "tsa11-p06": {
+     "byte_end": 72626,
+     "byte_start": 71854,
+     "span_shas": [
+      "afaf7066f8ae",
+      "39c9e266ef1d",
+      "0b8c008c4c14"
+     ],
+     "verse_spans": [
+      "tsa-a11-v11",
+      "tsa-a11-v12",
+      "tsa-a11-v13"
+     ],
+     "verses": "11.11-11.13"
+    },
+    "tsa11-p07": {
+     "byte_end": 73027,
+     "byte_start": 72626,
+     "span_shas": [
+      "d85468c41b08",
+      "72267a0e81e4",
+      "443feba12b60"
+     ],
+     "verse_spans": [
+      "tsa-a11-v14",
+      "tsa-a11-v15",
+      "tsa-a11-v16"
+     ],
+     "verses": "11.14-11.16"
+    },
+    "tsa11-p08": {
+     "byte_end": 73904,
+     "byte_start": 73027,
+     "span_shas": [
+      "e19416053652",
+      "f9cafc97d9ca",
+      "d786ed67e789"
+     ],
+     "verse_spans": [
+      "tsa-a11-v17",
+      "tsa-a11-v18",
+      "tsa-a11-v19"
+     ],
+     "verses": "11.17-11.19"
+    },
+    "tsa11-p09": {
+     "byte_end": 74550,
+     "byte_start": 73904,
+     "span_shas": [
+      "507ab465b637",
+      "151495ee4447",
+      "4e94c9c003de"
+     ],
+     "verse_spans": [
+      "tsa-a11-v20",
+      "tsa-a11-v21",
+      "tsa-a11-v22"
+     ],
+     "verses": "11.20-11.22"
+    },
+    "tsa11-p10": {
+     "byte_end": 75725,
+     "byte_start": 74550,
+     "span_shas": [
+      "37cec00246ca",
+      "87535bb0f18f",
+      "b47f7497dcc5"
+     ],
+     "verse_spans": [
+      "tsa-a11-v23",
+      "tsa-a11-v24",
+      "tsa-a11-v25"
+     ],
+     "verses": "11.23-11.25"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a11-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a12": {
+   "chunks": {
+    "tsa12-p01": {
+     "byte_end": 77727,
+     "byte_start": 75759,
+     "span_shas": [
+      "8bb01dcf579d",
+      "6ed23e52d3da",
+      "79958844d7b7",
+      "46f47f31399d",
+      "0f9d3739044b",
+      "149c20996252",
+      "ac75ad3b6577",
+      "b1172a16abb0",
+      "71e7ba88777b",
+      "834625f0efb7"
+     ],
+     "verse_spans": [
+      "tsa-a12-v01",
+      "tsa-a12-v02",
+      "tsa-a12-v03",
+      "tsa-a12-v04",
+      "tsa-a12-v05",
+      "tsa-a12-v06",
+      "tsa-a12-v07",
+      "tsa-a12-v08",
+      "tsa-a12-v09",
+      "tsa-a12-v10"
+     ],
+     "verses": "12.1-12.10"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a12-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a13": {
+   "chunks": {
+    "tsa13-p01": {
+     "byte_end": 81094,
+     "byte_start": 77762,
+     "span_shas": [
+      "8b499c609056",
+      "12d80bae418e",
+      "323ae4c7c2df",
+      "9359f5fdc95a",
+      "c59829355b93",
+      "7c15f3aa17e5",
+      "047d67897560",
+      "acbd6bdb38b1",
+      "4b0705bbabaf",
+      "10a18ff92194",
+      "6669157f014d",
+      "ea0ce48e92ad",
+      "b1707083fba1",
+      "5a8d251e8c91",
+      "092be656f23c",
+      "7047367db570",
+      "00803e8129ab",
+      "c4576f4e4ba6",
+      "aa1faf8f43db"
+     ],
+     "verse_spans": [
+      "tsa-a13-v01",
+      "tsa-a13-v02",
+      "tsa-a13-v03",
+      "tsa-a13-v04",
+      "tsa-a13-v05",
+      "tsa-a13-v06",
+      "tsa-a13-v07",
+      "tsa-a13-v08",
+      "tsa-a13-v09",
+      "tsa-a13-v10",
+      "tsa-a13-v11",
+      "tsa-a13-v12",
+      "tsa-a13-v13",
+      "tsa-a13-v14",
+      "tsa-a13-v15",
+      "tsa-a13-v16",
+      "tsa-a13-v17",
+      "tsa-a13-v18",
+      "tsa-a13-v19"
+     ],
+     "verses": "13.1-13.19"
+    },
+    "tsa13-p02": {
+     "byte_end": 84399,
+     "byte_start": 81094,
+     "span_shas": [
+      "6b18694879e3",
+      "e4922e04a50f",
+      "11e5546ac58b",
+      "161a89bb4568",
+      "a0676cb1b3d0",
+      "1b9f99472980",
+      "cf0bc632beff",
+      "d55adb49d3a0",
+      "a18ab342014c",
+      "67c6a4e5fd8b",
+      "630668bef623",
+      "f7bec33a1d36",
+      "99401cfee8a3",
+      "1f7fa25f2aef",
+      "c9c888adc2fe"
+     ],
+     "verse_spans": [
+      "tsa-a13-v20",
+      "tsa-a13-v21",
+      "tsa-a13-v22",
+      "tsa-a13-v23",
+      "tsa-a13-v24",
+      "tsa-a13-v25",
+      "tsa-a13-v26",
+      "tsa-a13-v27",
+      "tsa-a13-v28",
+      "tsa-a13-v29",
+      "tsa-a13-v30",
+      "tsa-a13-v31",
+      "tsa-a13-v32",
+      "tsa-a13-v33",
+      "tsa-a13-v34"
+     ],
+     "verses": "13.20-13.34"
+    },
+    "tsa13-p03": {
+     "byte_end": 87579,
+     "byte_start": 84399,
+     "span_shas": [
+      "455260a0fe37",
+      "2989f5b16b17",
+      "1f873b188fbe",
+      "873e5cab0c50",
+      "ad8cc3cb85e3",
+      "c797758ed163",
+      "5eb4c023be92",
+      "28679827b633",
+      "d7b6f9bb9a4b",
+      "22e0c69b1c69",
+      "390a738c4cd1",
+      "e01d79e3f0f3",
+      "a69a1e7eb761",
+      "ff481eceb97c",
+      "f9d6f06951c7",
+      "0e53bc46dcfa",
+      "c0646ab4ae2e",
+      "c7013ab329db",
+      "d9e764d2ce58",
+      "90b3bc53c04f",
+      "2087816c4b6c",
+      "7b92d54eaf72",
+      "f241490588b8",
+      "e3b0656b619c",
+      "b6c8c6e9ca38",
+      "56889277aa0d",
+      "8b6a1a4b7118"
+     ],
+     "verse_spans": [
+      "tsa-a13-v35",
+      "tsa-a13-v36",
+      "tsa-a13-v37",
+      "tsa-a13-v38",
+      "tsa-a13-v39",
+      "tsa-a13-v40",
+      "tsa-a13-v41",
+      "tsa-a13-v42",
+      "tsa-a13-v43",
+      "tsa-a13-v44",
+      "tsa-a13-v45",
+      "tsa-a13-v46",
+      "tsa-a13-v47",
+      "tsa-a13-v48",
+      "tsa-a13-v49",
+      "tsa-a13-v50",
+      "tsa-a13-v51",
+      "tsa-a13-v52",
+      "tsa-a13-v53",
+      "tsa-a13-v54",
+      "tsa-a13-v55",
+      "tsa-a13-v56",
+      "tsa-a13-v57",
+      "tsa-a13-v58",
+      "tsa-a13-v59",
+      "tsa-a13-v60",
+      "tsa-a13-v61"
+     ],
+     "verses": "13.35-13.61"
+    },
+    "tsa13-p04": {
+     "byte_end": 91916,
+     "byte_start": 87579,
+     "span_shas": [
+      "0f6c108ac3a6",
+      "f9a6521355d1",
+      "4a3e2d31fff1",
+      "aad490cead73",
+      "cb56b533ee23",
+      "e53370a6033f",
+      "756c81ae6e68",
+      "47a271701133",
+      "6caab2798854",
+      "1063a4376b18",
+      "eac2326f335b",
+      "2cd06d481e41",
+      "f549d7b68543",
+      "98fd4d4ac625",
+      "2df6fc61c8c2",
+      "9af85b19fd92",
+      "7a3ccb34d911",
+      "925f6d82e687",
+      "939853d822be",
+      "f2ddaa0d3deb",
+      "83f5ebbd441c",
+      "57d1381fbb04",
+      "791f46353929",
+      "75d46f16ea2f",
+      "54a5f7d21c22",
+      "77063e051d18",
+      "0458c8e32cb9",
+      "c2026d86d3d8",
+      "e3b70324c3ad",
+      "6b32d452f711",
+      "1ecf4748e447",
+      "5e631de719a2",
+      "41e02cf93208",
+      "d55d0ead3a55",
+      "411628e5469b",
+      "549e94186d2e",
+      "35511479ae05",
+      "4c2a33499f3c",
+      "397d10fa765c",
+      "aea6d7eba483"
+     ],
+     "verse_spans": [
+      "tsa-a13-v62",
+      "tsa-a13-v63",
+      "tsa-a13-v64",
+      "tsa-a13-v65",
+      "tsa-a13-v66",
+      "tsa-a13-v67",
+      "tsa-a13-v68",
+      "tsa-a13-v69",
+      "tsa-a13-v70",
+      "tsa-a13-v71",
+      "tsa-a13-v72",
+      "tsa-a13-v73",
+      "tsa-a13-v74",
+      "tsa-a13-v75",
+      "tsa-a13-v76",
+      "tsa-a13-v77",
+      "tsa-a13-v78",
+      "tsa-a13-v79",
+      "tsa-a13-v80",
+      "tsa-a13-v81",
+      "tsa-a13-v82",
+      "tsa-a13-v83",
+      "tsa-a13-v84",
+      "tsa-a13-v85",
+      "tsa-a13-v86",
+      "tsa-a13-v87",
+      "tsa-a13-v88",
+      "tsa-a13-v89",
+      "tsa-a13-v90",
+      "tsa-a13-v91",
+      "tsa-a13-v92",
+      "tsa-a13-v93",
+      "tsa-a13-v94",
+      "tsa-a13-v95",
+      "tsa-a13-v96",
+      "tsa-a13-v97",
+      "tsa-a13-v98",
+      "tsa-a13-v99",
+      "tsa-a13-v100",
+      "tsa-a13-v101"
+     ],
+     "verses": "13.62-13.101"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a13-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a14": {
+   "chunks": {
+    "tsa14-p01": {
+     "byte_end": 96411,
+     "byte_start": 91951,
+     "span_shas": [
+      "a076e0643e4a",
+      "d1e3739e515f",
+      "f896fb70d6ac",
+      "69eca7b75a10",
+      "070ac60266eb",
+      "d1087eded6f0",
+      "1f0c8788586c",
+      "00e28bf406de",
+      "2f9af4578f69",
+      "4ce0413cd385",
+      "5b00d1381733",
+      "a63bea0e9b0c",
+      "f5aaea9bd236",
+      "0ea7741f2d3d",
+      "11db8188d545",
+      "50d2e64815d7",
+      "4ecfca560583",
+      "56a87e0fd245",
+      "40dd893a8f63",
+      "d45af0a3091b",
+      "d378cd5cab1c",
+      "bfad69266fec",
+      "aceeb82f378a",
+      "2078c251f177",
+      "8db9ea1bcf67",
+      "4b4717f8bd26",
+      "d79ee2eb7c8b",
+      "76ea6853a43b",
+      "5ac20d8fb184"
+     ],
+     "verse_spans": [
+      "tsa-a14-v01",
+      "tsa-a14-v02",
+      "tsa-a14-v03",
+      "tsa-a14-v04",
+      "tsa-a14-v05",
+      "tsa-a14-v06",
+      "tsa-a14-v07",
+      "tsa-a14-v08",
+      "tsa-a14-v09",
+      "tsa-a14-v10",
+      "tsa-a14-v11",
+      "tsa-a14-v12",
+      "tsa-a14-v13",
+      "tsa-a14-v14",
+      "tsa-a14-v15",
+      "tsa-a14-v16",
+      "tsa-a14-v17",
+      "tsa-a14-v18",
+      "tsa-a14-v19",
+      "tsa-a14-v20",
+      "tsa-a14-v21",
+      "tsa-a14-v22",
+      "tsa-a14-v23",
+      "tsa-a14-v24",
+      "tsa-a14-v25",
+      "tsa-a14-v26",
+      "tsa-a14-v27",
+      "tsa-a14-v28",
+      "tsa-a14-v29"
+     ],
+     "verses": "14.1-14.29"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a14-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a15": {
+   "chunks": {
+    "tsa15-p01": {
+     "byte_end": 98059,
+     "byte_start": 96447,
+     "span_shas": [
+      "64dbb3b419c2",
+      "c0de32db47cb",
+      "8fc80abad062",
+      "60f77f476d79",
+      "e84bf365f4dd",
+      "75d1229d3294",
+      "a37b4bdc536a"
+     ],
+     "verse_spans": [
+      "tsa-a15-v01",
+      "tsa-a15-v02",
+      "tsa-a15-v03",
+      "tsa-a15-v04",
+      "tsa-a15-v05",
+      "tsa-a15-v06",
+      "tsa-a15-v07"
+     ],
+     "verses": "15.1-15.7"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a15-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a16": {
+   "chunks": {
+    "tsa16-p01": {
+     "byte_end": 101239,
+     "byte_start": 98093,
+     "span_shas": [
+      "1c641ee4c300",
+      "7d9ee1f044e5",
+      "90899c6dc684",
+      "bd638c1015ec",
+      "07daecc0a8ff",
+      "a1b63078118f",
+      "8a7caa8defbb",
+      "bd56a190b2c4",
+      "cb0306c3f573",
+      "a6212540bfc9",
+      "1e8ec3cd343e",
+      "c41575ff0d0d",
+      "93735ed6a1e7",
+      "3284f774323d",
+      "32858774089c",
+      "08ed9d6f120d",
+      "7ba71efc90d7",
+      "d42e55a1a22f",
+      "2736be3f108f",
+      "6b56ab0b8d8c",
+      "4bd57f1d28ee",
+      "d8a16af49ed6",
+      "6eaab5d30f2f",
+      "c6b35708b1c4"
+     ],
+     "verse_spans": [
+      "tsa-a16-v01",
+      "tsa-a16-v02",
+      "tsa-a16-v03",
+      "tsa-a16-v04",
+      "tsa-a16-v05",
+      "tsa-a16-v06",
+      "tsa-a16-v07",
+      "tsa-a16-v08",
+      "tsa-a16-v09",
+      "tsa-a16-v10",
+      "tsa-a16-v11",
+      "tsa-a16-v12",
+      "tsa-a16-v13",
+      "tsa-a16-v14",
+      "tsa-a16-v15",
+      "tsa-a16-v16",
+      "tsa-a16-v17",
+      "tsa-a16-v18",
+      "tsa-a16-v19",
+      "tsa-a16-v20",
+      "tsa-a16-v21",
+      "tsa-a16-v22",
+      "tsa-a16-v23",
+      "tsa-a16-v24"
+     ],
+     "verses": "16.1-16.24"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a16-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a17": {
+   "chunks": {
+    "tsa17-p01": {
+     "byte_end": 102417,
+     "byte_start": 101274,
+     "span_shas": [
+      "cbfa65a35b35",
+      "d6c8d1e31dda",
+      "e6d53458ac30",
+      "b1d3a7bf7b40",
+      "3c2d92188202",
+      "f3dc9f37be4e"
+     ],
+     "verse_spans": [
+      "tsa-a17-v01",
+      "tsa-a17-v02",
+      "tsa-a17-v03",
+      "tsa-a17-v04",
+      "tsa-a17-v05",
+      "tsa-a17-v06"
+     ],
+     "verses": "17.1-17.6"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a17-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a18": {
+   "chunks": {
+    "tsa18-p01": {
+     "byte_end": 103230,
+     "byte_start": 102456,
+     "span_shas": [
+      "a5735478fa2a",
+      "9e62bb4e425b"
+     ],
+     "verse_spans": [
+      "tsa-a18-v01",
+      "tsa-a18-v02"
+     ],
+     "verses": "18.1-18.2"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a18-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a19": {
+   "chunks": {
+    "tsa19-p01": {
+     "byte_end": 105163,
+     "byte_start": 103268,
+     "span_shas": [
+      "5bd9be266538",
+      "bcafd684f89f",
+      "4f8505a68347",
+      "1274d93be4e9",
+      "5d6b726c0c36",
+      "09b4200829e2",
+      "12f8e54ed663"
+     ],
+     "verse_spans": [
+      "tsa-a19-v01",
+      "tsa-a19-v02",
+      "tsa-a19-v03",
+      "tsa-a19-v04",
+      "tsa-a19-v05",
+      "tsa-a19-v06",
+      "tsa-a19-v07"
+     ],
+     "verses": "19.1-19.7"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a19-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a20": {
+   "chunks": {
+    "tsa20-p01": {
+     "byte_end": 108369,
+     "byte_start": 105196,
+     "span_shas": [
+      "df1c3eb6a30f",
+      "dc34a6fdb175",
+      "4c4101846287",
+      "1bfff34bef4c",
+      "fcb8cbd8cec7",
+      "aefc33eb602a",
+      "450e8a0b370a",
+      "14255e30336c",
+      "015486e8118a",
+      "d97fca101c4d",
+      "5f4c9a931a0f",
+      "b2ec6902661d",
+      "5c55501c36f3",
+      "327f37a2c1f3",
+      "72d119d54804",
+      "9385f114d855",
+      "a6c52e0a71bd",
+      "cdb2262e30b4",
+      "85a7f8b5e4f8",
+      "d2c5b7b2d243"
+     ],
+     "verse_spans": [
+      "tsa-a20-v01",
+      "tsa-a20-v02",
+      "tsa-a20-v03",
+      "tsa-a20-v04",
+      "tsa-a20-v05",
+      "tsa-a20-v06",
+      "tsa-a20-v07",
+      "tsa-a20-v08",
+      "tsa-a20-v09",
+      "tsa-a20-v10",
+      "tsa-a20-v11",
+      "tsa-a20-v12",
+      "tsa-a20-v13",
+      "tsa-a20-v14",
+      "tsa-a20-v15",
+      "tsa-a20-v16",
+      "tsa-a20-v17",
+      "tsa-a20-v18",
+      "tsa-a20-v19",
+      "tsa-a20-v20"
+     ],
+     "verses": "20.1-20.20"
+    },
+    "tsa20-p02": {
+     "byte_end": 111614,
+     "byte_start": 108369,
+     "span_shas": [
+      "455bf6d5d76c",
+      "bc4767028303",
+      "fb8d254c50a0",
+      "65e59bef2db2",
+      "821888d38867",
+      "ff30799e61f7",
+      "41801ac73647",
+      "48bc936f9a28",
+      "2e044a37208e",
+      "e8006e080f30",
+      "407638f4301d",
+      "23ab365e4a95",
+      "92909ff3c0fe",
+      "35626f30ffe0",
+      "28d0bcd4048b"
+     ],
+     "verse_spans": [
+      "tsa-a20-v21",
+      "tsa-a20-v22",
+      "tsa-a20-v23",
+      "tsa-a20-v24",
+      "tsa-a20-v25",
+      "tsa-a20-v26",
+      "tsa-a20-v27",
+      "tsa-a20-v28",
+      "tsa-a20-v29",
+      "tsa-a20-v30",
+      "tsa-a20-v31",
+      "tsa-a20-v32",
+      "tsa-a20-v33",
+      "tsa-a20-v34",
+      "tsa-a20-v35"
+     ],
+     "verses": "20.21-20.35"
+    },
+    "tsa20-p03": {
+     "byte_end": 114826,
+     "byte_start": 111614,
+     "span_shas": [
+      "d3da54f63118",
+      "01489895b936",
+      "900078dc4f48",
+      "1f795c748010",
+      "1ddf4d07de9a",
+      "fd9908e786b5",
+      "70ebf1f7f1e2",
+      "20dd4e8451be",
+      "772240f5c869",
+      "b9b1e3bc0324",
+      "940a0e95f308",
+      "64b9b7ad410f",
+      "9a70dbafe112",
+      "7d870535b056",
+      "9478144943dd",
+      "8949c680651e",
+      "952e2d864e61"
+     ],
+     "verse_spans": [
+      "tsa-a20-v36",
+      "tsa-a20-v37",
+      "tsa-a20-v38",
+      "tsa-a20-v39",
+      "tsa-a20-v40",
+      "tsa-a20-v41",
+      "tsa-a20-v42",
+      "tsa-a20-v43",
+      "tsa-a20-v44",
+      "tsa-a20-v45",
+      "tsa-a20-v46",
+      "tsa-a20-v47",
+      "tsa-a20-v48",
+      "tsa-a20-v49",
+      "tsa-a20-v50",
+      "tsa-a20-v51",
+      "tsa-a20-v52"
+     ],
+     "verses": "20.36-20.52"
+    },
+    "tsa20-p04": {
+     "byte_end": 117172,
+     "byte_start": 114826,
+     "span_shas": [
+      "4fd8546034dc",
+      "075844cd3aac",
+      "90ff5b0d05bf",
+      "eeb125bb48bb",
+      "f494ae8babad",
+      "6c142b16ce83",
+      "a3c21001e2e9",
+      "5082f7dc996d",
+      "48689a116b66",
+      "4a136aaa963a",
+      "ae1953b3a45c",
+      "622a01aa6287",
+      "1a91355837bd"
+     ],
+     "verse_spans": [
+      "tsa-a20-v53",
+      "tsa-a20-v54",
+      "tsa-a20-v55",
+      "tsa-a20-v56",
+      "tsa-a20-v57",
+      "tsa-a20-v58",
+      "tsa-a20-v59",
+      "tsa-a20-v60",
+      "tsa-a20-v61",
+      "tsa-a20-v62",
+      "tsa-a20-v63",
+      "tsa-a20-v64",
+      "tsa-a20-v65"
+     ],
+     "verses": "20.53-20.65"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a20-2026-11-06.json",
+   "status": "CANDIDATE"
+  },
+  "tantrasara-a21": {
+   "chunks": {
+    "tsa21-p01": {
+     "byte_end": 120447,
+     "byte_start": 117208,
+     "span_shas": [
+      "10c1b62e69cf",
+      "f0334ae02c24",
+      "916a57c2fa44",
+      "4a8259d733c3",
+      "98e1523e1cd9",
+      "f176b25682c1",
+      "1c5c5370621d",
+      "b15df047908e",
+      "32f7ff4b6eec",
+      "c10e8c288d47",
+      "88df6f5bcee3",
+      "3dd60e80474f",
+      "23021aa63e36"
+     ],
+     "verse_spans": [
+      "tsa-a21-v01",
+      "tsa-a21-v02",
+      "tsa-a21-v03",
+      "tsa-a21-v04",
+      "tsa-a21-v05",
+      "tsa-a21-v06",
+      "tsa-a21-v07",
+      "tsa-a21-v08",
+      "tsa-a21-v09",
+      "tsa-a21-v10",
+      "tsa-a21-v11",
+      "tsa-a21-v12",
+      "tsa-a21-v13"
+     ],
+     "verses": "21.1-21.13"
+    }
+   },
+   "manifests": [
+    "tantrasara.json"
+   ],
+   "source_file": "chunk-verse-tantrasara-a21-2026-11-06.json",
+   "status": "CANDIDATE"
+  }
+ },
+ "works_total": 23
+}
