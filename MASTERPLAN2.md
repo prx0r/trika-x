@@ -298,6 +298,8 @@ without a replay path.
 - `SYNERGY-CHAIN-2026-11-08.md` is the composition + versioning protocol (how
   the parts feed each other, how numbers stay sharp). `freshness.py --check`
   is the drift gate it depends on.
+- `MCP-OPS.md` is the federation operating guide; `tools/mcp_catalog.py
+  --check` is its drift gate (104 tools / 8 families, measured 2026-11-08).
 - Each workstream item closes with: commit SHA, gate output pasted into a dated
   process note, and the artifact path. If it isn't in the trace, it didn't
   happen.
@@ -326,3 +328,78 @@ No rendering short movies (R9) until the owner sets the bar and models qualify.
 
 Everything after that is ordered by the phases above, and every claim is
 reported with its denominator and its replay path.
+
+---
+
+## 12. The 20-item execution queue (2026-11-08)
+
+Single ordered queue. IDs are stable — refer to them in commits and process
+notes. A row closes only with: commit SHA + gate output + artifact path. No
+row closes on intent. `P` = phase (0 hygiene, 1 moat, 2 close loop, 3 scale).
+
+| ID | Item | Workstream | Gate (done means) | Owner/lane | Depends on | Status |
+|---|---|---|---|---|---|---|
+| Q01 | Disk headroom: inventory + safe reclamation to ≥15% free | W0 | `df -h /` ≥15%; every deletion logged, shared checkouts untouched | box ops + owner eyes | — | in progress |
+| Q02 | Install nightly-verify cron | W0 | log shows 7 consecutive green days | owner | Q01 | blocked (owner call) |
+| Q03 | Rotate pasted R2/Go tokens | W0 | old revoked, `/root/.env` updated, repo scans clean | owner | — | blocked (owner action) |
+| Q04 | Regression gate: openpatala check.py GREEN; freshness SHARP | W0 | both commands exit as designed on a clean tree | trika-x + openpatala | — | pending |
+| Q05 | Compile traces for every chunk in every readable work | W2 | `data/traces/index.json` ≥90% of readable passages; every pack reproduces; PARTIAL labelled | trika-x (+ svread publish) | Q04 | trika-x done 2026-11-08: 909/909 (236 C / 673 P); svread publish pending lane |
+| Q06 | Chat answers carry trace+pack links, else say "unverified" | W2 | wiring test: traced chunk → working link; untraced → explicit label | svread worker | Q05 | pending |
+| Q07 | Bench CPU calibration: tau 3×3 + gate-vs-gold | W2 | tau smoke logged; false-PASS/BLOCK measured; thresholds stamped | sanskritbench | — | pending |
+| Q08 | Formal next rung phr-p05 | W3 | prereg → model → twin refuses → EVIDENCE + TABLE + run receipt | trika-x | Q04 | pending |
+| Q09 | One VERIFIED witness (NGMPP shelfmark) | W4 | `witness.status = VERIFIED`, trace source hop cites it, UNKNOWN kept elsewhere | owner/scholar | archive access | blocked (human) |
+| Q10 | Layer-accept decision rows at ingest | W5 | unsigned load-bearing decision refused (409) | translation-work lane | lane wiring | pending (other lane) |
+| Q11 | Treeka view live | W5 | gap report queryable: unargued/cruxless/essayless/unformalised | trika-x (+ svread view) | Q05 | pending |
+| Q12 | Variety 1: PUSHBACK default + Zenodo DOI | W6 | PUSHBACK runs pre-review; one DOI resolves and replays to witness | svread + owner | Zenodo token | blocked (token) |
+| Q13 | Crux queue + Svatantrya propose loop | W6 | prioritized queue; draft per crux (assisted flagged), audit+PUSHBACK, never auto-sign | trika-x + scholar | Q11, quota | pending |
+| Q14 | Peer-review debt: LEAD 16 flaws + PR #5 scope | W6 | each flaw marked fixed/accepted/rejected with evidence, dated note | trika-x | — | pending |
+| Q15 | Sanskrit `?view=sanskrit` l01 slice | W7 | lesson → locator → bytes → gate replay; ML lines labelled | svread lane | — | pending (spec ready) |
+| Q16 | Discoverability R5: Search Console + first inbound domain | W7 | `site:` returns pages; impressions; ≥1 referring domain | owner + trika-x | — | blocked (owner/outreach) |
+| Q17 | Video: packs carry `evidence_refs`; sealed mp4 GOLDEN | W8 | render refuses without refs; receipt carries them | videofactory lane | — | pending (other lane) |
+| Q18 | Nibbanahelp N1 sessions exporter | W8 | read-only exporter feeds tension/crux queue; VOICE RULE tested | nibbanahelp + trika-x | — | pending (other lane) |
+| Q19 | Syllabus compiler C1–C4 | W8 | study-only unit → 37 āhṇikas → paths → day-gate closure | trika-x + satsang | dīkṣā policy | blocked (policy) |
+| Q20 | Recipes R1/R7/R8 consent paths | W9 | consent-scoped diary → essay/year-review/poem book; no auto-publish; tests | nibbanahelp + bookfactory | owner go | blocked (owner) |
+
+### Queue rules
+
+- One `in_progress` at a time; blockers are named, never skipped.
+- Owner-gated rows (Q02, Q03, Q09, Q12, Q16, Q19, Q20) do not stall the queue:
+  the machine continues on the next autonomous row.
+- A row that reveals a new stale number must update `freshness.json` in the
+  same session.
+
+
+---
+
+## 13. MCP hardening pass (2026-11-08, M01–M05)
+
+| ID | Item | Result |
+|---|---|---|
+| M01 | Inventory surfaces vs doc claims | 104 tools / 8 families live; docs said 98 and `book__*` (drift found) |
+| M02 | Prove servers start + answer | gateway + all five children answered `tools/list` and representative calls |
+| M03 | Fix doc drift | FORMAL-MCP v3 (7 tools implemented); PARENT-CONTRACT prefixes/counts; FEDERATION/MODULES 98→104 |
+| M04 | Harden conformance | gateway tests 11 GREEN (guide prefixes, local families, catalog-vs-live); pre-test expected surface updated to real names |
+| M05 | Operating guide | `MCP-OPS.md` (topology, quickstart, catalog, contract, troubleshooting) |
+
+Verified commands: `python3 -m unittest formal-trika.tests.test_federation_gateway`
+(11 OK), `python3 tools/federation_pretest.py` (GREEN), `python3
+tools/mcp_catalog.py --check` (SHARP).
+
+
+---
+
+## 14. Autonomous work log (2026-11-08, second pass)
+
+- **Freshness made a gate.** `formal-trika/tools/freshness.py` captures every
+  canonical number with its command + source hash; `--check` fails on drift.
+  Disk is context, not a claim (10MB noise must not fake data drift). Ledger
+  now includes the trika-x trace index. State: SHARP.
+- **Q05 trace coverage (trika-x side).** `formal-trika/tools/trace_all.py`
+  compiles every ledger locator: **909 bundles / 87 works / 0 errors —
+  236 COMPLETE, 673 PARTIAL** in 18.5s, 4.2MB. Two samples re-verified with
+  `trace_bundle.py --verify` (one COMPLETE, one PARTIAL). PARTIAL names its
+  gaps; nothing was promoted. svread publication (`emit_verify.py`) is the
+  lane's next step, not done here.
+- **MCP hardening** — see §13. 76 tests green, pre-test GREEN, catalog SHARP.
+- **Docs** — `MCP-OPS.md` added; FORMAL-MCP v3; PARENT-CONTRACT/FEDERATION/
+  MODULES counts corrected to 104 tools / 8 families.

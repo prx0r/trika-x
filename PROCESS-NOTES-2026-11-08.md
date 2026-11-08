@@ -1,0 +1,191 @@
+# PROCESS NOTES — 2026-11-08 (cleanup, MCP hardening, corpus-wide traces)
+
+*Targets: trika-x (writes) + openpatala (read/verify) + svread (read/verify).
+Lanes respected: translation-work / ipvv / bookfactory / videofactory /
+nibbanahelp read-only; no writes into their repos. Every number below was
+measured this session.*
+
+---
+
+## 0. Verdicts up front
+
+- **Clean tree + checkpoint.** The 2026-11-06 swarm dirt is committed in
+  logical groups; tag `checkpoint-2026-11-08` set after 73 tests green and
+  freshness SHARP. No history rewritten.
+- **openpatala last session verified good, not complete.** `check.py` GREEN
+  with two recorded BLOCKEDs; box DB 555 works / 909 passages / 102 editions /
+  87 etexts / 1559 assertions / 121 translations / 20 people / 0 witnesses;
+  API :8821 matches. Abhinavagupta seed idempotent (dry-run 0 re-inserts).
+- **MCP surface is real and now documented from measurement.** 104 tools,
+  8 families, all five children live. Docs had drifted (98 tools, `book__*`);
+  fixed and gated with a machine catalog.
+- **Trace coverage jumped 13 → 909.** 236 COMPLETE / 673 PARTIAL, 0 errors,
+  every PARTIAL names its gaps.
+
+---
+
+## 1. Cleanup, versioning, checkpoint
+
+Dirty state was the 11-06 swarm refresh: 14:xx expansion runs superseded by
+15:49 reruns. Committed by concern (regenerating command named in each body):
+
+| Commit | What |
+|---|---|
+| `9ee20e5` | `feat(tools)` freshness ledger (`freshness.py` + `data/freshness.json`) |
+| `6484c64` | `data(swarm)` 11-06 late refresh; superseded 14:xx runs dropped |
+| `c0f229c` | `feat(federation)` formal tool family + TAL binding tests |
+| `85688e6` | `docs(plan)` MASTERPLAN2 + REVIEW + SYNERGY-CHAIN + MASTER-PLAN amendment |
+| `b9724e7` | `imports` ochema + geometryofthinking mirrors + miner |
+
+**Bug caught during commit:** `formal-trika/imports/ochema` had an embedded
+`.git`, so it staged as a gitlink (mode 160000; clones would receive nothing).
+Removed the embedded `.git` (frozen reading mirror, matching the ochema2
+precedent), re-added as plain files, amended the unpushed commit. Verified
+mode 100644 in the index.
+
+Tag `checkpoint-2026-11-08`: 73 tests green, freshness SHARP. Branch
+`box/peer-review-batch` is 25 ahead of `main` (main is an ancestor; clean
+fast-forward possible). Nothing pushed.
+
+---
+
+## 2. Freshness ledger — numbers become a gate
+
+`formal-trika/tools/freshness.py` records value + reproducing command + source
+sha256 for: box DB counts, formal evidence/coverage, bridge, trika traces,
+svread traces/source-map/surface, disk (context), git (context).
+`--write` captures; `--check` fails on drift.
+
+Design note learned this session: **disk is environment, not a claim.** A
+10MB free-space change made `--check` fail; moving `disk` into the context
+set (reported, never gating) fixed the false drift. Data claims remain gated.
+
+Added `trika_traces` to the ledger after Q05:
+`{"count": 909, "verdicts": {"COMPLETE": 236, "PARTIAL": 673}, "errors": 0}`.
+
+---
+
+## 3. MCP audit and hardening (M01–M05)
+
+### M01 — inventory vs docs
+
+Live gateway (`openpatala-federation`, initialize OK): **104 tools / 8
+families**:
+
+```
+bookfactory 22 · federation 1 · formal 7 · openpatala 2
+openpatala_mcp 5 · scholar 33 · translation 16 · video 18
+```
+
+Doc drift found:
+
+1. `FEDERATION.md` and `MODULES.md` said **98 tools** (stale count).
+2. `FORMAL-MCP-SPEC` still declared itself **v2 PARTIAL** ("items 1–6 remain
+   specced") while all 7 formal tools are live and tested.
+3. `PARENT-CONTRACT` naming used `book__quote` / `book-mcp`; the real prefix is
+   `bookfactory__` (child ids are literal: `openpatala_mcp__`, `video__`, …).
+4. The gateway's own `instructions` text said `book__*` — fixed in code.
+5. `tools/federation_pretest.py` expected an invented surface
+   (`openpatala__bundle`, `translation__works`, `book__inspect`,
+   `video__plan`), so it was green against fiction. Updated to real
+   representative names (28), with the full truth moved to the catalog.
+
+### M02 — servers actually work
+
+Every family answered a real call with correct args:
+`openpatala__resolve`, `formal__bridge/gaps/evidence`, `scholar__list_works`,
+`translation__status`, `bookfactory__factory_overview`, `video__vf_status`,
+`openpatala_mcp__get_health` (returns 555/909/… counts). Clean-error behaviour
+confirmed (video needs `project`; translation `gates` has a different schema).
+
+### M03 — docs fixed
+
+- `FORMAL-MCP-SPEC` → **v3, IMPLEMENTED** (seven tools; test + catalog
+  pointers).
+- `PARENT-CONTRACT` → real topology/prefixes/counts; 11 tests; catalog.
+- `FEDERATION.md`, `MODULES.md` → 104 tools.
+- `MCP-OPS.md` → new operating guide (quickstart, topology, catalog,
+  behaviour contract, verification, troubleshooting, known gaps, change
+  protocol).
+
+### M04 — conformance hardened
+
+`tools/mcp_catalog.py` probes the gateway and writes
+`formal-trika/data/mcp-catalog.json` (`trika-mcp-catalog/1`); `--check` is a
+drift gate. Banned-surface check uses **exact/prefix token matching**, never
+substring — the first draft flagged `scholar__list_published_essays` and
+`video__vf_publish` (both legitimate), repeating the old `relationships`/`ship`
+false positive. Added three gateway tests: guide names real prefixes (no
+`book__*`), local families present, catalog equals live when all children are
+up. Suite: **76 tests OK** (gateway 11).
+
+### M05 — operating guide
+
+`MCP-OPS.md` documents: one stdio parent, FailOpen on children, fail-closed on
+identity, `Unknown tool` semantics, `UNPINNED/CANDIDATE/BLOCKED/PARTIAL`,
+stdio-only gap (no HTTP/auth yet), and the three verification commands.
+
+---
+
+## 4. Q05 — corpus-wide trace coverage (trika-x side)
+
+New tool `formal-trika/tools/trace_all.py` iterates every `passages.jsonl`
+locator and calls `trace_bundle.compile_bundle` (read-only sources: ledgers,
+layers, proofs, box DB, EVIDENCE, svread projections). Writes
+`formal-trika/data/traces/<work>-<target>.json` + `index.json`
+(`trika-traces-index/1`).
+
+Result (measured, 18.5s):
+
+```
+909 bundles / 87 works / 0 errors
+verdicts: COMPLETE 236 · PARTIAL 673
+size: 4.2MB
+```
+
+Verification: `trace_bundle.py --verify` re-checked one COMPLETE
+(`phrdaya:phr-p01`) and one PARTIAL (`ipvv:chunkA-svatyandya`) — both VERIFIED,
+verdicts unchanged. No PARTIAL was promoted; gaps stay named.
+
+Scope note: this is the **trika-x side**. svread's public index still lists 13;
+publishing the 909 verify packs via `svread/tools/emit_verify.py` is the svread
+lane's next step (Q05 remains open for that half).
+
+---
+
+## 5. Open / blocked (unchanged where human)
+
+- Owner: disk headroom (1.73G free / 96.8%), cron install, R2/Go rotation,
+  Zenodo token, Search Console/outreach, dīkṣā policy.
+- Scholar: P-TK1, rater-2, ti/ca, NGMPP witness eyes.
+- Lanes: translation decision-trail wiring + chunk↔verse map; svread
+  emit_verify publication; book/video evidence_refs; nibbanahelp N1.
+- openpatala upstream: adapters discover nothing; witnesses 0.
+
+---
+
+## 6. Re-verify this session (copy-paste)
+
+```sh
+cd /root/trika-x
+git log --oneline -8 ; git status --short ; git tag -l | tail -3
+
+# freshness
+python3 formal-trika/tools/freshness.py --check          # SHARP
+
+# MCP
+python3 -m unittest formal-trika.tests.test_federation_gateway -v   # 11 OK
+python3 tools/federation_pretest.py                      # GREEN
+python3 tools/mcp_catalog.py --check                     # SHARP (104 tools)
+
+# full suite
+python3 -m unittest discover -s formal-trika/tests       # 76 OK
+
+# traces
+python3 formal-trika/tools/trace_all.py --index-only
+python3 formal-trika/tools/trace_bundle.py --verify \
+  formal-trika/data/traces/phrdaya-phr-p01.json           # VERIFIED COMPLETE
+
+# openpatala (identity root)
+cd /root/openpatala && python3 check.py
+```
