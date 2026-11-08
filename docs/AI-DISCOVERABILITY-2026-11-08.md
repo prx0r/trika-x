@@ -1,5 +1,7 @@
 # AI DISCOVERABILITY — research notes + plan (2026-11-08)
 
+*Research notes. The executable plan is `svread/SEO-GEO-PLAN-2026-11-08.md`.*
+
 *Goal: make svread's claims useful to Google AI (AI Overviews / AI Mode) and
 ChatGPT **without** a custom MCP connector. Research-backed, with sources.*
 
