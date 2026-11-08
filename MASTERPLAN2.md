@@ -365,7 +365,7 @@ resolve is labelled PARTIAL or BROKEN, never shipped, never signed.
 | N07 | Machine review packets for top queued cruxes | audit + PUSHBACK queued; rulings stay human |
 | N08 | Essay seeds for top queue items | machine-proposed, labelled, never canonical |
 | N09 | Freshness tracks essay-derivation metrics | derived/partial/broken counts in the ledger |
-| N10 | Full regression battery + log | every gate green in one archived run |
+| N10 | Full regression battery + log | every gate green in one archived run | done 2026-11-08: 79 tests, all gates, openpatala GREEN; harness receipt 247d897 exit 0/0/0 |
 
 Rule: no essay, seed, packet, or rung ships a claim its chain cannot
 produce. The chain is the product; the prose is its rendering.
@@ -492,3 +492,8 @@ tools/mcp_catalog.py --check` (SHARP).
   mistral-small (2 objections, honest remainder: R reconstructions, no formal
   entries). Two families, free rails, zero quota. Draft + receipt + pushback
   in `swarm/robo-param-p02-2026-11-08-071651.*` — proposal, never signed.
+
+- **VBT receipt.** `runs/runs.jsonl` 2026-11-08T08:46:13Z rev `247d897`:
+  control exit 0 (incl. `BrokenVbtSeven: forms_eight is false`,
+  `BrokenVbtTwoCoords: coords_three is false), recognition exit 0, tc1 exit 0.
+  Coverage 157/155, 16/154 chunks (10%). Queue head: vbt-p03.

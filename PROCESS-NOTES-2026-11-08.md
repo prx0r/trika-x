@@ -376,3 +376,14 @@ explicitly negated); recorded in the prereg so it stays dead.
 Coverage now 157 theorems / 155 entries, 16/154 chunks (10%);
 unformalised 893; queue head vbt-p03. Full harness receipt running
 detached; commit lands with the receipt.
+
+---
+
+## 15. N10 — regression battery (2026-11-08)
+
+One archived run, all green: 79 unittest OK · evidence 157/155 ·
+table --check rc=0 · bridge BYTES_MATCH (28/154, UNPINNED) · axiom CLEAN
+(static) · pretest GREEN · catalog SHARP (104) · traces index rebuilt
+deterministically (909, 0 errors) · essay_derive rc=0 (6 PARTIAL, 0 BROKEN)
+· openpatala GREEN + 2 recorded BLOCKEDs. Full Lean harness receipt
+(record_run.py, detached) LANDED 2026-11-08T08:46:13Z rev 247d897: exit 0/0/0.

@@ -1,10 +1,10 @@
 {
- "measured_at": "2026-11-08T08:43:59Z",
+ "measured_at": "2026-11-08T08:46:23Z",
  "git": {
   "trika-x": {
-   "rev": "aad2be1",
+   "rev": "247d897",
    "branch": "box/peer-review-batch",
-   "dirty": 17
+   "dirty": 3
   },
   "openpatala": {
    "rev": "7af046d",
@@ -19,7 +19,7 @@
  },
  "disk": {
   "value": {
-   "free_gb": 3.89,
+   "free_gb": 3.88,
    "used_pct": 94.1
   },
   "command": "df -h /"
