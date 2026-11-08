@@ -25,12 +25,15 @@ from __future__ import annotations
 import argparse
 import glob
 import json
+import os
+import re
 from pathlib import Path
 
 HERE = Path(__file__).resolve().parent.parent
 TRACES = HERE / "data" / "traces" / "index.json"
 EVIDENCE = HERE / "EVIDENCE.json"
 SWARM = HERE / "swarm"
+TW = Path(os.environ.get("TRANSLATION_WORK", "/root/translation-work"))
 
 
 def load_traces() -> dict:
@@ -50,6 +53,31 @@ def load_evidence() -> dict:
             "entries", {})
     except OSError:
         return {}
+
+
+def _verse_range(work: str, target: str):
+    """Return (lo, hi) verse numbers for a chunk from its ledger row, or None
+    when the range is absent/unparsable (then we stay silent, never guess)."""
+    p = TW / work / "passages.jsonl"
+    try:
+        for line in p.read_text(encoding="utf-8").splitlines():
+            if not line.strip():
+                continue
+            row = json.loads(line)
+            if row.get("locator") != target:
+                continue
+            m = re.fullmatch(r"\s*(\d+)\s*-\s*(\d+)\s*", str(row.get("verses", "")))
+            if m:
+                return int(m.group(1)), int(m.group(2))
+            return None
+    except (OSError, ValueError):
+        return None
+    return None
+
+
+def _verse_num(verse_id: str):
+    m = re.search(r"-v(\d+)$", verse_id or "")
+    return int(m.group(1)) if m else None
 
 
 def audit_essay(path: Path, traces: dict, evidence: dict) -> dict:
@@ -85,9 +113,19 @@ def audit_essay(path: Path, traces: dict, evidence: dict) -> dict:
         except OSError:
             problems.append("trace bundle file unreadable")
 
+    rng = _verse_range(work, target)
     for cl in d.get("claims", []) or []:
-        if not cl.get("verse_id"):
+        vid = cl.get("verse_id")
+        if not vid:
             problems.append(f"claim {cl.get('id')} has no verse_id")
+        elif rng is not None:
+            n = _verse_num(vid)
+            if n is None:
+                notes.append(f"claim {cl.get('id')} verse id unparsable: {vid}")
+            elif not (rng[0] <= n <= rng[1]):
+                problems.append(
+                    f"claim {cl.get('id')} cites {vid} outside chunk "
+                    f"{target} verses {rng[0]}-{rng[1]}")
         if cl.get("tier") not in ("R", "T", "E", "C", "H", "X"):
             problems.append(f"claim {cl.get('id')} bad tier")
         if cl.get("tier") == "T":

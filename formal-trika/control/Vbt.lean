@@ -13,6 +13,11 @@
   answers dissolve their objects — C1 FUNCTION), any unpointability
   doctrine beyond the verse grammar, or any dhāraṇā claim (C1 BOUNDARY:
   "still no technique" — dhāraṇā counts parked, see prereg).
+
+  SCOPE LIMIT (2026-11-08 correction): these rosters count what the held
+  ARGMAP/C1 layers list, not everything the verses name. v.4 adds
+  śaktisvarūpa (a ninth candidate form) and v.14 adds deśa/uddeśa to the
+  three coordinates. See PREREGISTRATION-VBT1-CORRECTION-2026-11-08.md.
 -/
 namespace FormalTrika
 

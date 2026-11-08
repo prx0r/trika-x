@@ -98,5 +98,25 @@ class TestDeriveFixture(unittest.TestCase):
                                 for p in row["problems"]))
 
 
+
+    def test_out_of_range_verse_is_broken(self):
+        sys.path.insert(0, str(TOOLS))
+        import essay_derive as ed
+        with tempfile.TemporaryDirectory() as td:
+            ej = Path(td) / "e.essay.json"
+            ej.write_text(json.dumps({
+                "chunk": "phrdaya:phr-p05",
+                "claims": [{"id": "CLM-1", "text": "t",
+                            "verse_id": "phr-p05-v99", "tier": "R"}],
+                "theorems": [], "openpatala": {
+                    "openpatala_work_id": "phrdaya",
+                    "mapping_status": "CANDIDATE"}}),
+                encoding="utf-8")
+            tr = ed.load_traces()
+            row = ed.audit_essay(ej, tr, {})
+            self.assertEqual(row["verdict"], "BROKEN")
+            self.assertTrue(any("outside chunk" in p for p in row["problems"]))
+
+
 if __name__ == "__main__":
     raise SystemExit(unittest.main())

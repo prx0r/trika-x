@@ -1,10 +1,10 @@
 {
- "measured_at": "2026-11-08T12:24:27Z",
+ "measured_at": "2026-11-08T12:37:27Z",
  "git": {
   "trika-x": {
-   "rev": "b171908",
+   "rev": "f177d50",
    "branch": "main",
-   "dirty": 35
+   "dirty": 7
   },
   "openpatala": {
    "rev": "29ae809",
@@ -12,14 +12,14 @@
    "dirty": 0
   },
   "svread": {
-   "rev": "976a474",
+   "rev": "2aeb2bb",
    "branch": "main",
    "dirty": 0
   }
  },
  "disk": {
   "value": {
-   "free_gb": 4.15,
+   "free_gb": 4.14,
    "used_pct": 93.8
   },
   "command": "df -h /"
@@ -99,6 +99,6 @@
    "manifest_assets": 7078
   },
   "command": "ls /root/svread/data/scholar/*.json; jq assets /root/svread/data/release-manifest.json",
-  "source_sha256": "3f003ab75f33200704ac9b6d15275c84f291c6e60e611fb9b4678b769b03a499"
+  "source_sha256": "51c80e4be8146b6e30fa826e75ea717fefe9b4a524e8d9800fba1d99a312d0a5"
  }
 }

@@ -472,7 +472,7 @@ Two grants, no third: grasp and agency, each its own joint.
 Grasp comes first: the order in-chunk starts with reflexivity, then agency.
 
 ## Vbt.lean :: forms_eight
-Eight offered forms, each its own: word-heap, nine-self, three-head, power-triad, nāda-drop, moon-crescent, wheel, unsmeared — the opening question's whole inventory, counted and distinct.
+Eight offered forms, each its own: word-heap, nine-self, three-head, power-triad, nāda-drop, moon-crescent, wheel, unsmeared — eight as listed in the ARGMAP roster. The verses (v.4) name at least one more (śaktisvarūpa); see the 2026-11-08 correction.
 
 ## Vbt.lean :: coords_three
-No direction, no time, no counting: three coordinates refused, each its own.
+No direction, no time, no counting: three coordinates refused, each its own — the three C1 names. v.14 also adds place and point; see the 2026-11-08 correction.

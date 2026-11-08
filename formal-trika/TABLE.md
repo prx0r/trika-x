@@ -76,8 +76,8 @@ reading the encoding. Rows: 157 theorems (incl. 2 scaffolds).*
 | control/Phrdaya.lean | epithet_three | Consciousness, independent, cause of the universe's accomplishment: three terms, each its own. |
 | control/Phrdaya.lean | closes_four | Sūtras seventeen to twenty, in that order — the passage closes in four steps, counted and sequenced. |
 | control/Phrdaya.lean | means_once | The means is named once, at the eighteenth sūtra: one pivot, no doubling. |
-| control/Vbt.lean | forms_eight | Eight offered forms, each its own: word-heap, nine-self, three-head, power-triad, nāda-drop, moon-crescent, wheel, unsmeared — the opening question's whole inventory, counted and distinct. |
-| control/Vbt.lean | coords_three | No direction, no time, no counting: three coordinates refused, each its own. |
+| control/Vbt.lean | forms_eight | Eight offered forms, each its own: word-heap, nine-self, three-head, power-triad, nāda-drop, moon-crescent, wheel, unsmeared — eight as listed in the ARGMAP roster. The verses (v.4) name at least one more (śaktisvarūpa); see the 2026-11-08 correction. |
+| control/Vbt.lean | coords_three | No direction, no time, no counting: three coordinates refused, each its own — the three C1 names. v.14 also adds place and point; see the 2026-11-08 correction. |
 | control/Correction.lean | joints_two | Two grants, no third: grasp and agency, each its own joint. |
 | control/Correction.lean | grasp_first | Grasp comes first: the order in-chunk starts with reflexivity, then agency. |
 | frontier/Aperture.lean | aperture_nine | Nine operations in the aperture roster: the inventory count holds. |
