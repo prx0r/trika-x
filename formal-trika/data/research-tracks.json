@@ -79,7 +79,8 @@
    "essays": [
     "expansion-nomeans-anupaya-2026-11-06-145838273951",
     "expansion-nomeans-anupaya-2026-11-06-145909250521",
-    "expansion-densities-adhvan-2026-11-06-140900"
+    "expansion-densities-adhvan-2026-11-06-140900",
+    "expansion-nomeans-anupaya-2026-11-06-154908158977"
    ],
    "log": "data/tracks/F6-densities-LOG.md"
   },
@@ -104,7 +105,10 @@
     "expansion-mala-l34-2026-11-06-142424",
     "expansion-mala-l34-2026-11-06-142440",
     "expansion-mala-research-voice-2026-11-06-133914",
-    "expansion-mala-aghoras-test-2026-11-06-154544548117"
+    "expansion-mala-aghoras-test-2026-11-06-154544548117",
+    "expansion-gate-test-2026-11-06-154846955054",
+    "expansion-mala-full-2026-11-06-154902126688",
+    "expansion-prarabdha-karma-2026-11-06-154902314669"
    ],
    "log": "data/tracks/F7-mala-LOG.md"
   },
@@ -121,7 +125,10 @@
    "essays": [
     "expansion-prarabdha-karma-2026-11-06-145833493148",
     "expansion-prarabdha-karma-2026-11-06-145904484333",
-    "expansion-mala-aghoras-test-2026-11-06-154544548117"
+    "expansion-mala-aghoras-test-2026-11-06-154544548117",
+    "expansion-gate-test-2026-11-06-154846955054",
+    "expansion-mala-full-2026-11-06-154902126688",
+    "expansion-prarabdha-karma-2026-11-06-154902314669"
    ],
    "log": "data/tracks/F8-karma-LOG.md"
   },
@@ -138,7 +145,8 @@
    ],
    "essays": [
     "expansion-nomeans-anupaya-2026-11-06-145838273951",
-    "expansion-nomeans-anupaya-2026-11-06-145909250521"
+    "expansion-nomeans-anupaya-2026-11-06-145909250521",
+    "expansion-nomeans-anupaya-2026-11-06-154908158977"
    ],
    "log": "data/tracks/F9-upaya-LOG.md"
   },
@@ -154,9 +162,26 @@
    ],
    "essays": [
     "expansion-hook-five-knots-2026-11-06-150401681091",
-    "expansion-hook-five-knots-2026-11-06-150617676090"
+    "expansion-hook-five-knots-2026-11-06-150617676090",
+    "expansion-hook-five-knots-2026-11-06-154928615693"
    ],
    "log": "data/tracks/F10-embodiment-LOG.md"
+  },
+  {
+   "id": "F11",
+   "title": "Tattva scheme (categories)",
+   "question": "What are the categories, structurally?",
+   "status": "active (tattva rungs checked; generative + listed agree)",
+   "grounds": [
+    "tsa08-p01 v01/v02/v16",
+    "TattvaGen.lean",
+    "Tattva.lean"
+   ],
+   "essays": [
+    "expansion-worlds-bodies-2026-11-06-154928761997",
+    "expansion-node1-tattva-2026-11-06-154928910444"
+   ],
+   "log": "data/tracks/F11-tattva-LOG.md"
   }
  ]
 }

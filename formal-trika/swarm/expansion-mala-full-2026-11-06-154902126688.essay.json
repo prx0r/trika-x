@@ -1,0 +1,259 @@
+{
+ "format": "trika-essay/1",
+ "id": "essay:expansion-mala-full-2026-11-06-154902126688",
+ "title": "Impurity Is Objectivity (full)",
+ "date": "2026-11-06",
+ "chunk": "tantrasara-a08:tsa08-p02",
+ "verses": [
+  "tsa-a08-v18",
+  "tsa-a08-v19",
+  "tsa-a08-v20",
+  "tsa-a08-v21",
+  "tsa-a08-v22",
+  "tsa-a08-v23",
+  "tsa-a08-v24",
+  "tsa-a08-v25"
+ ],
+ "voice": [
+  {
+   "text": "\"initiation... is the removal of impurity and with that fundamental impurity is removed karma and maya... beyond Maya... pure reality levels... tiny latent impression... all that separates you from finally attaining Shiva.\"",
+   "source": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md"
+  },
+  {
+   "text": "\"When you're in Shambhavuppaya, you're experiencing pure nirvikalpa. Not a trace of thought consciousness.\"",
+   "source": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md"
+  },
+  {
+   "text": "\"As long as it does not become permanent, the Shambhava state degenerates back into the Shambhava means,\"",
+   "source": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md"
+  },
+  {
+   "text": "\"We find joy in practicing awareness of being of consciousness. Why? Because that consciousness is the source of all things. The bliss we feel from that is the bliss of emanation.\"",
+   "source": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md"
+  },
+  {
+   "text": "\"Anashrita Shiva means Shiva who has not come out from himself into the world of creation... he has entered into himself... he does not have the support of anything else, he is self-sustaining.\"",
+   "source": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md"
+  },
+  {
+   "text": "\"That which is to be taught. Because it is the cause of what is rightly known... He is the cause of all that is glorious and laudable.\"",
+   "source": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md"
+  }
+ ],
+ "claims": [
+  {
+   "id": "CLM-001",
+   "text": "iyati sākṣāt śivaḥ kartā — so far directly Śiva maker.",
+   "verse_id": "tsa-a08-v18",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-002",
+   "text": "aśuddhaṃ punar adhvānam anantāparanāmāghoreśaḥ sṛjati — impure path Aghoreśa-Ananta emits.",
+   "verse_id": "tsa-a08-v18",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-003",
+   "text": "īśvarecchāvaśena prakṣubdhabhogalolikānām aṇūnāṃ bhogasiddhyartham — by Lord's will, for wavered atoms' enjoyment-perfection.",
+   "verse_id": "tsa-a08-v18",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-004",
+   "text": "Aghoreśa-Ananta emits the impure path for craving atoms.",
+   "verse_id": "tsa-a08-v18",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-005",
+   "text": "tatra loliko 'pūrṇam anyatārūpaḥ parispandaḥ akarmakam abhilāṣamātram eva bhaviṣyad avacchedayogyateti — waverer, incomplete, other-natured throbbing, mere longing, future fitness for bounding.",
+   "verse_id": "tsa-a08-v19",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-006",
+   "text": "na malaḥ puṃsas tattvāntaram — not man's impurity nor another category.",
+   "verse_id": "tsa-a08-v19",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-007",
+   "text": "Craving = mere longing, not impurity, no new category.",
+   "verse_id": "tsa-a08-v19",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-008",
+   "text": "rāgatattvaṃ tu karmāvacchinno 'bhilāṣaḥ — passion-principle is action-bounded longing.",
+   "verse_id": "tsa-a08-v20",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-009",
+   "text": "Passion = bounded longing.",
+   "verse_id": "tsa-a08-v20",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-010",
+   "text": "karma tu tatra karmamātraṃ buddhidharmas tu rāgaḥ — action is mere action there; mind-nature is passion.",
+   "verse_id": "tsa-a08-v21",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-011",
+   "text": "karmabhedacitra iti vibhāgo vakṣyate — varied by action-difference; distinction to be told.",
+   "verse_id": "tsa-a08-v21",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-012",
+   "text": "Action mere; passion mind-nature; distinction deferred.",
+   "verse_id": "tsa-a08-v21",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-013",
+   "text": "so 'yaṃ malaḥ parameśvarasya svātmapracchādanecchātaḥ — this impurity: from the Lord's self-veiling wish.",
+   "verse_id": "tsa-a08-v22",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-014",
+   "text": "nānyat kiṃcid vastv api — nothing else at all a thing.",
+   "verse_id": "tsa-a08-v22",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-015",
+   "text": "ca tatparameśvarecchātmanaiva dharāder api vastutvāt — and by that Lord-wish-nature alone is earth-and-rest's thingness.",
+   "verse_id": "tsa-a08-v22",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-016",
+   "text": "Impurity = Lord's self-veiling wish; nothing else; things real only thus.",
+   "verse_id": "tsa-a08-v22",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-017",
+   "text": "sa ca malo vijñānakevale vidyamāno dhvaṃsonmukha iti na svakāryaṃ karma āpyāyati — existing in knowledge-kevalin, facing destruction: does not fatten its effect-action.",
+   "verse_id": "tsa-a08-v23",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-018",
+   "text": "pralayakevalasya tu jṛmbhamāṇa eva āsta iti malopodbalitaṃ karma saṃsāravaicitryabhoge nimittam — but yawning in dissolution-kevalin: impurity-strengthened action causes transmigration-variety-enjoyment.",
+   "verse_id": "tsa-a08-v23",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-019",
+   "text": "Knowledge-kevalin starves action; dissolution-kevalin fuels it.",
+   "verse_id": "tsa-a08-v23",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-020",
+   "text": "tadbhogavāsanānuviddhānām aṇūnāṃ bhogasiddhaye śrīmān aghoreśaḥ sṛjati — for enjoyment-pierced atoms' perfection, glorious Aghoreśa emits.",
+   "verse_id": "tsa-a08-v24",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-021",
+   "text": "iti yuktam uktam — fittingly said.",
+   "verse_id": "tsa-a08-v24",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-022",
+   "text": "malasya ca prakṣobha īśvarecchābalād eva — impurity's stirring by Lord-wish-force alone.",
+   "verse_id": "tsa-a08-v24",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-023",
+   "text": "Enjoyment-need + inert inability ground Aghoreśa's emission.",
+   "verse_id": "tsa-a08-v24",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-024",
+   "text": "aṇur nāma kila cidacidrūpāvabhāsa eva — atom: mere conscious-unconscious shining.",
+   "verse_id": "tsa-a08-v25",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-025",
+   "text": "tasya cidrūpam aiśvaryam eva — conscious form is lordliness.",
+   "verse_id": "tsa-a08-v25",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-026",
+   "text": "acidrūpataiva malaḥ — unconscious-formedness alone impurity.",
+   "verse_id": "tsa-a08-v25",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-027",
+   "text": "Atom = shining; impurity = unconscious side; Māyā-principle inert-pervading material cause; Māyā-power distinct.",
+   "verse_id": "tsa-a08-v25",
+   "tier": "R",
+   "kind": "inference"
+  }
+ ],
+ "theorems": [
+  {
+   "name": "Mala.lean :: count_3",
+   "tier": "UNVERIFIED"
+  }
+ ],
+ "open_questions": [
+  "Which banked premises does framing select?",
+  "What would a witness change?",
+  "What rival readings live in uncertainties?"
+ ],
+ "tracks": [
+  "F7",
+  "F8"
+ ],
+ "openpatala": {
+  "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+  "mapping_status": "CANDIDATE",
+  "record_status": "RECORDED",
+  "record_sha256": "41482eba94ca0c054a8c742de645e5440bf75e3c10fc7ba71c00e45036f00d95",
+  "edition_label": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+  "note": "resolved at compile time; re-resolve on review (records move)"
+ },
+ "status": "MACHINE-COMPILED",
+ "receipt": "expansion-mala-full-2026-11-06-154902126688.receipt.json"
+}

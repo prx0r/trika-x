@@ -923,6 +923,90 @@
    "chunk": "tantrasara-a08:tsa08-p02",
    "date": "2026-11-06",
    "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-gate-test-2026-11-06-154846955054",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E10_mala_objectivity.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-prarabdha-karma-2026-11-06-154902314669",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E09_prarabdha_lastbirth.md",
+   "chunk": "tantrasara-a08:tsa08-p02",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-nomeans-anupaya-2026-11-06-154908158977",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E13_no_method.md",
+   "chunk": "tantraloka-a34:tal-a34-p01",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-hook-five-knots-2026-11-06-154908285809",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E07_hook_thread.md",
+   "chunk": "tantrasara-a08:tsa08-p03",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-worlds-bodies-2026-11-06-154908458844",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E06_worlds_bodies.md",
+   "chunk": "tantrasara-a08:tsa08-p01",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-node1-tattva-2026-11-06-154914108854",
+   "kind": "expansion-draft",
+   "owner": "None",
+   "chunk": "tantrasara-a08:tsa08-p01",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-hook-five-knots-2026-11-06-154928615693",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E07_hook_thread.md",
+   "chunk": "tantrasara-a08:tsa08-p03",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "essay:expansion-worlds-bodies-2026-11-06-154928761997",
+   "kind": "expansion-draft",
+   "owner": "/root/tantraessays/essays/essays20/E06_worlds_bodies.md",
+   "chunk": "tantrasara-a08:tsa08-p01",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
+  },
+  {
+   "id": "track:F11",
+   "kind": "research-track"
+  },
+  {
+   "id": "essay:expansion-node1-tattva-2026-11-06-154928910444",
+   "kind": "expansion-draft",
+   "owner": "None",
+   "chunk": "tantrasara-a08:tsa08-p01",
+   "date": "2026-11-06",
+   "status": "MACHINE-COMPILED"
   }
  ],
  "edges": [
@@ -1993,6 +2077,301 @@
   {
    "from": "essay:expansion-mala-aghoras-test-2026-11-06-154544548117",
    "to": "verse:tantrasara-a08:tsa-a08-v25",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-gate-test-2026-11-06-154846955054",
+   "to": "track:F7",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-gate-test-2026-11-06-154846955054",
+   "to": "track:F8",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-gate-test-2026-11-06-154846955054",
+   "to": "verse:tantrasara-a08:tsa-a08-v18",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-gate-test-2026-11-06-154846955054",
+   "to": "verse:tantrasara-a08:tsa-a08-v19",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "track:F7",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "track:F8",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "verse:tantrasara-a08:tsa-a08-v18",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "verse:tantrasara-a08:tsa-a08-v19",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "verse:tantrasara-a08:tsa-a08-v20",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "verse:tantrasara-a08:tsa-a08-v21",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "verse:tantrasara-a08:tsa-a08-v22",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "verse:tantrasara-a08:tsa-a08-v23",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "verse:tantrasara-a08:tsa-a08-v24",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "verse:tantrasara-a08:tsa-a08-v25",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-mala-full-2026-11-06-154902126688",
+   "to": "theorem:Mala.lean :: count_3",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-prarabdha-karma-2026-11-06-154902314669",
+   "to": "track:F7",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-prarabdha-karma-2026-11-06-154902314669",
+   "to": "track:F8",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-prarabdha-karma-2026-11-06-154902314669",
+   "to": "verse:tantrasara-a08:tsa-a08-v20",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-prarabdha-karma-2026-11-06-154902314669",
+   "to": "verse:tantrasara-a08:tsa-a08-v21",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-prarabdha-karma-2026-11-06-154902314669",
+   "to": "verse:tantrasara-a08:tsa-a08-v23",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-prarabdha-karma-2026-11-06-154902314669",
+   "to": "theorem:Transitions.lean :: karma_loop_exists",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-nomeans-anupaya-2026-11-06-154908158977",
+   "to": "track:F6",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-nomeans-anupaya-2026-11-06-154908158977",
+   "to": "track:F9",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-nomeans-anupaya-2026-11-06-154908158977",
+   "to": "verse:tantraloka-a34:tal-a34-v01",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-nomeans-anupaya-2026-11-06-154908158977",
+   "to": "verse:tantraloka-a34:tal-a34-v02",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-nomeans-anupaya-2026-11-06-154908158977",
+   "to": "verse:tantraloka-a34:tal-a34-v03",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-nomeans-anupaya-2026-11-06-154908158977",
+   "to": "theorem:Ladder.lean :: chain_trans",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-nomeans-anupaya-2026-11-06-154908158977",
+   "to": "theorem:Ladder.lean :: terminal_no_successor",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-154908285809",
+   "to": "verse:tantrasara-a08:tsa-a08-v55",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-154908285809",
+   "to": "verse:tantrasara-a08:tsa-a08-v56",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-154908285809",
+   "to": "theorem:Kancuka.lean :: count_5",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-154908285809",
+   "to": "theorem:Kancuka.lean :: pairings_distinct",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154908458844",
+   "to": "verse:tantrasara-a08:tsa-a08-v01",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154908458844",
+   "to": "verse:tantrasara-a08:tsa-a08-v02",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154908458844",
+   "to": "verse:tantrasara-a08:tsa-a08-v16",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154908458844",
+   "to": "theorem:TattvaGen.lean :: gen_total",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154908458844",
+   "to": "theorem:TattvaGen.lean :: pure_distinct",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-node1-tattva-2026-11-06-154914108854",
+   "to": "verse:tantrasara-a08:tsa-a08-v01",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-node1-tattva-2026-11-06-154914108854",
+   "to": "verse:tantrasara-a08:tsa-a08-v02",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-154928615693",
+   "to": "track:F10",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-154928615693",
+   "to": "verse:tantrasara-a08:tsa-a08-v55",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-154928615693",
+   "to": "verse:tantrasara-a08:tsa-a08-v56",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-154928615693",
+   "to": "theorem:Kancuka.lean :: count_5",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-hook-five-knots-2026-11-06-154928615693",
+   "to": "theorem:Kancuka.lean :: pairings_distinct",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154928761997",
+   "to": "track:F11",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154928761997",
+   "to": "verse:tantrasara-a08:tsa-a08-v01",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154928761997",
+   "to": "verse:tantrasara-a08:tsa-a08-v02",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154928761997",
+   "to": "verse:tantrasara-a08:tsa-a08-v16",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154928761997",
+   "to": "theorem:TattvaGen.lean :: gen_total",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-worlds-bodies-2026-11-06-154928761997",
+   "to": "theorem:TattvaGen.lean :: pure_distinct",
+   "rel": "cites-formal"
+  },
+  {
+   "from": "essay:expansion-node1-tattva-2026-11-06-154928910444",
+   "to": "track:F11",
+   "rel": "mined-by"
+  },
+  {
+   "from": "essay:expansion-node1-tattva-2026-11-06-154928910444",
+   "to": "verse:tantrasara-a08:tsa-a08-v01",
+   "rel": "grounds-on",
+   "tier": "R"
+  },
+  {
+   "from": "essay:expansion-node1-tattva-2026-11-06-154928910444",
+   "to": "verse:tantrasara-a08:tsa-a08-v02",
    "rel": "grounds-on",
    "tier": "R"
   }

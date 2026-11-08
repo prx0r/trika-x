@@ -1,0 +1,310 @@
+{
+ "format": "expansion-receipt/3",
+ "essay": "expansion-worlds-bodies-2026-11-06-154928761997",
+ "date": "2026-11-06",
+ "tracks": [
+  "F11"
+ ],
+ "owner_quotes": 8,
+ "banked_units": 3,
+ "theorems": [
+  "TattvaGen.lean :: gen_total",
+  "TattvaGen.lean :: pure_distinct"
+ ],
+ "openpatala": {
+  "openpatala_work_id": "PTCND_sa_abhinavagupta-tantrasAra",
+  "mapping_status": "CANDIDATE",
+  "record_status": "RECORDED",
+  "record_sha256": "41482eba94ca0c054a8c742de645e5440bf75e3c10fc7ba71c00e45036f00d95",
+  "edition_label": "Provenance: GRETIL Nirnaya Sagara 1918 KSTS 17 · CC BY-NC-SA 4.0",
+  "note": "resolved at compile time; re-resolve on review (records move)"
+ },
+ "frozen_claims": [
+  {
+   "id": "CLM-001",
+   "text": "yad idaṃ vibhavātmakaṃ bhuvanajātam uktaṃ garbhīkṛtānantavicitrabhoktṛbhogyaṃ — this world-born glory-natured, wombing endless varied enjoyer-enjoyed.",
+   "verse_id": "tsa-a08-v01",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-002",
+   "text": "tatra yad anugataṃ mahāprakāśarūpaṃ — what pervades as great-light-formed.",
+   "verse_id": "tsa-a08-v01",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-003",
+   "text": "tat mahāsāmānyakalpaṃ paramaśivarūpam — that is like the great common, Supreme-Śiva-formed.",
+   "verse_id": "tsa-a08-v01",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-004",
+   "text": "Paramaśiva = what pervades the whole as great light.",
+   "verse_id": "tsa-a08-v01",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-005",
+   "text": "yat tu katipayakatipayabhedānugataṃ rūpaṃ tat tattvam — what pervades only some differences: a category.",
+   "verse_id": "tsa-a08-v02",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-006",
+   "text": "yathā pṛthivī nāma ... samastabrahmāṇḍānugatā — as earth, pervading all world-eggs from Kālāgni to Vīrabhadra.",
+   "verse_id": "tsa-a08-v02",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-007",
+   "text": "Partial pervasion defines tattva; earth the example.",
+   "verse_id": "tsa-a08-v02",
+   "tier": "R",
+   "kind": "inference"
+  },
+  {
+   "id": "CLM-008",
+   "text": "citprādhānye śivatattvam — awareness-led: Śiva.",
+   "verse_id": "tsa-a08-v16",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-009",
+   "text": "ānandaprādhānye śaktitattvam — bliss-led: power.",
+   "verse_id": "tsa-a08-v16",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-010",
+   "text": "icchāprādhānye sadāśivatattvam — will-led: Sadāśiva.",
+   "verse_id": "tsa-a08-v16",
+   "tier": "R",
+   "kind": "premise"
+  },
+  {
+   "id": "CLM-011",
+   "text": "Five principles by power-primacy; will as even-acceptance.",
+   "verse_id": "tsa-a08-v16",
+   "tier": "R",
+   "kind": "inference"
+  }
+ ],
+ "coverage": {
+  "orphan_bullets": [],
+  "unused_claims": [
+   "CLM-001",
+   "CLM-002",
+   "CLM-003",
+   "CLM-004",
+   "CLM-005",
+   "CLM-006",
+   "CLM-007",
+   "CLM-008",
+   "CLM-009",
+   "CLM-010",
+   "CLM-011"
+  ]
+ },
+ "claims": "1/9 CITED + 0 verse-marked",
+ "audit": {
+  "content_sha256": "57aaa6f167c21770a4760706cd481367a2aad30fa662133b811a95cf73383175",
+  "verifier": "essay-compile/loop",
+  "model": "compiler-v1",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p01: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-001] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-002] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-003] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-004] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-005] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-006] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-007] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-008] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-009] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-010] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "fail",
+    "detail": "[CLM-011] has no supplied source (invented citation?)"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tantrasara-a08:tsa08-p01]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v01]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v02]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v16]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: it's only here if you manage to be reborn in this earth world and especially her"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: A couple layer of worlds and that as you progress up these worlds you get closer"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: Anutt, Anutt means impelling, without being impelled by anything, for no purpose"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: that the self or the ultimate nature of all things or the universe is Shiva hims"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: The term is Prakriya in Sanskrit. Modality, a kind of a whole particular way of "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: because he is endowed with this attribute, with his nature, he is called Vyomeru"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: everything, without exception, that is said, is taught to be this Vyomar, this e"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: because all the world... they are perishable, and where do they perish, they com"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "4 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-06T15:49:28Z"
+ },
+ "l3": {
+  "essence_map": {
+   "para-0": [],
+   "para-1": [],
+   "para-2": [],
+   "para-3": [],
+   "para-4": [],
+   "para-5": [
+    "[CLM-001]",
+    "[CLM-002]",
+    "[CLM-003]",
+    "[CLM-004]",
+    "[CLM-005]",
+    "[CLM-006]",
+    "[CLM-007]",
+    "[CLM-008]",
+    "[CLM-009]",
+    "[CLM-010]",
+    "[CLM-011]"
+   ],
+   "para-6": [],
+   "para-7": [],
+   "para-8": []
+  },
+  "read_aloud": "owed (assessor reads draft aloud, logs defects here)",
+  "kill_register": [],
+  "untraced": []
+ },
+ "l4": {
+  "drafts": [
+   "p00",
+   "p01",
+   "p02",
+   "p03",
+   "p04",
+   "p05",
+   "p06",
+   "p07",
+   "p08"
+  ],
+  "drift_paras": [
+   {
+    "para": 7,
+    "overlap": 0.0
+   }
+  ],
+  "note": "drift = beautification without claims; rework or kill, never smooth"
+ },
+ "graph": {
+  "nodes": 126,
+  "edges": 220
+ },
+ "note": "compiled, not written: owner words verbatim; substance from frozen banked claims"
+}
