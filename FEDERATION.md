@@ -80,7 +80,7 @@
  Register (opencode.jsonc): one entry pointing at federation_gateway.py,
  restart client. Children fill in as their SDKs/paths land; the parent needs
  no changes. Wire note: shastra (FastMCP) + vf/openpatala (`mcp` SDK legacy
- import paths) do not start on this box (deps absent, disk 98% — not chased);
+ import paths) do not start on this box (deps absent — not chased);
  bookfactory bf_mcp is stdlib-only and runs anywhere (verified live).
  Child working trees were never touched (read via origin/master; one
  disposable /tmp worktree, removed + pruned).
@@ -172,7 +172,7 @@
  Witnesses 0 box-wide (NGMPP/manuscript eyes). Human gates: P-TK1 ruling,
  rater-2, Zenodo token, diksa policy, journey go, 71 gold reviews. SDK gaps
  (FastMCP/mcp-legacy) are lanes' to install. 8801 squatter cleanup = owner
- call (not ours to kill). Disk 98% (2G free) — pressure is outside our
+ call (not ours to kill). Disk 95% (3.9G free as of 2026-11-08) — pressure is outside our
  targets (projects 6.3G etc.); no deletions without owner eyes. Scholar
  N1/sessions mining, organism, Bayesian legitimacy, second ledgers/IDs,
  non-Trika expansion: all parked. pm2 scholar-memos crash-loop = scholar

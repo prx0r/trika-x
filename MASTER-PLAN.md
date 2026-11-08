@@ -92,6 +92,12 @@ maps = the first comparative-formal rung + visual truth).
 
 ## AMENDMENT 2026-11-08 — measured progress since the 11-06 baseline
 
+> **Note (same day, later):** the figures in this amendment were taken at
+> ~11:00. Later same-day work raised them (157 theorems, 16/154 chunks, 909
+> traces, 94 tests, 95%/3.9G disk). Current numbers live in
+> `formal-trika/data/freshness.json` and `MASTERPLAN2.md`; this section is a
+> dated snapshot, not a live scoreboard.
+
 *Appended, not rewritten. The 11-06 plan above stands as architecture and
 order; this section updates the scoreboard only. Full audit:
 `docs/log/REVIEW-2026-11-08.md`. Execution plan: `MASTERPLAN2.md`.*
