@@ -1,26 +1,26 @@
 {
- "measured_at": "2026-11-08T10:22:40Z",
+ "measured_at": "2026-11-08T12:24:27Z",
  "git": {
   "trika-x": {
-   "rev": "caf6987",
-   "branch": "box/peer-review-batch",
-   "dirty": 1
+   "rev": "b171908",
+   "branch": "main",
+   "dirty": 35
   },
   "openpatala": {
-   "rev": "7af046d",
-   "branch": "master",
+   "rev": "29ae809",
+   "branch": "box/check-readonly",
    "dirty": 0
   },
   "svread": {
-   "rev": "cb299c0",
+   "rev": "976a474",
    "branch": "main",
    "dirty": 0
   }
  },
  "disk": {
   "value": {
-   "free_gb": 3.87,
-   "used_pct": 94.1
+   "free_gb": 4.15,
+   "used_pct": 93.8
   },
   "command": "df -h /"
  },
@@ -80,9 +80,9 @@
   "command": "python3 formal-trika/tools/essay_derive.py --json"
  },
  "svread_traces": {
-  "value": 13,
+  "value": 909,
   "command": "cat /root/svread/data/traces/index.json",
-  "source_sha256": "17ee5c87d7001db8e1d5d93208d420200ae68d49adb413403aca93c42ca50690"
+  "source_sha256": "c1fc5c888427d9b8da81982789543990877a783a6638ab583ce98daa57b5f88b"
  },
  "svread_source_map": {
   "value": {
@@ -96,9 +96,9 @@
  "svread_surface": {
   "value": {
    "scholar_projections": 56,
-   "manifest_assets": 504
+   "manifest_assets": 7078
   },
   "command": "ls /root/svread/data/scholar/*.json; jq assets /root/svread/data/release-manifest.json",
-  "source_sha256": "039729926f47add598f089c676b52de514384dd16feca3ebeab94c42a278265e"
+  "source_sha256": "3f003ab75f33200704ac9b6d15275c84f291c6e60e611fb9b4678b769b03a499"
  }
 }

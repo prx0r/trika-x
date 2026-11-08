@@ -201,12 +201,12 @@ the models qualify.
 
 - **Live numbers:** `formal-trika/data/freshness.json` (regenerate with
   `freshness.py --write`; gate with `--check`).
-- **Stale-history register:** `REVIEW-2026-11-08.md` (12 specific claims vs
+- **Stale-history register:** `docs/log/REVIEW-2026-11-08.md` (12 specific claims vs
   measured reality).
 - **What to build:** `MASTERPLAN2.md`.
 - **Architecture + phase order:** `MASTER-PLAN.md` (+ its 2026-11-08
   amendment).
-- **Human asks:** `DECISION-PACKET-2026-11-06.md` (update statuses there; do
+- **Human asks:** `docs/log/DECISION-PACKET-2026-11-06.md` (update statuses there; do
   not fork a second ask list).
 
 Rule of thumb: if a doc quotes a count and is older than 2026-11-07, treat the

@@ -1,6 +1,6 @@
 # TRIKA-X /root/trika-x — formalization literature corpus
 
-> Start with the [peer review](PEER-REVIEW-2026-11-06.md) and
+> Start with the [peer review](docs/log/PEER-REVIEW-2026-11-06.md) and
 > [fresh-checkout run guide](formal-trika/README.md). The paths and evidence
 > status below are from a historical environment, not a self-contained corpus.
 

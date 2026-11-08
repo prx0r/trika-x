@@ -3,7 +3,7 @@
 *Status: canonical execution plan from 2026-11-08. Supersedes the ordering in
 `NEXT-STEPS.md` (kept as reference). `MASTER-PLAN.md` remains the architecture
 and phase order — see its AMENDMENT 2026-11-08 for the updated scoreboard.
-This file turns that scoreboard + the 20-todo queue + `REVIEW-2026-11-08.md`
+This file turns that scoreboard + the 20-todo queue + `docs/log/REVIEW-2026-11-08.md`
 into one ordered, gated build plan. Every number below was measured on box
 2026-11-08; every unmeasured item is marked as a claim, never a fact.*
 
@@ -53,16 +53,16 @@ the three legitimacy logs (audit receipts, openpatala events, sanskritbench runs
 | Upstream evidence bundle | 996 works · 79 assertions · 38 ext-ids · 990 events · 1 artifact | `data/evidence/evidence-bundle.json` |
 | translation bridge | 28 works · 154 passage IDs · ledger bytes match · witnesses UNPINNED | `bridge_resolve.py --check` |
 | source-map | 87 works · **6 bridged / 81 todo** | svread `source-map.json` |
-| formal | 153 theorems · 151 entries + 2 exemptions · 0 bad chunk refs · axiom CLEAN (static) | `evidence_check.py` |
-| formal coverage | **13/154 passage chunks (8%)** · gap list published | `data/formal.json` |
-| traces | **13 bundles** (12 COMPLETE / 1 PARTIAL w/ caveat), external verify pack live | svread `data/traces/index.json` |
-| svread surface | 50 readable works · 55 scholar projections · 504 manifest assets · 10 Sanskrit lessons | live site + manifest |
-| tests | trika-x 73 · svread 49/0 · gateway 8 · Lean harnesses green | 2026-11-07 run |
+| formal | 157 theorems · 155 entries + 2 exemptions · 0 bad chunk refs · axiom CLEAN (static) | `evidence_check.py` |
+| formal coverage | **16/154 passage chunks (10%)** · gap list published | `data/formal.json` |
+| traces | **909 bundles** (236 COMPLETE / 673 PARTIAL, trika-x side), external verify packs live | `data/traces/index.json` + svread publish |
+| svread surface | 50 readable works · 55 scholar projections · 7078 manifest assets (incl. 909 verify packs) · 10 Sanskrit lessons | live site + manifest |
+| tests | trika-x 93 · svread 49+/0 · gateway 11 · Lean harnesses green | 2026-11-08 runs |
 | PUSHBACK | live (mock/go/cf, opt-in, verbatim shield, never edits) | `formal-trika/tools/pushback.py` |
 | Hygiene | disk **98% (1.7G free)** · branch `box/peer-review-batch` dirty · nightly cron NOT installed · token rotation unconfirmed | box |
 
 **Staleness register** (fix the paper, not the machine; full list in
-`REVIEW-2026-11-08.md`): openpatala README counts (1099/247/2181) are stale vs
+`docs/log/REVIEW-2026-11-08.md`): openpatala README counts (1099/247/2181) are stale vs
 evidence-bundle (996/79/990) vs box DB (555); "slang landed" unverifiable on
 svread disk; "Treeka assembler = one tool" not built; WITNESS-OCR is a doc.
 
@@ -180,7 +180,7 @@ gated on model quality set by the owner; no build, no tests, no placeholders.
 ## 4. Phased execution
 
 ### Phase 0 — Hygiene + honesty lock (this week, autonomous)
-W0 complete; openpatala gate re-run and pinned; `REVIEW-2026-11-08.md` accepted
+W0 complete; openpatala gate re-run and pinned; `docs/log/REVIEW-2026-11-08.md` accepted
 as the staleness register; canonical-counts rule enforced (counts carry
 bytes+hash or they don't ship). **Exit:** disk ≥15% free, clean branch, cron
 decision recorded, one honest gate run archived.
@@ -264,15 +264,15 @@ rung choice.
 | openpatala gate | GREEN, 2 BLOCKED | same, numbered | same | ≤1 BLOCKED (witness) |
 | Works in DB | 555 | 555 | 555+ | 600+ |
 | Bridged works | 6/87 | 6/87 | 87/87 decided | 87/87 |
-| Traces | 13 | ≥90% readable | all readable | all + packs |
-| Formal coverage | 13/154 (8%) | ~30/154 | ~50/154 | >77/154 (50%) |
+| Traces | 909 (236 C / 673 P) | ≥90% readable | all readable | all + packs |
+| Formal coverage | 16/154 (10%) | ~30/154 | ~50/154 | >77/154 (50%) |
 | Witnesses | 0 | 0 | 0 | ≥1 VERIFIED |
 | Scholar projections | 55 | 55 | 56+ | all readable |
 | Essays with DOI | 0 | 0 | 1 | several |
 | Sanskrit lessons live | 10 (verbatim) | l01 slice | full slice | audio (go) |
 | Discoverability | 0 indexed | submitted | indexed | ≥1 ref domain |
-| Tests | 73 / 49 / 8 | +new | +new | CI gate |
-| Disk free | 1.7G (98%) | ≥15% | ≥15% | ≥15% |
+| Tests | 93 / 49+ / 11 | +new | +new | CI gate |
+| Disk free | 3.9G (95%) | ≥15% | ≥15% | ≥15% |
 
 Never report a numerator without its denominator. Never report "complete"
 without a replay path.
@@ -299,13 +299,15 @@ without a replay path.
 - **MASTERPLAN2** supersedes `NEXT-STEPS.md` ordering (NEXT-STEPS stays as
   reference). `MASTER-PLAN.md` keeps architecture + phase order; its
   2026-11-08 amendment carries the scoreboard.
-- `DECISION-PACKET-2026-11-06.md` remains the live list of human asks; update
+- `docs/log/DECISION-PACKET-2026-11-06.md` remains the live list of human asks; update
   statuses there, do not fork a second ask list.
-- `REVIEW-2026-11-08.md` is the staleness register; corrections to it are new
+- `docs/log/REVIEW-2026-11-08.md` is the staleness register; corrections to it are new
   dated files, never edits.
 - `SYNERGY-CHAIN-2026-11-08.md` is the composition + versioning protocol (how
   the parts feed each other, how numbers stay sharp). `freshness.py --check`
   is the drift gate it depends on.
+- `DOCS.md` is the entry point: read order, map, and handover to the next
+  lead agent. Dated records live under `docs/log/` (append-only).
 - `MCP-OPS.md` is the federation operating guide; `tools/mcp_catalog.py
   --check` is its drift gate (104 tools / 8 families, measured 2026-11-08).
 - Each workstream item closes with: commit SHA, gate output pasted into a dated
@@ -352,7 +354,7 @@ resolve is labelled PARTIAL or BROKEN, never shipped, never signed.
   witnesses 0 corpus-wide, 81/87 works unbridged, DEV-PLAN phases 1.1–1.8
   open. It is an honest working root (555 works / 909 passages, gated),
   not a complete identity system.
-- trika-x is NOT fully done: 155 theorems over 14/154 chunks (9%); 895/909
+- trika-x is NOT fully done: 157 theorems over 16/154 chunks (10%); 893/909
   passages without registry refs; no witnesses; human gates open.
 - trika-x CAN serve as the foundation for essays and peer review TODAY for
   the machine side: essay gate (`essay_check`), claim tables, audit_draft,
@@ -492,7 +494,7 @@ tools/mcp_catalog.py --check` (SHARP).
 - **Q08 receipt.** `runs/runs.jsonl` 2026-11-08T06:29:49Z rev `ab5dfcc`:
   control exit 0 (incl. `BrokenPhrThreeCloses: closes_four is false`,
   `BrokenPhrTwoMeans: means_once is false), recognition exit 0, tc1 exit 0.
-  Coverage now 155 theorems / 153 entries, 14/154 chunks (9%).
+  Coverage now 157 theorems / 155 entries, 16/154 chunks (10%).
 
 - **Q13 pilot.** Queue refreshed: 882 argmap-uncertainty candidates
   (priority 0 = referenced works first). Head crux param-p02 (v15/v16/v18)

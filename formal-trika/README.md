@@ -47,7 +47,7 @@ source references are not pinned, and it must not feed publication gates.
 Compiler results are restricted to the definitions and statements in these
 files. They do not establish source truth, independent review or rights. For
 the proposed source-to-essay integration and remaining blockers, see the
-[peer review](../PEER-REVIEW-2026-11-06.md).
+[peer review](../docs/log/PEER-REVIEW-2026-11-06.md).
 
 The 2026-11-06 review used the official Lean 4.34.1 Linux release, Lean commit
 `5045d0056413266e57c625dcd7c365b10e377c52`; the downloaded archive had SHA-256

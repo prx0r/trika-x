@@ -1,4 +1,8 @@
-# NEXT STEPS — sequenced backlog from here (canonical)
+# NEXT STEPS — sequenced backlog from here (SUPERSEDED for ordering)
+
+> Status 2026-11-08: ordering superseded by `MASTERPLAN2.md` §12 (Q01–Q20
+> queue) and §16–§17. Kept as reference for its per-item gates and
+> blockers; do not add new items here.
 
 **Order logic:** hygiene/autonomy first (nothing rots), coverage second
 (formal rungs in queue order), integrations third (other lanes decide),

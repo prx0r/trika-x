@@ -31,5 +31,5 @@ new textual finding.
    Future experimental preregistrations should be committed and published
    before code or results, then referenced by an immutable commit in the run.
 
-See [the peer review](../PEER-REVIEW-2026-11-06.md) for evidence, source
+See [the peer review](../docs/log/PEER-REVIEW-2026-11-06.md) for evidence, source
 edition and rights caveats, checks, and the proposed integration contract.

@@ -1,6 +1,6 @@
 # HANDOVER — trika-x endgame build (2026-11-06 mega-session)
 
-**For the next agent. Read this + AGENTS.md + MASTERPLAN-TECHNICAL-SPEC.md
+**For the next agent. Read this + AGENTS.md + ../../MASTERPLAN-TECHNICAL-SPEC.md
 first. Everything below verified at push time; rerun §2 to confirm.**
 
 ## 0. Owner vision — VERBATIM (do not paraphrase, do not shorten)
@@ -93,7 +93,7 @@ essay(chunk|tension) -> draft → claims → audit → PUSHBACK → review → s
 Each arrow is a working function today EXCEPT: witness verification,
 chunk↔verse map, pair emission, Zenodo token, rater/scholar rulings,
 factory evidence_refs, owner-gated builds (ledger/trajectory/vis-mode).
-Specs for each live in BACKBONE.md §5 / CHAIN-GAP doc / NEXT-STEPS.md.
+Specs for each live in ../../BACKBONE.md §5 / CHAIN-GAP doc / ../../NEXT-STEPS.md.
 
 ## 4. PR #4 record (reviewed twice, both merged)
 

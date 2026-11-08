@@ -1,10 +1,10 @@
 # LEAD HANDOVER — formal Trika, organized for the lead agent
 
-> Historical snapshot. The [2026-11-06 peer review](../PEER-REVIEW-2026-11-06.md)
+> Historical snapshot. The [2026-11-06 peer review](../docs/log/PEER-REVIEW-2026-11-06.md)
 > supersedes its test status, suggested Coords fix, key-export and qprivately
 > claims. Its absolute `/root/...` paths describe a previous environment.
 
-**Date:** 2026-11-06. **Author:** box scout agent (autonomous deep-dive, owner-ordered). **Status:** SUPERSEDED IN PART — PR #1 (`codex/proof-audit-and-integration`, lead agent) repaired both reds with honest scope corrections + must_fail/CI discipline (see PEER-REVIEW-2026-11-06.md); arm-B build-out (KancukaCorr/Grace/Upaya + T-C1/T-C3/T-C4 pilots + upaya/station/bhakti/arc docs) pushed to the same PR branch. Pack assembled pre-PR; `07-` reds below are historical.
+**Date:** 2026-11-06. **Author:** box scout agent (autonomous deep-dive, owner-ordered). **Status:** SUPERSEDED IN PART — PR #1 (`codex/proof-audit-and-integration`, lead agent) repaired both reds with honest scope corrections + must_fail/CI discipline (see ../docs/log/PEER-REVIEW-2026-11-06.md); arm-B build-out (KancukaCorr/Grace/Upaya + T-C1/T-C3/T-C4 pilots + upaya/station/bhakti/arc docs) pushed to the same PR branch. Pack assembled pre-PR; `07-` reds below are historical.
 
 ## 1. Mission
 

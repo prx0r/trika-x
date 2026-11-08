@@ -16,7 +16,7 @@
 
 **F6 — Twin spot-check: PASS. CONFIRMED.** `lean -DwarningAsError=true Vbt.lean` compiles; `must_fail.py --positive Vbt.lean --mutant BrokenVbtSeven.lean --theorem forms_eight` → `PASS … forms_eight is false in mutant`. Runs receipts `ab5dfcc`, `247d897` both present in `formal-trika/runs/runs.jsonl`, both exit 0/0/0 with the expected twin-refusal tails (incl. `BrokenVbtSeven`, `BrokenVbtTwoCoords` in 247d897).
 
-**F7 — History: 19 commits, linear, pushed, clean. CONFIRMED.** `git log --oneline -22`: 19 session commits `9ee20e5`→`649f42e` atop `2c83925` — count exact. Local `box/peer-review-batch` = `origin/box/peer-review-batch` at `649f42e`. `git status`: clean except untracked `REVIEW-REQUEST-2026-11-08.md` (this ask doc itself). No rewrites visible; the disclosed pre-push amend (ochema gitlink) is consistent with a single `b9724e7` entry.
+**F7 — History: 19 commits, linear, pushed, clean. CONFIRMED.** `git log --oneline -22`: 19 session commits `9ee20e5`→`649f42e` atop `2c83925` — count exact. Local `box/peer-review-batch` = `origin/box/peer-review-batch` at `649f42e`. `git status`: clean except untracked `../../../REVIEW-REQUEST-2026-11-08.md` (this ask doc itself). No rewrites visible; the disclosed pre-push amend (ochema gitlink) is consistent with a single `b9724e7` entry.
 
 **F8 — ochema gitlink repair: CORRECT. CONFIRMED.** `git ls-files -s formal-trika/imports/ochema | head -2` → `100644` blobs, no `160000` gitlink. Repair as disclosed in process notes §1.
 
@@ -48,7 +48,7 @@
 
 **R7 — Rejected variant + P-VBT2 split: both CORRECT.** Held L2 spans verify the rejection: `working-l2-vbt-p02.json` v.11 negates `bhairavaḥ` himself (outside the p01 question set) and kalā (from p01's `śabdarāśikalāmayam`) is nowhere negated in v.11–v.12 — the negation set ≠ the question set, as recorded. P-VBT2's three-way split is banked by C1 (`working-c1-vbt-p02.json` SUMMARY: "free of direction, time and counting") + L2 v.14 gloss, exactly as `PREREGISTRATION-VBT2-RUNG.md:16` claims — but note the Sanskrit compound `dikkālakalanonmuktā` does not self-segment; the three-way reading inherits C1/L2 authority (R-tier, declared). Kill criterion recorded. **Ruling: P-VBT2 banked well enough for R; rejection stands permanently. ADDRESSED.**
 
-**R8 — Push safety: SAFE TO HAVE PUSHED, two hygiene notes.** No secrets, no private material, no overclaim in public docs (all PARTIAL/CANDIDATE/R labels intact; no invented witnesses, DOIs, or signoffs). Notes: (a) the truncated pushback file (F13) is public-facing roughness — fix, don't hide; (b) if `REVIEW-REQUEST-2026-11-08.md` itself is pushed, it exposes internal review posture but no secrets — owner's call, currently untracked. **Ruling: nothing must be un-pushed. ADDRESSED.**
+**R8 — Push safety: SAFE TO HAVE PUSHED, two hygiene notes.** No secrets, no private material, no overclaim in public docs (all PARTIAL/CANDIDATE/R labels intact; no invented witnesses, DOIs, or signoffs). Notes: (a) the truncated pushback file (F13) is public-facing roughness — fix, don't hide; (b) if `../../../REVIEW-REQUEST-2026-11-08.md` itself is pushed, it exposes internal review posture but no secrets — owner's call, currently untracked. **Ruling: nothing must be un-pushed. ADDRESSED.**
 
 ## 3. Verdict
 

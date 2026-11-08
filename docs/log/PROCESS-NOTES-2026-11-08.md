@@ -79,7 +79,7 @@ openpatala_mcp 5 · scholar 33 · translation 16 · video 18
 
 Doc drift found:
 
-1. `FEDERATION.md` and `MODULES.md` said **98 tools** (stale count).
+1. `../../../FEDERATION.md` and `../../../MODULES.md` said **98 tools** (stale count).
 2. `FORMAL-MCP-SPEC` still declared itself **v2 PARTIAL** ("items 1–6 remain
    specced") while all 7 formal tools are live and tested.
 3. `PARENT-CONTRACT` naming used `book__quote` / `book-mcp`; the real prefix is
@@ -103,8 +103,8 @@ confirmed (video needs `project`; translation `gates` has a different schema).
 - `FORMAL-MCP-SPEC` → **v3, IMPLEMENTED** (seven tools; test + catalog
   pointers).
 - `PARENT-CONTRACT` → real topology/prefixes/counts; 11 tests; catalog.
-- `FEDERATION.md`, `MODULES.md` → 104 tools.
-- `MCP-OPS.md` → new operating guide (quickstart, topology, catalog,
+- `../../../FEDERATION.md`, `../../../MODULES.md` → 104 tools.
+- `../../../MCP-OPS.md` → new operating guide (quickstart, topology, catalog,
   behaviour contract, verification, troubleshooting, known gaps, change
   protocol).
 
@@ -121,7 +121,7 @@ up. Suite: **76 tests OK** (gateway 11).
 
 ### M05 — operating guide
 
-`MCP-OPS.md` documents: one stdio parent, FailOpen on children, fail-closed on
+`../../../MCP-OPS.md` documents: one stdio parent, FailOpen on children, fail-closed on
 identity, `Unknown tool` semantics, `UNPINNED/CANDIDATE/BLOCKED/PARTIAL`,
 stdio-only gap (no HTTP/auth yet), and the three verification commands.
 
@@ -394,8 +394,8 @@ deterministically (909, 0 errors) · essay_derive rc=0 (6 PARTIAL, 0 BROKEN)
 
 Independent reviewer re-ran everything read-only: all 19 commits' numbers
 reproduce (tests 79, evidence 157/155, 16/154 chunks, 909 traces, 882 queue,
-882... — full text in `LEAD-REVIEW-2026-11-08.md`, saved verbatim; ask in
-`REVIEW-REQUEST-2026-11-08.md`). Highest-severity class (number fails to
+882... — full text in `../../../LEAD-REVIEW-2026-11-08.md`, saved verbatim; ask in
+`../../../REVIEW-REQUEST-2026-11-08.md`). Highest-severity class (number fails to
 reproduce): none found.
 
 Repairs made, all committed here:
@@ -417,10 +417,10 @@ Both review docs committed (ask + verdict) as the permanent record.
 
 ## 17. PR #7 integration (2026-11-08) — wire-up log
 
-External review `SYSTEM-PEER-REVIEW-2026-11-08.md` (PR #7, branch
+External review `../../../SYSTEM-PEER-REVIEW-2026-11-08.md` (PR #7, branch
 `codex/system-peer-review-2026-11-08`) read in full. Verdict on its claims:
 all P0/P1 findings inspected; trika-x-owned items fixed below, lane items
-reproduced read-only and filed in `LANE-ASKS-2026-11-08.md`.
+reproduced read-only and filed in `../../../LANE-ASKS-2026-11-08.md`.
 
 ### Trika-x-owned fixes (this session)
 
@@ -446,10 +446,10 @@ reproduced read-only and filed in `LANE-ASKS-2026-11-08.md`.
   gold paths in essay_compile, essay_check, calibrate_gate, biblio_sweep,
   bridge_resolve. Fixture suite `test_clean_checkout.py`: trace compile +
   verify + derive on synthetic tmp trees, no sibling checkouts.
-- **P2 docs:** `STATUS.md` (implemented@rev / prototype / proposed /
+- **P2 docs:** `../../../STATUS.md` (implemented@rev / prototype / proposed /
   blocked / historical per artifact). PR #7 ownership table adopted into
   SYNERGY-CHAIN §8; delivery checkpoints into MASTERPLAN2 §17. Concern-
-  grouped PR description in `PR-DESCRIPTION.md`.
+  grouped PR description in `../../../PR-DESCRIPTION.md`.
 - **R3/R5/R6/R2:** DERIVED-before-DOI gate added to Q12; treeka↔EVIDENCE
   cross-check is now a unit test; R-tier-only + second-encoder-owed adopted
   into MASTERPLAN2 §6; queue-order rung discipline kept.
@@ -460,7 +460,7 @@ sanskritbench result_id (identical IDs across sources, negated PASS) ·
 translation-work phrdaya spans (4-sūtra labels, 1-sūtra bytes) · svread
 formalized counts (vbt 17 vs 2 direct) + MODEL_CHECKED without run binding ·
 openpatala check.py write path (static) · ipvv two-sources class-counting.
-All in `LANE-ASKS-2026-11-08.md` with repro commands.
+All in `../../../LANE-ASKS-2026-11-08.md` with repro commands.
 
 ### Open from PR #7 not yet done here
 

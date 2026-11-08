@@ -1,4 +1,4 @@
-# SCORECARD — 2026-11-06 evening (dated addendum; supersedes scoreboards in MASTER-PLAN.md §Scoreboard and HANDOVER.md §2 for numbers only)
+# SCORECARD — 2026-11-06 evening (dated addendum; supersedes scoreboards in MASTER-PLAN.md §Scoreboard and ../docs/log/HANDOVER.md §2 for numbers only)
 
 Pinned: trika-x @ea3860c (this file next commit), translation-work @9000e5c8,
 Lean 4.34.1. All values machine-produced this session (batteries cited).

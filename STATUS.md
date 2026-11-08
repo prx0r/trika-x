@@ -17,13 +17,16 @@ what it counts; nothing here implies human acceptance or deployment.*
 | `axiom_audit.py` (CLEAN static) | IMPLEMENTED | trika-x | `--check` |
 | `trace_bundle.py` + verify (assurance-separated) | IMPLEMENTED | trika-x | `tests/test_trace_bundle.py` (10) |
 | `trace_all.py` (909 bundles) + `data/traces/` | IMPLEMENTED | trika-x | `--index-only` reproduces |
-| `treeka.py` + `treeka_report.py` + cross-check test | IMPLEMENTED | trika-x | `tests/test_treeka_report.py` |
+| `treeka.py` + `treeka_report.py` + cross-check test | IMPLEMENTED | trika-x | `tests/test_treeka_report.py` (4) |
+| `chunk_verse_map.py` (23 works, 105 chunks, CANDIDATE) | IMPLEMENTED | trika-x | `--check` SHARP |
 | `essay_check.py` (forgery-closed) | IMPLEMENTED | trika-x | `tests/test_essay_check.py` (7) |
 | `essay_derive.py` (6 PARTIAL, 0 BROKEN) | IMPLEMENTED | trika-x | `--json` |
 | `review_status.py` (0 Core / 157 Frontier) | IMPLEMENTED | trika-x | `--check` |
 | `decision_check.py`, `chunk_verse.py`, `crux_queue.py` | IMPLEMENTED | trika-x | direct run |
 | `review_packet.py` (7 packets queued) | IMPLEMENTED | trika-x | `swarm/review-packets/` |
 | `mcp_catalog.py` (104 tools) + gateway + pretest | IMPLEMENTED | trika-x | `--check`, 11 gateway tests |
+| `MCP-OPS.md` (operating guide) + `DOCS.md` (entry point + map) | IMPLEMENTED | trika-x | read + run their commands |
+| `docs/log/` (20 dated records, links verified) | IMPLEMENTED | trika-x | repo-wide md-link audit, 0 broken |
 | `freshness.py` ledger + SHARP gate | IMPLEMENTED | trika-x | `--check` |
 | `pushback.py`, `roboscholar.py` (1 pilot, 2-family) | IMPLEMENTED | trika-x | pilot files in `swarm/` |
 | `calibrate_gate.py` (NEEDS TUNING, reproduced) | IMPLEMENTED | trika-x | `--n 200` |
@@ -57,7 +60,7 @@ writes (translation-work lane) · svread publish/chat/Sanskrit slice
 
 ## HISTORICAL (reference only)
 
-`HANDOVER.md` (11-06 mega-session) · `NEXT-STEPS.md` ordering (superseded by
+`docs/log/HANDOVER.md` (11-06 mega-session) · `NEXT-STEPS.md` ordering (superseded by
 MASTERPLAN2) · `MASTER-PLAN.md` pre-amendment text · swarm superseded 14:xx
 runs (removed, recorded) · `MASTERPLAN-TECHNICAL-SPEC.md` 11-06 claims
 superseded by measured 11-08 baseline.

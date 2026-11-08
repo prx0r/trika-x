@@ -141,11 +141,11 @@ here, without touching their repos:
    fails with "Lean 4.34.1 unavailable" despite toolchain present 4.34.1.)
 
  Specs frozen (new files, our lane only):
- - PARENT-CONTRACT-SPEC-2026-11-07.md — openpatala as federated parent:
+ - ../../PARENT-CONTRACT-SPEC-2026-11-07.md — openpatala as federated parent:
    identity block, prefixMode prefixed, FailOpen, entitlements at parent,
    banned surface (ship/render/seal/publish/send/spend/post/isbn/grant/
    signoff/submit), draft-only on UNRESOLVED.
- - FORMAL-MCP-SPEC-2026-11-07.md — 6 read-only tools (bridge/evidence/
+ - ../../FORMAL-MCP-SPEC-2026-11-07.md — 6 read-only tools (bridge/evidence/
    table/gaps/runs/axioms), no Lean/EVIDENCE/ledger writes via MCP.
  - tools/federation_pretest.py — GREEN (26 expected tools; prefix + banned
    + routing + contract). Fixed own bug: substring scan flagged
@@ -316,7 +316,7 @@ here, without touching their repos:
    codes/publics; case/separator-tolerant, fail-closed ValueError.
  - formal-trika/tests/test_layer_names.py — 6 tests GREEN (roundtrip,
    tolerance, fail-closed, codes-stable, comments-present, publics-unique).
- - LAYER-NAMES-SPEC-2026-11-07.md — adoption per lane (additive {code,
+ - ../../LAYER-NAMES-SPEC-2026-11-07.md — adoption per lane (additive {code,
    public}, accept-either on input; bare code rename = major version).
    Scholar MCP / site / packs / lingua changes are PROPOSED (lane owners
    dispose); nothing renamed anywhere today.
@@ -373,7 +373,7 @@ here, without touching their repos:
  owner go, gate canonical with exactly 2 DUE-LATER (ship handoff, PDF proof).
  Notes: Google Fonts CDN in lesson HTML (self-host the vendored OFL fonts at
  deploy); :8600 serves on the lane's box only (nothing here).
- Spec SVREAD-SANSKRIT-SPEC-2026-11-07.md (proposal, trika-x lane): header
+ Spec ../../SVREAD-SANSKRIT-SPEC-2026-11-07.md (proposal, trika-x lane): header
  item + ?view=sanskrit route (same gated loaders), subdomain reality-check
  (nested sub of pages.dev not provisionable — view now, separate project +
  custom domain later), lesson payload vendored at release (emit step, hash-
@@ -584,7 +584,7 @@ here, without touching their repos:
  conformance BLOCKED — adapters discover nothing, the known peer-review issue,
  NOT faked; witnesses BLOCKED — 0 corpus-wide). OPENPATALA.md documents the
  real state + reproduce recipe + the dangling schema_uri and assertion.json
- drift. MODULES.md: every repo with measured status and gate. ROADMAP.md:
+ drift. ../../MODULES.md: every repo with measured status and gate. ../../ROADMAP.md:
  five rungs with done-gates (R1 trace all readable passages, R2 witnesses,
  R3 formalisation by gap list, R4 chat cites traces, R5 inbound links).
 

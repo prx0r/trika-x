@@ -10,7 +10,7 @@ No defense offered; dispose freely.
 
 1. **MCP hardening (M01–M05):** gateway serves 104 tools / 8 families; docs
    corrected (FORMAL-MCP v3, PARENT-CONTRACT prefixes, 98→104 counts);
-   `tools/mcp_catalog.py` drift gate; 3 new gateway tests; `MCP-OPS.md`.
+   `tools/mcp_catalog.py` drift gate; 3 new gateway tests; `../../../MCP-OPS.md`.
    Claimed: 79 tests green, pretest GREEN, catalog SHARP.
 2. **Corpus traces (Q05):** `trace_all.py` compiled 909 bundles (236 COMPLETE /
    673 PARTIAL), 0 errors, 4.2MB. Claimed: two samples re-verified.

@@ -1,6 +1,6 @@
 # PROCESS NOTES — autonomous endgame build (2026-11-06)
 
- Companion to MASTER-PLAN.md. Appended same-session as work completes.
+ Companion to ../../MASTER-PLAN.md. Appended same-session as work completes.
  Agent: box (opencode). Owner order: wire + test, 50 todos, realistic
  order, document everything.
 
@@ -15,7 +15,7 @@
   mcp_server). Postgres 15 installable (deb12u1 candidate). R2 dump
   (248 KB, SHA verified) + JSON seeds on hand.
 - 50 todos written (A1–A8, B1–B6, C1–C10, D1–D6, E1–E10, F1–F6, G1–G4).
-  MASTER-PLAN.md canonical. Blocked items marked, not skipped.
+  ../../MASTER-PLAN.md canonical. Blocked items marked, not skipped.
 - Order: A → B → C → F(CPU) → D → E → G per plan §Logical order.
 
 ## A1 — postgres install + schema restore (running)
@@ -305,7 +305,7 @@
   matches must_fail spirit. Teacher-endgame cites our pilots; convergence
   recorded (their assessor reads our models, not vice versa).
 - N7: owner-gated builds respected (ledger/trajectory/jev/vis-mode).
-- Suite 31/31. SYNERGIES-NIBBANA.md canonical for joins.
+- Suite 31/31. ../../SYNERGIES-NIBBANA.md canonical for joins.
 
 ## Deitybody catch-up (D1–D5 synergies).
 
@@ -318,7 +318,7 @@
   (vbt-d001 → hold event, REVIEW REQUIRED). Tests green.
 - D2 teaching order recorded (a+ā first, Mālinī after instrument known).
 - D3 E8 corrected from their audio truth (48+2, ḷḹ silence+flag).
-- Suite 32/32 (practice 6/6). SYNERGIES-DEITYBODY.md canonical.
+- Suite 32/32 (practice 6/6). ../../SYNERGIES-DEITYBODY.md canonical.
 
 ## Sanskrit-through-Trika endgame (P-SUTRA + P-REV + study).
 
@@ -488,7 +488,7 @@ mother-future): 6 ideas (nyāsa rung, permutation+fixed-point, parked
 mysteries ×2, Sanskrit-embedded program, VBT empirical check).
 N1 VERIFIED: MV 3.36–41 fetched (MIRI M00160, CC BY-NC) — order matches
 malini_order (na→pha) + 5 reading variants vs GRETIL-TĀ (skeleton agrees).
-BRAINSTORM-MALINI-LOGIC.md keeper.
+../../BRAINSTORM-MALINI-LOGIC.md keeper.
 
 ## 11. Sanskritree recovery + field
 
@@ -505,14 +505,14 @@ MV control + variants (above); tensions exporter (3 open, no body text
 crosses — in test); three-nyāsa character into spec; day-gate halves
 mapped; R2 env names mapped; teacher-stage0 reviewed (corrections journal
 = future T-C2/station/ti-ca consumer); owner-gated builds respected.
-SYNERGIES-NIBBANA.md.
+../../SYNERGIES-NIBBANA.md.
 
 ## 13. Deitybody synergy (contract discipline)
 
 unit_to_score.py verified against their compile_syllabus.py end-to-end
 (vbt-d001 → hold event, REVIEW REQUIRED); teaching order recorded
 (a+ā first); E8 corrected from their audio truth (48+2, ḷḹ silence+flag);
-locks adopted by reference. SYNERGIES-DEITYBODY.md.
+locks adopted by reference. ../../SYNERGIES-DEITYBODY.md.
 
 ## 14. Sanskrit-through-Trika endgame (Pradīpaka site, © controls only)
 
@@ -520,7 +520,7 @@ Full Śivasūtra word-by-word + study ladder + Trika tracks + technique
 compendia + Aṣṭādhyāyī 3983/0 reviewed. Tattva-letter table → BOTH
 reversals EXACT (P-REV). matrika_study.py (50 cards, verified:false
 propagated, trika_link NULL). Pedagogy adopted (sandhi-through-sūtras,
-pronunciation-through-aphorisms, First-Steps shape). SYNERGIES-SANSKRITHELP.md.
+pronunciation-through-aphorisms, First-Steps shape). ../../SYNERGIES-SANSKRITHELP.md.
 
 ## Scoreboard (verified at push)
 
@@ -546,7 +546,7 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 - O8 demo = the tsa08 walkthrough above. O9 audit: essays ✓ / packs prose-
   only (spec evidence_refs) / videos unknown (spec carry-through) / teacher
   headers ✓ (DB IDs future) / books lack openpatala IDs (spec fields).
-- O11 teacher note in BACKBONE §5. O12 BACKBONE.md canonical (flow +
+- O11 teacher note in BACKBONE §5. O12 ../../BACKBONE.md canonical (flow +
   contents + specs + boundaries). Tests: backbone resolve (+CI skip-guard).
 - Suite 33/33. DB: works 522, editions 87, etexts 87, passages 909.
 
@@ -598,7 +598,7 @@ svread, ipvv) · disk 3.5G free · secrets: /root/.env ONLY, scans clean.
 ## Translation-lane advice + reader role.
 
 - tw_reader role (SELECT-only, write-refused tested); DSN in /root/.env.
-- ADVICE-TRANSLATION-OPENPATALA.md: cookbook SQL, 6 good practices,
+- ../../ADVICE-TRANSLATION-OPENPATALA.md: cookbook SQL, 6 good practices,
   7 clean-data rules, 5 real-incident don'ts, ready-vs-human table.
   Pull-model (their repo untouched).
 

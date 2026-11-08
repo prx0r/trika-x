@@ -94,7 +94,7 @@ maps = the first comparative-formal rung + visual truth).
 
 *Appended, not rewritten. The 11-06 plan above stands as architecture and
 order; this section updates the scoreboard only. Full audit:
-`REVIEW-2026-11-08.md`. Execution plan: `MASTERPLAN2.md`.*
+`docs/log/REVIEW-2026-11-08.md`. Execution plan: `MASTERPLAN2.md`.*
 
 ### What changed (verified on box 2026-11-08)
 
@@ -126,7 +126,7 @@ order; this section updates the scoreboard only. Full audit:
 4. **Layer names for callers.** `layer-names.json` maps internal codes to
    public slugs (literal-gloss, argument-map, …); callers never see `l0`.
 5. **Docs are now measurable.** MODULES.md (every repo + gate), ROADMAP.md
-   (five rungs with done-gates), REVIEW-2026-11-08.md (staleness register).
+   (five rungs with done-gates), docs/log/REVIEW-2026-11-08.md (staleness register).
 
 ### Corrected open items (supersede 11-06 wording)
 

@@ -1,4 +1,4 @@
-# MASTERPLAN-ALIGNMENT.md — 20 todos × master sequence (2026-11-06)
+# ../../MASTERPLAN-ALIGNMENT.md — 20 todos × master sequence (2026-11-06)
 
 Each item: master-sequence step or brief reference → verdict → evidence.
 Acceptance language is the brief's. NOT MET items name the blocker and
@@ -40,7 +40,7 @@ is the gold lane's; tracked, not written.
 |---|---|---|---|
 | T01–T03 | S-SPAND + R-NAV rungs | PASS (Rungs 18–19) | 6 theorems, 6 twins, EVIDENCE + TABLE, RESULTS verdicts |
 | T04 | tsa08-p04 crux | WALKED (CRUX-05) | claim table + PUSHBACK + remainder; agentness gap seeded |
-| T12–T14 | Packets + gate + formal seeds | 6/6 SHIPPABLE, 6 live packets, 3 grounded seeds | INDEX.md; `essay_check --all`; `formal:*` seeds with grounds |
+| T12–T14 | Packets + gate + formal seeds | 6/6 SHIPPABLE, 6 live packets, 3 grounded seeds | ../../INDEX.md; `essay_check --all`; `formal:*` seeds with grounds |
 | T15–T17 | Science import | IMPORTER LIVE, 1 vendor, 3 retractions | `import_paper.py`; 1312.2007 (sha-stamped); SPANDA-RASA-MAP §7 |
 
 ## Standing backlog (gap-list order wins)

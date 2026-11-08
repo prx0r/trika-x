@@ -4,7 +4,7 @@
 > report, not evidence that the preregistered TK-C1/C2 or traditional
 > classification has been established. See
 > [correction](../PREREGISTRATION-2026-11-06.md) and
-> [review](../../PEER-REVIEW-2026-11-06.md).
+> [review](../../docs/log/PEER-REVIEW-2026-11-06.md).
 
 ## Review rerun (Lean 4.34.1)
 

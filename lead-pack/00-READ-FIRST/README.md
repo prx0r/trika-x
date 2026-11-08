@@ -1,6 +1,6 @@
 # LEAD PACK — read-first index
 
-> **Current entry point:** Read [the 2026-11-06 peer review](../../PEER-REVIEW-2026-11-06.md),
+> **Current entry point:** Read [the 2026-11-06 peer review](../../docs/log/PEER-REVIEW-2026-11-06.md),
 > [the correction to preregistration](../../formal-trika/PREREGISTRATION-2026-11-06.md),
 > and [the fresh-checkout run guide](../../formal-trika/README.md) first. The
 > historical handover below uses an old machine's paths and reports two Lean
