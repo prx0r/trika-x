@@ -172,8 +172,9 @@ GUIDE = """Navigate from openpatala (identity root) across the federation:
 2. scholar__passage_evidence {work, target} — read the Sanskrit + layers (internal codes T1/L0/argmap/L2/C1/C2/L3/L4; public names in trika-x layer-names.json).
 3. scholar__audit_draft / link_claims / pushback — check a draft before a human signs. Machine report, never verdict.
 4. translation__status {work} (shastra) — registry state, proof, what the swarm is doing. Writes never push/signoff.
-5. book__* (bookfactory) — draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.
+5. bookfactory__* (bookfactory) — draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.
 6. video__* (videofactory) — vf_gate/vf_triage to read state; vf_launch/vf_queue ship ONLY gated+approved renders (see videofactory#1: defaults should be explicit opt-in).
+   openpatala_mcp__get_health — direct child health/counts (works, passages, witnesses).
 7. openpatala__coverage — how much of the corpus is bridged.
 8. formal__trace {work, target} — full Sanskrit-to-essay trace bundle for one
    chunk (source bytes, layers, proofs, formal theorems, citing essays).

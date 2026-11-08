@@ -196,6 +196,39 @@ class TestFederationGateway(unittest.TestCase):
         self.assertIn("openpatala__resolve", text)
         self.assertIn("formal__trace", text)
 
+    def test_guide_uses_real_prefixes(self):
+        # Docs drift: the guide once said book__* while the surface is
+        # bookfactory__*. Guard every family prefix that actually exists.
+        init = self.rpc("initialize")
+        text = init["result"]["serverInfo"]["instructions"]
+        for fam in ("openpatala__", "openpatala_mcp__", "formal__",
+                    "scholar__", "translation__", "bookfactory__", "video__"):
+            self.assertIn(fam, text, f"guide must name {fam}*")
+        self.assertNotIn("book__", text, "book__ is not a real prefix")
+
+    def test_local_families_present(self):
+        names = {t["name"] for t in self.rpc("tools/list")["result"]["tools"]}
+        for name in ("openpatala__resolve", "openpatala__coverage",
+                     "formal__trace", "formal__bridge", "formal__gaps",
+                     "formal__axioms", "federation__guide"):
+            self.assertIn(name, names)
+
+    def test_catalog_matches_live_when_full(self):
+        from collections import Counter
+        catalog = Path(__file__).resolve().parent.parent / "data" / \
+            "mcp-catalog.json"
+        if not catalog.exists():
+            self.skipTest("no catalog yet — run tools/mcp_catalog.py --write")
+        names = [t["name"] for t in
+                 self.rpc("tools/list")["result"]["tools"]]
+        if len(names) < 100:
+            self.skipTest("children not all live; catalog describes full "
+                          "federation")
+        recorded = json.loads(catalog.read_text())
+        live = dict(sorted(Counter(n.split("__")[0] for n in names).items()))
+        self.assertEqual(recorded["families"], live,
+                         "catalog drift — regenerate tools/mcp_catalog.py")
+
 
 if __name__ == "__main__":
     raise SystemExit(unittest.main())

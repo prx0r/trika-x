@@ -1,0 +1,833 @@
+{
+ "format": "trika-mcp-catalog/1",
+ "generated_at": "2026-11-08T05:47:15Z",
+ "gateway": {
+  "name": "openpatala-federation",
+  "version": "1",
+  "title": "Openpatala federated parent",
+  "instructions": "Navigate from openpatala (identity root) across the federation:\n\n1. openpatala__resolve {work} \u2014 is this work known? ledger + witness status. UNRESOLVED = draft-only.\n2. scholar__passage_evidence {work, target} \u2014 read the Sanskrit + layers (internal codes T1/L0/argmap/L2/C1/C2/L3/L4; public names in trika-x layer-names.json).\n3. scholar__audit_draft / link_claims / pushback \u2014 check a draft before a human signs. Machine report, never verdict.\n4. translation__status {work} (shastra) \u2014 registry state, proof, what the swarm is doing. Writes never push/signoff.\n5. bookfactory__* (bookfactory) \u2014 draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.\n6. video__* (videofactory) \u2014 vf_gate/vf_triage to read state; vf_launch/vf_queue ship ONLY gated+approved renders (see videofactory#1: defaults should be explicit opt-in).\n   openpatala_mcp__get_health \u2014 direct child health/counts (works, passages, witnesses).\n7. openpatala__coverage \u2014 how much of the corpus is bridged.\n8. formal__trace {work, target} \u2014 full Sanskrit-to-essay trace bundle for one\n   chunk (source bytes, layers, proofs, formal theorems, citing essays).\n   Verdict COMPLETE/PARTIAL + named gaps; BLOCKED stays BLOCKED.\n\nLaws: UNRESOLVED/draft-only inputs stay draft-only. No auto-sign, auto-publish, auto-ship. Human disposes; receipts are the trail.\n"
+ },
+ "count": 104,
+ "families": {
+  "bookfactory": 22,
+  "federation": 1,
+  "formal": 7,
+  "openpatala": 2,
+  "openpatala_mcp": 5,
+  "scholar": 33,
+  "translation": 16,
+  "video": 18
+ },
+ "banned_hits": [],
+ "tools": [
+  {
+   "name": "bookfactory__audio_plan",
+   "family": "bookfactory",
+   "description": "[bookfactory] Write prints/<book>/audio-plan.json (NO API calls / no Fish render).",
+   "required": [
+    "book"
+   ]
+  },
+  {
+   "name": "bookfactory__check_lane",
+   "family": "bookfactory",
+   "description": "[bookfactory] Run the only gate (check.py). Returns canonical flag + full output. Omit lane to check the whole registry. BLOCKED = not shippable; DUE-LATER = wo",
+   "required": []
+  },
+  {
+   "name": "bookfactory__decide",
+   "family": "bookfactory",
+   "description": "[bookfactory] Append a justified construction decision. action: add-section|remove-section|add-entry|remove-entry|move-entry|retire-entry|replace-entry|declare-",
+   "required": [
+    "book",
+    "action",
+    "target",
+    "thesis_ref",
+    "justification"
+   ]
+  },
+  {
+   "name": "bookfactory__epub",
+   "family": "bookfactory",
+   "description": "[bookfactory] Build+validate reflowable EPUB3 for a book (after content exists).",
+   "required": [
+    "book"
+   ]
+  },
+  {
+   "name": "bookfactory__factory_overview",
+   "family": "bookfactory",
+   "description": "[bookfactory] Start here. Returns bookfactory goal, lanes, milestones, doc map, and the non-negotiable laws (stage order, no retyped text, decision log, fail-cl",
+   "required": []
+  },
+  {
+   "name": "bookfactory__inspect_verse",
+   "family": "bookfactory",
+   "description": "[bookfactory] factory inspect: exact translation-layer verse + gate state. text + exact ref (e.g. tsa-a01-v01 or bh-p02). Never guess refs from verse numbers.",
+   "required": [
+    "text",
+    "ref"
+   ]
+  },
+  {
+   "name": "bookfactory__list_dir",
+   "family": "bookfactory",
+   "description": "[bookfactory] List a directory under bookfactory (relative path).",
+   "required": []
+  },
+  {
+   "name": "bookfactory__list_lanes",
+   "family": "bookfactory",
+   "description": "[bookfactory] List every lane with registry stage, project stage, thesis title, entry count, max_pages, and whether prints/ exists.",
+   "required": []
+  },
+  {
+   "name": "bookfactory__list_specs",
+   "family": "bookfactory",
+   "description": "[bookfactory] List specs/, templates/, and styles/ available to instantiate.",
+   "required": []
+  },
+  {
+   "name": "bookfactory__new_book",
+   "family": "bookfactory",
+   "description": "[bookfactory] Scaffold a new lane. Prefer thesis= (path or specs name e.g. learn-sanskrit). Or claim + sections (id:purpose list) + template.",
+   "required": [
+    "slug"
+   ]
+  },
+  {
+   "name": "bookfactory__next_actions",
+   "family": "bookfactory",
+   "description": "[bookfactory] Agent worklist: blocking problems, due-later problems, open milestones, and stage law. Call after any content change.",
+   "required": []
+  },
+  {
+   "name": "bookfactory__package",
+   "family": "bookfactory",
+   "description": "[bookfactory] Assemble customer package (EPUB + PDF + audio + sha256 manifest) \u2014 only after build outputs exist.",
+   "required": [
+    "book"
+   ]
+  },
+  {
+   "name": "bookfactory__quote_preview",
+   "family": "bookfactory",
+   "description": "[bookfactory] DRAFT quote postcard/social previews (watermarked, never a ship approval).",
+   "required": [
+    "text",
+    "ref"
+   ]
+  },
+  {
+   "name": "bookfactory__read_book",
+   "family": "bookfactory",
+   "description": "[bookfactory] Read prints/<book>/book.json (meta, sections, trim, target_pages).",
+   "required": [
+    "book"
+   ]
+  },
+  {
+   "name": "bookfactory__read_decisions",
+   "family": "bookfactory",
+   "description": "[bookfactory] Read projects/<book>/decisions.jsonl \u2014 every construction change with thesis_ref + justification.",
+   "required": [
+    "book"
+   ]
+  },
+  {
+   "name": "bookfactory__read_docs",
+   "family": "bookfactory",
+   "description": "[bookfactory] Read a root markdown doc: FACTORY-SPEC | BOOKS | PIPELINE | AUTONOMY | AGENTS | CANDIDATES (with or without .md).",
+   "required": [
+    "doc"
+   ]
+  },
+  {
+   "name": "bookfactory__read_entries",
+   "family": "bookfactory",
+   "description": "[bookfactory] Read prints/<book>/entries.json (all entries or one by entry_id).",
+   "required": [
+    "book"
+   ]
+  },
+  {
+   "name": "bookfactory__read_file",
+   "family": "bookfactory",
+   "description": "[bookfactory] Read any file under bookfactory (relative path, no ..). Set allow_translations=true to also read translation-work relative paths.",
+   "required": [
+    "path"
+   ]
+  },
+  {
+   "name": "bookfactory__read_rule_boxes",
+   "family": "bookfactory",
+   "description": "[bookfactory] Read foundational rule boxes for a lesson-book (default learn-sanskrit).",
+   "required": []
+  },
+  {
+   "name": "bookfactory__read_template",
+   "family": "bookfactory",
+   "description": "[bookfactory] Read a genre template JSON (entry_anatomy, layout, provenance, products, inclusion/exclusion).",
+   "required": [
+    "id"
+   ]
+  },
+  {
+   "name": "bookfactory__read_thesis",
+   "family": "bookfactory",
+   "description": "[bookfactory] Read a thesis: book lane thesis (book=) or a pre-lane spec (spec=learn-sanskrit or learn-sanskrit.thesis.json) or raw path.",
+   "required": []
+  },
+  {
+   "name": "bookfactory__stage",
+   "family": "bookfactory",
+   "description": "[bookfactory] Advance a lane stage (verified; failing checks refuse forward moves). to: content|structure|formatting|build. PDF is LAST.",
+   "required": [
+    "book",
+    "to"
+   ]
+  },
+  {
+   "name": "federation__guide",
+   "family": "federation",
+   "description": "How an agent navigates openpatala -> translation -> scholar -> factories.",
+   "required": []
+  },
+  {
+   "name": "formal__axioms",
+   "family": "formal",
+   "description": "Axiom audit state (static half; kernel verdict needs pinned Lean).",
+   "required": []
+  },
+  {
+   "name": "formal__bridge",
+   "family": "formal",
+   "description": "Resolve chunk:<locator> to work/edition/etext rows; witness stays UNPINNED.",
+   "required": [
+    "chunk"
+   ]
+  },
+  {
+   "name": "formal__evidence",
+   "family": "formal",
+   "description": "EVIDENCE rows for one theorem, or registry counts. Refs are not entailments.",
+   "required": []
+  },
+  {
+   "name": "formal__gaps",
+   "family": "formal",
+   "description": "Treeka formal column: covered vs total chunks + the gap list (the rung queue).",
+   "required": []
+  },
+  {
+   "name": "formal__runs",
+   "family": "formal",
+   "description": "Runs ledger: harness verdicts + receipt count (never reruns Lean).",
+   "required": []
+  },
+  {
+   "name": "formal__table",
+   "family": "formal",
+   "description": "TABLE readings: theorem beside its plain-English scope note (MODEL_CHECKED only).",
+   "required": []
+  },
+  {
+   "name": "formal__trace",
+   "family": "formal",
+   "description": "Full Sanskrit-to-essay trace bundle for one chunk (bytes, layers, proofs, theorems, citing essays).",
+   "required": [
+    "work",
+    "target"
+   ]
+  },
+  {
+   "name": "openpatala__coverage",
+   "family": "openpatala",
+   "description": "Source-map coverage: ledger works bridged vs todo (witnesses UNPINNED).",
+   "required": []
+  },
+  {
+   "name": "openpatala__resolve",
+   "family": "openpatala",
+   "description": "Resolve a work to ledger + openpatala identity block (UNRESOLVED = draft-only).",
+   "required": [
+    "work"
+   ]
+  },
+  {
+   "name": "openpatala_mcp__get_bundle",
+   "family": "openpatala_mcp",
+   "description": "[openpatala_mcp] Get full dossier for a work (assertions, external IDs, provenance).",
+   "required": [
+    "entity_id"
+   ]
+  },
+  {
+   "name": "openpatala_mcp__get_frontier",
+   "family": "openpatala_mcp",
+   "description": "[openpatala_mcp] List works needing translations or sources.",
+   "required": []
+  },
+  {
+   "name": "openpatala_mcp__get_health",
+   "family": "openpatala_mcp",
+   "description": "[openpatala_mcp] Check system health.",
+   "required": []
+  },
+  {
+   "name": "openpatala_mcp__resolve",
+   "family": "openpatala_mcp",
+   "description": "[openpatala_mcp] Resolve a Sanskrit work name to a canonical entity.",
+   "required": [
+    "q"
+   ]
+  },
+  {
+   "name": "openpatala_mcp__search",
+   "family": "openpatala_mcp",
+   "description": "[openpatala_mcp] Search for Sanskrit works by title.",
+   "required": [
+    "q"
+   ]
+  },
+  {
+   "name": "scholar__add_review_annotation",
+   "family": "scholar",
+   "description": "[scholar] Comment on exact UTF-16 offsets in an immutable review snapshot.",
+   "required": [
+    "review_id",
+    "start",
+    "end",
+    "quote",
+    "body"
+   ]
+  },
+  {
+   "name": "scholar__audit_draft",
+   "family": "scholar",
+   "description": "[scholar] Check markers and quotes against same-paragraph sources. Supplied sources are not authenticated and claim support is not assessed. Returns a content-h",
+   "required": [
+    "text"
+   ]
+  },
+  {
+   "name": "scholar__check_claim_staleness",
+   "family": "scholar",
+   "description": "[scholar] Recheck a claim table against the essay and local bundled projections; caller-provided revisions do not establish freshness.",
+   "required": [
+    "record",
+    "text"
+   ]
+  },
+  {
+   "name": "scholar__compare_versions",
+   "family": "scholar",
+   "description": "[scholar] Compare two hash-checked versions for an exact passage and layer.",
+   "required": [
+    "work",
+    "target",
+    "layer",
+    "left",
+    "right"
+   ]
+  },
+  {
+   "name": "scholar__delete_decision",
+   "family": "scholar",
+   "description": "[scholar] Remove an owned private editorial decision.",
+   "required": [
+    "decision_id"
+   ]
+  },
+  {
+   "name": "scholar__delete_source",
+   "family": "scholar",
+   "description": "[scholar] Remove an owned source reference.",
+   "required": [
+    "source_id"
+   ]
+  },
+  {
+   "name": "scholar__delete_source_link",
+   "family": "scholar",
+   "description": "[scholar] Remove an owned private source relationship.",
+   "required": [
+    "link_id"
+   ]
+  },
+  {
+   "name": "scholar__document_history",
+   "family": "scholar",
+   "description": "[scholar] Read this account\u2019s private document revision history.",
+   "required": [
+    "document_id"
+   ]
+  },
+  {
+   "name": "scholar__draft_with_qwen",
+   "family": "scholar",
+   "description": "[scholar] Request an agent draft; the Scholar API requires explicit consent and configured quotas.",
+   "required": [
+    "work",
+    "target",
+    "layer",
+    "kind",
+    "instruction",
+    "consent_to_ai"
+   ]
+  },
+  {
+   "name": "scholar__link_claims",
+   "family": "scholar",
+   "description": "[scholar] Build a revision-bound claim table. CURRENT means the recorded hash matches a locally verified bundled projection, not textual authority or the latest",
+   "required": [
+    "text"
+   ]
+  },
+  {
+   "name": "scholar__list_decisions",
+   "family": "scholar",
+   "description": "[scholar] List your private revision-bound editorial decisions.",
+   "required": []
+  },
+  {
+   "name": "scholar__list_documents",
+   "family": "scholar",
+   "description": "[scholar] List this account\u2019s private documents for a work.",
+   "required": [
+    "work"
+   ]
+  },
+  {
+   "name": "scholar__list_published_essays",
+   "family": "scholar",
+   "description": "[scholar] List published essay versions and their author-approved AI use scopes.",
+   "required": [
+    "work"
+   ]
+  },
+  {
+   "name": "scholar__list_review_annotations",
+   "family": "scholar",
+   "description": "[scholar] List private selected-text comments for an accessible review.",
+   "required": [
+    "review_id"
+   ]
+  },
+  {
+   "name": "scholar__list_reviews",
+   "family": "scholar",
+   "description": "[scholar] List reviews accessible to this account.",
+   "required": []
+  },
+  {
+   "name": "scholar__list_source_links",
+   "family": "scholar",
+   "description": "[scholar] List your private typed source relationships.",
+   "required": []
+  },
+  {
+   "name": "scholar__list_sources",
+   "family": "scholar",
+   "description": "[scholar] List your private source notebook.",
+   "required": []
+  },
+  {
+   "name": "scholar__list_style_examples",
+   "family": "scholar",
+   "description": "[scholar] List this account\u2019s explicitly saved private edit examples.",
+   "required": []
+  },
+  {
+   "name": "scholar__list_versions",
+   "family": "scholar",
+   "description": "[scholar] List stored versions for an exact passage and layer.",
+   "required": [
+    "work",
+    "target",
+    "layer"
+   ]
+  },
+  {
+   "name": "scholar__list_works",
+   "family": "scholar",
+   "description": "[scholar] List available bundled Scholar projections.",
+   "required": []
+  },
+  {
+   "name": "scholar__passage_evidence",
+   "family": "scholar",
+   "description": "[scholar] Read hash-checked Sanskrit and editorial layers for a passage.",
+   "required": [
+    "work",
+    "target"
+   ]
+  },
+  {
+   "name": "scholar__prepare_citations",
+   "family": "scholar",
+   "description": "[scholar] Prepare citation references from selected notebook sources and/or explicit passages.",
+   "required": []
+  },
+  {
+   "name": "scholar__pushback",
+   "family": "scholar",
+   "description": "[scholar] Revision-bound candidate issues (failed quotes, uncited paragraphs, unresolved links) for author accept/reject/revise/defer. Agent report, not peer re",
+   "required": [
+    "text"
+   ]
+  },
+  {
+   "name": "scholar__ref_links",
+   "family": "scholar",
+   "description": "[scholar] Every ID connected to the given one \u2014 tension is the hub, links are verified both directions.",
+   "required": [
+    "id"
+   ]
+  },
+  {
+   "name": "scholar__request_review",
+   "family": "scholar",
+   "description": "[scholar] Request private review of an exact saved revision.",
+   "required": [
+    "document_id",
+    "reviewer_id",
+    "revision"
+   ]
+  },
+  {
+   "name": "scholar__resolve_ref",
+   "family": "scholar",
+   "description": "[scholar] Resolve any shared-language ID (work/chunk/tension/crux/essay/pack/aoc) to bytes, status and license. Fails closed.",
+   "required": [
+    "id"
+   ]
+  },
+  {
+   "name": "scholar__save_decision",
+   "family": "scholar",
+   "description": "[scholar] Save a private editorial decision against an owned revision.",
+   "required": [
+    "document_id",
+    "revision",
+    "subject",
+    "before",
+    "after",
+    "reason"
+   ]
+  },
+  {
+   "name": "scholar__save_document",
+   "family": "scholar",
+   "description": "[scholar] Save a private draft with expected_revision; conflicts are rejected.",
+   "required": [
+    "document_id",
+    "document"
+   ]
+  },
+  {
+   "name": "scholar__save_source",
+   "family": "scholar",
+   "description": "[scholar] Save a hash-pinned private source reference.",
+   "required": [
+    "work",
+    "target",
+    "note"
+   ]
+  },
+  {
+   "name": "scholar__save_source_link",
+   "family": "scholar",
+   "description": "[scholar] Save a private relationship between two owned sources.",
+   "required": [
+    "from_source_id",
+    "to_source_id",
+    "relation",
+    "note"
+   ]
+  },
+  {
+   "name": "scholar__search_texts",
+   "family": "scholar",
+   "description": "[scholar] Semantic search over the gate-labeled corpus (passages, probes, essays, themes). BLOCKED English is never returned.",
+   "required": [
+    "query"
+   ]
+  },
+  {
+   "name": "scholar__text_themes",
+   "family": "scholar",
+   "description": "[scholar] Themes evidence for a work or ref: labels, core claims, certificates, members.",
+   "required": []
+  },
+  {
+   "name": "scholar__vidyut_candidates",
+   "family": "scholar",
+   "description": "[scholar] Generate unreviewed transliteration and optional metre candidates from a bundled passage.",
+   "required": [
+    "work",
+    "target"
+   ]
+  },
+  {
+   "name": "translation__assemble",
+   "family": "translation",
+   "description": "[translation] Assessor act: assemble beam runs -> working-T1/L0 + data t1/l0/argmap/\nl2 (+C1-essence skeleton) -> validate_song + proof_record. Writes working\n+",
+   "required": [
+    "work",
+    "song"
+   ]
+  },
+  {
+   "name": "translation__concepts",
+   "family": "translation",
+   "description": "[translation] Grounds for hand-glossing: concept-database entry (if built) +\nfrequency-ranked MITRA senses with attestations for a Sanskrit headword.\nReturns th",
+   "required": [
+    "term"
+   ]
+  },
+  {
+   "name": "translation__gates",
+   "family": "translation",
+   "description": "[translation] The one gate (SKILL largetext \u00a710): manifest freshness + proof sweep\n+ passages ledger + dbread coverage. Read-only report; exit nonzero in\npayloa",
+   "required": []
+  },
+  {
+   "name": "translation__lore",
+   "family": "translation",
+   "description": "[translation] Return the cached 1-page transmission brief for a front\n(what it IS / MOVES / TRAPS / APPROACH), or list available briefs when\nnone exists \u2014 write",
+   "required": [
+    "work"
+   ]
+  },
+  {
+   "name": "translation__promote",
+   "family": "translation",
+   "description": "[translation] Assessor promotion: assemble runs -> working files -> data/*.json ->\nvalidate_song + proof_record. Records STATUS/REGISTRY as machine-proposed\n(mi",
+   "required": [
+    "work",
+    "song"
+   ]
+  },
+  {
+   "name": "translation__recon",
+   "family": "translation",
+   "description": "[translation] Recon report for a work (read-only): source spans + verse census,\nworkcfg registration, legacy T1 presence, lore-brief presence, beam\ncoverage per",
+   "required": [
+    "work"
+   ]
+  },
+  {
+   "name": "translation__review_sweep",
+   "family": "translation",
+   "description": "[translation] Run the assessor daemon sweep: mechanical verdicts for new DONE\ntriples (question/premise/uncertainty shape), escalate content-failures\nat max to ",
+   "required": []
+  },
+  {
+   "name": "translation__skill",
+   "family": "translation",
+   "description": "[translation] Return the governing SKILL.md for a lane (the law the swarm obeys).\nname: crystal-ipvv (single-verse gold drill, the ONLY path to gold) or\nlargete",
+   "required": [
+    "name"
+   ]
+  },
+  {
+   "name": "translation__status",
+   "family": "translation",
+   "description": "[translation] SMALL+LARGE entry point: work state \u2014 REGISTRY row, STATUS.json, data\ncounts, proof gate, lore-brief presence, and size routing\n(<1k source tokens",
+   "required": [
+    "work"
+   ]
+  },
+  {
+   "name": "translation__supervise",
+   "family": "translation",
+   "description": "[translation] Report the autonomous loop: continue.sh (registry sync + ralph\nsupervision), ralph.sh (workers + auto-review + convert + gate + push),\nwatchdog.sh",
+   "required": []
+  },
+  {
+   "name": "translation__swarm_decide",
+   "family": "translation",
+   "description": "[translation] Approve or bounce a reviewed task. Bounce notes must be ACTIONABLE\n(span format, missing verses, flabby question, paraphrase-not-argument).\nMax 3 ",
+   "required": [
+    "task_id",
+    "verdict"
+   ]
+  },
+  {
+   "name": "translation__swarm_review",
+   "family": "translation",
+   "description": "[translation] Assessor review packet for one DONE task: draft + selfcheck + the\nmeaning checklist (question sharp? premises terse? uncertainties honest?\ntraces ",
+   "required": [
+    "task_id"
+   ]
+  },
+  {
+   "name": "translation__swarm_seed",
+   "family": "translation",
+   "description": "[translation] Seed swarmable triple tasks (gloss+CM+argmap+L2 per verse-group) for a\nsong. Writes queue.json ONLY. Requires a lore brief (see lore tool) \u2014\nunbri",
+   "required": [
+    "work",
+    "song"
+   ]
+  },
+  {
+   "name": "translation__swarm_status",
+   "family": "translation",
+   "description": "[translation] Queue at a glance: pending/claimed/done/failed by kind + worker\nliveness. Read-only.",
+   "required": []
+  },
+  {
+   "name": "translation__swarm_workers",
+   "family": "translation",
+   "description": "[translation] Beam-worker throttle (don't pound the free tier). Actions:\nstatus (live workers + what each holds); start (launch up to `target`\nfree slots of w1.",
+   "required": []
+  },
+  {
+   "name": "translation__validate",
+   "family": "translation",
+   "description": "[translation] Run the deterministic gates: validate_song (schemas + cross-layer\ninvariants) + proof_record --shastra. Read-only report; fixes nothing.\nExit nonz",
+   "required": [
+    "work",
+    "song"
+   ]
+  },
+  {
+   "name": "video__vf_check",
+   "family": "video",
+   "description": "[video] Run the canonical factory gate (check.py). Exit 0 = CANONICAL.",
+   "required": []
+  },
+  {
+   "name": "video__vf_finals",
+   "family": "video",
+   "description": "[video] Shipped finals for a lane: sizes, verify/ship verdicts, public URLs.\n\n    Args:\n        project: Lane name (tantrasara, shiva-sutras)\n    ",
+   "required": []
+  },
+  {
+   "name": "video__vf_gate",
+   "family": "video",
+   "description": "[video] Evaluate the ONLY render gate: storyboard green + owner approval. Nothing else gates.\n\n    Args:\n        project: Lane name (tantrasara, shiva-sutras)\n ",
+   "required": [
+    "project",
+    "unit"
+   ]
+  },
+  {
+   "name": "video__vf_issues",
+   "family": "video",
+   "description": "[video] Full issues file for a unit (kinds route to skills; open vs waived-owner).\n\n    Args:\n        project: Lane name (tantrasara, shiva-sutras)\n        unit",
+   "required": [
+    "project",
+    "unit"
+   ]
+  },
+  {
+   "name": "video__vf_launch",
+   "family": "video",
+   "description": "[video] Render one unit detached (batch --ship). Enforces the render gate + one-video law; refuses otherwise.\n\n    Args:\n        project: Lane name (tantrasara,",
+   "required": [
+    "project",
+    "unit"
+   ]
+  },
+  {
+   "name": "video__vf_logs",
+   "family": "video",
+   "description": "[video] Tail a factory log (batch, overnight, batch_ch14_retry, chain_renders, qwen).\n\n    Args:\n        name: Log stem (batch, overnight, batch_ch14_retry, cha",
+   "required": []
+  },
+  {
+   "name": "video__vf_pack",
+   "family": "video",
+   "description": "[video] Zip shipped finals for comma unit ids (stored, no recompress) + optional R2 publish.\n\n    Args:\n        project: Lane name (tantrasara, shiva-sutras)\n  ",
+   "required": [
+    "project",
+    "units"
+   ]
+  },
+  {
+   "name": "video__vf_projects",
+   "family": "video",
+   "description": "[video] Discover render lanes (projects/*/project.json): names, series, unit schemes.",
+   "required": []
+  },
+  {
+   "name": "video__vf_publish",
+   "family": "video",
+   "description": "[video] Publish a file to R2 (copyto, mount-flake tolerant) + byte-verify (lsl size + HEAD).\n\n    Local must live under ~/vol; key like tantrasara/<name>.ext (n",
+   "required": [
+    "local_path",
+    "key"
+   ]
+  },
+  {
+   "name": "video__vf_queue",
+   "family": "video",
+   "description": "[video] Queue a gated render into the next video-path gap (waiter pattern \u2014 never sleep-blocks the agent).\n\n    Enforces the render gate now; refuses only when ",
+   "required": [
+    "project",
+    "unit"
+   ]
+  },
+  {
+   "name": "video__vf_skill",
+   "family": "video",
+   "description": "[video] Full fix prescription for an issue kind (the linked skill markdown). Only registered kinds serve.\n\n    Args:\n        kind: Issue kind from vf_issues (wh",
+   "required": [
+    "kind"
+   ]
+  },
+  {
+   "name": "video__vf_skill_propose",
+   "family": "video",
+   "description": "[video] Stage a new or updated issue skill (writes core/skills/<kind>.md + REGISTRY entry). Commit separately.\n\n    Use after researching a fix (web search, sol",
+   "required": [
+    "kind",
+    "content"
+   ]
+  },
+  {
+   "name": "video__vf_skills",
+   "family": "video",
+   "description": "[video] Issue-kind to skill lookup (core/skills/REGISTRY.json): which skill fixes which issue, auto vs needs-owner.",
+   "required": []
+  },
+  {
+   "name": "video__vf_status",
+   "family": "video",
+   "description": "[video] Factory board: render-gate mode, milestones, locks, live builder processes, disk, drivers.",
+   "required": []
+  },
+  {
+   "name": "video__vf_tests",
+   "family": "video",
+   "description": "[video] Run the factory test suite (quick subset default; full takes ~2min).\n\n    Args:\n        scope: quick (draws+postmortem+ship) or full\n    ",
+   "required": []
+  },
+  {
+   "name": "video__vf_triage",
+   "family": "video",
+   "description": "[video] Action list for a unit: gate verdict, per-issue skill routing (agent-fixable vs owner call), recommended next step.\n\n    This is the tool to call when d",
+   "required": [
+    "project",
+    "unit"
+   ]
+  },
+  {
+   "name": "video__vf_unit",
+   "family": "video",
+   "description": "[video] Deep unit state: storyboard sha, approval, issues, final size, ship verdict, parts.\n\n    Args:\n        project: Lane name (tantrasara, shiva-sutras)\n   ",
+   "required": [
+    "project",
+    "unit"
+   ]
+  },
+  {
+   "name": "video__vf_units",
+   "family": "video",
+   "description": "[video] Per-unit stage table for a lane (tantrasara 22, shiva-sutras 78). Derived from artifacts, read-only.\n\n    Args:\n        project: Lane name (tantrasara, ",
+   "required": []
+  }
+ ]
+}
