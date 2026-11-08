@@ -7,9 +7,9 @@ Each rung states the gate that marks it done. Nothing here is claimed done.*
 
 - 555 works identified · 87 with passage ledgers · 72 gold in translation-work
 - 50 works readable on the site · 55 with a scholar projection
-- 153 Lean theorems · 14/154 chunks formalised · 13 trace bundles published
+- 157 Lean theorems · 16/154 chunks formalised · **909 trace bundles** published
 - **0 witnesses** — nothing is witness-grade yet
-- LLM-legible: llms.txt, sitemap, robots, JSON-LD, formal registry, 13 traces
+- LLM-legible: llms.txt, sitemap, robots, JSON-LD, formal registry, 909 traces
 - **Independently verifiable**: any outsider can confirm our chains with
   `curl` + `sha256sum` and nothing else (proven live)
 
@@ -19,17 +19,21 @@ checkability to more claims, never adds unverifiable volume.
 
 ## The five rungs
 
-### R1 — Make every readable work verifiable (not just 13 chunks)
+### R1 — Make every readable work verifiable ✅ (met 2026-11-08)
 
-*Now:* 13 chunks have traces; 50 works are readable.
-*Gap:* traces exist per chunk, but only for formalised chunks.
+*Now:* all **909/909** ledger locators have a trace bundle (236 COMPLETE /
+673 PARTIAL, every PARTIAL naming its gaps) and 909 verify packs are published
+live. 50 works are readable on the site.
+*Remaining:* the public reader still lists traces per work; the new per-claim
+pages (see `svread/HANDOVER-SEO-2026-11-08.md`) close the presentation gap.
 
 - Generate a trace for **every chunk in every readable work** (909 passages).
   Most will be PARTIAL (no formal theorem) — that is fine and honest; the
   source + layers + proof hops still verify.
 - Publish verify packs for all of them.
 *Gate:* `data/traces/index.json` covers ≥90% of passages in readable works,
-and every pack reproduces its trace.
+and every pack reproduces its trace. — **MET: 100% coverage, packs re-verified
+at publish time (`emit_traces.py --check`, `emit_verify.py --check` GREEN).**
 
 ### R2 — Close the witness column (the thing that makes us citable as primary)
 
@@ -46,8 +50,8 @@ shelfmark, and the trace's source hop cites it.
 
 ### R3 — Extend formalisation along the gap list (never by taste)
 
-*Now:* 14/154 chunks formalised.
-*Gap:* 140 chunks unformalised; the list is published in `data/formal.json`.
+*Now:* 16/154 chunks formalised (10%).
+*Gap:* 138 chunks unformalised; the list is published in `data/formal.json`.
 
 - Work the gap list in order: phr mala rows → VBT clusters → tsa08 remaining.
 - Each new theorem: prereg → model → must-fail twin → EVIDENCE → TABLE →

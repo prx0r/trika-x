@@ -27,6 +27,9 @@ what it counts; nothing here implies human acceptance or deployment.*
 | `mcp_catalog.py` (104 tools) + gateway + pretest | IMPLEMENTED | trika-x | `--check`, 11 gateway tests |
 | `MCP-OPS.md` (operating guide) + `DOCS.md` (entry point + map) | IMPLEMENTED | trika-x | read + run their commands |
 | `docs/log/` (20 dated records, links verified) | IMPLEMENTED | trika-x | repo-wide md-link audit, 0 broken |
+| `docs/AI-DISCOVERABILITY-2026-11-08.md` (GEO research notes) | IMPLEMENTED | trika-x | sources cited; plan in svread |
+| `svread/SEO-GEO-PLAN-2026-11-08.md` (execution spec) | IMPLEMENTED (spec) | svread | 10 gates defined, none built yet |
+| `svread/HANDOVER-SEO-2026-11-08.md` (build handover) | IMPLEMENTED | svread | traps verified against code |
 | `freshness.py` ledger + SHARP gate | IMPLEMENTED | trika-x | `--check` |
 | `pushback.py`, `roboscholar.py` (1 pilot, 2-family) | IMPLEMENTED | trika-x | pilot files in `swarm/` |
 | `calibrate_gate.py` (NEEDS TUNING, reproduced) | IMPLEMENTED | trika-x | `--n 200` |
@@ -45,7 +48,8 @@ what it counts; nothing here implies human acceptance or deployment.*
 
 ## PROPOSED (spec only, no build)
 
-Second-encoder twin review · per-declaration run digests · DERIVED exemplar
+**Claim pages / SEO-GEO build** (B02–B20 in `svread/HANDOVER-SEO-2026-11-08.md`)
+· Second-encoder twin review · per-declaration run digests · DERIVED exemplar
 (Q12 gate) · video `evidence_refs` carry-through · Nibbanahelp N1 exporter ·
 C2/slang register renders · short movies R9 (explicitly NOT YET).
 

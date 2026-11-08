@@ -148,7 +148,7 @@ re-fetch**. A hop that cannot name its input fails closed.
 ### Data-sharp ritual (run before every push)
 
 ```sh
-python3 -m unittest discover -s formal-trika/tests        # 73 tests
+python3 -m unittest discover -s formal-trika/tests        # 94 tests
 python3 formal-trika/tools/evidence_check.py              # theorems + coverage
 python3 formal-trika/tools/bridge_resolve.py --check --tw /root/translation-work
 python3 formal-trika/tools/freshness.py --write           # capture

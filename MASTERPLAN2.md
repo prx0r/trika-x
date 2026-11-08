@@ -57,9 +57,9 @@ the three legitimacy logs (audit receipts, openpatala events, sanskritbench runs
 | formal coverage | **16/154 passage chunks (10%)** · gap list published | `data/formal.json` |
 | traces | **909 bundles** (236 COMPLETE / 673 PARTIAL, trika-x side), external verify packs live | `data/traces/index.json` + svread publish |
 | svread surface | 50 readable works · 55 scholar projections · 7078 manifest assets (incl. 909 verify packs) · 10 Sanskrit lessons | live site + manifest |
-| tests | trika-x 93 · svread 49+/0 · gateway 11 · Lean harnesses green | 2026-11-08 runs |
+| tests | trika-x 94 · svread 51/0 (+5 skipped without infra) · gateway 11 · Lean harnesses green | 2026-11-08 runs |
 | PUSHBACK | live (mock/go/cf, opt-in, verbatim shield, never edits) | `formal-trika/tools/pushback.py` |
-| Hygiene | disk **98% (1.7G free)** · branch `box/peer-review-batch` dirty · nightly cron NOT installed · token rotation unconfirmed | box |
+| Hygiene | disk **95% (3.9G free)** · tree clean · nightly cron installed (03:00) · token rotation **still unconfirmed** | box |
 
 **Staleness register** (fix the paper, not the machine; full list in
 `docs/log/REVIEW-2026-11-08.md`): openpatala README counts (1099/247/2181) are stale vs
@@ -108,8 +108,8 @@ unbridged works one lane decision at a time."
 | 11 | Bench calibration (CPU first) | tau 3×3 smoke logged; gate-vs-gold false-PASS/BLOCK rates measured; thresholds stamped | sanskritbench | quota only for scale |
 
 *Why now:* this is the one thing no competitor has — checkability without our
-code. Broadening it from 13 chunks to all readable passages multiplies the moat
-with zero new infrastructure.
+code. This session broadened it from 13 chunks to all 909 ledger locators;
+that is the moat, and it needed no new infrastructure.
 
 ### W3 — Formal coverage (P1, gap-list order only)
 
@@ -480,7 +480,7 @@ tools/mcp_catalog.py --check` (SHARP).
   phr mala → VBT clusters → tsa08 remainder → rest). Refresh caught real
   drift: the committed `treeka.json` lacked registry refs for phr-p01..04
   and span-p01 that EVIDENCE already had — now 895 unformalised (was 900),
-  matching `evidence_check` 14/154 chunks.
+  matching `evidence_check` 16/154 chunks.
 
 
 - **Q14 dispositions.** LEAD's 7 findings verified against live code

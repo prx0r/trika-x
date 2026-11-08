@@ -1,3 +1,6 @@
+> **HISTORICAL PACK (2026-11-06).** Numbers below (disk 98%, 13 traces,
+> 153 theorems) are superseded. Current entry point: `/root/trika-x/DOCS.md`.
+
 # LEAD PACK — read-first index
 
 > **Current entry point:** Read [the 2026-11-06 peer review](../../docs/log/PEER-REVIEW-2026-11-06.md),
