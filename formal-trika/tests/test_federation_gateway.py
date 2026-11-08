@@ -52,13 +52,27 @@ def start_gateway(config: dict):
 
 
 def _children_present():
-    import shutil
-    need = ["/root/svread/mcp/scholar_server.py",
-            "/root/bookfactory/bf_mcp/server.py",
-            "/root/translation-work/mcp_server.py",
-            "/root/videofactory/vf_mcp_server.py",
-            "/root/openpatala/patala/mcp_server.py"]
-    return all(Path(p).is_file() for p in need)
+    """True only when all five child MCP servers exist. Env-overridable and
+    never raises (a bare /root probe on CI raises PermissionError)."""
+    import os
+    roots = {
+        "svread": os.environ.get("SVREAD_CHECKOUT", "/root/svread"),
+        "bookfactory": os.environ.get("BOOKFACTORY_CHECKOUT", "/root/bookfactory"),
+        "translation": os.environ.get("TRANSLATION_WORK", "/root/translation-work"),
+        "video": os.environ.get("VIDEOFACTORY_CHECKOUT", "/root/videofactory"),
+        "openpatala": os.environ.get("OPENPATALA_CHECKOUT", "/root/openpatala"),
+    }
+    need = [
+        (roots["svread"], "mcp/scholar_server.py"),
+        (roots["bookfactory"], "bf_mcp/server.py"),
+        (roots["translation"], "mcp_server.py"),
+        (roots["video"], "vf_mcp_server.py"),
+        (roots["openpatala"], "patala/mcp_server.py"),
+    ]
+    try:
+        return all((Path(r) / f).is_file() for r, f in need)
+    except OSError:
+        return False
 
 
 CHILDREN_PRESENT = _children_present()

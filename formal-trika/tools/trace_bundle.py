@@ -35,8 +35,8 @@ HERE = Path(__file__).resolve().parent.parent
 EVIDENCE = HERE / "EVIDENCE.json"
 RUNS = HERE / "runs" / "runs.jsonl"
 OUTDIR = HERE / "data" / "traces"
-TW_DEFAULT = Path("/root/translation-work")
-SV_DEFAULT = Path("/root/svread")
+TW_DEFAULT = Path(os.environ.get("TRANSLATION_WORK", "/root/translation-work"))
+SV_DEFAULT = Path(os.environ.get("SVREAD_CHECKOUT", "/root/svread"))
 DSN_DEFAULT = "postgresql://patala:patala@localhost:5432/openpatala"
 
 LAYERS = ("t1", "l0", "argmap", "l2", "c1", "l3", "l4", "c2")

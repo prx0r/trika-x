@@ -15,6 +15,19 @@ DSN = os.environ.get("OPENPATALA_DSN",
                      "postgresql://patala:patala@localhost:5432/openpatala")
 
 
+def _db_ok() -> bool:
+    try:
+        import psycopg2
+        c = psycopg2.connect(DSN, connect_timeout=3)
+        c.close()
+        return True
+    except Exception:  # noqa: BLE001 — no DB is a skip, never a failure
+        return False
+
+
+DB_OK = _db_ok()
+
+
 def run(*args, env=None):
     e = dict(os.environ)
     if env:
@@ -23,13 +36,19 @@ def run(*args, env=None):
                           capture_output=True, text=True, env=e, timeout=120)
 
 
+@unittest.skipUnless(
+    (TW / "tantrasara-a08" / "passages.jsonl").is_file(),
+    "needs a translation-work checkout (real chunk to compile)")
 class TestTraceBundle(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.tmp = tempfile.TemporaryDirectory()
         cls.out = os.path.join(cls.tmp.name, "tsa08-p03.json")
-        r = run("--work", "tantrasara-a08", "--target", "tsa08-p03",
-                "--out", cls.out)
+        args = ["--work", "tantrasara-a08", "--target", "tsa08-p03",
+                "--out", cls.out]
+        if not DB_OK:
+            args.append("--no-db")
+        r = run(*args)
         assert r.returncode == 0, r.stderr
         with open(cls.out, encoding="utf-8") as f:
             cls.bundle = json.load(f)
@@ -38,6 +57,7 @@ class TestTraceBundle(unittest.TestCase):
     def tearDownClass(cls):
         cls.tmp.cleanup()
 
+    @unittest.skipUnless(DB_OK, "needs the openpatala box DB for identity binding")
     def test_end_to_end_slice(self):
         b = self.bundle
         self.assertEqual(b["format"], "trika-trace/1")
