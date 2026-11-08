@@ -840,6 +840,108 @@
    "reviewer": null,
    "reason": "machine-proposed, unreviewed",
    "date": null
+  },
+  "Closure.lean :: closure_instance": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Closure.lean :: normals_nonzero": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Correction.lean :: grasp_first": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Correction.lean :: joints_two": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Phrdaya.lean :: closes_four": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Phrdaya.lean :: epithet_three": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Phrdaya.lean :: five_acts": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Phrdaya.lean :: means_once": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Phrdaya.lean :: pentads_thirtyfive": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Rasa.lean :: bliss_gradient": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Rasa.lean :: nine_only": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Rasa.lean :: santa_supreme": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Spanda.lean :: acts_three": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Spanda.lean :: glide_all": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Spanda.lean :: phases_two": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Vbt.lean :: coords_three": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "Vbt.lean :: forms_eight": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
   }
  }
 }

@@ -1,4 +1,17 @@
 {
+ "assurance": {
+  "chunk_gate": "PASS",
+  "formal_run": "UNBOUND",
+  "formal_run_note": "registry references only; no per-declaration run digest bound",
+  "publication": "NOT_AUTHORIZED",
+  "publication_note": "human sign-off required; never automatic",
+  "review": "UNREVIEWED",
+  "review_note": "no review decision bound to this trace",
+  "source_span_note": "ledger span is an excerpt; the edition volume is not hashed — span completeness unverified",
+  "source_span_verified": "UNKNOWN",
+  "trace_links_present": "PASS",
+  "witness": "UNPINNED"
+ },
  "caveats": [],
  "chunk": {
   "immutable_id": "pt:pid:ajadapramatrsiddhi:001",
@@ -93,13 +106,25 @@
  "proofs": {
   "chunk_gate": {
    "blocking": [],
-   "deterministic_gate": "PASS"
+   "checks_pass": {
+    "ABSTENTION": true,
+    "CITATION_GROUNDING": true,
+    "COVERAGE": true,
+    "SOURCE_BINDING": true,
+    "TERM_CONSISTENCY": true
+   },
+   "deterministic_gate": "PASS",
+   "entry_sha256": "42510b31fda3cfa960f3cdbd6b324c81fe3b289d6949cea13a5fe9d2ea1ebd71",
+   "status": "PASS"
   },
   "song_proof": {
    "blocking": [],
+   "deterministic_gate": "PASS",
    "file": "ajadapramatrsiddhi/proof/proof-ajad-p01.json",
    "sha256": "f93ed852df50bd3a0e3971665c0ef090d2f19b563379b51358b25611949dbdcb",
-   "status": "PASS"
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 0
   }
  },
  "source": {
@@ -118,5 +143,6 @@
    "status": "UNPINNED"
   }
  },
- "verdict": "COMPLETE"
+ "verdict": "COMPLETE",
+ "verdict_scope": "links present only — see assurance, gaps, caveats. COMPLETE is not approval, proof, or witness verification."
 }

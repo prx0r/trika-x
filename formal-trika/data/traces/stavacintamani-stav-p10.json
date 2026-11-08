@@ -1,4 +1,17 @@
 {
+ "assurance": {
+  "chunk_gate": "BLOCKED",
+  "formal_run": "UNBOUND",
+  "formal_run_note": "registry references only; no per-declaration run digest bound",
+  "publication": "NOT_AUTHORIZED",
+  "publication_note": "human sign-off required; never automatic",
+  "review": "UNREVIEWED",
+  "review_note": "no review decision bound to this trace",
+  "source_span_note": "ledger span is an excerpt; the edition volume is not hashed — span completeness unverified",
+  "source_span_verified": "UNKNOWN",
+  "trace_links_present": "PASS",
+  "witness": "UNPINNED"
+ },
  "caveats": [
   "chunk_gate BLOCKED: COVERAGE,ABSTENTION"
  ],
@@ -98,13 +111,25 @@
     "COVERAGE",
     "ABSTENTION"
    ],
-   "deterministic_gate": "BLOCKED"
+   "checks_pass": {
+    "ABSTENTION": false,
+    "CITATION_GROUNDING": true,
+    "COVERAGE": false,
+    "SOURCE_BINDING": true,
+    "TERM_CONSISTENCY": true
+   },
+   "deterministic_gate": "BLOCKED",
+   "entry_sha256": "9afcaa9ccec1d672a63811989102dacaee06ffec9be096dc85c5814d708943d9",
+   "status": "BLOCKED"
   },
   "song_proof": {
    "blocking": [],
+   "deterministic_gate": "PASS",
    "file": "stavacintamani/proof/proof-stav-p10.json",
    "sha256": "ca1fbfa5c8dfa54e077deb1f216c9d4c99da1c44462ada2bf18854bba810ae72",
-   "status": "PASS"
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 0
   }
  },
  "source": {
@@ -123,5 +148,6 @@
    "status": "UNPINNED"
   }
  },
- "verdict": "COMPLETE"
+ "verdict": "COMPLETE",
+ "verdict_scope": "links present only — see assurance, gaps, caveats. COMPLETE is not approval, proof, or witness verification."
 }

@@ -247,6 +247,14 @@ BLOCKED upstream propagates as BLOCKED downstream, never as PASS.
 
 **Rule:** rulings promote, never initiate. The machine keeps building.
 
+**Adopted from PR #7 (lead review 2026-11-08):** every rung ships as R-tier
+count-facts only and every citation carries the R-tier + "registry refs
+unreviewed" qualifier; twin refusal is an anti-vacuity check, not a semantic
+validation; **second-encoder review is owed and BLOCKS any promotion above
+R** (scholar/lead channel); a first DERIVED essay exemplar is owed before any
+DOI (Q12); finite-count velocity never substitutes for doctrinal leverage in
+rung choice.
+
 ---
 
 ## 7. Scoreboard (current → target, with honest denominators)
@@ -497,3 +505,22 @@ tools/mcp_catalog.py --check` (SHARP).
   control exit 0 (incl. `BrokenVbtSeven: forms_eight is false`,
   `BrokenVbtTwoCoords: coords_three is false), recognition exit 0, tc1 exit 0.
   Coverage 157/155, 16/154 chunks (10%). Queue head: vbt-p03.
+
+---
+
+## 17. Adopted delivery order (PR #7 §5, 2026-11-08)
+
+Seven checkpoints, small PRs, reviewer-readable diffs, green scoped runs. Do
+not wait for the whole corpus to be perfect; do not use a green artifact as
+scholarly sign-off. Trika-x's role is marked per checkpoint; the rest belongs
+to the owning lanes (filed in `LANE-ASKS-2026-11-08.md`).
+
+| # | Checkpoint | Owners | Trika-x part | Done when |
+|---|---|---|---|---|
+| 1 | Stop inaccurate claims + unsafe checks | svread, openpatala, sanskritbench | none (lanes) | misleading data regenerated, synthetic counterexamples covered, status read-only, exact revisions published |
+| 2 | Make the two active PRs reviewable | trika-x, svread | split-by-concern description, fix trace verification/IDs/status semantics, regenerate Frontier rows | CI runs against exact head; a human can assess without unrelated files |
+| 3 | Repair one source passage end to end (phr 1–4) | translation-work + openpatala + Sanskrit reviewer | none until the passage lands | every translation/claim resolves to its span + editorial status; a changed byte invalidates approval |
+| 4 | Connect that passage to one formal example + one essay | trika-x + Scholar | model grammatical/propositional structure separately from counts; bind per-declaration run evidence; prepare essay whose claims resolve to the reviewed passage | source → translation → interpretation → model → proof result traceable incl. remainder; author can sign one exact essay revision |
+| 5 | Ship a thin reader slice | svread + ipvv | none (lanes) | clean checkout builds the same output; stale inputs visible; synthetic accounts isolated |
+| 6 | Connect outputs + teacher selectively | bookfactory, videofactory, teacher | evidence_refs in packs (already spec'd) | artifacts cite input revision; user can export/delete private sessions |
+| 7 | Archive + automate maintenance | each repo | STATUS.md + clean-checkout fixture suite + exact-revision CI outcomes (W07/W10) | another agent finds the contract and reproduces the narrow example without box paths or private data |

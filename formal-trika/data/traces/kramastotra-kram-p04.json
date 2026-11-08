@@ -1,4 +1,17 @@
 {
+ "assurance": {
+  "chunk_gate": "PASS",
+  "formal_run": "UNBOUND",
+  "formal_run_note": "registry references only; no per-declaration run digest bound",
+  "publication": "NOT_AUTHORIZED",
+  "publication_note": "human sign-off required; never automatic",
+  "review": "UNREVIEWED",
+  "review_note": "no review decision bound to this trace",
+  "source_span_note": "ledger span is an excerpt; the edition volume is not hashed — span completeness unverified",
+  "source_span_verified": "UNKNOWN",
+  "trace_links_present": "PASS",
+  "witness": "UNPINNED"
+ },
  "caveats": [],
  "chunk": {
   "immutable_id": "pt:pid:kram:38467cb4e8d0",
@@ -93,13 +106,25 @@
  "proofs": {
   "chunk_gate": {
    "blocking": [],
-   "deterministic_gate": "PASS"
+   "checks_pass": {
+    "ABSTENTION": true,
+    "CITATION_GROUNDING": true,
+    "COVERAGE": true,
+    "SOURCE_BINDING": true,
+    "TERM_CONSISTENCY": true
+   },
+   "deterministic_gate": "PASS",
+   "entry_sha256": "5f94557d717d7512b595087b6383a8d922104936d3f238fce448b9bf81b1294a",
+   "status": "PASS"
   },
   "song_proof": {
    "blocking": [],
+   "deterministic_gate": "PASS",
    "file": "kramastotra/proof/proof-kram-p04.json",
    "sha256": "93f330540518886d7235b98a4867e216527348b82b2ffaf9bddfaa7e97603c73",
-   "status": "PASS"
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 0
   }
  },
  "source": {
@@ -120,5 +145,6 @@
    "status": "UNPINNED"
   }
  },
- "verdict": "COMPLETE"
+ "verdict": "COMPLETE",
+ "verdict_scope": "links present only — see assurance, gaps, caveats. COMPLETE is not approval, proof, or witness verification."
 }

@@ -62,8 +62,10 @@ def resolve_tension(tid: str) -> dict:
     on private tensions (tension-private: expansion essays never link
     non-public tensions; consent lives in the owning lane).
     """
+    import os as _os
     import sys as _sys
-    _sys.path.insert(0, "/root/svread/tools")
+    _sys.path.insert(0, _os.environ.get("SVREAD_TOOLS",
+                                        "/root/svread/tools"))
     import lingua as _lingua
     try:
         row = _lingua.resolve(f"tension:{tid}")
@@ -384,7 +386,7 @@ def main() -> int:
               "tracks": tracks,
               "owner_quotes": len(quotes), "banked_units": len(nodes),
               "theorems": a.theorems,
-              "openpatala": openpatala_block(Path("/root/translation-work"), a.work),
+              "openpatala": openpatala_block(Path(os.environ.get("TRANSLATION_WORK", "/root/translation-work")), a.work),
               "frozen_claims": frozen,
               "coverage": {"orphan_bullets": orphan_bullets, "unused_claims": unused},
               "claims": f"{cited}/{len(table['claims'])} CITED + {verse_marked} verse-marked",

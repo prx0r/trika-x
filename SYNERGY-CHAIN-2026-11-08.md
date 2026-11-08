@@ -223,3 +223,29 @@ count as reference, not evidence. Re-measure before quoting.
 - No consent → no personal material anywhere.
 - No reproducing command → the number does not exist.
 - A derived index that cannot regenerate → it is a second truth; delete it.
+
+---
+
+## 8. Adopted boundaries (PR #7 §4, 2026-11-08)
+
+Ownership of each boundary, and what its owner is authoritative for. Adopted
+verbatim in structure; trika-x's row restated as a constraint on everything
+in this repo.
+
+| Boundary | Owner | Authoritative for |
+|---|---|---|
+| Work / edition / witness / passage identity | OpenPāṭala | Stable identities, provenance, candidate mappings, reviewed decisions. An identity is not a verified reading. |
+| Text and editorial layers | translation-work | The actual edition-specific source bytes, verse/span alignment, translations, annotations, argument maps, revision history. |
+| People, private drafts, decisions | ipvv Scholar | Account-scoped access, selected sharing, revision-bound review and author sign-off. A self-attested name is not an independently verified identity. |
+| Formal model | trika-x | Formal definitions, assumptions, theorem statements, toolchain and per-run results. **Not the text, not its interpretation, not a proof of entailment.** |
+| Diagnostics | SanskritBench | Versioned benchmark outputs and limitations; advisory until independently validated for a named use. |
+| Public reading | svread | A reproducible projection of explicitly pinned approved artifacts, with uncertainty and source links visible. |
+| Teacher | nibbanahelp / Scholar integration | Private, consented personal workflow and source-grounded educational assistance. |
+| Outputs | bookfactory, videofactory, visuals, deitybody | Rendered artifacts and delivery-specific metadata from a frozen source revision, separate preview and release decisions. |
+
+Rules that come with the table: use a small versioned release manifest per
+passage/artifact (work, edition, witness if verified, source bytes + SHA-256,
+translation/claim revisions, editorial decisions + scope, formal declaration +
+run digest if any, rights evidence, recipe + output digests). `UNKNOWN` is a
+legitimate state. A release pins compatible versions; newer is not better.
+Stale or missing inputs must be visible.

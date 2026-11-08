@@ -1,4 +1,17 @@
 {
+ "assurance": {
+  "chunk_gate": "BLOCKED",
+  "formal_run": "UNBOUND",
+  "formal_run_note": "registry references only; no per-declaration run digest bound",
+  "publication": "NOT_AUTHORIZED",
+  "publication_note": "human sign-off required; never automatic",
+  "review": "UNREVIEWED",
+  "review_note": "no review decision bound to this trace",
+  "source_span_note": "ledger span is an excerpt; the edition volume is not hashed — span completeness unverified",
+  "source_span_verified": "UNKNOWN",
+  "trace_links_present": "FAIL",
+  "witness": "UNPINNED"
+ },
  "caveats": [
   "chunk_gate BLOCKED: COVERAGE,ABSTENTION"
  ],
@@ -98,7 +111,16 @@
     "COVERAGE",
     "ABSTENTION"
    ],
-   "deterministic_gate": "BLOCKED"
+   "checks_pass": {
+    "ABSTENTION": false,
+    "CITATION_GROUNDING": true,
+    "COVERAGE": false,
+    "SOURCE_BINDING": true,
+    "TERM_CONSISTENCY": true
+   },
+   "deterministic_gate": "BLOCKED",
+   "entry_sha256": "3af4850d85c4cf130c417998d0dd27442ddae9ed6f88826701de9264b989b6ce",
+   "status": "BLOCKED"
   },
   "song_proof": {
    "note": "no proof file",
@@ -121,5 +143,6 @@
    "status": "UNPINNED"
   }
  },
- "verdict": "PARTIAL"
+ "verdict": "PARTIAL",
+ "verdict_scope": "links present only — see assurance, gaps, caveats. COMPLETE is not approval, proof, or witness verification."
 }

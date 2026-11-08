@@ -14,6 +14,7 @@ Examples:
 import argparse
 import hashlib
 import json
+import os
 from pathlib import Path
 import re
 import sys
@@ -134,7 +135,7 @@ def dossier_lookup(work_id: str) -> dict:
     dossiers carry TITLE/AUTHOR assertions only). Read-only, never raises."""
     import glob as _glob
     try:
-        for fp in _glob.glob('/root/openpatala/data/gold/*.json'):
+        for fp in _glob.glob(os.environ.get('OPENPATALA_GOLD_GLOB', '/root/openpatala/data/gold/*.json')):
             try:
                 with open(fp, encoding='utf-8') as fh:
                     d = json.load(fh)

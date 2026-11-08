@@ -1,4 +1,17 @@
 {
+ "assurance": {
+  "chunk_gate": "BLOCKED",
+  "formal_run": "UNBOUND",
+  "formal_run_note": "registry references only; no per-declaration run digest bound",
+  "publication": "NOT_AUTHORIZED",
+  "publication_note": "human sign-off required; never automatic",
+  "review": "UNREVIEWED",
+  "review_note": "no review decision bound to this trace",
+  "source_span_note": "ledger span is an excerpt; the edition volume is not hashed — span completeness unverified",
+  "source_span_verified": "UNKNOWN",
+  "trace_links_present": "PASS",
+  "witness": "UNPINNED"
+ },
  "caveats": [
   "layer:t1=whole-song-span",
   "layer:l0=whole-song-span",
@@ -7,6 +20,7 @@
   "layer:c1=whole-song-span",
   "layer:l3=whole-song-span",
   "layer:l4=whole-song-span",
+  "song_proof warnings: 1",
   "chunk_gate BLOCKED: ABSTENTION,CITATION_GROUNDING"
  ],
  "chunk": {
@@ -111,13 +125,25 @@
     "ABSTENTION",
     "CITATION_GROUNDING"
    ],
-   "deterministic_gate": "BLOCKED"
+   "checks_pass": {
+    "ABSTENTION": false,
+    "CITATION_GROUNDING": false,
+    "COVERAGE": true,
+    "SOURCE_BINDING": true,
+    "TERM_CONSISTENCY": true
+   },
+   "deterministic_gate": "BLOCKED",
+   "entry_sha256": "0108d2de3bfc488148c33e1e34e655e017c410df88c3d322d9eab3d354466548",
+   "status": "BLOCKED"
   },
   "song_proof": {
    "blocking": [],
+   "deterministic_gate": "PASS",
    "file": "tantrasara-a13/proof/proof-tsa-a13.json",
    "sha256": "5d10f30e18a88ad7a9fdb6bf79fffef81b21b9cbb1e8d1495674042b987bcde2",
-   "status": "PASS"
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 1
   }
  },
  "source": {
@@ -138,5 +164,6 @@
    "status": "UNPINNED"
   }
  },
- "verdict": "COMPLETE"
+ "verdict": "COMPLETE",
+ "verdict_scope": "links present only — see assurance, gaps, caveats. COMPLETE is not approval, proof, or witness verification."
 }

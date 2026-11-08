@@ -21,8 +21,8 @@ from pathlib import Path
 
 HERE = Path(__file__).resolve().parent.parent
 OP = Path(os.environ.get("OPENPATALA_CHECKOUT", "/root/openpatala"))
-TW = Path("/root/translation-work")
-SV = Path("/root/svread")
+TW = Path(os.environ.get("TRANSLATION_WORK", "/root/translation-work"))
+SV = Path(os.environ.get("SVREAD_CHECKOUT", "/root/svread"))
 
 
 def dossiers():

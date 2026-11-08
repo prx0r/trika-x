@@ -16,13 +16,15 @@ Usage: python3 formal-trika/tools/calibrate_gate.py [--n 200] [--seed 0]
 import argparse
 import json
 import random
+import os
 import sys
 from pathlib import Path
 
-sys.path.insert(0, "/root/sanskritbench/pipeline")
+SB = Path(os.environ.get("SANSKRITBENCH", "/root/sanskritbench"))
+sys.path.insert(0, str(SB / "pipeline"))
 import translation_proof as tp  # noqa: E402 (read-only import)
 
-GOLD = Path("/root/sanskritbench/data/benchmarks/mitrasamgraha/test.jsonl")
+GOLD = SB / "data/benchmarks/mitrasamgraha/test.jsonl"
 THRESHOLD_VERSION = "gate-thresholds/1"
 
 

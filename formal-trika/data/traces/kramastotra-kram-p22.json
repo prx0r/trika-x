@@ -1,4 +1,17 @@
 {
+ "assurance": {
+  "chunk_gate": "BLOCKED",
+  "formal_run": "UNBOUND",
+  "formal_run_note": "registry references only; no per-declaration run digest bound",
+  "publication": "NOT_AUTHORIZED",
+  "publication_note": "human sign-off required; never automatic",
+  "review": "UNREVIEWED",
+  "review_note": "no review decision bound to this trace",
+  "source_span_note": "ledger span is an excerpt; the edition volume is not hashed — span completeness unverified",
+  "source_span_verified": "UNKNOWN",
+  "trace_links_present": "PASS",
+  "witness": "UNPINNED"
+ },
  "caveats": [
   "chunk_gate BLOCKED: CITATION_GROUNDING"
  ],
@@ -97,13 +110,25 @@
    "blocking": [
     "CITATION_GROUNDING"
    ],
-   "deterministic_gate": "BLOCKED"
+   "checks_pass": {
+    "ABSTENTION": true,
+    "CITATION_GROUNDING": false,
+    "COVERAGE": true,
+    "SOURCE_BINDING": true,
+    "TERM_CONSISTENCY": true
+   },
+   "deterministic_gate": "BLOCKED",
+   "entry_sha256": "5d719195bc0ae56d5ec56d13096831faffa5b8a9ab3caf574b0a10eb402c3314",
+   "status": "BLOCKED"
   },
   "song_proof": {
    "blocking": [],
+   "deterministic_gate": "PASS",
    "file": "kramastotra/proof/proof-kram-p22.json",
    "sha256": "7ce6c094bd818fde8fbfa34487c711299173062b94f70e79856259125b812b57",
-   "status": "PASS"
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 0
   }
  },
  "source": {
@@ -124,5 +149,6 @@
    "status": "UNPINNED"
   }
  },
- "verdict": "COMPLETE"
+ "verdict": "COMPLETE",
+ "verdict_scope": "links present only — see assurance, gaps, caveats. COMPLETE is not approval, proof, or witness verification."
 }

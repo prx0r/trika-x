@@ -412,3 +412,58 @@ Repairs made, all committed here:
   (conformance + adapter-conformance share the upstream adapter gap).
 
 Both review docs committed (ask + verdict) as the permanent record.
+
+---
+
+## 17. PR #7 integration (2026-11-08) — wire-up log
+
+External review `SYSTEM-PEER-REVIEW-2026-11-08.md` (PR #7, branch
+`codex/system-peer-review-2026-11-08`) read in full. Verdict on its claims:
+all P0/P1 findings inspected; trika-x-owned items fixed below, lane items
+reproduced read-only and filed in `LANE-ASKS-2026-11-08.md`.
+
+### Trika-x-owned fixes (this session)
+
+- **Trace verdict semantics (P0):** `trace_bundle.py` now emits a separated
+  `assurance` block (links / span / gate / witness / formal_run / review /
+  publication) with `verdict_scope` stating COMPLETE = links present only.
+  `formal.status` is `REGISTERED` with `run_bound: false` (was MODEL_CHECKED
+  without run binding). Song/gate proofs require explicit fields
+  (deterministic_gate + blocking + warnings + tool); absent `blocking` is
+  UNKNOWN, never empty. Theorem join is (work, locator). `verify_bundle`
+  compares every canonical field incl. gaps/caveats/open_problems/format.
+  909 bundles recompiled; samples re-verified (tsa08-p03 COMPLETE with
+  BLOCKED gate coexisting honestly; phr-p05 re-verified).
+- **Essay gate forgery (P1):** `essay_check.py` binds [CLM-id] markers to
+  real claims (both directions), requires T-tier span+digest+edition,
+  verifies receipt frozen-claims == essay claims (ids + texts) and theorems,
+  requires chunk in ledger, forbids review claims on pre-review drafts,
+  output renamed READY_FOR_HUMAN_REVIEW. 7 synthetic forgery tests green;
+  all 6 corpus essays still pass.
+- **Review rows (P1):** `review_status.py` regenerated 17 missing rows as
+  Frontier; 0 Core; `--check` green.
+- **Portability (P1):** env overrides for TW/SVREAD/sanskritbench/openpatala
+  gold paths in essay_compile, essay_check, calibrate_gate, biblio_sweep,
+  bridge_resolve. Fixture suite `test_clean_checkout.py`: trace compile +
+  verify + derive on synthetic tmp trees, no sibling checkouts.
+- **P2 docs:** `STATUS.md` (implemented@rev / prototype / proposed /
+  blocked / historical per artifact). PR #7 ownership table adopted into
+  SYNERGY-CHAIN §8; delivery checkpoints into MASTERPLAN2 §17. Concern-
+  grouped PR description in `PR-DESCRIPTION.md`.
+- **R3/R5/R6/R2:** DERIVED-before-DOI gate added to Q12; treeka↔EVIDENCE
+  cross-check is now a unit test; R-tier-only + second-encoder-owed adopted
+  into MASTERPLAN2 §6; queue-order rung discipline kept.
+
+### Lane items (reproduced, filed, not touched)
+
+sanskritbench result_id (identical IDs across sources, negated PASS) ·
+translation-work phrdaya spans (4-sūtra labels, 1-sūtra bytes) · svread
+formalized counts (vbt 17 vs 2 direct) + MODEL_CHECKED without run binding ·
+openpatala check.py write path (static) · ipvv two-sources class-counting.
+All in `LANE-ASKS-2026-11-08.md` with repro commands.
+
+### Open from PR #7 not yet done here
+
+Full harness receipt for the tool-change batch (running detached); second-
+encoder twin review (scholar/lead); DERIVED exemplar (owed before DOI);
+svread-side publish of 909 packs.

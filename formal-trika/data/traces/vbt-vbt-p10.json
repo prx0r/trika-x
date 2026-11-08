@@ -1,4 +1,17 @@
 {
+ "assurance": {
+  "chunk_gate": "BLOCKED",
+  "formal_run": "UNBOUND",
+  "formal_run_note": "registry references only; no per-declaration run digest bound",
+  "publication": "NOT_AUTHORIZED",
+  "publication_note": "human sign-off required; never automatic",
+  "review": "UNREVIEWED",
+  "review_note": "no review decision bound to this trace",
+  "source_span_note": "ledger span is an excerpt; the edition volume is not hashed — span completeness unverified",
+  "source_span_verified": "UNKNOWN",
+  "trace_links_present": "PASS",
+  "witness": "UNPINNED"
+ },
  "caveats": [
   "chunk_gate BLOCKED: ABSTENTION,TERM_CONSISTENCY"
  ],
@@ -98,13 +111,25 @@
     "ABSTENTION",
     "TERM_CONSISTENCY"
    ],
-   "deterministic_gate": "BLOCKED"
+   "checks_pass": {
+    "ABSTENTION": false,
+    "CITATION_GROUNDING": true,
+    "COVERAGE": true,
+    "SOURCE_BINDING": true,
+    "TERM_CONSISTENCY": false
+   },
+   "deterministic_gate": "BLOCKED",
+   "entry_sha256": "303e8da39b8d286e3dd6cf8c2bd5736be45bea6c62460a0146aa6652fe2a5032",
+   "status": "BLOCKED"
   },
   "song_proof": {
    "blocking": [],
+   "deterministic_gate": "PASS",
    "file": "vbt/proof/proof-vbt-p10.json",
    "sha256": "99c9935ae1c884d36ebf9f66d512890510550e8616e248c3a49544dce27f3b6d",
-   "status": "PASS"
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 0
   }
  },
  "source": {
@@ -123,5 +148,6 @@
    "status": "UNPINNED"
   }
  },
- "verdict": "COMPLETE"
+ "verdict": "COMPLETE",
+ "verdict_scope": "links present only — see assurance, gaps, caveats. COMPLETE is not approval, proof, or witness verification."
 }

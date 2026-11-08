@@ -1,4 +1,17 @@
 {
+ "assurance": {
+  "chunk_gate": "UNKNOWN",
+  "formal_run": "UNBOUND",
+  "formal_run_note": "registry references only; no per-declaration run digest bound",
+  "publication": "NOT_AUTHORIZED",
+  "publication_note": "human sign-off required; never automatic",
+  "review": "UNREVIEWED",
+  "review_note": "no review decision bound to this trace",
+  "source_span_note": "ledger span is an excerpt; the edition volume is not hashed — span completeness unverified",
+  "source_span_verified": "UNKNOWN",
+  "trace_links_present": "PASS",
+  "witness": "UNPINNED"
+ },
  "caveats": [],
  "chunk": {
   "immutable_id": "pt:pid:paramarthacarca:001",
@@ -97,9 +110,12 @@
   },
   "song_proof": {
    "blocking": [],
+   "deterministic_gate": "PASS",
    "file": "paramarthacarca/proof/proof-par-p01.json",
    "sha256": "fa348e5369fea735a07f36f2aebc559f2b6d22fa70aa2938f3d80672558a61b0",
-   "status": "PASS"
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 0
   }
  },
  "source": {
@@ -118,5 +134,6 @@
    "status": "UNPINNED"
   }
  },
- "verdict": "COMPLETE"
+ "verdict": "COMPLETE",
+ "verdict_scope": "links present only — see assurance, gaps, caveats. COMPLETE is not approval, proof, or witness verification."
 }

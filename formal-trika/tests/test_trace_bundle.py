@@ -51,11 +51,21 @@ class TestTraceBundle(unittest.TestCase):
         self.assertEqual(b["proofs"]["chunk_gate"]["deterministic_gate"], "BLOCKED")
         self.assertEqual(b["proofs"]["song_proof"]["status"], "PASS")
         self.assertGreaterEqual(len(b["formal"]["theorems"]), 1)
-        self.assertEqual(b["formal"]["status"], "MODEL_CHECKED")
+        self.assertEqual(b["formal"]["status"], "REGISTERED")
+        self.assertTrue(all(t.get("run_bound") is False
+                            for t in b["formal"]["theorems"]))
         self.assertEqual(b["essays"]["citing"], [])
         self.assertEqual(b["verdict"], "COMPLETE")
         self.assertTrue(any("whole-song" in c for c in b["caveats"]))
         self.assertTrue(any("BLOCKED" in c for c in b["caveats"]))
+        # PR #7: assurance dimensions are separate; COMPLETE + BLOCKED gate
+        # coexist without contradiction.
+        a = b["assurance"]
+        self.assertEqual(a["trace_links_present"], "PASS")
+        self.assertEqual(a["chunk_gate"], "BLOCKED")
+        self.assertEqual(a["witness"], "UNPINNED")
+        self.assertEqual(a["formal_run"], "UNBOUND")
+        self.assertEqual(a["publication"], "NOT_AUTHORIZED")
 
     def test_verify_clean(self):
         r = run("--verify", self.out)
@@ -71,6 +81,58 @@ class TestTraceBundle(unittest.TestCase):
         r = run("--verify", bad)
         self.assertNotEqual(r.returncode, 0)
         self.assertIn("layers", (r.stdout + r.stderr))
+
+    def test_verify_removed_gaps_fails(self):
+        # PR #7: a bundle with its warnings deleted must fail, not verify.
+        bad = os.path.join(self.tmp.name, "nogaps.json")
+        d = json.loads(json.dumps(self.bundle))
+        d["gaps"] = []
+        d["caveats"] = []
+        d["open_problems"] = []
+        with open(bad, "w", encoding="utf-8") as f:
+            json.dump(d, f)
+        r = run("--verify", bad)
+        self.assertNotEqual(r.returncode, 0)
+        self.assertTrue("gaps" in (r.stdout + r.stderr)
+                        or "caveats" in (r.stdout + r.stderr))
+
+    def test_verify_missing_proof_field_fails(self):
+        # PR #7: an absent `blocking` list is UNKNOWN, never an empty list.
+        bad = os.path.join(self.tmp.name, "nofield.json")
+        d = json.loads(json.dumps(self.bundle))
+        del d["proofs"]["song_proof"]["blocking"]
+        with open(bad, "w", encoding="utf-8") as f:
+            json.dump(d, f)
+        r = run("--verify", bad)
+        self.assertNotEqual(r.returncode, 0)
+
+    def test_resolve_formal_rejects_cross_work_locator(self):
+        # PR #7: theorem join is (work, locator), never bare locator.
+        sys.path.insert(0, str(Path(__file__).resolve().parent.parent
+                               / "tools"))
+        import trace_bundle as tb
+        ev = {"works": {
+            "w1": {"ledger": "translation-work/w1/passages.jsonl",
+                   "chunks": ["x-p01"]},
+            "w2": {"ledger": "translation-work/w2/passages.jsonl",
+                   "chunks": ["x-p01"]}},
+            "entries": {"F.lean :: t": {"kind": "KEY", "chunks": [
+                {"locator": "x-p01", "via": "L2",
+                 "tier": "R", "status": "X"}]}}}
+        thms, probs = tb.resolve_formal(ev, "w1", "x-p01")
+        self.assertEqual(thms, [])
+        self.assertTrue(any("ambiguous" in p for p in probs))
+        thms, probs = tb.resolve_formal(ev, "w3", "x-p01")
+        self.assertEqual(thms, [])
+        good = {"works": {
+            "w1": {"ledger": "translation-work/w1/passages.jsonl",
+                   "chunks": ["x-p01"]}},
+            "entries": {"F.lean :: t": {"kind": "KEY", "chunks": [
+                {"locator": "x-p01", "via": "L2",
+                 "tier": "R", "status": "X"}]}}}
+        thms, probs = tb.resolve_formal(good, "w1", "x-p01")
+        self.assertEqual(len(thms), 1)
+        self.assertEqual(probs, [])
 
     def test_unknown_chunk_fails_closed(self):
         r = run("--work", "tantrasara-a08", "--target", "tsa08-p99")

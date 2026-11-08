@@ -111,8 +111,13 @@ def audit_essay(path: Path, traces: dict, evidence: dict) -> dict:
         notes.append(f"openpatala mapping {op.get('mapping_status')}")
 
     verdict = "BROKEN" if problems else ("PARTIAL" if notes else "DERIVED")
+    # PR #7 R3: distance-to-DERIVED — the exact hops blocking a green chain.
+    blocking = (["BROKEN: " + p for p in problems]
+                + ["OPEN: " + n for n in notes])
     return {"essay": path.stem, "chunk": chunk, "verdict": verdict,
             "claims": len(d.get("claims", []) or []),
+            "distance_to_derived": len(blocking),
+            "blocking": blocking[:10],
             "problems": problems, "notes": notes[:6]}
 
 

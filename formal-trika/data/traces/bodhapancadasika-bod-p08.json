@@ -1,4 +1,17 @@
 {
+ "assurance": {
+  "chunk_gate": "PASS",
+  "formal_run": "UNBOUND",
+  "formal_run_note": "registry references only; no per-declaration run digest bound",
+  "publication": "NOT_AUTHORIZED",
+  "publication_note": "human sign-off required; never automatic",
+  "review": "UNREVIEWED",
+  "review_note": "no review decision bound to this trace",
+  "source_span_note": "ledger span is an excerpt; the edition volume is not hashed — span completeness unverified",
+  "source_span_verified": "UNKNOWN",
+  "trace_links_present": "PASS",
+  "witness": "UNPINNED"
+ },
  "caveats": [],
  "chunk": {
   "immutable_id": "pt:pid:bod:ab43f12d96df",
@@ -93,13 +106,25 @@
  "proofs": {
   "chunk_gate": {
    "blocking": [],
-   "deterministic_gate": "PASS"
+   "checks_pass": {
+    "ABSTENTION": true,
+    "CITATION_GROUNDING": true,
+    "COVERAGE": true,
+    "SOURCE_BINDING": true,
+    "TERM_CONSISTENCY": true
+   },
+   "deterministic_gate": "PASS",
+   "entry_sha256": "5f94557d717d7512b595087b6383a8d922104936d3f238fce448b9bf81b1294a",
+   "status": "PASS"
   },
   "song_proof": {
    "blocking": [],
+   "deterministic_gate": "PASS",
    "file": "bodhapancadasika/proof/proof-bod-p08.json",
    "sha256": "5ba0b754f12514902b086800def6ba782c08273abe0d1604ebea233fc35d4e62",
-   "status": "PASS"
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 0
   }
  },
  "source": {
@@ -120,5 +145,6 @@
    "status": "UNPINNED"
   }
  },
- "verdict": "COMPLETE"
+ "verdict": "COMPLETE",
+ "verdict_scope": "links present only — see assurance, gaps, caveats. COMPLETE is not approval, proof, or witness verification."
 }
