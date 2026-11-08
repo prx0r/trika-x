@@ -1,0 +1,150 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-08",
+ "workdir": "tantrasara-a11",
+ "chunks": {
+  "tsa11-p01": {
+   "verses": "11.1-11.2",
+   "verse_spans": [
+    "tsa-a11-v01",
+    "tsa-a11-v02"
+   ],
+   "byte_start": 68199,
+   "byte_end": 68479,
+   "span_shas": [
+    "727e4cf26102",
+    "d4b820d4359d"
+   ]
+  },
+  "tsa11-p02": {
+   "verses": "11.3-11.3",
+   "verse_spans": [
+    "tsa-a11-v03"
+   ],
+   "byte_start": 68479,
+   "byte_end": 69290,
+   "span_shas": [
+    "02f46ddaa97c"
+   ]
+  },
+  "tsa11-p03": {
+   "verses": "11.4-11.4",
+   "verse_spans": [
+    "tsa-a11-v04"
+   ],
+   "byte_start": 69290,
+   "byte_end": 69535,
+   "span_shas": [
+    "40f43dd81a29"
+   ]
+  },
+  "tsa11-p04": {
+   "verses": "11.5-11.7",
+   "verse_spans": [
+    "tsa-a11-v05",
+    "tsa-a11-v06",
+    "tsa-a11-v07"
+   ],
+   "byte_start": 69535,
+   "byte_end": 71324,
+   "span_shas": [
+    "14e4a482a6ef",
+    "f3c1ff77abd1",
+    "d39267d754c0"
+   ]
+  },
+  "tsa11-p05": {
+   "verses": "11.8-11.10",
+   "verse_spans": [
+    "tsa-a11-v08",
+    "tsa-a11-v09",
+    "tsa-a11-v10"
+   ],
+   "byte_start": 71324,
+   "byte_end": 71854,
+   "span_shas": [
+    "31ddd3beb137",
+    "b32da36a9b95",
+    "06af0d01b18e"
+   ]
+  },
+  "tsa11-p06": {
+   "verses": "11.11-11.13",
+   "verse_spans": [
+    "tsa-a11-v11",
+    "tsa-a11-v12",
+    "tsa-a11-v13"
+   ],
+   "byte_start": 71854,
+   "byte_end": 72626,
+   "span_shas": [
+    "afaf7066f8ae",
+    "39c9e266ef1d",
+    "0b8c008c4c14"
+   ]
+  },
+  "tsa11-p07": {
+   "verses": "11.14-11.16",
+   "verse_spans": [
+    "tsa-a11-v14",
+    "tsa-a11-v15",
+    "tsa-a11-v16"
+   ],
+   "byte_start": 72626,
+   "byte_end": 73027,
+   "span_shas": [
+    "d85468c41b08",
+    "72267a0e81e4",
+    "443feba12b60"
+   ]
+  },
+  "tsa11-p08": {
+   "verses": "11.17-11.19",
+   "verse_spans": [
+    "tsa-a11-v17",
+    "tsa-a11-v18",
+    "tsa-a11-v19"
+   ],
+   "byte_start": 73027,
+   "byte_end": 73904,
+   "span_shas": [
+    "e19416053652",
+    "f9cafc97d9ca",
+    "d786ed67e789"
+   ]
+  },
+  "tsa11-p09": {
+   "verses": "11.20-11.22",
+   "verse_spans": [
+    "tsa-a11-v20",
+    "tsa-a11-v21",
+    "tsa-a11-v22"
+   ],
+   "byte_start": 73904,
+   "byte_end": 74550,
+   "span_shas": [
+    "507ab465b637",
+    "151495ee4447",
+    "4e94c9c003de"
+   ]
+  },
+  "tsa11-p10": {
+   "verses": "11.23-11.25",
+   "verse_spans": [
+    "tsa-a11-v23",
+    "tsa-a11-v24",
+    "tsa-a11-v25"
+   ],
+   "byte_start": 74550,
+   "byte_end": 75725,
+   "span_shas": [
+    "37cec00246ca",
+    "87535bb0f18f",
+    "b47f7497dcc5"
+   ]
+  }
+ },
+ "manifests": [
+  "tantrasara.json"
+ ]
+}

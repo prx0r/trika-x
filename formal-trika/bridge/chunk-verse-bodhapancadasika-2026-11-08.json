@@ -1,0 +1,175 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-08",
+ "workdir": "bodhapancadasika",
+ "chunks": {
+  "bod-p01": {
+   "verses": "1",
+   "verse_spans": [
+    "bod-p01-v01"
+   ],
+   "byte_start": 223,
+   "byte_end": 338,
+   "span_shas": [
+    "66271581d9da"
+   ]
+  },
+  "bod-p02": {
+   "verses": "2",
+   "verse_spans": [
+    "bod-p02-v02"
+   ],
+   "byte_start": 338,
+   "byte_end": 461,
+   "span_shas": [
+    "eb8f6f89d0d9"
+   ]
+  },
+  "bod-p03": {
+   "verses": "3",
+   "verse_spans": [
+    "bod-p03-v03"
+   ],
+   "byte_start": 461,
+   "byte_end": 579,
+   "span_shas": [
+    "7b8bebca25c3"
+   ]
+  },
+  "bod-p04": {
+   "verses": "4",
+   "verse_spans": [
+    "bod-p04-v04"
+   ],
+   "byte_start": 579,
+   "byte_end": 702,
+   "span_shas": [
+    "1a783a5c2319"
+   ]
+  },
+  "bod-p05": {
+   "verses": "5",
+   "verse_spans": [
+    "bod-p05-v05"
+   ],
+   "byte_start": 702,
+   "byte_end": 829,
+   "span_shas": [
+    "e26b57e358af"
+   ]
+  },
+  "bod-p06": {
+   "verses": "6",
+   "verse_spans": [
+    "bod-p06-v06"
+   ],
+   "byte_start": 829,
+   "byte_end": 961,
+   "span_shas": [
+    "b324424d9d79"
+   ]
+  },
+  "bod-p07": {
+   "verses": "7",
+   "verse_spans": [
+    "bod-p07-v07"
+   ],
+   "byte_start": 961,
+   "byte_end": 1071,
+   "span_shas": [
+    "d2e2d01bb4d9"
+   ]
+  },
+  "bod-p08": {
+   "verses": "8",
+   "verse_spans": [
+    "bod-p08-v08"
+   ],
+   "byte_start": 1071,
+   "byte_end": 1191,
+   "span_shas": [
+    "7cdb7b6adc75"
+   ]
+  },
+  "bod-p09": {
+   "verses": "9",
+   "verse_spans": [
+    "bod-p09-v09"
+   ],
+   "byte_start": 1191,
+   "byte_end": 1324,
+   "span_shas": [
+    "6f337884237a"
+   ]
+  },
+  "bod-p10": {
+   "verses": "10",
+   "verse_spans": [
+    "bod-p10-v10"
+   ],
+   "byte_start": 1324,
+   "byte_end": 1451,
+   "span_shas": [
+    "5b6e978fda0a"
+   ]
+  },
+  "bod-p11": {
+   "verses": "11",
+   "verse_spans": [
+    "bod-p11-v11"
+   ],
+   "byte_start": 1451,
+   "byte_end": 1584,
+   "span_shas": [
+    "34ab12ffed60"
+   ]
+  },
+  "bod-p12": {
+   "verses": "12",
+   "verse_spans": [
+    "bod-p12-v12"
+   ],
+   "byte_start": 1584,
+   "byte_end": 1698,
+   "span_shas": [
+    "04836fb3ae1e"
+   ]
+  },
+  "bod-p13": {
+   "verses": "13",
+   "verse_spans": [
+    "bod-p13-v13"
+   ],
+   "byte_start": 1698,
+   "byte_end": 1839,
+   "span_shas": [
+    "4674f91bbd63"
+   ]
+  },
+  "bod-p14": {
+   "verses": "14",
+   "verse_spans": [
+    "bod-p14-v14"
+   ],
+   "byte_start": 1839,
+   "byte_end": 1953,
+   "span_shas": [
+    "980416f21173"
+   ]
+  },
+  "bod-p15": {
+   "verses": "15",
+   "verse_spans": [
+    "bod-p15-v15"
+   ],
+   "byte_start": 1953,
+   "byte_end": 2082,
+   "span_shas": [
+    "e7f9e3024b0d"
+   ]
+  }
+ },
+ "manifests": [
+  "abhinavagupta-bodhapaJcadasika.json"
+ ]
+}

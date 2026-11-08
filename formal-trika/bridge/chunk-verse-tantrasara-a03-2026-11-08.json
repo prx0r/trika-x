@@ -1,0 +1,96 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-08",
+ "workdir": "tantrasara-a03",
+ "chunks": {
+  "tsa03-p01": {
+   "verses": "3.1-3.13",
+   "verse_spans": [
+    "tsa-a03-v01",
+    "tsa-a03-v02",
+    "tsa-a03-v03",
+    "tsa-a03-v04",
+    "tsa-a03-v05",
+    "tsa-a03-v06",
+    "tsa-a03-v07",
+    "tsa-a03-v08",
+    "tsa-a03-v09",
+    "tsa-a03-v10",
+    "tsa-a03-v11",
+    "tsa-a03-v12",
+    "tsa-a03-v13"
+   ],
+   "byte_start": 5627,
+   "byte_end": 8670,
+   "span_shas": [
+    "01d579f0467e",
+    "313714b43cc1",
+    "7bef1c085543",
+    "63907f8ed391",
+    "1a3c826007d8",
+    "9c98cacfacb6",
+    "2267a244121a",
+    "def190ac639d",
+    "f998827c76aa",
+    "be280a396528",
+    "217ee8bc56b1",
+    "9231a924ad42",
+    "5cba6f39232f"
+   ]
+  },
+  "tsa03-p02": {
+   "verses": "3.14-3.34",
+   "verse_spans": [
+    "tsa-a03-v14",
+    "tsa-a03-v15",
+    "tsa-a03-v16",
+    "tsa-a03-v17",
+    "tsa-a03-v18",
+    "tsa-a03-v19",
+    "tsa-a03-v20",
+    "tsa-a03-v21",
+    "tsa-a03-v22",
+    "tsa-a03-v23",
+    "tsa-a03-v24",
+    "tsa-a03-v25",
+    "tsa-a03-v26",
+    "tsa-a03-v27",
+    "tsa-a03-v28",
+    "tsa-a03-v29",
+    "tsa-a03-v30",
+    "tsa-a03-v31",
+    "tsa-a03-v32",
+    "tsa-a03-v33",
+    "tsa-a03-v34"
+   ],
+   "byte_start": 8670,
+   "byte_end": 11697,
+   "span_shas": [
+    "51c1f950227d",
+    "6498fc3117c8",
+    "263369d0e737",
+    "b48c96b885b5",
+    "7169002126e4",
+    "d315f2fad2da",
+    "581b6d1ab007",
+    "04dca84caefa",
+    "e34af00f3cf5",
+    "0a82aec9ca34",
+    "8785eb9b5191",
+    "94a7fbe0e0ad",
+    "ee9853638b57",
+    "d4b3c7b7ee2d",
+    "f24eb8fb2f56",
+    "e98b8b0ef846",
+    "016b4f98ecc7",
+    "b8123806ee87",
+    "652c0fd4d613",
+    "e17c72ede393",
+    "6be830e6726a"
+   ]
+  }
+ },
+ "manifests": [
+  "tantrasara.json"
+ ]
+}

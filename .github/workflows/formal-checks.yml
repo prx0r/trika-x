@@ -68,6 +68,9 @@ jobs:
       - name: Python evidence-boundary tests
         env:
           SVREAD_CHECKOUT: ${{ github.workspace }}/svread
+          TRANSLATION_WORK: ${{ github.workspace }}/translation-work
+          # children that are not checked out here are skipped, never faked
+          OPENPATALA_CHECKOUT: ${{ github.workspace }}/openpatala
         run: python3 -m unittest discover -s formal-trika/tests -v
       - name: Lean axiom hygiene (static; no toolchain needed)
         run: python3 formal-trika/tools/axiom_audit.py --check

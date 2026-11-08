@@ -7,6 +7,7 @@ in tmp and asserts the trace compiler, verifier, and essay derivation run
 and fail closed — no /root/translation-work, no DB, no svread needed.
 """
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -99,6 +100,10 @@ class TestDeriveFixture(unittest.TestCase):
 
 
 
+    @unittest.skipUnless(
+        (Path(os.environ.get("TRANSLATION_WORK", "/root/translation-work"))
+         / "phrdaya" / "passages.jsonl").is_file(),
+        "needs a translation-work checkout (phrdaya ledger)")
     def test_out_of_range_verse_is_broken(self):
         sys.path.insert(0, str(TOOLS))
         import essay_derive as ed

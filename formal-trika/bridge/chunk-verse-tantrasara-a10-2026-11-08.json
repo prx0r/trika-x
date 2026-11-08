@@ -1,0 +1,55 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-08",
+ "workdir": "tantrasara-a10",
+ "chunks": {
+  "tsa10-p01": {
+   "verses": "10.1-10.18",
+   "verse_spans": [
+    "tsa-a10-v01",
+    "tsa-a10-v02",
+    "tsa-a10-v03",
+    "tsa-a10-v04",
+    "tsa-a10-v05",
+    "tsa-a10-v06",
+    "tsa-a10-v07",
+    "tsa-a10-v08",
+    "tsa-a10-v09",
+    "tsa-a10-v10",
+    "tsa-a10-v11",
+    "tsa-a10-v12",
+    "tsa-a10-v13",
+    "tsa-a10-v14",
+    "tsa-a10-v15",
+    "tsa-a10-v16",
+    "tsa-a10-v17",
+    "tsa-a10-v18"
+   ],
+   "byte_start": 65802,
+   "byte_end": 68165,
+   "span_shas": [
+    "7a29b83fe891",
+    "c2643c564f22",
+    "ad7ed0368fe9",
+    "3f3740fcfe56",
+    "aee5950f7721",
+    "e53da0bee81d",
+    "de722debb2a2",
+    "ff6a614df353",
+    "5a8c9e952311",
+    "f2dcba0d57a0",
+    "012cda4656e0",
+    "d3eb6992ba4e",
+    "24bbc19e5754",
+    "f3d328ff8631",
+    "77ed10075178",
+    "c2ecf4163af3",
+    "4d2733eef835",
+    "af2e02c95be3"
+   ]
+  }
+ },
+ "manifests": [
+  "tantrasara.json"
+ ]
+}

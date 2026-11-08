@@ -6,6 +6,7 @@ nonexistent chunk and only a matching receipt slug returned PASS. These
 synthetic fixtures prove each forgery class now fails closed.
 """
 import json
+import os
 import subprocess
 import sys
 import tempfile
@@ -13,6 +14,8 @@ import unittest
 from pathlib import Path
 
 TOOL = Path(__file__).resolve().parent.parent / "tools" / "essay_check.py"
+TW = Path(os.environ.get("TRANSLATION_WORK", "/root/translation-work"))
+TW_AVAILABLE = (TW / "phrdaya" / "passages.jsonl").is_file()
 
 
 def triple(tmp, slug, *, claims, theorems=(), chunk="phrdaya:phr-p05",
@@ -64,6 +67,8 @@ GOOD = [{"id": "001", "text": "eight terms", "verse_id": "v",
          "tier": "R"}]
 
 
+@unittest.skipUnless(TW_AVAILABLE,
+                     "needs a translation-work checkout (ledger for chunk check)")
 class TestEssayCheck(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()

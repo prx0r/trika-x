@@ -1,0 +1,151 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-08",
+ "workdir": "bhairavanukarana",
+ "chunks": {
+  "bhair-p01": {
+   "verses": "1-10",
+   "verse_spans": [
+    "bhair-p01-v01",
+    "bhair-p01-v02",
+    "bhair-p01-v03",
+    "bhair-p01-v04",
+    "bhair-p01-v05",
+    "bhair-p01-v06",
+    "bhair-p01-v07",
+    "bhair-p01-v08",
+    "bhair-p01-v09",
+    "bhair-p01-v10"
+   ],
+   "byte_start": 204,
+   "byte_end": 1651,
+   "span_shas": [
+    "320565630d68",
+    "9af28d50880f",
+    "a18b36dd867d",
+    "f1e14d155c00",
+    "dee8dec50393",
+    "564c90c732fa",
+    "2393872d5c97",
+    "a8410ef9ec99",
+    "0a17fb59b1f8",
+    "6f15b5e9975d"
+   ]
+  },
+  "bhair-p02": {
+   "verses": "11-20",
+   "verse_spans": [
+    "bhair-p02-v11",
+    "bhair-p02-v12",
+    "bhair-p02-v13",
+    "bhair-p02-v14",
+    "bhair-p02-v15",
+    "bhair-p02-v16",
+    "bhair-p02-v17",
+    "bhair-p02-v18",
+    "bhair-p02-v19",
+    "bhair-p02-v20"
+   ],
+   "byte_start": 1651,
+   "byte_end": 3068,
+   "span_shas": [
+    "8ca2af59349d",
+    "c8ba8ce05dcc",
+    "cdede073d601",
+    "257e456bf655",
+    "10bcf8ff7a57",
+    "b946a9373455",
+    "9d730c014a5e",
+    "905f48e0eb4b",
+    "0af97aa50af2",
+    "bc03b2ebd9f9"
+   ]
+  },
+  "bhair-p03": {
+   "verses": "21-30",
+   "verse_spans": [
+    "bhair-p03-v21",
+    "bhair-p03-v22",
+    "bhair-p03-v23",
+    "bhair-p03-v24",
+    "bhair-p03-v25",
+    "bhair-p03-v26",
+    "bhair-p03-v27",
+    "bhair-p03-v28",
+    "bhair-p03-v29",
+    "bhair-p03-v30"
+   ],
+   "byte_start": 3068,
+   "byte_end": 4468,
+   "span_shas": [
+    "97c25066424b",
+    "f1bb02604a20",
+    "1b1dc7ed801f",
+    "3866e1894b5b",
+    "6742f4e13190",
+    "71a13bc54cb8",
+    "6eb52c197cbe",
+    "b9b20ecdad11",
+    "82bc3c565cea",
+    "d8ee07404a24"
+   ]
+  },
+  "bhair-p04": {
+   "verses": "31-40",
+   "verse_spans": [
+    "bhair-p04-v31",
+    "bhair-p04-v32",
+    "bhair-p04-v33",
+    "bhair-p04-v34",
+    "bhair-p04-v35",
+    "bhair-p04-v36",
+    "bhair-p04-v37",
+    "bhair-p04-v38",
+    "bhair-p04-v39",
+    "bhair-p04-v40"
+   ],
+   "byte_start": 4468,
+   "byte_end": 5849,
+   "span_shas": [
+    "b9334eb6b8fd",
+    "ce21a596e4ec",
+    "f22ca1b640bc",
+    "a2bdb21acabe",
+    "e61e868dc56e",
+    "ae59fe5a889c",
+    "56274056eaa8",
+    "5b142a9f1a6f",
+    "8f5edc958828",
+    "8784001c78f2"
+   ]
+  },
+  "bhair-p05": {
+   "verses": "41-48",
+   "verse_spans": [
+    "bhair-p05-v41",
+    "bhair-p05-v42",
+    "bhair-p05-v43",
+    "bhair-p05-v44",
+    "bhair-p05-v45",
+    "bhair-p05-v46",
+    "bhair-p05-v47",
+    "bhair-p05-v48"
+   ],
+   "byte_start": 5849,
+   "byte_end": 6932,
+   "span_shas": [
+    "dacbf2cff371",
+    "bba255610991",
+    "ef9231c69dbf",
+    "553d50e17c28",
+    "51cf1898e5f1",
+    "c388bb2371af",
+    "d7cfce42b7a0",
+    "69bb1b586db7"
+   ]
+  }
+ },
+ "manifests": [
+  "ksemaraja-bhairavanukarana.json"
+ ]
+}

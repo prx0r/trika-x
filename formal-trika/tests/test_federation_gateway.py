@@ -51,6 +51,19 @@ def start_gateway(config: dict):
     return proc, rpc, path
 
 
+def _children_present():
+    import shutil
+    need = ["/root/svread/mcp/scholar_server.py",
+            "/root/bookfactory/bf_mcp/server.py",
+            "/root/translation-work/mcp_server.py",
+            "/root/videofactory/vf_mcp_server.py",
+            "/root/openpatala/patala/mcp_server.py"]
+    return all(Path(p).is_file() for p in need)
+
+
+CHILDREN_PRESENT = _children_present()
+
+
 def live_config():
     return {"children": {
         "scholar": {"cmd": ["python3", "/root/svread/mcp/scholar_server.py"],
@@ -68,6 +81,9 @@ def live_config():
                       "cwd": "/tmp"}}}
 
 
+@unittest.skipUnless(CHILDREN_PRESENT,
+                     "needs live child MCP checkouts (svread/bookfactory/"
+                     "translation-work/videofactory/openpatala)")
 class TestFederationGateway(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
