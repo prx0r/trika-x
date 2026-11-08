@@ -351,7 +351,7 @@ row closes on intent. `P` = phase (0 hygiene, 1 moat, 2 close loop, 3 scale).
 | Q10 | Layer-accept decision rows at ingest | W5 | unsigned load-bearing decision refused (409) | translation-work lane | lane wiring | pending (other lane) |
 | Q11 | Treeka view live | W5 | gap report queryable: unargued/cruxless/essayless/unformalised | trika-x (+ svread view) | Q05 | pending |
 | Q12 | Variety 1: PUSHBACK default + Zenodo DOI | W6 | PUSHBACK runs pre-review; one DOI resolves and replays to witness | svread + owner | Zenodo token | blocked (token) |
-| Q13 | Crux queue + Svatantrya propose loop | W6 | prioritized queue; draft per crux (assisted flagged), audit+PUSHBACK, never auto-sign | trika-x + scholar | Q11, quota | pending |
+| Q13 | Crux queue + Svatantrya propose loop | W6 | prioritized queue; draft per crux (assisted flagged), audit+PUSHBACK, never auto-sign | trika-x + scholar | Q11, quota | pilot done 2026-11-08: queue 882; param-p02 drafted (qwen) → audit → PUSHBACK (mistral) 2 objections; proposal only |
 | Q14 | Peer-review debt: LEAD 16 flaws + PR #5 scope | W6 | each flaw marked fixed/accepted/rejected with evidence, dated note | trika-x | — | pending |
 | Q15 | Sanskrit `?view=sanskrit` l01 slice | W7 | lesson → locator → bytes → gate replay; ML lines labelled | svread lane | — | pending (spec ready) |
 | Q16 | Discoverability R5: Search Console + first inbound domain | W7 | `site:` returns pages; impressions; ≥1 referring domain | owner + trika-x | — | blocked (owner/outreach) |
@@ -444,3 +444,10 @@ tools/mcp_catalog.py --check` (SHARP).
   control exit 0 (incl. `BrokenPhrThreeCloses: closes_four is false`,
   `BrokenPhrTwoMeans: means_once is false), recognition exit 0, tc1 exit 0.
   Coverage now 155 theorems / 153 entries, 14/154 chunks (9%).
+
+- **Q13 pilot.** Queue refreshed: 882 argmap-uncertainty candidates
+  (priority 0 = referenced works first). Head crux param-p02 (v15/v16/v18)
+  drafted by qwen3-30b (2/2 CITED, audit 12 checks) then destroyed by
+  mistral-small (2 objections, honest remainder: R reconstructions, no formal
+  entries). Two families, free rails, zero quota. Draft + receipt + pushback
+  in `swarm/robo-param-p02-2026-11-08-071651.*` — proposal, never signed.

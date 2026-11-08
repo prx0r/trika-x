@@ -1,0 +1,83 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+ "date": "2026-11-08",
+ "chunk": "paramarthasara:param-p02",
+ "prompt_sha256": "3bc4cd89aa8e3b4295127ebea0ee21395ab63b13cfbe71cf97cb7b279bc5f100",
+ "claims": "2/2 CITED",
+ "audit": {
+  "content_sha256": "2559900d9dd01497c01cb24558f746ba09206976bd74dd8c5517dc5e71591b66",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "paramarthasara:param-p02: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[param-p02-v15]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[param-p02-v16]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[param-p02-v18]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: bound-beast,"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "time-art-limitation-power — [param-p02-v16]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "passion-ignorance — [param-p02-v16]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches: separate though undivided,"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "Śiva-path-eagerness-yoga — [param-p02-v18]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "own-self-veiling — [param-p02-v15]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "separate though undivided — [param-p02-v18]"
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "pass",
+    "detail": "every substantial paragraph is cited"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-08T07:16:51Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}

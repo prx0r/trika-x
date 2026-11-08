@@ -345,3 +345,18 @@ Skipped: `freaktown/node_modules` (167M) — live `vite preview` server.
 
 Result: 1.3G free (99%) → **3.7G free (96%)**, +2.4G. Source files,
 manifests and lockfiles verified intact after removal.
+
+---
+
+## 13. Q13 pilot — propose loop, one crux (2026-11-08)
+
+`crux_queue.py` refreshed: 882 candidates, priority 0 = works with registry
+references (param-p02 head: v15/v16/v18 uncertainties, EXACT_LOCATOR).
+`roboscholar.py` (qwen3-30b-a3b-fp8, `--allow-external-text` explicit) drafted
+one paragraph + 5 claim bullets from banked premises only; claim table 2/2
+CITED; audit 12 checks; receipt `robo-param-p02-2026-11-08-071651.receipt.json`.
+`pushback.py` (mistral-small-3.1-24b, different family, same opt-in) filed
+2 objections with honest remainder: claims are R reconstructions, no formal
+entries for these locators — correctly refused as authority.
+Files: draft + receipt + `.pushback.md`, all MACHINE-PROPOSED, owner +
+scholar dispose. No signoff, no publish. Quota spent: none (CF free neurons).
