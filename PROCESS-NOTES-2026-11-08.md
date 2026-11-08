@@ -189,3 +189,79 @@ python3 formal-trika/tools/trace_bundle.py --verify \
 # openpatala (identity root)
 cd /root/openpatala && python3 check.py
 ```
+
+---
+
+## 7. Q14 — peer-review debt disposition (2026-11-08)
+
+*I do not rule on method questions; I record each item's live state with the
+command or file that proves it. Rulings stay with scholar/lead/owner.*
+
+### Lead review PR #5 (7 findings)
+
+| # | Finding | Live state 2026-11-08 | Disposition |
+|---|---|---|---|
+| L1 | Containment misattributed | EVIDENCE provenance labels `R-SOURCE (reconstruction doc, not a chunk)`; registry refs unreviewed by contract | ADDRESSED in mechanism; scholarly ruling on the passage still open |
+| L2 | Essay compiler could invent proof status | `essay_compile.py` prints "candidate argmap units, R; bytes rechecked" + "(registry references; proof and textual entailment not checked)"; old expansion drafts remain historical, labels not evidence | ADDRESSED in mechanism |
+| L3 | Review-status check not a gate; name promotes to Core | `review_status.py` prints `ERROR: Core promotion is disabled until authenticated, revision-bound review is implemented` | ADDRESSED; identity design OPEN (scholar lane) |
+| L4 | Snapshot broke CI | CI installs pinned Lean 4.34.1 by sha256 (`formal-checks.yml`); snapshot pinned | ADDRESSED |
+| L5 | Nightly masked failures | `nightly-verify.sh` accumulates per-check exit into `STATUS`, exits non-zero on any failure; skips explicit | ADDRESSED; install still owner call |
+| L6 | Roboscholar sends text; receipts not reproducibility | `--allow-external-text` required before any external excerpt; model alias/prompt hash still do not pin build/seed/params | PARTIAL: gate exists; provenance OPEN (owner caps or receipt schema v2) |
+| L7 | Reconciliation overstated agreement | `map_agreement.py` returns `POSSIBLE-MATCH` for overlaps, manual review required; composition rechecks ledger hashes | ADDRESSED |
+
+Plus standing method rules (kept, no rulings made): tiers are claims
+requiring reviewable evidence (P-PHR4/5 assigned R by inheritance only);
+mutant sensitivity ≠ meaningful test (second qualified reviewer still owed);
+`cut_arith` stays model-only in EVIDENCE; registry ≠ snapshot; witness/rights/
+model-provenance/scholar assessment stay open; disk flagged, no deletions.
+
+### Review request (16 questions) → recorder's answers
+
+| # | Question | Answer with pointer |
+|---|---|---|
+| R1 | tier-gate or reviewer-eyes? | No tier gate on box today (`evidence_check` verifies existence, not semantics) — reviewer-eyes by design, recorded |
+| R2 | second-encoder twin review? | **OPEN**: designer still judges; §6 R-phr twins reviewed by construction only |
+| R3 | `cut_arith` in EVIDENCE? | Kept as `TattvaGen.lean :: cut_arith`, explicitly model-only; dropping it is a reviewer's call, not mine |
+| R4 | `--promote` with a name? | Promotion refuses (`review_status.py:59`); 0 Core rows — nothing actually promoted |
+| R5 | roboscholar nondeterminism? | `--allow-external-text` gate exists; temperature/seed pinning OPEN |
+| R6 | agreement receipt-only? | Kept receipt-only (twin-separability); enforcing is a design ruling — OPEN |
+| R7 | trinity serving two masters? | Splitting formal registry from bridge snapshot is a design ruling — OPEN; mechanically in sync (BYTES_MATCH) |
+| R8 | E-EMB alternative parked | Scholar confirmation still owed (packet item) — OPEN |
+| R9 | Nyasa follow-ups | varga second key + order twin outstanding — OPEN |
+| R10 | MITRA share-alike scope | Bulk-derivation boundaries need rights ruling — OPEN (scholar/legal lane) |
+| R11 | Vidyut sandhi direction | Sandhi-module follow-up is the real step — direction call is owner's/lead's, OPEN |
+| R12 | nightly skips Lean | Battery covers evidence/table/bridge/tests; run.sh excluded on time grounds — extend or accept is owner's call, OPEN |
+| R13 | disk | Q01 inventory done (§8); deletions need owner eyes, OPEN |
+| R14 | swarm calibration owed | Embed re-derivation benchmark still owed — OPEN |
+| R15 | formal-refs grammar | PROPOSED (non-binding, lanes dispose): `theorem:<repo>:<path>::<name>` with pinned commit + exact span carried alongside, never replacing the span itself. Current free-form `File :: name` stays candidate-only |
+| R16 | independence gap | Second key, Dyczkowski collation, KMT filename all need scholar channel — OPEN |
+
+### Recorded deltas since 2026-11-06
+
+- TW PRs #9–12 merged by their agent (provenance, formal stage, submission
+  identity, MITRA grounds). Svread lingua PR status NOT re-checked today.
+- Family-2 replication closed (Mistral+Qwen). Blind vocab decision still lead's.
+- New this session: P-PHR4/5 rung greens with twins;.trace coverage 909;
+  treeka refs 5→14; calibration reproduced; MCP catalog gates.
+
+---
+
+## 8. Q01 — disk inventory (read-only; no deletions made)
+
+```
+/dev/sda1  75G  73G  1.6G free (98%)
+/root/.cache            958M  (ms-playwright 924M — browser binaries for the svread test suites; pip 24M; rest small)
+/tmp/ochema2            461M  (shallow clone; markdown already imported to trika-x; binaries NOT imported — re-clone restores)
+/tmp/parab              100M  (live, untouched)
+/tmp/vidyut-data         78M  (re-downloadable)
+/tmp/svread-pr8          53M
+/tmp/nib-pr1             73M  (from 11-07 inventory)
+/tmp/essayseeds          31M  (from 11-07 inventory)
+formal-trika/data/traces 4.2M (new today, 909 bundles)
+```
+
+Largest safe reclamation candidates (owner decision, in order): `/tmp/ochema2`
+(461M; reading mirror already vendored + provenance recorded) →
+`~/.cache/ms-playwright` (924M; breaks svread browser tests if removed — only
+with explicit owner go) → shared-checkout review (`/root/projects` 6.3G,
+`gcomedy` 2.1G, `damn` 2.0G — outside our targets, never touched).

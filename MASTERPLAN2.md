@@ -403,3 +403,39 @@ tools/mcp_catalog.py --check` (SHARP).
 - **MCP hardening** — see §13. 76 tests green, pre-test GREEN, catalog SHARP.
 - **Docs** — `MCP-OPS.md` added; FORMAL-MCP v3; PARENT-CONTRACT/FEDERATION/
   MODULES counts corrected to 104 tools / 8 families.
+
+
+---
+
+## 15. Autonomous work log (2026-11-08, third pass)
+
+- **Q07 bench CPU half.** Real 3×3 smoke (`validate_benchmark --n 3 --m 3`,
+  model mimo-v2.5 via hermes): all tau undefined (tied/constant) — run
+  `54b08b41` logged, no win, plumbing only. `calibrate_gate.py --n 200`
+  reproduces the 11-06 record **byte-identically** (false-BLOCK 0.290;
+  false-PASS hallucinated 0.235 / truncated 0.885 / term-drift 0.725 /
+  source-repeat 0.090; verdict GATE NEEDS TUNING). Determinism is the sharp
+  part: same seed, same numbers, no human conclusion drawn.
+- **Q08 rung phr-p05.** `PREREGISTRATION-PHR-CLOSE-RUNG.md`: P-PHR4
+  (closing sequence `[17,18,19,20]`, length 4) + P-PHR5 (means named once,
+  `[18]`, length 1 ∧ Nodup), R-tier, L2 + ledger + ARGMAP ground. Lean 4.34.1
+  compiles; `BrokenPhrThreeCloses` (`[17,19,20]`) and `BrokenPhrTwoMeans`
+  (`[18,19]`) both refuse at the expected false proposition (single-line
+  diffs verified). Wired into `control/run.sh`, `TABLE-READINGS.md`,
+  `EVIDENCE.json` (155 theorems / 153 entries, axiom CLEAN static). Full
+  harness receipt (`record_run.py`) running in background.
+- **Q11 treeka view.** `treeka_report.py` renders `treeka.json` as a
+  queryable gap report (`--work`, `--queue`, `--md`; rung-queue order:
+  phr mala → VBT clusters → tsa08 remainder → rest). Refresh caught real
+  drift: the committed `treeka.json` lacked registry refs for phr-p01..04
+  and span-p01 that EVIDENCE already had — now 895 unformalised (was 900),
+  matching `evidence_check` 14/154 chunks.
+
+
+- **Q14 dispositions.** LEAD's 7 findings verified against live code
+  (L1–L5, L7 mechanism-fixed; L6 opt-in gate exists, provenance open; core
+  promotion refuses with 0 Core rows). REVIEW-REQUEST's 16 answered as
+  recorder, not ruler: 5 need human/lane rulings (R2, R6, R7, R10, R11),
+  4 scholar-channel (R8, R9, R16 + R12 owner's), R15 grammar proposed
+  (`theorem:<repo>:<path>::<name>`, non-binding). Nothing claimed closed that
+  isn't machine-checked.

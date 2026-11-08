@@ -1,10 +1,10 @@
 {
- "measured_at": "2026-11-08T05:50:55Z",
+ "measured_at": "2026-11-08T06:26:50Z",
  "git": {
   "trika-x": {
-   "rev": "b9724e7",
+   "rev": "ccaa8a4",
    "branch": "box/peer-review-batch",
-   "dirty": 924
+   "dirty": 13
   },
   "openpatala": {
    "rev": "7af046d",
@@ -19,8 +19,8 @@
  },
  "disk": {
   "value": {
-   "free_gb": 1.72,
-   "used_pct": 96.8
+   "free_gb": 1.38,
+   "used_pct": 97.2
   },
   "command": "df -h /"
  },
@@ -40,12 +40,12 @@
  },
  "formal_evidence": {
   "value": {
-   "theorems": 153,
-   "entries": 151,
+   "theorems": 155,
+   "entries": 153,
    "exemptions": 2,
-   "chunk_refs_resolve": 53,
+   "chunk_refs_resolve": 55,
    "chunk_refs_bad": 0,
-   "direct_refs": 13,
+   "direct_refs": 14,
    "total_chunks": 154,
    "status": "MEASURED"
   },
