@@ -165,8 +165,11 @@ class TestTraceBundle(unittest.TestCase):
 
     def test_flat_layout_binds_exact(self):
         out = os.path.join(self.tmp.name, "param-p04.json")
-        r = run("--work", "paramarthasara", "--target", "param-p04",
-                "--out", out)
+        args = ["--work", "paramarthasara", "--target", "param-p04",
+                "--out", out]
+        if not DB_OK:
+            args.append("--no-db")
+        r = run(*args)
         self.assertEqual(r.returncode, 0, r.stderr)
         with open(out, encoding="utf-8") as f:
             b = json.load(f)
