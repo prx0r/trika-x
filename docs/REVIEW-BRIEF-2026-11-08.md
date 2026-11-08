@@ -4,8 +4,9 @@
 reading 40 docs. It is deliberately written by the author and therefore
 biased: trust the commands in §1, not the prose. Repos are public.*
 
-**Reviewed head:** trika-x `main` @ `1c6f16f` (tag
-`checkpoint-2026-11-08-lead-review`). svread `main` @ `2aeb2bb`.
+**Reviewed head:** trika-x `main` @ `e7230b4`. svread `main` @ `a61d53f`.
+(Was `1c6f16f` / `2aeb2bb` when first drafted; both have moved — see the
+new §2a.)
 
 ---
 
@@ -34,6 +35,21 @@ echo "live traces: $str   # expect 909"
 ```
 
 ---
+
+## 2a. New since first draft (2026-11-08 evening)
+
+- **SEO/GEO build started.** Research `trika-x/docs/AI-DISCOVERABILITY-2026-11-08.md`;
+  spec `SEO-GEO-PLAN-2026-11-08.md`; buildable handover
+  `HANDOVER-SEO-2026-11-08.md` (20 todos, page spec, JSON-LD, 10 traps,
+  cutover runbook). **Nothing generated yet** — the claim pages are the next
+  build. This is the highest-value open work and the easiest to review for
+  soundness.
+- **Cutover traps fixed:** `SITE_ORIGIN` replaces the hardcoded origin;
+  `llms.txt` reports 909 traces live (was a stale "13 chunks");
+  canonical-origin test is origin-aware.
+- **ROADMAP R1 marked MET**: 909/909 locators traced, 909 packs published and
+  re-verified at publish time.
+- **svread publish is done** (it was listed as pending in the first draft).
 
 ## 2. What this PR asks you to review
 
@@ -93,7 +109,7 @@ Each of these is a real gap. None is hidden in prose.
 | Gap | Where | Ask file |
 |---|---|---|
 | `phrdaya` ledger spans (PR #7 P0) | `translation-work/phrdaya/passages.jsonl` | `LANE-ASKS-2026-11-08.md` §2 |
-| svread formalized/MODEL_CHECKED | fixed in `svread` this session; re-audit | same file §3 |
+| svread formalized/MODEL_CHECKED | **fixed** (direct-ref counts, REGISTERED); re-audit if you disagree | same file §3 |
 | sanskritbench result_id | fixed in `box/diagnostics-v2`; **lane must re-pin** | same file §1 |
 | openpatala read-only check | fixed in `box/check-readonly`; **lane must merge** | same file §4 |
 | ipvv two-sources-v2 | ready in `box/two-sources-v2`; **lane must merge** | same file §5 |
@@ -158,7 +174,8 @@ Each of these is a real gap. None is hidden in prose.
 
 - trika-x: https://github.com/prx0r/trika-x (main @ `1c6f16f`)
 - openpatala: https://github.com/prx0r/openpatala · branch `box/check-readonly`
-- svread: https://github.com/prx0r/svread (main @ `2aeb2bb`) · live https://svread.pages.dev
+- svread: https://github.com/prx0r/svread (main @ `a61d53f`) · live https://svread.pages.dev
+- SEO/GEO handover: `svread/HANDOVER-SEO-2026-11-08.md`
 - translation-work: https://github.com/prx0r/translation-work · branch `box/decision-trail`
 - sanskritbench: https://github.com/prx0r/sanskritbench · branch `box/diagnostics-v2`
 - ipvv: https://github.com/prx0r/ipvv · branch `box/two-sources-v2`
