@@ -7,6 +7,8 @@ reads, then the gates. Everything else is reference.*
 
 1. **This file** (§1 handover + §4 map) — where everything lives and what to
    trust.
+1b. **`docs/REVIEW-BRIEF-2026-11-08.md`** — if you are an external reviewer:
+   what to check, what is not done, what is messy, what needs insight.
 2. **`MASTERPLAN2.md` §0–§2** — the objective, the laws, the measured
    baseline. Then §12 (the 20-item queue with owners/gates) and §16–§17
    (northstar + PR #7 delivery order).
