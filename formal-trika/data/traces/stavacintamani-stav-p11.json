@@ -1,0 +1,127 @@
+{
+ "caveats": [
+  "chunk_gate BLOCKED: COVERAGE,ABSTENTION"
+ ],
+ "chunk": {
+  "immutable_id": "pt:pid:stav:5d27b0bb2ba5",
+  "target": "stav-p11",
+  "work": "stavacintamani"
+ },
+ "essays": {
+  "citing": [],
+  "projection_sha256": "6e5bc498f683e52c9865c1da56871932f5adc37ad6a9513230f7553f2ee0ba73"
+ },
+ "formal": {
+  "status": "none",
+  "theorems": []
+ },
+ "format": "trika-trace/1",
+ "gaps": [],
+ "identity": {
+  "db": "postgresql://patala:***@localhost:5432/openpatala",
+  "rows": {
+   "editions": [
+    {
+     "id": "stavacintamani:edition:1",
+     "title": "stavacintamani"
+    }
+   ],
+   "etexts": [
+    {
+     "artifact": "b7e43f9ae8bf26b47759847a48b2ec2b511e22ecfb4ec9491bf584b633f6dbcb",
+     "id": "stavacintamani:etext:1",
+     "provider": "translation-work"
+    }
+   ],
+   "passage": {
+    "citation_value": "stav-p11",
+    "work_id": "stavacintamani"
+   },
+   "witnesses_total": 0
+  },
+  "status": "BOUND"
+ },
+ "layers": {
+  "argmap": {
+   "path": "stavacintamani/data/stav-p11.argmap.json",
+   "present": true,
+   "sha256": "89304e2aa5ad9762189d052ab770177e6aed8b04a4c289f0dea0f87575c57492",
+   "status": "BOUND"
+  },
+  "c1": {
+   "path": "stavacintamani/data/stav-p11.c1.json",
+   "present": true,
+   "sha256": "e9ea0dd8e3b1e91b8e94e53152a76da8fcc747e32a1e5ef58ac46464ef5a605a",
+   "status": "BOUND"
+  },
+  "c2": {
+   "path": "stavacintamani/data/stav-p11.c2.json",
+   "present": true,
+   "sha256": "f636d31ad1973f77303bf08bdc7f0f33ed9c3353a2bf291a50ed77c62e53a38f",
+   "status": "BOUND"
+  },
+  "l0": {
+   "path": "stavacintamani/data/stav-p11.l0.json",
+   "present": true,
+   "sha256": "b3b255b31b82e04df8282637bb6d2367f694c150d1d7f712014cb2152f06c36b",
+   "status": "BOUND"
+  },
+  "l2": {
+   "path": "stavacintamani/data/stav-p11.l2.json",
+   "present": true,
+   "sha256": "bc8d512def4c78f432a853a28abed658899167d947d1f8ee55497925669ab31d",
+   "status": "BOUND"
+  },
+  "l3": {
+   "path": "stavacintamani/data/stav-p11.l3.json",
+   "present": true,
+   "sha256": "73fb4fb4157e8cf0ba34fa0d8fc89527dfa407cb27e1507530d5e9544350d5fd",
+   "status": "BOUND"
+  },
+  "l4": {
+   "path": "stavacintamani/data/stav-p11.l4.json",
+   "present": true,
+   "sha256": "4160a3fedd7b964d9c41dea3e0cc3e5a51f7cfebdf007ee2d69efa457f32203e",
+   "status": "BOUND"
+  },
+  "t1": {
+   "path": "stavacintamani/data/stav-p11.t1.json",
+   "present": true,
+   "sha256": "e84d709e842076c0bf727d0e7ab851f67c8a8e4b51ddfd936625d3be4508bb2f",
+   "status": "BOUND"
+  }
+ },
+ "open_problems": [],
+ "proofs": {
+  "chunk_gate": {
+   "blocking": [
+    "COVERAGE",
+    "ABSTENTION"
+   ],
+   "deterministic_gate": "BLOCKED"
+  },
+  "song_proof": {
+   "blocking": [],
+   "file": "stavacintamani/proof/proof-stav-p11.json",
+   "sha256": "710d9e9a528d223f8def3a687cc7d8fc25fd328cfecd197b8a957dea14196b18",
+   "status": "PASS"
+  }
+ },
+ "source": {
+  "bytes_present": true,
+  "bytes_sha256": "5d27b0bb2ba56c9346c2ce9d8b097bb3996ea694a872fc33c4688361128ec0fa",
+  "edition": {
+   "label": null,
+   "status": "UNKNOWN"
+  },
+  "immutable_id": "pt:pid:stav:5d27b0bb2ba5",
+  "ledger": "stavacintamani/passages.jsonl",
+  "source_sha_file": null,
+  "verses": "101-110",
+  "witness": {
+   "id": null,
+   "status": "UNPINNED"
+  }
+ },
+ "verdict": "COMPLETE"
+}
