@@ -3722,9 +3722,11 @@
    ],
    "cruxes": 4,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Phrdaya.lean :: epithet_three"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-WORK"
   },
@@ -3744,9 +3746,11 @@
    ],
    "cruxes": 4,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Phrdaya.lean :: pentads_thirtyfive"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-WORK"
   },
@@ -3766,9 +3770,11 @@
    ],
    "cruxes": 4,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Phrdaya.lean :: five_acts"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-WORK"
   },
@@ -3814,9 +3820,12 @@
    ],
    "cruxes": 4,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Phrdaya.lean :: closes_four",
+    "Phrdaya.lean :: means_once"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-WORK"
   },
@@ -4376,9 +4385,13 @@
    ],
    "cruxes": 1,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Spanda.lean :: acts_three",
+    "Spanda.lean :: glide_all",
+    "Spanda.lean :: phases_two"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-WORK"
   },
@@ -14870,7 +14883,6 @@
    "formal_refs": [
     "AnswerKey.lean :: key_thirtysix_tattvas",
     "Avarana.lean :: course_ascends",
-    "Embed.lean :: earth_all5",
     "Tattva.lean :: eleven_wombed",
     "Tattva.lean :: five_gross_elements",
     "Tattva.lean :: thirty_six",
@@ -14987,9 +14999,12 @@
    "formalized": null,
    "formal_reference": true,
    "formal_refs": [
+    "Correction.lean :: grasp_first",
+    "Correction.lean :: joints_two",
     "EgoOrigin.lean :: nonrivalled_does_work",
     "EgoOrigin.lean :: sankhya_requires_cause",
     "EgoOrigin.lean :: trika_self_grounding_exists",
+    "Embed.lean :: earth_all5",
     "Heaps.lean :: guna_threefold",
     "Heaps.lean :: heap_has_both_kinds",
     "Tattva.lean :: eleven_wombed",
@@ -17325,10 +17340,6 @@
    "paryantapancasika:pary-p06",
    "paryantapancasika:pary-p07",
    "paryantapancasika:pary-p08",
-   "phrdaya:phr-p01",
-   "phrdaya:phr-p02",
-   "phrdaya:phr-p03",
-   "phrdaya:phr-p05",
    "ptvmadhyama:ptvm-p01",
    "ptvmadhyama:ptvm-p02",
    "ptvmadhyama:ptvm-p03",
@@ -17352,7 +17363,6 @@
    "sivasutra:sivs-p06",
    "sivasutra:sivs-p07",
    "sivasutra:sivs-p08",
-   "spanda:span-p01",
    "spanda:span-p02",
    "spanda:span-p03",
    "spanda:span-p04",
@@ -18062,6 +18072,6 @@
   "unargued": 578,
   "cruxless": 123,
   "essayless": 331,
-  "no_formal_reference": 900
+  "no_formal_reference": 895
  }
 }
