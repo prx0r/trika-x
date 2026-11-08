@@ -12,7 +12,7 @@ complete in old docs; the honest state is in the Status column.
 |---|---|---|---|
 | **openpatala** | IDENTITY: work/edition/passage/witness root | DB 555 works / 909 passages / 0 witnesses; API live; MCP 5 tools | `python3 check.py` |
 | **translation-work** | EVIDENCE: T1→L0→argmap→L2→C1→L3→L4, proofs per song | 101 works in pipeline, 87 with ledgers, 72 gold, 55 projected | `python3 check.py` (their lane) |
-| **trika-x** | FORMAL + verification: Lean theorems, traces, federation | 153 theorems, 13 verified trace bundles, 98-tool MCP gateway | `python3 -m unittest discover -s formal-trika/tests` |
+| **trika-x** | FORMAL + verification: Lean theorems, traces, federation | 153 theorems, 13 verified trace bundles, 104-tool MCP gateway | `python3 -m unittest discover -s formal-trika/tests` |
 | **svread** | SURFACE: reader, Sanskrit lessons, bibliography, verify view, chat | 50 readable works, 10 lessons, 13 published traces + packs | `node --test tests/*.test.cjs` |
 
 ## Supporting
@@ -58,7 +58,8 @@ bookfactory__*    (22 tools, draft-only)
 video__*          (18 tools, gated renders)
 ```
 
-98 tools total, all live. FailOpen: a dead child is excluded, never fatal.
+104 tools total, all live (5 children + local families). FailOpen: a dead child
+is excluded, never fatal. Catalog: `formal-trika/data/mcp-catalog.json`.
 No tool anywhere can sign, publish, or ship.
 
 ## Cross-cutting rules (all repos)

@@ -182,16 +182,18 @@
 
  | Artifact | Where | Version |
  |---|---|---|
- | Gateway (parent server) | trika-x/formal-trika/tools/federation_gateway.py | stdio NDJSON; all 5 children live (98 tools); serves formal__trace |
+ | Gateway (parent server) | trika-x/formal-trika/tools/federation_gateway.py | stdio NDJSON; all 5 children live (104 tools); serves formal__trace |
  | Children config | trika-x/formal-trika/data/federation-children.json | trika-federation-children/1 |
- | Gateway tests (6 GREEN incl. live trace) | trika-x/formal-trika/tests/test_federation_gateway.py | — |
+ | Gateway tests (11 GREEN incl. live trace, guide prefixes, catalog) | trika-x/formal-trika/tests/test_federation_gateway.py | — |
  | Trace compiler + verifier | trika-x/formal-trika/tools/trace_bundle.py | trika-trace/1 |
  | Trace spec | trika-x/formal-trika/TRACE-SPEC-2026-11-07.md | trika-trace/1 |
  | Trace tests (7 GREEN incl. negatives) | trika-x/formal-trika/tests/test_trace_bundle.py | — |
  | Example trace bundles (VERIFIED) | trika-x/formal-trika/data/traces/ | trika-trace/1 |
  | Contract pre-tests (GREEN) | trika-x/tools/federation_pretest.py | — |
  | Parent contract | trika-x/PARENT-CONTRACT-SPEC-2026-11-07.md | spec v1 → impl. status |
- | Formal MCP spec | trika-x/FORMAL-MCP-SPEC-2026-11-07.md | spec v1 |
+ | Formal MCP spec | trika-x/FORMAL-MCP-SPEC-2026-11-07.md | v3 implemented (7 tools) |
+ | Machine catalog + probe | trika-x/tools/mcp_catalog.py, formal-trika/data/mcp-catalog.json | trika-mcp-catalog/1 |
+ | MCP operations guide | trika-x/MCP-OPS.md | — |
  | Layer names + resolver + tests | trika-x/formal-trika/data/layer-names.json, tools/layer_names.py, tests/test_layer_names.py | trika-layer-names/1, 6 tests GREEN |
  | Layer adoption spec | trika-x/LAYER-NAMES-SPEC-2026-11-07.md | spec v1 |
  | Abhinavagupta seed + data | trika-x/formal-trika/tools/seed_abhinavagupta.py, data/abhinavagupta-corpus.json | seed:trika:abhinavagupta-corpus:1 |

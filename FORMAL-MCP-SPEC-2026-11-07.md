@@ -1,14 +1,19 @@
-# FORMAL-MCP SPEC — trika-x read-only tools (v2, 2026-11-07)
+# FORMAL-MCP SPEC — trika-x read-only tools (v3, 2026-11-08)
 
- Status: PARTIAL IMPLEMENTATION (gateway serves `formal__trace` live;
- items 1–6 remain specced). All tools read-only, deterministic, fail-closed.
- No Lean writes, no EVIDENCE writes, no translation-work writes via MCP.
- Machine proposes, human disposes. Tiers ride every claim (T/R/E/C/H/X);
- R never promotes itself; only `decide` proves (inside its finite scope).
+ Status: IMPLEMENTED — all seven tools live on the federation gateway
+ (`formal__trace|bridge|evidence|table|gaps|runs|axioms`). Verified by
+ `formal-trika/tests/test_federation_gateway.py::test_formal_tool_family`
+ (every tool listed + answers; unknown chunk fails closed; witness stays
+ UNPINNED) and by the machine catalog `formal-trika/data/mcp-catalog.json`
+ (regenerate: `tools/mcp_catalog.py --write`; gate: `--check`).
+ All tools read-only, deterministic, fail-closed. No Lean writes, no EVIDENCE
+ writes, no translation-work writes via MCP. Machine proposes, human disposes.
+ Tiers ride every claim (T/R/E/C/H/X); R never promotes itself; only `decide`
+ proves (inside its finite scope).
 
 ## Tools
 
-0. `formal__trace {work, target}` → LIVE in the gateway. Full
+0. `formal__trace {work, target}` → LIVE. Full
    trika-trace/1 bundle for one chunk: source bytes hash, layer hashes,
    proof results, formal theorems (MODEL_CHECKED, in-scope only), citing
    essays (verbatim mention only). Verdict COMPLETE/PARTIAL + named gaps;
@@ -52,7 +57,9 @@ write flags, anything touching translation-work/ipvv/svread repos.
 
 ## Acceptance
 
-Static: tool names prefixed `formal__`, no banned substrings (ship/render/
-publish/grant/sign), schemas frozen. Live: spot-check `formal__bridge
-chunk:tsa08-p03` → dossier + UNPINNED; `formal__gaps` → same 13/154 covered
-set as `evidence_check`; unknown chunk → clean error.
+Static: tool names prefixed `formal__`, no banned action names (exact/prefix
+match, never substring — `list_published_essays` is read-only and allowed),
+schemas frozen. Live: `formal__bridge chunk:tsa08-p03` → dossier + UNPINNED;
+`formal__gaps` → same 13/154 covered set as `evidence_check`; unknown chunk →
+clean error. Machine catalog: 104 tools across 8 families (2026-11-08),
+`mcp_catalog.py --check` SHARP.
