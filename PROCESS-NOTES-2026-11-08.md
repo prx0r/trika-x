@@ -274,3 +274,51 @@ with explicit owner go) → shared-checkout review (`/root/projects` 6.3G,
 recognition exit 0, tc1 exit 0. Control tail includes both new twin refusals.
 Full harness run detached via `setsid nohup … & disown` (plain `&` dies with
 the tool call — see §9). Coverage: 155 theorems / 153 entries, 14/154 chunks.
+
+---
+
+## 11. Q01 — disk candidate ranking (2026-11-08, read-only)
+
+Box: 75G disk, 73G used, 1.6G free (98%). Every repo below is a live git
+checkout — nothing deleted, nothing `gc`'d. Ranked by reclaim vs risk.
+
+### Tier 1 — rebuildable from lockfiles (~2.4G, owner go)
+
+- `manuscriptAI/node_modules` (1023M): `package-lock.json` present, `npm ci`
+  rebuilds. Live quill-app repo — rebuild before next deploy/test.
+- `content/moneyprinterturbo/.venv` (754M): `requirements.txt` present. LOW.
+- `engines/.venv` (631M): numpy/opencv/onnx stack, no requirements file —
+  `pip freeze` first, then rebuild. MEDIUM (feeds sleepdraw comparisons).
+- `freaktown/node_modules` (167M): lockfile present. LOW.
+
+### Tier 2 — committed binaries / history (~1.6G, surgery not deletion)
+
+- `kashaudio/.git` pack (1.11G): `verify-pack` shows committed renders
+  (`shiva_render/shiva_ch01.mp4` 18M, `cards/trad/*_full.mp4` 12M,
+  `shiva_render/audio/*.m4a` 10M). In sync with `origin/main`, so re-clone
+  saves nothing — needs filter-repo or media-to-R2/LFS.
+- `projects/.git` (530M): top blobs `generated-data.ts` 17M + seed JPEGs
+  ~4M; accumulated history. Audit before surgery.
+
+### Tier 3 — /tmp + caches (~1.6G, verify-then-remove)
+
+- `~/.cache/ms-playwright` (924M): removal breaks svread browser tests;
+  reinstall via `npx playwright install`. Owner go only.
+- `/tmp/ochema2` (461M): markdown already vendored to trika-x with
+  provenance; binaries never imported. Verify no live user, then remove.
+- `/tmp/vidyut-data` (78M): re-downloadable.
+- `/tmp/nib-pr1` + `/tmp/svread-pr8` + `/tmp/essayseeds` (73M + 53M + 31M):
+  stale workdirs by shape — verify, then remove.
+- `/tmp/parab` (100M): 11-07 notes say possibly live — DO NOT TOUCH.
+
+### Do not touch
+
+Chain repos (`translation-work`, `trika-x`, `svread`, `openpatala`,
+`sanskritbench`, `nibbanahelp`). Any `.git` of an active repo. Shared
+checkouts outside our targets (`/root/projects` 6.3G, `gcomedy`, `damn`,
+`content-sources`, `blueteam`) — owner eyes only.
+
+### Arithmetic
+
+Tier 1 + safe Tier 3 ≈ 3.1G freed → ~94%. Plus playwright ≈ 4G → ~92%.
+Tier 2 surgery ≈ +1.6G but is a project, not a deletion.
