@@ -135,6 +135,51 @@ class TestFederationGateway(unittest.TestCase):
                                                     "target": "tsa08-p99"}})
         self.assertTrue(res.get("isError"), "unknown chunk must fail closed")
 
+    def test_formal_tool_family(self):
+        # every documented formal tool exists and answers
+        cases = [
+            ("formal__bridge", {"chunk": "chunk:tsa08-p03"}, "locator"),
+            ("formal__evidence", {}, "counts"),
+            ("formal__evidence", {"theorem": "Pramatr.lean :: seven"}, "kind"),
+            ("formal__table", {}, "rows_total"),
+            ("formal__gaps", {}, "coverage"),
+            ("formal__runs", {}, "runs"),
+            ("formal__axioms", {}, "report"),
+        ]
+        names = {t["name"] for t in self.rpc("tools/list")["result"]["tools"]}
+        for name, _a, _k in cases:
+            self.assertIn(name, names, f"{name} must be listed")
+        for name, args, key in cases:
+            res = self.rpc("tools/call", {"name": name, "arguments": args})
+            self.assertNotIn("isError", res, f"{name}: {str(res)[:200]}")
+            body = json.loads(res["result"]["content"][0]["text"])
+            self.assertIn(key, body, f"{name} missing {key}")
+        # bridge: witness always UNPINNED, never invented
+        res = self.rpc("tools/call", {"name": "formal__bridge",
+                                      "arguments": {"chunk": "chunk:tsa08-p03"}})
+        body = json.loads(res["result"]["content"][0]["text"])
+        self.assertEqual(body.get("witness_status"), "UNPINNED")
+        # negative: bad chunk refs fail closed
+        for bad in ({"chunk": "nope:xyz"}, {}):
+            res = self.rpc("tools/call", {"name": "formal__bridge",
+                                          "arguments": bad})
+            self.assertTrue(res.get("isError"), f"must fail closed: {bad}")
+
+    def test_tal_work_level_binding(self):
+        res = self.rpc("tools/call", {"name": "formal__trace",
+                                      "arguments": {"work": "tantraloka-a15",
+                                                    "target": "tal-a15-p12"}},
+                       timeout=180)
+        self.assertNotIn("isError", res, str(res)[:200])
+        body = json.loads(res["result"]["content"][0]["text"])
+        self.assertEqual(body["verdict"], "PARTIAL", "TAL not gold yet")
+        bound = {k for k, v in body["layers"].items()
+                 if str(v.get("status", "")).startswith("BOUND")}
+        self.assertIn("t1", bound, "TAL T1.md binds at work level")
+        self.assertIn("l2", bound, "TAL L2.md binds at work level")
+        self.assertTrue(any("layer:l0" == g for g in body["gaps"]),
+                        "missing gold layers stay named gaps")
+
     def test_unknown_and_dead_are_unknown_tool(self):
         res = self.rpc("tools/call", {"name": "deadchild__whatever",
                                       "arguments": {}})

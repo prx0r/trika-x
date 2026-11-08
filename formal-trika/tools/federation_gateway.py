@@ -208,6 +208,137 @@ def formal_trace(args: dict, timeout: float = 120.0) -> dict:
         raise ValueError("trace produced no bundle")
 
 
+def _run_tool(script: str, argv: list, timeout: float = 120.0) -> str:
+    p = subprocess.run([sys.executable, str(HERE / "tools" / script), *argv],
+                       capture_output=True, text=True, timeout=timeout)
+    if p.returncode != 0:
+        raise ValueError(f"{script} failed: {(p.stderr or p.stdout)[:300]}")
+    return p.stdout
+
+
+def formal_bridge(args: dict) -> dict:
+    """chunk locator -> work/edition/etext rows + witness status (UNPINNED)."""
+    chunk = (args.get("chunk") or "").strip()
+    if not chunk:
+        raise ValueError("chunk required (e.g. chunk:tsa08-p03)")
+    if not re.fullmatch(r"chunk:[A-Za-z0-9_.:-]+", chunk):
+        raise ValueError("invalid chunk ref (want chunk:<locator>)")
+    out = _run_tool("bridge_resolve.py", [chunk, "--db"])
+    try:
+        return json.loads(out)
+    except ValueError:
+        raise ValueError("bridge returned no JSON")
+
+
+def formal_evidence(args: dict) -> dict:
+    """EVIDENCE rows: one theorem, or a summary of the registry."""
+    ev = json.loads((HERE / "EVIDENCE.json").read_text(encoding="utf-8"))
+    entries = ev.get("entries") or {}
+    thm = (args.get("theorem") or "").strip()
+    if thm:
+        if thm not in entries:
+            near = [k for k in entries if thm.split("::")[-1].strip() in k]
+            return {"theorem": thm, "found": False,
+                    "near_matches": near[:8],
+                    "counts": {"entries": len(entries)},
+                    "note": "registry refs are not source-to-theorem "
+                            "entailments"}
+        e = entries[thm]
+        return {"theorem": thm, "found": True, "kind": e.get("kind"),
+                "chunks": e.get("chunks", []),
+                "r_sources": e.get("r_sources", []),
+                "lived": e.get("lived", []),
+                "note": "registry refs are not source-to-theorem entailments"}
+    kinds: dict[str, int] = {}
+    for e in entries.values():
+        kinds[e.get("kind", "?")] = kinds.get(e.get("kind", "?"), 0) + 1
+    return {"counts": {"entries": len(entries), "exemptions":
+                       len(ev.get("exemptions") or []), "by_kind": kinds},
+            "sample": sorted(entries)[:10]}
+
+
+def formal_table(args: dict) -> dict:
+    """TABLE readings: every theorem beside its plain-English scope note."""
+    p = HERE / "TABLE.md"
+    if not p.exists():
+        raise ValueError("TABLE.md missing")
+    text = p.read_text(encoding="utf-8")
+    thm = (args.get("theorem") or "").strip()
+    rows = [ln for ln in text.splitlines() if ln.startswith("| control/")
+            or ln.startswith("| recognition/") or ln.startswith("| frontier/")
+            or ln.startswith("| buddhist/")]
+    if thm:
+        hit = [r for r in rows if thm in r]
+        if not hit:
+            return {"theorem": thm, "found": False, "rows_total": len(rows)}
+        return {"theorem": thm, "found": True, "rows": hit[:4],
+                "scope": "MODEL_CHECKED inside the stated finite model only"}
+    return {"rows_total": len(rows), "sample": rows[:8],
+            "scope": "MODEL_CHECKED inside the stated finite model only; "
+                     "doctrine claims are out of scope by contract"}
+
+
+def formal_gaps(args: dict) -> dict:
+    """Treeka formal column: which chunks have theorems, which are gaps."""
+    ev = json.loads((HERE / "EVIDENCE.json").read_text(encoding="utf-8"))
+    covered = set()
+    for e in (ev.get("entries") or {}).values():
+        for c in e.get("chunks") or []:
+            if c.get("locator"):
+                covered.add(c["locator"])
+    work = (args.get("work") or "").strip()
+    try:
+        snap = json.loads((HERE / "bridge" / "passages.snapshot.json")
+                          .read_text(encoding="utf-8"))
+        all_chunks = set()
+        for w in (snap.get("works") or {}).values():
+            for p in w.get("passages") or []:
+                if p.get("locator"):
+                    all_chunks.add(p["locator"])
+    except (OSError, ValueError):
+        all_chunks = set()
+    gaps = sorted(all_chunks - covered)
+    if work:
+        gaps = [g for g in gaps if g.startswith(work[:4]) or work in g]
+        covered = {c for c in covered if c.startswith(work[:4]) or work in c}
+    return {"covered": len(covered), "total": len(all_chunks),
+            "coverage": (f"{len(covered)}/{len(all_chunks)}" if all_chunks
+                         else "unknown"),
+            "gap_count": len(gaps), "gaps": gaps[:60],
+            "note": "gap list IS the rung queue (gap-list order wins)"}
+
+
+def formal_runs(args: dict) -> dict:
+    """Runs ledger: harness verdicts + receipt count (no reruns here)."""
+    p = HERE / "runs" / "runs.jsonl"
+    if not p.exists():
+        return {"runs": 0, "note": "no runs ledger"}
+    rows = [json.loads(x) for x in p.read_text(encoding="utf-8").splitlines()
+            if x.strip()]
+    if not rows:
+        return {"runs": 0}
+    last = rows[-1]
+    return {"runs": len(rows), "latest": {
+        "at": last.get("at"), "rev": last.get("rev"),
+        "lean": (last.get("lean") or "")[:60],
+        "harnesses": {k: v.get("exit") for k, v in
+                      (last.get("harnesses") or {}).items()}},
+        "note": "verdicts are recorded runs; this tool never reruns Lean"}
+
+
+def formal_axioms(_args: dict) -> dict:
+    """Axiom audit state (static half; kernel verdict needs pinned Lean)."""
+    p = HERE / "tools" / "axiom_audit.py"
+    if not p.exists():
+        raise ValueError("axiom_audit.py missing")
+    out = subprocess.run([sys.executable, str(p), "--check"],
+                         capture_output=True, text=True, timeout=180)
+    tail = [ln for ln in (out.stdout or "").splitlines() if ln.strip()][-4:]
+    return {"exit": out.returncode, "report": tail,
+            "note": "static CLEAN is not a proof; kernel verdict needs the "
+                    "pinned Lean toolchain"}
+
+
 def main() -> int:
     cfg = load_config()
     children: dict[str, Child] = {}
@@ -239,6 +370,29 @@ def main() -> int:
                          "properties": {"work": {"type": "string"},
                                         "target": {"type": "string"}},
                          "required": ["work", "target"]}},
+        {"name": "formal__bridge",
+         "description": "Resolve chunk:<locator> to work/edition/etext rows; witness stays UNPINNED.",
+         "inputSchema": {"type": "object",
+                         "properties": {"chunk": {"type": "string"}},
+                         "required": ["chunk"]}},
+        {"name": "formal__evidence",
+         "description": "EVIDENCE rows for one theorem, or registry counts. Refs are not entailments.",
+         "inputSchema": {"type": "object",
+                         "properties": {"theorem": {"type": "string"}}}},
+        {"name": "formal__table",
+         "description": "TABLE readings: theorem beside its plain-English scope note (MODEL_CHECKED only).",
+         "inputSchema": {"type": "object",
+                         "properties": {"theorem": {"type": "string"}}}},
+        {"name": "formal__gaps",
+         "description": "Treeka formal column: covered vs total chunks + the gap list (the rung queue).",
+         "inputSchema": {"type": "object",
+                         "properties": {"work": {"type": "string"}}}},
+        {"name": "formal__runs",
+         "description": "Runs ledger: harness verdicts + receipt count (never reruns Lean).",
+         "inputSchema": {"type": "object", "properties": {}}},
+        {"name": "formal__axioms",
+         "description": "Axiom audit state (static half; kernel verdict needs pinned Lean).",
+         "inputSchema": {"type": "object", "properties": {}}},
     ]
         for name, child in children.items():
             if not child.alive:
@@ -316,6 +470,25 @@ def main() -> int:
                     except (ValueError, TypeError) as e:
                         out({"jsonrpc": "2.0", "id": mid, "isError": True,
                              "error": {"code": -32602, "message": str(e)}})
+                elif name in ("formal__bridge", "formal__evidence",
+                              "formal__table", "formal__gaps",
+                              "formal__runs", "formal__axioms"):
+                    fn = {"formal__bridge": formal_bridge,
+                          "formal__evidence": formal_evidence,
+                          "formal__table": formal_table,
+                          "formal__gaps": formal_gaps,
+                          "formal__runs": formal_runs,
+                          "formal__axioms": formal_axioms}[name]
+                    try:
+                        res = fn(args)
+                        out({"jsonrpc": "2.0", "id": mid,
+                             "result": {"content": [{"type": "text",
+                                                     "text": json.dumps(res)}]}})
+                    except (ValueError, TypeError, OSError,
+                            subprocess.TimeoutExpired, json.JSONDecodeError) as e:
+                        out({"jsonrpc": "2.0", "id": mid, "isError": True,
+                             "error": {"code": -32602,
+                                       "message": str(e)[:300]}})
                 elif "__" in name:
                     child_name, tool = name.split("__", 1)
                     child = children.get(child_name)
