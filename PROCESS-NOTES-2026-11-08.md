@@ -322,3 +322,26 @@ checkouts outside our targets (`/root/projects` 6.3G, `gcomedy`, `damn`,
 
 Tier 1 + safe Tier 3 ≈ 3.1G freed → ~94%. Plus playwright ≈ 4G → ~92%.
 Tier 2 surgery ≈ +1.6G but is a project, not a deletion.
+
+---
+
+## 12. Q01 execution — Tier 1 reclaim (2026-11-08, owner-approved)
+
+Safety checks before removal: no live process rooted in the three targets
+(`vite preview` IS running from `freaktown/node_modules` → freaktown
+SKIPPED, owner to stop that server first); all three targets gitignored;
+`manuscriptAI` and `content` trees clean. Engines venv frozen first:
+20 pins saved to `/tmp/opencode/engines-venv-freeze-2026-11-08.txt`
+(numpy 2.4.6, opencv-headless 5.0.0.93, onnxruntime 1.31.0, …).
+
+Removed:
+
+- `/root/manuscriptAI/node_modules` (1023M) — rebuild: `npm ci`
+- `/root/content/moneyprinterturbo/.venv` (754M) — rebuild:
+  `pip install -r requirements.txt`
+- `/root/engines/.venv` (631M) — rebuild: `pip install -r <freeze file>`
+
+Skipped: `freaktown/node_modules` (167M) — live `vite preview` server.
+
+Result: 1.3G free (99%) → **3.7G free (96%)**, +2.4G. Source files,
+manifests and lockfiles verified intact after removal.
