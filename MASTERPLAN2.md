@@ -439,3 +439,8 @@ tools/mcp_catalog.py --check` (SHARP).
   4 scholar-channel (R8, R9, R16 + R12 owner's), R15 grammar proposed
   (`theorem:<repo>:<path>::<name>`, non-binding). Nothing claimed closed that
   isn't machine-checked.
+
+- **Q08 receipt.** `runs/runs.jsonl` 2026-11-08T06:29:49Z rev `ab5dfcc`:
+  control exit 0 (incl. `BrokenPhrThreeCloses: closes_four is false`,
+  `BrokenPhrTwoMeans: means_once is false), recognition exit 0, tc1 exit 0.
+  Coverage now 155 theorems / 153 entries, 14/154 chunks (9%).

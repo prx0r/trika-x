@@ -1,10 +1,10 @@
 {
- "measured_at": "2026-11-08T06:26:50Z",
+ "measured_at": "2026-11-08T06:33:37Z",
  "git": {
   "trika-x": {
-   "rev": "ccaa8a4",
+   "rev": "ab5dfcc",
    "branch": "box/peer-review-batch",
-   "dirty": 13
+   "dirty": 3
   },
   "openpatala": {
    "rev": "7af046d",

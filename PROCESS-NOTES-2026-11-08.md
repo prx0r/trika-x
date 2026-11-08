@@ -265,3 +265,12 @@ Largest safe reclamation candidates (owner decision, in order): `/tmp/ochema2`
 `~/.cache/ms-playwright` (924M; breaks svread browser tests if removed — only
 with explicit owner go) → shared-checkout review (`/root/projects` 6.3G,
 `gcomedy` 2.1G, `damn` 2.0G — outside our targets, never touched).
+
+---
+
+## 10. Q08 receipt (2026-11-08)
+
+`runs/runs.jsonl` @ 2026-11-08T06:29:49Z, rev `ab5dfcc`: control exit 0,
+recognition exit 0, tc1 exit 0. Control tail includes both new twin refusals.
+Full harness run detached via `setsid nohup … & disown` (plain `&` dies with
+the tool call — see §9). Coverage: 155 theorems / 153 entries, 14/154 chunks.
