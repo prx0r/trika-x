@@ -119,5 +119,9 @@ is built. No PR stacked: this branch waits until PR #2 is reviewed.
 | 2026-11-06T14:07:41+00:00 | `3512b5a+` | 4.34.1 | OK | OK | OK |
 | 2026-11-06T14:35:18+00:00 | `7777074` | 4.34.1 | OK | OK | OK |
 | 2026-11-06T15:41:06+00:00 | `a935290+` | 4.34.1 | OK | OK | OK |
+| 2026-11-08T06:29:49+00:00 | `ab5dfcc` | 4.34.1 | OK | OK | OK |
+| 2026-11-08T08:46:13+00:00 | `247d897` | 4.34.1 | OK | OK | OK |
+| 2026-11-08T10:21:54+00:00 | `877ca8b+` | 4.34.1 | OK | OK | OK |
+| 2026-11-08T12:37:22+00:00 | `f177d50+` | 4.34.1 | OK | OK | OK |
 
 Exit 0 = all harnesses green at that rev. Generated from runs/runs.jsonl; edit that file, never this table.
