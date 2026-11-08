@@ -41,7 +41,8 @@ DERIVED essay exemplar yet (Q12 gate) · no second-encoder twin review
 **Your review contract** (as the lead agent):
 1. Re-run §3 gates yourself. A number that doesn't reproduce is the highest
    severity finding in this project.
-2. Read `docs/log/LEAD-REVIEW-2026-11-08.md` (last independent verdict) and
+2. Read `docs/log/LEAD-REVIEW-2026-11-08-FULL.md` (latest full review, with the
+   five findings it raised and fixed) and `docs/log/LEAD-REVIEW-2026-11-08.md` (prior verdict) and
    `docs/log/REVIEW-REQUEST-2026-11-08.md` (what was asked), then rule on
    what changed since.
 3. Pick one rung to re-derive blind (gap-list head: vbt-p03) — same-family
