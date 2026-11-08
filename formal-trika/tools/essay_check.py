@@ -4,8 +4,9 @@
 Validates a compiled essay triple (.md + .essay.json + .receipt.json):
 schema keys, frozen-claim coverage (every tiered bullet links a claim AND
 every claim is cited by a bullet), exact marker binding ([CLM-id] must name
-a real claim), tier law (T claims need edition + exact span + digest),
-chunk existence in the ledger, receipt-vs-claim+revision agreement,
+a real claim), tier law (T claims bind an exact span to the current ledger
+passage, its digest and edition label), chunk existence in the ledger,
+receipt-vs-claim agreement,
 no pre-review review claims. Exit 0 = READY_FOR_HUMAN_REVIEW — a human
 gate, not approval and not publication; else named failures.
 
@@ -47,16 +48,18 @@ def check_slug(swarm: Path, slug: str) -> list:
             fails.append(f"essay.json missing key: {k}")
     fids = {c.get("id") for c in ej.get("claims", [])}
     by_id = {c.get("id"): c for c in ej.get("claims", [])}
+    if len(fids) != len(ej.get("claims", [])):
+        fails.append("duplicate essay claim ids")
     for c in ej.get("claims", []):
         if c.get("tier") not in TIERS:
             fails.append(f"claim {c.get('id')} bad tier: {c.get('tier')}")
         if not c.get("text", "").strip():
             fails.append(f"claim {c.get('id')} empty text")
         if c.get("tier") == "T":
-            # PR #7: T-tier binds to edition + exact span + digest, or fails.
+            # A self-hash alone does not establish that this text is a source.
             span = c.get("span", "")
             digest = c.get("span_sha256", "")
-            if not span or not digest:
+            if not isinstance(span, str) or not span or not isinstance(digest, str) or not digest:
                 fails.append(f"claim {c.get('id')} T-tier without "
                              "span+span_sha256")
             elif hashlib.sha256(span.encode()).hexdigest() != digest:
@@ -64,6 +67,11 @@ def check_slug(swarm: Path, slug: str) -> list:
             if not (ej.get("openpatala", {}) or {}).get("edition_label"):
                 fails.append(f"claim {c.get('id')} T-tier without "
                              "edition label")
+            if not c.get("source_sha256") or not c.get("source_edition"):
+                fails.append(f"claim {c.get('id')} T-tier without "
+                             "source_sha256+source_edition")
+            if c.get("source_binding_version") != 2:
+                fails.append(f"claim {c.get('id')} T-tier requires source_binding_version 2")
     markers = set(re.findall(r"\[CLM-[A-Za-z0-9_-]+\]", text))
     for m in sorted(markers):
         mid = m.strip("[]")
@@ -110,6 +118,8 @@ def check_slug(swarm: Path, slug: str) -> list:
     # a matching slug alone proves nothing.
     rclaims = {c.get("id"): c.get("text") for c in rc.get("frozen_claims", [])}
     eclaims = {c.get("id"): c.get("text") for c in ej.get("claims", [])}
+    if len(rclaims) != len(rc.get("frozen_claims", [])):
+        fails.append("duplicate receipt claim ids")
     if set(rclaims) != set(eclaims):
         fails.append("receipt frozen-claim ids differ from essay claims: "
                      f"only-receipt={sorted(set(rclaims) - set(eclaims))[:3]} "
@@ -119,6 +129,14 @@ def check_slug(swarm: Path, slug: str) -> list:
             if rtext != eclaims[cid]:
                 fails.append(f"receipt claim text changed: {cid}")
                 break
+    # T-tier evidence is part of the frozen claim, not mutable metadata.
+    receipt_by_id = {c.get("id"): c for c in rc.get("frozen_claims", [])}
+    for c in ej.get("claims", []):
+        if c.get("tier") == "T" or receipt_by_id.get(c.get("id"), {}).get("tier") == "T":
+            receipt = receipt_by_id.get(c.get("id"), {})
+            for field in ("tier", "span", "span_sha256", "source_sha256", "source_edition", "source_binding_version"):
+                if field not in c or c.get(field) != receipt.get(field):
+                    fails.append(f"receipt claim {c.get('id')} {field} differs")
     def _tname(t):
         return t.get("name") if isinstance(t, dict) else t
     rthms = sorted(_tname(t) for t in rc.get("theorems", []))
@@ -127,16 +145,35 @@ def check_slug(swarm: Path, slug: str) -> list:
         fails.append("receipt theorems differ from essay theorems")
     # Chunk must exist in the ledger (read-only; kills nonexistent chunks).
     work, _, target = (ej.get("chunk", "") or "").partition(":")
-    if not work or not target:
+    if not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]*", work) or not re.fullmatch(r"[A-Za-z0-9][A-Za-z0-9_-]*", target):
         fails.append("essay chunk unparsable")
     else:
         led = TW / work / "passages.jsonl"
         try:
-            locs = {json.loads(l).get("locator") for l in
-                    led.read_text(encoding="utf-8").splitlines() if l.strip()}
-            if target not in locs:
+            rows = [json.loads(l) for l in led.read_text(encoding="utf-8").splitlines() if l.strip()]
+            matches = [row for row in rows if isinstance(row, dict) and row.get("locator") == target]
+            if not matches:
                 fails.append(f"chunk {target} absent from {work} ledger")
-        except OSError:
+            elif len(matches) != 1:
+                fails.append(f"chunk {target} duplicated in {work} ledger")
+            else:
+                row = matches[0]
+                source = row.get("sanskrit")
+                edition = row.get("source_edition")
+                for c in ej.get("claims", []):
+                    if c.get("tier") != "T":
+                        continue
+                    cid = c.get("id")
+                    if not isinstance(source, str) or not source:
+                        fails.append(f"claim {cid} source passage unavailable")
+                        continue
+                    if not isinstance(c.get("span"), str) or not c.get("span") or c["span"] not in source:
+                        fails.append(f"claim {cid} span absent from source passage")
+                    if c.get("source_sha256") != hashlib.sha256(source.encode("utf-8")).hexdigest():
+                        fails.append(f"claim {cid} source passage digest mismatch")
+                    if not isinstance(edition, str) or not edition or c.get("source_edition") != edition:
+                        fails.append(f"claim {cid} source edition mismatch")
+        except (OSError, UnicodeError, ValueError, TypeError):
             fails.append(f"ledger unreadable for work {work}")
     if ej.get("status") != "MACHINE-COMPILED":
         fails.append(f"bad status: {ej.get('status')}")
