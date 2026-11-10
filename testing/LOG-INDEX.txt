@@ -3,6 +3,8 @@ FINAL-node3.log
 FINAL-node4.log
 FINAL-node5.log
 FINAL-node6.log
+FINAL-node7.log
+FINAL-node8.log
 FINAL-node.log
 LEAN-proof.log
 MCP-live-proof.log
