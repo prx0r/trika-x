@@ -1,0 +1,25 @@
+=== T09 chunk-verse OPEN catalog ===
+works: 87; CLOSED: 23; OPEN: 64
+  OPEN ajadapramatrsiddhi: span break inside ajad-p01
+  OPEN anubhavanivedana: verse ids unresolvable: anu-p01 '1'
+  OPEN anuttarastika: verse ids unresolvable: anu-p01 '1'
+  OPEN bhairavastava: verse ids unresolvable: bh-p01 '1'
+  OPEN bodhavilasa: verse ids unresolvable: bodh-p02 '11-20'
+  OPEN ghatakarpara: span break inside ghat-p01
+  OPEN ipvv: ragged verses range: chunkA-svatyandya='M00020:200-600'
+  OPEN isvarasiddhi: span break inside isva-p01
+  OPEN pancashloki: verse ids unresolvable: pan-p01 '1'
+  OPEN paramarthacarca: verse ids unresolvable: par-p01 '1'
+  OPEN parapravesika: ragged verses range: par-p01='mangala'
+  OPEN paratrimshika: no volume manifests
+  OPEN paryantapancasika: span break inside pary-p07
+  OPEN phrdaya: span break inside phr-p01
+  OPEN ptvmadhyama: no volume manifests
+  OPEN saktavijnana: no volume manifests
+  OPEN sambandhasiddhi: span break inside samb-p01
+  OPEN sivastotravali: ragged verses range: sivst-p01='stotra 1-4'
+  OPEN sivasutra: no volume manifests
+  OPEN spanda: no volume manifests
+usage: chunk_verse.py [-h] [--tw TW] [--work WORK]
+chunk_verse.py: error: unrecognized arguments: --check
+WANT: OPEN list named, never silently CLOSED

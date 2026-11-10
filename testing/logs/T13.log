@@ -1,0 +1,4 @@
+=== T13 llms honesty ===
+24:- Trace index (909 chunks; 236 COMPLETE / 673 PARTIAL; per-chunk source->layers->proofs->theorems->essays, hash-pinned): https://svread.pages.dev/data/traces/index.json
+---sitemap count vs traces---
+15

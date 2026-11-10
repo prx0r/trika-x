@@ -1,0 +1,5 @@
+=== T02 openpatala identity ===
+['register_entity', 'register_external_id', 'register_fingerprint', 'resolve']
+     0
+
+WANT: unknown→UNRESOLVED, witnesses 0

@@ -1,0 +1,17 @@
+=== T11 tamper: flip 1 byte in copied pack, verify must catch ===
+manifest.json
+proof-tsa-a08.json
+source.txt
+tsa-a08.argmap.json
+tsa-a08.c1.json
+tsa-a08.l0.json
+tsa-a08.l2.json
+tsa-a08.l3.json
+tsa-a08.l4.json
+tsa-a08.t1.json
+artifacts: 9
+source.txt 7f9e4b3307f2f52f
+=== T11 real tamper: hash must change ===
+orig sha: 7f9e4b3307f2f52f len: 3146
+tampered sha: 2a0bb13021536bed match: False
+WANT: hashes differ → verify would fail closed. SAW: hashes differ. HOLD.

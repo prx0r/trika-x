@@ -1,0 +1,32 @@
+=== T14 scholar audit forgery ===
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'scholar_server'
+----------------------------------------------------------------------
+Ran 40 tests in 4.215s
+
+OK
+=== T14 scholar tool count (correct path) ===
+Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'scholar_server'
+ℹ pass 0
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 13.070182
+=== T14 scholar (correct dir) ===
+tools: 33
+----------------------------------------------------------------------
+Ran 40 tests in 4.012s
+
+OK
+ℹ tests 0
+ℹ suites 0
+ℹ pass 0
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 9.632016

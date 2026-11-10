@@ -1,0 +1,65 @@
+✔ emit_biblio --check is green and bundle is honest (720.422535ms)
+✔ biblio view wired without a header tab (1.46717ms)
+✔ emit_discovery --check is green and outputs are well-formed (86.900009ms)
+✔ no private material in crawler-facing files (5345.770012ms)
+﹣ Pushing Lab: real browser, local Scholar Worker, private branch and essay (1.203164ms) # SKIP
+✔ archive catalogue identifies safe pinned files and does not turn prior enquiries into source proof (1.759701ms)
+✔ conversation turns retain stated speaker and selected text (7.762479ms)
+✔ branches preserve their ancestry and reject forged or cyclic parents (0.987168ms)
+✔ source reference stays intact and essay notes mark agent work (0.62777ms)
+✔ Qwen context contains only the selected branch and has an honest size limit (0.655123ms)
+✔ private essay references retain revision but do not leak account or document IDs into model or essay text (0.529056ms)
+✔ local API override only accepts loopback and cannot redirect production traffic (0.808492ms)
+✔ essay request retains the selected enquiry, objection and boundary without other branches (0.500923ms)
+✔ crux brief follows one branch, retains source and authorship, and leaves gaps open (0.748648ms)
+✔ examiner challenges the selected branch without including private siblings (0.949496ms)
+✔ private proposal ownership survives an enquiry export but is not sent to the model or brief (0.91492ms)
+✔ comparison keeps two paths and their provenance, without including other branches or account IDs (0.911514ms)
+✔ reader fingerprints the exact response bytes, including formatting (60.101858ms)
+✔ Ghaṭakarpara uses a hash-pinned complete source while withholding the partial translation (27.863284ms)
+✔ blocked English is removed from every exported row and cannot reach audio (5.13115ms)
+✔ offline word glosses cannot expose a blocked or unknown passage (2.763688ms)
+✔ Sanskrit rendering preserves source words and punctuation when timings differ (3.554104ms)
+✔ source fallback keeps all paragraphs and rejects a 200 HTML fallback (8.913885ms)
+✔ release check detects changed assets and refuses an invalid Scholar projection (13531.975676ms)
+﹣ browser Sanskrit view lists lessons and switches depth tabs (1.144994ms) # SKIP
+﹣ browser bibliography view filters works and shows lost with basis (0.188926ms) # SKIP
+✔ emit outputs exist and validate (verbatim import) (7.110613ms)
+✔ sanskrit + index views wired in app and header (0.82449ms)
+﹣ browser Scholar workflow saves decisions, sources, citations and review selections (1.442874ms) # SKIP
+﹣ browser → real local Worker → saved citations and exact review selection (0.235653ms) # SKIP
+✔ Scholar keeps a local fork chain and submits the same data (77.845651ms)
+✔ Scholar workspace saves privately and labels a copied agent draft (47.752723ms)
+✔ voice converts samples to little-endian 16 kHz PCM (4.365109ms)
+✔ late voice transcription is saved to its original turn (1.45229ms)
+✔ conflicting offline edits remain recoverable without overwriting the account (6.044719ms)
+✔ private revisions can be compared and restored as a new version (3.917048ms)
+✔ essay revision sends selected review and style edits, then blocks a stale agent draft (5.313113ms)
+✔ reviewer sends a structured report and explicitly opts into AI use (7.827151ms)
+✔ a stale workspace cannot copy an agent draft after the account changes (2.19584ms)
+✔ private decisions attach to a saved revision and require selection for Qwen (4.568222ms)
+✔ review comments use exact selected snapshot offsets (4.113798ms)
+✔ essay draft uses only selected notebook references after consent (3.785971ms)
+✔ selected notebook references are explicitly attached to signed essay content (3.898081ms)
+✔ scholars can record a private typed relationship between saved sources (4.454649ms)
+✔ account requests bypass the shared offline cache (2.968343ms)
+✔ offline fallback returns the HTML shell only for navigation (34.119482ms)
+✔ external agent can verify a trace with fetch + sha256 alone (151.944975ms)
+✔ verify packs cover every published trace and nothing stale (486.203731ms)
+✔ biblio: no dead reader links; has_reader agrees with disk (15.877993ms)
+✔ traces published, all verify, index honest (90.618944ms)
+✔ llms.txt claims are measured, not inflated (2.708904ms)
+✔ emitters are deterministic (--check green) (95918.303111ms)
+✔ formal registry is published and honest (1.639272ms)
+✔ verify view + VERIFY.md are wired (1.142179ms)
+✔ chat answers carry a verify footer (R4) (1.132499ms)
+✔ verify packs disclose gate status, not just a verdict (PR #7) (40.661135ms)
+ℹ tests 56
+ℹ suites 0
+ℹ pass 51
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 5
+ℹ todo 0
+ℹ duration_ms 98600.252785
+DONE

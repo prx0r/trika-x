@@ -1,0 +1,8 @@
+=== T18 formalized (correct path) ===
+tools/emit_biblio.py:124:                # formalized = chunks with a direct registry reference.
+tools/emit_biblio.py:160:            "formalized": formal.get(wid),
+tools/emit_biblio.py:161:            "formalized_inventory": formal_inventory.get(wid),
+tools/emit_formal.py:9:    bound; MODEL_CHECKED is reserved for that binding (none exist yet).
+tools/emit_formal.py:91:            "chunks_unformalized": len(all_chunks - covered) if all_chunks else None,
+tools/emit_formal.py:97:            "text into premises. MODEL_CHECKED is reserved for entries with "
+tools/emit_formal.py:110:            "unformalized_chunks": sorted(all_chunks - covered)[:200] if all_chunks else [],

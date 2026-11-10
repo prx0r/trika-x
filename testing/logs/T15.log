@@ -1,0 +1,52 @@
+=== T15 essay forgery-closed ===
+PASS expansion-nomeans-anupaya-2026-11-06-154908158977
+PASS expansion-prarabdha-karma-2026-11-06-154902314669
+PASS expansion-worlds-bodies-2026-11-06-154928761997
+6/6 essays READY_FOR_HUMAN_REVIEW (human gate — not approval, not publication)
+---convénient: list review packets---
+expansion-hook-five-knots-2026-11-06-154928615693.md
+expansion-mala-full-2026-11-06-154902126688.md
+expansion-node1-tattva-2026-11-06-154928910444.md
+expansion-nomeans-anupaya-2026-11-06-154908158977.md
+expansion-prarabdha-karma-2026-11-06-154902314669.md
+expansion-worlds-bodies-2026-11-06-154928761997.md
+INDEX.md
+robo-param-p02-2026-11-08-071651.receipt.md
+---PUSHBACK pilot---
+pushback-hook-five-knots-2026-11-06.md
+robo-param-p02-2026-11-08-071651.pushback.md
+formal-trika/tools/pushback.py
+formal-trika/data/pushback-crux01-draft.md
+formal-trika/data/pushback-crux01-beam-2026-11-06.md
+formal-trika/data/pushback-crux01-2026-11-06.md
+formal-trika/swarm/robo-param-p02-2026-11-08-071651.pushback.md
+# PUSHBACK report (machine proposes, human disposes)
+- draft: expansion-hook-five-knots-2026-11-06-150617676090.md sha256:03aab1a21ad87823
+- model: cf:@cf/deepseek-ai/deepseek-v4.1-flash
+- claims: 9
+- This report NEVER edits the draft. Unresolved stays unresolved.
+
+## para 0 — UNCITED (no objection; original argument)
+
+
+## para 1 — UNCITED (no objection; original argument)
+
+
+## para 2 — UNCITED (no objection; original argument)
+
+
+## para 3 — UNCITED (no objection; original argument)
+
+
+## para 4 — UNCITED (no objection; original argument)
+
+
+## OBJECTION 1 (para 5, markers ['CLM-001', 'CLM-002', 'CLM-003', 'CLM-004', 'tantrasara-a08:tsa08-p03', 'tsa-a08-v55', 'tsa-a08-v56'])
+
+## OBJECTION
+The claim fails at the locator level before it reaches doctrinal plausibility. CLM-001, CLM-002, CLM-003, CLM-004, tsa-a08-v55, and tsa-a08-v56 all have “no formal entry” in the banked evidence. The under-test claims are marked (R); R never promotes itself, and here there is no T entry to promote them. The Sanskrit renderings in CLM-003/004 are therefore not banked evidence at all. The strongest counter-reading is: the T material supports a mixed reckoning of five kañcukas plus Māyā as a distinct covering/category, and a Māyā-person ladder; it does not support a clean formal equation “Māyā-six = six sheaths named,” nor the v56 gloss “awareness set aside; kalā falling above stands sheath-like.” `TattvaInventory.lean :: maya_six_count` is MODEL/CONTEXT_ONLY: it says 8.55 “describes six coverings starting with māyā” and “checks the candidate list,” not that the candidate is proved. Treating that as confirmation would be exactly the R-to-T self-promotion the destroy pass forbids.
+
+## What-banked-sources-say
+- `tantrasara-a08:tsa08-p03`: T entries are pinned, but they do not contain CLM-001–004. `Pramatr.lean :: seven` supports “Māyā-person ladder; vijñānākala above Māyā; mala-person→Śiva-equality”—not “six sheaths named.”
+- `Kancuka.lean :: count_5` is the closest support: “kañcuka-six reckoning; five + māyā (mixed reckonings recorded).” At most this supports a six-item reckoning under mixed accounting; it does not license “Māyā-six = six sheaths named” or the verse translations.
+- `Kancuka.lean :: pairings_distinct` gives kalā→partial agency, rāga functions, kāla/niyati delimiting, but explicitly notes “pairing gloss itself R.” So the structural side is banked; the gloss is not.

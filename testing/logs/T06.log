@@ -1,0 +1,7 @@
+=== T06 twin receipts ===
+tail: cannot open 'formal-trika/runs/runs.jsonl' for reading: No such file or directory
+
+=== T06 twin receipts (correct path) ===
+INDEX.md
+runs.jsonl
+{"at": "2026-11-08T12:37:22+00:00", "rev": "f177d50+dirty", "lean": "Lean (version 4.34.1, x86_64-unknown-linux-gnu, commit 5045d0056413266e57c625dcd7c365b10e377c52, Release)", "harnesses": {"control": {"exit": 0, "tail": ["PASS BrokenPhrFourActs.lean: five_acts is false in mutant", "PASS BrokenPhrTwoEpithets.lean: epithet_three is false in mutant", "PASS BrokenPhrThreeCloses.lean: closes_four is false in mutant", "PASS BrokenPhrTwoMeans.lean: means_once is false in mutant", "PASS BrokenVbtSeven

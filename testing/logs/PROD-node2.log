@@ -1,0 +1,86 @@
+✔ emit_biblio --check is green and bundle is honest (762.937343ms)
+✔ biblio view wired without a header tab (1.112662ms)
+✔ emit_discovery --check is green and outputs are well-formed (93.694353ms)
+✔ no private material in crawler-facing files (4417.379953ms)
+﹣ Pushing Lab: real browser, local Scholar Worker, private branch and essay (5.177113ms) # SKIP
+✔ archive catalogue identifies safe pinned files and does not turn prior enquiries into source proof (1.817188ms)
+✔ conversation turns retain stated speaker and selected text (7.929978ms)
+✔ branches preserve their ancestry and reject forged or cyclic parents (1.326564ms)
+✔ source reference stays intact and essay notes mark agent work (0.874815ms)
+✔ Qwen context contains only the selected branch and has an honest size limit (0.616658ms)
+✔ private essay references retain revision but do not leak account or document IDs into model or essay text (0.498568ms)
+✔ local API override only accepts loopback and cannot redirect production traffic (0.807028ms)
+✔ essay request retains the selected enquiry, objection and boundary without other branches (0.534296ms)
+✔ crux brief follows one branch, retains source and authorship, and leaves gaps open (0.911072ms)
+✔ examiner challenges the selected branch without including private siblings (0.879654ms)
+✔ private proposal ownership survives an enquiry export but is not sent to the model or brief (1.319691ms)
+✔ comparison keeps two paths and their provenance, without including other branches or account IDs (1.083176ms)
+✔ reader fingerprints the exact response bytes, including formatting (54.440422ms)
+✔ Ghaṭakarpara uses a hash-pinned complete source while withholding the partial translation (45.323924ms)
+✔ blocked English is removed from every exported row and cannot reach audio (5.554914ms)
+✔ offline word glosses cannot expose a blocked or unknown passage (2.691291ms)
+✔ Sanskrit rendering preserves source words and punctuation when timings differ (5.720415ms)
+✔ source fallback keeps all paragraphs and rejects a 200 HTML fallback (10.372901ms)
+✖ release check detects changed assets and refuses an invalid Scholar projection (2862.12846ms)
+﹣ browser Sanskrit view lists lessons and switches depth tabs (1.046286ms) # SKIP
+﹣ browser bibliography view filters works and shows lost with basis (0.145292ms) # SKIP
+✔ emit outputs exist and validate (verbatim import) (8.082046ms)
+✔ sanskrit + index views wired in app and header (1.368773ms)
+﹣ browser Scholar workflow saves decisions, sources, citations and review selections (1.317728ms) # SKIP
+﹣ browser → real local Worker → saved citations and exact review selection (0.385805ms) # SKIP
+✔ Scholar keeps a local fork chain and submits the same data (41.30074ms)
+✔ Scholar workspace saves privately and labels a copied agent draft (55.740037ms)
+✔ voice converts samples to little-endian 16 kHz PCM (1.588457ms)
+✔ late voice transcription is saved to its original turn (1.251122ms)
+✔ conflicting offline edits remain recoverable without overwriting the account (13.776782ms)
+✔ private revisions can be compared and restored as a new version (5.056516ms)
+✔ essay revision sends selected review and style edits, then blocks a stale agent draft (7.7337ms)
+✔ reviewer sends a structured report and explicitly opts into AI use (6.566164ms)
+✔ a stale workspace cannot copy an agent draft after the account changes (2.721115ms)
+✔ private decisions attach to a saved revision and require selection for Qwen (5.093506ms)
+✔ review comments use exact selected snapshot offsets (4.274315ms)
+✔ essay draft uses only selected notebook references after consent (3.847243ms)
+✔ selected notebook references are explicitly attached to signed essay content (8.798332ms)
+✔ scholars can record a private typed relationship between saved sources (5.386417ms)
+✔ account requests bypass the shared offline cache (2.607112ms)
+✔ offline fallback returns the HTML shell only for navigation (42.867854ms)
+✔ external agent can verify a trace with fetch + sha256 alone (230.504327ms)
+✔ verify packs cover every published trace and nothing stale (422.053115ms)
+✔ biblio: no dead reader links; has_reader agrees with disk (13.193925ms)
+✔ traces published, all verify, index honest (91.21898ms)
+✔ llms.txt claims are measured, not inflated (2.235252ms)
+✔ emitters are deterministic (--check green) (96330.427774ms)
+✔ formal registry is published and honest (1.369605ms)
+✔ verify view + VERIFY.md are wired (0.874935ms)
+✔ chat answers carry a verify footer (R4) (0.715354ms)
+✔ verify packs disclose gate status, not just a verdict (PR #7) (27.940605ms)
+ℹ tests 56
+ℹ suites 0
+ℹ pass 50
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 5
+ℹ todo 0
+ℹ duration_ms 99028.711626
+
+✖ failing tests:
+
+test at tests/release-manifest.test.cjs:9:1
+✖ release check detects changed assets and refuses an invalid Scholar projection (2862.12846ms)
+  AssertionError [ERR_ASSERTION]: FAIL: bundled release manifest is missing or stale; run with --write
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/root/svread/tests/release-manifest.test.cjs:19:31)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }

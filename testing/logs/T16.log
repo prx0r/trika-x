@@ -1,0 +1,2 @@
+=== T16 MVV from origin/master (local lacks files) ===
+gate: PASS blocking: [] warnings: ["METACOMMENTARY ['the (verse|hymn|stotra|stanza|passage|text|song) (has|describes|quotes|opens|closes|does|shows|says|argues)']"] needs: ['human-review']

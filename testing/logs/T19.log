@@ -1,0 +1,4 @@
+=== T19 disk+secrets ===
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        75G   71G  3.5G  96% /
+secrets-scan-done

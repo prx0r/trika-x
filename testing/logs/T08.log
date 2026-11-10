@@ -1,0 +1,4 @@
+=== T08 bridge missing ledger must fail-closed ===
+ERROR: param: missing translation-work ledger /tmp/definitely-not-here/paramarthasara/passages.jsonl
+exit:0
+

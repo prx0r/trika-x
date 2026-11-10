@@ -1,0 +1,302 @@
+=== PROD BATTERY 2026-11-10T03:48:53Z ===
+--- disk ---
+Filesystem      Size  Used Avail Use% Mounted on
+/dev/sda1        75G   71G  3.5G  96% /
+--- git status ---
+== trika-x ==
+?? formal-trika/bridge/chunk-verse-bhairavanukarana-2026-11-10.json
+?? formal-trika/bridge/chunk-verse-bodhapancadasika-2026-11-10.json
+?? formal-trika/bridge/chunk-verse-kramastotra-2026-11-10.json
+?? formal-trika/bridge/chunk-verse-paramarthasara-2026-11-10.json
+?? formal-trika/bridge/chunk-verse-tantrasara-a02-2026-11-10.json
+fdc4e33 docs: de-stale pass 3 — scoreboard tests 94/51, unformalised 893
+== svread ==
+8f19bcc feat(seo): no hardcoded origin anywhere — index meta emitter + verify packs
+== openpatala ==
+29ae809 feat(gate): read-only status + disposable-DB write tests, live writes refused
+== translation-work ==
+?? sivastotravali/scholar/
+703103d6b feat(ingest): layer-accept decision trail at proof time (machine-proposed)
+== ipvv ==
+28e2e2af feat(gates): two-sources-v2 — stable IDs + declared pairwise independence
+--- openpatala check ---
+PASS     api-import             ok
+PASS     mcp-server             ok
+PASS     evidence-bundle        ok
+PASS     db-seeded              works 555
+BLOCKED  adapter-conformance    adapters discover no items in this checkout — upstream data gap recorded in PEER-REVIEW-3; not faked here
+BLOCKED  witnesses              witnesses table is empty corpus-wide; resolver enforces UNPINNED until manuscript records are verified
+
+openpatala check: GREEN (gates pass; known blockers listed)
+write suites: not run (read-only status) — see `check.py --write-tests` (disposable DB, live DB refused by default)
+--- trika-x unittest ---
+GAP: 1 works have no layer-accept marker (presence does not establish signoff).
+files: 1; nodes: 3; unknown-locator: 1 -> /tmp/tmp6evk5kfx/nodes.jsonl
+passages: 3; gaps: unargued=3, cruxless=0, essayless=0, no_formal_reference=3; ambiguous: 1 -> /tmp/tmp_nf550bl/treeka.json
+--- evidence/table/freshness/mcp ---
+theorems: 157, entries: 155, exemptions: 2
+chunk refs resolve: 57, bad: 0 []
+direct registry references: 16/154 passage chunks (10%)
+work-level references (not passage coverage): ['vbt']
+freshness: SHARP (all recorded numbers reproduce)
+mcp_catalog: SHARP (104 tools, 8 families)
+--- bridge/axiom/essay ---
+28 works, 154 passage IDs; ledger bytes match pinned snapshot; witnesses UNPINNED
+axiom_audit: CLEAN (static half; kernel verdict still needs pinned Lean)
+6/6 essays READY_FOR_HUMAN_REVIEW (human gate — not approval, not publication)
+review-status: 157 theorems, 0 Core / 157 Frontier -> review-status.json
+--- unittest result ---
+--- svread emitters ---
+== emit_traces ==
+Ran 94 tests in 21.159s
+OK
+--- federation pretest ---
+
+OK
+contract: PASS
+federation_pretest: GREEN (28 expected tools)
+emit traces --check: GREEN
+== emit_verify ==
+emit verify --check: GREEN
+== emit_discovery ==
+emit discovery --check: GREEN
+== emit_formal ==
+emit_formal --check: GREEN
+--- node tests ---
+--- translation-work check ---
+scholar verify: 3 versions · 1 reviews · signoffs checked — 0 failures
+PASS scholar-valid
+PASS canonical-docs
+
+NOT CANONICAL: 20 failures
+--- ipvv status (read-only) ---
+ls: cannot access 'tools/verify.sh': No such file or directory
+--- TW check full ---
+PASS schemas-import
+PASS stack-sync
+PASS structural-schemas
+PASS data-present
+PASS validate-s01
+PASS roundtrip-s01
+FAIL proof-s01 — gate=UNPARSEABLE
+PASS validate-s02
+PASS roundtrip-s02
+FAIL proof-s02 — gate=UNPARSEABLE
+PASS validate-s03
+PASS roundtrip-s03
+FAIL proof-s03 — gate=UNPARSEABLE
+PASS validate-s04
+PASS roundtrip-s04
+FAIL proof-s04 — gate=UNPARSEABLE
+PASS validate-s05
+PASS roundtrip-s05
+FAIL proof-s05 — gate=UNPARSEABLE
+PASS validate-s06
+PASS roundtrip-s06
+FAIL proof-s06 — gate=UNPARSEABLE
+PASS validate-s07
+PASS roundtrip-s07
+FAIL proof-s07 — gate=UNPARSEABLE
+PASS validate-s08
+PASS roundtrip-s08
+FAIL proof-s08 — gate=UNPARSEABLE
+PASS validate-s09
+PASS roundtrip-s09
+FAIL proof-s09 — gate=UNPARSEABLE
+PASS validate-s10
+PASS roundtrip-s10
+FAIL proof-s10 — gate=UNPARSEABLE
+PASS validate-s11
+PASS roundtrip-s11
+FAIL proof-s11 — gate=UNPARSEABLE
+PASS validate-s12
+PASS roundtrip-s12
+FAIL proof-s12 — gate=UNPARSEABLE
+--- TW proof-s01 detail ---
+usage: proof_record.py [-h] --song SONG [--work WORK] [--disp DISP]
+                       [--shastra] [--gretil GRETIL]
+
+options:
+  -h, --help       show this help message and exit
+  --song SONG      e.g. s01
+  --work WORK
+  --disp DISP      JSON {song: {verse: note}} for sub-0.90 dispositions
+  --shastra        shastra-chunk mode (SHASTRA-MINIMAL.md): workcfg chunk
+                   spans, contract data/*.json layers instead of
+check.py:87:            gate = "UNPARSEABLE"
+argmaps
+batch.jsonl
+c1
+data
+EXPOSITION.md
+L200.md
+L200-s01.md
+L2-s01.md
+L2-s02.md
+L2-s03.md
+L2-s04.md
+L2-s05.md
+L2-s06.md
+L2-s07.md
+L2-s08.md
+L2-s09.md
+L2-s10.md
+L2-s11.md
+L2-s12.md
+L2-s13.md
+L2-s14.md
+L2-s15.md
+L2-s16.md
+L2-s17.md
+L2-s18.md
+L2-s19.md
+L2-s20.md
+L4-s01.DRAFT.json
+L4-s02.DRAFT.json
+L4-s03.DRAFT.json
+L4-s04.DRAFT.json
+L4-s05.DRAFT.json
+L4-s06.DRAFT.json
+L4-s07.DRAFT.json
+L4-s08.DRAFT.json
+L4-s09.DRAFT.json
+L4-s10.DRAFT.json
+L4-s11.DRAFT.json
+L4-s12.DRAFT.json
+L4-s13.DRAFT.json
+L4-s14.DRAFT.json
+L4-s15.DRAFT.json
+L4-s16.DRAFT.json
+L4-s17.DRAFT.json
+L4-s18.DRAFT.json
+L4-s19.DRAFT.json
+L4-s20.DRAFT.json
+lore
+passages.jsonl
+proof
+scholar
+SIVA-CANONICAL-SEAL-P1.md
+source
+STATUS.json
+T1.l0.jsonl
+T1.l0.report.txt
+T1.md
+T1-s01.l0.jsonl
+T1-s01.l0.report.txt
+T1-s01.l0.roundtrip.md
+T1-s01.md
+T1-s02.l0.jsonl
+T1-s02.l0.report.txt
+T1-s02.l0.roundtrip.md
+T1-s02.md
+T1-s03.l0.jsonl
+T1-s03.l0.report.txt
+T1-s03.l0.roundtrip.md
+T1-s03.md
+T1-s04.l0.jsonl
+T1-s04.l0.report.txt
+T1-s04.l0.roundtrip.md
+T1-s04.md
+T1-s05.l0.jsonl
+T1-s05.l0.report.txt
+T1-s05.l0.roundtrip.md
+T1-s05.md
+T1-s06.l0.jsonl
+T1-s06.l0.report.txt
+T1-s06.md
+T1-s07.l0.jsonl
+T1-s07.l0.report.txt
+T1-s07.md
+T1-s08.l0.jsonl
+T1-s08.l0.report.txt
+T1-s08.md
+T1-s09.l0.jsonl
+T1-s09.l0.report.txt
+T1-s09.md
+T1-s10.l0.jsonl
+T1-s10.l0.report.txt
+T1-s10.md
+T1-s11.l0.jsonl
+T1-s11.l0.report.txt
+T1-s11.md
+T1-s12.l0.jsonl
+T1-s12.l0.report.txt
+T1-s12.md
+T1-s13.l0.jsonl
+T1-s13.l0.report.txt
+T1-s13.md
+T1-s14.l0.jsonl
+T1-s14.l0.report.txt
+T1-s14.md
+T1-s15.l0.jsonl
+T1-s15.l0.report.txt
+T1-s15.md
+T1-s16.l0.jsonl
+T1-s16.l0.report.txt
+T1-s16.md
+T1-s17.l0.jsonl
+T1-s17.l0.report.txt
+T1-s17.md
+T1-s18.l0.jsonl
+T1-s18.l0.report.txt
+T1-s18.md
+T1-s19.l0.jsonl
+T1-s19.l0.report.txt
+T1-s19.md
+T1-s20.l0.jsonl
+T1-s20.l0.report.txt
+T1-s20.md
+T1-SKEL-s06.md
+T1-SKEL-s07.md
+T1-SKEL-s08.md
+T1-SKEL-s09.md
+T1-SKEL-s10.md
+T1-SKEL-s11.md
+T1-SKEL-s12.md
+T1-SKEL-s13.md
+T1-SKEL-s14.md
+T1-SKEL-s15.md
+T1-SKEL-s16.md
+T1-SKEL-s17.md
+T1-SKEL-s18.md
+T1-SKEL-s19.md
+T1-SKEL-s20.md
+sivastotravali/T1-s01.l0.roundtrip.md
+sivastotravali/T1-s01.md
+sivastotravali/T1-s02.l0.roundtrip.md
+sivastotravali/T1-s02.md
+sivastotravali/T1-s03.l0.roundtrip.md
+s01.argmap.json
+s01.c1.json
+s01.c1.NOTE.md
+s01.c2.json
+s01.l0.json
+s01.l2.json
+s01.l3.json
+s01.l4.json
+FAIL proof-s01 — gate=UNPARSEABLE
+FAIL proof-s02 — gate=UNPARSEABLE
+FAIL proof-s03 — gate=UNPARSEABLE
+FAIL proof-s04 — gate=UNPARSEABLE
+FAIL proof-s05 — gate=UNPARSEABLE
+FAIL proof-s06 — gate=UNPARSEABLE
+FAIL proof-s07 — gate=UNPARSEABLE
+FAIL proof-s08 — gate=UNPARSEABLE
+FAIL proof-s09 — gate=UNPARSEABLE
+FAIL proof-s10 — gate=UNPARSEABLE
+FAIL proof-s11 — gate=UNPARSEABLE
+FAIL proof-s12 — gate=UNPARSEABLE
+FAIL proof-s13 — gate=UNPARSEABLE
+FAIL proof-s14 — gate=UNPARSEABLE
+FAIL proof-s15 — gate=UNPARSEABLE
+FAIL proof-s16 — gate=UNPARSEABLE
+FAIL proof-s17 — gate=UNPARSEABLE
+FAIL proof-s18 — gate=UNPARSEABLE
+FAIL proof-s19 — gate=UNPARSEABLE
+FAIL proof-s20 — gate=UNPARSEABLE
+--- TW proof root cause ---
+404:    # Gate passed: record the layer-accept decision trail at ingest time.
+410:        print(f"decision trail: +{len(new_rows)} rows "
+413:        print(f"ERROR: decision trail write failed: {e}", file=sys.stderr)
+SAW: trail line printed to stdout after JSON -> check.py json.loads fails -> UNPARSEABLE. Lane-owned fix: print to stderr.
+P02: 3.5G free suffices for S01-S10 build (~50MB). 1.2G reclaimable in ~/.cache (playwright 924M + uv 307M) needs owner go per W0a — NOT deleting shared caches unilaterally. /tmp has live agent files — untouched.

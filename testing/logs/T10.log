@@ -1,0 +1,12 @@
+=== T10 2026-11-10T03:21:43Z ===
+--- WANT: 909 bundles, 236 COMPLETE / 673 PARTIAL, every hash recomputes ---
+  File "<string>", line 1
+    import json; d=json.load(open('formal-trika/data/traces/index.json')); from collections import Counter; print(d['count'], Counter(e['verdict'] for e in d['entries'])))
+                                                                                                                                                                          ^
+SyntaxError: unmatched ')'
+exit:1
+usage: trace_bundle.py [-h] [--work WORK] [--target TARGET] [--tw TW]
+                       [--sv SV] [--dsn DSN] [--no-db] [--out OUT]
+                       [--verify VERIFY]
+
+trace_bundle.py — compile (and verify) a trika-trace/1 bundle for one chunk.
