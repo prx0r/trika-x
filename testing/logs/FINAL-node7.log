@@ -46,3 +46,42 @@
 ✔ offline fallback returns the HTML shell only for navigation (40.333705ms)
 ✔ external agent can verify a trace with fetch + sha256 alone (225.8876ms)
 ✔ verify packs cover every published trace and nothing stale (1172.683847ms)
+✔ biblio: no dead reader links; has_reader agrees with disk (12.108917ms)
+✔ traces published, all verify, index honest (99.560236ms)
+✔ llms.txt claims are measured, not inflated (1.976719ms)
+✔ emitters are deterministic (--check green) (96642.076614ms)
+✔ formal registry is published and honest (1.271162ms)
+✔ verify view + VERIFY.md are wired (1.330623ms)
+✔ chat answers carry a verify footer (R4) (0.800785ms)
+✔ verify packs disclose gate status, not just a verdict (PR #7) (27.075617ms)
+ℹ tests 56
+ℹ suites 0
+ℹ pass 50
+ℹ fail 1
+ℹ cancelled 0
+ℹ skipped 5
+ℹ todo 0
+ℹ duration_ms 99895.651791
+
+✖ failing tests:
+
+test at tests/release-manifest.test.cjs:9:1
+✖ release check detects changed assets and refuses an invalid Scholar projection (4116.848488ms)
+  AssertionError [ERR_ASSERTION]: FAIL: bundled release manifest is missing or stale; run with --write
+  
+  
+  1 !== 0
+  
+      at TestContext.<anonymous> (/root/svread/tests/release-manifest.test.cjs:20:31)
+      at Test.runInAsyncScope (node:async_hooks:227:14)
+      at Test.run (node:internal/test_runner/test:1325:25)
+      at Test.start (node:internal/test_runner/test:1191:17)
+      at startSubtestAfterBootstrap (node:internal/test_runner/harness:385:17) {
+    generatedMessage: false,
+    code: 'ERR_ASSERTION',
+    actual: 1,
+    expected: 0,
+    operator: 'strictEqual',
+    diff: 'simple'
+  }
+DONE
