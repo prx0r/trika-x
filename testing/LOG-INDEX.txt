@@ -5,6 +5,7 @@ FINAL-node5.log
 FINAL-node6.log
 FINAL-node7.log
 FINAL-node8.log
+FINAL-node9.log
 FINAL-node.log
 LEAN-proof.log
 MCP-live-proof.log
@@ -30,3 +31,4 @@ T16.log
 T17.log
 T18.log
 T19.log
+WORKTREE-node.log
