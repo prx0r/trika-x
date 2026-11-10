@@ -1,0 +1,138 @@
+{
+ "format": "roboscholar-receipt/1",
+ "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+ "date": "2026-11-10",
+ "chunk": "tantrasara-a08:tsa08-p02",
+ "prompt_sha256": "fb919293cdd8e36f47796b880a2d105a243e6b3332c8404fb9610a9d4dffb229",
+ "claims": "2/3 CITED",
+ "audit": {
+  "content_sha256": "dd03acff616b018a0918d8887a1a34bab187e1a0551dc7c73a669f2885e1a3be",
+  "verifier": "roboscholar/loop",
+  "model": "@cf/qwen/qwen3-30b-a3b-fp8",
+  "checks": [
+   {
+    "check": "chunk-resolves",
+    "status": "fail",
+    "detail": "tantrasara-a08:tsa08-p02: Passage unavailable or withheld"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v18]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v20]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v21]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v22]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v25]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v26]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v32]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v34]"
+   },
+   {
+    "check": "marker-mapped",
+    "status": "pass",
+    "detail": "[tsa-a08-v38]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "so far directly Śiva maker — [tsa-a08-v18]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "impure path Aghoreśa-Ananta emits — [tsa-a08-v18]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "passion-principle is action-bounded longing — [tsa-a08-v20]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "action is mere action there; mind-nature is passion — [tsa-a08-v21]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "this impurity: from the Lord's self-veiling wish — [tsa-a08-v22]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "atom: mere conscious-unconscious shining — [tsa-a08-v25]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "kalā-to-earth principles too two-formedness to be described — [tsa-a08-v26]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "though non-sequential, by the stated view sequence appears — [tsa-a08-v32]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "the group may become one by the Lord's wish — [tsa-a08-v34]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "pass",
+    "detail": "indistinguishable inwardness of man and kalā — [tsa-a08-v38]"
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  (lolika) in v19? How does "
+   },
+   {
+    "check": "quotes-verify",
+    "status": "fail",
+    "detail": "no same-paragraph cited source matches:  (v23) causally link to transmigration? What distinguishes "
+   },
+   {
+    "check": "uncited-paragraphs",
+    "status": "warn",
+    "detail": "1 paragraphs carry no citation"
+   }
+  ],
+  "verdict": "FAIL",
+  "scope": "draft-source-check/2",
+  "limitations": [
+   "A match is not proof of entailment, peer review or identity.",
+   "User-supplied source text is not independently authenticated."
+  ],
+  "at": "2026-11-10T07:15:31Z"
+ },
+ "note": "supplied sources are argmap excerpts (R-grounds), not authenticated bundles; quotes bind prose to premises only"
+}
