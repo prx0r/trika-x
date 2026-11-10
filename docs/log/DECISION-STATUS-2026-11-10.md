@@ -57,3 +57,11 @@ every claim resolves or it doesn't ship; machine proposes, human disposes.
 Minting tokens, DNS edits, Google/Bing accounts, outreach relationships,
 manuscript eyes, scholar rulings/signatures, lane merges, dīkṣā ruling,
 journey/audio go — all named above with the exact next hand movement.
+
+## Update 2026-11-10 ~07:45 UTC — domain purchased, attach pending owner/API
+
+- **Bought: svatantrya.net** via Registrar API ($11.86 registration + $11.86/yr renewal, standard tier, NOT premium). Status active, created 2026-11-10, expires 2027-11-10, privacy redaction ON, transfer locked. **auto_renew is OFF — recommend turning ON** (dashboard or say the word; losing the domain to expiry would be the dumbest failure mode we have).
+- **Pages attach blocked (API quirk):** `POST .../pages/projects/svread/domains` returns 8000015 "invalid TLD" for the minutes-old registration (zone is active, nameservers assigned — validation-side lag). Retry path: API again later, or owner dashboard: dash.cloudflare.com → Pages → svread → Custom domains → Set up → `svatantrya.net` (2 min, DNS automatic since registrar+Pages share the account).
+- `_redirects` (pages.dev → root 301) + `_headers` written, committed, **NOT deployed** (would break the live site pre-attach). Cutover on attach: `SITE_ORIGIN=https://svatantrya.net ./deploy.sh` + verify + IndexNow re-ping under new host + Search Console domain property.
+- ORCID app form: Website URL may now be `https://svatantrya.net` (owned — cosmetic field, safe). Redirect URIs stay the worker callback (must resolve; unchanged).
+- Search Console can start now (domain property works regardless of attach): owner gets the DNS TXT token from Search Console → I place it via API → owner clicks Verify → I submit sitemap + request indexing.
