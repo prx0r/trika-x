@@ -59,17 +59,18 @@ shelfmark, and the trace's source hop cites it.
 *Gate:* formal coverage >50% of gold chunks, every theorem with a run receipt,
 and the gap list still published (not quietly deleted).
 
-### R4 — Make the chat answer with verifiable citations
+### R4 — Make the chat answer with verifiable citations ✅ (met 2026-11-10)
 
-*Now:* chat answers from gated passages with citations, but a citation is a
-mention, not a verified claim.
-*Gap:* no runtime link from an answer to a trace + pack.
-
-- When the chat cites a chunk that has a trace, return the trace URL and the
-  pack URL alongside the citation, so the reader can check it in one click.
-- Where no trace exists, say so: "unverified — no trace for this chunk".
-*Gate:* every chat answer citing a trace-bearing chunk includes a working
-verify link; answers citing untraced chunks say "unverified".
+*Now:* `verifyFooter` (`app.js:2041`) checks every chunk id cited in an
+answer against `data/traces/index.json`; trace-bearing chunks get working
+trace + pack + **claim page** links; untraced chunks are labelled
+"unverified — no trace for this chunk". Wired test asserts all of it
+(`tests/wiring.test.cjs` "chat answers carry a verify footer (R4)").
+*Remaining:* footer links point at data JSON + claim pages; no measured
+citation-lift yet (needs S09 baseline).
+*Gate (met):* every chat answer citing a trace-bearing chunk includes working
+verify links; answers citing untraced chunks say "unverified" — asserted by
+`tests/wiring.test.cjs`, green 2026-11-10.
 
 ### R5 — Earn the inbound links that make Google cite us
 

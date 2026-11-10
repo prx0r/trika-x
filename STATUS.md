@@ -1,4 +1,4 @@
-# STATUS — every artifact, one line (2026-11-08)
+# STATUS — every artifact, one line (2026-11-10 refresh of 2026-11-08 baseline)
 
 *PR #7 P2: one current entry point with explicit status per artifact.
 Statuses: IMPLEMENTED@rev (tested at revision) · PROTOTYPE (works, not
@@ -6,7 +6,7 @@ gated for release) · PROPOSED (spec only) · BLOCKED (named blocker) ·
 HISTORICAL (superseded reference, do not build on). A dashboard count says
 what it counts; nothing here implies human acceptance or deployment.*
 
-## Trika-x machine gates (all IMPLEMENTED, verified 2026-11-08)
+## Trika-x machine gates (all IMPLEMENTED, verified 2026-11-10)
 
 | Artifact | Status | Owner | Verify |
 |---|---|---|---|
@@ -28,7 +28,11 @@ what it counts; nothing here implies human acceptance or deployment.*
 | `MCP-OPS.md` (operating guide) + `DOCS.md` (entry point + map) | IMPLEMENTED | trika-x | read + run their commands |
 | `docs/log/` (20 dated records, links verified) | IMPLEMENTED | trika-x | repo-wide md-link audit, 0 broken |
 | `docs/AI-DISCOVERABILITY-2026-11-08.md` (GEO research notes) | IMPLEMENTED | trika-x | sources cited; plan in svread |
-| `svread/SEO-GEO-PLAN-2026-11-08.md` (execution spec) | IMPLEMENTED (spec) | svread | 10 gates defined, none built yet |
+| `svread/SEO-GEO-PLAN-2026-11-08.md` (execution spec) | IMPLEMENTED | svread | seo_check 10/10 GREEN, 909 pages live |
+| `svread/tools/emit_claim_pages.py` (909 pages, deterministic, fail-closed) | IMPLEMENTED@sitemap-1919 | svread | `--dry-run` + `--check` GREEN |
+| `svread/tools/seo_check.py` (10 gates) + CI step | IMPLEMENTED | svread | `seo_check.py` GREEN; reader-check.yml |
+| `HOW-THE-MACHINE-WORKS.md` (system narrative) | IMPLEMENTED | trika-x | read + run its gates |
+| `testing/` red-team (20 probes + battery + reports) | IMPLEMENTED | trika-x | `run.sh all` + reports |
 | `svread/HANDOVER-SEO-2026-11-08.md` (build handover) | IMPLEMENTED | svread | traps verified against code |
 | `freshness.py` ledger + SHARP gate | IMPLEMENTED | trika-x | `--check` |
 | `pushback.py`, `roboscholar.py` (1 pilot, 2-family) | IMPLEMENTED | trika-x | pilot files in `swarm/` |
@@ -48,8 +52,9 @@ what it counts; nothing here implies human acceptance or deployment.*
 
 ## PROPOSED (spec only, no build)
 
-**Claim pages / SEO-GEO build** (B02–B20 in `svread/HANDOVER-SEO-2026-11-08.md`)
-· Second-encoder twin review · per-declaration run digests · DERIVED exemplar
+**Claim pages / SEO-GEO build** — BUILT 2026-11-10 (909 live, seo 10/10;
+moved out of PROPOSED; row above). Still PROPOSED (spec only, no build):
+Second-encoder twin review · per-declaration run digests · DERIVED exemplar
 (Q12 gate) · video `evidence_refs` carry-through · Nibbanahelp N1 exporter ·
 C2/slang register renders · short movies R9 (explicitly NOT YET).
 
@@ -58,8 +63,8 @@ C2/slang register renders · short movies R9 (explicitly NOT YET).
 Witnesses 0 (NGMPP/manuscript channel) · Zenodo token (+DERIVED exemplar
 first) · cron install + token rotation (owner) · disk Tier 2/3 (owner) ·
 tau scale-up + COMET (quota/GPU) · chunk↔verse remainder + decision-trail
-writes (translation-work lane) · svread publish/chat/Sanskrit slice
-(svread lane) · evidence refs handoff (factories) · P-TK1/rater-2/ti-ca
+writes (translation-work lane) · svread Sanskrit slice (svread lane; publish
++ R4 chat verify-links done 2026-11-10) · evidence refs handoff (factories) · P-TK1/rater-2/ti-ca
 (scholar) · dīkṣā policy + recipes + outreach (owner).
 
 ## HISTORICAL (reference only)

@@ -1,5 +1,9 @@
 # MASTERPLAN TECHNICAL SPEC — endgame build, ground up (2026-11-06)
 
+> HISTORICAL 2026-11-08: superseded by `MASTERPLAN2.md` (execution) +
+> `MASTER-PLAN.md` amendment (scoreboard). Kept as reference; do not build on.
+> DOCS.md §2 row 12 is the canonical pointer.
+
 **Canonical build spec.** Companion to the adversarial audit
 (`/root/TECHNICAL-SPEC-2026-11-05.md` — reproduced breaks; this doc
 builds forward) and to `MASTER-PLAN.md`/`OPERATIONS.md`/`NEXT-STEPS.md`.
