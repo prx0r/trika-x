@@ -1,0 +1,79 @@
+PASS schemas-import
+PASS stack-sync
+PASS structural-schemas
+PASS data-present
+PASS validate-s01
+PASS roundtrip-s01
+PASS proof-s01
+PASS validate-s02
+PASS roundtrip-s02
+PASS proof-s02
+PASS validate-s03
+PASS roundtrip-s03
+PASS proof-s03
+PASS validate-s04
+PASS roundtrip-s04
+PASS proof-s04
+PASS validate-s05
+PASS roundtrip-s05
+PASS proof-s05
+PASS validate-s06
+PASS roundtrip-s06
+PASS proof-s06
+PASS validate-s07
+PASS roundtrip-s07
+PASS proof-s07
+PASS validate-s08
+PASS roundtrip-s08
+PASS proof-s08
+PASS validate-s09
+PASS roundtrip-s09
+PASS proof-s09
+PASS validate-s10
+PASS roundtrip-s10
+PASS proof-s10
+PASS validate-s11
+PASS roundtrip-s11
+PASS proof-s11
+PASS validate-s12
+PASS roundtrip-s12
+PASS proof-s12
+PASS validate-s13
+PASS roundtrip-s13
+PASS proof-s13
+PASS validate-s14
+PASS roundtrip-s14
+PASS proof-s14
+PASS validate-s15
+PASS roundtrip-s15
+PASS proof-s15
+PASS validate-s16
+PASS roundtrip-s16
+PASS proof-s16
+PASS validate-s17
+PASS roundtrip-s17
+PASS proof-s17
+PASS validate-s18
+PASS roundtrip-s18
+PASS proof-s18
+PASS validate-s19
+PASS roundtrip-s19
+PASS proof-s19
+PASS validate-s20
+PASS roundtrip-s20
+PASS proof-s20
+PASS no-stale-doctrine
+PASS directive-present
+PASS contract-valid
+PASS site-data
+PASS qa-present
+PASS concepts — 0/0 coverage, 0 missing (legacy work, transform to gold for full coverage)
+PASS suggestions-valid
+WARN reviews:1: legacy signature covers review ID only
+scholar verify: 3 versions · 1 reviews · signoffs checked — 0 failures
+PASS scholar-valid
+PASS canonical-docs
+
+CANONICAL: 0 failures
+EXIT:0
+DONE
