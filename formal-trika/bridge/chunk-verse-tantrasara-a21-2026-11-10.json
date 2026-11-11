@@ -1,0 +1,45 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-10",
+ "workdir": "tantrasara-a21",
+ "chunks": {
+  "tsa21-p01": {
+   "verses": "21.1-21.13",
+   "verse_spans": [
+    "tsa-a21-v01",
+    "tsa-a21-v02",
+    "tsa-a21-v03",
+    "tsa-a21-v04",
+    "tsa-a21-v05",
+    "tsa-a21-v06",
+    "tsa-a21-v07",
+    "tsa-a21-v08",
+    "tsa-a21-v09",
+    "tsa-a21-v10",
+    "tsa-a21-v11",
+    "tsa-a21-v12",
+    "tsa-a21-v13"
+   ],
+   "byte_start": 117208,
+   "byte_end": 120447,
+   "span_shas": [
+    "10c1b62e69cf",
+    "f0334ae02c24",
+    "916a57c2fa44",
+    "4a8259d733c3",
+    "98e1523e1cd9",
+    "f176b25682c1",
+    "1c5c5370621d",
+    "b15df047908e",
+    "32f7ff4b6eec",
+    "c10e8c288d47",
+    "88df6f5bcee3",
+    "3dd60e80474f",
+    "23021aa63e36"
+   ]
+  }
+ },
+ "manifests": [
+  "tantrasara.json"
+ ]
+}

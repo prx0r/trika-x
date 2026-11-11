@@ -1,0 +1,27 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-10",
+ "workdir": "tantrasara-a02",
+ "chunks": {
+  "tsa02-p01": {
+   "verses": "2.1-2.4",
+   "verse_spans": [
+    "tsa-a02-v01",
+    "tsa-a02-v02",
+    "tsa-a02-v03",
+    "tsa-a02-v04"
+   ],
+   "byte_start": 4401,
+   "byte_end": 5593,
+   "span_shas": [
+    "a66fee7bf4f4",
+    "47c334350f96",
+    "e30796e841cb",
+    "98a86a18a9dc"
+   ]
+  }
+ },
+ "manifests": [
+  "tantrasara.json"
+ ]
+}

@@ -20,6 +20,15 @@ RECEIPT = CONTROL / 'PrakriyaSlice.receipt.json'
 PACK = Path(os.environ.get('SVREAD', '/root/svread')) / 'data/grammar/wheel-pack.json'
 
 
+def _pack_present() -> bool:
+    # unreadable/absent sibling checkout must skip, never raise at import
+    # (the same PermissionError class svread hit on the runner)
+    try:
+        return PACK.is_file()
+    except OSError:
+        return False
+
+
 def run(*args):
     return subprocess.run([sys.executable, str(TOOL), *args],
                           capture_output=True, text=True, timeout=300)
@@ -27,23 +36,29 @@ def run(*args):
 
 @unittest.skipUnless(PACK.is_file(), 'svread pack not present (SVREAD)')
 class TestPrakriyaSlice(unittest.TestCase):
+    # -- pack-dependent (skip labelled when the svread checkout is absent) --
+    @unittest.skipUnless(_pack_present(), 'svread pack not present (SVREAD)')
     def test_generator_is_deterministic(self):
         r = run('--check')
         self.assertEqual(r.returncode, 0, r.stderr)
 
-    def test_lean_file_and_receipt_are_consistent(self):
-        self.assertTrue(LEAN.is_file(), 'PrakriyaSlice.lean committed')
+    @unittest.skipUnless(_pack_present(), 'svread pack not present (SVREAD)')
+    def test_receipt_pins_the_current_pack(self):
+        rec = json.loads(RECEIPT.read_text(encoding='utf-8'))
+        self.assertEqual(rec['pack_sha256'],
+                         __import__('hashlib').sha256(PACK.read_bytes()).hexdigest(),
+                         'receipt pins the exact pack it checked')
+
+    # -- committed bytes only (always run, incl. CI) --
+    def test_receipt_is_passing_scoped_and_pins_the_file(self):
         self.assertTrue(RECEIPT.is_file(), 'receipt committed')
+        self.assertTrue(LEAN.is_file(), 'PrakriyaSlice.lean committed')
         rec = json.loads(RECEIPT.read_text(encoding='utf-8'))
         self.assertEqual(rec['format'], 'svatantrya.lean-receipt/1')
         self.assertEqual(rec['exit_code'], 0, 'lean must have passed')
         self.assertEqual(rec['file_sha256'],
                          __import__('hashlib').sha256(LEAN.read_bytes()).hexdigest(),
                          'receipt pins the exact lean file')
-        self.assertEqual(rec['pack_sha256'],
-                         __import__('hashlib').sha256(PACK.read_bytes()).hexdigest(),
-                         'receipt pins the exact pack it checked')
-        # honesty: scope must disclaim derivation from the Aṣṭādhyāyī
         self.assertIn('NOT a derivation', rec['scope'])
         self.assertIn('inventory', rec['scope'])
 
