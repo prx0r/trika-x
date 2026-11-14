@@ -64,11 +64,25 @@ READ_SHEAF = {
 }
 
 BRIDGE_NOTE = (
-    "svatantrya bridge: public read sheaf. Source, review status and licence "
-    "are the tool's own words (passed through verbatim). A dead child returns "
-    "an explicit unavailable error; partial results never masquerade as "
-    "complete. Writes need OAuth, which is not issued yet."
+    "svatantrya bridge: public read sheaf. Layers are named in plain words "
+    "(draft-translation, literal-gloss, argument-map, reading-translation, "
+    "essence, register-render, final-translation, song); machine keys "
+    "T1/L0/ARGMAP/L2/C1/C2/L3/L4 still work. Source, review status and "
+    "licence are the tool's own words (passed through verbatim). A dead "
+    "child returns an explicit unavailable error; partial results never "
+    "masquerade as complete. Writes need OAuth, which is not issued yet."
 )
+
+
+def layers_legend() -> list[dict]:
+    try:
+        data = json.loads((REPO / "formal-trika" / "data" /
+                           "layer-names.json").read_text(encoding="utf-8"))
+    except OSError:
+        return []
+    return [{"code": l.get("code"), "name": l.get("public"),
+             "label": l.get("label"), "blurb": l.get("blurb")}
+            for l in data.get("layers", [])]
 
 
 class Gateway:
@@ -217,6 +231,7 @@ class Handler(BaseHTTPRequestHandler):
             return self._send(200, {"jsonrpc": "2.0", "id": mid,
                                     "result": {"tools": sheaf_filter(tools),
                                                "sheaf": "read",
+                                               "layers": layers_legend(),
                                                "withheld": len(tools)}} , version)
 
         if method in ("tools/call", "tools/call_tool"):
@@ -322,6 +337,12 @@ def selftest() -> int:
         fails.append("list returned empty sheaf")
     if not all((t.get("annotations") or {}).get("sheaf") == "read" for t in tools):
         fails.append("list tools missing sheaf annotation")
+    legend = {(l.get("code")): l.get("name")
+              for l in (body.get("result") or {}).get("layers", [])}
+    if legend.get("T1") != "draft-translation" or \
+            legend.get("ARGMAP") != "argument-map" or \
+            legend.get("L0") != "literal-gloss":
+        fails.append(f"layers legend missing public names: {legend}")
 
     # 4. read-sheaf call passes through verbatim
     code, body, _ = post({"jsonrpc": "2.0", "id": 4, "method": "tools/call",

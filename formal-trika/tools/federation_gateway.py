@@ -166,19 +166,31 @@ def local_identity() -> dict:
     return {"resolve": resolve, "coverage": coverage}
 
 
-GUIDE = """Navigate from openpatala (identity root) across the federation:
+GUIDE = """Verify first, read second, render last. Every claim here resolves to
+Sanskrit bytes through a machine-checked chain — or it is labelled PARTIAL,
+never shipped, never signed by a machine.
 
 1. openpatala__resolve {work} — is this work known? ledger + witness status. UNRESOLVED = draft-only.
-2. scholar__passage_evidence {work, target} — read the Sanskrit + layers (internal codes T1/L0/argmap/L2/C1/C2/L3/L4; public names in trika-x layer-names.json).
-3. scholar__audit_draft / link_claims / pushback — check a draft before a human signs. Machine report, never verdict.
-4. translation__status {work} (shastra) — registry state, proof, what the swarm is doing. Writes never push/signoff.
-5. bookfactory__* (bookfactory) — draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.
-6. video__* (videofactory) — vf_gate/vf_triage to read state; vf_launch/vf_queue ship ONLY gated+approved renders (see videofactory#1: defaults should be explicit opt-in).
+2. formal__trace {work, target} — the machine-checked chain for one chunk:
+   source bytes, translation layers, deterministic proofs, Lean theorems
+   (each compiled by pinned Lean, each with a must-fail twin + run receipt),
+   citing essays. Verdict COMPLETE/PARTIAL + named gaps; BLOCKED stays BLOCKED.
+   Go deeper: formal__evidence (theorem rows), formal__table (plain-English
+   scope notes), formal__gaps (covered vs total + the rung queue),
+   formal__runs (harness receipts), formal__axioms (audit state),
+   formal__bridge (chunk locator to edition rows; witnesses UNPINNED).
+3. scholar__passage_evidence {work, target} — read the Sanskrit + translation
+   layers: draft-translation, literal-gloss (meaning-forks live here),
+   argument-map, reading-translation, essence, register-render,
+   final-translation, song. Machine keys T1/L0/ARGMAP/L2/C1/C2/L3/L4 still
+   work everywhere; the legend is
+   trika-x/formal-trika/data/layer-names.json.
+4. scholar__audit_draft / link_claims / pushback — check a draft before a human signs. Machine report, never verdict.
+5. translation__status {work} (shastra) — registry state, proof, what the swarm is doing. Writes never push/signoff.
+6. bookfactory__* (bookfactory) — draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.
+7. video__* (videofactory) — vf_gate/vf_triage to read state; vf_launch/vf_queue ship ONLY gated+approved renders (defaults are explicit opt-in).
    openpatala_mcp__get_health — direct child health/counts (works, passages, witnesses).
-7. openpatala__coverage — how much of the corpus is bridged.
-8. formal__trace {work, target} — full Sanskrit-to-essay trace bundle for one
-   chunk (source bytes, layers, proofs, formal theorems, citing essays).
-   Verdict COMPLETE/PARTIAL + named gaps; BLOCKED stays BLOCKED.
+8. openpatala__coverage — how much of the corpus is bridged.
 
 Laws: UNRESOLVED/draft-only inputs stay draft-only. No auto-sign, auto-publish, auto-ship. Human disposes; receipts are the trail.
 """
@@ -366,7 +378,7 @@ def main() -> int:
          "description": "How an agent navigates openpatala -> translation -> scholar -> factories.",
          "inputSchema": {"type": "object", "properties": {}}},
         {"name": "formal__trace",
-         "description": "Full Sanskrit-to-essay trace bundle for one chunk (bytes, layers, proofs, theorems, citing essays).",
+         "description": "Machine-checked Sanskrit-to-essay chain for one chunk: source bytes, translation layers, deterministic proofs, Lean theorems (must-fail twins + run receipts), citing essays. Verdict COMPLETE/PARTIAL.",
          "inputSchema": {"type": "object",
                          "properties": {"work": {"type": "string"},
                                         "target": {"type": "string"}},
@@ -377,22 +389,22 @@ def main() -> int:
                          "properties": {"chunk": {"type": "string"}},
                          "required": ["chunk"]}},
         {"name": "formal__evidence",
-         "description": "EVIDENCE rows for one theorem, or registry counts. Refs are not entailments.",
+         "description": "Lean theorem's EVIDENCE rows: grounds, tier, run receipt. Registry refs are not entailments.",
          "inputSchema": {"type": "object",
                          "properties": {"theorem": {"type": "string"}}}},
         {"name": "formal__table",
-         "description": "TABLE readings: theorem beside its plain-English scope note (MODEL_CHECKED only).",
+         "description": "TABLE readings: Lean theorem beside its plain-English scope note (MODEL_CHECKED only).",
          "inputSchema": {"type": "object",
                          "properties": {"theorem": {"type": "string"}}}},
         {"name": "formal__gaps",
-         "description": "Treeka formal column: covered vs total chunks + the gap list (the rung queue).",
+         "description": "Formal coverage: chunks proved vs total + the gap list (the rung queue, worked in order).",
          "inputSchema": {"type": "object",
                          "properties": {"work": {"type": "string"}}}},
         {"name": "formal__runs",
-         "description": "Runs ledger: harness verdicts + receipt count (never reruns Lean).",
+         "description": "Harness receipts: every rung's Lean version, exit code, file sha (never reruns Lean).",
          "inputSchema": {"type": "object", "properties": {}}},
         {"name": "formal__axioms",
-         "description": "Axiom audit state (static half; kernel verdict needs pinned Lean).",
+         "description": "Axiom audit: static CLEAN means no sorry/axiom smuggled; kernel verdict needs pinned Lean.",
          "inputSchema": {"type": "object", "properties": {}}},
     ]
         for name, child in children.items():
