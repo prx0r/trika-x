@@ -168,8 +168,8 @@ The gateway needs only the stdlib. Direct children may need `mcp` / lane deps;
 
 ## 7. Known gaps (recorded, not hidden)
 
-- **stdio only.** No HTTP transport, no dashboard, no per-agent entitlements
-  yet (parent contract §1 plans them; not built).
+- **stdio + localhost HTTP.** The gateway is stdio; `tools/mcp_bridge.py` (§9)
+  adds a localhost HTTP front door. No tunnel, no OAuth yet (owner/lane calls).
 - **Identity coverage is thin, not fake.** Box DB has 555 works / 909 passages
   / 0 witnesses; adapters still discover nothing upstream. `UNRESOLVED` and
   `UNPINNED` are the honest answers.
@@ -192,4 +192,30 @@ Any change to a tool name, prefix, or family count:
    `PARENT-CONTRACT`) in the same commit;
 4. run the three verification commands in §5;
 5. commit with `feat(mcp):` or `docs(mcp):` and paste the catalog counts in the
-   body.
+    body.
+
+---
+
+## 9. HTTP bridge — the ChatGPT front door (2026-11-14)
+
+`tools/mcp_bridge.py` (stdlib only) wraps the gateway in MCP Streamable HTTP
+so a remote client can reach it: `POST /mcp` JSON-RPC, `GET /mcp` SSE
+(endpoint + heartbeat, no fake notifications), `DELETE /mcp` ends the
+session. Protocol `2025-06-18`, `2024-11-05` fallback. Limits 60 s/call,
+10 concurrent, 64 KB body (413 over).
+
+Only the read sheaf is public (26 allowlisted of 112 live tools at build
+time; selftest saw 25/26 with all children up — one transient FailOpen
+exclusion, which is the design working). `initialize` + `tools/list` need no
+auth; any non-sheaf call answers `-32001 unauthorized` because write-sheaf
+OAuth is not issued yet. Tool results pass through verbatim.
+
+```sh
+python3 tools/mcp_bridge.py --port 8799     # serve on 127.0.0.1
+python3 tools/mcp_bridge.py --selftest       # full proof, exits 0/1
+python3 -m unittest formal-trika.tests.test_mcp_bridge
+```
+
+Still owed (not this bridge): tunnel/hostname (owner), OAuth + write sheaf
+(worker lane), registry refresh in `svread/data/mcp-registry.json` (svread
+lane: still says 109 federated / scholar 38; live is 112 / 41).
