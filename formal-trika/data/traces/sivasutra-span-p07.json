@@ -37,6 +37,10 @@
     {
      "id": "sivasutra:edition:1",
      "title": "sivasutra"
+    },
+    {
+     "id": "seed:atlas:sivasutra:e0",
+     "title": "GRETIL / SanskritDocuments [etext/]  (tier B; atlas audited.ts @31c376f)"
     }
    ],
    "etexts": [
@@ -103,11 +107,6 @@
  "open_problems": [
   "passage id absent from box DB"
  ],
- "produced_at": "2026-11-14T05:11:51+00:00",
- "produced_by": {
-  "tool": "trace_bundle/1",
-  "trika_rev": "UNKNOWN"
- },
  "proofs": {
   "chunk_gate": {
    "note": "chunk not in GATE.json",

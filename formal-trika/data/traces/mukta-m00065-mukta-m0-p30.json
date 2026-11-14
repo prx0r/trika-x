@@ -20,7 +20,7 @@
  },
  "essays": {
   "citing": [],
-  "projection_sha256": "c6ce275eb98ffd37a189593f4b6ff6a79a4d79f93ce0e4a975ca5efb5e0409e4"
+  "projection_sha256": null
  },
  "formal": {
   "status": "none",
@@ -83,13 +83,9 @@
   }
  },
  "open_problems": [
-  "passage id absent from box DB"
+  "passage id absent from box DB",
+  "no scholar projection for work"
  ],
- "produced_at": "2026-11-14T06:19:11+00:00",
- "produced_by": {
-  "tool": "trace_bundle/1",
-  "trika_rev": "UNKNOWN"
- },
  "proofs": {
   "chunk_gate": {
    "note": "no GATE.json",

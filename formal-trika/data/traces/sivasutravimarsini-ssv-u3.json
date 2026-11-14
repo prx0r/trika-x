@@ -20,7 +20,7 @@
  },
  "essays": {
   "citing": [],
-  "projection_sha256": "2542ddf902306674b6543fdbbb46e7d19b27331f3d72e378c06f5519e5c54d83"
+  "projection_sha256": null
  },
  "formal": {
   "status": "none",
@@ -35,19 +35,8 @@
  "identity": {
   "db": "postgresql://patala:***@localhost:5432/openpatala",
   "rows": {
-   "editions": [
-    {
-     "id": "sivasutravimarsini:edition:1",
-     "title": "sivasutravimarsini"
-    }
-   ],
-   "etexts": [
-    {
-     "artifact": "44352bd1382c57bd68800d59f1926d73c915783bcb84453d4b78ec1891ecda2f",
-     "id": "sivasutravimarsini:etext:1",
-     "provider": "translation-work"
-    }
-   ],
+   "editions": [],
+   "etexts": [],
    "witnesses_total": 0
   },
   "status": "UNRESOLVED"
@@ -98,13 +87,9 @@
   }
  },
  "open_problems": [
-  "passage id absent from box DB"
+  "passage id absent from box DB",
+  "no scholar projection for work"
  ],
- "produced_at": "2026-11-14T06:33:39+00:00",
- "produced_by": {
-  "tool": "trace_bundle/1",
-  "trika_rev": "UNKNOWN"
- },
  "proofs": {
   "chunk_gate": {
    "note": "no GATE.json",

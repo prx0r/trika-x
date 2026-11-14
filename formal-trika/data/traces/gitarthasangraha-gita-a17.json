@@ -35,19 +35,8 @@
  "identity": {
   "db": "postgresql://patala:***@localhost:5432/openpatala",
   "rows": {
-   "editions": [
-    {
-     "id": "gitarthasangraha:edition:1",
-     "title": "gitarthasangraha"
-    }
-   ],
-   "etexts": [
-    {
-     "artifact": "c2406eefca24bfc05cafee8c826aa96e95a8c7344a79210e6ba7557e931dbac1",
-     "id": "gitarthasangraha:etext:1",
-     "provider": "translation-work"
-    }
-   ],
+   "editions": [],
+   "etexts": [],
    "witnesses_total": 0
   },
   "status": "UNRESOLVED"
@@ -100,11 +89,6 @@
  "open_problems": [
   "passage id absent from box DB"
  ],
- "produced_at": "2026-11-14T05:00:47+00:00",
- "produced_by": {
-  "tool": "trace_bundle/1",
-  "trika_rev": "UNKNOWN"
- },
  "proofs": {
   "chunk_gate": {
    "note": "no GATE.json",

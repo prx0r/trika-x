@@ -20,7 +20,7 @@
  },
  "essays": {
   "citing": [],
-  "projection_sha256": "ccd720668ef9dd27b814072e6b14203da43730f49a2430e621a5b2dcdc10c613"
+  "projection_sha256": null
  },
  "formal": {
   "status": "none",
@@ -35,19 +35,8 @@
  "identity": {
   "db": "postgresql://patala:***@localhost:5432/openpatala",
   "rows": {
-   "editions": [
-    {
-     "id": "malinivijayavarttika:edition:1",
-     "title": "malinivijayavarttika"
-    }
-   ],
-   "etexts": [
-    {
-     "artifact": "eeefe18454260183ff60fb5ef1075d5e2abefffca501b7d96b828741187d89a7",
-     "id": "malinivijayavarttika:etext:1",
-     "provider": "translation-work"
-    }
-   ],
+   "editions": [],
+   "etexts": [],
    "witnesses_total": 0
   },
   "status": "UNRESOLVED"
@@ -98,13 +87,9 @@
   }
  },
  "open_problems": [
-  "passage id absent from box DB"
+  "passage id absent from box DB",
+  "no scholar projection for work"
  ],
- "produced_at": "2026-11-14T06:33:42+00:00",
- "produced_by": {
-  "tool": "trace_bundle/1",
-  "trika_rev": "UNKNOWN"
- },
  "proofs": {
   "chunk_gate": {
    "note": "no GATE.json",

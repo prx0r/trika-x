@@ -29,7 +29,7 @@
  },
  "essays": {
   "citing": [],
-  "projection_sha256": "bc321c087537b714f494e2363f2dd586466943cb84f51c26f7e86695d0dc40b9"
+  "projection_sha256": "4c0209c0e080baad00892a86efe4179e506a7ec8ecfbdc65336497b2d373c7d7"
  },
  "formal": {
   "status": "REGISTERED",
@@ -104,11 +104,22 @@
  "identity": {
   "db": "postgresql://patala:***@localhost:5432/openpatala",
   "rows": {
-   "editions": [],
-   "etexts": [],
+   "editions": [
+    {
+     "id": "tantrasara-a07:edition:1",
+     "title": "tantrasara-a07"
+    }
+   ],
+   "etexts": [
+    {
+     "artifact": "a1e130748e925c5eb1846abe636bfd413e501a50cde71c559c6a2aac0dcf20fd",
+     "id": "tantrasara-a07:etext:1",
+     "provider": "translation-work"
+    }
+   ],
    "passage": {
     "citation_value": "tsa07-p01",
-    "work_id": "PTCND_sa_abhinavagupta-tantrasAra"
+    "work_id": "tantrasara-a07"
    },
    "witnesses_total": 0
   },
@@ -171,11 +182,6 @@
   }
  },
  "open_problems": [],
- "produced_at": "2026-11-14T06:33:56+00:00",
- "produced_by": {
-  "tool": "trace_bundle/1",
-  "trika_rev": "UNKNOWN"
- },
  "proofs": {
   "chunk_gate": {
    "blocking": [

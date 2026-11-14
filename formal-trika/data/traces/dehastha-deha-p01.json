@@ -33,19 +33,8 @@
  "identity": {
   "db": "postgresql://patala:***@localhost:5432/openpatala",
   "rows": {
-   "editions": [
-    {
-     "id": "dehastha:edition:1",
-     "title": "dehastha"
-    }
-   ],
-   "etexts": [
-    {
-     "artifact": "4d0d1c710479a01f270c4c4886c27949b337d33e6f13cf1d00dd9b14abbd5ada",
-     "id": "dehastha:etext:1",
-     "provider": "translation-work"
-    }
-   ],
+   "editions": [],
+   "etexts": [],
    "witnesses_total": 0
   },
   "status": "UNRESOLVED"
@@ -103,11 +92,6 @@
  "open_problems": [
   "passage id absent from box DB"
  ],
- "produced_at": "2026-11-14T05:00:44+00:00",
- "produced_by": {
-  "tool": "trace_bundle/1",
-  "trika_rev": "UNKNOWN"
- },
  "proofs": {
   "chunk_gate": {
    "note": "no GATE.json",

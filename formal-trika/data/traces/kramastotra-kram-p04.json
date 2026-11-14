@@ -103,11 +103,6 @@
   }
  },
  "open_problems": [],
- "produced_at": "2026-11-14T05:06:32+00:00",
- "produced_by": {
-  "tool": "trace_bundle/1",
-  "trika_rev": "UNKNOWN"
- },
  "proofs": {
   "chunk_gate": {
    "blocking": [],
