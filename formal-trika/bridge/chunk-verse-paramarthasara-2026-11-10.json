@@ -1,0 +1,326 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-10",
+ "workdir": "paramarthasara",
+ "chunks": {
+  "param-p01": {
+   "verses": "2-10",
+   "verse_spans": [
+    "param-p01-v02",
+    "param-p01-v03",
+    "param-p01-v04",
+    "param-p01-v05",
+    "param-p01-v06",
+    "param-p01-v07",
+    "param-p01-v08",
+    "param-p01-v09",
+    "param-p01-v10"
+   ],
+   "byte_start": 378,
+   "byte_end": 1590,
+   "span_shas": [
+    "9840d77dc71a",
+    "dd02361f74fa",
+    "fcb27069bcd3",
+    "66c22c6f16ff",
+    "697fbe4bb144",
+    "bee59e350609",
+    "308d9e6bdcd8",
+    "8953f00e0928",
+    "e4955c2711f7"
+   ]
+  },
+  "param-p02": {
+   "verses": "11-19",
+   "verse_spans": [
+    "param-p02-v11",
+    "param-p02-v12",
+    "param-p02-v13",
+    "param-p02-v14",
+    "param-p02-v15",
+    "param-p02-v16",
+    "param-p02-v17",
+    "param-p02-v18",
+    "param-p02-v19"
+   ],
+   "byte_start": 1590,
+   "byte_end": 2782,
+   "span_shas": [
+    "7cfdf548f76d",
+    "32bc822346ca",
+    "469aa10120cf",
+    "b2d4a050ca9e",
+    "2d3cc1dad26b",
+    "a3d1bc5c3427",
+    "f47e0bee1cf4",
+    "74cdfed90e3b",
+    "aadd05d529dc"
+   ]
+  },
+  "param-p03": {
+   "verses": "20-28",
+   "verse_spans": [
+    "param-p03-v20",
+    "param-p03-v21",
+    "param-p03-v22",
+    "param-p03-v23",
+    "param-p03-v24",
+    "param-p03-v25",
+    "param-p03-v26",
+    "param-p03-v27",
+    "param-p03-v28"
+   ],
+   "byte_start": 2782,
+   "byte_end": 3995,
+   "span_shas": [
+    "9a369c56dac7",
+    "d72bd172cadd",
+    "34f84a7c8d6f",
+    "c4c75b118d12",
+    "2bc65484fcf1",
+    "de1c6dd41f2c",
+    "9d4e8c6e9d51",
+    "d9fb3f5c8e3b",
+    "866ab25cc61c"
+   ]
+  },
+  "param-p04": {
+   "verses": "29-37",
+   "verse_spans": [
+    "param-p04-v29",
+    "param-p04-v30",
+    "param-p04-v31",
+    "param-p04-v32",
+    "param-p04-v33",
+    "param-p04-v34",
+    "param-p04-v35",
+    "param-p04-v36",
+    "param-p04-v37"
+   ],
+   "byte_start": 3995,
+   "byte_end": 5189,
+   "span_shas": [
+    "3ad765f29e1e",
+    "9bd4debd2fb2",
+    "a463d6a58a89",
+    "b0ff467473d9",
+    "a5e6a1956611",
+    "31d61a49124f",
+    "38213339a9d5",
+    "afaa4084118f",
+    "323d86183599"
+   ]
+  },
+  "param-p05": {
+   "verses": "38-46",
+   "verse_spans": [
+    "param-p05-v38",
+    "param-p05-v39",
+    "param-p05-v40",
+    "param-p05-v41",
+    "param-p05-v42",
+    "param-p05-v43",
+    "param-p05-v44",
+    "param-p05-v45",
+    "param-p05-v46"
+   ],
+   "byte_start": 5189,
+   "byte_end": 6382,
+   "span_shas": [
+    "0d17f8e0fd69",
+    "665950e2e651",
+    "9f9163f0101b",
+    "8117d02e0175",
+    "f6a926bc389e",
+    "85b06a1eb797",
+    "e41b9cd463d1",
+    "1291ae29bb80",
+    "f0bb2ed68d84"
+   ]
+  },
+  "param-p06": {
+   "verses": "47-55",
+   "verse_spans": [
+    "param-p06-v47",
+    "param-p06-v48",
+    "param-p06-v49",
+    "param-p06-v50",
+    "param-p06-v51",
+    "param-p06-v52",
+    "param-p06-v53",
+    "param-p06-v54",
+    "param-p06-v55"
+   ],
+   "byte_start": 6382,
+   "byte_end": 7558,
+   "span_shas": [
+    "34a8debb6d9b",
+    "03bac54724ff",
+    "3c412cb8a5f0",
+    "7878839187ef",
+    "8c6544653c3d",
+    "b77ac32f2030",
+    "ae035f96d26a",
+    "52508b18b04e",
+    "9483fdc3c1a9"
+   ]
+  },
+  "param-p07": {
+   "verses": "56-64",
+   "verse_spans": [
+    "param-p07-v56",
+    "param-p07-v57",
+    "param-p07-v58",
+    "param-p07-v59",
+    "param-p07-v60",
+    "param-p07-v61",
+    "param-p07-v62",
+    "param-p07-v63",
+    "param-p07-v64"
+   ],
+   "byte_start": 7558,
+   "byte_end": 8724,
+   "span_shas": [
+    "889762a2ba0b",
+    "0a897fd643fc",
+    "171531d9920e",
+    "9db58a2ed9ae",
+    "23007a6a0ad0",
+    "77afd42c74ad",
+    "1ff6de239ab7",
+    "92de72f4e757",
+    "b10b59d0cd6a"
+   ]
+  },
+  "param-p08": {
+   "verses": "65-73",
+   "verse_spans": [
+    "param-p08-v65",
+    "param-p08-v66",
+    "param-p08-v67",
+    "param-p08-v68",
+    "param-p08-v69",
+    "param-p08-v70",
+    "param-p08-v71",
+    "param-p08-v72",
+    "param-p08-v73"
+   ],
+   "byte_start": 8724,
+   "byte_end": 9924,
+   "span_shas": [
+    "6a89d95dbd8b",
+    "187f22745abd",
+    "7bd434f5288e",
+    "6aabdc099557",
+    "936d20bd1255",
+    "84d0583bb671",
+    "20ec8a52faaf",
+    "363329295684",
+    "c9b5745bbe83"
+   ]
+  },
+  "param-p09": {
+   "verses": "74-82",
+   "verse_spans": [
+    "param-p09-v74",
+    "param-p09-v75",
+    "param-p09-v76",
+    "param-p09-v77",
+    "param-p09-v78",
+    "param-p09-v79",
+    "param-p09-v80",
+    "param-p09-v81",
+    "param-p09-v82"
+   ],
+   "byte_start": 9924,
+   "byte_end": 11163,
+   "span_shas": [
+    "7249cd9661c8",
+    "1bcae4ee5d97",
+    "73f0e0284a3a",
+    "36bb244c72d6",
+    "ab32e5ae6da1",
+    "90a86ba21bd2",
+    "e6b532e300ca",
+    "6961b12a76ea",
+    "4297c30fbfe0"
+   ]
+  },
+  "param-p10": {
+   "verses": "83-91",
+   "verse_spans": [
+    "param-p10-v83",
+    "param-p10-v84",
+    "param-p10-v85",
+    "param-p10-v86",
+    "param-p10-v87",
+    "param-p10-v88",
+    "param-p10-v89",
+    "param-p10-v90",
+    "param-p10-v91"
+   ],
+   "byte_start": 11163,
+   "byte_end": 12400,
+   "span_shas": [
+    "05d159197bae",
+    "9506d2d780e8",
+    "7eddfdb773ed",
+    "6351a55b10bf",
+    "34080930ecbb",
+    "bbeada2a1189",
+    "3ef77c9c6715",
+    "8818697e4f0b",
+    "5cd760874c45"
+   ]
+  },
+  "param-p11": {
+   "verses": "92-100",
+   "verse_spans": [
+    "param-p11-v92",
+    "param-p11-v93",
+    "param-p11-v94",
+    "param-p11-v95",
+    "param-p11-v96",
+    "param-p11-v97",
+    "param-p11-v98",
+    "param-p11-v99",
+    "param-p11-v100"
+   ],
+   "byte_start": 12400,
+   "byte_end": 13587,
+   "span_shas": [
+    "b1301aa0f6da",
+    "b9b07602bb2c",
+    "f3aa12b3d70d",
+    "21bd97e73f72",
+    "760422e395c4",
+    "6cb6e2003db4",
+    "67ef164d1a02",
+    "d9a861efccbd",
+    "824662f7ca78"
+   ]
+  },
+  "param-p12": {
+   "verses": "101-105",
+   "verse_spans": [
+    "param-p12-v101",
+    "param-p12-v102",
+    "param-p12-v103",
+    "param-p12-v104",
+    "param-p12-v105"
+   ],
+   "byte_start": 13587,
+   "byte_end": 14247,
+   "span_shas": [
+    "b08725bceff7",
+    "bd2f72a26f31",
+    "678c662ca4d5",
+    "fb77f21bfb00",
+    "1f306f6a2476"
+   ]
+  }
+ },
+ "manifests": [
+  "paramarthasara.json"
+ ]
+}

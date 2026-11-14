@@ -1,0 +1,340 @@
+{
+ "format": "trika-chunk-verse/1",
+ "date": "2026-11-10",
+ "workdir": "kramastotra",
+ "chunks": {
+  "kram-p01": {
+   "verses": "1",
+   "verse_spans": [
+    "kram-p01-v01"
+   ],
+   "byte_start": 199,
+   "byte_end": 421,
+   "span_shas": [
+    "ccc97315e79d"
+   ]
+  },
+  "kram-p02": {
+   "verses": "2",
+   "verse_spans": [
+    "kram-p02-v02"
+   ],
+   "byte_start": 421,
+   "byte_end": 663,
+   "span_shas": [
+    "88e92d20930a"
+   ]
+  },
+  "kram-p03": {
+   "verses": "3",
+   "verse_spans": [
+    "kram-p03-v03"
+   ],
+   "byte_start": 663,
+   "byte_end": 912,
+   "span_shas": [
+    "beb748e1939a"
+   ]
+  },
+  "kram-p04": {
+   "verses": "4",
+   "verse_spans": [
+    "kram-p04-v04"
+   ],
+   "byte_start": 912,
+   "byte_end": 1142,
+   "span_shas": [
+    "aadba669d866"
+   ]
+  },
+  "kram-p05": {
+   "verses": "5",
+   "verse_spans": [
+    "kram-p05-v05"
+   ],
+   "byte_start": 1142,
+   "byte_end": 1360,
+   "span_shas": [
+    "160e9c999e60"
+   ]
+  },
+  "kram-p06": {
+   "verses": "6",
+   "verse_spans": [
+    "kram-p06-v06"
+   ],
+   "byte_start": 1360,
+   "byte_end": 1594,
+   "span_shas": [
+    "54c8d2414876"
+   ]
+  },
+  "kram-p07": {
+   "verses": "7",
+   "verse_spans": [
+    "kram-p07-v07"
+   ],
+   "byte_start": 1594,
+   "byte_end": 1836,
+   "span_shas": [
+    "9ac1dd293e46"
+   ]
+  },
+  "kram-p08": {
+   "verses": "8",
+   "verse_spans": [
+    "kram-p08-v08"
+   ],
+   "byte_start": 1836,
+   "byte_end": 2061,
+   "span_shas": [
+    "908baece66cb"
+   ]
+  },
+  "kram-p09": {
+   "verses": "9",
+   "verse_spans": [
+    "kram-p09-v09"
+   ],
+   "byte_start": 2061,
+   "byte_end": 2298,
+   "span_shas": [
+    "50e453a3984c"
+   ]
+  },
+  "kram-p10": {
+   "verses": "10",
+   "verse_spans": [
+    "kram-p10-v10"
+   ],
+   "byte_start": 2298,
+   "byte_end": 2529,
+   "span_shas": [
+    "2a192999c397"
+   ]
+  },
+  "kram-p11": {
+   "verses": "11",
+   "verse_spans": [
+    "kram-p11-v11"
+   ],
+   "byte_start": 2529,
+   "byte_end": 2761,
+   "span_shas": [
+    "78e9d30c9862"
+   ]
+  },
+  "kram-p12": {
+   "verses": "12",
+   "verse_spans": [
+    "kram-p12-v12"
+   ],
+   "byte_start": 2761,
+   "byte_end": 3005,
+   "span_shas": [
+    "d017b49aa6e7"
+   ]
+  },
+  "kram-p13": {
+   "verses": "13",
+   "verse_spans": [
+    "kram-p13-v13"
+   ],
+   "byte_start": 3005,
+   "byte_end": 3240,
+   "span_shas": [
+    "5cf254713ddb"
+   ]
+  },
+  "kram-p14": {
+   "verses": "14",
+   "verse_spans": [
+    "kram-p14-v14"
+   ],
+   "byte_start": 3240,
+   "byte_end": 3496,
+   "span_shas": [
+    "b8b15b97f2be"
+   ]
+  },
+  "kram-p15": {
+   "verses": "15",
+   "verse_spans": [
+    "kram-p15-v15"
+   ],
+   "byte_start": 3496,
+   "byte_end": 3735,
+   "span_shas": [
+    "28ec7a7a3828"
+   ]
+  },
+  "kram-p16": {
+   "verses": "16",
+   "verse_spans": [
+    "kram-p16-v16"
+   ],
+   "byte_start": 3735,
+   "byte_end": 3973,
+   "span_shas": [
+    "11835b2c8d51"
+   ]
+  },
+  "kram-p17": {
+   "verses": "17",
+   "verse_spans": [
+    "kram-p17-v17"
+   ],
+   "byte_start": 3973,
+   "byte_end": 4221,
+   "span_shas": [
+    "67f011802e8d"
+   ]
+  },
+  "kram-p18": {
+   "verses": "18",
+   "verse_spans": [
+    "kram-p18-v18"
+   ],
+   "byte_start": 4221,
+   "byte_end": 4480,
+   "span_shas": [
+    "7a2a23cb824c"
+   ]
+  },
+  "kram-p19": {
+   "verses": "19",
+   "verse_spans": [
+    "kram-p19-v19"
+   ],
+   "byte_start": 4480,
+   "byte_end": 4711,
+   "span_shas": [
+    "c567fe276513"
+   ]
+  },
+  "kram-p20": {
+   "verses": "20",
+   "verse_spans": [
+    "kram-p20-v20"
+   ],
+   "byte_start": 4711,
+   "byte_end": 4944,
+   "span_shas": [
+    "76f290427467"
+   ]
+  },
+  "kram-p21": {
+   "verses": "21",
+   "verse_spans": [
+    "kram-p21-v21"
+   ],
+   "byte_start": 4944,
+   "byte_end": 5194,
+   "span_shas": [
+    "015a3767ba2a"
+   ]
+  },
+  "kram-p22": {
+   "verses": "22",
+   "verse_spans": [
+    "kram-p22-v22"
+   ],
+   "byte_start": 5194,
+   "byte_end": 5441,
+   "span_shas": [
+    "1f81484175d7"
+   ]
+  },
+  "kram-p23": {
+   "verses": "23",
+   "verse_spans": [
+    "kram-p23-v23"
+   ],
+   "byte_start": 5441,
+   "byte_end": 5678,
+   "span_shas": [
+    "436557b935bc"
+   ]
+  },
+  "kram-p24": {
+   "verses": "24",
+   "verse_spans": [
+    "kram-p24-v24"
+   ],
+   "byte_start": 5678,
+   "byte_end": 5899,
+   "span_shas": [
+    "ec2c33ae5e82"
+   ]
+  },
+  "kram-p25": {
+   "verses": "25",
+   "verse_spans": [
+    "kram-p25-v25"
+   ],
+   "byte_start": 5899,
+   "byte_end": 6122,
+   "span_shas": [
+    "61895c7e39b1"
+   ]
+  },
+  "kram-p26": {
+   "verses": "26",
+   "verse_spans": [
+    "kram-p26-v26"
+   ],
+   "byte_start": 6122,
+   "byte_end": 6344,
+   "span_shas": [
+    "fb7a7dfb09a7"
+   ]
+  },
+  "kram-p27": {
+   "verses": "27",
+   "verse_spans": [
+    "kram-p27-v27"
+   ],
+   "byte_start": 6344,
+   "byte_end": 6594,
+   "span_shas": [
+    "42978ab01fef"
+   ]
+  },
+  "kram-p28": {
+   "verses": "28",
+   "verse_spans": [
+    "kram-p28-v28"
+   ],
+   "byte_start": 6594,
+   "byte_end": 6760,
+   "span_shas": [
+    "3c21e4b86ffe"
+   ]
+  },
+  "kram-p29": {
+   "verses": "29",
+   "verse_spans": [
+    "kram-p29-v29"
+   ],
+   "byte_start": 6760,
+   "byte_end": 6960,
+   "span_shas": [
+    "42a2c62cf6fc"
+   ]
+  },
+  "kram-p30": {
+   "verses": "30",
+   "verse_spans": [
+    "kram-p30-v30"
+   ],
+   "byte_start": 6961,
+   "byte_end": 7079,
+   "span_shas": [
+    "fe9662ba4a9d"
+   ]
+  }
+ },
+ "manifests": [
+  "kramastotra.json"
+ ]
+}
