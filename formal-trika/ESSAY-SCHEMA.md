@@ -53,7 +53,36 @@ decide nothing; decisions land outside the factory (scholar lane).
 
 ## Gate summary (essay_check.py)
 
-SHIPPABLE iff: schema-valid + chunk resolves + zero orphans + ≥1 track +
-theorems registry-checked (or UNVERIFIED-flagged) + tension (if present)
-resolves + prose adds no verses/claims. Anything else prints named
-failures and refuses.
+The implemented gate reports READY_FOR_HUMAN_REVIEW, not approval or
+publication. Its syntactic checks cannot establish that prose faithfully
+represents a source, that a theorem entails an interpretation, or that an
+edition is authentic. The descriptions above are a target schema and should
+not be read as a claim that the current checker enforces every field.
+
+## Amendment 2026-11-08 — T-tier source binding, version 2
+
+The compiler currently emits R-tier claims; it does not manufacture T-tier
+evidence. A T claim may enter the human-review gate only when its essay claim
+and matching `frozen_claims` receipt entry both carry these identical fields:
+
+* `source_binding_version`: integer `2` (the source-binding schema version).
+* `tier`: `T`; `span`: the exact Unicode text asserted; `span_sha256`: its
+  UTF-8 SHA-256 hex digest.
+* `source_sha256`: the UTF-8 SHA-256 hex digest of the entire current
+  `sanskrit` value for the uniquely resolved ledger work and locator.
+* `source_edition`: exactly the `source_edition` value on that ledger row.
+
+The gate checks that `span` occurs verbatim inside that particular passage,
+that both digests match, and that the edition string matches the ledger. An
+old T claim without version-2 evidence fails closed and must be explicitly
+reconstructed; the existing essay and receipt format identifiers and R-tier
+compiler output do not change. Duplicate claim IDs, duplicate target locators
+and unsafe work/locator names are rejected.
+
+This binds to a local ledger value, not an independently authenticated
+edition or a Git commit; an edition string alone is not proof of provenance.
+The OpenPatala `edition_label` is required to be present, but its relationship
+to the ledger's edition is not yet checked. A repeated span has no unique
+offset, and incomplete ledgers remain incomplete. Exact edition mapping,
+byte offsets, immutable repository revision, and a human source/meaning audit
+remain necessary before using this as stronger scholarly evidence.

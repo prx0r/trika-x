@@ -6,6 +6,7 @@ nonexistent chunk and only a matching receipt slug returned PASS. These
 synthetic fixtures prove each forgery class now fails closed.
 """
 import json
+import hashlib
 import os
 import subprocess
 import sys
@@ -14,8 +15,8 @@ import unittest
 from pathlib import Path
 
 TOOL = Path(__file__).resolve().parent.parent / "tools" / "essay_check.py"
-TW = Path(os.environ.get("TRANSLATION_WORK", "/root/translation-work"))
-TW_AVAILABLE = (TW / "phrdaya" / "passages.jsonl").is_file()
+SOURCE = "madhyavikāsāc cidānandalābhaḥ"
+SOURCE_HASH = hashlib.sha256(SOURCE.encode("utf-8")).hexdigest()
 
 
 def triple(tmp, slug, *, claims, theorems=(), chunk="phrdaya:phr-p05",
@@ -32,9 +33,8 @@ def triple(tmp, slug, *, claims, theorems=(), chunk="phrdaya:phr-p05",
           "claims": [{"id": f"CLM-{c['id']}", "text": c["text"],
                       "verse_id": c.get("verse_id", "v"),
                       "tier": c["tier"], "kind": "premise",
-                      **({"span": c["span"],
-                          "span_sha256": c["span_sha256"]}
-                         if "span" in c else {})}
+                      **{k: c[k] for k in
+                         ("span", "span_sha256", "source_sha256", "source_edition", "source_binding_version") if k in c}}
                      for c in claims],
           "theorems": [{"name": t, "tier": "UNVERIFIED"} for t in theorems],
           "tracks": ["F1"],
@@ -48,7 +48,10 @@ def triple(tmp, slug, *, claims, theorems=(), chunk="phrdaya:phr-p05",
         json.dumps(ej, ensure_ascii=False, indent=1), encoding="utf-8")
     rc = {"format": "expansion-receipt/3", "essay": receipt_essay or slug,
           "frozen_claims": (receipt_claims if receipt_claims is not None
-                            else [{"id": f"CLM-{c['id']}", "text": c["text"]}
+                            else [{"id": f"CLM-{c['id']}", "text": c["text"],
+                                   **({k: c[k] for k in
+                                       ("tier", "span", "span_sha256", "source_sha256", "source_edition", "source_binding_version") if k in c}
+                                      if c["tier"] == "T" else {})}
                                   for c in claims]),
           "theorems": (receipt_theorems if receipt_theorems is not None
                        else list(theorems))}
@@ -57,8 +60,9 @@ def triple(tmp, slug, *, claims, theorems=(), chunk="phrdaya:phr-p05",
 
 
 def run(slug, tmp):
+    env = {**os.environ, "TRANSLATION_WORK": str(tmp / "translation-work")}
     r = subprocess.run([sys.executable, str(TOOL), "--slug", slug,
-                        "--swarm", str(tmp)], capture_output=True, text=True,
+                        "--swarm", str(tmp)], capture_output=True, text=True, env=env,
                        timeout=120)
     return r.returncode, r.stdout + r.stderr
 
@@ -67,12 +71,15 @@ GOOD = [{"id": "001", "text": "eight terms", "verse_id": "v",
          "tier": "R"}]
 
 
-@unittest.skipUnless(TW_AVAILABLE,
-                     "needs a translation-work checkout (ledger for chunk check)")
 class TestEssayCheck(unittest.TestCase):
     def setUp(self):
         self.tmp = tempfile.TemporaryDirectory()
         self.dir = Path(self.tmp.name)
+        self.ledger = self.dir / "translation-work" / "phrdaya" / "passages.jsonl"
+        self.ledger.parent.mkdir(parents=True)
+        self.row = {"locator": "phr-p05", "sanskrit": SOURCE,
+                    "source_edition": "GRETIL"}
+        self.ledger.write_text(json.dumps(self.row, ensure_ascii=False) + "\n", encoding="utf-8")
 
     def tearDown(self):
         self.tmp.cleanup()
@@ -118,6 +125,62 @@ class TestEssayCheck(unittest.TestCase):
         rc, out = run("tb", self.dir)
         self.assertNotEqual(rc, 0)
         self.assertIn("span", out)
+
+    def text_claim(self, span="madhyavikāsāc"):
+        return {"id": "001", "text": "textual reading", "tier": "T", "span": span,
+                "span_sha256": hashlib.sha256(span.encode("utf-8")).hexdigest(),
+                "source_sha256": SOURCE_HASH, "source_edition": "GRETIL", "source_binding_version": 2}
+
+    def test_valid_text_claim_binds_source_and_receipt(self):
+        triple(self.dir, "real", claims=[self.text_claim()])
+        rc, out = run("real", self.dir)
+        self.assertEqual(rc, 0, out)
+
+    def test_invented_span_fails_even_with_matching_self_hash(self):
+        triple(self.dir, "fake", claims=[self.text_claim("invented quotation")])
+        rc, out = run("fake", self.dir)
+        self.assertNotEqual(rc, 0)
+        self.assertIn("span absent from source passage", out)
+
+    def test_changed_source_passage_fails(self):
+        triple(self.dir, "stale", claims=[self.text_claim()])
+        self.row["sanskrit"] += " changed"
+        self.ledger.write_text(json.dumps(self.row, ensure_ascii=False), encoding="utf-8")
+        rc, out = run("stale", self.dir)
+        self.assertNotEqual(rc, 0)
+        self.assertIn("source passage digest mismatch", out)
+
+    def test_changed_edition_fails(self):
+        triple(self.dir, "edition", claims=[self.text_claim()])
+        self.row["source_edition"] = "Different source"
+        self.ledger.write_text(json.dumps(self.row, ensure_ascii=False), encoding="utf-8")
+        rc, out = run("edition", self.dir)
+        self.assertNotEqual(rc, 0)
+        self.assertIn("source edition mismatch", out)
+
+    def test_duplicate_ledger_locator_fails(self):
+        triple(self.dir, "duplicate", claims=[self.text_claim()])
+        with self.ledger.open("a", encoding="utf-8") as f:
+            f.write(json.dumps(self.row, ensure_ascii=False) + "\n")
+        rc, out = run("duplicate", self.dir)
+        self.assertNotEqual(rc, 0)
+        self.assertIn("duplicated", out)
+
+    def test_changed_receipt_source_fails(self):
+        claim = self.text_claim()
+        receipt = {"id": "CLM-001", **{k: claim[k] for k in
+                   ("text", "tier", "span", "span_sha256", "source_sha256", "source_edition", "source_binding_version")}}
+        receipt["source_sha256"] = "changed"
+        triple(self.dir, "changedsource", claims=[claim], receipt_claims=[receipt])
+        rc, out = run("changedsource", self.dir)
+        self.assertNotEqual(rc, 0)
+        self.assertIn("source_sha256 differs", out)
+
+    def test_directory_traversal_in_chunk_fails(self):
+        triple(self.dir, "traversal", claims=GOOD, chunk="../phrdaya:phr-p05")
+        rc, out = run("traversal", self.dir)
+        self.assertNotEqual(rc, 0)
+        self.assertIn("chunk unparsable", out)
 
     def test_prereview_with_signoff_fails(self):
         triple(self.dir, "signed", claims=GOOD,
