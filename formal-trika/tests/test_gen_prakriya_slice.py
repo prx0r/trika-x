@@ -34,7 +34,7 @@ def run(*args):
                           capture_output=True, text=True, timeout=300)
 
 
-@unittest.skipUnless(PACK.is_file(), 'svread pack not present (SVREAD)')
+@unittest.skipUnless(_pack_present(), 'svread pack not present (SVREAD)')
 class TestPrakriyaSlice(unittest.TestCase):
     # -- pack-dependent (skip labelled when the svread checkout is absent) --
     @unittest.skipUnless(_pack_present(), 'svread pack not present (SVREAD)')
