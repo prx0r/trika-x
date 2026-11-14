@@ -14,8 +14,12 @@ expectation deliberately, never the other way round.
 - `formal-trika/tools/chatgpt_acceptance_run.py` — the reference runner
   (stdlib only). Proves the spec is executable, not prose:
   `python3 formal-trika/tools/chatgpt_acceptance_run.py` → `16/16`.
-- `formal-trika/tests/test_chatgpt_acceptance.py` — CI wrapper (same pattern
-  as `test_mcp_bridge.py`).
+- `formal-trika/tests/chatgpt_connected_acceptance.json` — T16–T20 for
+  connected ChatGPT sessions (native plugin tools, no raw RPC). Steps carry
+  `"box_runnable": false` and SKIP with their reason outside ChatGPT.
+- `formal-trika/tests/test_chatgpt_acceptance.py` — CI wrapper: raw suite
+  must pass live; connected suite must skip cleanly (same pattern as
+  `test_mcp_bridge.py`).
 
 ## What it covers
 
@@ -32,7 +36,28 @@ expectation deliberately, never the other way round.
 | T12 | A second host serves the same protocol (no single-endpoint theater) |
 | T13–T15 | GEO: robots names AI crawlers + sitemap; sitemap exposes claim pages; llms.txt names the verification path |
 
-## Copy-paste prompt for ChatGPT (or any MCP agent)
+## Two execution modes (read this first — added 2026-11-14)
+
+ChatGPT sessions differ in what they can reach. The suite comes in two files
+for the two realities, same verdict contract in both:
+
+| Mode | File | Who runs it | Transport |
+|---|---|---|---|
+| **raw-rpc** T0–T15 | `formal-trika/tests/chatgpt_acceptance.json` | any agent with HTTPS (box runner, other agents, CI) | raw JSON-RPC POST + plain GET |
+| **connected-tool** T16–T20 | `formal-trika/tests/chatgpt_connected_acceptance.json` | ChatGPT with the Svatantrya plugin connected | native connected tools; NO raw RPC needed |
+
+Measured 2026-11-14: **raw mode is green end-to-end (16/16) from a box
+runner.** Connected mode has exactly one PARTIAL observation on record (T18
+evidence hash via plugin) and has **never completed a full pass** — a
+connected ChatGPT session had no generic JSON-RPC tools/list/call transport
+and no page fetch. T19 (connected formal trace) is the single most valuable
+unrun check in the estate: if it returns COMPLETE with named theorems, the
+whole chain is proven from inside ChatGPT itself.
+
+Run the reference runner with `--suite` to pick a file; steps marked
+`"box_runnable": false` SKIP with their reason instead of failing.
+
+## Copy-paste prompt for ChatGPT (or any MCP agent) — raw mode
 
 > Fetch https://raw.githubusercontent.com/prx0r/trika-x/main/formal-trika/tests/chatgpt_acceptance.json
 > (use the PR branch path instead when testing a PR). For each step in order,
@@ -43,6 +68,20 @@ expectation deliberately, never the other way round.
 > actually received. At the end, give the tally X/16 and paste any failing
 > step's full response. If a pinned verbatim (theorem name, status string) has
 > legitimately changed upstream, say so explicitly instead of marking it pass.
+
+## Copy-paste prompt for ChatGPT (connected mode — use this one)
+
+> You have the Svatantrya plugin connected (native tools, no raw JSON-RPC).
+> Fetch https://raw.githubusercontent.com/prx0r/trika-x/chatgpt-acceptance-suite/formal-trika/tests/chatgpt_connected_acceptance.json
+> (use `main` instead of the branch name once merged). For steps T16–T20 in
+> order, perform each step with your connected Svatantrya tools; where no
+> connected equivalent exists, say NOT_RUNNABLE with the reason instead of
+> inventing a call. For each step report PASS / FAIL / SKIP with the observed
+> value next to the expected one. At the end give the tally, fill the report
+> template below (same shape as the raw-mode one, format tag
+> `svatantrya.chatgpt-acceptance-report/1`), and flag T19 explicitly: a
+> COMPLETE formal trace from inside ChatGPT is a first, and a FAIL there is
+> the highest-priority finding in this program.
 
 ## Rules for maintainers
 

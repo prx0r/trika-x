@@ -150,8 +150,14 @@ def main():
     only = ap[ap.index("--only") + 1] if "--only" in ap else None
     spec = json.loads(suite.read_text(encoding="utf-8"))
     steps = [s for s in spec["steps"] if only is None or s["id"] == only]
-    passed, failed = [], []
+    passed, failed, skipped = [], [], []
     for s in steps:
+        if s.get("box_runnable") is False:
+            skipped.append(s["id"])
+            print("SKIP " + s["id"] + "  " + s["name"]
+                  + "  :: requires connected-tool environment (ChatGPT side): "
+                  + str(s.get("skip_reason", "no box equivalent")))
+            continue
         try:
             ok, detail = run_step(s)
         except Exception as e:  # noqa: BLE001 — a crash is a failed step, never a pass
@@ -159,7 +165,8 @@ def main():
         (passed if ok else failed).append(s["id"])
         print(("PASS " if ok else "FAIL ") + s["id"] + "  " + s["name"]
               + ("" if ok else "  :: " + " | ".join(detail)))
-    print(f"\n{len(passed)}/{len(passed) + len(failed)} steps passed")
+    total = len(passed) + len(failed) + len(skipped)
+    print(f"\n{len(passed)}/{total} passed, {len(skipped)} skipped, {len(failed)} failed")
     return 0 if not failed else 1
 
 
