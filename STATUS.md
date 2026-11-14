@@ -24,7 +24,7 @@ what it counts; nothing here implies human acceptance or deployment.*
 | `review_status.py` (0 Core / 157 Frontier) | IMPLEMENTED | trika-x | `--check` |
 | `decision_check.py`, `chunk_verse.py`, `crux_queue.py` | IMPLEMENTED | trika-x | direct run |
 | `review_packet.py` (7 packets queued) | IMPLEMENTED | trika-x | `swarm/review-packets/` |
-| `mcp_catalog.py` (104 tools) + gateway + pretest | IMPLEMENTED | trika-x | `--check`, 11 gateway tests |
+| `mcp_catalog.py` (112 tools) + gateway + pretest | IMPLEMENTED | trika-x | `--check`, 11 gateway tests |
 | `MCP-OPS.md` (operating guide) + `DOCS.md` (entry point + map) | IMPLEMENTED | trika-x | read + run their commands |
 | `docs/log/` (20 dated records, links verified) | IMPLEMENTED | trika-x | repo-wide md-link audit, 0 broken |
 | `docs/AI-DISCOVERABILITY-2026-11-08.md` (GEO research notes) | IMPLEMENTED | trika-x | sources cited; plan in svread |

@@ -52,13 +52,13 @@ checked by `trika-x formal-trika/tools/trace_bundle.py` (compile) and
 openpatala__resolve / openpatala__coverage
 formal__trace / formal__bridge / formal__evidence / formal__table
 formal__gaps / formal__runs / formal__axioms
-scholar__*        (33 tools, svread evidence + account)
+scholar__*        (41 tools, svread evidence + account + layers/forks/wheel)
 translation__*    (16 tools, translation-work shastra)
 bookfactory__*    (22 tools, draft-only)
 video__*          (18 tools, gated renders)
 ```
 
-104 tools total, all live (5 children + local families). FailOpen: a dead child
+112 tools total, all live (5 children + local families). FailOpen: a dead child
 is excluded, never fatal. Catalog: `formal-trika/data/mcp-catalog.json`.
 No tool anywhere can sign, publish, or ship.
 

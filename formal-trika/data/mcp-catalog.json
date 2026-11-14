@@ -1,20 +1,20 @@
 {
  "format": "trika-mcp-catalog/1",
- "generated_at": "2026-11-08T05:47:15Z",
+ "generated_at": "2026-11-14T04:27:39Z",
  "gateway": {
   "name": "openpatala-federation",
   "version": "1",
   "title": "Openpatala federated parent",
   "instructions": "Navigate from openpatala (identity root) across the federation:\n\n1. openpatala__resolve {work} \u2014 is this work known? ledger + witness status. UNRESOLVED = draft-only.\n2. scholar__passage_evidence {work, target} \u2014 read the Sanskrit + layers (internal codes T1/L0/argmap/L2/C1/C2/L3/L4; public names in trika-x layer-names.json).\n3. scholar__audit_draft / link_claims / pushback \u2014 check a draft before a human signs. Machine report, never verdict.\n4. translation__status {work} (shastra) \u2014 registry state, proof, what the swarm is doing. Writes never push/signoff.\n5. bookfactory__* (bookfactory) \u2014 draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.\n6. video__* (videofactory) \u2014 vf_gate/vf_triage to read state; vf_launch/vf_queue ship ONLY gated+approved renders (see videofactory#1: defaults should be explicit opt-in).\n   openpatala_mcp__get_health \u2014 direct child health/counts (works, passages, witnesses).\n7. openpatala__coverage \u2014 how much of the corpus is bridged.\n8. formal__trace {work, target} \u2014 full Sanskrit-to-essay trace bundle for one\n   chunk (source bytes, layers, proofs, formal theorems, citing essays).\n   Verdict COMPLETE/PARTIAL + named gaps; BLOCKED stays BLOCKED.\n\nLaws: UNRESOLVED/draft-only inputs stay draft-only. No auto-sign, auto-publish, auto-ship. Human disposes; receipts are the trail.\n"
  },
- "count": 104,
+ "count": 112,
  "families": {
   "bookfactory": 22,
   "federation": 1,
   "formal": 7,
   "openpatala": 2,
   "openpatala_mcp": 5,
-  "scholar": 33,
+  "scholar": 41,
   "translation": 16,
   "video": 18
  },
@@ -377,6 +377,12 @@
    ]
   },
   {
+   "name": "scholar__layers_index",
+   "family": "scholar",
+   "description": "[scholar] Map of the canonical translation-work layer corpus: per work, per song, which of t1/l0/argmap/l2/l3/l4/c1/c2 exist, with file hashes, verse-id unions,",
+   "required": []
+  },
+  {
    "name": "scholar__link_claims",
    "family": "scholar",
    "description": "[scholar] Build a revision-bound claim table. CURRENT means the recorded hash matches a locally verified bundled projection, not textual authority or the latest",
@@ -458,6 +464,15 @@
    "name": "scholar__passage_evidence",
    "family": "scholar",
    "description": "[scholar] Read hash-checked Sanskrit and editorial layers for a passage.",
+   "required": [
+    "work",
+    "target"
+   ]
+  },
+  {
+   "name": "scholar__passage_layers",
+   "family": "scholar",
+   "description": "[scholar] One passage full layer stack from the canonical translation-work files (not the site projection): source, per-layer data and hashes, registry status. ",
    "required": [
     "work",
     "target"
@@ -561,12 +576,59 @@
    "required": []
   },
   {
+   "name": "scholar__translation_forks",
+   "family": "scholar",
+   "description": "[scholar] Where this passage translation forks: L0 token options/fork state and ARGMAP option choices/uncertainties. A fork is a question, not a verdict.",
+   "required": [
+    "work",
+    "target"
+   ]
+  },
+  {
    "name": "scholar__vidyut_candidates",
    "family": "scholar",
    "description": "[scholar] Generate unreviewed transliteration and optional metre candidates from a bundled passage.",
    "required": [
     "work",
     "target"
+   ]
+  },
+  {
+   "name": "scholar__wheel_certificate",
+   "family": "scholar",
+   "description": "[scholar] Derivation certificate for one form: stored cert + live tier-2 recompute (never trusts stored bytes).",
+   "required": [
+    "form"
+   ]
+  },
+  {
+   "name": "scholar__wheel_harness",
+   "family": "scholar",
+   "description": "[scholar] Learning-harness map: stages, gates, tutor files, verify summary, trika links (fetch harness.json for the full one-fetch program).",
+   "required": []
+  },
+  {
+   "name": "scholar__wheel_level",
+   "family": "scholar",
+   "description": "[scholar] Get one tutor level prompt (goal, rules, drills, gate) by number 1-6.",
+   "required": [
+    "level"
+   ]
+  },
+  {
+   "name": "scholar__wheel_lookup",
+   "family": "scholar",
+   "description": "[scholar] Look up one Sanskrit form in the vendored grammar pack: gloss layer, derivation trace, lessons, verses.",
+   "required": [
+    "form"
+   ]
+  },
+  {
+   "name": "scholar__wheel_verify",
+   "family": "scholar",
+   "description": "[scholar] Prove one form fast: AGREE / DISAGREE_STANDS / MACHINE_GAP / CURATED_ONLY with evidence.",
+   "required": [
+    "form"
    ]
   },
   {

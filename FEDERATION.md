@@ -182,7 +182,7 @@
 
  | Artifact | Where | Version |
  |---|---|---|
- | Gateway (parent server) | trika-x/formal-trika/tools/federation_gateway.py | stdio NDJSON; all 5 children live (104 tools); serves formal__trace |
+  | Gateway (parent server) | trika-x/formal-trika/tools/federation_gateway.py | stdio NDJSON; all 5 children live (112 tools 2026-11-14, scholar 41); serves formal__trace |
  | Children config | trika-x/formal-trika/data/federation-children.json | trika-federation-children/1 |
  | Gateway tests (11 GREEN incl. live trace, guide prefixes, catalog) | trika-x/formal-trika/tests/test_federation_gateway.py | — |
  | Trace compiler + verifier | trika-x/formal-trika/tools/trace_bundle.py | trika-trace/1 |

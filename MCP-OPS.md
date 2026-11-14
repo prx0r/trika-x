@@ -9,8 +9,8 @@ the catalog disagree, the catalog wins and this doc is stale — regenerate both
 ## 0. What exists (one paragraph)
 
 One stdio parent, `openpatala-federation` (`formal-trika/tools/federation_gateway.py`),
-multiplexes five child MCPs plus two local tool families. It exposes **104 tools
-across 8 families**, prefix-renamed `<child>__<tool>` so nothing collides.
+multiplexes five child MCPs plus two local tool families. It exposes **112 tools
+across 8 families** (2026-11-14: scholar 33→41), prefix-renamed `<child>__<tool>` so nothing collides.
 Children are started as subprocesses from `formal-trika/data/federation-children.json`;
 a dead child is FailOpen (excluded, calls to it error), never fatal. The parent
 is **read-mostly routing, not an auth boundary**: write tools that already
@@ -27,7 +27,7 @@ openpatala-federation  (stdio NDJSON; parent)
   ├─ formal          7   formal__trace|bridge|evidence|table|gaps|runs|axioms (in-process, read-only)
   ├─ federation      1   federation__guide                          (in-process)
   ├─ openpatala_mcp  5   resolve/get_bundle/search/get_frontier/get_health
-  ├─ scholar        33   evidence, audit_draft, PUSHBACK, sources, reviews, account
+  ├─ scholar        41   evidence, audit_draft, PUSHBACK, sources, reviews, account + layers_index/passage_layers/forks/wheel×5
   ├─ translation    16   status, gates, validate, concepts, lore, swarm_*
   ├─ bookfactory    22   overview, quote_preview, check_lane, read_*, stage (draft/preview)
   └─ video          18   vf_status, vf_gate, vf_triage, vf_queue, vf_launch (gated)
@@ -145,7 +145,7 @@ python3 tools/mcp_catalog.py --check
 ```
 
 A healthy box prints: 11 tests OK; pretest GREEN (28 representative tools);
-catalog SHARP (104 tools, 8 families).
+catalog SHARP (112 tools, 8 families, 2026-11-14).
 
 ---
 
