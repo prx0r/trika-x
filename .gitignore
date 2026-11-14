@@ -5,3 +5,4 @@ papers/
 __pycache__/
 .lean/
 lake-packages/
+docs/log/nightly-verify.log

@@ -95,12 +95,14 @@ Quota/GPU: propose-loop continuous run, tau scale-up, COMET baselines.
 
 ```sh
 cd /root/trika-x && git status --short          # must be clean to start work
-python3 -m unittest discover -s formal-trika/tests   # 117 green (2026-11-14)
+python3 -m unittest discover -s formal-trika/tests   # 119 green (2026-11-14; 117 on main + 2 pilot-gate)
 python3 formal-trika/tools/evidence_check.py     # 206 theorems / 155 entries (+1 generated cert), 16/154 chunks (10%)
 python3 formal-trika/tools/table.py --check      # rc=0
 python3 formal-trika/tools/freshness.py --check  # SHARP
 python3 tools/federation_pretest.py              # GREEN (28 expected tools)
 python3 tools/mcp_catalog.py --check             # SHARP (115 tools, 2026-11-14)
+python3 formal-trika/tools/doc_check.py            # docs: SHARP (registry + claims + links + geometry)
+python3 formal-trika/tools/formal_sketch_check.py formal-trika/pilot/dsp-a18  # ALL GATES PASS
 python3 formal-trika/tools/essay_derive.py       # 6 essays, all PARTIAL
 cd /root/openpatala && python3 check.py           # GREEN + 2 recorded BLOCKED roots
 ```
