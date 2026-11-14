@@ -1,0 +1,132 @@
+{
+ "assurance": {
+  "chunk_gate": "UNKNOWN",
+  "formal_run": "UNBOUND",
+  "formal_run_note": "registry references only; no per-declaration run digest bound",
+  "publication": "NOT_AUTHORIZED",
+  "publication_note": "human sign-off required; never automatic",
+  "review": "UNREVIEWED",
+  "review_note": "no review decision bound to this trace",
+  "source_span_note": "ledger span is an excerpt; the edition volume is not hashed — span completeness unverified",
+  "source_span_verified": "UNKNOWN",
+  "trace_links_present": "FAIL",
+  "witness": "UNPINNED"
+ },
+ "caveats": [],
+ "chunk": {
+  "immutable_id": "pt:pid:mukta-m00125:510837d104ff",
+  "target": "mukta-m0-p211",
+  "work": "mukta-m00125"
+ },
+ "essays": {
+  "citing": [],
+  "projection_sha256": "c4895a1c1d2e3a86112b6c59a13ca5ad29b9e0d8946d32bfeab4109ddefa817d"
+ },
+ "formal": {
+  "status": "none",
+  "theorems": []
+ },
+ "format": "trika-trace/1",
+ "gaps": [
+  "layer:l3",
+  "layer:l4",
+  "identity:db"
+ ],
+ "identity": {
+  "db": "postgresql://patala:***@localhost:5432/openpatala",
+  "rows": {
+   "editions": [],
+   "etexts": [],
+   "witnesses_total": 0
+  },
+  "status": "UNRESOLVED"
+ },
+ "layers": {
+  "argmap": {
+   "path": "mukta-m00125/data/mukta-m0-p211.argmap.json",
+   "present": true,
+   "sha256": "c963648e991d2c6a5bbfae644991f46e70550acfd31aeacfe598ffdf63b8d2f3",
+   "status": "BOUND"
+  },
+  "c1": {
+   "path": "mukta-m00125/data/mukta-m0-p211.c1.json",
+   "present": true,
+   "sha256": "af85a807724cf5e4a9778b1a0581e50ad83bc7e67bb734bba4d9f53bce5d2ace",
+   "status": "BOUND"
+  },
+  "c2": {
+   "note": "C2 renders are optional (owner: existing C2 stays; waived)",
+   "present": false,
+   "status": "NOT-APPLICABLE"
+  },
+  "l0": {
+   "path": "mukta-m00125/data/mukta-m0-p211.l0.json",
+   "present": true,
+   "sha256": "4d95b704dcee8c2b16d178c2b1086bfacf46089793a7c4b4043afb04bcb8a266",
+   "status": "BOUND"
+  },
+  "l2": {
+   "path": "mukta-m00125/data/mukta-m0-p211.l2.json",
+   "present": true,
+   "sha256": "cdf3a24ef40459b08a7575073976e46fdbc66330547e9822b0954b1655044e48",
+   "status": "BOUND"
+  },
+  "l3": {
+   "present": false,
+   "status": "UNKNOWN"
+  },
+  "l4": {
+   "present": false,
+   "status": "UNKNOWN"
+  },
+  "t1": {
+   "path": "mukta-m00125/data/mukta-m0-p211.t1.json",
+   "present": true,
+   "sha256": "9c09b2bfa09c3099abba8830ddb646d7e8e2c926dce3373055d05165c8a8cca0",
+   "status": "BOUND"
+  }
+ },
+ "open_problems": [
+  "passage id absent from box DB"
+ ],
+ "produced_at": "2026-11-14T08:31:37+00:00",
+ "produced_by": {
+  "tool": "trace_bundle/1",
+  "trika_rev": "UNKNOWN"
+ },
+ "proofs": {
+  "chunk_gate": {
+   "note": "no GATE.json",
+   "status": "UNKNOWN"
+  },
+  "song_proof": {
+   "blocking": [
+    "ALIGN_NODISP v5263 ratio=0.872"
+   ],
+   "deterministic_gate": "BLOCKED",
+   "file": "mukta-m00125/proof/proof-mukta-m0-p211.json",
+   "sha256": "c587bdc8483961b6efae76437d98dad086dfd98a58edc232dac2d3db49e11646",
+   "status": "BLOCKED",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 0
+  }
+ },
+ "source": {
+  "bytes_present": true,
+  "bytes_sha256": "510837d104ff1721d6c884f11453cb8134823dae5e278a27c230aca1ac45af2b",
+  "edition": {
+   "label": null,
+   "status": "UNKNOWN"
+  },
+  "immutable_id": "pt:pid:mukta-m00125:510837d104ff",
+  "ledger": "mukta-m00125/passages.jsonl",
+  "source_sha_file": null,
+  "verses": "5251-5275",
+  "witness": {
+   "id": null,
+   "status": "UNPINNED"
+  }
+ },
+ "verdict": "PARTIAL",
+ "verdict_scope": "links present only — see assurance, gaps, caveats. COMPLETE is not approval, proof, or witness verification."
+}
