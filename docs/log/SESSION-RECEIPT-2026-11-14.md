@@ -66,3 +66,26 @@ write sheaf. The bridge binds 127.0.0.1 by design; exposing it is an owner call.
 - Nightly verify log left untracked (`docs/log/nightly-verify.log`).
 
 *Machine proposes. Human disposes. BLOCKED is never PASS.*
+
+## Connector check (ChatGPT side, same day) — triaged
+
+A connector session retrieved passage evidence for all 15 Bodhapancadasika
+verses (bod-p01-v01…bod-p15-v15) but could not reach `openpatala__resolve`,
+`scholar__layers_index`, or `scholar__translation_forks`. Verdict after a
+live probe from this box: **all three are LIVE on the federation gateway**
+(plus `scholar__passage_evidence`), 112 tools total. Nothing to fix on the
+gateway — the connector session was reading a stale tool list (pre-11-11
+registry: no gateway-local tools, no wheel/layers/forks additions). Cure:
+refresh `svread/data/mcp-registry.json` (still says 109/scholar 38) and point
+the connector at the bridge (#13) once the tunnel lands.
+
+Other findings from that session, routed:
+- Work listing `versions: 0` + no projection hash vs passage evidence
+  carrying `ec5c23d5…` → svread lane (emit-pipeline metadata mismatch).
+- No sourced Devanagari layer; renderer derives it mechanically from IAST →
+  translation-work lane to confirm (agent handled it right by labelling it
+  derived, not sourced). English returned is L2 plain — labelling correct.
+- Verse-1 `yadantaḥ` limit/abode fork preserved in ARGMAP → needs the forks
+  tool, which exists; blocked only by the stale connector list above.
+- `mūḍānāṃ` (v11) kept verbatim instead of silently corrected → correct,
+  no action.
