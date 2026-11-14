@@ -60,3 +60,78 @@ expectation deliberately, never the other way round.
 5. Known GEO improvement (svread lane, not this repo): `llms.txt` names the
    verification path but does not yet point agents at the live MCP endpoint
    URL. Filed as a lane note; the suite asserts what exists today.
+
+## Reporting back — so results are interpretable, not vibes
+
+A test without a readable report is noise. Every ChatGPT run MUST return two
+things: (a) a filled copy of the report template below, and (b) the same
+content as JSON matching `formal-trika/tests/chatgpt_report_schema.json`
+(validate it here first with `python3 formal-trika/tools/chatgpt_report_check.py report.json`).
+
+### Copy-paste report template (ChatGPT fills this in, verbatim values only)
+
+```
+CHATGPT ACCEPTANCE REPORT — <date>
+Suite commit: <trika-x sha the JSON was fetched from, or branch@sha>
+Agent: <model + mode, e.g. ChatGPT-5 + MCP connector "Svatantrya">
+Connector/tools used: <native MCP tools / plugin name / manual curl>
+Auth used: none | bearer(owner) — writes were/were not attempted: ...
+
+PER-STEP (one line each, observed value REQUIRED — "works"/"looks good" is not an observation):
+T0-handshake:    PASS/FAIL/SKIP — observed: <protocolVersion echoed>
+T1-discovery:    PASS/FAIL/SKIP — observed: <N tools; named-tool check result>
+T2-known:        PASS/FAIL/SKIP — observed: <status + entity id>
+T3-unknown:      PASS/FAIL/SKIP — observed: <status value returned>
+T4-evidence:     PASS/FAIL/SKIP — observed: <bytes; has layers true/false; sha pattern ok true/false>
+T5-trace:        PASS/FAIL/SKIP — observed: <verdict; theorem count; first theorem name>
+T6-gaps:         PASS/FAIL/SKIP — observed: <total=N; gaps count>
+T7-unknown-tool: PASS/FAIL/SKIP — observed: <HTTP code; error text, first 120 chars>
+T8-sitemap:      PASS/FAIL/SKIP — observed: <HTTP code>
+T9-llms:         PASS/FAIL/SKIP — observed: <HTTP code>
+T10-claim:       PASS/FAIL/SKIP — observed: <HTTP code; UNPINNED present true/false>
+T11-registry:    PASS/FAIL/SKIP — observed: <HTTP code; parseable true/false>
+T12-2nd-host:    PASS/FAIL/SKIP — observed: <tool count on formal host>
+T13-robots:      PASS/FAIL/SKIP — observed: <GPTBot listed true/false; sitemap ref true/false>
+T14-claims:      PASS/FAIL/SKIP — observed: <claim URL found true/false>
+T15-llms-names:  PASS/FAIL/SKIP — observed: <formal__trace named true/false>
+
+TALLY: <pass>/<fail>/<skip> out of 16. Must add to 16.
+ANOMALIES (anything surprising, even if steps passed): <free text, or "none">
+VERDICT: GREEN (all pass) | YELLOW (no FAIL, ≥1 SKIP with reason each) | RED (≥1 FAIL)
+```
+
+SKIP is allowed only with a reason in the observed field (e.g. "connector
+lacks raw HTTP fetch; T8–T11 unverifiable from here"). A SKIP without a
+reason is a FAIL of the report, not of the system.
+
+### Interpretation guide — what each outcome means, and what to do
+
+| Outcome | Meaning | Action |
+|---|---|---|
+| T0 FAIL | endpoint down, protocol changed, or network blocked | check `curl` handshake manually; check systemd/tunnel status; do not merge/deploy anything until green |
+| T1 count drop / tool missing | surface changed (tool added/removed/renamed) or child down (FailOpen excluded it) | diff live `tools/list` vs pin; if a child is down, fix the child; update pin deliberately if the change is intended |
+| T2 FAIL | identity regression — resolver no longer resolves a known work | investigate openpatala immediately; nothing downstream is trustworthy until this is green |
+| T3 anything but NONE | **critical**: resolver invents entities or errors opaquely | stop; investigate before any merge/deploy touching identity |
+| T4 FAIL | evidence pipeline changed (projection format, layers key, missing sha) | diff against projection source; svread lane if content moved, trika-x lane if the contract moved |
+| T5 verdict ≠ COMPLETE | data changed (new theorems? gaps closed?) or formal service issue | compare theorem list to pin; check `formal__runs` / harness; a newly COMPLETE chunk is good news to record, not a failure to hide |
+| T5 theorems differ | registry changed (new rung promoted, entry edited) | verify against EVIDENCE.json on main; update pin with date if legitimate |
+| T6 gaps empty | suspicious: either coverage completed (verify independently via treeka!) or gap reporting broke | do NOT celebrate without the independent check |
+| T7 transport ≠ 200 or no clean error | transport regression | critical: the fail-closed contract is broken; fix before anything else |
+| T8–T11 FAIL | svread surface/deploy issue, not trika-x logic | check deploy status + manifest; the trika-x side is likely fine |
+| T12 FAIL | second host down or diverged | check formal host health independently; single-host dependence is a finding |
+| T13–T15 FAIL | robots/sitemap/llms.txt changed or undeployed | check svread deploy + emitter; counts move, names should not |
+| Verdict GREEN | all 16 pass | surface matches the repo; safe to cite this run as provenance |
+| Verdict YELLOW | no FAIL but SKIP(s) with reasons | record what ChatGPT could not exercise (e.g. no raw HTTP); re-run those steps another way |
+| Verdict RED | ≥1 FAIL | do not describe the surface as verified; fix per the row above, re-run, attach both reports |
+
+### How we tell "system changed" from "test rot"
+
+- The pin carries the date it was measured (`pinned 2026-11-14` in the
+  suite). A mismatch against a pin older than the last relevant deploy is
+  *expected drift until proven otherwise* — check deploys first, code second.
+- Counts use `gte` (growth is normal). Only names, status strings, and
+  structural shapes use exact match — those changing is always a finding.
+- The reference runner (`chatgpt_acceptance_run.py`) is the tiebreaker: if
+  the runner passes from here and ChatGPT reports FAIL, the difference is in
+  ChatGPT's path (connector, caching, tool naming) — record exactly which,
+  it matters for real users too.
