@@ -1,4 +1,5 @@
 # What the Trika-X formulation must include — requirements from the lived decode
+*Status: REFERENCE. Formalization requirements; stable reference.
 
 **Date:** 2026-11-06. **Status:** PROPOSED (requirements, not results).
 **Evidence:** `nibbanahelp/corpus/abhidhamma/play/day-07.decode.md` — 48 moments,

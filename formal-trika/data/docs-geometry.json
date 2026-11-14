@@ -1,0 +1,199 @@
+{
+ "format": "trika-docs-geometry/1",
+ "generated": "2026-11-14",
+ "note": "Edges are curated claims with the reason each is believed. repos resolve to /root/<id> (skipped with note when absent, e.g. CI); data/code resolve inside trika-x; docs resolve to repo-root *.md. cites edges require the source to name the target.",
+ "nodes": [
+  {
+   "id": "trika-x",
+   "kind": "repo"
+  },
+  {
+   "id": "openpatala",
+   "kind": "repo"
+  },
+  {
+   "id": "translation-work",
+   "kind": "repo"
+  },
+  {
+   "id": "svread",
+   "kind": "repo"
+  },
+  {
+   "id": "ipvv",
+   "kind": "repo"
+  },
+  {
+   "id": "bookfactory",
+   "kind": "repo"
+  },
+  {
+   "id": "videofactory",
+   "kind": "repo"
+  },
+  {
+   "id": "sanskritbench",
+   "kind": "repo"
+  },
+  {
+   "id": "sanskrithelp",
+   "kind": "repo"
+  },
+  {
+   "id": "nibbanahelp",
+   "kind": "repo"
+  },
+  {
+   "id": "patalacheckpoints",
+   "kind": "repo"
+  },
+  {
+   "id": "aoc",
+   "kind": "repo"
+  },
+  {
+   "id": "formal-trika/EVIDENCE.json",
+   "kind": "data"
+  },
+  {
+   "id": "formal-trika/data/freshness.json",
+   "kind": "data"
+  },
+  {
+   "id": "formal-trika/data/mcp-catalog.json",
+   "kind": "data"
+  },
+  {
+   "id": "formal-trika/data/traces/index.json",
+   "kind": "data"
+  },
+  {
+   "id": "formal-trika/data/treeka.json",
+   "kind": "data"
+  },
+  {
+   "id": "formal-trika/tools/federation_gateway.py",
+   "kind": "code"
+  },
+  {
+   "id": "formal-trika/tools/doc_check.py",
+   "kind": "code"
+  },
+  {
+   "id": "formal-trika/tools/evidence_check.py",
+   "kind": "code"
+  },
+  {
+   "id": "formal-trika/control/run.sh",
+   "kind": "code"
+  },
+  {
+   "id": "deitybody",
+   "kind": "repo"
+  }
+ ],
+ "edges": [
+  {
+   "from": "trika-x",
+   "to": "translation-work",
+   "kind": "consumes",
+   "note": "evidence_check + bridge_resolve read ledgers via --tw; verified by those gates"
+  },
+  {
+   "from": "trika-x",
+   "to": "openpatala",
+   "kind": "consumes",
+   "note": "box DB reads via psycopg2; check.py GREEN on box"
+  },
+  {
+   "from": "trika-x",
+   "to": "svread",
+   "kind": "consumes",
+   "note": "svread scholar projections + source-map feed traces; emit_verify re-checks exact bytes"
+  },
+  {
+   "from": "svread",
+   "to": "trika-x",
+   "kind": "consumes",
+   "note": "gateway spawns federation_gateway.py as federation child; gateway tests green"
+  },
+  {
+   "from": "svread",
+   "to": "trika-x",
+   "kind": "verifies",
+   "note": "emit_verify.py publishes trika-x trace bundles; --check GREEN"
+  },
+  {
+   "from": "openpatala",
+   "to": "svread",
+   "kind": "cites",
+   "note": "Scholar dossier/blocked on openpatala identity; resolve/get_bundle live"
+  },
+  {
+   "from": "translation-work",
+   "to": "trika-x",
+   "kind": "cites",
+   "note": "AGENTS.md: formal alignment via trika-x gates; never writes EVIDENCE"
+  },
+  {
+   "from": "bookfactory",
+   "to": "translation-work",
+   "kind": "renders",
+   "note": "BACKBONE.md s5: packs carry PROSE basis; gated, never ships ungated"
+  },
+  {
+   "from": "videofactory",
+   "to": "translation-work",
+   "kind": "renders",
+   "note": "BACKBONE.md s5: packs carry PROSE basis; gated renders only"
+  },
+  {
+   "from": "nibbanahelp",
+   "to": "trika-x",
+   "kind": "feeds",
+   "note": "N1 tensions export feeds the crux queue (read-only, VOICE RULE)"
+  },
+  {
+   "from": "sanskritbench",
+   "to": "trika-x",
+   "kind": "calibrates",
+   "note": "Thresholds stamped for trika-x gates; advisory only, never verdicts"
+  },
+  {
+   "from": "patalacheckpoints",
+   "to": "openpatala",
+   "kind": "reference",
+   "note": "Atlas bibliography referenced by openpatala, never forked"
+  },
+  {
+   "from": "ipvv",
+   "to": "trika-x",
+   "kind": "feeds",
+   "note": "Pushing corpus supplies treeka crux candidates"
+  },
+  {
+   "from": "deitybody",
+   "to": "svread",
+   "kind": "reference",
+   "note": "Body-map vendored into svread reader; study-only surface"
+  },
+  {
+   "from": "aoc",
+   "to": "trika-x",
+   "kind": "none",
+   "note": "Separate product line; explicitly NOT part of the Trika chain"
+  },
+  {
+   "from": "DOCS.md",
+   "to": "MASTERPLAN2.md",
+   "kind": "cites",
+   "note": "DOCS entry map points at the execution plan"
+  },
+  {
+   "from": "DOCS.md",
+   "to": "SYNERGY-CHAIN-2026-11-08.md",
+   "kind": "cites",
+   "note": "DOCS entry order names the composition contract"
+  }
+ ]
+}

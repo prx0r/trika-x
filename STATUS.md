@@ -1,4 +1,5 @@
 # STATUS — every artifact, one line (2026-11-08)
+*Status: CANONICAL. Every artifact, one line; verified 2026-11-14.
 
 *PR #7 P2: one current entry point with explicit status per artifact.
 Statuses: IMPLEMENTED@rev (tested at revision) · PROTOTYPE (works, not
@@ -10,8 +11,8 @@ what it counts; nothing here implies human acceptance or deployment.*
 
 | Artifact | Status | Owner | Verify |
 |---|---|---|---|
-| `formal-trika/control/` rungs (157 theorems) + twins | IMPLEMENTED@ab5dfcc/247d897 | trika-x | `control/run.sh` + receipts |
-| `evidence_check.py` (157/155, 16/154) | IMPLEMENTED | trika-x | `evidence_check.py` |
+| `formal-trika/control/` rungs (206 theorems) + twins | IMPLEMENTED@ab5dfcc/247d897 | trika-x | `control/run.sh` + receipts |
+| `evidence_check.py` (206/155, 16/154) | IMPLEMENTED | trika-x | `evidence_check.py` |
 | `table.py` + TABLE.md + readings | IMPLEMENTED | trika-x | `table.py --check` |
 | `bridge_resolve.py` (28/154 BYTES_MATCH) | IMPLEMENTED | trika-x | `--check --tw` |
 | `axiom_audit.py` (CLEAN static) | IMPLEMENTED | trika-x | `--check` |
@@ -24,7 +25,7 @@ what it counts; nothing here implies human acceptance or deployment.*
 | `review_status.py` (0 Core / 157 Frontier) | IMPLEMENTED | trika-x | `--check` |
 | `decision_check.py`, `chunk_verse.py`, `crux_queue.py` | IMPLEMENTED | trika-x | direct run |
 | `review_packet.py` (7 packets queued) | IMPLEMENTED | trika-x | `swarm/review-packets/` |
-| `mcp_catalog.py` (112 tools) + gateway + pretest | IMPLEMENTED | trika-x | `--check`, 11 gateway tests |
+| `mcp_catalog.py` (115 tools) + gateway + pretest | IMPLEMENTED | trika-x | `--check`, 11 gateway tests |
 | `MCP-OPS.md` (operating guide) + `DOCS.md` (entry point + map) | IMPLEMENTED | trika-x | read + run their commands |
 | `docs/log/` (20 dated records, links verified) | IMPLEMENTED | trika-x | repo-wide md-link audit, 0 broken |
 | `docs/AI-DISCOVERABILITY-2026-11-08.md` (GEO research notes) | IMPLEMENTED | trika-x | sources cited; plan in svread |
@@ -35,7 +36,7 @@ what it counts; nothing here implies human acceptance or deployment.*
 | `calibrate_gate.py` (NEEDS TUNING, reproduced) | IMPLEMENTED | trika-x | `--n 200` |
 | Clean-checkout fixture suite | IMPLEMENTED | trika-x | `test_clean_checkout.py` |
 | `check.py` (GREEN + 2 recorded BLOCKED roots) | IMPLEMENTED | openpatala | `check.py` |
-| Box DB 555/909/102/87/1559/121/20/**0 witnesses** | IMPLEMENTED | openpatala | psql counts / API |
+| Box DB 1034/909/581/566/1559/121/20/**0 witnesses** | IMPLEMENTED | openpatala | psql counts / API |
 | `validate_benchmark.py` 3×3 smoke (null result, logged) | IMPLEMENTED | sanskritbench | run `54b08b41` |
 
 ## PROTOTYPE (works, not release-gated)

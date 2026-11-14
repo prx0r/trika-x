@@ -1,4 +1,5 @@
 # OPERATIONS — running the whole machine (canonical manual)
+*Status: REFERENCE. Box manual: runbook, not assertions (2026-11-06).
 
 **Covers:** box postgres (openpatala) + formal-trika + graph track +
 practice compiler + bench + model rails. Read-only where lanes require.

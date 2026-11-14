@@ -1,4 +1,5 @@
 # FORMAL-MCP SPEC — trika-x read-only tools (v3, 2026-11-08)
+*Status: CANONICAL. v3 implemented; counts verified live. (2026-11-14.)
 
  Status: IMPLEMENTED — all seven tools live on the federation gateway
  (`formal__trace|bridge|evidence|table|gaps|runs|axioms`). Verified by
@@ -61,5 +62,5 @@ Static: tool names prefixed `formal__`, no banned action names (exact/prefix
 match, never substring — `list_published_essays` is read-only and allowed),
 schemas frozen. Live: `formal__bridge chunk:tsa08-p03` → dossier + UNPINNED;
 `formal__gaps` → same 13/154 covered set as `evidence_check`; unknown chunk →
-clean error. Machine catalog: 112 tools across 8 families (2026-11-14),
+clean error. Machine catalog: 115 tools across 8 families (2026-11-14),
 `mcp_catalog.py --check` SHARP.

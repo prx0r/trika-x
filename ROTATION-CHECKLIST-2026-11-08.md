@@ -1,4 +1,5 @@
 # TOKEN ROTATION CHECKLIST (2026-11-08 — needs owner, ~15 min)
+*Status: PROPOSED. Owner action list; no machine-checkable state.
 
 Keys known-pasted in chat on 2026-11-06 (treat as exposed until rotated):
 

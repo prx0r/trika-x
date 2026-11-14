@@ -1,4 +1,5 @@
 # DOCS — trika-x entry point, map, and handover (2026-11-08)
+*Status: CANONICAL. Entry point + map; gate block is the verified contract (2026-11-14).
 
 *If you are a new agent (or the next lead reviewer), start here. Three
 reads, then the gates. Everything else is reference.*
@@ -35,10 +36,10 @@ not hidden: open items name their blocker and owner; nothing here is
 
 **What the last session built** (all committed, all pushed, all gated):
 traces for all 909 chunks (236 COMPLETE / 673 PARTIAL, every PARTIAL naming
-its gaps); two formal rungs (phr-p05, vbt-p01/p02, 157 theorems, twins
-refusing, receipts exit 0/0/0); essay-derivation audit (6 essays, 0 BROKEN);
+its gaps); two formal rungs (phr-p05, vbt-p01/p02 — 157 theorems at that
+revision, 206 now per the gate block); twins refusing, receipts exit 0/0/0); essay-derivation audit (6 essays, 0 BROKEN);
 forgery-closed essay gate + clean-checkout fixtures; MCP federation
-documented to match the surface (104 tools, machine catalog, drift gate);
+documented to match the surface (115 tools, machine catalog, drift gate);
 review packets queued; propose-loop pilot (2-family, proposal only);
 peer-review debt answered in writing; +3.1G disk reclaimed; PR #7 fully
 wired (search "PR #7" in `MASTERPLAN2.md`, `SYNERGY-CHAIN`, `STATUS.md`).
@@ -94,13 +95,13 @@ Quota/GPU: propose-loop continuous run, tau scale-up, COMET baselines.
 
 ```sh
 cd /root/trika-x && git status --short          # must be clean to start work
-python3 -m unittest discover -s formal-trika/tests   # 93 green (2026-11-08)
-python3 formal-trika/tools/evidence_check.py     # 157/155, 16/154 (10%)
+python3 -m unittest discover -s formal-trika/tests   # 117 green (2026-11-14)
+python3 formal-trika/tools/evidence_check.py     # 206 theorems / 155 entries (+1 generated cert), 16/154 chunks (10%)
 python3 formal-trika/tools/table.py --check      # rc=0
 python3 formal-trika/tools/freshness.py --check  # SHARP
-python3 tools/federation_pretest.py              # GREEN
-python3 tools/mcp_catalog.py --check             # SHARP (112 tools, 2026-11-14)
-python3 formal-trika/tools/essay_derive.py       # 0 BROKEN
+python3 tools/federation_pretest.py              # GREEN (28 expected tools)
+python3 tools/mcp_catalog.py --check             # SHARP (115 tools, 2026-11-14)
+python3 formal-trika/tools/essay_derive.py       # 6 essays, all PARTIAL
 cd /root/openpatala && python3 check.py           # GREEN + 2 recorded BLOCKED roots
 ```
 

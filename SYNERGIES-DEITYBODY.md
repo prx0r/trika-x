@@ -1,4 +1,5 @@
 # SYNERGIES — deitybody × formal-trika (2026-11-06, JSON-contract discipline)
+*Status: PROPOSED. Lane-facing proposal; owning lane disposes.
 
 deitybody AGENTS.md rule 8: plug via JSON contracts, never merge. All
 writes here are trika-x; deitybody files untouched (owner-active lane).

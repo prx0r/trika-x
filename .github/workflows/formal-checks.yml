@@ -82,6 +82,10 @@ jobs:
           python3 formal-trika/tools/table.py --check
           python3 formal-trika/tools/runs-index.py --check
           python3 formal-trika/tools/blind.py --check
+      - name: Documentation gate (registry + claims + links + geometry)
+        env:
+          TRANSLATION_WORK: ${{ github.workspace }}/translation-work
+        run: python3 formal-trika/tools/doc_check.py
       - name: Control and recognition models
         run: |
           sh formal-trika/control/run.sh

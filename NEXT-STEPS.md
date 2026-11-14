@@ -1,4 +1,5 @@
 # NEXT STEPS — sequenced backlog from here (SUPERSEDED for ordering)
+*Status: SUPERSEDED. Superseded for ordering by MASTERPLAN2 §12; kept for per-item gates. (2026-11-14.)
 
 > Status 2026-11-08: ordering superseded by `MASTERPLAN2.md` §12 (Q01–Q20
 > queue) and §16–§17. Kept as reference for its per-item gates and

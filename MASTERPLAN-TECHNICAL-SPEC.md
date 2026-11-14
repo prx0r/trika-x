@@ -1,4 +1,5 @@
 # MASTERPLAN TECHNICAL SPEC — endgame build, ground up (2026-11-06)
+*Status: HISTORICAL. Superseded by MASTERPLAN2; frozen reference (2026-11-06).
 
 **Canonical build spec.** Companion to the adversarial audit
 (`/root/TECHNICAL-SPEC-2026-11-05.md` — reproduced breaks; this doc

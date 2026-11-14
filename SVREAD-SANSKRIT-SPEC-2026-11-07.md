@@ -1,4 +1,5 @@
 # SVREAD SANSKRIT SURFACE — review + build spec (proposal, 2026-11-07)
+*Status: PROPOSED. svread lane spec; their lane disposes.
 
  Status: PROPOSAL (trika-x lane). svread lane disposes. Nothing here edits
  svread, bookfactory, or translation-work. No auto-anything; owner gates stand.

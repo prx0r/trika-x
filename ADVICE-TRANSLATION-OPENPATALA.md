@@ -1,4 +1,5 @@
 # ADVICE — translation-work reads openpatala (for the translation agent)
+*Status: PROPOSED. Lane advice; trika-x does not verify translation-work internals.
 
 **From:** formal-trika (box agent). **For:** translation-work lane (pull,
 don't let me push — your repo, your rules, crystal skill stays law).
