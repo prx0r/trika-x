@@ -1,0 +1,391 @@
+{
+ "description": "ChatGPT-side acceptance suite for the Svatantrya public surface. Executable by any MCP client with zero box access: every step is an HTTPS call to a public endpoint plus assertions on the response. Pinned values were measured live 2026-11-14; counts that legitimately grow use gte, names that must not silently change use exact match. If a pinned verbatim changes, update this file deliberately \u2014 never loosen an assertion to make red green.",
+ "format": "svatantrya.chatgpt-acceptance/1",
+ "steps": [
+  {
+   "assert": [
+    {
+     "actual": "body.result.protocolVersion",
+     "expect": "2025-06-18",
+     "op": "equals"
+    }
+   ],
+   "id": "T0-handshake",
+   "name": "MCP handshake negotiates the current protocol",
+   "request": {
+    "body": {
+     "id": 1,
+     "method": "initialize",
+     "params": {
+      "capabilities": {},
+      "clientInfo": {
+       "name": "acceptance",
+       "version": "1"
+      },
+      "protocolVersion": "2025-06-18"
+     }
+    },
+    "url": "https://mcp.svatantrya.net/mcp"
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "body.result.tools | length",
+     "expect": 50,
+     "op": "gte"
+    },
+    {
+     "actual": "body.result.tools | names",
+     "expect": [
+      "formal__trace",
+      "scholar__passage_evidence",
+      "openpatala__resolve",
+      "treeka__chain",
+      "federation__guide",
+      "formal__gaps",
+      "scholar__translation_forks",
+      "openpatala__search_bibliography"
+     ],
+     "op": "contains-all"
+    }
+   ],
+   "id": "T1-discovery",
+   "name": "tools/list exposes the verification surface",
+   "request": {
+    "body": {
+     "id": 2,
+     "method": "tools/list",
+     "params": {}
+    },
+    "url": "https://mcp.svatantrya.net/mcp"
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "call.status",
+     "expect": "EXACT",
+     "op": "equals"
+    },
+    {
+     "actual": "call.entity.id",
+     "expect_exists": true,
+     "op": "exists"
+    }
+   ],
+   "id": "T2-identity-known",
+   "name": "Known work resolves to an entity (no invention needed)",
+   "request": {
+    "call": {
+     "arguments": {
+      "q": "tantrasara"
+     },
+     "name": "openpatala__resolve"
+    },
+    "url": "https://mcp.svatantrya.net/mcp"
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "call.status",
+     "expect": "NONE",
+     "op": "equals"
+    }
+   ],
+   "id": "T3-identity-unknown",
+   "name": "Unknown work resolves to NONE, never an invented entity",
+   "request": {
+    "call": {
+     "arguments": {
+      "q": "zzzznonexistent"
+     },
+     "name": "openpatala__resolve"
+    },
+    "url": "https://mcp.svatantrya.net/mcp"
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "call.layers",
+     "expect_exists": true,
+     "op": "exists"
+    },
+    {
+     "actual": "call.projection_sha256",
+     "expect": "^[0-9a-f]{64}$",
+     "op": "regex"
+    }
+   ],
+   "id": "T4-evidence",
+   "name": "Passage evidence returns layers plus a verifiable projection hash",
+   "request": {
+    "call": {
+     "arguments": {
+      "target": "bod-p01-v01",
+      "work": "bodhapancadasika"
+     },
+     "name": "scholar__passage_evidence"
+    },
+    "url": "https://mcp.svatantrya.net/mcp"
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "call.verdict",
+     "expect": "COMPLETE",
+     "op": "equals"
+    },
+    {
+     "actual": "call.formal.theorems | names",
+     "expect": "AnswerKey.lean :: key_five_kancukas",
+     "op": "contains"
+    }
+   ],
+   "id": "T5-formal-trace",
+   "name": "Formal trace returns COMPLETE with named Lean theorems",
+   "request": {
+    "call": {
+     "arguments": {
+      "target": "tsa08-p03",
+      "work": "tantrasara-a08"
+     },
+     "name": "formal__trace"
+    },
+    "url": "https://mcp.svatantrya.net/mcp"
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "call.total",
+     "expect_exists": true,
+     "op": "exists"
+    },
+    {
+     "actual": "call.gaps | length",
+     "expect": 1,
+     "op": "gte"
+    }
+   ],
+   "id": "T6-gaps-honesty",
+   "name": "Gap report admits incompleteness with denominators",
+   "request": {
+    "call": {
+     "arguments": {},
+     "name": "formal__gaps"
+    },
+    "url": "https://mcp.svatantrya.net/mcp"
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "transport.http_status",
+     "expect": 200,
+     "op": "equals"
+    },
+    {
+     "actual": "isError",
+     "expect": true,
+     "op": "equals"
+    }
+   ],
+   "id": "T7-unknown-tool",
+   "name": "Unknown tool fails closed with a clean error, transport intact",
+   "request": {
+    "call": {
+     "arguments": {},
+     "name": "no_such_tool_xyz"
+    },
+    "url": "https://mcp.svatantrya.net/mcp"
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "http.status",
+     "expect": 200,
+     "op": "equals"
+    },
+    {
+     "actual": "http.body_contains",
+     "expect": "<url",
+     "op": "contains"
+    }
+   ],
+   "id": "T8-sitemap",
+   "name": "Sitemap is served and non-empty (Google GEO entry point)",
+   "request": {
+    "http": {
+     "method": "GET",
+     "url": "https://svatantrya.net/sitemap.xml"
+    }
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "http.status",
+     "expect": 200,
+     "op": "equals"
+    }
+   ],
+   "id": "T9-llms",
+   "name": "llms.txt is served (agent GEO entry point)",
+   "request": {
+    "http": {
+     "method": "GET",
+     "url": "https://svatantrya.net/llms.txt"
+    }
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "http.status",
+     "expect": 200,
+     "op": "equals"
+    },
+    {
+     "actual": "http.body_contains",
+     "expect": "application/ld+json",
+     "op": "contains"
+    },
+    {
+     "actual": "http.body_contains",
+     "expect": "UNPINNED",
+     "op": "contains"
+    }
+   ],
+   "id": "T10-claim-page",
+   "name": "Claim page serves machine-readable honesty states",
+   "request": {
+    "http": {
+     "method": "GET",
+     "url": "https://svatantrya.net/claim/bodhapancadasika/bod-p01/"
+    }
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "http.status",
+     "expect": 200,
+     "op": "equals"
+    },
+    {
+     "actual": "http.body_json",
+     "expect_exists": true,
+     "op": "exists"
+    }
+   ],
+   "id": "T11-formal-registry",
+   "name": "Formal registry JSON is live and parseable",
+   "request": {
+    "http": {
+     "method": "GET",
+     "url": "https://svatantrya.net/data/formal.json"
+    }
+   }
+  },
+  {
+   "assert": [
+    {
+     "actual": "body.result.tools | length",
+     "expect": 10,
+     "op": "equals"
+    },
+    {
+     "actual": "body.result.tools | names",
+     "expect": "formal__trace",
+     "op": "contains"
+    }
+   ],
+   "id": "T12-second-host",
+   "name": "Formal host serves the same protocol independently (no single-endpoint theater)",
+   "request": {
+    "body": {
+     "id": 2,
+     "method": "tools/list",
+     "params": {}
+    },
+    "url": "https://formal.svatantrya.net/mcp"
+   }
+  },
+  {
+   "id": "T13-robots",
+   "name": "Robots allows AI crawlers and names the sitemap",
+   "request": {
+    "http": {
+     "method": "GET",
+     "url": "https://svatantrya.net/robots.txt"
+    }
+   },
+   "assert": [
+    {
+     "actual": "http.status",
+     "op": "equals",
+     "expect": 200
+    },
+    {
+     "actual": "http.body_contains",
+     "op": "contains",
+     "expect": "GPTBot"
+    },
+    {
+     "actual": "http.body_contains",
+     "op": "contains",
+     "expect": "sitemap.xml"
+    }
+   ]
+  },
+  {
+   "id": "T14-sitemap-claims",
+   "name": "Sitemap exposes claim pages to crawlers",
+   "request": {
+    "http": {
+     "method": "GET",
+     "url": "https://svatantrya.net/sitemap.xml"
+    }
+   },
+   "assert": [
+    {
+     "actual": "http.status",
+     "op": "equals",
+     "expect": 200
+    },
+    {
+     "actual": "http.body_contains",
+     "op": "contains",
+     "expect": "/claim/"
+    }
+   ]
+  },
+  {
+   "id": "T15-llms-names-verification",
+   "name": "llms.txt names the verification path for agents",
+   "request": {
+    "http": {
+     "method": "GET",
+     "url": "https://svatantrya.net/llms.txt"
+    }
+   },
+   "assert": [
+    {
+     "actual": "http.status",
+     "op": "equals",
+     "expect": 200
+    },
+    {
+     "actual": "http.body_contains",
+     "op": "contains",
+     "expect": "formal__trace"
+    }
+   ]
+  }
+ ]
+}
