@@ -12,7 +12,9 @@
   "trace_links_present": "FAIL",
   "witness": "UNPINNED"
  },
- "caveats": [],
+ "caveats": [
+  "song_proof warnings: 1"
+ ],
  "chunk": {
   "immutable_id": "pt:pid:mukta-m00125:d24fd19136d6",
   "target": "mukta-m0-p178",
@@ -28,15 +30,9 @@
  },
  "format": "trika-trace/1",
  "gaps": [
-  "layer:t1",
-  "layer:l0",
-  "layer:argmap",
-  "layer:l2",
-  "layer:c1",
   "layer:l3",
   "layer:l4",
-  "identity:db",
-  "proofs:song"
+  "identity:db"
  ],
  "identity": {
   "db": "postgresql://patala:***@localhost:5432/openpatala",
@@ -49,12 +45,16 @@
  },
  "layers": {
   "argmap": {
-   "present": false,
-   "status": "UNKNOWN"
+   "path": "mukta-m00125/data/mukta-m0-p178.argmap.json",
+   "present": true,
+   "sha256": "2a1cd67d68fc4e60868338c5ed2b6e7b5f21c85b73ae6e885c20617601a69eb1",
+   "status": "BOUND"
   },
   "c1": {
-   "present": false,
-   "status": "UNKNOWN"
+   "path": "mukta-m00125/data/mukta-m0-p178.c1.json",
+   "present": true,
+   "sha256": "6e5e6b5d7fbd43bb0d985a86fecb1d5aa2c9e0278ac6e88d7da5ee76cae73f1f",
+   "status": "BOUND"
   },
   "c2": {
    "note": "C2 renders are optional (owner: existing C2 stays; waived)",
@@ -62,12 +62,16 @@
    "status": "NOT-APPLICABLE"
   },
   "l0": {
-   "present": false,
-   "status": "UNKNOWN"
+   "path": "mukta-m00125/data/mukta-m0-p178.l0.json",
+   "present": true,
+   "sha256": "500dcdb6e91218b0242e34a59703e226dab003489fc654f9727acc66d31fe8de",
+   "status": "BOUND"
   },
   "l2": {
-   "present": false,
-   "status": "UNKNOWN"
+   "path": "mukta-m00125/data/mukta-m0-p178.l2.json",
+   "present": true,
+   "sha256": "078ac4fb38e5a5596d1ebcc3be89c4b707e44383f6ac8a1f3f971825847ab58e",
+   "status": "BOUND"
   },
   "l3": {
    "present": false,
@@ -78,14 +82,16 @@
    "status": "UNKNOWN"
   },
   "t1": {
-   "present": false,
-   "status": "UNKNOWN"
+   "path": "mukta-m00125/data/mukta-m0-p178.t1.json",
+   "present": true,
+   "sha256": "a10499d0735b79196ed5a1b853ff5c915848b4cb045b1b5aa7d63a85e9151f24",
+   "status": "BOUND"
   }
  },
  "open_problems": [
   "passage id absent from box DB"
  ],
- "produced_at": "2026-11-14T06:14:23+00:00",
+ "produced_at": "2026-11-14T06:49:55+00:00",
  "produced_by": {
   "tool": "trace_bundle/1",
   "trika_rev": "UNKNOWN"
@@ -96,8 +102,13 @@
    "status": "UNKNOWN"
   },
   "song_proof": {
-   "note": "no proof file",
-   "status": "UNKNOWN"
+   "blocking": [],
+   "deterministic_gate": "PASS",
+   "file": "mukta-m00125/proof/proof-mukta-m0-p178.json",
+   "sha256": "69d1d5c2ff8f3dd1219ff3ab8292054cad42942e1f2d129a6fbd0e2b9e465fed",
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 1
   }
  },
  "source": {
