@@ -1,19 +1,19 @@
 {
  "format": "trika-mcp-catalog/1",
- "generated_at": "2026-11-14T04:27:39Z",
+ "generated_at": "2026-11-14T05:44:26Z",
  "gateway": {
   "name": "openpatala-federation",
   "version": "1",
   "title": "Openpatala federated parent",
-  "instructions": "Navigate from openpatala (identity root) across the federation:\n\n1. openpatala__resolve {work} \u2014 is this work known? ledger + witness status. UNRESOLVED = draft-only.\n2. scholar__passage_evidence {work, target} \u2014 read the Sanskrit + layers (internal codes T1/L0/argmap/L2/C1/C2/L3/L4; public names in trika-x layer-names.json).\n3. scholar__audit_draft / link_claims / pushback \u2014 check a draft before a human signs. Machine report, never verdict.\n4. translation__status {work} (shastra) \u2014 registry state, proof, what the swarm is doing. Writes never push/signoff.\n5. bookfactory__* (bookfactory) \u2014 draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.\n6. video__* (videofactory) \u2014 vf_gate/vf_triage to read state; vf_launch/vf_queue ship ONLY gated+approved renders (see videofactory#1: defaults should be explicit opt-in).\n   openpatala_mcp__get_health \u2014 direct child health/counts (works, passages, witnesses).\n7. openpatala__coverage \u2014 how much of the corpus is bridged.\n8. formal__trace {work, target} \u2014 full Sanskrit-to-essay trace bundle for one\n   chunk (source bytes, layers, proofs, formal theorems, citing essays).\n   Verdict COMPLETE/PARTIAL + named gaps; BLOCKED stays BLOCKED.\n\nLaws: UNRESOLVED/draft-only inputs stay draft-only. No auto-sign, auto-publish, auto-ship. Human disposes; receipts are the trail.\n"
+  "instructions": "Verify first, read second, render last. Every claim here resolves to\nSanskrit bytes through a machine-checked chain \u2014 or it is labelled PARTIAL,\nnever shipped, never signed by a machine.\n\n1. openpatala__resolve {work} \u2014 is this work known? ledger + witness status. UNRESOLVED = draft-only.\n2. formal__trace {work, target} \u2014 the machine-checked chain for one chunk:\n   source bytes, translation layers, deterministic proofs, Lean theorems\n   (each compiled by pinned Lean, each with a must-fail twin + run receipt),\n   citing essays. Verdict COMPLETE/PARTIAL + named gaps; BLOCKED stays BLOCKED.\n   Go deeper: formal__evidence (theorem rows), formal__table (plain-English\n   scope notes), formal__gaps (covered vs total + the rung queue),\n   formal__runs (harness receipts), formal__axioms (audit state),\n   formal__bridge (chunk locator to edition rows; witnesses UNPINNED).\n3. scholar__passage_evidence {work, target} \u2014 read the Sanskrit + translation\n   layers: draft-translation, literal-gloss (meaning-forks live here),\n   argument-map, reading-translation, essence, register-render,\n   final-translation, song. Machine keys T1/L0/ARGMAP/L2/C1/C2/L3/L4 still\n   work everywhere; the legend is\n   trika-x/formal-trika/data/layer-names.json.\n4. scholar__audit_draft / link_claims / pushback \u2014 check a draft before a human signs. Machine report, never verdict.\n5. translation__status {work} (shastra) \u2014 registry state, proof, what the swarm is doing. Writes never push/signoff.\n6. bookfactory__* (bookfactory) \u2014 draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.\n7. video__* (videofactory) \u2014 vf_gate/vf_triage to read state; vf_launch/vf_queue ship ONLY gated+approved renders (defaults are explicit opt-in).\n   openpatala_mcp__get_health \u2014 direct child health/counts (works, passages, witnesses).\n8. openpatala__coverage \u2014 how much of the corpus is bridged.\n\nLaws: UNRESOLVED/draft-only inputs stay draft-only. No auto-sign, auto-publish, auto-ship. Human disposes; receipts are the trail.\n"
  },
- "count": 112,
+ "count": 115,
  "families": {
   "bookfactory": 22,
   "federation": 1,
   "formal": 7,
   "openpatala": 2,
-  "openpatala_mcp": 5,
+  "openpatala_mcp": 8,
   "scholar": 41,
   "translation": 16,
   "video": 18
@@ -196,7 +196,7 @@
   {
    "name": "formal__axioms",
    "family": "formal",
-   "description": "Axiom audit state (static half; kernel verdict needs pinned Lean).",
+   "description": "Axiom audit: static CLEAN means no sorry/axiom smuggled; kernel verdict needs pinned Lean.",
    "required": []
   },
   {
@@ -210,31 +210,31 @@
   {
    "name": "formal__evidence",
    "family": "formal",
-   "description": "EVIDENCE rows for one theorem, or registry counts. Refs are not entailments.",
+   "description": "Lean theorem's EVIDENCE rows: grounds, tier, run receipt. Registry refs are not entailments.",
    "required": []
   },
   {
    "name": "formal__gaps",
    "family": "formal",
-   "description": "Treeka formal column: covered vs total chunks + the gap list (the rung queue).",
+   "description": "Formal coverage: chunks proved vs total + the gap list (the rung queue, worked in order).",
    "required": []
   },
   {
    "name": "formal__runs",
    "family": "formal",
-   "description": "Runs ledger: harness verdicts + receipt count (never reruns Lean).",
+   "description": "Harness receipts: every rung's Lean version, exit code, file sha (never reruns Lean).",
    "required": []
   },
   {
    "name": "formal__table",
    "family": "formal",
-   "description": "TABLE readings: theorem beside its plain-English scope note (MODEL_CHECKED only).",
+   "description": "TABLE readings: Lean theorem beside its plain-English scope note (MODEL_CHECKED only).",
    "required": []
   },
   {
    "name": "formal__trace",
    "family": "formal",
-   "description": "Full Sanskrit-to-essay trace bundle for one chunk (bytes, layers, proofs, theorems, citing essays).",
+   "description": "Machine-checked Sanskrit-to-essay chain for one chunk: source bytes, translation layers, deterministic proofs, Lean theorems (must-fail twins + run receipts), c",
    "required": [
     "work",
     "target"
@@ -255,9 +255,23 @@
    ]
   },
   {
+   "name": "openpatala_mcp__bibliography_facets",
+   "family": "openpatala_mcp",
+   "description": "[openpatala_mcp] List recorded types, traditions, authors, ID schemes, source providers, and languages.\n\n        Facets reflect explicit database records only; ",
+   "required": []
+  },
+  {
+   "name": "openpatala_mcp__get_bibliography_dossier",
+   "family": "openpatala_mcp",
+   "description": "[openpatala_mcp] Get the complete work dossier with linked source and rights records.\n\n        Returns editions, translations, witnesses, e-texts, passages,\n   ",
+   "required": [
+    "work_id"
+   ]
+  },
+  {
    "name": "openpatala_mcp__get_bundle",
    "family": "openpatala_mcp",
-   "description": "[openpatala_mcp] Get full dossier for a work (assertions, external IDs, provenance).",
+   "description": "[openpatala_mcp] Get the legacy compact dossier (assertions and external identifiers).\n\n        Use get_bibliography_dossier for the complete REST bundle plus l",
    "required": [
     "entity_id"
    ]
@@ -277,7 +291,7 @@
   {
    "name": "openpatala_mcp__resolve",
    "family": "openpatala_mcp",
-   "description": "[openpatala_mcp] Resolve a Sanskrit work name to a canonical entity.",
+   "description": "[openpatala_mcp] Resolve a work by preferred title, alias, canonical ID, or catalogue ID.\n\n        Exact matches are distinguished from substring candidates. Ca",
    "required": [
     "q"
    ]
@@ -285,10 +299,16 @@
   {
    "name": "openpatala_mcp__search",
    "family": "openpatala_mcp",
-   "description": "[openpatala_mcp] Search for Sanskrit works by title.",
+   "description": "[openpatala_mcp] Compatibility search returning source-aware bibliography summaries.\n\n        Use search_bibliography when you need filters or pagination.\n     ",
    "required": [
     "q"
    ]
+  },
+  {
+   "name": "openpatala_mcp__search_bibliography",
+   "family": "openpatala_mcp",
+   "description": "[openpatala_mcp] Search by title/ID, author, type, tradition, catalogue ID scheme, source provider, or translation.\n\n        Returns stable work IDs, title/alia",
+   "required": []
   },
   {
    "name": "scholar__add_review_annotation",
