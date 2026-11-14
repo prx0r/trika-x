@@ -84,13 +84,40 @@ def main():
     bridge_resolve.verify_ledgers(TW, snapshot)
     thms = theorems()
     entries, exempt = EV["entries"], EV["exemptions"]
+    gen = EV.get("generated_certificates", {})
     problems = []
     for name, reason in exempt.items():
         matches = [key for key in thms if key.split(" :: ", 1)[1] == name]
         if len(matches) != 1 or not isinstance(reason, str) or not reason.strip():
             problems.append(f"exemption must identify one theorem and explain why: {name}")
+    # Generated certificate slices prove well-formedness under a *receipt*, not
+    # an EVIDENCE row. Fail-closed: the receipt must exist, exit 0, and pin the
+    # exact committed file, or every theorem in it is a PROBLEM.
+    gen_files = set()
+    for fname, spec in gen.items():
+        gen_files.add(fname)
+        rp = HERE / spec.get("receipt", "")
+        try:
+            rec = json.loads(rp.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            problems.append(f"generated certificate {fname}: receipt missing/unreadable {rp}")
+            continue
+        if rec.get("exit_code") != 0:
+            problems.append(f"generated certificate {fname}: receipt exit_code != 0")
+        lean_p = HERE / "control" / fname
+        try:
+            import hashlib
+            actual = hashlib.sha256(lean_p.read_bytes()).hexdigest()
+        except OSError:
+            actual = None
+        if actual is None or actual != rec.get("file_sha256"):
+            problems.append(
+                f"generated certificate {fname}: receipt does not pin the committed file "
+                f"(re-run gen_prakriya_slice.py --run)")
     for key in sorted(thms):
         name = key.split(" :: ", 1)[1]
+        if key.split(" :: ", 1)[0] in gen_files:
+            continue  # proven by its receipt above, never an EVIDENCE row
         if key not in entries and name not in exempt:
             problems.append(f"no evidence entry: {key}")
     for key in entries:
@@ -119,7 +146,7 @@ def main():
             all_chunks.append((work, loc))
     gaps = [c for c in all_chunks if c not in covered]
     print(f"theorems: {len(thms)}, entries: {len(entries)}, "
-          f"exemptions: {len(exempt)}")
+          f"exemptions: {len(exempt)}, generated: {len(gen_files)}")
     print(f"chunk refs resolve: {locator_ok}, bad: {len(locator_bad)} {locator_bad}")
     print(f"direct registry references: {len(covered)}/{total} passage chunks "
           f"({100 * len(covered) // max(total, 1)}%)")
