@@ -314,11 +314,16 @@ def formal_gaps(args: dict) -> dict:
     if work:
         gaps = [g for g in gaps if g.startswith(work[:4]) or work in g]
         covered = {c for c in covered if c.startswith(work[:4]) or work in c}
+    GAP_CAP = 500
+    shown = gaps[:GAP_CAP]
     return {"covered": len(covered), "total": len(all_chunks),
             "coverage": (f"{len(covered)}/{len(all_chunks)}" if all_chunks
                          else "unknown"),
-            "gap_count": len(gaps), "gaps": gaps[:60],
-            "note": "gap list IS the rung queue (gap-list order wins)"}
+            "gap_count": len(gaps), "returned": len(shown),
+            "truncated": len(gaps) > len(shown), "gaps": shown,
+            "note": ("gap list IS the rung queue (gap-list order wins); "
+                     "gap_count is the true total, returned is len(gaps), "
+                     "truncated says whether they differ")}
 
 
 def formal_runs(args: dict) -> dict:
