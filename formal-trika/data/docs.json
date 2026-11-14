@@ -545,6 +545,11 @@
   "VISION-ARCHITECTURE.md": {
    "status": "PROPOSED",
    "note": "Historical proposal, self-marked PROPOSED; read the 2026-11-06 peer review before any status claim."
+  },
+  "CHATGPT-ACCEPTANCE.md": {
+   "status": "CANONICAL",
+   "note": "ChatGPT-side acceptance protocol: raw mode T0-T15 (16 steps, proven 16/16 live) + connected mode T16-T20. The JSON suite is the executable truth; this doc is the protocol + report contract.",
+   "claims": []
   }
  }
 }

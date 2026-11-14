@@ -1,4 +1,5 @@
 # CHATGPT acceptance — run the estate from ChatGPT's side
+*Status: CANONICAL. ChatGPT-side acceptance (raw T0–T15 + connected T16–T20), report protocol; measured 2026-11-14.*
 
 This directory holds an acceptance suite ChatGPT itself executes, using only
 what ChatGPT can reach: the public MCP endpoint plus public HTTPS. No box
