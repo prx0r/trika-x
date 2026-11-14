@@ -97,7 +97,7 @@ python3 formal-trika/tools/evidence_check.py     # 157/155, 16/154 (10%)
 python3 formal-trika/tools/table.py --check      # rc=0
 python3 formal-trika/tools/freshness.py --check  # SHARP
 python3 tools/federation_pretest.py              # GREEN
-python3 tools/mcp_catalog.py --check             # SHARP (104 tools)
+python3 tools/mcp_catalog.py --check             # SHARP (112 tools, 2026-11-14)
 python3 formal-trika/tools/essay_derive.py       # 0 BROKEN
 cd /root/openpatala && python3 check.py           # GREEN + 2 recorded BLOCKED roots
 ```
