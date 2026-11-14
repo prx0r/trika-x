@@ -228,11 +228,13 @@ class Handler(BaseHTTPRequestHandler):
                 return self._send(502, {"jsonrpc": "2.0", "id": mid,
                                         "error": gw["error"]}, version)
             tools = ((gw.get("result") or {}).get("tools")) or []
+            served = sheaf_filter(tools)
             return self._send(200, {"jsonrpc": "2.0", "id": mid,
-                                    "result": {"tools": sheaf_filter(tools),
+                                    "result": {"tools": served,
                                                "sheaf": "read",
                                                "layers": layers_legend(),
-                                               "withheld": len(tools)}} , version)
+                                               "served": len(served),
+                                               "withheld": len(tools) - len(served)}} , version)
 
         if method in ("tools/call", "tools/call_tool"):
             name = (params.get("name") or "")
