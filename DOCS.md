@@ -6,6 +6,11 @@ reads, then the gates. Everything else is reference.*
 
 ## 0. Start here (three reads, 15 minutes)
 
+> Estate-wide documentation home (public, gated): **prx0r/svatantrya** —
+> thesis, per-repo reference, agents index. This repo keeps the source of the
+> formal numbers; svatantrya narrates the estate.
+
+
 1. **This file** (§1 handover + §4 map) — where everything lives and what to
    trust.
 2. **`MASTERPLAN2.md` §0–§2** — the objective, the laws, the measured
