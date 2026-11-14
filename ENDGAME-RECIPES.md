@@ -1,4 +1,5 @@
 # ENDGAME RECIPES — diary → teachings → media → journey (spec, 2026-11-06)
+*Status: PROPOSED. Canonical as spec; unbuilt by design (R9 explicitly NOT YET).
 
 Owner vision verbatim: `/root/AGENTS.md` §ENDGAME VISION. This doc specs
 the recipes. All spec, no builds; lanes dispose. Standing invariants

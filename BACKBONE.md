@@ -1,4 +1,5 @@
 # BACKBONE — openpatala as the identity spine (wired 2026-11-06)
+*Status: REFERENCE. Identity-spine thesis (2026-11-06); DB numbers are dated context, not live claims.
 
 **Thesis (owner):** from openpatala we ingest Sanskrit works and start the
 full chain — translations, essays, videos, teacher, books. Status: WIRED

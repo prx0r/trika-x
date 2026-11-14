@@ -1,4 +1,5 @@
 # CANONICAL OPERATIONS — how agents share this box without clobbering each other
+*Status: CANONICAL. Concurrent-agent contract (2026-11-14).
 
 *Status: canonical. Two agents are active in this repo as of 2026-11-14.
 This file is the contract. When it conflicts with habit, this file wins.

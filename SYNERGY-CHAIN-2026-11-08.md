@@ -1,4 +1,5 @@
 # SYNERGY CHAIN — how openpatala, trika-x, svread and the factories compose
+*Status: CANONICAL. Composition contract; structural rules, no live numbers asserted. (2026-11-14.)
 
 *2026-11-08. Canonical chain-of-events doc. Companion to `MASTERPLAN2.md`
 (what to build, in what order) and `formal-trika/data/freshness.json` (what the

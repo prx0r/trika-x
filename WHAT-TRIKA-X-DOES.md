@@ -1,4 +1,5 @@
 # What trika-x does
+*Status: CANONICAL. Plain-language account; numbers verified live 2026-11-14.
 
 *The plain-language, complete account. If you read one trika-x doc, read this
 one. Every number was produced by running the command beside it on main,

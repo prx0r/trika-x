@@ -1,4 +1,5 @@
 # MASTER PLAN — Trika endgame build-out (canonical)
+*Status: CANONICAL. Architecture + order; pre-amendment text superseded by dated amendment. (2026-11-14.)
 
 **Canonical plan, 2026-11-06. Supersedes scattered roadmaps for execution
 purposes (they remain reference). Owner order: wire it up, test it,

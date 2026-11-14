@@ -1,4 +1,5 @@
 # SYNERGIES — sanskrithelp × formal-trika (learning Sanskrit through Trika)
+*Status: PROPOSED. Lane-facing proposal; owning lane disposes.
 
 sanskrithelp lane: owner-active, no-push rule, other session's files
 untouched, tsc/vitest green. All reads read-only; writes land in trika-x.

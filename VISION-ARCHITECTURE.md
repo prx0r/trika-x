@@ -1,4 +1,5 @@
 # Visionary Architecture: the Lean Recognition Stack inside the Endgame
+*Status: PROPOSED. Historical proposal; read the 2026-11-06 peer review first.
 
 > **2026-11-06 review:** This vision is a historical proposal, not an
 > integration status. The source bridge and verified keys do not yet exist,

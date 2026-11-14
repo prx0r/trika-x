@@ -1,13 +1,14 @@
 # ROADMAP — from verified library to authoritative Trika source
+*Status: CANONICAL. Five rungs with done-gates; 'actually are' verified 2026-11-14.
 
 *2026-11-07. Written after a measured audit (see MODULES.md for current state).
 Each rung states the gate that marks it done. Nothing here is claimed done.*
 
 ## Where we actually are
 
-- 555 works identified · 87 with passage ledgers · 72 gold in translation-work
+- 1034 works identified · 87 with passage ledgers · 72 gold in translation-work
 - 50 works readable on the site · 55 with a scholar projection
-- 157 Lean theorems · 16/154 chunks formalised · **909 trace bundles** published
+- 206 Lean theorems · 16/154 chunks formalised · **909 trace bundles** published
 - **0 witnesses** — nothing is witness-grade yet
 - LLM-legible: llms.txt, sitemap, robots, JSON-LD, formal registry, 909 traces
 - **Independently verifiable**: any outsider can confirm our chains with

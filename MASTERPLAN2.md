@@ -1,4 +1,5 @@
 # MASTERPLAN2 — execution plan for the measured machine (2026-11-08)
+*Status: CANONICAL. Execution plan; §2 baseline is an explicitly dated 2026-11-08 snapshot.
 
 *Status: canonical execution plan from 2026-11-08. Supersedes the ordering in
 `NEXT-STEPS.md` (kept as reference). `MASTER-PLAN.md` remains the architecture

@@ -1,4 +1,5 @@
 # TRIKA-X /root/trika-x — formalization literature corpus
+*Status: REFERENCE. Literature corpus index (2026-11-05); references, not live claims.
 
 > Start with the [peer review](docs/log/PEER-REVIEW-2026-11-06.md) and
 > [fresh-checkout run guide](formal-trika/README.md). The paths and evidence

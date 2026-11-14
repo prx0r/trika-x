@@ -1,0 +1,550 @@
+{
+ "format": "trika-docs-registry/1",
+ "scope": [
+  "*.md at repo root (formal-trika/**, docs/**, and other repos are out of scope)"
+ ],
+ "docs": {
+  "ADVICE-TRANSLATION-OPENPATALA.md": {
+   "status": "PROPOSED",
+   "note": "Lane advice to translation-work; owning lane disposes, not verified here."
+  },
+  "DOCS.md": {
+   "status": "CANONICAL",
+   "note": "Entry point + map. Gate block is verified live; numbers must match checkers.",
+   "claims": [
+    {
+     "id": "suite-green",
+     "pattern": "# (\\d+) green",
+     "source": {
+      "argv": [
+       "python3",
+       "-m",
+       "unittest",
+       "discover",
+       "-s",
+       "formal-trika/tests"
+      ],
+      "pattern": "Ran (\\d+) tests",
+      "timeout": 600
+     }
+    },
+    {
+     "id": "evidence-theorems",
+     "pattern": "(\\d+) theorems /",
+     "source": {
+      "argv": [
+       "python3",
+       "formal-trika/tools/evidence_check.py",
+       "--root",
+       "$TRANSLATION_WORK"
+      ],
+      "pattern": "^theorems: (\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "evidence-entries",
+     "pattern": "(\\d+) entries",
+     "source": {
+      "argv": [
+       "python3",
+       "formal-trika/tools/evidence_check.py",
+       "--root",
+       "$TRANSLATION_WORK"
+      ],
+      "pattern": "entries: (\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "evidence-coverage",
+     "pattern": "(\\d+)/154 chunks",
+     "source": {
+      "argv": [
+       "python3",
+       "formal-trika/tools/evidence_check.py",
+       "--root",
+       "$TRANSLATION_WORK"
+      ],
+      "pattern": "direct registry references: (\\d+)/154",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "catalog-tools",
+     "pattern": "\\((\\d+) tools",
+     "source": {
+      "argv": [
+       "python3",
+       "-c",
+       "import json;print(json.load(open('formal-trika/data/mcp-catalog.json'))['count'])"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     }
+    }
+   ]
+  },
+  "STATUS.md": {
+   "status": "CANONICAL",
+   "note": "Every artifact, one line; all numbers below verified live. History lives in docs/log + git.",
+   "claims": [
+    {
+     "id": "theorems",
+     "pattern": "rungs \\((\\d+) theorems\\)",
+     "source": {
+      "argv": [
+       "python3",
+       "formal-trika/tools/evidence_check.py",
+       "--root",
+       "$TRANSLATION_WORK"
+      ],
+      "pattern": "^theorems: (\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "entries",
+     "pattern": "\\(\\d+/(\\d+), ",
+     "source": {
+      "argv": [
+       "python3",
+       "formal-trika/tools/evidence_check.py",
+       "--root",
+       "$TRANSLATION_WORK"
+      ],
+      "pattern": "entries: (\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "catalog-tools",
+     "pattern": "mcp_catalog\\.py`? \\((\\d+) tools\\)",
+     "source": {
+      "argv": [
+       "python3",
+       "-c",
+       "import json;print(json.load(open('formal-trika/data/mcp-catalog.json'))['count'])"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "db-works",
+     "pattern": "Box DB (\\d+)/909",
+     "source": {
+      "argv": [
+       "psql",
+       "-h",
+       "127.0.0.1",
+       "-U",
+       "patala",
+       "-d",
+       "openpatala",
+       "-tA",
+       "-c",
+       "SELECT count(*) FROM works"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     },
+     "requires": [
+      "db"
+     ]
+    }
+   ]
+  },
+  "MODULES.md": {
+   "status": "CANONICAL",
+   "note": "Per-repo measured state; trika-x rows machine-checked, lanes verify their own rows.",
+   "claims": [
+    {
+     "id": "trika-theorems",
+     "pattern": "(\\d+) theorems, 909 trace",
+     "source": {
+      "argv": [
+       "python3",
+       "formal-trika/tools/evidence_check.py",
+       "--root",
+       "$TRANSLATION_WORK"
+      ],
+      "pattern": "^theorems: (\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "gateway-tools",
+     "pattern": "(\\d+)-tool MCP gateway",
+     "source": {
+      "argv": [
+       "python3",
+       "-c",
+       "import json;print(json.load(open('formal-trika/data/mcp-catalog.json'))['count'])"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "db-works",
+     "pattern": "DB (\\d+) works",
+     "source": {
+      "argv": [
+       "psql",
+       "-h",
+       "127.0.0.1",
+       "-U",
+       "patala",
+       "-d",
+       "openpatala",
+       "-tA",
+       "-c",
+       "SELECT count(*) FROM works"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     },
+     "requires": [
+      "db"
+     ]
+    }
+   ]
+  },
+  "MCP-OPS.md": {
+   "status": "CANONICAL",
+   "note": "Operating guide; counts must match the catalog file.",
+   "claims": [
+    {
+     "id": "catalog-tools",
+     "pattern": "exposes \\*\\*(\\d+) tools",
+     "source": {
+      "argv": [
+       "python3",
+       "-c",
+       "import json;print(json.load(open('formal-trika/data/mcp-catalog.json'))['count'])"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     }
+    }
+   ]
+  },
+  "FEDERATION.md": {
+   "status": "CANONICAL",
+   "note": "Topology + live-state table. The gateway row is live; §2 snapshot is dated 2026-11-07 history.",
+   "claims": [
+    {
+     "id": "catalog-tools",
+     "pattern": "\\((\\d+) tools 2026",
+     "source": {
+      "argv": [
+       "python3",
+       "-c",
+       "import json;print(json.load(open('formal-trika/data/mcp-catalog.json'))['count'])"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     }
+    }
+   ],
+   "allow_stale": [
+    "555 works",
+    "102 editions",
+    "87 etexts",
+    "544 box",
+    "11 Abhinavagupta"
+   ]
+  },
+  "FORMAL-MCP-SPEC-2026-11-07.md": {
+   "status": "CANONICAL",
+   "note": "v3 implemented; machine-checked count line.",
+   "claims": [
+    {
+     "id": "catalog-tools",
+     "pattern": "(\\d+) tools across 8 families",
+     "source": {
+      "argv": [
+       "python3",
+       "-c",
+       "import json;print(json.load(open('formal-trika/data/mcp-catalog.json'))['count'])"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     }
+    }
+   ]
+  },
+  "PARENT-CONTRACT-SPEC-2026-11-07.md": {
+   "status": "CANONICAL",
+   "note": "Parent contract spec v1.",
+   "claims": [
+    {
+     "id": "catalog-tools",
+     "pattern": "\\*\\*(\\d+) tools / 8 families",
+     "source": {
+      "argv": [
+       "python3",
+       "-c",
+       "import json;print(json.load(open('formal-trika/data/mcp-catalog.json'))['count'])"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     }
+    }
+   ]
+  },
+  "ROADMAP.md": {
+   "status": "CANONICAL",
+   "note": "Five rungs with done-gates; 'Where we actually are' is live and checked.",
+   "claims": [
+    {
+     "id": "works-identified",
+     "pattern": "(\\d+) works identified",
+     "source": {
+      "argv": [
+       "psql",
+       "-h",
+       "127.0.0.1",
+       "-U",
+       "patala",
+       "-d",
+       "openpatala",
+       "-tA",
+       "-c",
+       "SELECT count(*) FROM works"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     },
+     "requires": [
+      "db"
+     ]
+    },
+    {
+     "id": "theorems",
+     "pattern": "(\\d+) Lean theorems",
+     "source": {
+      "argv": [
+       "python3",
+       "formal-trika/tools/evidence_check.py",
+       "--root",
+       "$TRANSLATION_WORK"
+      ],
+      "pattern": "^theorems: (\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "traces",
+     "pattern": "\\*\\*(\\d+) trace bundles\\*\\* published",
+     "source": {
+      "argv": [
+       "python3",
+       "-c",
+       "import json;print(len(json.load(open('formal-trika/data/traces/index.json'))['entries']))"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     }
+    }
+   ]
+  },
+  "WHAT-TRIKA-X-DOES.md": {
+   "status": "CANONICAL",
+   "note": "Plain-language account; numbers verified live at write time (2026-11-14). Lean run counts verified by CI run.sh jobs; everything else checked here.",
+   "claims": [
+    {
+     "id": "theorems",
+     "pattern": "\\*\\*(\\d+) theorems",
+     "source": {
+      "argv": [
+       "python3",
+       "formal-trika/tools/evidence_check.py",
+       "--root",
+       "$TRANSLATION_WORK"
+      ],
+      "pattern": "^theorems: (\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "entries",
+     "pattern": "(\\d+) entries ·",
+     "source": {
+      "argv": [
+       "python3",
+       "formal-trika/tools/evidence_check.py",
+       "--root",
+       "$TRANSLATION_WORK"
+      ],
+      "pattern": "entries: (\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "coverage",
+     "pattern": "coverage (\\d+)/154",
+     "source": {
+      "argv": [
+       "python3",
+       "formal-trika/tools/evidence_check.py",
+       "--root",
+       "$TRANSLATION_WORK"
+      ],
+      "pattern": "direct registry references: (\\d+)/154",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "catalog-tools",
+     "pattern": "SHARP, (\\d+) tools",
+     "source": {
+      "argv": [
+       "python3",
+       "-c",
+       "import json;print(json.load(open('formal-trika/data/mcp-catalog.json'))['count'])"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     }
+    },
+    {
+     "id": "traces",
+     "pattern": "\\*\\*(\\d+) bundles",
+     "source": {
+      "argv": [
+       "python3",
+       "-c",
+       "import json;print(len(json.load(open('formal-trika/data/traces/index.json'))['entries']))"
+      ],
+      "pattern": "(\\d+)",
+      "timeout": 120
+     }
+    }
+   ]
+  },
+  "DOC-FORMAL-SPEC.md": {
+   "status": "CANONICAL",
+   "note": "This spec; self-describing. CHATGPT-ACCEPTANCE.md registers here when PR #25 merges (same-branch rule: no registry entries for files outside the tree)."
+  },
+  "CANONICAL-OPERATIONS.md": {
+   "status": "CANONICAL",
+   "note": "Concurrent-agent contract; process prose, no live numbers."
+  },
+  "MASTERPLAN2.md": {
+   "status": "CANONICAL",
+   "note": "Execution plan; §2 baseline is an explicitly dated 2026-11-08 snapshot — valid history, not a live claim.",
+   "allow_stale": [
+    "104 tools",
+    "157 theorems",
+    "555 works",
+    "555/",
+    "102 editions",
+    "87 etexts",
+    "16/154",
+    "909 passages",
+    "94 tests",
+    "10 lessons",
+    "55 scholar",
+    "52 ",
+    "71 gold",
+    "27 unbridged",
+    "8a9e7f",
+    "PR #7",
+    "2026-11-08"
+   ]
+  },
+  "MASTER-PLAN.md": {
+   "status": "CANONICAL",
+   "note": "Architecture + order; pre-amendment numbers superseded by dated amendment inside.",
+   "allow_stale": [
+    "104 tools",
+    "157 theorems",
+    "555",
+    "444 works",
+    "107 theorems",
+    "8/45 chunks",
+    "16/154",
+    "909 passages"
+   ]
+  },
+  "SYNERGY-CHAIN-2026-11-08.md": {
+   "status": "CANONICAL",
+   "note": "Composition contract; structural rules, no live numbers asserted."
+  },
+  "ENDGAME-RECIPES.md": {
+   "status": "PROPOSED",
+   "note": "Canonical as spec; unbuilt by design (R9 explicitly NOT YET). Proposals carry no live numbers."
+  },
+  "LAYER-NAMES-SPEC-2026-11-07.md": {
+   "status": "CANONICAL",
+   "note": "Internal/external name contract; the resolver + tests are the enforcement."
+  },
+  "BACKBONE.md": {
+   "status": "REFERENCE",
+   "note": "Identity-spine thesis; DB numbers inside are dated 2026-11-06 context, not live claims.",
+   "allow_stale": [
+    "555",
+    "544",
+    "444",
+    "909",
+    "87 etexts",
+    "442 assertions",
+    "121 ext-ids"
+   ]
+  },
+  "PATALA-COVERAGE.md": {
+   "status": "REFERENCE",
+   "note": "Dedup map; coverage claims live with the owning lanes."
+  },
+  "INDEX.md": {
+   "status": "REFERENCE",
+   "note": "Literature corpus index; links checked, counts are bibliography (reviewer-owned)."
+  },
+  "OPERATIONS.md": {
+   "status": "REFERENCE",
+   "note": "Box manual; runbook, not assertions."
+  },
+  "REQUIREMENTS-FROM-DECODE.md": {
+   "status": "REFERENCE",
+   "note": "Formalization requirements; stable reference, no live numbers."
+  },
+  "MASTERPLAN-TECHNICAL-SPEC.md": {
+   "status": "HISTORICAL",
+   "note": "Superseded by MASTERPLAN2; frozen reference."
+  },
+  "NEXT-STEPS.md": {
+   "status": "SUPERSEDED",
+   "note": "Superseded for ordering by MASTERPLAN2 §12; kept for per-item gates."
+  },
+  "LANE-ASKS-2026-11-08.md": {
+   "status": "PROPOSED",
+   "note": "Open cross-repo findings; disposed by owning lanes, not verified here."
+  },
+  "ROTATION-CHECKLIST-2026-11-08.md": {
+   "status": "PROPOSED",
+   "note": "Owner action list; no machine-checkable state."
+  },
+  "SYNERGIES-DEITYBODY.md": {
+   "status": "PROPOSED",
+   "note": "Lane-facing proposal; owning lane disposes."
+  },
+  "SYNERGIES-NIBBANA.md": {
+   "status": "PROPOSED",
+   "note": "Lane-facing proposal; owning lane disposes."
+  },
+  "SYNERGIES-SANSKRITHELP.md": {
+   "status": "PROPOSED",
+   "note": "Lane-facing proposal; owning lane disposes."
+  },
+  "SVREAD-SANSKRIT-SPEC-2026-11-07.md": {
+   "status": "PROPOSED",
+   "note": "svread lane spec; their lane disposes."
+  },
+  "VISION-ARCHITECTURE.md": {
+   "status": "PROPOSED",
+   "note": "Historical proposal, self-marked PROPOSED; read the 2026-11-06 peer review before any status claim."
+  }
+ }
+}

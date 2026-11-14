@@ -1,4 +1,5 @@
 # PATALA COVERAGE — who owns what (dedup map, 2026-11-06)
+*Status: REFERENCE. Dedup map (2026-11-06); coverage claims live with owning lanes.
 
 Nothing here is built twice. Rule: reuse > reference > propose > build;
 never fork identity, never duplicate a registry. Status per capability.

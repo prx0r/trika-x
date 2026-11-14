@@ -1,4 +1,5 @@
 # SYNERGIES — nibbanahelp × formal-trika (2026-11-06, read-only discipline)
+*Status: PROPOSED. Lane-facing proposal; owning lane disposes.
 
 All reads of nibbanahelp are read-only from here (their lane, VOICE RULE,
 active agent today). Writes land in trika-x only. Nothing below edits

@@ -1,4 +1,5 @@
 # LAYER-NAMES SPEC — internal codes for us, human names for callers (v1, 2026-11-07)
+*Status: CANONICAL. Internal/external name contract; resolver + tests enforce it. (2026-11-14.)
 
  Status: SPEC + reference implementation (trika-x only). No lane's code is
  changed by this file. Translation-work schemas + validators stay
