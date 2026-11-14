@@ -87,15 +87,17 @@
 
 ## 4. Navigation (what an agent does, in order)
 
- `federation__guide` returns this; the flow is:
- 1. `openpatala__resolve {work}` — known? ledger + identity block.
-    UNRESOLVED = draft-only downstream, always.
- 2. `scholar__passage_evidence {work, target}` — Sanskrit + layers. Layer
-    codes are internal (T1/L0/argmap/L2/C1/C2/L3/L4); public names live in
-    formal-trika/data/layer-names.json (draft-translation, literal-gloss,
-    argument-map, reading-translation, essence, register-render,
-    final-translation, song) with caller blurbs + our comments.
-    Resolver: formal-trika/tools/layer_names.py (fail-closed).
+ `federation__guide` returns this; the flow is verify-first (step 2 before 3):
+  1. `openpatala__resolve {work}` — known? ledger + identity block.
+     UNRESOLVED = draft-only downstream, always.
+  2. `formal__trace {work, target}` — the machine-checked chain FIRST
+     (Lean theorems + receipts), then `scholar__passage_evidence` for the
+     Sanskrit + layers in plain words: draft-translation, literal-gloss
+     (meaning-forks live here), argument-map, reading-translation, essence,
+     register-render, final-translation, song. Machine keys
+     (T1/L0/ARGMAP/L2/C1/C2/L3/L4) still work; legend + blurbs in
+     formal-trika/data/layer-names.json.
+     Resolver: formal-trika/tools/layer_names.py (fail-closed).
  3. `scholar__audit_draft / link_claims / pushback` — check a draft. Machine
     report until a human adopts it; never a verdict.
  4. `translation__status {work}` (shastra) — registry state, proof, swarm.
