@@ -57,6 +57,25 @@ class TestTreekaReport(unittest.TestCase):
         self.assertEqual(rc, 0)
         self.assertIn("phrdaya | 5 (0 unargued)", out)
 
+    def test_work_filter_scopes_every_summary_count(self):
+        # External review P1: --work used to filter the table but print
+        # corpus-wide gaps/counts/ambiguous in the summary lines.
+        rc, out = run("--work", "phrdaya")
+        self.assertEqual(rc, 0)
+        lines = out.splitlines()
+        header, summary = lines[0], lines[1]
+        self.assertIn("'passages': 5", header)
+        self.assertNotIn("909", header, "corpus count leaked into --work header")
+        self.assertIn("unargued=0", summary)
+        self.assertIn("essayless=5", summary)
+        self.assertNotIn("578", summary, "corpus unargued leaked into --work summary")
+        self.assertNotIn("ambiguous=12", summary, "corpus ambiguous leaked in")
+        # and the full report still shows the real corpus numbers
+        rc2, out2 = run()
+        self.assertEqual(rc2, 0)
+        self.assertIn("'passages': 909", out2.splitlines()[0])
+        self.assertIn("unargued=578", out2.splitlines()[1])
+
 
 if __name__ == "__main__":
     raise SystemExit(unittest.main())

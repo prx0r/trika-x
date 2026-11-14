@@ -48,21 +48,32 @@ def main() -> int:
 
     d = load()
     works = d.get("works", {})
+    gaps = d.get("gaps", {})
+    amb = d.get("ambiguous_locators", [])
+    counts = d.get("counts", {})
     if a.work:
+        # Scope EVERY corpus-wide list to the filtered passage set. The
+        # printed summary must never mix filtered passages with corpus-wide
+        # gap counts (the --work bug the external review caught).
         works = {k: v for k, v in works.items()
                  if k == a.work or k.startswith(a.work + ":")}
-    gaps = d.get("gaps", {})
+        gaps = {gk: [k for k in gv if k in works]
+                for gk, gv in gaps.items()}
+        amb = [x for x in amb
+               if any(k.endswith(":" + x) for k in works)]
+        counts = {"passages": len(works)}
+        counts.update({gk: len(gv) for gk, gv in gaps.items()})
     unformal = [k for k, v in works.items()
                 if not v.get("formal_reference")]
 
     lines: list[str] = []
     lines.append(f"Treeka gap report — {len(works)} passages, "
-                 f"{d.get('counts', {})}")
+                 f"{counts}")
     lines.append(f"unargued={len(gaps.get('unargued', []))} "
                  f"cruxless={len(gaps.get('cruxless', []))} "
                  f"essayless={len(gaps.get('essayless', []))} "
                  f"unformalised={len(gaps.get('no_formal_reference', []))} "
-                 f"ambiguous={len(d.get('ambiguous_locators', []))}")
+                 f"ambiguous={len(amb)}")
     lines.append("formal_reference = registry association only, not proof.")
 
     if not a.queue:
@@ -93,7 +104,6 @@ def main() -> int:
         cx = f"cruxes={w.get('cruxes', 0)}"
         lines.append(f"  {key} [{arg}, {cx}]")
 
-    amb = d.get("ambiguous_locators", [])
     if amb and not a.queue:
         lines.append("")
         lines.append(f"AMBIGUOUS ({len(amb)}): recorded, never auto-resolving")
