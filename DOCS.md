@@ -81,6 +81,7 @@ Quota/GPU: propose-loop continuous run, tau scale-up, COMET baselines.
 | 6 | `MODULES.md` | every repo: role, measured state, gate | CANONICAL |
 | 7 | `ENDGAME-RECIPES.md` | R1–R9 recipes (spec only; diary invariants) | CANONICAL SPEC |
 | 8 | `FEDERATION.md` + `FORMAL-MCP-SPEC-2026-11-07.md` + `PARENT-CONTRACT-SPEC-2026-11-07.md` + `LAYER-NAMES-SPEC-2026-11-07.md` + `MCP-OPS.md` | federation topology, contracts, layer names, ops | CANONICAL |
+| 8b | `CANONICAL-OPERATIONS.md` | how concurrent agents share the box: ownership map, trace pipeline, no-clobber rules, handoff protocol | CANONICAL |
 | 9 | `MASTER-PLAN.md` (+2026-11-08 amendment) | architecture + order; old scoreboard superseded by amendment | CANONICAL (architecture), HISTORICAL (pre-amendment numbers) |
 | 10 | `BACKBONE.md`, `PATALA-COVERAGE.md`, `OPERATIONS.md`, `VISION-ARCHITECTURE.md`, `INDEX.md` | spine thesis, coverage map, runbook, vision, literature index | REFERENCE (vision doc self-marks proposal) |
 | 11 | `SYNERGIES-{DEITYBODY,NIBBANA,SANSKRITHELP}.md`, `SVREAD-SANSKRIT-SPEC-2026-11-07.md`, `ADVICE-TRANSLATION-OPENPATALA.md`, `REQUIREMENTS-FROM-DECODE.md`, `LANE-ASKS-2026-11-08.md`, `ROTATION-CHECKLIST-2026-11-08.md` | lane-facing proposals, asks, checklists | PROPOSED / OPEN (disposed by owning lane) |
