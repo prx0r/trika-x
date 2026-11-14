@@ -1,46 +1,46 @@
 {
- "measured_at": "2026-11-08T12:38:35Z",
+ "measured_at": "2026-11-14T05:41:20Z",
  "git": {
   "trika-x": {
-   "rev": "3cbc877",
-   "branch": "main",
+   "rev": "ec8af42",
+   "branch": "provenance-2026-11-14",
    "dirty": 2
   },
   "openpatala": {
-   "rev": "29ae809",
-   "branch": "box/check-readonly",
+   "rev": "7f5af67",
+   "branch": "pr2-fix",
    "dirty": 0
   },
   "svread": {
-   "rev": "2aeb2bb",
-   "branch": "main",
+   "rev": "8e590488",
+   "branch": "mcp-public-names-2026-11-14",
    "dirty": 0
   }
  },
  "disk": {
   "value": {
-   "free_gb": 4.14,
-   "used_pct": 93.8
+   "free_gb": 2.03,
+   "used_pct": 96.4
   },
   "command": "df -h /"
  },
  "openpatala_db": {
   "value": {
-   "works": 555,
+   "works": 1034,
    "passages": 909,
-   "editions": 102,
-   "etexts": 87,
+   "editions": 581,
+   "etexts": 566,
    "assertions": 1559,
    "translations": 121,
    "people": 20,
    "witnesses": 0
   },
   "command": "psql -d openpatala -t -c 'SELECT count(*) FROM works/passages/editions/etexts/assertions/translations/people/witnesses'",
-  "source_sha256": "58c5240505f376d0067bd0d08471b54a4a2c2d389dbcd1c52432d9a314c177b4"
+  "source_sha256": "1d09f8c7f8bb6f4aee32d12c1607c79b9d119dd443d66c9fde6c4b69f566b664"
  },
  "formal_evidence": {
   "value": {
-   "theorems": 157,
+   "theorems": 206,
    "entries": 155,
    "exemptions": 2,
    "chunk_refs_resolve": 57,
@@ -96,9 +96,9 @@
  "svread_surface": {
   "value": {
    "scholar_projections": 56,
-   "manifest_assets": 7078
+   "manifest_assets": 11109
   },
   "command": "ls /root/svread/data/scholar/*.json; jq assets /root/svread/data/release-manifest.json",
-  "source_sha256": "51c80e4be8146b6e30fa826e75ea717fefe9b4a524e8d9800fba1d99a312d0a5"
+  "source_sha256": "d280b6919eb61e116df5d5aa3abfc14ea1e57ae3183cb867542f323801216fb7"
  }
 }
