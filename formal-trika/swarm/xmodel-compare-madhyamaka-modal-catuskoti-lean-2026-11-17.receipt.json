@@ -1,0 +1,63 @@
+{
+ "format": "trika-essay-receipt/1",
+ "essay": "xmodel-compare-madhyamaka-modal-catuskoti-lean-2026-11-17",
+ "date": "2026-11-17",
+ "frozen_claims": [
+  {
+   "id": "CLM-1",
+   "tier": "H",
+   "text": "On the logic axis: their account holds that modal extension of Belnap-Dunn four-valued semantics; non-classical object level; trika-x holds that classical, decidable finite propositions; `by decide`. This matters because the catuskoti's fourth lemma is not decidable in the sense our proofs require."
+  },
+  {
+   "id": "CLM-2",
+   "tier": "H",
+   "text": "On the regress axis: their account holds that self-application produces a non-terminating regress treated as virtuous; trika-x holds that ascent terminates at the top rung (terminal_no_successor). This matters because structural opposition: open-ended analysis vs a closed ladder."
+  },
+  {
+   "id": "CLM-3",
+   "tier": "H",
+   "text": "On the target axis: their account holds that refutation of svabhava across all four lemmas; trika-x holds that a positive inventory of what manifests. This matters because negative dialectic vs affirmative ontology."
+  },
+  {
+   "id": "CLM-4",
+   "tier": "E",
+   "text": "Their formalisation is: The Modal Catuskoti: Formalizing Emptiness in Classical Modal Logic (Chapman 2026, Comparative Philosophy 17(2); Lean 4 repo rollofthedice/modal-catuskoti-lean) (Comparative Philosophy 17(2):4-17 (full text verified at SJSU scholarworks 2026-11-17; doi resolver 404 was a resolver quirk); github.com/rollofthedice/modal-catuskoti-lean). Recorded as published; not re-verified by this essay."
+  },
+  {
+   "id": "CLM-5",
+   "tier": "R",
+   "text": "Our side is anchored in machine-checked structures: Conjuncts.lean :: recognition_unique, Avarana.lean :: partial_order_honest. Registry references are not source-to-theorem entailments."
+  },
+  {
+   "id": "CLM-6",
+   "tier": "H",
+   "text": "Obstruction: Classical decidability vs paraconsistent non-classical valuation. `decide` presupposes a decidable classical proposition; the catuskoti's fourth lemma (neither) is not such a proposition. Encoding it in trika-x would require replacing the proof core, not adding a table."
+  },
+  {
+   "id": "CLM-S1",
+   "tier": "C",
+   "text": "Shared ground: Lean 4 for an Indian philosophical doctrine."
+  },
+  {
+   "id": "CLM-S2",
+   "tier": "C",
+   "text": "Shared ground: emptiness/absence as a formal object."
+  },
+  {
+   "id": "CLM-W",
+   "tier": "H",
+   "text": "What it means: Any comparative paper must state that trika-x cannot represent the fourth lemma, and that this is a design commitment of the affirmative ontology, not an oversight."
+  }
+ ],
+ "theorems": [
+  {
+   "name": "Conjuncts.lean :: recognition_unique",
+   "tier": "UNVERIFIED"
+  },
+  {
+   "name": "Avarana.lean :: partial_order_honest",
+   "tier": "UNVERIFIED"
+  }
+ ],
+ "note": "Frozen at compile time; a change to any claim text invalidates this receipt."
+}

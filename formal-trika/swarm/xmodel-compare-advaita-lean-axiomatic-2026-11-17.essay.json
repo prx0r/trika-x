@@ -1,0 +1,85 @@
+{
+ "format": "trika-essay/1",
+ "id": "essay:expansion-xmodel-compare-advaita-lean-axiomatic-2026-11-17",
+ "title": "Comparison: trika-x and Advaita Vedanta: A Formal Axiomatization (Lean 4, scherf/Advaita) — 129 primitive axioms, 10 modules, master theorems TatTvamAsi + ThreeStateAnalysis",
+ "date": "2026-11-17",
+ "chunk": "paramarthasara:param-p04",
+ "verses": "29-37",
+ "voice": "agent-drafted under owner direction; structural generation from a comparison record; not human-reviewed",
+ "claims": [
+  {
+   "id": "CLM-1",
+   "tier": "H",
+   "text": "On the method axis: their account holds that 129 primitive axioms; theorems derived from them; trika-x holds that finite tables; 332 `by decide` propositions; no axioms about the absolute. This matters because their theorems hold inside an assumed theology; ours hold inside an enumerated model."
+  },
+  {
+   "id": "CLM-2",
+   "tier": "H",
+   "text": "On the self axis: their account holds that one witness-self; ego is superimposition (adhyasa); A4 makes Atman = Brahman an axiom; trika-x holds that self contracts through five named coverings; identity is never lost but is restricted. This matters because opposite formal treatment of plurality: error to be sublated vs real contraction."
+  },
+  {
+   "id": "CLM-3",
+   "tier": "H",
+   "text": "On the recognition axis: their account holds that listed under 'what the formalization CANNOT capture': moksa is recognition, not a new state; trika-x holds that proved: recognition_adds_nothing, recognition_preserves_content. This matters because the single sharpest disparity: they call it unformalizable; we formalise it and they are the ones with axioms."
+  },
+  {
+   "id": "CLM-4",
+   "tier": "E",
+   "text": "Their formalisation is: Advaita Vedanta: A Formal Axiomatization (Lean 4, scherf/Advaita) — 129 primitive axioms, 10 modules, master theorems TatTvamAsi + ThreeStateAnalysis (github.com/matthew-scherf/Advaita/ + Zenodo doi:10.5281/zenodo.17333604 (repo verified live 2026-11-17; direct fetch 404 was a fetcher quirk, trailing-slash URL resolves)). Recorded as published; not re-verified by this essay."
+  },
+  {
+   "id": "CLM-5",
+   "tier": "R",
+   "text": "Our side is anchored in machine-checked structures: Recognition.lean :: recognition_adds_nothing, Kancuka.lean :: pairings_distinct. Registry references are not source-to-theorem entailments."
+  },
+  {
+   "id": "CLM-S1",
+   "tier": "C",
+   "text": "Shared ground: same proof assistant (Lean 4)."
+  },
+  {
+   "id": "CLM-S2",
+   "tier": "C",
+   "text": "Shared ground: same target doctrine family (non-dual Kashmir/Advaita Shaiva-Vedantic)."
+  },
+  {
+   "id": "CLM-S3",
+   "tier": "C",
+   "text": "Shared ground: recognition/moksa as non-production of a new state."
+  },
+  {
+   "id": "CLM-W",
+   "tier": "H",
+   "text": "What it means: A paper can argue that 'recognition adds nothing' is formalisable without axioms, and that the Advaita axiomatisation's stated limitation is an artefact of its method, not of the doctrine."
+  }
+ ],
+ "theorems": [
+  {
+   "name": "Recognition.lean :: recognition_adds_nothing",
+   "tier": "UNVERIFIED"
+  },
+  {
+   "name": "Kancuka.lean :: pairings_distinct",
+   "tier": "UNVERIFIED"
+  }
+ ],
+ "open_questions": [
+  "Does the partial verdict survive a reviewer who knows the source language?",
+  "Which disparity would move first if the other formalisation changed?"
+ ],
+ "tracks": [
+  "F1",
+  "F2",
+  "F11"
+ ],
+ "openpatala": {
+  "openpatala_work_id": "paramarthasara",
+  "mapping_status": "CANDIDATE",
+  "edition_label": "GRETIL KSTS 7 (Abhinavagupta Paramārthasāra)"
+ },
+ "status": "MACHINE-COMPILED",
+ "comparison": {
+  "id": "advaita-lean-axiomatic",
+  "verdict": "partial"
+ }
+}
