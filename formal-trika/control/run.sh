@@ -67,6 +67,11 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Aperture.lea
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Inexternalism.lean --mutant ../frontier/BrokenInexternalism.lean --theorem mode_switch_preserves_content || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Inexternalism.lean --mutant ../frontier/BrokenNoProduction.lean --theorem sample_no_production || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Inexternalism.lean --mutant ../frontier/BrokenOneProcess.lean --theorem sample_one_process || exit 1
+(cd ../frontier && "$LEAN" -DwarningAsError=true -o Inexternalism.olean Inexternalism.lean) || exit 1
+LEAN_PATH=../frontier "$LEAN" -DwarningAsError=true ../frontier/PerspectivalAction.lean || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/PerspectivalAction.lean --mutant ../frontier/BrokenActContent.lean --theorem act_preserves_content || exit 1
+"$LEAN" -DwarningAsError=true ../frontier/Cuttable.lean || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Cuttable.lean --mutant ../frontier/BrokenCutCross.lean --theorem no_cross_cut_flow || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../buddhist/Nanavira.lean --mutant ../buddhist/BrokenNanMatch2.lean --theorem matchings_three || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../buddhist/Nanavira.lean --mutant ../buddhist/BrokenNanScale.lean --theorem orders_scale || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../buddhist/Nanavira.lean --mutant ../buddhist/BrokenNanParasite.lean --theorem parasite_erase || exit 1

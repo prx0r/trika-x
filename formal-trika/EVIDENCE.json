@@ -1667,6 +1667,38 @@
    "r_sources": [
     "OWNER theory: Aperture inexternalism layer C exclusion constraints (CONSCIOUSNESS-STUDIES.md). H-tier, not scripture."
    ]
+  },
+  "PerspectivalAction.lean :: act_preserves_content": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Z/2 action generalising the two-positioning flip (CONSCIOUSNESS-STUDIES.md §4a upgrade path; nearest neighbour PCM S = T o R)."
+   ]
+  },
+  "PerspectivalAction.lean :: generator_agrees_on_positioning": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Z/2 action generalising the two-positioning flip (CONSCIOUSNESS-STUDIES.md §4a upgrade path; nearest neighbour PCM S = T o R)."
+   ]
+  },
+  "PerspectivalAction.lean :: flip_squared_is_identity_op": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Z/2 action generalising the two-positioning flip (CONSCIOUSNESS-STUDIES.md §4a upgrade path; nearest neighbour PCM S = T o R)."
+   ]
+  },
+  "Cuttable.lean :: no_cross_cut_flow": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Decoupled recognition dynamics; the Phi = 0 base case without a Phi definition (CONSCIOUSNESS-STUDIES.md)."
+   ]
   }
  },
  "exemptions": {
