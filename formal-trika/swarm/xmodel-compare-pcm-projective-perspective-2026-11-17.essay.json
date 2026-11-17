@@ -30,7 +30,7 @@
   {
    "id": "CLM-5",
    "tier": "R",
-   "text": "Our side is anchored in machine-checked structures: Inexternalism.lean :: mode_switch_preserves_content, Inexternalism.lean :: recognise_preserves_content. Registry references are not source-to-theorem entailments."
+   "text": "Our side is anchored in machine-checked structures: Inexternalism.lean :: mode_switch_preserves_content, Inexternalism.lean :: recognise_preserves_content, PerspectivalAction.lean :: act_preserves_content. Registry references are not source-to-theorem entailments."
   },
   {
    "id": "CLM-S1",
@@ -60,6 +60,10 @@
   },
   {
    "name": "Inexternalism.lean :: recognise_preserves_content",
+   "tier": "UNVERIFIED"
+  },
+  {
+   "name": "PerspectivalAction.lean :: act_preserves_content",
    "tier": "UNVERIFIED"
   }
  ],

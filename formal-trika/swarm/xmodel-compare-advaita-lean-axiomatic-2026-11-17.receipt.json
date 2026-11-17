@@ -21,7 +21,7 @@
   {
    "id": "CLM-4",
    "tier": "E",
-   "text": "Their formalisation is: Advaita Vedanta: A Formal Axiomatization (Lean 4, scherf/Advaita) — 129 primitive axioms, 10 modules, master theorems TatTvamAsi + ThreeStateAnalysis (github.com/matthew-scherf/Advaita (README, retrieved 2026-11-17)). Recorded as published; not re-verified by this essay."
+   "text": "Their formalisation is: Advaita Vedanta: A Formal Axiomatization (Lean 4, scherf/Advaita) — 129 primitive axioms, 10 modules, master theorems TatTvamAsi + ThreeStateAnalysis (github.com/matthew-scherf/Advaita/ + Zenodo doi:10.5281/zenodo.17333604 (repo verified live 2026-11-17; direct fetch 404 was a fetcher quirk, trailing-slash URL resolves)). Recorded as published; not re-verified by this essay."
   },
   {
    "id": "CLM-5",
