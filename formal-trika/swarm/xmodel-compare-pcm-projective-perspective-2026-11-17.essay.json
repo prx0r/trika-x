@@ -50,7 +50,7 @@
   {
    "id": "CLM-W",
    "tier": "H",
-   "text": "What it means: The upgrade path is explicit: generalise sigma to a group action on the field, recover the two-valued flip as the degenerate case, and prove content invariance for the action. That would change this verdict to fit and strengthen both sides."
+   "text": "What it means: The upgrade path is half-built: the discrete skeleton (group laws, generator, joint testbed) is machine-checked. What remains is the continuous group and its derivation from postulates. Do not claim the fit until then."
   }
  ],
  "theorems": [
