@@ -1,0 +1,63 @@
+{
+ "format": "trika-essay-receipt/1",
+ "essay": "xmodel-compare-pcm-projective-perspective-2026-11-17",
+ "date": "2026-11-17",
+ "frozen_claims": [
+  {
+   "id": "CLM-1",
+   "tier": "H",
+   "text": "On the generality axis: their account holds that T ranges over PGL(4,R); the group is derived from four perceptual postulates (central projection, coherent updating, minimal gauge, normative control); trika-x holds that sigma has exactly two values, asserted, not derived. This matters because this is the strongest mapping in the set and the clearest gap: our flip is the two-element degenerate case of their group action."
+  },
+  {
+   "id": "CLM-2",
+   "tier": "H",
+   "text": "On the derivation axis: their account holds that RP^3 and PGL(4,R) are necessary given P1-P4; trika-x holds that two positionings are stipulated (tier H, owner framework). This matters because they prove a necessity claim; we assert a two-valued structure, so ours is weaker and more general."
+  },
+  {
+   "id": "CLM-3",
+   "tier": "H",
+   "text": "On the formality axis: their account holds that continuous geometry plus active inference, not machine-checked; trika-x holds that machine-checked but finite and discrete. This matters because complementary: their structure, our kernel check."
+  },
+  {
+   "id": "CLM-4",
+   "tier": "E",
+   "text": "Their formalisation is: The Projective Consciousness Model (Rudrauf, Williford and colleagues): conscious experience as a world model transformed by a projective transformation, S = T ∘ R, with viewpoint changes acting as collineations in PGL(4,R) (Williford, Bennequin, Friston & Rudrauf (2018) Front. Psychol. 9:2571; Rudrauf et al. (2023) Brain Sci. 13(10):1435; Rudrauf & Pansu (preprint) 'Why the PCM must be true' (verified 2026-11-17)). Recorded as published; not re-verified by this essay."
+  },
+  {
+   "id": "CLM-5",
+   "tier": "R",
+   "text": "Our side is anchored in machine-checked structures: Inexternalism.lean :: mode_switch_preserves_content, Inexternalism.lean :: recognise_preserves_content. Registry references are not source-to-theorem entailments."
+  },
+  {
+   "id": "CLM-S1",
+   "tier": "C",
+   "text": "Shared ground: a content/positioning separation: a fixed world-model R plus a perspective T applied to it."
+  },
+  {
+   "id": "CLM-S2",
+   "tier": "C",
+   "text": "Shared ground: change is a transformation of access, not a change of content."
+  },
+  {
+   "id": "CLM-S3",
+   "tier": "C",
+   "text": "Shared ground: experience is perspectival by construction."
+  },
+  {
+   "id": "CLM-W",
+   "tier": "H",
+   "text": "What it means: The upgrade path is explicit: generalise sigma to a group action on the field, recover the two-valued flip as the degenerate case, and prove content invariance for the action. That would change this verdict to fit and strengthen both sides."
+  }
+ ],
+ "theorems": [
+  {
+   "name": "Inexternalism.lean :: mode_switch_preserves_content",
+   "tier": "UNVERIFIED"
+  },
+  {
+   "name": "Inexternalism.lean :: recognise_preserves_content",
+   "tier": "UNVERIFIED"
+  }
+ ],
+ "note": "Frozen at compile time; a change to any claim text invalidates this receipt."
+}

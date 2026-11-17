@@ -1,6 +1,6 @@
 # Comparison: trika-x and Higher-Order Thought theory (Rosenthal): a state is conscious iff accompanied by a higher-order representation of it
 
-*Verdict: **incompatible**. Generated structurally from `compare:hot-higher-order-thought`. Machine-compiled; human review is a separate step.*
+*Verdict: **not-comparable**. Generated structurally from `compare:hot-higher-order-thought`. Machine-compiled; human review is a separate step.*
 
 ## Their side
 

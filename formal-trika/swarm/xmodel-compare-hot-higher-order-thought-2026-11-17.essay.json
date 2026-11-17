@@ -60,7 +60,7 @@
   }
  ],
  "open_questions": [
-  "Does the incompatible verdict survive a reviewer who knows the source language?",
+  "Does the not-comparable verdict survive a reviewer who knows the source language?",
   "Which disparity would move first if the other formalisation changed?"
  ],
  "tracks": [
@@ -76,6 +76,6 @@
  "status": "MACHINE-COMPILED",
  "comparison": {
   "id": "hot-higher-order-thought",
-  "verdict": "incompatible"
+  "verdict": "not-comparable"
  }
 }
