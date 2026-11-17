@@ -1699,6 +1699,14 @@
    "r_sources": [
     "Owner framework, H-tier. Decoupled recognition dynamics; the Phi = 0 base case without a Phi definition (CONSCIOUSNESS-STUDIES.md)."
    ]
+  },
+  "Testbed.lean :: testbed_joint": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Common-testbed move from Yan et al. 2026: one finite carrier, dynamics + Z/2 action jointly checked."
+   ]
   }
  },
  "exemptions": {
