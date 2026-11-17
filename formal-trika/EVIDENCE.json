@@ -1707,6 +1707,78 @@
    "r_sources": [
     "Owner framework, H-tier. Common-testbed move from Yan et al. 2026: one finite carrier, dynamics + Z/2 action jointly checked."
    ]
+  },
+  "Inexternalism.lean :: sigma_distinct": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Aperture inexternalism core (CONSCIOUSNESS-STUDIES.md layers A-C)."
+   ]
+  },
+  "Inexternalism.lean :: recognise_changes_positioning": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Aperture inexternalism core (CONSCIOUSNESS-STUDIES.md layers A-C)."
+   ]
+  },
+  "Inexternalism.lean :: sample_closed": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Aperture inexternalism core (CONSCIOUSNESS-STUDIES.md layers A-C)."
+   ]
+  },
+  "Inexternalism.lean :: sample_no_fixed_point": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Aperture inexternalism core (CONSCIOUSNESS-STUDIES.md layers A-C)."
+   ]
+  },
+  "PerspectivalAction.lean :: z2_closed": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Z/2 action layer; the two-positioning symmetry group and its action (CONSCIOUSNESS-STUDIES.md §4a)."
+   ]
+  },
+  "PerspectivalAction.lean :: z2_assoc": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Z/2 action layer; the two-positioning symmetry group and its action (CONSCIOUSNESS-STUDIES.md §4a)."
+   ]
+  },
+  "PerspectivalAction.lean :: z2_selfinv": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Z/2 action layer; the two-positioning symmetry group and its action (CONSCIOUSNESS-STUDIES.md §4a)."
+   ]
+  },
+  "PerspectivalAction.lean :: act_identity_sigma": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Z/2 action layer; the two-positioning symmetry group and its action (CONSCIOUSNESS-STUDIES.md §4a)."
+   ]
+  },
+  "PerspectivalAction.lean :: act_compose_sigma": {
+   "kind": "MODEL",
+   "chunks": [],
+   "lived": [],
+   "r_sources": [
+    "Owner framework, H-tier. Z/2 action layer; the two-positioning symmetry group and its action (CONSCIOUSNESS-STUDIES.md §4a)."
+   ]
   }
  },
  "exemptions": {
