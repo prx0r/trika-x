@@ -6,7 +6,7 @@ change it. (2026-11-17.)*
 
 ## 1. What we claim
 
-**Non-vacuity, not soundness.** The checker is exercised by 60 hand-written
+**Non-vacuity, not soundness.** The checker is exercised by 62 hand-written
 mutants, each a one-definition corruption that a precisely named proposition
 must refute. `tools/must_fail.py` accepts a mutant only when Lean itself reports
 that the named proposition is false, and refuses a mutant that fails for any
