@@ -1,0 +1,69 @@
+{
+ "format": "trika-essay/1",
+ "id": "essay:expansion-xmodel-recognition-vs-individuation-2026-11-17",
+ "title": "Recognition or Individuation? A Non-Additive Claim Against an Additive One",
+ "date": "2026-11-17",
+ "chunk": "tantrasara-a08:tsa08-p03",
+ "verses": "8.39-8.64",
+ "voice": "agent-drafted under owner direction; not human-reviewed",
+ "claims": [
+  {
+   "id": "CLM-1",
+   "tier": "T",
+   "text": "The passage names the discernment (viveka) by which a person rises above māyā.",
+   "span": "māyāpuruṣaviveko bhavati",
+   "span_sha256": "7aa60d96e6e06dee6d378ad18886fd02c782969f38e6a4177fcf5f649bc94cc9",
+   "source_sha256": "7f9e4b3307f2f52f461436d213aae6208090bb8f6dd007b0255a45e3b306a1fd",
+   "source_edition": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)",
+   "source_binding_version": 2
+  },
+  {
+   "id": "CLM-2",
+   "tier": "R",
+   "text": "On the formalised Trika side, recognition lands on what is already present and adds no new content (theorem paraphrase, not a reading)."
+  },
+  {
+   "id": "CLM-3",
+   "tier": "H",
+   "text": "On the Jungian side, individuation integrates the Self, so the endpoint is achieved rather than merely uncovered."
+  },
+  {
+   "id": "CLM-4",
+   "tier": "H",
+   "text": "If the two accounts differ on additivity, they should differ clinically: uncovering versus constructing."
+  },
+  {
+   "id": "CLM-5",
+   "tier": "H",
+   "text": "Settling condition: a durable change with no new content delivered and none needed, or an additive intervention matching recognition outcomes."
+  }
+ ],
+ "theorems": [
+  {
+   "name": "Recognition.lean :: recognition_adds_nothing",
+   "tier": "UNVERIFIED"
+  },
+  {
+   "name": "Recognition.lean :: recognition_preserves_content",
+   "tier": "UNVERIFIED"
+  }
+ ],
+ "open_questions": [
+  "Is the Jungian 'Self' an addition or a disclosure under another name?",
+  "Does either account make a different prediction a clinician could observe?"
+ ],
+ "tracks": [
+  "F2",
+  "F3"
+ ],
+ "openpatala": {
+  "openpatala_work_id": "tantrasara-a08",
+  "mapping_status": "CANDIDATE",
+  "edition_label": "gretil_tantrasara_clean.txt (Nirnaya Sagara 1918, GRETIL)"
+ },
+ "tension": {
+  "id": "xmodel:recognition-vs-individuation",
+  "relation": "loosens"
+ },
+ "status": "MACHINE-COMPILED"
+}
