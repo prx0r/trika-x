@@ -19,6 +19,7 @@ fi
 "$LEAN" -DwarningAsError=true TattvaGen.lean || exit 1
 "$LEAN" -DwarningAsError=true Prakasa.lean || exit 1
 "$LEAN" -DwarningAsError=true ../frontier/Aperture.lean || exit 1
+"$LEAN" -DwarningAsError=true ../frontier/Inexternalism.lean || exit 1
 "$LEAN" -DwarningAsError=true ../buddhist/Nanavira.lean || exit 1
 "$LEAN" -DwarningAsError=true ../frontier/Tetrahedron.lean || exit 1
 "$LEAN" -DwarningAsError=true ../frontier/Closure.lean || exit 1
@@ -63,6 +64,7 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaGen.lean --mutant 
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Prakasa.lean --mutant BrokenPraHidden.lean --theorem all_appear || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Aperture.lean --mutant ../frontier/BrokenApertureDup.lean --theorem aperture_distinct || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Aperture.lean --mutant ../frontier/BrokenApertureDrop.lean --theorem aperture_nine || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Inexternalism.lean --mutant ../frontier/BrokenInexternalism.lean --theorem mode_switch_preserves_content || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../buddhist/Nanavira.lean --mutant ../buddhist/BrokenNanMatch2.lean --theorem matchings_three || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../buddhist/Nanavira.lean --mutant ../buddhist/BrokenNanScale.lean --theorem orders_scale || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../buddhist/Nanavira.lean --mutant ../buddhist/BrokenNanParasite.lean --theorem parasite_erase || exit 1
