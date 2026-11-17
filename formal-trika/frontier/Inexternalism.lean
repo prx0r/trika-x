@@ -23,6 +23,10 @@
 -/
 namespace FormalTrika
 
+/- LAYER C — exclusion constraints. What the theory forbids, as machine
+   statements. Each is a stipulated invariant of our model, with a named
+   twin that breaks exactly it. -/
+
 /-- The two positionings of the self inside a finite field (IPVV V1E):
     the self as an instrument among things, or as the primary thing seen. -/
 inductive Sigma where
@@ -101,6 +105,25 @@ theorem mode_switch_preserves_content :
       ((reDescribe f).world == f.world) &&
       ((reDescribe f).relation == f.relation) &&
       ((reDescribe f).sigma == f.sigma)) = true := by
+  decide
+
+/-- Exclusion C1: no transition in this model produces a state.
+    Production is not among the operations; a function that is constantly
+    false says so in a checkable way. -/
+def producesSomething : Field → Bool := fun _ => false
+
+/-- C1: over the sample, nothing is produced. -/
+theorem sample_no_production :
+    sampleFields.all (fun f => !producesSomething f) = true := by
+  decide
+
+/-- The extrinsic description of the same process (aperture mode of access).
+    If the identity theory holds, re-describing preserves content. -/
+def describeExtrinsic : Field → Field := fun f => f
+
+/-- C2: over the sample, extrinsic redescription is the identity on every field. -/
+theorem sample_one_process :
+    sampleFields.all (fun f => decide (describeExtrinsic f = f)) = true := by
   decide
 
 end FormalTrika
