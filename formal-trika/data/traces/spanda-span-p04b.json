@@ -14,7 +14,7 @@
  },
  "caveats": [],
  "chunk": {
-  "immutable_id": "",
+  "immutable_id": "pt:pid:spanda:9facf5e96b49",
   "target": "span-p04b",
   "work": "spanda"
  },
@@ -119,7 +119,7 @@
    "label": "GRETIL (Vasugupta Spandakarika)",
    "status": "CANDIDATE-WORK"
   },
-  "immutable_id": "",
+  "immutable_id": "pt:pid:spanda:9facf5e96b49",
   "ledger": "spanda/passages.jsonl",
   "source_sha_file": null,
   "verses": "KSTS 26-38",
