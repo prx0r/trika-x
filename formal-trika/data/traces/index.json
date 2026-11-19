@@ -1,89 +1,2649 @@
 {
- "count": 5,
+ "count": 150,
  "entries": [
   {
    "caveats": [],
-   "file": "traces/phrdaya-phr-p01.json",
+   "file": "traces/ipvv-chunkA-svatyandya.json",
    "gaps": [
-    "identity:db"
+    "layer:l3",
+    "layer:l4"
    ],
-   "immutable_id": "pt:pid:phr:be7123f0b14a",
-   "sha256": "354b98453d2d3cb872f2733fcb30449ed61e7882f0896670d2697f78dc8d936b",
-   "target": "phr-p01",
-   "theorems": [
-    "Phrdaya.lean :: epithet_three"
-   ],
+   "immutable_id": "pt:pid:ipvv:165115d8eb7d",
+   "sha256": "6cbd2c14e5fe9313dc1e0c57141adc22d7126b9ab2075859449c15d296f6152a",
+   "target": "chunkA-svatyandya",
+   "theorems": [],
    "verdict": "PARTIAL",
-   "work": "phrdaya"
+   "work": "ipvv"
   },
   {
    "caveats": [],
-   "file": "traces/phrdaya-phr-p02.json",
+   "file": "traces/ipvv-chunkB-eligibility-gita.json",
    "gaps": [
-    "identity:db"
+    "layer:l3",
+    "layer:l4"
    ],
-   "immutable_id": "pt:pid:phr:ab1f9fe757ce",
-   "sha256": "c038c701119b25252da62981d0d2422e02fc929181d779b2bdbd665bd458a116",
-   "target": "phr-p02",
-   "theorems": [
-    "Phrdaya.lean :: pentads_thirtyfive"
-   ],
+   "immutable_id": "pt:pid:ipvv:8d7e43bdf318",
+   "sha256": "923b6b175d67fe2695087c83d8413fbbcc0af19e65760a72555e6441ce31e47a",
+   "target": "chunkB-eligibility-gita",
+   "theorems": [],
    "verdict": "PARTIAL",
-   "work": "phrdaya"
+   "work": "ipvv"
   },
   {
    "caveats": [],
-   "file": "traces/phrdaya-phr-p03.json",
+   "file": "traces/ipvv-chunkC-svatma-maya-upanishad.json",
    "gaps": [
-    "identity:db"
+    "layer:l3",
+    "layer:l4"
    ],
-   "immutable_id": "pt:pid:phr:e9135501936e",
-   "sha256": "d4f25ac7858aa940431b11a68a34a1d58ee1d501c28251c215d3b9020b64f429",
-   "target": "phr-p03",
-   "theorems": [
-    "Phrdaya.lean :: five_acts"
-   ],
+   "immutable_id": "pt:pid:ipvv:cab68738d18e",
+   "sha256": "6fb80bb72d16f510e2c18e84e05db00a732224f0f8fadb0adb4e384faa79aaa6",
+   "target": "chunkC-svatma-maya-upanishad",
+   "theorems": [],
    "verdict": "PARTIAL",
-   "work": "phrdaya"
+   "work": "ipvv"
   },
   {
    "caveats": [],
-   "file": "traces/phrdaya-phr-p04.json",
+   "file": "traces/ipvv-chunkD-memory-pramana.json",
    "gaps": [
-    "identity:db"
+    "layer:l3",
+    "layer:l4"
    ],
-   "immutable_id": "pt:pid:phr:cfdca5029c42",
-   "sha256": "5e7b38e53e8ffdfff341cbe3352245f1920e1dc668cac974d8d2c08e155886a8",
-   "target": "phr-p04",
-   "theorems": [
-    "Mala.lean :: count_3",
-    "MalaFuel.lean :: fuel_terminates",
-    "MalaFuel.lean :: grace_ignites"
-   ],
+   "immutable_id": "pt:pid:ipvv:80f9c7f414ed",
+   "sha256": "ebcbbfb2cb65c7cc7bcd1d94c4ebdf61f19948a97f01548889233fded1d38b89",
+   "target": "chunkD-memory-pramana",
+   "theorems": [],
    "verdict": "PARTIAL",
-   "work": "phrdaya"
+   "work": "ipvv"
   },
   {
    "caveats": [],
-   "file": "traces/phrdaya-phr-p05.json",
+   "file": "traces/ipvv-chunkE-cit-acid-dvairasya.json",
    "gaps": [
-    "identity:db"
+    "layer:l3",
+    "layer:l4"
    ],
-   "immutable_id": "pt:pid:phr:416a3031abdc",
-   "sha256": "9ab2b751b92ef6d0a3e0744958c0d517c047d3f73e6bbc60e582093eeded69e0",
-   "target": "phr-p05",
+   "immutable_id": "pt:pid:ipvv:4f780e406d0c",
+   "sha256": "9072ab517071ff22a6a254acad172f7b9abd69f0469e324b3bacbe54ebe98b4a",
+   "target": "chunkE-cit-acid-dvairasya",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkF-upoddhata-k1-7.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:1bb4e70c35b9",
+   "sha256": "a399474979bb8adaff59e97692fd637e5f6d3c8ee999a55780450dafc07fbfa9",
+   "target": "chunkF-upoddhata-k1-7",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkG-k1.2.7-1.8-citsvarupam.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:7db619b2d4f2",
+   "sha256": "bbed20672406a4f00eed3446ccaf3ff5d2411ddbd09eb0ee92e3dc704747303e",
+   "target": "chunkG-k1.2.7-1.8-citsvarupam",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkH-k1.8-caitanyamajada-pratibimba.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:05765be4afff",
+   "sha256": "2ad445d02bcbcd9fe9ce41394efed8e02848cac4eae0f2592affb8f17602683e",
+   "target": "chunkH-k1.8-caitanyamajada-pratibimba",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkI-k1.9-1.10-kriya-karyakarana.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:64678ac92bc1",
+   "sha256": "d3b9c77506b779d11a91ce433d02430105473a5b20a36f8588365a4994de8dcb",
+   "target": "chunkI-k1.9-1.10-kriya-karyakarana",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkJ-k1.11-kartapi-kalpita.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:5b225fdbeb52",
+   "sha256": "b677f6ea4b69dc321919c5b12a4e020c43f22137f5dce0f3918ec80183179890",
+   "target": "chunkJ-k1.11-kartapi-kalpita",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkK-purvapaksa-siddhanta.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:d91580075602",
+   "sha256": "0f47afb89df16f04f2b180838c37b2e5747488818283d47b3a34f596e64089ee",
+   "target": "chunkK-purvapaksa-siddhanta",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkL-memory-error-sankaranandana.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:1080e755a40d",
+   "sha256": "4d0a902c2c8a8903f7716025f5e251c85125228bfc5c5a928ee617376edf3426",
+   "target": "chunkL-memory-error-sankaranandana",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkM-jnanadhikara-reflexion-core.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:1c5f25051297",
+   "sha256": "874948e14ec222eaa9b295ea22baedb107b10e5b98c9271c6d41a7b09d110801",
+   "target": "chunkM-jnanadhikara-reflexion-core",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkN-close-mahesvara-saktis.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:8c652bfd72be",
+   "sha256": "cb0cc88dd5ab80176afef28e86aba0ec39fe521557c6d5c94ff7605338dcd0a0",
+   "target": "chunkN-close-mahesvara-saktis",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-A-caturtho-vimarsa-aham.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:298f931229c5",
+   "sha256": "ecab1a752b365c79945d814df7b42746ab6567f4e56c7eef36217f3003e47f78",
+   "target": "chunkV2-A-caturtho-vimarsa-aham",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-B-sahajavimarsa-prakasavimarsa.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:d5a036b8cfae",
+   "sha256": "8ea4c3ff7e1110764700dd0334177bdc468354c2324427641241a8836e02b284",
+   "target": "chunkV2-B-sahajavimarsa-prakasavimarsa",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-C-vistanti-ajadapramatrsiddhi.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:55d2fd8d1703",
+   "sha256": "fd4eee01a937aa91e3ad19c8c627f1f61a1495e1b70a36ed8b6be1b5cded5090",
+   "target": "chunkV2-C-vistanti-ajadapramatrsiddhi",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-D-pancamo-vimarsa-jnanasakti.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:62db0c4350bd",
+   "sha256": "e1b2924dccad8c12a580a8b6d24603bd7590a5c3b3931b18057d7980f0d4e07c",
+   "target": "chunkV2-D-pancamo-vimarsa-jnanasakti",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-E-pancamo-jnanasakti-k5.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:5c87f8b03d9b",
+   "sha256": "c6f4c00d92e7d59fd93d58821cad95999c0318c4061ad349d82b68ed23525cbb",
+   "target": "chunkV2-E-pancamo-jnanasakti-k5",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-F-pancamo-vimarsa-k6.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:77c9877ab106",
+   "sha256": "4aae8545753574acfe9b4bd13c07f3008fe1e6e5c1e5191affddee577d2d53bb",
+   "target": "chunkV2-F-pancamo-vimarsa-k6",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-G-pancamo-vimarsa-k7-10.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:76925ca9ae3c",
+   "sha256": "6483d3116f8a8e333297f0b02645cb2d17d6541f548030d697c7116289482fed",
+   "target": "chunkV2-G-pancamo-vimarsa-k7-10",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-H-pancamo-vimarsa-k11-13.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:32b73212ceee",
+   "sha256": "5ba60dbf7a77d58eadd2ebc0cf8d1992cabbb10129184edfb951ae5e9d9e03a5",
+   "target": "chunkV2-H-pancamo-vimarsa-k11-13",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-I-pancamo-vimarsa-k14-19.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:22f7243d5fb9",
+   "sha256": "f8c60ba0a10973a359e3945c1b1fb4a8f4b630e499e754ba9e81c6da9a3e7382",
+   "target": "chunkV2-I-pancamo-vimarsa-k14-19",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-J-pancamo-vimarsa-k19-20.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:1c2f79595028",
+   "sha256": "9c37bcdc648d8c8f2716a146acab45167d56af6483d366fcf1715c61b0f600e4",
+   "target": "chunkV2-J-pancamo-vimarsa-k19-20",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-K-pancamo-vimarsa-k20-21.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:5120571fe702",
+   "sha256": "a9d006fcc8bd6e35d32542b1c3811c969e396f9fc169654ba13d83039355b202",
+   "target": "chunkV2-K-pancamo-vimarsa-k20-21",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-L-sastho-vimarsa-smrti-apohana.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:c94153f929f7",
+   "sha256": "5785c02c3891dfb90bec8ba4c8fd80a4b12d5410e5d4e509aab96a23f4a52718",
+   "target": "chunkV2-L-sastho-vimarsa-smrti-apohana",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-M-sastho-vimarsa-k6-7.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:311635b7c8a8",
+   "sha256": "94d7ac61112409068f409996204267f2eb649710be2192747323fc99d671abe8",
+   "target": "chunkV2-M-sastho-vimarsa-k6-7",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-N-sastho-k8-11.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:3b074ddbaf3b",
+   "sha256": "07878c1d27f7f66c7a0285a56c94237ea0804e8fc88b111ef514327f931f5d93",
+   "target": "chunkV2-N-sastho-k8-11",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-O-saptamo-vimarsa.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:3a6b22165fb5",
+   "sha256": "6bff5c2bc608c6b05e43f2efa440effe87f663b556b2550b3bea87b8682fb489",
+   "target": "chunkV2-O-saptamo-vimarsa",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-P-saptamo-k5-10.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:737b9acd8b0c",
+   "sha256": "8558928ebb7c8b2f2983b32ebfc639718088b340cc5872630f453367df1c5a9a",
+   "target": "chunkV2-P-saptamo-k5-10",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-Q-saptamo-k11-close.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:fe67055363f8",
+   "sha256": "9522ae8bddfff212c556c98c66016fc55f897dad8baa5de1ba26d9d38f06e249",
+   "target": "chunkV2-Q-saptamo-k11-close",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-R-astamo-vimarsa.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:4b0a076b32b8",
+   "sha256": "494b745e2cfebd35ad63c1014ce943bf762ff762a0d952d33ca96d279e13dffc",
+   "target": "chunkV2-R-astamo-vimarsa",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV2-S-astamo-close-jnanadhikara.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:c0bb6e2715d4",
+   "sha256": "c7ae6597d9b8e62caaad5630847d9b555800a2f8f8f38b77c3a77f66a0a80b4b",
+   "target": "chunkV2-S-astamo-close-jnanadhikara",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-A-kriya-prathamo-k1-2.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:c4e80ddd7c72",
+   "sha256": "4a80e8436d9929b74f4b469e3c91096b3a89f9ad919c41a9883f6bc7217b101e",
+   "target": "chunkV3-A-kriya-prathamo-k1-2",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-B-kriya-dvitiyo-k1-7.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:f4ed34831fb5",
+   "sha256": "d25d9b603d9c2acee9647ad0b6c1eab6d0d855a1de520185620139427fe98eb4",
+   "target": "chunkV3-B-kriya-dvitiyo-k1-7",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-C-kriya-trtiyo-k1-2.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:0f2c615fd2a6",
+   "sha256": "11fc177e2b16b60ce5966f16a000f7bb4400881c81365b8bfbcedd653851b20c",
+   "target": "chunkV3-C-kriya-trtiyo-k1-2",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-D-kriya-trtiyo-k3-8.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:ffdd1ee3c073",
+   "sha256": "179905b2ec7791c688e9e5ac0e34a20421dc1b0ab1d8ac0a704691c6956ca80b",
+   "target": "chunkV3-D-kriya-trtiyo-k3-8",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-E-kriya-trtiyo-k9-17.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:fe5faf794c18",
+   "sha256": "76c28499816f76840878c5104f04a99de913cf1886be2a159aaaaf0e97eb220d",
+   "target": "chunkV3-E-kriya-trtiyo-k9-17",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-F-kriya-trtiyo-close.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:76c15b31b638",
+   "sha256": "ccd942816b51450cb78cf281ccf13f332d5d26ffe1d26b88ba34ea6454810de4",
+   "target": "chunkV3-F-kriya-trtiyo-close",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-G-kriya-caturtho-k1-11.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:fddc2b01cffa",
+   "sha256": "7e6cf738fddb3aea105efd1f3f0186231bf0861b4bd8da86409e5c0ed7039363",
+   "target": "chunkV3-G-kriya-caturtho-k1-11",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-H-kriya-caturtho-k12-19.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:d4d5ffcf373f",
+   "sha256": "ce82f5addb5152dea0071f5f55a852d937b7cba35f2869380af522fdbff9a9ff",
+   "target": "chunkV3-H-kriya-caturtho-k12-19",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-I-kriya-caturtho-close-k20-21.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:1d53daf62e05",
+   "sha256": "8d2bd3a983778d96309b08421f8b79ce079d24b236e786cba9e96466b04ea3cf",
+   "target": "chunkV3-I-kriya-caturtho-close-k20-21",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-J-agama-prathamo-k1-7.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:7c8c91e90508",
+   "sha256": "17907243149f7e75c224605434f50dc56c44b55c7d57b3cb98a8ce58c5dc9148",
+   "target": "chunkV3-J-agama-prathamo-k1-7",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-K-agama-prathamo-k8-11-close.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:ad91d5855dde",
+   "sha256": "4d50520d26ceb248549e0a877b034047baf532bebfdc6062f6eedb1f9c9a2ebc",
+   "target": "chunkV3-K-agama-prathamo-k8-11-close",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-L-agama-dvitiyo-k1-11.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:1c8b0fcf15a4",
+   "sha256": "9464f8c395d1ca3eb5c0b3ab5136fb3ba9592e04fe11dae2d6b7f6ea1de7e951",
+   "target": "chunkV3-L-agama-dvitiyo-k1-11",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-M-agama-dvitiyo-close-k12-20.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:f97439905c09",
+   "sha256": "7cdbe908b554f54f9ab0904aa3ffd19eac0669098211a9760fe114e164b8567c",
+   "target": "chunkV3-M-agama-dvitiyo-close-k12-20",
    "theorems": [
-    "Phrdaya.lean :: closes_four",
-    "Phrdaya.lean :: means_once"
+    "SubtleBody.lean :: trikaA_count",
+    "SubtleBody.lean :: trikaB_count",
+    "SubtleBody.lean :: same_cardinality",
+    "SubtleBody.lean :: not_same_partition",
+    "SubtleBody.lean :: partitions_disjoint",
+    "SubtleBody.lean :: eight_is_not_one_eight",
+    "SubtleBody.lean :: trikaA_expanded_count",
+    "SubtleBody.lean :: expanded_differs"
    ],
    "verdict": "PARTIAL",
-   "work": "phrdaya"
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-N-tattva-prathamo-k1-8.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:419f72e00ec9",
+   "sha256": "db6d764b12ce263ad831044e3b53cf28f64d720d9e3524a591be87f8bdd07cac",
+   "target": "chunkV3-N-tattva-prathamo-k1-8",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-O-tattva-trtiyo-k9-15.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:4ba20b15bd90",
+   "sha256": "501fb3035d070c83fad4caf85a973b6e617c5a02aad822bbc1b835055eb6df50",
+   "target": "chunkV3-O-tattva-trtiyo-k9-15",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [],
+   "file": "traces/ipvv-chunkV3-P-tattva-caturtho-close-k1-3.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4"
+   ],
+   "immutable_id": "pt:pid:ipvv:aad4bfd27078",
+   "sha256": "7877cbdf0b5bddafdbd2ac102c5119687d4c9b0b3cbd45a8409c9273fbe7f3b2",
+   "target": "chunkV3-P-tattva-caturtho-close-k1-3",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "ipvv"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p01.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09001",
+   "sha256": "0e5a6323d098d1a09d92685f23dfc963fc97f73e5e711a2789e87cbe57ff115e",
+   "target": "tal-a09-p01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p02.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09002",
+   "sha256": "c55e8a264f5fb345542613ac0c04c94fdc1951dbea2d414e6a758d627b35a8f1",
+   "target": "tal-a09-p02",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p03.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09003",
+   "sha256": "f3db47dcdae9077d0421965d3fce35994e74d8741de1e0b1b2ec5359fb6e2f30",
+   "target": "tal-a09-p03",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p04.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09004",
+   "sha256": "9106121eaa1ef5f1a183859f1f2753238fe37d1a76490dd278e83b1b8c3a1bd4",
+   "target": "tal-a09-p04",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p05.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09005",
+   "sha256": "dc0f04a24bd872d02923bb92fd4dcb7e5a4cf207e33bea180bb32232fe6a69b3",
+   "target": "tal-a09-p05",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p06.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09006",
+   "sha256": "c6a7b377f5b6e90f6993e5aea8f9be25be693cb79ac0b93745f0e85abf9a0e2d",
+   "target": "tal-a09-p06",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p07.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09007",
+   "sha256": "f269248b0347db3e83b7d67d868eb609e5f5c0f65ee1c35656578b8a80629677",
+   "target": "tal-a09-p07",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p08.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09008",
+   "sha256": "e2b2ebe084c5ebc83a586104ad81cf0228f63903de9da6f40972a9f51d59e205",
+   "target": "tal-a09-p08",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p09.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09009",
+   "sha256": "da42afc5f20e62329bd2d272ac068f06cda5c8ac20ea0610d4076804c0e1357b",
+   "target": "tal-a09-p09",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p10.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09010",
+   "sha256": "b56fad151b1e14abaf4aeb74bd35dd61b6de7b8919b4a25aa5af043e14c7fa40",
+   "target": "tal-a09-p10",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p11.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09011",
+   "sha256": "7b6e4841b6455d9e2cfbfc6411a7d3e102560e15b21a69eac14e0688a86f32fd",
+   "target": "tal-a09-p11",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p12.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09012",
+   "sha256": "11941eef0a4251c65fe83118453e536b04fddfaa29913e8eb1436a8719a66ee9",
+   "target": "tal-a09-p12",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p13.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09013",
+   "sha256": "fec52ed35e9f761bde7011932dd7cf61f069e07f6d3dd2faae71b68b091d4af4",
+   "target": "tal-a09-p13",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p14.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09014",
+   "sha256": "1e4bb7fe5aeb383ec56fe14f001f1b6e34b988d57c4ee076488a33a002c44d11",
+   "target": "tal-a09-p14",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p15.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09015",
+   "sha256": "63193567f54f68ac885306cd3c59bcef5e72e39c6fdc4558e30657d2b7971ca2",
+   "target": "tal-a09-p15",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p16.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09016",
+   "sha256": "7b3db7ac8c23097f9e5650858963cbe5e9a1ac9893e88f9f87f2b586405b7f7f",
+   "target": "tal-a09-p16",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p17.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09017",
+   "sha256": "5b13ef8643cfb49700ceff6dc29f31bee4fbf8615718d6691a6c694eebe81ccf",
+   "target": "tal-a09-p17",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p18.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09018",
+   "sha256": "f1f366b3494986b84ec0761d81ade49edee4a0bfa435237fa7f9b4b5641c9d0d",
+   "target": "tal-a09-p18",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p19.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09019",
+   "sha256": "e3fd62727ba2b946ec05e390060f464802abaa15bfd3d377b1227b628dc54955",
+   "target": "tal-a09-p19",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p20.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09020",
+   "sha256": "cf965c9d9946817e65621662e2f3deed757e12bbc36a486b5433709f2a990f37",
+   "target": "tal-a09-p20",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p21.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09021",
+   "sha256": "151c2d56e6a56b8f49326a84064c007ced04cb3c63fadbb4e4dd7344c377a79d",
+   "target": "tal-a09-p21",
+   "theorems": [
+    "Puryastaka.lean :: kancukas_six"
+   ],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p22.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09022",
+   "sha256": "1598290ca2383fe5e46c4c90277de9ad1ac55d69c3d6bf6682f3d23737572b35",
+   "target": "tal-a09-p22",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p23.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09023",
+   "sha256": "e57299c0aa7868dc17582afe5cb5e0280341fbf351e985338583cb3ebc1884a7",
+   "target": "tal-a09-p23",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p24.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09024",
+   "sha256": "01ddfd149ee18514e78f62e58cdf0c9d41a68ed55acd81fca358352ea44363c0",
+   "target": "tal-a09-p24",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p25.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09025",
+   "sha256": "07b2d297f6c62b4667230ee882d96a441486c5052791553591391be8efa2912a",
+   "target": "tal-a09-p25",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p26.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09026",
+   "sha256": "ea5f8c47e4f92504b8b1dd69c7489e48e0b8eba04aba4958483064a6c02e7b53",
+   "target": "tal-a09-p26",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p27.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09027",
+   "sha256": "78dbaa8a4f44b02b206f3caf035cf3f16fb4e1c5d589ee3da67247b846102912",
+   "target": "tal-a09-p27",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p28.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09028",
+   "sha256": "748cd4038656a522086f8609947bd9610989a8ddac93506da0d03e328ea5fab7",
+   "target": "tal-a09-p28",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p29.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09029",
+   "sha256": "0b5e1542c6886ff478b7d47ab9f709ad81fa68fe843816dec5a845f83a4b2f31",
+   "target": "tal-a09-p29",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p30.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09030",
+   "sha256": "8aa195adf676157e69273f288ab12c675d2046978fe4b51fee0e41df06e6656b",
+   "target": "tal-a09-p30",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p31.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09031",
+   "sha256": "db5bb080208ca128a91b853f2518e81bce4a709ad29599dbffddaa9410cae85c",
+   "target": "tal-a09-p31",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a09-tal-a09-p32.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a09032",
+   "sha256": "855422fe66466158c5063a9f6f21e4c6d899b85d79467f34a12928d9a4f1d5c4",
+   "target": "tal-a09-p32",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a09"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p01.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15001",
+   "sha256": "536812b75325360b8dc1370822da41ca0a430c3511b56f1b1fdd30da46637654",
+   "target": "tal-a15-p01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p02.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15002",
+   "sha256": "a609dd4338ad9e99b4f47df00c6e8895a42f6e7dd2ba83b40ecfd2d4de245a83",
+   "target": "tal-a15-p02",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p03.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15003",
+   "sha256": "d5ebedc6244f1526634ff59c54609a68d25b36e4f3a7aa1e9a11ee2c0cc126a4",
+   "target": "tal-a15-p03",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p04.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15004",
+   "sha256": "3877eb6763c061e5c0447c2d29fffd6dc0479adf2843fff740d7e9ac51a0335c",
+   "target": "tal-a15-p04",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p05.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15005",
+   "sha256": "14cdfdf81b9829adb40ab2b1d743663861f32a66a43f02a4f5d769cb96bc770a",
+   "target": "tal-a15-p05",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p06.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15006",
+   "sha256": "5b2936ea65b49c2e87cfb9dc2370a61c0ab78f616a9989553a454c07b7cd36ec",
+   "target": "tal-a15-p06",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p07.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15007",
+   "sha256": "a7571ebfcb0325323741f29510d5fb1963927735db7ee8ee23377fa60a4595cc",
+   "target": "tal-a15-p07",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p08.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15008",
+   "sha256": "bcaa8922c932ad33ce3f1bd985f921f75e2c282bd404761bcd3673b1b39ae621",
+   "target": "tal-a15-p08",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p09.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15009",
+   "sha256": "fd362f9704449ed106c6022de15ec38c92d5822012e9e5fc471f36c40c060502",
+   "target": "tal-a15-p09",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p10.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15010",
+   "sha256": "0269acc746510f12ad29b4a77e347dc7d703f3432efa16ce532e0cc4b09aa68d",
+   "target": "tal-a15-p10",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p11.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15011",
+   "sha256": "b8a3f28962b9d69d4840e938ff5aa4eb351c49b140b0da50ae12d98c7fae063d",
+   "target": "tal-a15-p11",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p12.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15012",
+   "sha256": "83f9b6adf69a1011f1a0e903793269ef43f81a6d772e9a21185a0c893166677d",
+   "target": "tal-a15-p12",
+   "theorems": [
+    "Nyasa.lean :: matrika_total",
+    "Nyasa.lean :: order_chief"
+   ],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p13.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15013",
+   "sha256": "75553f1c119aba093ac0dc28594eedbd6ef2fd58a7ff33aa28f8594ea995d1b4",
+   "target": "tal-a15-p13",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p14.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15014",
+   "sha256": "ee8b4f36529011a05d40043a15f11a2d97c9281c507ff2c7bed85d0e14477372",
+   "target": "tal-a15-p14",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p15.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15015",
+   "sha256": "5e1ce9130abfb8ef65d224b680347033c102c36b81ae3685748776c1fc36cdd0",
+   "target": "tal-a15-p15",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p16.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15016",
+   "sha256": "8f16dcb16e6b8f0b270826f4e476cb3dabac82b11fc0937d1dc4c068431c6f2f",
+   "target": "tal-a15-p16",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p17.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15017",
+   "sha256": "c5acf6bcd56c830c45839fa22bf42604c86841e63d63c8cf14aa6eeb575d2842",
+   "target": "tal-a15-p17",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p18.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15018",
+   "sha256": "eda2998161b6863c7a54eb440e867cdb351a3a1145517766aebf2a9bde4be4c1",
+   "target": "tal-a15-p18",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p19.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15019",
+   "sha256": "1a2c00298ce2fa512da926f7be165f9557930f212ef265507d919255cc59c682",
+   "target": "tal-a15-p19",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p20.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15020",
+   "sha256": "f114952c3b4e315b767d787d53ec38cfd75b3c5f618e7ad4957230e6f703ac63",
+   "target": "tal-a15-p20",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p21.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15021",
+   "sha256": "8b3a6f1751447e9ce084ddd100039ecd8611bd88f13f8512387eb07ff38f20cd",
+   "target": "tal-a15-p21",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p22.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15022",
+   "sha256": "85cd19bea4a154fd241e0e2010d9160fa922967e4e1501252dc1b4e7632ef950",
+   "target": "tal-a15-p22",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p23.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15023",
+   "sha256": "5f9c66411753b9c75ac5b7be2757f826257acb26113698d5c173b6c6ebdc6d28",
+   "target": "tal-a15-p23",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p24.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15024",
+   "sha256": "9cbf8d371b3e547d17c83990ac6dd1523b75bf7ef7bb4432bc666e40c76e4346",
+   "target": "tal-a15-p24",
+   "theorems": [
+    "Puryastaka.lean :: body_is_ahamta"
+   ],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p25.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15025",
+   "sha256": "dac10fbc7de6dbbc70e69e5ca80e3a196f4a11c04dd22f1545ddd6e6a537a1f1",
+   "target": "tal-a15-p25",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p26.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15026",
+   "sha256": "13977b6fccb1fa57a44cadef1e5433e8467680406563883452705a17af8a438f",
+   "target": "tal-a15-p26",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p27.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15027",
+   "sha256": "d39ebb4b2a8e47e73fe11c63598b2a62076416beb3adea2d6620b25a21f29990",
+   "target": "tal-a15-p27",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p28.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15028",
+   "sha256": "34909c4609b5b6ec28ec957655faa9baade8fcdb601c46f1fc079df52414b4f5",
+   "target": "tal-a15-p28",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p29.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15029",
+   "sha256": "fc060fd153638a27f8dfa3a70f674b23acf121df00fd9c6d84933d4de1d829dc",
+   "target": "tal-a15-p29",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p30.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15030",
+   "sha256": "715c5eabf7ab66de7ade8990dcf59879bd15847aa5fc82b2aa67bb4a8f0cec15",
+   "target": "tal-a15-p30",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p31.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15031",
+   "sha256": "2ca838aa74492030dde88dd2fa6749ac415587ab9b5ce538d012060bcf90ba67",
+   "target": "tal-a15-p31",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p32.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15032",
+   "sha256": "a073f829ad0d1033985de7c987bcfd28a1a7446f3ea211364b5f56ee3970ff5c",
+   "target": "tal-a15-p32",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p33.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15033",
+   "sha256": "19e7a0f95cee78fa04858a6ba79f8e853ab3cf75e8b1409ae5e5f8b0b487d6cc",
+   "target": "tal-a15-p33",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p34.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15034",
+   "sha256": "dd0d1976baeeaff5b4250d56856e6329da2cdac50cc5134b67c255f4982de8cb",
+   "target": "tal-a15-p34",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p35.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15035",
+   "sha256": "c210d19004edad750e171c978373f238fd60337425b7db6ac0155b5b6448306b",
+   "target": "tal-a15-p35",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p36.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15036",
+   "sha256": "aed4045c0fc75eca8b401ff203b3a13d5716904486ed5e9abc6faaac0c5d5aff",
+   "target": "tal-a15-p36",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p37.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15037",
+   "sha256": "44d408db48b31a929526e6eec00aed91ff665052781e9dec5644b5344728348f",
+   "target": "tal-a15-p37",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p38.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15038",
+   "sha256": "548d75eb9b2c5438098fb325977f4e81faa0bca56faf08930abb45cca7b67dc3",
+   "target": "tal-a15-p38",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p39.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15039",
+   "sha256": "e61f31ebe10e302b3c05c453257491c41374ea7f65a0a10302693ff70b673e67",
+   "target": "tal-a15-p39",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p40.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15040",
+   "sha256": "3931347d9c8899688b1ef1142f351512a0900fae62c24810d2dedf08e56d13bb",
+   "target": "tal-a15-p40",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p41.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15041",
+   "sha256": "8ec37dae22017f8a3e914055e4e068f7de3aaadc6e685942b85c98d1e6c98d17",
+   "target": "tal-a15-p41",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p42.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15042",
+   "sha256": "12b12b7073636be870d8f23f0fabed3b2b57c85e652486d1fb6e72167673ac85",
+   "target": "tal-a15-p42",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p43.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15043",
+   "sha256": "56b27fbcda72ba12697720ac0d1e57876f2ba6ffd671b8baf94ae94ae58fc73d",
+   "target": "tal-a15-p43",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p44.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15044",
+   "sha256": "663b22a046249b88c7d32075d4cb9eda934e99d38713f9e16eb67970990b0bc5",
+   "target": "tal-a15-p44",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p45.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15045",
+   "sha256": "9ef72d13a628864b1e2a489b6b5da3058af241c8fe11362534b9ab4d5cdb689f",
+   "target": "tal-a15-p45",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p46.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15046",
+   "sha256": "4618aca873593e612b074620107b5821384c19d563d55b19cce4f54ac03b0d89",
+   "target": "tal-a15-p46",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p47.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15047",
+   "sha256": "e4b3bb70a54a591e93531fc6922c751b632a36216c53eae81657ad7cf811488c",
+   "target": "tal-a15-p47",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p48.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15048",
+   "sha256": "787a974475b285b1e7d4d5207fde1f8ef84e0c58f4937e2f541693def9a760b2",
+   "target": "tal-a15-p48",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p49.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15049",
+   "sha256": "479d6b90224707e641405e1220ceaa4579af158e8042f5b2849bac587daa84de",
+   "target": "tal-a15-p49",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p50.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15050",
+   "sha256": "3c9bc752298d95ebd032ba4b1a5aee1ded671fbf188f91071b9edd4a78fc9a9f",
+   "target": "tal-a15-p50",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p51.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15051",
+   "sha256": "e09ce040eb9e4ab4b25c3771f0748a19a26a76414e3376209998d7b56a5bdb5c",
+   "target": "tal-a15-p51",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p52.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15052",
+   "sha256": "da5bb8e4a1f11891875d45aa9888fb720bf564780aff17133d390be672dc2301",
+   "target": "tal-a15-p52",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p53.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15053",
+   "sha256": "3fcc123d33cb71eaf631a3367ac0dfa619904e21d8ce09d05343c10af8837cd3",
+   "target": "tal-a15-p53",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p54.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15054",
+   "sha256": "1348d8d553bf7b59613a44564e65305142de8b4a7798933fb003665c04dac716",
+   "target": "tal-a15-p54",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p55.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15055",
+   "sha256": "b84a627b1c0f90047e4ecd62e2435ca9a247425d89ed36ca311504d815b864a9",
+   "target": "tal-a15-p55",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p56.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15056",
+   "sha256": "7485b77bde658fc6712b4c5e3469524bbc5f3aee3a238f2d34d150882ad1554c",
+   "target": "tal-a15-p56",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p57.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15057",
+   "sha256": "8807e816ea6d39dc1e455b521bb676da1beec9b8aa4be8752577b67234d4c6ab",
+   "target": "tal-a15-p57",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p58.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15058",
+   "sha256": "1094945e7bc7ac53f141d829432bd13ce3bae6f91ba7dbeb08fae18d50a04678",
+   "target": "tal-a15-p58",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p59.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15059",
+   "sha256": "a428bbef0c60af4a53788e40cfcd0bb6adaf4b88ecaf29aab3254482f2f1dab4",
+   "target": "tal-a15-p59",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p60.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15060",
+   "sha256": "63e33082b0bdf34134ed30540317902b2bdcfcba62d9df64086355d542a3362a",
+   "target": "tal-a15-p60",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p61.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15061",
+   "sha256": "19b1b1a58bda37e491ca1bbbf3d6e7c5973e222ca16fb61e37f8ae0a01894af1",
+   "target": "tal-a15-p61",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a15-tal-a15-p62.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a15062",
+   "sha256": "43cb44246ebf0f13ac72f77381278b03ceef4bb66630878b3a6e1b4d83d6741e",
+   "target": "tal-a15-p62",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a15"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a24-tal-a24-p01.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a24001",
+   "sha256": "c9ec9317fc1e00ea7f8218baafb3d9d1c89b84c3391e42b1baa25d477d61b30c",
+   "target": "tal-a24-p01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a24"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a24-tal-a24-p02.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a24002",
+   "sha256": "968a1b11d88fff15a5d092b585401c052e975a46728f88c54712202c6a6d7a9b",
+   "target": "tal-a24-p02",
+   "theorems": [
+    "Puryastaka.lean :: constituents_eight",
+    "SubtleBody.lean :: trikaB_count"
+   ],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a24"
+  },
+  {
+   "caveats": [
+    "chunk_gate BLOCKED: ABSTENTION"
+   ],
+   "file": "traces/tantraloka-a24-tal-a24-p03.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:tal:tantraloka-a24003",
+   "sha256": "79ad4f330ca5cefb9664f8916f808a893c7207d5e7dc87650b3be931255c80c7",
+   "target": "tal-a24-p03",
+   "theorems": [
+    "Puryastaka.lean :: no_transmigration_without_body"
+   ],
+   "verdict": "PARTIAL",
+   "work": "tantraloka-a24"
+  },
+  {
+   "caveats": [
+    "layer:t1=whole-song-span",
+    "layer:l0=whole-song-span",
+    "layer:argmap=whole-song-span",
+    "layer:l2=whole-song-span",
+    "layer:c1=whole-song-span",
+    "layer:l3=whole-song-span",
+    "layer:l4=whole-song-span",
+    "song_proof warnings: 1",
+    "chunk_gate BLOCKED: ABSTENTION,CITATION_GROUNDING"
+   ],
+   "file": "traces/tantrasara-a13-tsa13-p01.json",
+   "gaps": [],
+   "immutable_id": "pt:pid:ts:a13:64f4e4852ada",
+   "sha256": "3e4519818262c734b5478b51c0ea4932dd6fdabaf01e7fa39d173a288c981869",
+   "target": "tsa13-p01",
+   "theorems": [],
+   "verdict": "COMPLETE",
+   "work": "tantrasara-a13"
+  },
+  {
+   "caveats": [
+    "layer:t1=whole-song-span",
+    "layer:l0=whole-song-span",
+    "layer:argmap=whole-song-span",
+    "layer:l2=whole-song-span",
+    "layer:c1=whole-song-span",
+    "layer:l3=whole-song-span",
+    "layer:l4=whole-song-span",
+    "song_proof warnings: 1",
+    "chunk_gate BLOCKED: ABSTENTION,CITATION_GROUNDING"
+   ],
+   "file": "traces/tantrasara-a13-tsa13-p02.json",
+   "gaps": [],
+   "immutable_id": "pt:pid:ts:a13:d2b0b17f0b22",
+   "sha256": "c25706a01a20fa1d9b2f74936dcb90b1076690445dd1b926f0baf793ef779e6e",
+   "target": "tsa13-p02",
+   "theorems": [
+    "Puryastaka.lean :: city_is_body",
+    "Puryastaka.lean :: burn_removes_body"
+   ],
+   "verdict": "COMPLETE",
+   "work": "tantrasara-a13"
+  },
+  {
+   "caveats": [
+    "layer:t1=whole-song-span",
+    "layer:l0=whole-song-span",
+    "layer:argmap=whole-song-span",
+    "layer:l2=whole-song-span",
+    "layer:c1=whole-song-span",
+    "layer:l3=whole-song-span",
+    "layer:l4=whole-song-span",
+    "song_proof warnings: 1",
+    "chunk_gate BLOCKED: CITATION_GROUNDING"
+   ],
+   "file": "traces/tantrasara-a13-tsa13-p03.json",
+   "gaps": [],
+   "immutable_id": "pt:pid:ts:a13:85d2fd4024a1",
+   "sha256": "0e90d6fa8a1e4775f9ea728c68a5b99938e1252658379b423015b59e30323347",
+   "target": "tsa13-p03",
+   "theorems": [],
+   "verdict": "COMPLETE",
+   "work": "tantrasara-a13"
+  },
+  {
+   "caveats": [
+    "layer:t1=whole-song-span",
+    "layer:l0=whole-song-span",
+    "layer:argmap=whole-song-span",
+    "layer:l2=whole-song-span",
+    "layer:c1=whole-song-span",
+    "layer:l3=whole-song-span",
+    "layer:l4=whole-song-span",
+    "song_proof warnings: 1",
+    "chunk_gate BLOCKED: COVERAGE,CITATION_GROUNDING"
+   ],
+   "file": "traces/tantrasara-a13-tsa13-p04.json",
+   "gaps": [],
+   "immutable_id": "pt:pid:ts:a13:70b4dfd8db3f",
+   "sha256": "d1d214fd07efea0b8a2c4ab7679d50c595399c2297f10502f5bf9a63d69762ec",
+   "target": "tsa13-p04",
+   "theorems": [],
+   "verdict": "COMPLETE",
+   "work": "tantrasara-a13"
   }
  ],
  "errors": [],
  "format": "trika-traces-index/1",
  "note": "Trika-x side index (svread publishes its own via emit_verify). Each entry is a trika-trace/1 bundle: source -> layers -> proofs -> formal -> citing essays, hash-pinned. COMPLETE means every applicable hop resolved; PARTIAL names its gaps. Re-verify: trace_bundle.py --verify <file>.",
  "verdicts": {
-  "PARTIAL": 5
+  "COMPLETE": 4,
+  "PARTIAL": 146
  }
 }

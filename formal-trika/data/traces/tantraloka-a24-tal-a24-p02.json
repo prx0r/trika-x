@@ -35,6 +35,15 @@
     "theorem": "Puryastaka.lean :: constituents_eight",
     "tier": "T",
     "via": "t1"
+   },
+   {
+    "kind": "MODEL",
+    "run_bound": false,
+    "run_note": "registry reference only; no per-declaration run digest bound",
+    "status": "VERIFIED-QUOTE",
+    "theorem": "SubtleBody.lean :: trikaB_count",
+    "tier": "T",
+    "via": "t1"
    }
   ]
  },
