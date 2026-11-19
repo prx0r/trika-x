@@ -73,8 +73,12 @@ class TestTreekaReport(unittest.TestCase):
         # and the full report still shows the real corpus numbers
         rc2, out2 = run()
         self.assertEqual(rc2, 0)
-        self.assertIn("'passages': 909", out2.splitlines()[0])
-        self.assertIn("unargued=578", out2.splitlines()[1])
+        # Derive from the artifact so an upstream ledger addition refreshes
+        # the expectation instead of pinning a stale corpus size.
+        d = json.loads((HERE / "data" / "treeka.json").read_text(encoding="utf-8"))
+        c = d["counts"]
+        self.assertIn(f"'passages': {c['passages']}", out2.splitlines()[0])
+        self.assertIn(f"unargued={c['unargued']}", out2.splitlines()[1])
 
 
 if __name__ == "__main__":

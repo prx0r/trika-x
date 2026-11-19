@@ -1905,6 +1905,205 @@
    "kind": "MODEL",
    "lived": [],
    "r_sources": []
+  },
+  "SubtleBody.lean :: trikaA_count": {
+   "chunks": [
+    {
+     "locator": "chunkV3-M-agama-dvitiyo-close-k12-20",
+     "note": "ĪPVV: prāṇādipañcakam indriyavargau ... antaḥkaraṇa ... = puryaṣṭaka (formula A).",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Medhananda, 'Abhinavagupta's Panentheism in Dialogue with Contemporary Neuroscience', in Panentheism in Indian and Western Thought (Göcke & Medhananda eds., 2023), ~p.13: puryaṣṭaka = five vital breaths + buddhīndriya + karmendriya + antaḥkaraṇa (manas, buddhi, ahaṃkāra. Cites Abhinavagupta 1985a 3:282 and Torella, IPK 2002, p.132 v.1.6.4."
+   ]
+  },
+  "SubtleBody.lean :: trikaB_count": {
+   "chunks": [
+    {
+     "locator": "tal-a24-p02",
+     "note": "TĀ 24.19 lists sound/touch/taste/smell, two forms, ahaṃkṛti, manas; the tanmātra formula.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    },
+    {
+     "locator": "chunkV3-M-agama-dvitiyo-close-k12-20",
+     "note": "ĪPVV: \"kecana puryaṣṭakam āhuḥ\" — the tanmātra formulation is acknowledged.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Medhananda, 'Abhinavagupta's Panentheism in Dialogue with Contemporary Neuroscience', in Panentheism in Indian and Western Thought (Göcke & Medhananda eds., 2023), ~p.13: puryaṣṭaka = five vital breaths + buddhīndriya + karmendriya + antaḥkaraṇa (manas, buddhi, ahaṃkāra. Cites Abhinavagupta 1985a 3:282 and Torella, IPK 2002, p.132 v.1.6.4."
+   ]
+  },
+  "SubtleBody.lean :: same_cardinality": {
+   "chunks": [
+    {
+     "locator": "chunkV3-M-agama-dvitiyo-close-k12-20",
+     "note": "Both formulations count eight; Abhinavagupta names both.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": []
+  },
+  "SubtleBody.lean :: not_same_partition": {
+   "chunks": [
+    {
+     "locator": "chunkV3-M-agama-dvitiyo-close-k12-20",
+     "note": "The group kinds differ between the two formulations.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": []
+  },
+  "SubtleBody.lean :: partitions_disjoint": {
+   "chunks": [
+    {
+     "locator": "chunkV3-M-agama-dvitiyo-close-k12-20",
+     "note": "Formula A kinds and formula B kinds do not overlap as groups.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": []
+  },
+  "SubtleBody.lean :: eight_is_not_one_eight": {
+   "chunks": [
+    {
+     "locator": "chunkV3-M-agama-dvitiyo-close-k12-20",
+     "note": "Same number, different content — the comparative point.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": []
+  },
+  "SubtleBody.lean :: trikaA_expanded_count": {
+   "chunks": [
+    {
+     "locator": "chunkV3-M-agama-dvitiyo-close-k12-20",
+     "note": "Expanded: 5 prāṇas + 5 jñāna + 5 karma + 3 inner = 18.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Medhananda, 'Abhinavagupta's Panentheism in Dialogue with Contemporary Neuroscience', in Panentheism in Indian and Western Thought (Göcke & Medhananda eds., 2023), ~p.13: puryaṣṭaka = five vital breaths + buddhīndriya + karmendriya + antaḥkaraṇa (manas, buddhi, ahaṃkāra. Cites Abhinavagupta 1985a 3:282 and Torella, IPK 2002, p.132 v.1.6.4."
+   ]
+  },
+  "SubtleBody.lean :: expanded_differs": {
+   "chunks": [
+    {
+     "locator": "chunkV3-M-agama-dvitiyo-close-k12-20",
+     "note": "18 ≠ 8: the expanded prāṇa formula is not the tanmātra formula.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": []
+  },
+  "SubtleBody.lean :: vedanta17_count": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Tattvabodha / Vedāntasāra: 17-part subtle body (5 prāṇas + 5 jñāna + 5 karma + manas + buddhi). (external)",
+    "Maharaj (ed.), The Bloomsbury Research Handbook of Vedānta (2020), Śaṅkara chapter n.4: subtle body = five karmendriyas + five jñānendriyas + prāṇas + mind (intellect, ego, mind, memory)."
+   ]
+  },
+  "SubtleBody.lean :: vedanta19_count": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Tattvabodha / Vedāntasāra: 17-part subtle body (5 prāṇas + 5 jñāna + 5 karma + manas + buddhi). (external)",
+    "Maharaj (ed.), The Bloomsbury Research Handbook of Vedānta (2020), Śaṅkara chapter n.4: subtle body = five karmendriyas + five jñānendriyas + prāṇas + mind (intellect, ego, mind, memory)."
+   ]
+  },
+  "SubtleBody.lean :: vedanta19_adds_citta": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Maharaj (ed.), The Bloomsbury Research Handbook of Vedānta (2020), Śaṅkara chapter n.4: subtle body = five karmendriyas + five jñānendriyas + prāṇas + mind (intellect, ego, mind, memory).",
+    "Tattvabodha / Vedāntasāra: 17-part subtle body (5 prāṇas + 5 jñāna + 5 karma + manas + buddhi). (external)"
+   ]
+  },
+  "SubtleBody.lean :: vedanta_17_19_gap": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Tattvabodha / Vedāntasāra: 17-part subtle body (5 prāṇas + 5 jñāna + 5 karma + manas + buddhi). (external)",
+    "Maharaj (ed.), The Bloomsbury Research Handbook of Vedānta (2020), Śaṅkara chapter n.4: subtle body = five karmendriyas + five jñānendriyas + prāṇas + mind (intellect, ego, mind, memory)."
+   ]
+  },
+  "SubtleBody.lean :: trikaA_vs_vedanta19": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Medhananda, 'Abhinavagupta's Panentheism in Dialogue with Contemporary Neuroscience', in Panentheism in Indian and Western Thought (Göcke & Medhananda eds., 2023), ~p.13: puryaṣṭaka = five vital breaths + buddhīndriya + karmendriya + antaḥkaraṇa (manas, buddhi, ahaṃkāra. Cites Abhinavagupta 1985a 3:282 and Torella, IPK 2002, p.132 v.1.6.4.",
+    "Maharaj (ed.), The Bloomsbury Research Handbook of Vedānta (2020), Śaṅkara chapter n.4: subtle body = five karmendriyas + five jñānendriyas + prāṇas + mind (intellect, ego, mind, memory)."
+   ]
+  },
+  "SubtleBody.lean :: prana_count_same": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Medhananda, 'Abhinavagupta's Panentheism in Dialogue with Contemporary Neuroscience', in Panentheism in Indian and Western Thought (Göcke & Medhananda eds., 2023), ~p.13: puryaṣṭaka = five vital breaths + buddhīndriya + karmendriya + antaḥkaraṇa (manas, buddhi, ahaṃkāra. Cites Abhinavagupta 1985a 3:282 and Torella, IPK 2002, p.132 v.1.6.4.",
+    "Maharaj (ed.), The Bloomsbury Research Handbook of Vedānta (2020), Śaṅkara chapter n.4: subtle body = five karmendriyas + five jñānendriyas + prāṇas + mind (intellect, ego, mind, memory).",
+    "Medhananda, Swami Vivekananda's Vedāntic Cosmopolitanism (2022), pp.317-318: liṅga/sūkṣmaśarīra = manas+buddhi, ahaṃkāra, indriyas, prāṇas (CW 2:456; CW 2:438)."
+   ]
+  },
+  "SubtleBody.lean :: prana_role_differs": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Medhananda, 'Abhinavagupta's Panentheism in Dialogue with Contemporary Neuroscience', in Panentheism in Indian and Western Thought (Göcke & Medhananda eds., 2023), ~p.13: puryaṣṭaka = five vital breaths + buddhīndriya + karmendriya + antaḥkaraṇa (manas, buddhi, ahaṃkāra. Cites Abhinavagupta 1985a 3:282 and Torella, IPK 2002, p.132 v.1.6.4.",
+    "Medhananda, Swami Vivekananda's Vedāntic Cosmopolitanism (2022), pp.317-318: liṅga/sūkṣmaśarīra = manas+buddhi, ahaṃkāra, indriyas, prāṇas (CW 2:456; CW 2:438)."
+   ]
+  },
+  "SubtleBody.lean :: prana_same_count_not_same_definition": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Medhananda, 'Abhinavagupta's Panentheism in Dialogue with Contemporary Neuroscience', in Panentheism in Indian and Western Thought (Göcke & Medhananda eds., 2023), ~p.13: puryaṣṭaka = five vital breaths + buddhīndriya + karmendriya + antaḥkaraṇa (manas, buddhi, ahaṃkāra. Cites Abhinavagupta 1985a 3:282 and Torella, IPK 2002, p.132 v.1.6.4.",
+    "Maharaj (ed.), The Bloomsbury Research Handbook of Vedānta (2020), Śaṅkara chapter n.4: subtle body = five karmendriyas + five jñānendriyas + prāṇas + mind (intellect, ego, mind, memory).",
+    "Medhananda, Swami Vivekananda's Vedāntic Cosmopolitanism (2022), pp.317-318: liṅga/sūkṣmaśarīra = manas+buddhi, ahaṃkāra, indriyas, prāṇas (CW 2:456; CW 2:438)."
+   ]
   }
  },
  "exemptions": {
@@ -1946,6 +2145,7 @@
     "span-p02",
     "span-p03",
     "span-p04",
+    "span-p04b",
     "span-p05",
     "span-p06"
    ],
@@ -2251,6 +2451,60 @@
     "tal-a24-p03"
    ],
    "ledger": "translation-work/tantraloka-a24/passages.jsonl"
+  },
+  "ipvv": {
+   "chunks": [
+    "chunkA-svatyandya",
+    "chunkB-eligibility-gita",
+    "chunkC-svatma-maya-upanishad",
+    "chunkD-memory-pramana",
+    "chunkE-cit-acid-dvairasya",
+    "chunkF-upoddhata-k1-7",
+    "chunkG-k1.2.7-1.8-citsvarupam",
+    "chunkH-k1.8-caitanyamajada-pratibimba",
+    "chunkI-k1.9-1.10-kriya-karyakarana",
+    "chunkJ-k1.11-kartapi-kalpita",
+    "chunkK-purvapaksa-siddhanta",
+    "chunkL-memory-error-sankaranandana",
+    "chunkM-jnanadhikara-reflexion-core",
+    "chunkN-close-mahesvara-saktis",
+    "chunkV2-A-caturtho-vimarsa-aham",
+    "chunkV2-B-sahajavimarsa-prakasavimarsa",
+    "chunkV2-C-vistanti-ajadapramatrsiddhi",
+    "chunkV2-D-pancamo-vimarsa-jnanasakti",
+    "chunkV2-E-pancamo-jnanasakti-k5",
+    "chunkV2-F-pancamo-vimarsa-k6",
+    "chunkV2-G-pancamo-vimarsa-k7-10",
+    "chunkV2-H-pancamo-vimarsa-k11-13",
+    "chunkV2-I-pancamo-vimarsa-k14-19",
+    "chunkV2-J-pancamo-vimarsa-k19-20",
+    "chunkV2-K-pancamo-vimarsa-k20-21",
+    "chunkV2-L-sastho-vimarsa-smrti-apohana",
+    "chunkV2-M-sastho-vimarsa-k6-7",
+    "chunkV2-N-sastho-k8-11",
+    "chunkV2-O-saptamo-vimarsa",
+    "chunkV2-P-saptamo-k5-10",
+    "chunkV2-Q-saptamo-k11-close",
+    "chunkV2-R-astamo-vimarsa",
+    "chunkV2-S-astamo-close-jnanadhikara",
+    "chunkV3-A-kriya-prathamo-k1-2",
+    "chunkV3-B-kriya-dvitiyo-k1-7",
+    "chunkV3-C-kriya-trtiyo-k1-2",
+    "chunkV3-D-kriya-trtiyo-k3-8",
+    "chunkV3-E-kriya-trtiyo-k9-17",
+    "chunkV3-F-kriya-trtiyo-close",
+    "chunkV3-G-kriya-caturtho-k1-11",
+    "chunkV3-H-kriya-caturtho-k12-19",
+    "chunkV3-I-kriya-caturtho-close-k20-21",
+    "chunkV3-J-agama-prathamo-k1-7",
+    "chunkV3-K-agama-prathamo-k8-11-close",
+    "chunkV3-L-agama-dvitiyo-k1-11",
+    "chunkV3-M-agama-dvitiyo-close-k12-20",
+    "chunkV3-N-tattva-prathamo-k1-8",
+    "chunkV3-O-tattva-trtiyo-k9-15",
+    "chunkV3-P-tattva-caturtho-close-k1-3"
+   ],
+   "ledger": "translation-work/ipvv/passages.jsonl"
   }
  },
  "generated_certificates": {

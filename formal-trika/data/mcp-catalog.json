@@ -1,13 +1,13 @@
 {
  "format": "trika-mcp-catalog/1",
- "generated_at": "2026-11-19T11:06:13Z",
+ "generated_at": "2026-11-19T11:48:09Z",
  "gateway": {
   "name": "openpatala-federation",
   "version": "1",
   "title": "Openpatala federated parent",
   "instructions": "Verify first, read second, render last. Every claim here resolves to\nSanskrit bytes through a machine-checked chain \u2014 or it is labelled PARTIAL,\nnever shipped, never signed by a machine.\n\n1. openpatala__resolve {work} \u2014 is this work known? ledger + witness status. UNRESOLVED = draft-only.\n2. formal__trace {work, target} \u2014 the machine-checked chain for one chunk:\n   source bytes, translation layers, deterministic proofs, Lean theorems\n   (each compiled by pinned Lean, each with a must-fail twin + run receipt),\n   citing essays. Verdict COMPLETE/PARTIAL + named gaps; BLOCKED stays BLOCKED.\n   Go deeper: formal__evidence (theorem rows), formal__table (plain-English\n   scope notes), formal__gaps (covered vs total + the rung queue),\n   formal__runs (harness receipts), formal__axioms (audit state),\n   formal__bridge (chunk locator to edition rows; witnesses UNPINNED).\n3. scholar__passage_evidence {work, target} \u2014 read the Sanskrit + translation\n   layers: draft-translation, literal-gloss (meaning-forks live here),\n   argument-map, reading-translation, essence, register-render,\n   final-translation, song. Machine keys T1/L0/ARGMAP/L2/C1/C2/L3/L4 still\n   work everywhere; the legend is\n   trika-x/formal-trika/data/layer-names.json.\n4. scholar__audit_draft / link_claims / pushback \u2014 check a draft before a human signs. Machine report, never verdict.\n5. translation__status {work} (shastra) \u2014 registry state, proof, what the swarm is doing. Writes never push/signoff.\n6. bookfactory__* (bookfactory) \u2014 draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.\n7. video__* (videofactory) \u2014 vf_gate/vf_triage to read state; vf_launch/vf_queue ship ONLY gated+approved renders (defaults are explicit opt-in).\n   openpatala_mcp__get_health \u2014 direct child health/counts (works, passages, witnesses).\n8. openpatala__coverage \u2014 how much of the corpus is bridged.\n\nLaws: UNRESOLVED/draft-only inputs stay draft-only. No auto-sign, auto-publish, auto-ship. Human disposes; receipts are the trail.\n"
  },
- "count": 121,
+ "count": 122,
  "families": {
   "bookfactory": 22,
   "federation": 1,
@@ -15,7 +15,7 @@
   "openpatala": 2,
   "openpatala_mcp": 9,
   "scholar": 46,
-  "translation": 16,
+  "translation": 17,
   "video": 18
  },
  "banned_hits": [],
@@ -705,6 +705,12 @@
    ]
   },
   {
+   "name": "translation__beam_review",
+   "family": "translation",
+   "description": "[translation] SMART-beam reviewer over DUMB drafts (bounce-only, never approves).\nReviews newest unreviewed DONE drafts against the shape+honesty checklist\n(max",
+   "required": []
+  },
+  {
    "name": "translation__concepts",
    "family": "translation",
    "description": "[translation] Grounds for hand-glossing: concept-database entry (if built) +\nfrequency-ranked MITRA senses with attestations for a Sanskrit headword.\nReturns th",
@@ -768,7 +774,7 @@
   {
    "name": "translation__supervise",
    "family": "translation",
-   "description": "[translation] Report the autonomous loop: continue.sh (registry sync + ralph\nsupervision), ralph.sh (workers + auto-review + convert + gate + push),\nwatchdog.sh",
+   "description": "[translation] Report the autonomous loop. On this box systemd unit `tal-campaign`\n(Restart=always) -> watchdog.sh is the ONE supervisor: it health-gates\n(429 pa",
    "required": []
   },
   {
