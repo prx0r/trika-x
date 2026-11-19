@@ -33,6 +33,7 @@ fi
 "$LEAN" -DwarningAsError=true TattvaInventory.lean || exit 1
 "$LEAN" -DwarningAsError=true Puryastaka.lean || exit 1
 "$LEAN" -DwarningAsError=true SubtleBody.lean || exit 1
+"$LEAN" -DwarningAsError=true SubtleBodyCorpus.lean || exit 1
 LEAN_PATH=. "$LEAN" -DwarningAsError=true Pramatr.lean || exit 1
 LEAN_PATH=. "$LEAN" -DwarningAsError=true Avarana.lean || exit 1
 echo "PASS Boolean row count and profile (not a classification proof)"
@@ -41,6 +42,7 @@ echo "PASS stipulated Tattva group-size sum (model only)"
 echo "PASS candidate named Tattva inventory (model only)"
 echo "PASS puryaṣṭaka (subtle body): 8 constituents, body = ahaṃtā, burning removes it (model only)"
 echo "PASS subtle-body comparison: two Trika eights + Vedānta 17/19; same count, disjoint partitions; prāṇa role differs (model only)"
+echo "PASS subtle-body corpus v2: three Trika formulas (prāṇa / tanmātra / guṇa), three body levels, one carrier (model only)"
 echo "PASS Avarana covering-chain (cross-course ascent + exhibited partial order)"
 echo "PASS MalaFuel burn dynamics (terminate, monotone strength, grace ignition)"
 echo "PASS Pratyahara interval mechanics (aC vowels, haL consonants, markers excluded)"
@@ -53,6 +55,7 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive Tattva.lean --mutant Bro
 python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaInventory.lean --mutant BrokenTattvaInventory.lean --theorem pure_excludes_maya || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Puryastaka.lean --mutant BrokenPuryastaka.lean --theorem constituents_eight || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive SubtleBody.lean --mutant BrokenSubtleBody.lean --theorem trikaA_count || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive SubtleBodyCorpus.lean --mutant BrokenSubtleBodyCorpus.lean --theorem C_count || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Recognition.lean --mutant BrokenSharp.lean --theorem contentEq_sharp || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Avarana.lean --mutant BrokenAvarana.lean --theorem course_ascends || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive MalaFuel.lean --mutant BrokenFuel.lean --theorem grace_ignites || exit 1

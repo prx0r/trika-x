@@ -60,6 +60,7 @@ WORK_OF = {"tsa08": "tsa08", "tsa07": "tsa07", "param": "param", "phr": "phr",
            # longer prefixes BEFORE shorter ones: "tal-a34-p01" must not
            # route via "tal" (first match wins in work_of).
            "tal-a34": "tal-a34", "tal-a24": "tal-a24", "tal-a09": "tal-a09",
+           "tal-a29": "tal-a29", "ssv": "sivasutravimarsini",
            "chunk": "ipvv",
            "tal-a15": "tal15", "tal": "tal15",
            "tsa01": "tsa01", "tsa02": "tsa02", "tsa03": "tsa03",
