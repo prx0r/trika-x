@@ -8153,9 +8153,11 @@
    "argument_sources": [],
    "cruxes": 0,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Puryastaka.lean :: kancukas_six"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-TODO"
   },
@@ -10057,9 +10059,11 @@
    "argument_sources": [],
    "cruxes": 0,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Puryastaka.lean :: body_is_ahamta"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-TODO"
   },
@@ -11995,9 +11999,11 @@
    ],
    "cruxes": 4,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Puryastaka.lean :: constituents_eight"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-TODO"
   },
@@ -12017,9 +12023,11 @@
    ],
    "cruxes": 2,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Puryastaka.lean :: no_transmigration_without_body"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-TODO"
   },
@@ -15383,9 +15391,12 @@
    ],
    "cruxes": 0,
    "formalized": null,
-   "formal_reference": false,
-   "formal_refs": [],
-   "formal_status": "NO_REGISTRY_REFERENCE",
+   "formal_reference": true,
+   "formal_refs": [
+    "Puryastaka.lean :: burn_removes_body",
+    "Puryastaka.lean :: city_is_body"
+   ],
+   "formal_status": "REGISTRY_REFERENCE_ONLY",
    "essays": [],
    "bridge": "CANDIDATE-TODO"
   },
@@ -17602,7 +17613,6 @@
    "tantraloka-a09:tal-a09-p18",
    "tantraloka-a09:tal-a09-p19",
    "tantraloka-a09:tal-a09-p20",
-   "tantraloka-a09:tal-a09-p21",
    "tantraloka-a09:tal-a09-p22",
    "tantraloka-a09:tal-a09-p23",
    "tantraloka-a09:tal-a09-p24",
@@ -17724,7 +17734,6 @@
    "tantraloka-a15:tal-a15-p21",
    "tantraloka-a15:tal-a15-p22",
    "tantraloka-a15:tal-a15-p23",
-   "tantraloka-a15:tal-a15-p24",
    "tantraloka-a15:tal-a15-p25",
    "tantraloka-a15:tal-a15-p26",
    "tantraloka-a15:tal-a15-p27",
@@ -17842,8 +17851,6 @@
    "tantraloka-a23:tal-a23-p10",
    "tantraloka-a23:tal-a23-p11",
    "tantraloka-a24:tal-a24-p01",
-   "tantraloka-a24:tal-a24-p02",
-   "tantraloka-a24:tal-a24-p03",
    "tantraloka-a25:tal-a25-p01",
    "tantraloka-a25:tal-a25-p02",
    "tantraloka-a25:tal-a25-p03",
@@ -18021,7 +18028,6 @@
    "tantrasara-a11:tsa11-p10",
    "tantrasara-a12:tsa12-p01",
    "tantrasara-a13:tsa13-p01",
-   "tantrasara-a13:tsa13-p02",
    "tantrasara-a13:tsa13-p03",
    "tantrasara-a13:tsa13-p04",
    "tantrasara-a14:tsa14-p01",
@@ -18074,6 +18080,6 @@
   "unargued": 578,
   "cruxless": 123,
   "essayless": 331,
-  "no_formal_reference": 893
+  "no_formal_reference": 888
  }
 }

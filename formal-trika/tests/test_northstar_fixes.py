@@ -54,10 +54,19 @@ class FormalGapsArithmetic(unittest.TestCase):
         self.assertEqual(out["returned"], len(out["gaps"]))
 
     def test_no_work_level_ref_counted_as_passage(self):
-        # 'vbt' is a work-level reference, not a passage locator.
+        # 'vbt' is a work-level reference, not a passage locator. Coverage must
+        # equal the distinct passage locators named in EVIDENCE (work-level
+        # references excluded), so a new binding refreshes the number instead
+        # of pinning a stale snapshot.
+        import json
+        from pathlib import Path
+        ev = json.loads((Path(__file__).resolve().parent.parent / "EVIDENCE.json")
+                        .read_text(encoding="utf-8"))
+        locs = {c.get("locator") for e in ev["entries"].values()
+                for c in e.get("chunks", []) if c.get("locator") and c.get("locator") != "vbt"}
         out = self.gw.formal_gaps({})
         self.assertNotIn("vbt", out["gaps"])
-        self.assertEqual(out["covered"], 16, out["coverage"])
+        self.assertEqual(out["covered"], len(locs), out["coverage"])
 
     def test_work_filter_consistent(self):
         out = self.gw.formal_gaps({"work": "vbt"})

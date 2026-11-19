@@ -1,9 +1,9 @@
 {
   "format": "trika-passage-snapshot/1",
-  "manifest_at": "2026-11-06T12:07:12+00:00",
-  "manifest_rev": "f430a18ae099971a73ce6970ec23bf3c82ab3b4f",
+  "manifest_at": "2026-11-07T07:04:47+00:00",
+  "manifest_rev": "9691700ee65ad96ce4b1009592f8fe6a1cd3cf21",
   "repository": "https://github.com/prx0r/translation-work",
-  "revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
+  "revision": "81ec1ba498e08dea182457c807d30721293e09a6",
   "works": {
     "param": {
       "ledger": "paramarthasara/passages.jsonl",
@@ -137,6 +137,193 @@
         }
       ],
       "sha256": "932c5554f31d78a94f225b5df8c26b57c695409f183203ae0caad6f3e5ee3efe"
+    },
+    "tal-a09": {
+      "ledger": "tantraloka-a09/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09001",
+          "locator": "tal-a09-p01",
+          "verses": "9.1-9.10"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09002",
+          "locator": "tal-a09-p02",
+          "verses": "9.11-9.20"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09003",
+          "locator": "tal-a09-p03",
+          "verses": "9.21-9.30"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09004",
+          "locator": "tal-a09-p04",
+          "verses": "9.31-9.40"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09005",
+          "locator": "tal-a09-p05",
+          "verses": "9.41-9.50"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09006",
+          "locator": "tal-a09-p06",
+          "verses": "9.51-9.60"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09007",
+          "locator": "tal-a09-p07",
+          "verses": "9.61-9.70"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09008",
+          "locator": "tal-a09-p08",
+          "verses": "9.71-9.80"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09009",
+          "locator": "tal-a09-p09",
+          "verses": "9.81-9.90"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09010",
+          "locator": "tal-a09-p10",
+          "verses": "9.91-9.100"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09011",
+          "locator": "tal-a09-p11",
+          "verses": "9.101-9.110"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09012",
+          "locator": "tal-a09-p12",
+          "verses": "9.111-9.120"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09013",
+          "locator": "tal-a09-p13",
+          "verses": "9.121-9.130"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09014",
+          "locator": "tal-a09-p14",
+          "verses": "9.131-9.140"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09015",
+          "locator": "tal-a09-p15",
+          "verses": "9.141-9.150"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09016",
+          "locator": "tal-a09-p16",
+          "verses": "9.151-9.160"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09017",
+          "locator": "tal-a09-p17",
+          "verses": "9.161-9.170"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09018",
+          "locator": "tal-a09-p18",
+          "verses": "9.171-9.180"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09019",
+          "locator": "tal-a09-p19",
+          "verses": "9.181-9.190"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09020",
+          "locator": "tal-a09-p20",
+          "verses": "9.191-9.200"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09021",
+          "locator": "tal-a09-p21",
+          "verses": "9.201-9.210"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09022",
+          "locator": "tal-a09-p22",
+          "verses": "9.211-9.220"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09023",
+          "locator": "tal-a09-p23",
+          "verses": "9.221-9.230"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09024",
+          "locator": "tal-a09-p24",
+          "verses": "9.231-9.240"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09025",
+          "locator": "tal-a09-p25",
+          "verses": "9.241-9.250"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09026",
+          "locator": "tal-a09-p26",
+          "verses": "9.251-9.260"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09027",
+          "locator": "tal-a09-p27",
+          "verses": "9.261-9.270"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09028",
+          "locator": "tal-a09-p28",
+          "verses": "9.271-9.280"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09029",
+          "locator": "tal-a09-p29",
+          "verses": "9.281-9.290"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09030",
+          "locator": "tal-a09-p30",
+          "verses": "9.291-9.300"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09031",
+          "locator": "tal-a09-p31",
+          "verses": "9.301-9.310"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a09032",
+          "locator": "tal-a09-p32",
+          "verses": "9.311-9.314"
+        }
+      ],
+      "sha256": "d2ae5ad45f4d228bec5a80868bd4508e113d3ba2a490fa8c871f5151b3738d7b"
+    },
+    "tal-a24": {
+      "ledger": "tantraloka-a24/passages.jsonl",
+      "passages": [
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a24001",
+          "locator": "tal-a24-p01",
+          "verses": "24.1-24.10"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a24002",
+          "locator": "tal-a24-p02",
+          "verses": "24.11-24.20"
+        },
+        {
+          "immutable_id": "pt:pid:tal:tantraloka-a24003",
+          "locator": "tal-a24-p03",
+          "verses": "24.21-24.24"
+        }
+      ],
+      "sha256": "e38f447f4a946e89206bd1b139952a3ef8c0527f06919e473601f6a4998c4b46"
     },
     "tal-a34": {
       "ledger": "tantraloka-a34/passages.jsonl",

@@ -1779,6 +1779,132 @@
    "r_sources": [
     "Owner framework, H-tier. Z/2 action layer; the two-positioning symmetry group and its action (CONSCIOUSNESS-STUDIES.md §4a)."
    ]
+  },
+  "Puryastaka.lean :: constituents_eight": {
+   "chunks": [
+    {
+     "locator": "tal-a24-p02",
+     "note": "TĀ 24.19 compressed list; count from the term puryaṣṭaka (R-tier enumeration)",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Classical eightfold enumeration (5 tanmātras + manas + ahaṃkāra + buddhi) supplied by the tradition; not spelled out in this verse."
+   ]
+  },
+  "Puryastaka.lean :: partition_disjoint": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Table non-redundancy over the stipulated enumeration; no textual claim."
+   ]
+  },
+  "Puryastaka.lean :: five_tanmatras": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Classical five tanmātras; R-tier enumeration."
+   ]
+  },
+  "Puryastaka.lean :: three_inner": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Classical three inner instruments; R-tier enumeration."
+   ]
+  },
+  "Puryastaka.lean :: kancukas_six": {
+   "chunks": [
+    {
+     "locator": "tal-a09-p21",
+     "note": "TĀ 9.204: māyā kalā rāga vidyā kāla niyati — six kañcukas, named.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "KEY",
+   "lived": [],
+   "r_sources": []
+  },
+  "Puryastaka.lean :: six_fewer_than_eight": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Arithmetic over stipulated counts only; says nothing about how the kañcukas contract."
+   ]
+  },
+  "Puryastaka.lean :: body_is_ahamta": {
+   "chunks": [
+    {
+     "locator": "tal-a15-p24",
+     "note": "TĀ 15.235–236: ahantāyāṃ hi dehatvaṃ sā dhvastā taddhed dhruvam.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "KEY",
+   "lived": [],
+   "r_sources": []
+  },
+  "Puryastaka.lean :: city_is_body": {
+   "chunks": [
+    {
+     "locator": "tsa13-p02",
+     "note": "Tantrasāra 13.24 (tsa-a13-v25): deha-puryaṣṭakādau ... dehatāṃ dahet.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": []
+  },
+  "Puryastaka.lean :: burn_removes_body": {
+   "chunks": [
+    {
+     "locator": "tsa13-p02",
+     "note": "Tantrasāra 13.24: ahambhāva-tyāgena dehatāṃ dahet — burning = abandoning the I-sense.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": []
+  },
+  "Puryastaka.lean :: burn_idempotent": {
+   "chunks": [],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": [
+    "Definitional property of the model only."
+   ]
+  },
+  "Puryastaka.lean :: no_transmigration_without_body": {
+   "chunks": [
+    {
+     "locator": "tal-a24-p03",
+     "note": "TĀ 24.21: puryaṣṭakasyābhāve ca na svarganarakādayaḥ.",
+     "status": "VERIFIED-QUOTE",
+     "tier": "T",
+     "via": "t1"
+    }
+   ],
+   "kind": "MODEL",
+   "lived": [],
+   "r_sources": []
   }
  },
  "exemptions": {
@@ -2080,6 +2206,51 @@
     "vbt-p17"
    ],
    "ledger": "translation-work/vbt/passages.jsonl"
+  },
+  "tal-a09": {
+   "chunks": [
+    "tal-a09-p01",
+    "tal-a09-p02",
+    "tal-a09-p03",
+    "tal-a09-p04",
+    "tal-a09-p05",
+    "tal-a09-p06",
+    "tal-a09-p07",
+    "tal-a09-p08",
+    "tal-a09-p09",
+    "tal-a09-p10",
+    "tal-a09-p11",
+    "tal-a09-p12",
+    "tal-a09-p13",
+    "tal-a09-p14",
+    "tal-a09-p15",
+    "tal-a09-p16",
+    "tal-a09-p17",
+    "tal-a09-p18",
+    "tal-a09-p19",
+    "tal-a09-p20",
+    "tal-a09-p21",
+    "tal-a09-p22",
+    "tal-a09-p23",
+    "tal-a09-p24",
+    "tal-a09-p25",
+    "tal-a09-p26",
+    "tal-a09-p27",
+    "tal-a09-p28",
+    "tal-a09-p29",
+    "tal-a09-p30",
+    "tal-a09-p31",
+    "tal-a09-p32"
+   ],
+   "ledger": "translation-work/tantraloka-a09/passages.jsonl"
+  },
+  "tal-a24": {
+   "chunks": [
+    "tal-a24-p01",
+    "tal-a24-p02",
+    "tal-a24-p03"
+   ],
+   "ledger": "translation-work/tantraloka-a24/passages.jsonl"
   }
  },
  "generated_certificates": {
