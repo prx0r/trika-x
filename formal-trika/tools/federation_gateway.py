@@ -250,9 +250,27 @@ def formal_evidence(args: dict) -> dict:
     thm = (args.get("theorem") or "").strip()
     if thm:
         if thm not in entries:
-            near = [k for k in entries if thm.split("::")[-1].strip() in k]
+            bare = thm.split("::")[-1].strip()
+            near = [k for k in entries if k.split("::")[-1].strip() == bare]
+            if len(near) == 1:
+                e = entries[near[0]]
+                return {"theorem": near[0], "found": True,
+                        "matched_by": "bare-name", "requested": thm,
+                        "kind": e.get("kind"),
+                        "chunks": e.get("chunks", []),
+                        "r_sources": e.get("r_sources", []),
+                        "lived": e.get("lived", []),
+                        "note": "registry refs are not source-to-theorem "
+                                "entailments"}
+            if len(near) > 1:
+                return {"theorem": thm, "found": False, "ambiguous": True,
+                        "candidates": sorted(near)[:8],
+                        "counts": {"entries": len(entries)},
+                        "note": "bare name matches several files; pass "
+                                "'File.lean :: name'"}
+            loose = [k for k in entries if bare in k]
             return {"theorem": thm, "found": False,
-                    "near_matches": near[:8],
+                    "near_matches": loose[:8],
                     "counts": {"entries": len(entries)},
                     "note": "registry refs are not source-to-theorem "
                             "entailments"}
@@ -314,10 +332,14 @@ def formal_gaps(args: dict) -> dict:
     if work:
         gaps = [g for g in gaps if g.startswith(work[:4]) or work in g]
         covered = {c for c in covered if c.startswith(work[:4]) or work in c}
+    # Coverage counts passages, so a covered locator that is not a passage
+    # chunk (e.g. the work-level ref 'vbt') is not coverage. Without this the
+    # live string reads 17/154 while its own gap list implies 16.
+    counted = covered & all_chunks
     GAP_CAP = 500
     shown = gaps[:GAP_CAP]
-    return {"covered": len(covered), "total": len(all_chunks),
-            "coverage": (f"{len(covered)}/{len(all_chunks)}" if all_chunks
+    return {"covered": len(counted), "total": len(all_chunks),
+            "coverage": (f"{len(counted)}/{len(all_chunks)}" if all_chunks
                          else "unknown"),
             "gap_count": len(gaps), "returned": len(shown),
             "truncated": len(gaps) > len(shown), "gaps": shown,

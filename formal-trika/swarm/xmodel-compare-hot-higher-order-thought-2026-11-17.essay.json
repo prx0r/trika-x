@@ -1,0 +1,81 @@
+{
+ "format": "trika-essay/1",
+ "id": "essay:expansion-xmodel-compare-hot-higher-order-thought-2026-11-17",
+ "title": "Comparison: trika-x and Higher-Order Thought theory (Rosenthal): a state is conscious iff accompanied by a higher-order representation of it",
+ "date": "2026-11-17",
+ "chunk": "paramarthasara:param-p04",
+ "verses": "29-37",
+ "voice": "agent-drafted under owner direction; structural generation from a comparison record; not human-reviewed",
+ "claims": [
+  {
+   "id": "CLM-1",
+   "tier": "H",
+   "text": "On the object axis: their account holds that quantifies over mental STATES: a state is conscious iff accompanied by a distinct, usually unconscious HOT; trika-x holds that quantifies over SELF-POSITIONING: what changes in recognition. This matters because the theories do not range over the same entities; a state-level predicate has no counterpart in trika-x."
+  },
+  {
+   "id": "CLM-2",
+   "tier": "H",
+   "text": "On the change axis: their account holds that consciousness requires an ADDED higher-order state; trika-x holds that recognition adds no content and preserves what is there. This matters because if mapped, the two contradict: addition vs non-addition."
+  },
+  {
+   "id": "CLM-3",
+   "tier": "H",
+   "text": "On the self axis: their account holds that the self is a construction (a model built from HOTs); trika-x holds that the 'I'-grasp is not a construction (IPVV V2L, R-tier). This matters because whether selfhood is explained or presupposed: a model built from HOTs vs an unconstructed self-grasp."
+  },
+  {
+   "id": "CLM-4",
+   "tier": "E",
+   "text": "Their formalisation is: Higher-Order Thought theory (Rosenthal): a state is conscious iff accompanied by a higher-order representation of it (Rosenthal: a mental state is conscious iff accompanied by a HOT to the effect that one is in that state; HOTs are distinct, typically unconscious states (reportability + fineness-of-grain arguments). Verified from Rosenthal's texts (davidrosenthal.org) and Scholarpedia, 2026-11-17.). Recorded as published; not re-verified by this essay."
+  },
+  {
+   "id": "CLM-5",
+   "tier": "R",
+   "text": "Our side is anchored in machine-checked structures: Recognition.lean :: recognition_adds_nothing. Registry references are not source-to-theorem entailments."
+  },
+  {
+   "id": "CLM-6",
+   "tier": "H",
+   "text": "Obstruction: Different objects of quantification: HOT is a predicate on mental states; trika-x has no state-consciousness layer and no meta-representation relation. Encoding HOT would require adding a state ontology that the affirmative Trika account does not contain."
+  },
+  {
+   "id": "CLM-S1",
+   "tier": "C",
+   "text": "Shared ground: a reflective or self-referential element is central."
+  },
+  {
+   "id": "CLM-S2",
+   "tier": "C",
+   "text": "Shared ground: the 'I'-grasp is not itself constructed."
+  },
+  {
+   "id": "CLM-W",
+   "tier": "H",
+   "text": "What it means: A paper can say precisely why HOT and Trika cannot be compared head-on, and why 'recognition adds nothing' is not a HOT variant."
+  }
+ ],
+ "theorems": [
+  {
+   "name": "Recognition.lean :: recognition_adds_nothing",
+   "tier": "UNVERIFIED"
+  }
+ ],
+ "open_questions": [
+  "Does the not-comparable verdict survive a reviewer who knows the source language?",
+  "Which disparity would move first if the other formalisation changed?"
+ ],
+ "tracks": [
+  "F1",
+  "F2",
+  "F11"
+ ],
+ "openpatala": {
+  "openpatala_work_id": "paramarthasara",
+  "mapping_status": "CANDIDATE",
+  "edition_label": "GRETIL KSTS 7 (Abhinavagupta Paramārthasāra)"
+ },
+ "status": "MACHINE-COMPILED",
+ "comparison": {
+  "id": "hot-higher-order-thought",
+  "verdict": "not-comparable"
+ }
+}

@@ -78,11 +78,48 @@ def load_ledger(tw: Path, work: str) -> list:
     return rows
 
 
+_SONG_MAPS: dict = {}
+
+
+def song_for_chunk(tw: Path, work: str, target: str) -> str | None:
+    """Chunk locator -> song file stem via the work's chunk-song-map.json.
+
+    Authoritative when present (explicit 1:1 map, no guessing); None when the
+    work has no map, in which case callers fall back to song_guess()."""
+    key = (str(tw), work)
+    if key not in _SONG_MAPS:
+        mp = tw / work / "chunk-song-map.json"
+        try:
+            _SONG_MAPS[key] = json.loads(mp.read_text(encoding="utf-8"))
+        except (OSError, ValueError):
+            _SONG_MAPS[key] = None
+    m = _SONG_MAPS[key]
+    if isinstance(m, dict):
+        v = m.get(target)
+        if isinstance(v, str) and v:
+            return v
+    return None
+
+
 def layer_candidates(tw: Path, work: str, target: str, layer: str):
     """Yield (path, status): exact chunk files first, else song-guess files
     (BOUND-WHOLE-SONG), else work-level markdown (BOUND-WORK-MD — the TAL
     layout ships L1/L2/L200/T1 as work files, not per-song JSON; recorded
     as bound-to-work, never as chunk-level proof)."""
+    # chunk-song-map is authoritative where present: it names the exact file
+    # the proof record pins. A stray same-name duplicate (e.g. a stale
+    # uppercase chunk id) must not shadow it.
+    mapped = song_for_chunk(tw, work, target)
+    if mapped:
+        p = tw / work / "data" / f"{mapped}.{layer}.json"
+        if p.exists():
+            yield p, "BOUND"
+            return
+        # per-chunk layout (ipvv): the song file lives under the chunk dir
+        q = tw / work / target / "data" / f"{mapped}.{layer}.json"
+        if q.exists():
+            yield q, "BOUND"
+            return
     exact = tw / work / "data" / f"{target}.{layer}.json"
     if exact.exists():
         yield exact, "BOUND"
@@ -252,6 +289,10 @@ def compile_bundle(work: str, target: str, tw: Path, sv: Path,
     proofs = {}
     song = re.sub(r"-v\d+$", "", target)
     pf = tw / work / "proof" / f"proof-{song}.json"
+    if not pf.exists():
+        mapped_song = song_for_chunk(tw, work, target)
+        if mapped_song:
+            pf = tw / work / "proof" / f"proof-{mapped_song}.json"
     if not pf.exists():
         sg = song_guess(target)
         if sg:

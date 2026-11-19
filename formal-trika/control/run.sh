@@ -19,6 +19,7 @@ fi
 "$LEAN" -DwarningAsError=true TattvaGen.lean || exit 1
 "$LEAN" -DwarningAsError=true Prakasa.lean || exit 1
 "$LEAN" -DwarningAsError=true ../frontier/Aperture.lean || exit 1
+"$LEAN" -DwarningAsError=true ../frontier/Inexternalism.lean || exit 1
 "$LEAN" -DwarningAsError=true ../buddhist/Nanavira.lean || exit 1
 "$LEAN" -DwarningAsError=true ../frontier/Tetrahedron.lean || exit 1
 "$LEAN" -DwarningAsError=true ../frontier/Closure.lean || exit 1
@@ -30,12 +31,18 @@ fi
 "$LEAN" -DwarningAsError=true AnswerKey.lean || exit 1
 "$LEAN" -DwarningAsError=true Tattva.lean || exit 1
 "$LEAN" -DwarningAsError=true TattvaInventory.lean || exit 1
+"$LEAN" -DwarningAsError=true Puryastaka.lean || exit 1
+"$LEAN" -DwarningAsError=true SubtleBody.lean || exit 1
+"$LEAN" -DwarningAsError=true SubtleBodyCorpus.lean || exit 1
 LEAN_PATH=. "$LEAN" -DwarningAsError=true Pramatr.lean || exit 1
 LEAN_PATH=. "$LEAN" -DwarningAsError=true Avarana.lean || exit 1
 echo "PASS Boolean row count and profile (not a classification proof)"
 echo "PASS AnswerKey counts (key data, not derived)"
 echo "PASS stipulated Tattva group-size sum (model only)"
 echo "PASS candidate named Tattva inventory (model only)"
+echo "PASS puryaṣṭaka (subtle body): 8 constituents, body = ahaṃtā, burning removes it (model only)"
+echo "PASS subtle-body comparison: two Trika eights + Vedānta 17/19; same count, disjoint partitions; prāṇa role differs (model only)"
+echo "PASS subtle-body corpus v2: three Trika formulas (prāṇa / tanmātra / guṇa), three body levels, one carrier (model only)"
 echo "PASS Avarana covering-chain (cross-course ascent + exhibited partial order)"
 echo "PASS MalaFuel burn dynamics (terminate, monotone strength, grace ignition)"
 echo "PASS Pratyahara interval mechanics (aC vowels, haL consonants, markers excluded)"
@@ -46,6 +53,9 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive Pramatr.lean --mutant Br
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Kancuka.lean --mutant BrokenKancuka.lean --theorem pairings_distinct || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Tattva.lean --mutant BrokenTattva.lean --theorem thirty_six || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaInventory.lean --mutant BrokenTattvaInventory.lean --theorem pure_excludes_maya || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive Puryastaka.lean --mutant BrokenPuryastaka.lean --theorem constituents_eight || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive SubtleBody.lean --mutant BrokenSubtleBody.lean --theorem trikaA_count || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive SubtleBodyCorpus.lean --mutant BrokenSubtleBodyCorpus.lean --theorem C_count || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Recognition.lean --mutant BrokenSharp.lean --theorem contentEq_sharp || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Avarana.lean --mutant BrokenAvarana.lean --theorem course_ascends || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive MalaFuel.lean --mutant BrokenFuel.lean --theorem grace_ignites || exit 1
@@ -63,6 +73,17 @@ python3 ../tools/must_fail.py --lean "$LEAN" --positive TattvaGen.lean --mutant 
 python3 ../tools/must_fail.py --lean "$LEAN" --positive Prakasa.lean --mutant BrokenPraHidden.lean --theorem all_appear || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Aperture.lean --mutant ../frontier/BrokenApertureDup.lean --theorem aperture_distinct || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Aperture.lean --mutant ../frontier/BrokenApertureDrop.lean --theorem aperture_nine || exit 1
+# frontier dependency oleans first: imports need these on LEAN_PATH
+(cd ../frontier && LEAN_PATH=. "$LEAN" -DwarningAsError=true -o Inexternalism.olean Inexternalism.lean) || exit 1
+(cd ../frontier && LEAN_PATH=. "$LEAN" -DwarningAsError=true -o PerspectivalAction.olean PerspectivalAction.lean) || exit 1
+(cd ../frontier && LEAN_PATH=. "$LEAN" -DwarningAsError=true -o Cuttable.olean Cuttable.lean) || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Inexternalism.lean --mutant ../frontier/BrokenInexternalism.lean --theorem mode_switch_preserves_content || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Inexternalism.lean --mutant ../frontier/BrokenNoProduction.lean --theorem sample_no_production || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Inexternalism.lean --mutant ../frontier/BrokenOneProcess.lean --theorem sample_one_process || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/PerspectivalAction.lean --mutant ../frontier/BrokenActContent.lean --theorem act_preserves_content || exit 1
+LEAN_PATH=../frontier "$LEAN" -DwarningAsError=true ../frontier/Testbed.lean || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Testbed.lean --mutant ../frontier/BrokenTestbed.lean --theorem testbed_joint || exit 1
+python3 ../tools/must_fail.py --lean "$LEAN" --positive ../frontier/Cuttable.lean --mutant ../frontier/BrokenCutCross.lean --theorem no_cross_cut_flow || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../buddhist/Nanavira.lean --mutant ../buddhist/BrokenNanMatch2.lean --theorem matchings_three || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../buddhist/Nanavira.lean --mutant ../buddhist/BrokenNanScale.lean --theorem orders_scale || exit 1
 python3 ../tools/must_fail.py --lean "$LEAN" --positive ../buddhist/Nanavira.lean --mutant ../buddhist/BrokenNanParasite.lean --theorem parasite_erase || exit 1

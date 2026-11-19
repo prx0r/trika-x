@@ -96,8 +96,12 @@ def check_slug(swarm: Path, slug: str) -> list:
     if "openpatala_work_id" not in op or "mapping_status" not in op:
         fails.append("openpatala block incomplete")
     tn = ej.get("tension")
+    # Any atom the shared-language resolver knows is a valid tension kind.
+    # The prefix is not the type; resolution is.
+    TENSION_KINDS = ("tension:", "xmodel:", "crux:")
     if tn is not None:
-        if not isinstance(tn, dict) or not tn.get("id", "").startswith("tension:"):
+        if (not isinstance(tn, dict)
+                or not str(tn.get("id", "")).startswith(TENSION_KINDS)):
             fails.append(f"bad tension block: {tn}")
         elif tn.get("relation") not in ("resolves", "loosens"):
             fails.append(f"bad tension relation: {tn.get('relation')}")
@@ -197,8 +201,23 @@ def main() -> int:
     ap.add_argument("--all", action="store_true")
     ap.add_argument("--swarm", type=Path, default=HERE / "swarm")
     a = ap.parse_args()
-    slugs = ([a.slug] if a.slug else
-             sorted({p.name[:-len(".receipt.json")] for p in a.swarm.glob("expansion-*.receipt.json")}))
+    # --all covers every COMPLETE essay triple, not just the expansion family:
+    # cross-model (xmodel-) essays face the same gate. An orphan receipt (no
+    # essay.json/md) is reported as skipped, never silently passed or failed.
+    if a.slug:
+        slugs = [a.slug]
+    else:
+        names = sorted({p.name[:-len(".receipt.json")]
+                        for p in a.swarm.glob("*.receipt.json")})
+        complete, orphan = [], []
+        for n in names:
+            if (a.swarm / f"{n}.essay.json").is_file() and (a.swarm / f"{n}.md").is_file():
+                complete.append(n)
+            else:
+                orphan.append(n)
+        slugs = complete
+        if orphan and not a.slug:
+            print(f"SKIP {len(orphan)} orphan receipt(s) with no essay triple: {orphan[:3]}")
     bad = 0
     for slug in slugs:
         fails = check_slug(a.swarm, slug)
