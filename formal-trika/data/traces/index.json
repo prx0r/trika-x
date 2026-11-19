@@ -1,124 +1,89 @@
 {
- "count": 7,
+ "count": 5,
  "entries": [
   {
-   "caveats": [
-    "chunk_gate BLOCKED: ABSTENTION,CITATION_GROUNDING"
+   "caveats": [],
+   "file": "traces/phrdaya-phr-p01.json",
+   "gaps": [
+    "identity:db"
    ],
-   "file": "traces/spanda-span-p01.json",
-   "gaps": [],
-   "immutable_id": "pt:pid:span:152f7b778685",
-   "sha256": "6a00fae3e6c809208a2637475417b778cc5f6d561592b48fae9ed5fc1b91138f",
-   "target": "span-p01",
+   "immutable_id": "pt:pid:phr:be7123f0b14a",
+   "sha256": "354b98453d2d3cb872f2733fcb30449ed61e7882f0896670d2697f78dc8d936b",
+   "target": "phr-p01",
    "theorems": [
-    "Spanda.lean :: acts_three",
-    "Spanda.lean :: glide_all",
-    "Spanda.lean :: phases_two"
+    "Phrdaya.lean :: epithet_three"
    ],
-   "verdict": "COMPLETE",
-   "work": "spanda"
-  },
-  {
-   "caveats": [
-    "chunk_gate BLOCKED: ABSTENTION,CITATION_GROUNDING"
-   ],
-   "file": "traces/spanda-span-p02.json",
-   "gaps": [],
-   "immutable_id": "pt:pid:span:9bede116774f",
-   "sha256": "164f002ac120f6c5a1c1fd7a053b5ed103dc58079f0351d5781ab010f80ba5df",
-   "target": "span-p02",
-   "theorems": [],
-   "verdict": "COMPLETE",
-   "work": "spanda"
-  },
-  {
-   "caveats": [
-    "chunk_gate BLOCKED: ABSTENTION"
-   ],
-   "file": "traces/spanda-span-p03.json",
-   "gaps": [],
-   "immutable_id": "pt:pid:span:3a4fa091e79e",
-   "sha256": "57aa3243d8dbf2b6a3894e144e8ed01093281bfa27c5cbdc320d27509b5b94c3",
-   "target": "span-p03",
-   "theorems": [],
-   "verdict": "COMPLETE",
-   "work": "spanda"
-  },
-  {
-   "caveats": [
-    "chunk_gate BLOCKED: COVERAGE,ABSTENTION"
-   ],
-   "file": "traces/spanda-span-p04.json",
-   "gaps": [],
-   "immutable_id": "pt:pid:span:d8ddae2daa0e",
-   "sha256": "1080fe9cd8872b138562baf16271b9ce19ac5b2cc10fb2177d2834f40d7bf4f7",
-   "target": "span-p04",
-   "theorems": [],
-   "verdict": "COMPLETE",
-   "work": "spanda"
+   "verdict": "PARTIAL",
+   "work": "phrdaya"
   },
   {
    "caveats": [],
-   "file": "traces/spanda-span-p04b.json",
+   "file": "traces/phrdaya-phr-p02.json",
    "gaps": [
-    "layer:l0",
-    "layer:c1",
-    "layer:l3",
-    "layer:l4",
-    "identity:db",
-    "proofs:song"
+    "identity:db"
    ],
-   "immutable_id": "",
-   "sha256": "92df9f9efcb7faa5d939144dbff167158d40368ada80a675c5d502faf4859f5e",
-   "target": "span-p04b",
-   "theorems": [],
+   "immutable_id": "pt:pid:phr:ab1f9fe757ce",
+   "sha256": "c038c701119b25252da62981d0d2422e02fc929181d779b2bdbd665bd458a116",
+   "target": "phr-p02",
+   "theorems": [
+    "Phrdaya.lean :: pentads_thirtyfive"
+   ],
    "verdict": "PARTIAL",
-   "work": "spanda"
+   "work": "phrdaya"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: ABSTENTION"
-   ],
-   "file": "traces/spanda-span-p05.json",
+   "caveats": [],
+   "file": "traces/phrdaya-phr-p03.json",
    "gaps": [
-    "layer:l0",
-    "layer:c1",
-    "layer:l3",
-    "layer:l4",
-    "proofs:song"
+    "identity:db"
    ],
-   "immutable_id": "pt:pid:span:6060f641d1db",
-   "sha256": "d1822f03274d2931aaa54069a572d55de5cc620ff031e4d5b6b14c9c07beaa99",
-   "target": "span-p05",
-   "theorems": [],
+   "immutable_id": "pt:pid:phr:e9135501936e",
+   "sha256": "d4f25ac7858aa940431b11a68a34a1d58ee1d501c28251c215d3b9020b64f429",
+   "target": "phr-p03",
+   "theorems": [
+    "Phrdaya.lean :: five_acts"
+   ],
    "verdict": "PARTIAL",
-   "work": "spanda"
+   "work": "phrdaya"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: ABSTENTION"
-   ],
-   "file": "traces/spanda-span-p06.json",
+   "caveats": [],
+   "file": "traces/phrdaya-phr-p04.json",
    "gaps": [
-    "layer:l0",
-    "layer:c1",
-    "layer:l3",
-    "layer:l4",
-    "proofs:song"
+    "identity:db"
    ],
-   "immutable_id": "pt:pid:span:d5c0c9f34e03",
-   "sha256": "970d813864abbcbdad24d5bb55d87e720dd243b9d0f0f14571caa1e0963f4870",
-   "target": "span-p06",
-   "theorems": [],
+   "immutable_id": "pt:pid:phr:cfdca5029c42",
+   "sha256": "5e7b38e53e8ffdfff341cbe3352245f1920e1dc668cac974d8d2c08e155886a8",
+   "target": "phr-p04",
+   "theorems": [
+    "Mala.lean :: count_3",
+    "MalaFuel.lean :: fuel_terminates",
+    "MalaFuel.lean :: grace_ignites"
+   ],
    "verdict": "PARTIAL",
-   "work": "spanda"
+   "work": "phrdaya"
+  },
+  {
+   "caveats": [],
+   "file": "traces/phrdaya-phr-p05.json",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:phr:416a3031abdc",
+   "sha256": "9ab2b751b92ef6d0a3e0744958c0d517c047d3f73e6bbc60e582093eeded69e0",
+   "target": "phr-p05",
+   "theorems": [
+    "Phrdaya.lean :: closes_four",
+    "Phrdaya.lean :: means_once"
+   ],
+   "verdict": "PARTIAL",
+   "work": "phrdaya"
   }
  ],
  "errors": [],
  "format": "trika-traces-index/1",
  "note": "Trika-x side index (svread publishes its own via emit_verify). Each entry is a trika-trace/1 bundle: source -> layers -> proofs -> formal -> citing essays, hash-pinned. COMPLETE means every applicable hop resolved; PARTIAL names its gaps. Re-verify: trace_bundle.py --verify <file>.",
  "verdicts": {
-  "COMPLETE": 4,
-  "PARTIAL": 3
+  "PARTIAL": 5
  }
 }
