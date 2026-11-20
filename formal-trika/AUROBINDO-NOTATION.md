@@ -1,16 +1,15 @@
 # Aurobindo notation — type-level intake
 
-> **Status: SPEC / NOT_BUILT.** The Lean skeleton
-> (`frontier/AurobindoNotation.lean`) was written without a Lean toolchain on the
-> authoring box. Definitions and roster checks are *unverified by compiler* until
-> someone runs the command in §5. Do not cite compiler status, and do not treat
-> the paper's homologies as established.
+> **Status: SPEC / BUILT.** The Lean skeleton
+> (`frontier/AurobindoNotation.lean`) was compiler-verified locally on Lean 4.34.1
+> on 2026-11-20 (exit 0, warnings as errors), and CI compiles every non-Broken
+> frontier file. This does not establish the paper's homologies.
 
 ## 1. Source
 
 M. Alan Kazlev and Claude (Opus 5.5), **“Contraction and Descent: A Formal
 Notation for Aurobindonian and Kashmir Shaivite Metaphysics”**, September 2026,
-22 pp. Local copy: `/home/box/Downloads/A_Formal_Notation_for_Aurobindonian_and.pdf`.
+22 pp. Citation only — no local copy is committed.
 
 This is a *proposal*, not a translation witness and not a Trika authority. Its own
 §9 and §11 mark the cross-tradition homologies as tentative and leave aggregation,
@@ -72,7 +71,7 @@ keeps the types and drops the typography:
 - **Any claim that the homologies are true.** Tentative rows (esp. Supermind ↔
   Sadāśiva–Īśvara, Overmind ↔ Śuddhavidyā) are paper proposals.
 
-## 5. Verify (when Lean 4.34.1 is available)
+## 5. Verify (Lean 4.34.1 — run, plus the CI frontier step)
 
 ```sh
 lean --version   # must be the version in ../lean-toolchain
@@ -80,8 +79,9 @@ lean formal-trika/frontier/AurobindoNotation.lean
 ```
 
 No `lake` dependencies are required, matching the other `frontier/` files. If
-`lean` is outside `PATH`, set `LEAN` per `formal-trika/README.md`. Until this
-runs clean, the file's status is **NOT_BUILT** and it must not feed a gate.
+`lean` is outside `PATH`, set `LEAN` per `formal-trika/README.md`. Ran clean locally on 2026-11-20 (exit 0, warnings as errors), and the
+`formal-checks.yml` "Frontier models" step compiles it on every PR. A file
+that stops building fails CI like any other rung.
 
 ## 6. Relationship to existing rungs
 

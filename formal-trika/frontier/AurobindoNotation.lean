@@ -16,9 +16,11 @@
   What it is NOT:
     - a proof of saṅkoca, of the independence of ℋ and 𝒫, or of any
       Aurobindonian or Śaiva claim;
-    - a checked build. STATUS: NOT_BUILT — no Lean toolchain was present on the
-      authoring box. Run `lean formal-trika/frontier/AurobindoNotation.lean`
-      with Lean 4.34.1 before citing compiler status.
+    - a checked build. STATUS: BUILT — verified locally on Lean 4.34.1
+      (leanprover/lean4:v4.34.1) on 2026-11-20, exit 0, warnings as errors.
+      CI compiles every non-Broken frontier file (formal-checks.yml,
+      "Frontier models"). Re-run `lean formal-trika/frontier/AurobindoNotation.lean`
+      before citing compiler status from a different toolchain.
   Provenance: the paper's own §9/§11 states the homologies are tentative and
   that aggregation F, centring persistence, density onset, and composition are
   open. Those opens are preserved here rather than closed.

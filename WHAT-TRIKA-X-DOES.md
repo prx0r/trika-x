@@ -182,7 +182,7 @@ whole point, and everything above is machinery in service of it.
 ```sh
 cd /root/trika-x  # DOCS.md §3 is the canonical gate list
 python3 -m unittest discover -s formal-trika/tests   # 107 green
-python3 formal-trika/tools/evidence_check.py          # 209/155+1, 16/154
+python3 formal-trika/tools/evidence_check.py          # 209/155+5ex(+1 gen), 16/154
 sh formal-trika/control/run.sh                        # 53 PASS (Lean 4.34.1)
 sh formal-trika/recognition/run.sh                    # 26 passed
 python3 tools/mcp_catalog.py --check                  # SHARP (115 tools)
