@@ -1236,6 +1236,24 @@
    "reviewer": null,
    "reason": "machine-proposed, unreviewed",
    "date": null
+  },
+  "AurobindoNotation.lean :: density_opens_at_overmind": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "AurobindoNotation.lean :: five_movements": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
+  },
+  "AurobindoNotation.lean :: kancuka_count_is_five": {
+   "tier": "Frontier",
+   "reviewer": null,
+   "reason": "machine-proposed, unreviewed",
+   "date": null
   }
  }
 }
