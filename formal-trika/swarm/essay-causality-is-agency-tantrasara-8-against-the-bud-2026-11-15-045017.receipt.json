@@ -1,0 +1,79 @@
+{
+ "format": "essaygen-receipt/1",
+ "essay": "essay-causality-is-agency-tantrasara-8-against-the-bud-2026-11-15-045017",
+ "date": "2026-11-15",
+ "status": "MACHINE-COMPILED",
+ "title": "Causality Is Agency: Tantrasara 8 Against the Buddhists",
+ "work": "tantrasara-a08",
+ "chunk": "tsa08-p01",
+ "verses_supplied": [
+  "tsa-a08-v01",
+  "tsa-a08-v02",
+  "tsa-a08-v03",
+  "tsa-a08-v04",
+  "tsa-a08-v05",
+  "tsa-a08-v06",
+  "tsa-a08-v07",
+  "tsa-a08-v08",
+  "tsa-a08-v09",
+  "tsa-a08-v10",
+  "tsa-a08-v11",
+  "tsa-a08-v12",
+  "tsa-a08-v13",
+  "tsa-a08-v14",
+  "tsa-a08-v15",
+  "tsa-a08-v16",
+  "tsa-a08-v17"
+ ],
+ "verses_cited": [
+  "tsa-a08-v01",
+  "tsa-a08-v02",
+  "tsa-a08-v03",
+  "tsa-a08-v04",
+  "tsa-a08-v05",
+  "tsa-a08-v06",
+  "tsa-a08-v07",
+  "tsa-a08-v08",
+  "tsa-a08-v09",
+  "tsa-a08-v10",
+  "tsa-a08-v11",
+  "tsa-a08-v12",
+  "tsa-a08-v13",
+  "tsa-a08-v14",
+  "tsa-a08-v15",
+  "tsa-a08-v16",
+  "tsa-a08-v17"
+ ],
+ "verse_citation_coverage": 1.0,
+ "model": "muse-spark-1.3-contributor",
+ "fallback_used": false,
+ "usage": {
+  "input_tokens": 10980,
+  "output_tokens": 13192,
+  "total_tokens": 24172,
+  "input_tokens_details": {
+   "cached_tokens": 0
+  },
+  "output_tokens_details": {
+   "reasoning_tokens": 10077
+  },
+  "cost": 0,
+  "opencode": {
+   "billing_source": "go",
+   "list_cost": 0.0037364,
+   "allowance": 0.0037364,
+   "tokens": {
+    "input": 10980,
+    "output": 13192,
+    "reasoning": 10077,
+    "cache_read": 0,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0
+   }
+  }
+ },
+ "prompt_sha256": "e9665ae382a960435bae530f07c741eb7b7fdd79d1bec400deefa1313434731c",
+ "ground_sha256": "c6a5662ded792ebb9165bc4d1bd171879e858aa61b29a237a21ee5ea0b1466c2",
+ "words": 1591,
+ "note": "grounded in retrieved argmap/L2/L3; prose machine-written; no human sign-off; witness UNPINNED"
+}

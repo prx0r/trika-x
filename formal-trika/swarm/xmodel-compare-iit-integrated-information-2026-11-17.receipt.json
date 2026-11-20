@@ -1,0 +1,58 @@
+{
+ "format": "trika-essay-receipt/1",
+ "essay": "xmodel-compare-iit-integrated-information-2026-11-17",
+ "date": "2026-11-17",
+ "frozen_claims": [
+  {
+   "id": "CLM-1",
+   "tier": "H",
+   "text": "On the formality axis: their account holds that a transition probability matrix and a measure of irreducibility (Phi); trika-x holds that inductive types and an enumerating check; no causal dynamics. This matters because trika-x cannot compute Phi: it has no transition system."
+  },
+  {
+   "id": "CLM-2",
+   "tier": "H",
+   "text": "On the self axis: their account holds that a maximally irreducible conceptual structure (a quale); trika-x holds that five typed capacity-restrictions, no qualia space. This matters because different objects: a quale vs a restriction table."
+  },
+  {
+   "id": "CLM-3",
+   "tier": "E",
+   "text": "Their formalisation is: Integrated Information Theory (Tononi et al.): consciousness is integrated information, Phi, over a causal system (IIT 3.0/4.0 as formulated in Sergeant-Perthuis et al., 'Integrated Information Theory (IIT) with Simple Maths' (HAL hal-04531404, 2024): Markov kernels, the cut (product of local kernels), phi as inf-over-cuts divergence, Phi as max/sum. Full definitional content verified 2026-11-17.). Recorded as published; not re-verified by this essay."
+  },
+  {
+   "id": "CLM-4",
+   "tier": "R",
+   "text": "Our side is anchored in machine-checked structures: Kancuka.lean :: pairings_distinct, Kancuka.lean :: count_5. Registry references are not source-to-theorem entailments."
+  },
+  {
+   "id": "CLM-5",
+   "tier": "H",
+   "text": "Obstruction: No causal graph and no irreducibility measure. Phi is defined over a system's transition probabilities; trika-x defines lists and a restricting function with no dynamics, so Phi is not merely uncomputed but undefined here."
+  },
+  {
+   "id": "CLM-S1",
+   "tier": "C",
+   "text": "Shared ground: structure matters more than substrate."
+  },
+  {
+   "id": "CLM-S2",
+   "tier": "C",
+   "text": "Shared ground: a non-redundant inventory is required."
+  },
+  {
+   "id": "CLM-W",
+   "tier": "H",
+   "text": "What it means: Trika-x cannot enter IIT's quantitative arena without a dynamics layer; any IIT comparison must be at the level of theoretical commitments, and say so."
+  }
+ ],
+ "theorems": [
+  {
+   "name": "Kancuka.lean :: pairings_distinct",
+   "tier": "UNVERIFIED"
+  },
+  {
+   "name": "Kancuka.lean :: count_5",
+   "tier": "UNVERIFIED"
+  }
+ ],
+ "note": "Frozen at compile time; a change to any claim text invalidates this receipt."
+}

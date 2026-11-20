@@ -1,0 +1,15 @@
+{
+ "format": "essay-revise-receipt/1",
+ "draft": "essay-causality-is-agency-tantrasara-8-against-the-bud-2026-11-15-054034.rev1.md",
+ "out": "essay-causality-is-agency-tantrasara-8-against-the-bud-2026-11-15-054034.rev1.rev2.md",
+ "date": "2026-11-15",
+ "model": "muse-spark-1.3-contributor",
+ "fallback_used": false,
+ "gaps_in": [
+  "sanskrit_quotes",
+  "author_claims"
+ ],
+ "prompt_sha256": "a5b6f05c705cc57587661f3810fb79a1e0c545c26a13f2b677d94f1318e4b620",
+ "words_out": 7565,
+ "status": "MACHINE-COMPILED"
+}

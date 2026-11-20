@@ -51,7 +51,7 @@ The verification battery, each fail-closed (BLOCKED/ERROR, never silent pass):
 | `essay_check.py` + tests | essay claims bind to ledger passages (span+digest+edition); duplicates/unsafe names refused | **14/14 tests; 6 essays, 0 BROKEN** |
 | `essay_derive.py` | is every essay derivable to Sanskrit? | **6 PARTIAL, 0 BROKEN** (honest: none fully derivable yet) |
 | `freshness.py --check` | every canonical number reproduces from its recorded command | **SHARP** |
-| `mcp_catalog.py --check` | live gateway matches the frozen catalog | **SHARP, 115 tools / 8 families** |
+| `mcp_catalog.py --check` | live gateway matches the frozen catalog | **SHARP, 124 tools / 8 families** |
 | `federation_pretest.py` | contract, prefixes, banned names | **GREEN (28)** |
 | Full suite | everything above plus unit coverage | **107 tests OK** |
 
@@ -185,7 +185,7 @@ python3 -m unittest discover -s formal-trika/tests   # 107 green
 python3 formal-trika/tools/evidence_check.py          # 209/155+5ex(+1 gen), 16/154
 sh formal-trika/control/run.sh                        # 53 PASS (Lean 4.34.1)
 sh formal-trika/recognition/run.sh                    # 26 passed
-python3 tools/mcp_catalog.py --check                  # SHARP (115 tools)
+python3 tools/mcp_catalog.py --check                  # SHARP (124 tools)
 python3 tools/bridge_e2e.py                           # 8/8 over HTTP
 ```
 

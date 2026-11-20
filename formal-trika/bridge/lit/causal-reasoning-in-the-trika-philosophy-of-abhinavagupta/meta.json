@@ -1,0 +1,48 @@
+{
+ "doi": "10.1007/978-81-322-2577-5_31",
+ "title": "Causal Reasoning in the Trika Philosophy of Abhinavagupta",
+ "authors": [
+  "Mrinal Kaul"
+ ],
+ "year": 2022,
+ "container": "Handbook of Logical Thought in India",
+ "publisher": "Springer India",
+ "url": "https://doi.org/10.1007/978-81-322-2577-5_31",
+ "rights": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2022,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2022-01-01T00:00:00Z",
+    "timestamp": 1640995200000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.springer.com/tdm"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2022,
+      1,
+      1
+     ]
+    ],
+    "date-time": "2022-01-01T00:00:00Z",
+    "timestamp": 1640995200000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://www.springer.com/tdm"
+  }
+ ],
+ "abstract": "",
+ "abstract_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+ "format": "svread-lit-source/1"
+}

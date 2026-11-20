@@ -1,0 +1,518 @@
+{
+  "format": "essay-gold-structure/1",
+  "note": "FORM only. Roles are heuristic; read them against the text.",
+  "title": "Causal Reasoning in the Trika Philosophy of Abhinavagupta",
+  "totals": {
+    "words": 15452,
+    "paragraphs": 56,
+    "citations_parenthetical": 13,
+    "citations_narrative": 59,
+    "verse_refs": 59,
+    "sanskrit_quotes_versified": 25,
+    "objection_moves": 40,
+    "reply_moves": 48,
+    "inference_markers": 211,
+    "author_claims": 4,
+    "questions": 35,
+    "sections": 15,
+    "words_per_section": 1030.1
+  },
+  "sections": [
+    {
+      "title": "Abstract",
+      "role": "abstract",
+      "start_line": 19,
+      "end_line": 51,
+      "features": {
+        "paragraphs": 5,
+        "words": 253,
+        "sentences": 13,
+        "questions": 0,
+        "citations_parenthetical": 0,
+        "citations_narrative": 0,
+        "verse_refs": 0,
+        "sanskrit_quotes_versified": 0,
+        "diacritic_words": 11,
+        "diacritic_density": 0.0435,
+        "objection_moves": 1,
+        "reply_moves": 0,
+        "inference_markers": 1,
+        "author_claims": 1,
+        "hedges": 0
+      },
+      "paragraph_roles": {
+        "exposition": 4,
+        "objection": 1
+      }
+    },
+    {
+      "title": "Keywords",
+      "role": "keywords",
+      "start_line": 51,
+      "end_line": 55,
+      "features": {
+        "paragraphs": 1,
+        "words": 10,
+        "sentences": 1,
+        "questions": 0,
+        "citations_parenthetical": 0,
+        "citations_narrative": 0,
+        "verse_refs": 0,
+        "sanskrit_quotes_versified": 0,
+        "diacritic_words": 4,
+        "diacritic_density": 0.4,
+        "objection_moves": 0,
+        "reply_moves": 0,
+        "inference_markers": 0,
+        "author_claims": 0,
+        "hedges": 0
+      },
+      "paragraph_roles": {
+        "exposition": 1
+      }
+    },
+    {
+      "title": "Abbreviation",
+      "role": "abbreviations",
+      "start_line": 55,
+      "end_line": 79,
+      "features": {
+        "paragraphs": 1,
+        "words": 54,
+        "sentences": 4,
+        "questions": 0,
+        "citations_parenthetical": 0,
+        "citations_narrative": 0,
+        "verse_refs": 0,
+        "sanskrit_quotes_versified": 0,
+        "diacritic_words": 31,
+        "diacritic_density": 0.5741,
+        "objection_moves": 0,
+        "reply_moves": 0,
+        "inference_markers": 0,
+        "author_claims": 0,
+        "hedges": 0
+      },
+      "paragraph_roles": {
+        "exposition": 1
+      }
+    },
+    {
+      "title": "Introduction",
+      "role": "introduction",
+      "start_line": 79,
+      "end_line": 171,
+      "features": {
+        "paragraphs": 4,
+        "words": 1057,
+        "sentences": 42,
+        "questions": 15,
+        "citations_parenthetical": 0,
+        "citations_narrative": 4,
+        "verse_refs": 0,
+        "sanskrit_quotes_versified": 0,
+        "diacritic_words": 33,
+        "diacritic_density": 0.0312,
+        "objection_moves": 1,
+        "reply_moves": 1,
+        "inference_markers": 14,
+        "author_claims": 0,
+        "hedges": 5
+      },
+      "paragraph_roles": {
+        "cited-context": 1,
+        "exposition": 1,
+        "inference/reply": 1,
+        "objection": 1
+      }
+    },
+    {
+      "title": "Historical Context",
+      "role": "history",
+      "start_line": 171,
+      "end_line": 286,
+      "features": {
+        "paragraphs": 4,
+        "words": 1276,
+        "sentences": 46,
+        "questions": 0,
+        "citations_parenthetical": 1,
+        "citations_narrative": 27,
+        "verse_refs": 4,
+        "sanskrit_quotes_versified": 0,
+        "diacritic_words": 117,
+        "diacritic_density": 0.0917,
+        "objection_moves": 1,
+        "reply_moves": 6,
+        "inference_markers": 6,
+        "author_claims": 0,
+        "hedges": 1
+      },
+      "paragraph_roles": {
+        "cited-context": 1,
+        "exposition": 1,
+        "inference/reply": 1,
+        "objection+reply": 1
+      }
+    },
+    {
+      "title": "Philosophical Rationalization of Tantric Sources",
+      "role": "method",
+      "start_line": 286,
+      "end_line": 518,
+      "features": {
+        "paragraphs": 8,
+        "words": 2755,
+        "sentences": 95,
+        "questions": 8,
+        "citations_parenthetical": 2,
+        "citations_narrative": 17,
+        "verse_refs": 9,
+        "sanskrit_quotes_versified": 2,
+        "diacritic_words": 177,
+        "diacritic_density": 0.0642,
+        "objection_moves": 6,
+        "reply_moves": 7,
+        "inference_markers": 37,
+        "author_claims": 1,
+        "hedges": 2
+      },
+      "paragraph_roles": {
+        "cited-context": 2,
+        "exposition": 2,
+        "inference/reply": 1,
+        "objection": 1,
+        "objection+reply": 2
+      }
+    },
+    {
+      "title": "Encountering Buddhists",
+      "role": "interlocutor",
+      "start_line": 518,
+      "end_line": 689,
+      "features": {
+        "paragraphs": 7,
+        "words": 2107,
+        "sentences": 71,
+        "questions": 3,
+        "citations_parenthetical": 4,
+        "citations_narrative": 1,
+        "verse_refs": 10,
+        "sanskrit_quotes_versified": 2,
+        "diacritic_words": 94,
+        "diacritic_density": 0.0446,
+        "objection_moves": 8,
+        "reply_moves": 8,
+        "inference_markers": 43,
+        "author_claims": 1,
+        "hedges": 3
+      },
+      "paragraph_roles": {
+        "exposition": 2,
+        "objection": 3,
+        "objection+reply": 2
+      }
+    },
+    {
+      "title": "The Seed and the Sprout",
+      "role": "argument",
+      "start_line": 689,
+      "end_line": 827,
+      "features": {
+        "paragraphs": 6,
+        "words": 1680,
+        "sentences": 80,
+        "questions": 3,
+        "citations_parenthetical": 2,
+        "citations_narrative": 2,
+        "verse_refs": 13,
+        "sanskrit_quotes_versified": 6,
+        "diacritic_words": 90,
+        "diacritic_density": 0.0536,
+        "objection_moves": 11,
+        "reply_moves": 13,
+        "inference_markers": 37,
+        "author_claims": 0,
+        "hedges": 11
+      },
+      "paragraph_roles": {
+        "exposition": 2,
+        "objection": 1,
+        "objection+reply": 3
+      }
+    },
+    {
+      "title": "Meditator’s Desire as Cause",
+      "role": "case",
+      "start_line": 827,
+      "end_line": 917,
+      "features": {
+        "paragraphs": 3,
+        "words": 1188,
+        "sentences": 48,
+        "questions": 3,
+        "citations_parenthetical": 0,
+        "citations_narrative": 2,
+        "verse_refs": 10,
+        "sanskrit_quotes_versified": 7,
+        "diacritic_words": 81,
+        "diacritic_density": 0.0682,
+        "objection_moves": 2,
+        "reply_moves": 1,
+        "inference_markers": 18,
+        "author_claims": 0,
+        "hedges": 2
+      },
+      "paragraph_roles": {
+        "exposition": 1,
+        "inference/reply": 1,
+        "objection": 1
+      }
+    },
+    {
+      "title": "Complex Causality of Totality Factor",
+      "role": "argument",
+      "start_line": 917,
+      "end_line": 1043,
+      "features": {
+        "paragraphs": 4,
+        "words": 1573,
+        "sentences": 63,
+        "questions": 1,
+        "citations_parenthetical": 1,
+        "citations_narrative": 4,
+        "verse_refs": 7,
+        "sanskrit_quotes_versified": 4,
+        "diacritic_words": 79,
+        "diacritic_density": 0.0502,
+        "objection_moves": 7,
+        "reply_moves": 9,
+        "inference_markers": 44,
+        "author_claims": 0,
+        "hedges": 5
+      },
+      "paragraph_roles": {
+        "exposition": 1,
+        "objection+reply": 3
+      }
+    },
+    {
+      "title": "Śiva as the Perfect Agent and His Autonomous Agency",
+      "role": "thesis",
+      "start_line": 1043,
+      "end_line": 1094,
+      "features": {
+        "paragraphs": 2,
+        "words": 614,
+        "sentences": 24,
+        "questions": 0,
+        "citations_parenthetical": 0,
+        "citations_narrative": 0,
+        "verse_refs": 6,
+        "sanskrit_quotes_versified": 4,
+        "diacritic_words": 63,
+        "diacritic_density": 0.1026,
+        "objection_moves": 2,
+        "reply_moves": 2,
+        "inference_markers": 9,
+        "author_claims": 0,
+        "hedges": 0
+      },
+      "paragraph_roles": {
+        "objection": 1,
+        "objection+reply": 1
+      }
+    },
+    {
+      "title": "Conclusion",
+      "role": "conclusion",
+      "start_line": 1094,
+      "end_line": 1145,
+      "features": {
+        "paragraphs": 3,
+        "words": 538,
+        "sentences": 16,
+        "questions": 0,
+        "citations_parenthetical": 0,
+        "citations_narrative": 1,
+        "verse_refs": 0,
+        "sanskrit_quotes_versified": 0,
+        "diacritic_words": 18,
+        "diacritic_density": 0.0335,
+        "objection_moves": 0,
+        "reply_moves": 1,
+        "inference_markers": 2,
+        "author_claims": 1,
+        "hedges": 2
+      },
+      "paragraph_roles": {
+        "author-thesis": 1,
+        "exposition": 1,
+        "inference/reply": 1
+      }
+    },
+    {
+      "title": "References",
+      "role": "references",
+      "start_line": 1145,
+      "end_line": 1147,
+      "features": {
+        "paragraphs": 0,
+        "words": 0,
+        "sentences": 0,
+        "questions": 0,
+        "citations_parenthetical": 0,
+        "citations_narrative": 0,
+        "verse_refs": 0,
+        "sanskrit_quotes_versified": 0,
+        "diacritic_words": 0,
+        "diacritic_density": 0,
+        "objection_moves": 0,
+        "reply_moves": 0,
+        "inference_markers": 0,
+        "author_claims": 0,
+        "hedges": 0
+      },
+      "paragraph_roles": {}
+    },
+    {
+      "title": "Primary Sources",
+      "role": "references",
+      "start_line": 1147,
+      "end_line": 1175,
+      "features": {
+        "paragraphs": 2,
+        "words": 226,
+        "sentences": 24,
+        "questions": 0,
+        "citations_parenthetical": 0,
+        "citations_narrative": 1,
+        "verse_refs": 0,
+        "sanskrit_quotes_versified": 0,
+        "diacritic_words": 50,
+        "diacritic_density": 0.2212,
+        "objection_moves": 0,
+        "reply_moves": 0,
+        "inference_markers": 0,
+        "author_claims": 0,
+        "hedges": 0
+      },
+      "paragraph_roles": {
+        "cited-context": 1,
+        "exposition": 1
+      }
+    },
+    {
+      "title": "Secondary Sources",
+      "role": "references",
+      "start_line": 1175,
+      "end_line": 1379,
+      "features": {
+        "paragraphs": 6,
+        "words": 2121,
+        "sentences": 443,
+        "questions": 2,
+        "citations_parenthetical": 3,
+        "citations_narrative": 0,
+        "verse_refs": 0,
+        "sanskrit_quotes_versified": 0,
+        "diacritic_words": 136,
+        "diacritic_density": 0.0641,
+        "objection_moves": 1,
+        "reply_moves": 0,
+        "inference_markers": 0,
+        "author_claims": 0,
+        "hedges": 0
+      },
+      "paragraph_roles": {
+        "cited-context": 1,
+        "exposition": 4,
+        "objection": 1
+      }
+    }
+  ],
+  "skeleton": [
+    {
+      "role": "introduction",
+      "title": "Introduction",
+      "words": 1057
+    },
+    {
+      "role": "history",
+      "title": "Historical Context",
+      "words": 1276
+    },
+    {
+      "role": "method",
+      "title": "Philosophical Rationalization of Tantric Sources",
+      "words": 2755
+    },
+    {
+      "role": "interlocutor",
+      "title": "Encountering Buddhists",
+      "words": 2107
+    },
+    {
+      "role": "argument",
+      "title": "The Seed and the Sprout",
+      "words": 1680
+    },
+    {
+      "role": "case",
+      "title": "Meditator’s Desire as Cause",
+      "words": 1188
+    },
+    {
+      "role": "argument",
+      "title": "Complex Causality of Totality Factor",
+      "words": 1573
+    },
+    {
+      "role": "thesis",
+      "title": "Śiva as the Perfect Agent and His Autonomous Agency",
+      "words": 614
+    },
+    {
+      "role": "conclusion",
+      "title": "Conclusion",
+      "words": 538
+    }
+  ],
+  "move_vocabulary": {
+    "objection": [
+      "argue that",
+      "argues saying",
+      "if causality is not mere succession, then",
+      "if it be existence, as the sāṅkhya maintains, what is then",
+      "if it does not, how can it then",
+      "if not, then",
+      "if that is so, then",
+      "if that is the case, then",
+      "if the cause and effect is seed and sprout then",
+      "if the nature of cause and effect is ﬁrst seed and then sprout, then",
+      "if there is plurality of causes, then",
+      "if you say so, let it be. then",
+      "object",
+      "objection",
+      "objects",
+      "one might say",
+      "opponent",
+      "the buddhists say"
+    ],
+    "reply": [
+      "abhinavagupta maintains",
+      "abhinavagupta says",
+      "hence",
+      "it follows",
+      "jayaratha adds",
+      "jayaratha asks",
+      "jayaratha says",
+      "jayaratha tells",
+      "so we are forced",
+      "the conclusion",
+      "therefore",
+      "thus",
+      "we reply"
+    ]
+  }
+}
