@@ -101,7 +101,7 @@ Quota/GPU: propose-loop continuous run, tau scale-up, COMET baselines.
 ```sh
 cd /root/trika-x && git status --short          # must be clean to start work
 python3 -m unittest discover -s formal-trika/tests   # 128 green (2026-11-14)
-python3 formal-trika/tools/evidence_check.py     # 209 theorems / 155 entries (+1 generated cert), 16/154 chunks (10%)
+python3 formal-trika/tools/evidence_check.py     # 209 theorems / 155 entries / 5 exemptions (+1 generated cert), 16/154 chunks (10%)
 python3 formal-trika/tools/table.py --check      # rc=0
 python3 formal-trika/tools/freshness.py --check  # SHARP
 python3 tools/federation_pretest.py              # GREEN (28 expected tools)

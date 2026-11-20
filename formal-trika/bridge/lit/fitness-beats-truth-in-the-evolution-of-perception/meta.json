@@ -1,0 +1,52 @@
+{
+ "doi": "10.1007/s10441-020-09400-0",
+ "title": "Fitness Beats Truth in the Evolution of Perception",
+ "authors": [
+  "Chetan Prakash",
+  "Kyle D. Stephens",
+  "Donald D. Hoffman",
+  "Manish Singh",
+  "Chris Fields"
+ ],
+ "year": 2021,
+ "container": "Acta Biotheoretica",
+ "publisher": "Springer Science and Business Media LLC",
+ "url": "https://doi.org/10.1007/s10441-020-09400-0",
+ "rights": [
+  {
+   "start": {
+    "date-parts": [
+     [
+      2020,
+      11,
+      24
+     ]
+    ],
+    "date-time": "2020-11-24T00:00:00Z",
+    "timestamp": 1606176000000
+   },
+   "content-version": "tdm",
+   "delay-in-days": 0,
+   "URL": "https://www.springer.com/tdm"
+  },
+  {
+   "start": {
+    "date-parts": [
+     [
+      2020,
+      11,
+      24
+     ]
+    ],
+    "date-time": "2020-11-24T00:00:00Z",
+    "timestamp": 1606176000000
+   },
+   "content-version": "vor",
+   "delay-in-days": 0,
+   "URL": "https://www.springer.com/tdm"
+  }
+ ],
+ "abstract": "",
+ "abstract_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+ "format": "svread-lit-source/1"
+}

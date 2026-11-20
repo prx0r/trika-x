@@ -1,0 +1,80 @@
+{
+ "format": "essay-score/1",
+ "metrics": {
+  "words": 2102,
+  "sections": 12,
+  "unique_verses": 38,
+  "sanskrit_quotes": 0,
+  "objection_moves": 20,
+  "reply_moves": 12,
+  "questions": 46,
+  "author_claims": 9,
+  "secondary_citations": 15,
+  "has_literature_section": true,
+  "has_desideratum": true
+ },
+ "checks": {
+  "words": {
+   "value": 2102,
+   "target": 4000,
+   "pass": false
+  },
+  "sections": {
+   "value": 12,
+   "target": 9,
+   "pass": true
+  },
+  "unique_verses": {
+   "value": 38,
+   "target": 22,
+   "pass": true
+  },
+  "sanskrit_quotes": {
+   "value": 0,
+   "target": 14,
+   "pass": false
+  },
+  "objection_moves": {
+   "value": 20,
+   "target": 18,
+   "pass": true
+  },
+  "reply_moves": {
+   "value": 12,
+   "target": 20,
+   "pass": false
+  },
+  "questions": {
+   "value": 46,
+   "target": 10,
+   "pass": true
+  },
+  "author_claims": {
+   "value": 9,
+   "target": 3,
+   "pass": true
+  },
+  "secondary_citations": {
+   "value": 15,
+   "target": 8,
+   "pass": true
+  },
+  "has_literature_section": {
+   "value": true,
+   "target": true,
+   "pass": true
+  },
+  "has_desideratum": {
+   "value": true,
+   "target": true,
+   "pass": true
+  }
+ },
+ "gaps": [
+  "words",
+  "sanskrit_quotes",
+  "reply_moves"
+ ],
+ "pass_count": 8,
+ "total": 11
+}

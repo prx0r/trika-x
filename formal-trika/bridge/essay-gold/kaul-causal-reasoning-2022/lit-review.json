@@ -1,0 +1,294 @@
+{
+ "format": "svread-lit-review/1",
+ "seed": "Kaul 2022",
+ "note": "Attribution is second-hand. The essay must say 'via seed'.",
+ "count": 25,
+ "groups": {
+  "causality": [
+   {
+    "citation": "Dasgupta 2004",
+    "author": "Dasgupta",
+    "year": "2004",
+    "pages": [
+     "84",
+     "345",
+     "330",
+     "165"
+    ],
+    "topic": "causality",
+    "claim": "Utpaladeva and Abhinavagupta in the ĪPK 2.4.14 and the TĀ 9.11ab, respec- tively, attack the Buddhist theory of dependent origination (pratī tyasamutpāda) that believes “that the phenomena are happening in a series and we see that there being certain phenomena there becomes some others” (Dasgupta 2004: 84ff).",
+    "claim_count": 3
+   },
+   {
+    "citation": "Kaul 2018",
+    "author": "Kaul",
+    "year": "2018",
+    "pages": [
+     "257"
+    ],
+    "topic": "causality",
+    "claim": "This makes it clear that each successive lower tattva exists in and draws its sustenance from the successive higher tattvas which are also its material cause (for a discussion on the tattvas in the TĀ, see Kaul 2018).",
+    "claim_count": 3
+   },
+   {
+    "citation": "Rastogi 2006",
+    "author": "Rastogi",
+    "year": "2006",
+    "pages": [],
+    "topic": "causality",
+    "claim": "If one should follow the interpretation of Navjivan Rastogi (2006: VII), then the concept of cause manifests fully in the Śaiva notion of agent on the one hand, and, on the other hand, the effect is understood as nothing but the agency or functioning of the potential agent.",
+    "claim_count": 2
+   },
+   {
+    "citation": "Allen 2003",
+    "author": "Allen",
+    "year": "2003",
+    "pages": [],
+    "topic": "causality",
+    "claim": "An example of Abhinavagupta’s philosophical rationalization of Trika rituals and scriptural doctrines is his treatment of the theory of causality (kāryakāraṇabhāva) before dealing with the description of the ontic realities (tattvas) and their mutual relationship in book nine of the TĀ (9.1–44) (for more on this, see Allen 2003).",
+    "claim_count": 1
+   }
+  ],
+  "context": [
+   {
+    "citation": "Lawrence 2000",
+    "author": "Lawrence",
+    "year": "2000",
+    "pages": [
+     "17–18",
+     "50–51",
+     "147"
+    ],
+    "topic": "context",
+    "claim": "Particularly Abhinavagupta is engaged in providing critical philosophical structure to the teachings of the Trika scriptures (see Lawrence 2000: 17–18).",
+    "claim_count": 3
+   },
+   {
+    "citation": "Matilal 1998",
+    "author": "Matilal",
+    "year": "1998",
+    "pages": [
+     "44–54",
+     "38–43",
+     "98–107",
+     "90–94"
+    ],
+    "topic": "context",
+    "claim": "The Nyāya-sūtra, while putting forth the theory of debate, distinguishes between the good debate that is based on reasoning (vāda) and the bad form of debate that is based on “wrangling” (vitaṇḍā) (see Matilal 1998: 44–54).",
+    "claim_count": 3
+   },
+   {
+    "citation": "Pandey 1963",
+    "author": "Pandey",
+    "year": "1963",
+    "pages": [
+     "292",
+     "294",
+     "435–436"
+    ],
+    "topic": "context",
+    "claim": "Also see Pandey 1963: 292; Singh (PTv) 1988: 83).",
+    "claim_count": 3
+   },
+   {
+    "citation": "Rastogi 2012",
+    "author": "Rastogi",
+    "year": "2012",
+    "pages": [
+     "94",
+     "150–151",
+     "158"
+    ],
+    "topic": "context",
+    "claim": "However, moving away from this tradition, Abhinavagupta categorizes the Trika paddhatis after the idea of means (upāyas) (see Rastogi 2012: 94).",
+    "claim_count": 3
+   },
+   {
+    "citation": "Acharya 2014",
+    "author": "Acharya",
+    "year": "2014",
+    "pages": [],
+    "topic": "context",
+    "claim": "Thus the concept of mala that does not allow the complete manifestation of knowledge essentially refers to the incompleteness of knowledge and not not-knowledge (on the Śaiva concept of mala or impurity, see Acharya 2014).",
+    "claim_count": 1
+   },
+   {
+    "citation": "Allen 2011",
+    "author": "Allen",
+    "year": "2011",
+    "pages": [],
+    "topic": "context",
+    "claim": "Abhinava bases his discussion on the refutation of the position of the Mīmāṃsakas, establishing that “knowability” (vedyatā) is an essential nature of an object (see Allen 2011 whose thesis is precisely based on the study of TĀ 10.19–97).",
+    "claim_count": 1
+   },
+   {
+    "citation": "Brunner 1992",
+    "author": "Brunner",
+    "year": "1992",
+    "pages": [],
+    "topic": "context",
+    "claim": "In the earlier Tantric scriptures, the means of doing away with the mala was usually said to be knowledge ( jñāna), Yogic practices (yoga), ritual (kriyā), and observances (caryā) (see Brunner 1992).",
+    "claim_count": 1
+   }
+  ],
+  "history": [
+   {
+    "citation": "Sanderson 1988",
+    "author": "Sanderson",
+    "year": "1988",
+    "pages": [
+     "667",
+     "690",
+     "673",
+     "692"
+    ],
+    "topic": "history",
+    "claim": "Alongside the other major branches of this tradition, viz., Siddhānta, Krama, and others, Trika Śaivism emerged in the middle of the ninth century as a major post-scriptural ritual system of the Mantramārga (for Mantramārga see Sanderson 1988: 667.",
+    "claim_count": 3
+   },
+   {
+    "citation": "Sanderson 2007a",
+    "author": "Sanderson",
+    "year": "2007a",
+    "pages": [
+     "370–371",
+     "250",
+     "402",
+     "372",
+     "374"
+    ],
+    "topic": "history",
+    "claim": "Historical Context Kashmir possessed vibrant Tantric Śaiva traditions up through at least the thirteenth century of the common era (see Sanderson 2007a, 2009).",
+    "claim_count": 3
+   },
+   {
+    "citation": "Watson 2006",
+    "author": "Watson",
+    "year": "2006",
+    "pages": [
+     "388",
+     "92–103"
+    ],
+    "topic": "history",
+    "claim": "Like Abhinavagupta, he too was a master of creative reuse (see Watson 2006: 388).",
+    "claim_count": 3
+   },
+   {
+    "citation": "Kaul 2019",
+    "author": "Kaul",
+    "year": "2019",
+    "pages": [],
+    "topic": "history",
+    "claim": "Following exactly the lines of argument discussed above, Abhinavagupta offers an analytical account of the theory of reﬂection (pratibimbavāda) (TĀ 3.1–65) in book three of the TĀ before discussing the doctrine of phonemic emanation (parāmarśodayakrama) (see Kaul 2019).",
+    "claim_count": 2
+   },
+   {
+    "citation": "Bombay 1922",
+    "author": "Bombay",
+    "year": "1922",
+    "pages": [],
+    "topic": "history",
+    "claim": "Mālinī vijayottaratantra, edited by Paṇḍit Madhusūdan Kaul Shāstrī, KSTS 37, Bombay 1922.",
+    "claim_count": 1
+   },
+   {
+    "citation": "Dwivedi 2000",
+    "author": "Dwivedi",
+    "year": "2000",
+    "pages": [
+     "310"
+    ],
+    "topic": "history",
+    "claim": "Thus they attacked the perceived ritualism of their Śaiva Siddhānta contemporaries, who adhered to doctrinal dualism (see Sanderson 1988: 692; Dwivedi 2000: 310ff).",
+    "claim_count": 1
+   },
+   {
+    "citation": "Dwivedi 2001",
+    "author": "Dwivedi",
+    "year": "2001",
+    "pages": [
+     "539"
+    ],
+    "topic": "history",
+    "claim": "See also Sanderson 2007a: 370–371; Dwivedi 2001: 539ff).",
+    "claim_count": 1
+   },
+   {
+    "citation": "Dyczkowski 1987",
+    "author": "Dyczkowski",
+    "year": "1987",
+    "pages": [],
+    "topic": "history",
+    "claim": "The basis of this non-dualistic tradition mainly represented by Abhinavagupta was rooted in the teachings of the Śivasūtra (ŚS) (see Singh 1979; Dyczkowski 1992b; Sanderson 2007a: 402ff) that was further elaborated in the works belonging to the Philosophy of Vibration (Spandaśāstra) (see Dyczkowski 1987, 1992a; Singh 1980; Gurtu 1981).",
+    "claim_count": 1
+   }
+  ],
+  "recognition": [
+   {
+    "citation": "Torella 2002",
+    "author": "Torella",
+    "year": "2002",
+    "pages": [
+     "93",
+     "183"
+    ],
+    "topic": "recognition",
+    "claim": "900– 950 CE) (see Nemec 2011) was beginning to formulate an analytical structure for such teachings (see Torella 2002: XIII).",
+    "claim_count": 3
+   }
+  ],
+  "buddhism": [
+   {
+    "citation": "Rastogi 2013",
+    "author": "Rastogi",
+    "year": "2013",
+    "pages": [
+     "4–5",
+     "141–196"
+    ],
+    "topic": "buddhism",
+    "claim": "His celebrated predecessors like Utpaladeva himself, as also suggested by Rastogi, were inﬂuenced by Bhartṛhari’s dynamism of consciousness, Sāṃkhya’s ontology, the epistemology of Nyāya-Vaiśeṣika (particularly the ideas related to inferential cognition), the pramātṛ notions from the Siddhānta, and pramāṇa ideas of the Vijñānavāda (see Rastogi 2013: 4–5).",
+    "claim_count": 2
+   }
+  ],
+  "philology": [
+   {
+    "citation": "Torella 2017",
+    "author": "Torella",
+    "year": "2017",
+    "pages": [],
+    "topic": "philology",
+    "claim": "Also see Ratié 2013, 2017b; Torella 2017).",
+    "claim_count": 2
+   },
+   {
+    "citation": "Bombay 1918",
+    "author": "Bombay",
+    "year": "1918",
+    "pages": [],
+    "topic": "philology",
+    "claim": "I¯śvarapratyabhijñāvimarśinī of Abhinavagupta, edited by Paṇḍit Mukunda Rama Shāstrī and Paṇḍit Madhusūdan Kaul Shāstrī, KSTS 22, 33, Bombay 1918, 1921.",
+    "claim_count": 1
+   },
+   {
+    "citation": "Bombay 1938",
+    "author": "Bombay",
+    "year": "1938",
+    "pages": [],
+    "topic": "philology",
+    "claim": "I¯śvarapratyabhijñāvivṛtivimarśinī of Abhinavagupta, edited by Paṇḍit Madhusūdan Kaul Shāstrī, KSTS 60, 62, 65, Bombay 1938–1943.",
+    "claim_count": 1
+   },
+   {
+    "citation": "Chaturvedi 2002",
+    "author": "Chaturvedi",
+    "year": "2002",
+    "pages": [],
+    "topic": "philology",
+    "claim": "Readers may also consult the translations by Gnoli (1999) into Italian and both Miśra (1994) and Chaturvedi (2002) into Hindi.",
+    "claim_count": 1
+   }
+  ]
+ },
+ "prompt_block": "SECONDARY SCHOLARSHIP (claims as reported by Kaul 2022; cite as [Author Year, via Kaul 2022]; do not invent what they say)\n\n[buddhism]\n- Rastogi 2013:4–5 — His celebrated predecessors like Utpaladeva himself, as also suggested by Rastogi, were inﬂuenced by Bhartṛhari’s dynamism of consciousness, Sāṃkhya’s ontology, the epistemology of Nyāya-Vaiśeṣika (particularly the ideas related to inferential cognition), the pramātṛ notions from the Siddhānta, and pramāṇa ideas of the Vijñānavāda (see Rastogi 2013: 4–5).\n\n[causality]\n- Dasgupta 2004:84 — Utpaladeva and Abhinavagupta in the ĪPK 2.4.14 and the TĀ 9.11ab, respec- tively, attack the Buddhist theory of dependent origination (pratī tyasamutpāda) that believes “that the phenomena are happening in a series and we see that there being certain phenomena there becomes some others” (Dasgupta 2004: 84ff).\n- Kaul 2018:257 — This makes it clear that each successive lower tattva exists in and draws its sustenance from the successive higher tattvas which are also its material cause (for a discussion on the tattvas in the TĀ, see Kaul 2018).\n- Rastogi 2006 — If one should follow the interpretation of Navjivan Rastogi (2006: VII), then the concept of cause manifests fully in the Śaiva notion of agent on the one hand, and, on the other hand, the effect is understood as nothing but the agency or functioning of the potential agent.\n- Allen 2003 — An example of Abhinavagupta’s philosophical rationalization of Trika rituals and scriptural doctrines is his treatment of the theory of causality (kāryakāraṇabhāva) before dealing with the description of the ontic realities (tattvas) and their mutual relationship in book nine of the TĀ (9.1–44) (for more on this, see Allen 2003).\n\n[context]\n- Lawrence 2000:17–18 — Particularly Abhinavagupta is engaged in providing critical philosophical structure to the teachings of the Trika scriptures (see Lawrence 2000: 17–18).\n- Matilal 1998:44–54 — The Nyāya-sūtra, while putting forth the theory of debate, distinguishes between the good debate that is based on reasoning (vāda) and the bad form of debate that is based on “wrangling” (vitaṇḍā) (see Matilal 1998: 44–54).\n- Pandey 1963:292 — Also see Pandey 1963: 292; Singh (PTv) 1988: 83).\n- Rastogi 2012:94 — However, moving away from this tradition, Abhinavagupta categorizes the Trika paddhatis after the idea of means (upāyas) (see Rastogi 2012: 94).\n- Acharya 2014 — Thus the concept of mala that does not allow the complete manifestation of knowledge essentially refers to the incompleteness of knowledge and not not-knowledge (on the Śaiva concept of mala or impurity, see Acharya 2014).\n- Allen 2011 — Abhinava bases his discussion on the refutation of the position of the Mīmāṃsakas, establishing that “knowability” (vedyatā) is an essential nature of an object (see Allen 2011 whose thesis is precisely based on the study of TĀ 10.19–97).\n- Brunner 1992 — In the earlier Tantric scriptures, the means of doing away with the mala was usually said to be knowledge ( jñāna), Yogic practices (yoga), ritual (kriyā), and observances (caryā) (see Brunner 1992).\n\n[history]\n- Sanderson 1988:667 — Alongside the other major branches of this tradition, viz., Siddhānta, Krama, and others, Trika Śaivism emerged in the middle of the ninth century as a major post-scriptural ritual system of the Mantramārga (for Mantramārga see Sanderson 1988: 667.\n- Sanderson 2007a:370–371 — Historical Context Kashmir possessed vibrant Tantric Śaiva traditions up through at least the thirteenth century of the common era (see Sanderson 2007a, 2009).\n- Watson 2006:388 — Like Abhinavagupta, he too was a master of creative reuse (see Watson 2006: 388).\n- Kaul 2019 — Following exactly the lines of argument discussed above, Abhinavagupta offers an analytical account of the theory of reﬂection (pratibimbavāda) (TĀ 3.1–65) in book three of the TĀ before discussing the doctrine of phonemic emanation (parāmarśodayakrama) (see Kaul 2019).\n- Bombay 1922 — Mālinī vijayottaratantra, edited by Paṇḍit Madhusūdan Kaul Shāstrī, KSTS 37, Bombay 1922.\n- Dwivedi 2000:310 — Thus they attacked the perceived ritualism of their Śaiva Siddhānta contemporaries, who adhered to doctrinal dualism (see Sanderson 1988: 692; Dwivedi 2000: 310ff).\n- Dwivedi 2001:539 — See also Sanderson 2007a: 370–371; Dwivedi 2001: 539ff).\n- Dyczkowski 1987 — The basis of this non-dualistic tradition mainly represented by Abhinavagupta was rooted in the teachings of the Śivasūtra (ŚS) (see Singh 1979; Dyczkowski 1992b; Sanderson 2007a: 402ff) that was further elaborated in the works belonging to the Philosophy of Vibration (Spandaśāstra) (see Dyczkowski 1987, 1992a; Singh 1980; Gurtu 1981).\n\n[philology]\n- Torella 2017 — Also see Ratié 2013, 2017b; Torella 2017).\n- Bombay 1918 — I¯śvarapratyabhijñāvimarśinī of Abhinavagupta, edited by Paṇḍit Mukunda Rama Shāstrī and Paṇḍit Madhusūdan Kaul Shāstrī, KSTS 22, 33, Bombay 1918, 1921.\n- Bombay 1938 — I¯śvarapratyabhijñāvivṛtivimarśinī of Abhinavagupta, edited by Paṇḍit Madhusūdan Kaul Shāstrī, KSTS 60, 62, 65, Bombay 1938–1943.\n- Chaturvedi 2002 — Readers may also consult the translations by Gnoli (1999) into Italian and both Miśra (1994) and Chaturvedi (2002) into Hindi.\n\n[recognition]\n- Torella 2002:93 — 900– 950 CE) (see Nemec 2011) was beginning to formulate an analytical structure for such teachings (see Torella 2002: XIII)."
+}

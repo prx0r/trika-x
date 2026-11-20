@@ -1,0 +1,48 @@
+{
+  "format": "essay-gold-provenance/1",
+  "id": "kaul-causal-reasoning-2022",
+  "kind": "gold-standard-essay",
+  "title": "Causal Reasoning in the Trika Philosophy of Abhinavagupta",
+  "author": "Mrinal Kaul",
+  "affiliation": "Department of Humanities and Social Sciences (HSS), IIT Bombay",
+  "published_in": "Handbook of Logical Thought in India",
+  "editors": ["Sundar Sarukkai", "Mihir Kumar Chakraborty"],
+  "publisher": "Springer Nature India Private Limited",
+  "year": 2022,
+  "pages": "227-250",
+  "doi": "10.1007/978-81-322-2577-5_31",
+  "isbn_doi": "10.1007/978-81-322-2577-5_31",
+  "language": "en",
+  "subject": "Trika Saivism / Pratyabhijna philosophy of causality",
+  "source": {
+    "r2_bucket": "ayoutube",
+    "r2_key": "Causal_Reasoning_in_the_Trika_Philosophy.pdf",
+    "r2_etag": "288b006901f997f04b35de8c7dce2be6",
+    "uploaded": "2026-11-15T04:13:11Z",
+    "bytes": 282760
+  },
+  "artifacts": {
+    "paper.pdf": {
+      "sha256": "ac820a16f187811f6d3ad0ae294b7a458f5000b9f60e2ff9e448b4afa2e5fa3b",
+      "bytes": 282760
+    },
+    "paper.txt": {
+      "sha256": "2d9e8b8a6c2c7108d1dda459e409a61142855728255e3ee49df3eaa376df344f",
+      "note": "pdftotext -layout extraction; layout spacing preserved"
+    }
+  },
+  "rights": {
+    "status": "copyrighted",
+    "holder": "Springer Nature India Private Limited",
+    "basis": "personal research corpus; analysis only",
+    "redistribute": false,
+    "note": "Vendored for structural reverse-engineering, not republication. Do not serve the PDF or full text publicly; cite the DOI."
+  },
+  "why_gold": [
+    "peer-reviewed handbook chapter with explicit section architecture",
+    "argument-driven: opponent positions, objections, replies, synthesis",
+    "primary-source quotation discipline: Sanskrit verse + cited translation + commentary",
+    "historical contextualisation separate from philological argument",
+    "clean boundary between exposition of Abhinavagupta/Jayaratha and the author's own thesis"
+  ]
+}

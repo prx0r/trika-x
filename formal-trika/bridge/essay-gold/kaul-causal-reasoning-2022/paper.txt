@@ -1,0 +1,1365 @@
+Causal Reasoning in the Trika Philosophy
+of Abhinavagupta                                                                                                                                                                           11
+Mrinal Kaul
+
+
+
+
+Contents
+Introduction . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   228
+Historical Context . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .           230
+Philosophical Rationalization of Tantric Sources . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                             233
+Encountering Buddhists . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                   237
+The Seed and the Sprout . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                    241
+Meditator’s Desire as Cause . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                      244
+Complex Causality of Totality Factor . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                 246
+Śiva as the Perfect Agent and His Autonomous Agency . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .                                                          248
+Conclusion . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   249
+References . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . . .   250
+
+       Abstract
+       Abhinavagupta ( ﬂ.c. 975–1025 CE) is a tantric philosopher whose rigorous epis-
+       temological discussions are deeply rooted in his Śaiva metaphysics. In order to
+       strongly withhold the Trika doctrinal principle of non-duality, Abhinavagupta, like
+       his predecessor Utpaladeva ( ﬂ.c. 925–975 CE), is struggling to interpret the
+       philosophical question of causality that rests in the analysis of cause and effect or
+       subject and object duality. In this chapter, a short example from his magnum opus
+       tantric manual, the Tantrāloka (9.1–44), and its elaborate commentary titled -viveka
+       by Jayaratha ( ﬂ.c. 1225–1275 CE) is discussed while also contextualizing the
+       process of philosophical rationalization in the history of Trika Śaivism. The
+       champions of the theory of causality (kāryakāraṇabhāva), the Buddhists, are
+       precisely targeted, and following rational enquiry, Abhinavagupta and Jayaratha
+       want to prove that Śiva alone is the supreme agent (kartā) or cause (kāraṇa) and He
+       indeed is also the effect (kārya) since both cause and effect are the manifestation of
+
+M. Kaul (*)
+Department of Humanities and Social Sciences (HSS), Indian Institute of Technology-Bombay
+(IITB), Mumbai, India
+e-mail: mrinal.kaul@stx.oxon.org
+
+© Springer Nature India Private Limited 2022                                                                                                                                               227
+S. Sarukkai, M. K. Chakraborty (eds.), Handbook of Logical Thought in India,
+https://doi.org/10.1007/978-81-322-2577-5_31
+228                                                                              M. Kaul
+
+
+   and in a single consciousness. Even though the Tantrāloka is based on the revealed
+   knowledge from early scriptures like the Mālinī vijayottaratantra, yet at every step,
+   compelling efforts are being made to justify the revealed (āgama) knowledge with
+   reason (yukti).
+
+   Keywords
+   Causality · Abhinavagupta · Tantrāloka · Pratyabhijñā · Kāryakāraṇabhāva ·
+   Trika · Śaivism · Reason · Tantra · Buddhism
+
+   Abbreviation
+   conj.        conjecture
+   em.          emendation
+   ĪPK          Īśvarapratyabhijñākārikā – TORELLA 2002
+   ĪPKvivṛti    Īśvarapratyabhijñā-vivṛti
+   ĪPKvṛtti     Īśvarapratyabhijñā-vṛtti
+   ĪPV          Īśvarapratyabhijñā-vimarśinī
+   ĪPVV         Īśvarapratyabjijñā-vivṛti-vimarśinī
+   Ked.         Kashmir edition – KSTS
+   KSTS         Kashmir Series of Texts and Studies
+   MMK          Mūlamadhyamakakākirā -> Madhyamakaśāstra of Nāgārjuna
+   MŚV          Mālinīślokavārttika
+   MVUT         Mālinīvijayottaratantra
+   PHṛ          Pratyabhijñāhṛdaya
+   PTv          Parātriśikāvivaraṇa
+   ŚD           Śivadṛṣṭi
+   SK           Spanda-kārikā
+   ŚS           Śivasūtra
+   ŚSV          Śivasūtra-vārttika
+   TĀ           Tantrāloka
+   TĀV          Tantrālokaviveka
+   TS           Tantrasāra
+
+
+Introduction
+
+Logic and reason are the hallmarks of rational thinking in any philosophical tradi-
+tion. Following the Eurocentric bias, many modern commentators have often
+interpreted the South Asian philosophical traditions either lacking in rational think-
+ing or being highly inclined toward spirituality/religion and mysticism and thus
+deemed irrational. This gives rise to some very crucial questions: ﬁrst, what does it
+mean to be “logical” and “rational” and should only “logic” and “rationality” qualify
+as philosophy? In other words, should philosophical investigations be limited to
+“rationality” alone? If that is so, what kind of structure do we expect rationality to
+have? This rationality that was inbuilt into the logical philosophical traditions of
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                       229
+
+
+pre-modern South Asia like the Nyāya-sūtra was formulated in terms of 16 categories
+(padārthas) or even in the process of 5-membered syllogism (pañcāvayava). The
+Nyāya-sūtra, while putting forth the theory of debate, distinguishes between the
+good debate that is based on reasoning (vāda) and the bad form of debate that is
+based on “wrangling” (vitaṇḍā) (see Matilal 1998: 44–54). Even the pre-modern
+medical treatises like the Charaka Saṃhitā has theorized debating on the principles
+of logic, reason, and argument (see Preisendanz 2009; Matilal 1998: 38–43). No
+doubt that the art of philosophizing is synonymous with the idea of rationalizing, yet
+a rational argument for the sake of argument alone may neither do justice to the idea
+of rationalization itself, nor can it logically justify the attempt of rationalizing that
+concept because the rationality of something should certainly lie in what one can do
+with it, rather than just formulating an argument. Second, should philosophy as one
+of the fundamental disciplines of humanities ignore the “irrational” and “illogical”
+patterns of thinking those have survived in the past or continue to survive in the
+present as a part of any domain that involves thinking? Just as ontological questions
+have been raised in case of logic and rationality, is it possible to raise same concerns
+for “irrational” and “illogical.” Is all philosophical query synonymous with ratio-
+nality alone? If not, then what is the rationale for rationalizing what is otherwise
+deemed to be “irrational” and how and why do we want to do it? This is all the more
+reason to evaluate the concepts of “rational” and “irrational” simultaneously. What is
+really meant by “reason?” Is it converting irrational into rational, and if something is
+already rational enough, then perhaps reason is not required at all. In classical Indian
+thought, we witness compelling examples where revealed, or scriptural (āgama)
+knowledge has been justiﬁed with reason (yukti), or rather I should say that the
+former itself is converted into a proper means of valid knowledge (pramāṇa) using
+the philosophical tool of reason (yukti). “[I]n India,” mentions Isabelle Ratié (2017b,
+paragraph 1), “the philosophical ﬁeld has remained essentially scholastic, notably in
+the sense that most Indian philosophical systems never ceased considering scripture
+(āgama) as a proper means of valid knowledge (pramāṇa). And despite great
+differences of opinion as to the way in which scriptural authority should be deﬁned,
+these movements have most often asserted the supremacy of revealed speech over
+reason and experience – including those, such as the Nyāya, that were concerned
+with logic and epistemology rather than with scriptural exegesis.”
+    Another question to ask is: is “reason” and “logic” always successful in mapping
+reality? In other words how do we justify real and unreal in terms of rationality? A
+deeper metaphysical concern that has bothered all philosophers at all times is the
+question related to the “real-ness” and “unreal-ness” of the phenomenal world of our
+empirical experiences. And we cannot afford to claim that everything that may seem
+“illogical” or “irrational” to us is always unreal. Can we fully explain, using logic
+and reason, the world of our experiences even though it may sound completely
+irrational from an absolutely common point of view? Is there a way we can make
+sense of “illogical” or “irrational” since we experience it to be so and not choose to
+ignore it at the cost of not being able to explain it in terms of logic and rationality?
+Can experience be rationalized? Whatever is rational and logical, can it always be
+real? Can experience still be real even if it cannot be rationally explained? Is
+230                                                                            M. Kaul
+
+
+everything rational also real at the same time? This constant tension that permeated
+“revealed” and “rational” and its juxtaposition with real and unreal nature of
+experience gave rise to revolutionary philosophical strategies in classical India.
+For instance, to counter as one form of “irrational,” the early Buddhist logician
+Dignāga (c. 400–480 CE) devised the theory of exclusions (apoha) (see Matilal
+1998: 98–107), the new school of Naiyāyikas emphasized the concept of negation or
+absence (abhāva), or someone like Śaṅkara subtly developed his whole non-dual
+epistemological apparatus around the concept of exclusion. The question was if the
+experiential knowledge cannot be verbalized, then how do we know it and how can
+we communicate it (see Gupta 2009 for more on such questions and their answers
+from Śaṅkara’s Advaita Vedānta point of view).
+    Such questions with respect to “rational” and “experiential” were also being
+asked by the tenth to eleventh centuries Kashmirian non-dual Trika Śaiva thinkers
+like Somānanda ( ﬂ.c. 900–950 CE), Utpaladeva ( ﬂ.c. 925–975 CE), Abhinavagupta
+( ﬂ.c. 975–1025 CE), and Kṣemarāja ( ﬂ.c. 1000–1050 CE). With them began the age
+of reasoning for Trika Śaivism. It was the time when the tension between the
+scriptural or revealed knowledge (āgama) and the logical reasoning (yukti) intensi-
+ﬁed and culminated into the emergence of the “Philosophy of Recognition”
+(Pratyabhijñā-śāstra). In fact in their epistemological investigations, the āgama
+itself was brought to the fold of the valid means of knowledge (pramāṇa) (see the
+chapter by Navjivan Rastogi in this section of the present volume. Also see Ratié
+2013, 2017b; Torella 2017). In case of the works like the Tantrāloka (TĀ) of
+Abhinavagupta that itself was a ritual manual (paddhati) of Trika Śaivism based
+on the scriptural teachings of the Mālinī vijayottaratantra (MVUT), this tension was
+very subtle as opposed to the Pratyabhijñā-śāstra that, in fact, was meant to be a
+pure epistemological exercise. But before probing into this subtle tension, a short
+historical review would be strongly desirable here to understand the context.
+
+
+Historical Context
+
+Kashmir possessed vibrant Tantric Śaiva traditions up through at least the thirteenth
+century of the common era (see Sanderson 2007a, 2009). Alongside the other major
+branches of this tradition, viz., Siddhānta, Krama, and others, Trika Śaivism emerged
+in the middle of the ninth century as a major post-scriptural ritual system of the
+Mantramārga (for Mantramārga see Sanderson 1988: 667. For a detailed history of
+the terms Atimārga and Mantramārga Śaivism, see Sanderson 2014: 8ff). It was at
+the same period that Mantramārga traditions were gradually evolving from their
+scriptural anonymity into an extensive body of Kashmirian exegesis (see Sanderson
+1988: 690ff), in which the two major traditions competing with each other were the
+dualists (dvaita) and the non-dualists (advaita). The non-dualist authors adhered to
+the Trika and the Krama cultic systems, following the doctrine of the “left” (vāma)
+(see Sanderson 1995: 43ff). The dualistic Śaiva Siddhānta adhered to a ritual system
+functioning within the boundaries of Brahmanical purity, while on the other hand,
+Trika ritual involved transgressive contact with impure substances, persons, etc. (see
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                     231
+
+
+Sanderson 1985, 1995: 17; Torella 2015). The Siddhānta ritual system centered on
+Śiva alone, who was to be worshipped without his consort, but the two non-dualistic
+currents were predominantly śākta, i.e., centered upon the worship of various female
+śaktis, in addition to the worship of Śiva, particularly in the form of Bhairava. The
+most deﬁning feature of the scriptures of the Trika was their pantheon of three
+goddesses, Parā, Parāparā, and Aparā, while the Krama or Kālīkrama was devoted to
+worship of a sequence (krama) of Kālīs (see Sanderson 1988: 673. See also
+Sanderson 2007a: 370–371; Dwivedi 2001: 539ff). Krama was a Kālīkula tradition
+that taught the esoteric worship of many forms of the goddess Kālī or
+Kālasaṃkarṣaṇī (see Sanderson 2007a: 250).
+    The basis of this non-dualistic tradition mainly represented by Abhinavagupta
+was rooted in the teachings of the Śivasūtra (ŚS) (see Singh 1979; Dyczkowski
+1992b; Sanderson 2007a: 402ff) that was further elaborated in the works belonging
+to the Philosophy of Vibration (Spandaśāstra) (see Dyczkowski 1987, 1992a; Singh
+1980; Gurtu 1981). Based on the doctrine of the Mālinī vijayottaratantra (see
+Sanderson 1992; Vasudeva 2005), the great masters of this tradition Vasugupta
+(c. 825–850) and Bhaṭṭaśrī Kallaṭa (c. 875) taught that “ignorance” (ajñāna) is the
+cause of bondage (bandha) (see ŚSV, 2.2:11–12). This “ignorance” was not deﬁned
+as the absence of knowledge but as the incompleteness of knowledge or limited
+knowledge (apūrṇa-jñāna) (see TĀ 1.25) (For Theory of Error in Pratyabhijñā, see
+Rastogi 1986; Nemec 2012). For unlike in the case of the sentient (cetana) objects,
+complete absence of knowledge is only found in insentient ( jaḍa) entities. Insentient
+entities are never subject to bondage and liberation. Thus the concept of mala that
+does not allow the complete manifestation of knowledge essentially refers to the
+incompleteness of knowledge and not not-knowledge (on the Śaiva concept of mala
+or impurity, see Acharya 2014). Abhinavagupta, in the ﬁrst chapter of his Tantrāloka
+(TĀ), is clearly articulating the deﬁnitions of jñāna and ajñāna on the basis of the
+Śivasūtras (see TĀ 1.26–30).
+    The Śaiva Siddhānta, on the other hand, was a tradition placing considerable
+importance on ritual, both doctrinally and in praxis, believing that emancipation
+(mokṣa) essentially transpires through the salviﬁc power of Śaiva initiation (dī kṣā).
+But as opposed to this, Utpaladeva and Abhinavagupta endeavored to establish a
+system emphasizing the paramount signiﬁcance of knowledge ( jñāna). Thus they
+attacked the perceived ritualism of their Śaiva Siddhānta contemporaries, who
+adhered to doctrinal dualism (see Sanderson 1988: 692; Dwivedi 2000: 310ff). In
+Trika, the absence of knowledge ( jñāna) was taught to be the true cause of the
+impurity (mala) which obscures the soul’s inherent Śiva-nature (śivatva) (see
+Sanderson 2007a: 372). This impurity (mala) is nothing but ignorance (ajñāna)
+that gives rise to bondage (bandha), and it is the removal of this impurity (mala) that
+leads one to the state of liberation (mokṣa) (see MVUT 1.23cd: malam ajñānam
+icchanti saṃsārāṅkurakāraṇam|). This emphasis on gnosis did not of course mean
+that there was no ritual practice prescribed in the Trika itself, but Abhinavagupta
+understood the path of following ritual as inferior, positing superior means, such as
+meditation and imaginative visualization through which liberation was possible (see
+Sanderson 2007b: 114–115. Also see Sanderson 1990). It is also important to
+232                                                                                M. Kaul
+
+
+mention here that both the dual and the non-dual Śaiva traditions understood the
+descent of the power (of grace) (Śaktipāta) (see Wallis 2007) as the only means of
+getting rid of the ajñāna or mala. However, while an individual (aṇu) is expected to
+make an effort toward attaining the grace of the Great Lord (Parameśvara), yet this
+grace descends on an individual only at Śiva’s own autonomous “power of willing”
+(Icchāśakti). In the earlier Tantric scriptures, the means of doing away with the mala
+was usually said to be knowledge ( jñāna), Yogic practices (yoga), ritual (kriyā), and
+observances (caryā) (see Brunner 1992). Thus an arrangement of dividing the
+teaching of an āgama into four sections (pādas) corresponding to the four means
+was common (see Torella 2017). However, moving away from this tradition,
+Abhinavagupta categorizes the Trika paddhatis after the idea of means (upāyas)
+(see Rastogi 2012: 94).
+    This non-dual metaphysics based on Śaiva scriptural sources was in need of concrete
+rational foundation that demanded deeper analysis and clear and precise explanations
+and arguments to let it stand on ﬁrm grounds. Thus, the Philosophy of Recognition
+(Pratyabhijñā) was not only a further elaboration of the teachings expounded in the
+Śivasūtra and the Philosophy of Vibration (Spanda) but also a way of strengthening the
+non-dualistic tradition on the strong and ﬁrm pillars of logical and analytical arguments.
+Thus, while the teachings of the Śivasūtra and the Spandakārikā were elucidating the
+spiritual path of this tradition, at the same time, the Śivadṛṣṭi of Somānanda ( ﬂ.c. 900–
+950 CE) (see Nemec 2011) was beginning to formulate an analytical structure for such
+teachings (see Torella 2002: XIII). Following the teachings of his venerable master
+Somānanda, Utpaladeva further laid down the concrete foundational structure for the
+Pratyabhijñā-śāstra in his I¯śvarapratyabhijñākārikā (ĪPK) (see Torella 2002) and the
+two auto-commentaries thereupon titled the -vṛtti (I¯PKvṛtti) and the -vivṛti (I¯PKvivṛti).
+It should be mentioned here that the latter was supposed to have been lost, but the
+fragments thereof have been recovered recently (see Torella 2014; Ratié 2017c).
+Abhinavagupta went on to expand upon this by writing two elaborate commentaries
+on the ĪPK titled the -vimarśinī (ĪPV) and -vivṛtivimarśinī (ĪPVV). Together, along
+with the immediate master of Abhinavagupta, Lakṣmaṇagupta (none of whose works
+have come down to us), all of them are named as, as Jayaratha puts it, the makers and
+commentators of logical reasoning (TĀV 2.10: tarkasya kartāraḥ vyākhyātāraś ca|)
+(also mentioned by Rastogi 2012: 150–151).
+    It may be important to mention here that while Utpaladeva and Abhinavagupta
+spoke for the non-dualistic Śaiva tradition, their contemporaries Bhaṭṭa
+Nārāyaṇakaṇṭha (eleventh CE) and his son Bhaṭṭa Rāmakaṇṭha (II) (c. eleventh CE)
+were performing exactly the same role translating the dualistic teachings of the Śaiva
+Siddhānta into the philosophical-analytical realm. Thus Bhaṭṭa Rāmakaṇṭha wrote
+commentaries on Sadyojyotiḥ’s Paramokṣanirāsakārikā, Mokṣakārikā, and Nareś
+varaparīkṣā and also on Mataṅgapārameśvaratantra, Kiraṇatantra, and Sārdhatriś
+atikālottaratantra (for more details on the works of Bhaṭṭa Rāmakaṇṭha, see Goodall
+1998: xviii ff). The strategies of philosophical rationalization were not missing in
+Bhaṭṭa Rāmakaṇṭha. Like Abhinavagupta, he too was a master of creative reuse (see
+Watson 2006: 388).
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                       233
+
+
+Philosophical Rationalization of Tantric Sources
+
+Both Utpaladeva and Abhinavagupta are seen presenting their teachings following
+clear logical arguments (sattarka). Abhinavagupta took up the earlier form of Trika
+represented in the MVUT, which he profoundly reshaped through a combination of
+additional scriptural sources, oral teachings, and his own creative brilliance (Abhinava
+emphasizes svaparāmarśa. Cf. TĀ 4.41: gurutaḥ śāstrataḥ svataḥ. Also see Pandey
+1963: 292; Singh (PTv) 1988: 83). He ascribes primary importance to his own spiritual
+experience (svasaṃvit) (Jayaratha glosses svasaṃvit with svānubhava. See TĀV
+1.106) followed by clear logical arguments (sattarka) and the scriptural authority of
+Siddhānta and Trika (TĀ 1.106: iti yajjñeyasatattvaṃ darśyate tacchivājñayā|mayā
+svasaṃvitsattarkapatiśāstratrikakramāt||). Though Abhinavagupta claims that he
+bases the TĀ on the MVUT, he evidently draws on a wide range of other scriptural
+texts of the Śaiva Mantramārga, from the wider pool of Trika scriptures, including the
+Siddhayogeśvarī mata, Triśirobhairava, Devyāyāmala, Tantrasadbhāva, and Tri-
+kasadbhāva (see Sanderson 2007a: 374) to Krama scriptures such as the Kākī kula,
+as well as the archaic Brahmayāmala of the Vidyāpī ṭha and various Saiddhāntika
+scriptures (see Sanderson 2007a: 374). Particularly Abhinavagupta is engaged in
+providing critical philosophical structure to the teachings of the Trika scriptures (see
+Lawrence 2000: 17–18). Like his master Utpala, he is a master of his exegetical craft
+and mines and even manipulates his sources, making use of their teachings to counter
+the arguments of his opponents. Their main philosophical opponents are the Bud-
+dhists, particularly the Vijñānavādins but sometimes typically Mādhyamakas.
+A central purpose in this philosophical rationalization is to counter antagonistic
+contemporaries, such as the staunch followers of Śaiva Siddhānta ritualism, who
+embrace philosophical dualism, and on another hand to build their own Śaiva system
+of thought by challenging the philosophical positions of the Buddhists who would
+deny the existence of the absolute-self. Abhinavagupta’s “higher non-dualism” (para-
+mādvayadṛṣṭi) is itself as much made of the doctrinal principles of the Siddhānta and
+Buddhists as it seeks to transcend it. Even though from doctrinal point of view, the
+Siddhāntins and Buddhists are his opponents, in the former case, he afﬁrms and
+justiﬁes the claims of their dualistic scriptural sources and appropriates their theolog-
+ical principles to ﬁt them in his non-dualistic Śaivism, and in case of the latter, he
+literary wears the philosophical armor of Buddhists and counters their principles by
+their own arguments while presenting them as his own in many cases, as if he was
+wearing a Śaiva garb (see Ratié 2010a, 2011). And he does all this masterfully and
+comes up with a critical philosophical structure and uses it for explaining scriptural
+claims and for developing philosophical arguments in debates with real or imagined
+opponents (see Pandey 1963: 294). By applying this strategic method, he is laying a
+solid foundation for a rational system that he is developing.
+    An example of Abhinavagupta’s philosophical rationalization of Trika rituals and
+scriptural doctrines is his treatment of the theory of causality (kāryakāraṇabhāva)
+before dealing with the description of the ontic realities (tattvas) and their mutual
+relationship in book nine of the TĀ (9.1–44) (for more on this, see Allen 2003).
+234                                                                               M. Kaul
+
+
+To explain, in the hierarchy of the tattvas, the causal sequence cannot be denied in
+view of the cause and effect relationship (kāryakāraṇabhāva) between them. Thus
+each tattva is related to the next by a cause and effect relationship: each higher tattva
+permeates and pervades the succeeding ones, with the highest and most subtle
+pervading and permeating all tattvas. This makes it clear that each successive
+lower tattva exists in and draws its sustenance from the successive higher tattvas
+which are also its material cause (for a discussion on the tattvas in the TĀ, see Kaul
+2018). Hence in book nine of the TĀ, Abhinavagupta ensures that he ﬁrst establishes
+a robust model of the theory of causality prior to discussing the nature of tattvas
+according to the Śaiva doctrinal principles and their ontological hierarchy. Here he
+also feels compelled to challenge the Buddhist theory of causality since they are the
+ones who champion its cause. By doing this Abhinavagupta is achieving twofold
+aim – he is demolishing the Buddhist theory of causality while simultaneously
+paving a way ahead for developing his own Śaiva theory of causality. This is what
+will be demonstrated in the rest of this paper.
+   In the same fashion, he also seeks to establish the Śaiva theory of knowability
+(vedyatā) (TĀ 10.19–97) at the beginning of the book ten of the TĀ, prior to
+discussing the nature of and relationships between the seven knowing subjects
+(saptapramātṛs) and seven objects of knowledge (saptaprameyas). Abhinava
+bases his discussion on the refutation of the position of the Mīmāṃsakas,
+establishing that “knowability” (vedyatā) is an essential nature of an object (see
+Allen 2011 whose thesis is precisely based on the study of TĀ 10.19–97). Another
+example is a short Sāṃkhya debate (TĀ 13.32–41) that opens up the Chap. 13 in the
+context of Śaktipāta (Grace). Following exactly the lines of argument discussed
+above, Abhinavagupta offers an analytical account of the theory of reﬂection
+(pratibimbavāda) (TĀ 3.1–65) in book three of the TĀ before discussing the
+doctrine of phonemic emanation (parāmarśodayakrama) (see Kaul 2019).
+Furthermore, as a part of a similar philosophical strategy, Abhinava, basing his
+idea of “six-limbed yoga” (ṣaḍāṅga-yoga) on his source text the MVUT, he opposes
+the eight-limbed model (aṣṭāṅga-yoga) of Patañjali. The uniqueness of this
+six-limbed yoga is that “reason” (Tarka) is accepted as the best among all the
+limbs of Yoga. Even if eight-limbed Yoga model is to be accepted, it would only
+be accepted if all of them function toward attaining the Tarka (see Muller-Ortega
+2005; Rastogi 1992).
+   By employing such critical methods and strategic models, Abhinavagupta is
+using a well-thought-out mechanism reusing the older scriptures: he reshapes their
+content and using dialectic methods offering them the efﬁcacy of a convincing
+argument, thus defending and presenting his own new system. In other words
+Abhinava developed a Trika Śaiva system that, on one hand, adhered to key features
+of earlier Śaiva scriptures and, on the other, emerges as a distinct tradition with
+unique features of its own, much like an architect’s creative reuse of older structures
+and building materials. This process of creative reuse is visible not only in
+Abhinavagupta’s use of Āgamic scriptures but also at the polemic level in
+Abhinavagupta’s Philosophy of Recognition (Pratyabhijñā). In fact this process of
+creative reuse was not conﬁned to Abhinavagupta alone. His celebrated predecessors
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                      235
+
+
+like Utpaladeva himself, as also suggested by Rastogi, were inﬂuenced by
+Bhartṛhari’s dynamism of consciousness, Sāṃkhya’s ontology, the epistemology
+of Nyāya-Vaiśeṣika (particularly the ideas related to inferential cognition), the
+pramātṛ notions from the Siddhānta, and pramāṇa ideas of the Vijñānavāda (see
+Rastogi 2013: 4–5). Both Torella (2008) and Rastogi (2009) have put forth their
+assessments of how Bhartṛhari has strongly inﬂuenced the Śaiva Advaita system. As
+indicated earlier, Ratié has further given us detailed and critical accounts of how both
+Utpaladeva and Abhinavagupta skillfully, subtly, and purposefully appropriate the
+themes and arguments of the Vijñānavāda Buddhism to ﬁt their own Śaiva theolog-
+ical framework (see Ratié 2007, 2009, 2010a, b, 2011). This is particularly the case
+with the Buddhist logical-epistemological school’s profound inﬂuence on the
+Pratyabhijñā system (see Torella 1992). One can also take an example of how
+Abhinavagupta appropriates the idea of Inherited Cognition (prasiddhi) of
+Mīmāṃsā in developing one of the fundamental pramāṇas of Śaivas viz. agama
+pramāṇa (see Rastogi 2013: 141–196; Ratié 2013; Torella 2013).
+   As already mentioned earlier, the Buddhists, who were anātmavādins, were the
+staunch philosophical rivals of the Śaiva non-dualists, so much so that sometimes the
+non-dualistic Śaiva masters were seen siding with Siddhānta Śaivism to mark their
+animosity for the Buddhists (see Torella 2002: XXII). To challenge the position of
+Buddhists and Siddhāntins, a stream of thought gradually emerged adhering to a
+strongly non-dualistic position. The emergence of non-dualistic Śaiva traditions may
+be understood in part as a reaction to Siddhānta Śaivism and the Buddhist
+Vijñānavāda in the same way as, in the earlier philosophical realm, the advent of
+Buddhist logic was basically a reaction to the Naiyāyikas. This non-dualistic posi-
+tion, as already mentioned previously, manifested into such branches as the Philos-
+ophy of Recognition (Pratyabhijñā), which was purely a dialectic method to
+encounter the Buddhists and to restructure dualistic Siddhānta positions as
+non-dualist. This philosophical rationalization, however, subtly follows the syllo-
+gistic scheme of the traditional logicians (Naiyāyikas), so much so that the formal
+structure of the ĪPK itself is presented in terms of the inferential cognition for the
+sake of others (parārthānumāna). The inferential method itself is seen as a
+recognitive structure (Rastogi 2012: 158; Lawrence 2000: 50–51). Following the
+traditional ﬁve-membered syllogistic method of the Naiyāyikas, Abhinavagupta
+indicates the ﬁrst verse of the ĪPK as the thesis (pratijñā), the text in-between
+indicates reason (hetu) and example (udāharaṇa) and application (upanaya), and
+the last verse 4.1.16 is the conclusion (nigamana). What is important to keep in mind
+here is that Śakti or the reﬂective awareness (vimarśa) that is nothing different from
+Śiva or the Light (prakāśa) is herself employed as “reason” (hetu) in the inferential
+cognition.
+   It is also important to mention here that even though the importance of Sāṃkhya
+theory of causality in the context of both dual and non-dual Śaiva philosophical
+evolution cannot be ignored, yet a choice of not focusing on the Śaiva-Sāṃkhya debate
+has been made in this paper (for more on Śaiva-Sāṃkhya debate see Ratié 2014a, 2015;
+Moriyama 2016). Since the focus of this paper is a speciﬁc section of the TĀ where the
+Sāṃkhya position is not dealt with exhaustively, and since this topic in itself deserves
+236                                                                                            M. Kaul
+
+
+separate platform for discussion, the author has planned to do this in a separate paper
+altogether. We are already aware of the strong connections between the authors of
+Siddhānta Śaiva and Sāṃkhya (see Torella 1999; Watson 2006). Much of Sāṃkhya has
+permeated into non-dual Trika Śaivism through Siddhānta Śaiva sources. For non-dual
+Śaivas, the cause and effect relationship is not like that of the Prakṛti and its evolutes in
+Sāṃkhya where Prakṛti has to be the material cause of the effect it generates. As K. C.
+Pandey (1963: 435–436) notes in the context of the Śaiva theory of causality: “Both the
+theories of causality, namely, the Satkāryavāda of the Sāṅkhya and the Asatkāryavāda of
+the Nyāya and others, therefore, cannot stand. For, how can the insentient, which is
+devoid of the capacity of placing itself in a conscious relation with that object, to which
+its productive activity is related, produce an effect? The two, the seed and the sprout are
+separate from each other, and, being insentient, are self-conﬁned, i.e. there is no
+conscious relation between them similar to that which exists between the potter and
+the jar, that is to be created. Therefore, if such things be supposed to be related to each
+other as cause and effect, there is no reason why any two things should not be supposed
+to be related. Moreover, if the essential nature of the effect before it comes into being is
+non-existence, as the Nyāya holds, it can become existent in any way. For, the essential
+does not change. But if it be existence, as the Sāṅkhya maintains, what is then to be
+effected by the cause? It cannot be said that the cause effects manifestation. For, the
+same question can be raised with regard to manifestation also i.e. does the manifestation
+exist before manifestation or not? If it does, the activity to bring it about ceases to have
+any meaning. But, if it does not, how can it then be brought about? For, according to the
+Satkāryavāda, nothing that does not already exist can be brought about. The
+Pratyabhijñā, therefore, puts forth its own theory of causality.” The problem is that
+how can one bring into existence something which is not there at all, and how can one
+bring into being something what is already existing. Manifestation cannot be the cause
+of manifestation, and manifestation cannot be the effect of manifestation either. Reading
+the emphasis of Pandey on the concept of “manifestation” (ābhāsa) above, it must be
+remembered that it is not the case that there is pre-absence or pre-presence and/or post-
+absence or post-presence of manifestation in the process of manifestation. Can nonex-
+istence generate existence or can insentient generate sentient?
+    In line with Pandey’s argument above, Isabelle Ratié (2014a) has convincingly
+shown how Utpaladeva is completely transforming the Sāṃkhya interpretation of
+the theory of satkāryavāda by manipulating the ideas of abhivyakti and śakti to ﬁt his
+Śaiva model. The problem in hand is what is the ontological status of effect, i.e., the
+potentiality of the potent and the agency of the agent. How can the insentient entity
+bring about the power of effect? To mention Abhinavagupta’s foundational idea of
+the satkāryavāda in his ĪPV 1.4.3:
+
+   An effect can be assumed [to be] either existing or nonexistent [before the operation of its
+   cause]. As for [this thesis:] “[the effect] is both [existing and nonexistent], neither [existing
+   and nonexistent], inexplicable (anirvācya),” it is contradicted by its own formulation, so
+   what is the point [of considering it]? [Now,] if the pot is nonexistent [before the operation of
+   its cause], then, since this [pot]’s ultimate reality is nothing but its having a nonexistent
+   nature, how could it obtain [through the operation of the cause] an existence that is
+   contradictory with its nature? For even innumerable prostrations at its feet cannot make
+   the blue accommodate yellowness! (I have used the translation of Isabelle Ratié 2014a: 131)
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                        237
+
+
+    Also the Siddhānta point of view signiﬁcantly differs from Sāṅkhya on the
+following point: as opposed to the Sāṅkhya, Siddhānta does not admit puruṣa to
+be originally pure because the Self has beginning-less impurities. From the
+Siddhānta point of view, the cognition of something arises when two reﬂections
+are united by ahaṃkāra, the reﬂection of the subject comes from inside, and buddhi
+receives the reﬂection of the object from without. According to them the buddhi is
+insentient and cannot be an agent, while puruṣa is an agent since it is sentient (see
+Pandey 1986: 67; Watson 2006: 92–103 for more details). On the other hand, in the
+Pratyabhijñā system, Abhinava makes the Sāṅkhyavādins his target because there he
+has to establish that the buddhi is sentient as opposed to the Sāṃkhya view that it is
+insentient. Even though Śaiva perspective attributes purity or luminosity to the
+buddhi, Torella (2002: 93, fn12) reiterates on the basis of the ĪPV and the ĪPVV,
+the purity of buddhi is anyway no clearer than puruṣa. This again drives us to the
+conclusion that ultimately consciousness alone is pure according to Abhinavagupta.
+    In addition to this, in the present context, it must also be mentioned that David
+Lawrence has talked about the “Śaiva Syntax of Causation” where he brings our
+attention to the subsuming cause-effect relation of Śaivas with their “idealistic
+agential syntax.” Like all the grammatical cases (kārakas) in an action (kriyā)-
+oriented sentence have their substratum in a conscious agent; in the same way, it is
+the recognitive synthesis (anusaṃdhāna) of Śiva itself that serves as the substratum
+of the cause and effect relationship and all the components involved in there (see
+Lawrence 1998, 2000: 147–149, 2008, 2014).
+    Keeping the above discussion in mind, one may now focus on a speciﬁc example
+from the Tantrāloka and see an illustration of how Abhinavagupta carries out the
+process of philosophical rationalization. The ninth chapter of the TĀ is titled the
+Tattvaprakāśāhnika, and it describes the hierarchy of ontic-levels (tattvakrama) as
+accepted by the Trika Śaivism. However, it is important to keep in mind that
+Abhinavagupta begins this chapter with a philosophical enquiry into the nature of
+causality because he is intending to explain the inconsistencies in the earlier Śaiva
+accounts of the tattvakrama and gradually moving himself toward a position where
+he is offering a standard Śaiva model of the tattvakrama (see Kaul 2018). Besides
+this, it is obvious that he is standardizing the theory of causality in the context of the
+tattvakrama as taught in the MVUT since tattvas are connected by causal relations
+(TĀ 9.48cd–49ab: kāryakāraṇabhāvī ye tattve ithaṃ vyavasthite|śrī pūrvaśāstre
+kathitāṃ vacmaḥ kāraṇakalpanām||).
+
+
+Encountering Buddhists
+
+As mentioned previously, even though the Vijñānavādins, who are the main philo-
+sophical rivals of the non-dual Śaivas, also argue (like their Śaiva counterparts) that
+the entire universe is nothing but consciousness alone (vijñaptimātra), but their
+deﬁnitions of consciousness radically differ from each other. For a Buddhist idealist
+(Vijñānavādin), the knowable objects cannot exist independently of mind, and they
+are nothing but a series of momentary interconnected events that alone exists. Things
+do not exist in reality, but a kind of collective consciousness arising out of a store
+238                                                                                M. Kaul
+
+
+house consciousness (ālaya-vijñāna) does. However the difference between the two
+idealistic positions is that a Vijñānavādin believes that the objects apparently exter-
+nal to consciousness are not a part of consciousness at all. They merely appear to be
+there because of our ignorance. For a Vijñānavādin there is no evidence that external
+objects exist. On the other hand, Abhinavagupta’s thesis is diametrically opposed to
+that of a Vijñānavādin. In his idea of consciousness, there is nothing external to
+it. Even what are called external objects by a Buddhist idealist are very much a part
+of consciousness according to the non-dual Śaivas. For Abhinavagupta, conscious-
+ness is nothing but supreme reality itself, and since, according to him, whatever is in
+fact said to be existing outside the domain of consciousness is also cognized within
+the domain of consciousness alone, there is no question of external reality at all
+(Ratié 2007, 2010a, b, 2011, 2014b). Criticizing the Buddhist position,
+Abhinavagupta himself says: “And it has been said by the Buddhists that even in
+the presence of the external reality, the cognition, perceiving one and many, assumes
+the form of many, but (in reality) it is one” (TĀ 3.55: uktaṃ ca sati bāhye’ api
+dhī rekānekavedanāt|anekasadṛśākārā na tvaneketi saugataiḥ||). So even if Bud-
+dhist also maintains that the cognition of many external objects is one, where does
+the conﬂict with non-dual Śaivas lie? Śaivas maintain that except Śiva who is the
+only cause and is also the effect of himself, there is no other sentient (cetana) reality
+that has any potent agency of its own. Agency lies with Śiva alone because he is the
+only sentient agent (cetana pramātā), and his agency is nothing different from his act
+(kriyā-śakti). Another question that arises is that if the cause is one, how can effect be
+many? For Abhinavagupta there is no fundamental contradiction between oneness
+and manyness. Just as, he explains, a mirror is able to manifest singularly the
+manyness (differentiation), in the same way, consciousness is also able to do it
+(see Ratié 2017a; Kaul 2019). For Vijñānavādins, however, the universe is dynamic
+albeit this dynamism does not belong to any potential agent. They reject the
+existence of a permanent self (ātman) and only admit the existence of mind. For
+them, the mind is able to perform all roles of self, and so there is no need to admit to
+the idea of self. There are actions but no permanent agent to those actions.
+    Even if the Vijñānavādins are the main philosophical rivals of the non-dual
+Śaivas, yet when it comes to establishing the Śaiva theory of causality in the TĀ,
+the challenge is how to target the champions of the Buddhist theory of causation, the
+Mādhyamika school that is mainly represented by Nāgārjuna (c. 150–250 CE).
+Nāgārjuna has shown in his Mūlamādhyamikakārikā (MMK) how causation is not
+possible on an absolute basis and how according to his doctrine the ﬁrst cause does
+not exist in any form since whole phenomenon is based on the principle of momen-
+tariness where phenomenal entities come into being and die out in time and space.
+The existential phenomenon is interdependent, i.e., there is a chain of cause and
+effect relationship which gives rise to the universal phenomena. This is what, in
+brief, the Buddhist theory of dependent origination (pratī tyasamutpāda) stands for.
+    In the short section of the TĀ what is being focused in this chapter,
+Abhinavagupta is clearly not content with the Mādhyamika Buddhist’s theory of
+causation. But what do Śaivas want to achieve by not agreeing with the causality
+principle of the Buddhists. As David Lawrence (2000: 147) notes: “The Śaivas
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                       239
+
+
+elaborate some of the same basic syntactic considerations to produce an interesting
+refutation of the Buddhist logicians’ understanding of causation as “dependent
+origination.” According to it, causality is a mere regularity of succession between
+evanescent entities, without any continuous or substantial “connection” between
+them. The Śaivas interpret the regular priority and posteriority expressed with the
+locative construction as a sort of expectation (apekṣā) between the moments. They
+contend that such an expectation could not exist between discreet entities that in
+themselves lack recognitive synthesis (anusaṃdhāna).” Thus, for Buddhists, it is
+essentially the consciousness alone that is the cause of all existential phenomena. If
+one should follow the interpretation of Navjivan Rastogi (2006: VII), then the
+concept of cause manifests fully in the Śaiva notion of agent on the one hand, and,
+on the other hand, the effect is understood as nothing but the agency or functioning
+of the potential agent. If seen from the point of view of cause, the relationship of
+cause and effect is reduced down to the relationship of agent and action, and if
+assessed from the point of view of effect, the expedition from cause to effect is called
+“manifestation” or “reﬂection.” The universe is not (Rastogi 2006: XVII) the effect
+of Śiva, but Śiva is the sentient agent who creates the universe out of his autonomous
+Power of Will. According to Rastogi it will not be wrong to say that the absolute
+freedom is the cause, and the manifestation (ābhāsa) or reﬂection (pratibimba) is the
+effect. In other words, the absolute freedom and the manifestation of it are not two
+different things but are simply, like cause and effect, two ways of looking at the same
+reality. Like, for instance, light and luminosity are not two separate things at all, but
+we still call them as “light” and “luminosity” where the latter is understood as the
+essence or essential property of being the former.
+    Utpaladeva and Abhinavagupta in the ĪPK 2.4.14 and the TĀ 9.11ab, respec-
+tively, attack the Buddhist theory of dependent origination (pratī tyasamutpāda) that
+believes “that the phenomena are happening in a series and we see that there being
+certain phenomena there becomes some others” (Dasgupta 2004: 84ff). The causal
+formula of this system is; “This being, that arises” or “Depending on the cause, the
+effect arises” (asmin sati, idaṃ bhavati). Thus every object of thought is necessarily
+dependent, and because it is dependent, it is neither absolutely real nor absolutely
+unreal. In TĀ 9.11ab, Abhinavagupta sets up an argument saying “The essence of the
+situation in which some thing comes into existence upon the existence of something
+else is nothing but dependence” (tasmin sati hi tadbhāva ity apekṣaikajī vitam|). He
+further challenges this idea of Buddhists and asks “How can this theory be true in
+case of the things that are independent of each other in as much as they are self-
+contained” (TĀ 9.11cd: nirapekṣeṣu bhāveṣu svātmaniṣṭhatayā katham|). Jayaratha
+writes a detailed commentary on this stanza, putting forward various arguments to
+refute the Buddhist position, and says that their only evidence of perception is that
+one sees only smoke and not-smoke after ﬁre and before smoke only ﬁre and not
+non-ﬁre. However, it is unreasonable to decide this from the nature of perception
+alone, even without considering what actually are these perceived entities. Thus,
+Buddhists are bound to accept that there are some features within the speciﬁc natures
+of these two things which can limit them in this way. If this was not the case, it would
+be impossible to invert the conclusion that the smoke and nothing else, which
+240                                                                              M. Kaul
+
+
+follows ﬁre, is a feature inherent in the nature of ﬁre and that ﬁre and ﬁre alone which
+perceives the smoke is an intrinsic feature of smoke. But this is impossible because
+one inert thing cannot over determine the nature of another. Jayaratha goes on to
+suggest that no one, however many times and however much assisted by fate, sees a
+cloth after a pot even though they are thus internally unrelated still because of
+necessity the one is seen after the other which is not of course causally correct. He
+takes an example of Kṛttikā and Rohiṇī – the argument of Pleiades and Taurus is
+usually used to criticize Buddhists by their opponents, (see also Torella 2002:
+183, fn.25) that would be related as cause and effect if the only criterion for this
+were to follow up the other, for Kṛttikā having arisen Rohiṇī must ascend. But
+Kṛttikā and Rohiṇī do not bear any causal relationship. So if the Buddhist’s only
+criterion is the regular succession of the effect after its cause, why do they not
+consider Kṛttikā’s relationship to Rohiṇī to be so as in the case with ﬁre and smoke?
+There is a relation of dependence between them, and this dependence is of two types;
+the ﬁrst consists in mutual association (anyonyānuṣaṅgitātmikā) and the second in
+the intentional (abhiprāyātmikā). Neither of these can apply to inert entities which
+Buddhists want to call cause and effect: in the ﬁrst case because ﬁre and smoke
+appear separately unlike ﬁre present in a hot object which is mutually associated and
+in the second case because the cause and effect are produced by their unconscious
+nature from concealing each other’s speciﬁc identity, unlike intentional dependency
+such as that between an eater and its food (TĀV 9.11). (It should be mentioned here as
+a comment that Jayaratha in TĀV 9.11 cites references from important Buddhist texts
+like the Dharmālaṅkāra of Śaṅkarānanda or Śaṅkaranandana (ninth to tenth CE) (see
+Krasser 2001) and the Traikālyaparī kṣā of Dignāga).
+    Cause and effect must exist simultaneously, during some time at least, in order
+that the action of the one upon the other should take place. According to the realist,
+the potter and the pot exist simultaneously. But for the Buddhist, the potter is only a
+series of point-instants. One of them is followed by the ﬁrst moment of the series
+called the pot. Therefore, the cause can exist no more when the effect is produced by
+it. It springs up, so to speak, out of nothing, because a simultaneous existence of
+cause and effect is impossible (Stcherbatsky 1962: 120). Abhinavagupta says “If one
+were to say that A comes ﬁrst and B follows, then if the prior and the posterior do not
+extend beyond their nature because they are totally self contained phenomena then
+there is no dependence between them and what they (Buddhists) are left with is only
+A and B” (TĀ 9.12: sa pūrvam atha paścāt sa iti cet pūrvapaścimau|svabhāve
+’natiriktau  cet sa sa em. Sanderson] cet sama Ked. ity avaśiṣyate||This emendation
+suggested by Alexis Sanderson is also supported by ĪPV 2.4.14: tatra
+svarūpādanadhikā cet pūrvatā paratā ca tat bhāvadvayamātraṃ, sa ca sa ca iti
+cārtho’pi vā na kaścit tasyāpapekṣārūpatvāt sa sa ity eva hi syāt|). Jayaratha asks his
+opponents whether this priority and this posteriority are different from the actual
+prior and posterior entities or not. The Buddhists cannot accept the ﬁrst possibility,
+for there is no such real thing as priority and the rest in their doctrine which could
+come into existence separately in the things themselves, and if they take the
+alternative position that they are not different or more than the things themselves,
+then they are left with nothing but two things which it is true they call cause and
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                      241
+
+
+effect but between which they fail to indicate the nature of real afﬁnity. Nor in the
+Buddhist doctrine does the causal relation exist as a speciﬁc feature over and above
+the ﬁreness of ﬁre and the smokeness of smoke. For this reason they introduce the
+function of supernumerary judgment (abhyuccayabuddhi). A supernumerary judg-
+ment according to them is a subsequent analysis of what was already contained in the
+initial perception. Perhaps the Buddhist will argue that these two features are
+established like momentariness as the intrinsic nature of the perceived forms and
+that is for this reason that a supernumerary judgment is necessary because nothing
+can be void of form nor can there be any sensation unfelt. So the form that a capacity
+to cause smoke takes is that of ﬁre, and it is of this form that supernumerary
+judgment is required (TĀV 9.11–12).
+
+
+The Seed and the Sprout
+
+Does cause continue to exist once effect is produced? For instance, does a seed still
+continue to exist once a sprout has come out of it? But a sprout can only emerge once
+the seed ceases to be. For a Buddhist, cause and effect belong to two different
+moments of time. The effect will always remain different from the cause (see Murti
+2016: 173ff). Emphasizing the non-dual Śaiva doctrine of Abhinavagupta, Jayaratha
+says that if the nature of cause and effect is ﬁrst seed and then sprout, then why
+should not there be a relationship between ﬁrst pot and then cloth. It is possible that
+there could be no relation between cause and effect or between inert things. But in
+the world of our experience, we do ﬁnd such perceptions as the sprout is born out of
+the seed. So we are forced to accept that there must be some subjectivity whose
+essential form is consciousness in which these two entities might be grounded and
+therefore enabled to be spoken of as cause and effect. To support his argument,
+Jayaratha quotes a verse from the ĪPK saying “The inert could have no power to
+bring the non-existent into being, therefore the relation of cause and effect is really
+that of agent and agency” (ĪPV 2.4.2). Therefore, in the Śaiva doctrine, the relation
+of cause and effect is really that of the agent and its agency, as already mentioned
+earlier. Abhinavagupta also points out that mere succession does not constitute
+causality saying: “So if the cause and effect is seed and sprout then why should
+not there be a causal relation between a pot and cloth. Mere succession, in other
+words, does not constitute causality” (bī jamaṅkura ity asmin satattve hetutadvatoḥ|
+ghaṭaḥ paṭaśceti bhavet kāryakāraṇatā na kim||TĀ 9.13) (Cf. MMK 20.19–20 and
+also ĪPV 2.4.8–9).
+    The opponent argues saying surely the seed and sprout are still distinct, but how
+can Śaivas make them into cause and effect simply by grounding them into a single
+subject. If the Śaivas could do this and the phenomena of a pot and cloth could be
+equally so since for them grounding in subjectivity is all phenomena (Kṣemarāja
+answers this objection very clearly in his Pratyabhijñāhṛdaya (KSTS), pp. 3–4),
+then they must conclude that cause and effect are identical so that they can say that it
+is the cause that effects in various forms. We are aware that in the Buddhist model,
+there is no dynamic connection whatsoever between cause and effect (Stcherbatsky
+242                                                                                M. Kaul
+
+
+1962: 126). On the other hand, from the satkāryavāda point of view that believes in
+whatever evolves is by deﬁnition unconscious, and whatever changes is not con-
+scious concluding that there can be no change in the conscious. According to
+satkāryavāda the universe is a self-evolving totality of primal matter. And this is
+what Abhinava attacks saying if the seeds were to be transformed as the sprout, the
+leaf, etc., then something which has one nature cannot reasonably have another
+nature. The opponent is asked that if he says that a seed has its nature as these,
+i.e. (the subsequent transformations like the seed are of the nature of sprout or leaf
+and so forth), then the seed and the sprout would not be contained within their own
+spheres (TĀ 9.14–15: bī jamaṅkurapatrāditayā pariṇameta cet|atatsvabhāvavapuṣaḥ
+sa svabhāvo na yujyate||sa tatsvabhāva iti cet tarhi bī jāṅkurā nije|tāvatyeva na viś
+rāntau tadanyātyantasaṃbhavāt||). Abhinavagupta is suggesting the constant trans-
+formation of degrees so that it would follow that the seed and the sprout would not be
+coincident with the separate spheres of their existence. This is because in that case the
+last stage of the one would be the ﬁrst stage of the other and we would end up either
+having a Buddhist model in which things actually do not come into contact or we are
+going to have transformation in the model itself. In that case the Buddhists do not have
+the need to have boundaries. There has to be one thing which is manifest as a complex,
+which consists of seed or sprout, etc., because of the consequences of the beginning
+and the end of the other.
+    Therefore it follows inevitably that this is some being taking on different forms
+co-extensive with the whole. Jayaratha cites the possible objection from the oppo-
+nent saying: if you say so, let it be. Then we reply; some object cannot be both red
+and not-red. Let it be so, you may say, but we cannot allow this since this single
+entity is for you without consciousness, and it is not possible for something
+non-conscious to have a mutually contradicted form (TĀV 9.15–16). And therefore
+Abhinavagupta introduces the concept of succession saying “Let the insentient have
+a variegated form successively (through the sequence of time) but then what is
+contradiction therein?” (TĀ 9.17ab: krameṇa citrākāro ’stu jaḍaḥ kiṃ nu
+viruddhyate|). There is not something in addition to the nature of the things. They
+are just forms of our perception. So if the thing is successive or non-successive, there
+is nothing added on to the thing in itself. Those two things, succession and
+non-succession, are just the perceiving of those things in that way.
+    Further Jayaratha asks that surely succession and simultaneity are not character-
+istics in the nature of the things themselves; they are attributes of perception. But it is
+consciousness which establishes the succession and non-succession when it per-
+ceives that a cloth is after a pot. The things themselves are not endowed with
+succession or non-succession as something super added to their natures. So the
+Buddhists cannot avoid the fact that they are superimposing contradictory attributes
+upon a single entity even though they are trying to get away by introducing
+succession (TĀV 9.18). The Buddhists believe in the principle of the uniformity
+of nature in two relations, viz., tādātmya (essential identity) and tadutpatti (succes-
+sion in a relation of cause and effect). The relation of tadutpatti is that of uniformity
+of succession of cause and effect (Cf. Dasgupta 2004: 345).
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                      243
+
+
+    Finally Abhinavagupta comes down to a simple afﬁrmation saying “If you decide
+that this succession is none other than the subject’s intrinsic nature and is spontane-
+ously manifest in accordance with the intimate Lord, what more could we say. It is in
+this way we deﬁne that the agent is Śiva and Śiva alone” (TĀ 9.20cd–21cd:
+svarūpān adhikasyāpi kramasya svasvabhāvataḥ||svātantryād bhāsanaṃ syāt cet
+kimanyad brūmahe vayam|ithaṃ śrī śiva evaikaḥ karteti paribhāṣyate||). This one
+being that manifests succession and non-succession out of its very nature is con-
+sciousness, and that is the one agent. And this agency of this being (namely of Śiva)
+is simply the fact that he appears in this way, i.e., in the modalities of subjectivity,
+and his manifesting in this way exists in the relation of cause and effect (TĀ 9.22ab–
+22cd: kartṛtvaṃ caitad etasya tathāmātrāvabhāsanam|tathāvabhāsanaṃ cāsti
+kāryakāraṇabhāvagam||). In his gloss on the verse 22, Jayaratha interprets tathā
+in the tathāmātrāvabhāsanam as vicitreṇa rūpeṇa which he further glosses as
+pramātṛprameyātmanāṃ mātrāṇām aṃśānām avabhāsanam atiriktatayeva
+em. Sanderson] iva Ked (TĀ vol. 6, p. 29). Jayaratha has resorted to rather uncon-
+vincing explanation here. He understands mātrā as parts, and he interprets these
+parts as Pramātā, Prameya, and Pramāṇa. tathāmātrāvabhāsanam means making
+manifest of his parts. It indeed is odd when Jayaratha mentions subject and object as
+the parts of Śiva.
+    Abhinavagupta further maintains that “His (Śiva) appearing in this way exists
+also in the relation of cause and effect” (TĀ 9. 22cd: tathāvabhāsanaṃ cāsti
+kāryakāraṇabhāvagam|). So the manifestation of the relation of cause and effect
+(sprout and seed) is just an instance of his power of manifestation. In fact his
+appearing in this way, moreover, exists in causality. Just as a pot can also be manifest
+concomitant with the cloth or one can experience a pot after a cloth, in the same way,
+a cloth can follow immediately after the pot. But that is bereft of law (TĀ 9.23). Here
+Abhinava has tried to narrow down the deﬁnition of causality. It is just not the matter
+of Buddhists saying evam sati, idaṃ bhavati. There has to be a regular succession.
+There has to be a substantial connection between the things in addition to the mere
+perceived sequence. Jayaratha says in his commentary that according to the Buddhist
+theory, Kṛttikā should be the cause of Rohiṇī because one is always preceded by the
+other. But actually there is no causal relation between the two of them. Hence
+Abhinavagupta maintains “Therefore, we deﬁne that as the cause of that (something
+else) if something else appears immediately after it, but only as a result of a causal
+necessity (not just a matter of chance)” (TĀ 9.24) (According to Alexis Sanderson,
+here Abhinavagupta seems to be setting up three levels: mere coincidental succes-
+sion, rule bound succession, and rule bound succession where there is a continuity of
+form). There is no causal connection between the two. The perception presented by
+consciousness does not include the perception of any causal connection. This is
+essentially a phenomenological analysis. It looks at what is given in consciousness.
+When consciousness manifests causal connection, it manifests immediate succes-
+sion, but that is not all. That does not amount a perception of causality, it also
+amounts perception in accordance with a causal necessity. Here the additional
+condition is satisﬁed in the last pāda of the verse which reads sati rūpānvaye’
+244                                                                                     M. Kaul
+
+
+dhike (connection of material form). One might say that we can have a cause where
+two things appear in succession as a result of causal necessity but that does not mean
+that one is the cause of another, e.g., Kṛttikā and Rohiṇī might be such a case.
+Manifestation of the world is such that whenever Kṛttikā appears, Rohiṇī appears.
+But in that case also, one is not the cause of another.
+
+
+Meditator’s Desire as Cause
+
+Since the non-dual Śaivas have to be able to establish both cause and effect into the
+domain of a single subject adhering to their doctrinal position, they put forth the concept
+of Yogic creation wherein sheer Power of Will (Icchā-śakti) of a Yogī acts as the cause
+of the effect. Yogis do not require a seed to create a sprout, and this stands as an example
+that sometimes an effect can come into being without its direct cause (see ĪPV 2.4.10–
+11; ŚD 3.34–36). Yogis can create a sprout ex nihilo. They do not need a seed.
+This is what Abhinavagupta means when he says that “And the rule here has its
+essence consisting of nothing but manifestation of that form, for the manifestation
+of a sprout from a seed does not always occur” (TĀ 9.25: niyamaśca
+tathārūpabhāsanāmātrasārakaḥ|bī jādaṅkura ityevaṃ bhāsanaṃ nahi sarvadā||).
+And because we come across such cases and there are sprouts of that kind
+which arise immediately without the pre-existence of the seed, hence in such
+cases there is also a causal necessity of the meditator’s desire (TĀ 9.26:
+yogī cchānantarodbhūtatathābhūtāṅkuro yataḥ|iṣṭe tathāvidhākāre niyamo bhāsate
+yataḥ||). This is a proof that in consciousness, there is also manifestation of causal
+necessity. In fact, it is not mere a matter of succession alone like Buddhists maintain, but
+there is also a causal connection between the two. It is not just that ﬁrst Yogī wills and
+then the sprout comes into being. There is a manifestation of immediate succession
+(ānantarya). It should not be understood as something like random collocation of the
+events, but also mere succession in accordance is necessary. Also in dreams and within
+the territory of dreams, the pot and cloth can indeed appear to be cause and effect,
+and that appearance is an appearance of a connection between them in the course
+of cause and effect until it is contradicted (TĀ 9.27: svapne ghaṭapaṭādī nāṃ
+hetutadvatsvabhāvatā|bhāsate niyamenaiva bādhāśūnyena tāvati||). Here Abhinava
+has given two examples of the supremacy of cause and effect: succession and necessity.
+It is also important to keep in mind here that as far as Abhinavagupta is concerned, the
+sprout born out of a seed is of the same nature as that of the sprout born out of a Yogi’s
+will. In the invariable association of cause and effect, since one is supposed to be prior to
+the other, it seems to produce an impression for limited consciousness that the posterior
+entity is the effect and the prior entity is the cause. Even if a Yogi’s will is the cause of an
+effect, it is still ruled by the idea of prior and posterior causation. However, the non-dual
+Śaivas claim that in case of both the cause and the effect, the real cause is consciousness.
+That is to say that it is the consciousness alone that is operational in the cause-ness of
+cause and the effect-ness of effect. So it does not really matter if we have a seed as the
+cause of a sprout or a Yogi’s will as the cause of any effect. In both the cases, it is
+consciousness alone that is being manifested, both as cause and as effect.
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                         245
+
+
+    The problem here is that if Śiva’s will alone is the ultimate cause of all the effects,
+then why do we need to bother about seeds and clay as the potential causes for their
+effects like trees and pots (see Kaw 1967: 213). How do we know if something that is
+an effect of a certain cause (kārya) or it is an essential nature (svabhāva) of the
+effect? It will depend on the causal law in both the cases we are told. Jayaratha states
+that the basis of causality is nothing but uncontradicted law (TĀV vol. VI,
+p. 34: evaṃ nirbādho niyama eva kāryakāraṇatāyā nibandhanam|). But what is
+this uncontradicted law and if causality is not mere succession, then what is it? For
+Abhinavagupta, the ﬁrm relationship between cause and effect, i.e., the state of being
+cause and effect, is where and in what form the necessary relationship and succession
+is manifest (TĀ 9.28: tato yāvati yādrūpyānniyamo bādhavarjitaḥ|bhāti tāvati
+tādrūpyād dṛḍhahetuphalātmatā||). What does this mean? Abhinavagupta uses the
+example of a scorpion to illustrate this point (see Kaul 2018: 257). He says: “. . .[I]n
+the world a scorpion can come out of cow-faeces, from another scorpion, from
+imagination, from memory, from the desire of a Yogi, from such factors as the power
+of certain substances and mantras” (TĀ 9.42cd–43ab: loke ca gomayāt kī ṭāt
+saṃkalpāt svapnataḥ smṛteḥ||yogī cchāto dravyamantraprabhāvādeś ca vṛścikaḥ|).
+Elsewhere, in the Tantrasāra (Chap. 8, p. 73), Abhinavagupta reﬂects upon the same
+idea saying even if a scorpion as an effect is generated out of various causes like cow
+feces, insect, Yogi’s will, a mantra, and a medicine, in each of these cases, the effect
+(i.e., a scorpion) is the same each time despite each cause being different. Abhinava
+has also used this example as a maxim supporting his theory of causation in the case
+of a Yogi. A thing produced by a Yogi is accepted to be similar to something that
+is produced naturally. To clarify, he further says that this is unlike the case of a
+scorpion that is produced out of natural birth as opposed to the one produced from
+cow-faeces (see also ĪPV 2.4.11: yogī cchāpi sarvathā tādṛśameva na tu vṛś
+cikagomayādisaṃbhūtavṛścikādinyāyena kathaṃcit rasavī ryādinā bhinnaṃ kāryaṃ
+janayati|). What Abhinava is arguing here is that even if a scorpion produced out of a
+natural birth is not similar to the scorpion produced from cow-faeces, yet the idea
+that it is a scorpion is the same. Jayaratha elaborates the same argument of Abhinava,
+answering the hypothetical opponent, saying that if they consider a separate scorpion
+to be actually there because of some speciﬁc quality as a result of some speciﬁc
+cause, then surely there is some individual scorpions indexed to place, time, form,
+etc., that have come forth from a scorpion or faeces, etc. Each one of them has some
+speciﬁc characteristics pertaining to themselves, as a result of which they are
+different from each other. In spite of that, they always remain scorpions (the idea
+of being a scorpion is the same in all of them). That each is “a scorpion” is always
+constructed as “scorpion” through parāmarśa. So it is not wrong to teach variety in
+consistency of effects, both with respect to what they are, their deﬁnition, and then
+the order of their appearance (TĀ 9.43cd–44ab: kāmaṃ kutaścit svaviśeṣataḥ||sa tu
+sarvatra tulyas tatparāmārśaikyam asti tu|). This is what he means when he further
+says: “Within this law such as has been described which brings about the relation of
+cause and effect, causality is in reality nothing but the manifestation of conscious-
+ness and that is all pervasive” (TĀ 9.29: tathābhūte ca niyame hetutadvattvakāriṇi|
+vastutaścinmayasyaiva hetutā taddhi sarvagam||).
+246                                                                               M. Kaul
+
+
+Complex Causality of Totality Factor
+
+The concept of complex causality (Sāmagrī ) is used by both Naiyāyikas and
+Buddhists in their discussions about causality. Referring to Jayanta Bhaṭṭa’s
+Nyāyamañjarī, Dasgupta says “Nyāya Vaiśeṣika regarded all effects as being due
+to the assemblage of certain collocations which unconditionally, invariably, and
+immediately preceded these effects. That collocation (sāmagrī ) which produced
+knowledge involved certain non-intelligent as well as intelligent elements and
+through their conjoint action un-contradicted and determinate knowledge was pro-
+duced, and this collocation is thus called pramāṇa or the determining cause of the
+origin of knowledge” (Dasgupta 2004: 330). Jayanta proposes a unique concept of
+pramāṇa emphasizing complex causality which is also seen as an exceptional
+attempt of interpreting the notion of karaṇa in Pāṇinian model of language (see
+Jha 2008; also see Matilal 1986: 376). While discussing about Sāmagrī in his
+Mūlamadhyamakakākirā (MMK), Nāgārjuna seems to criticize the idea of self-
+causation (see MMK 20.1). However, Abhinavagupta typically seems to accept
+the totality factor of Buddhists but admitting that ultimately it is Śiva who is the
+supreme agent. He proposes that “in the production of a pot we say that the cause is
+the totality of the factors” (TĀ 9.30ab: ata eva ghaṭodbhūtau sāmagrī hetur ucyate|).
+In such a necessity which brings about the status of cause and effect, ultimately it is
+that whose nature is consciousness that is the cause and that is all pervasive. “For if
+one does not accept that the aggregate of causal factors forms a unity, the difference
+between the causes would give rise to a number of different effects” (TĀ 9.30cd:
+sāmagrī ca samagrāṇāṃ yady ekaṃ neṣyate vapuḥ||hetubhedān na bhedaḥ syāt
+phale taccāsamañjasam|). Jayaratha tells us that here the word na used by
+Abhinavagupta in his text should be construed with an ironical sense (neti kākvā
+yojyam). Then if all these causal factors were distinct as the result of the multiplicity
+of the causes (each of these entities which refer to samagrāṇāṃ), then there ought to
+be a difference in the effect. It is impossible to bring about a single effect if there is
+not a unity in the causal factors. The grounding of all these factors in the single agent
+of cognition is the unifying factor.
+    Jayaratha further maintains that resting in a single essence is the cause of all these
+causal factors. For if all these factors such as the clay, the potter’s stick, the wheel,
+etc., were causes of pot as isolated phenomena, then numerous pots would come into
+being because of non-disagreement that there is a plurality of effects from plurality
+of causes, and then the Buddhists would accept this principle (TĀV vol. VI,
+p. 35: kāraṇabhedāt kāryabhedasya avivādāt|). If there is plurality of causes, then
+there must be plurality of effects. If their causal factors do not constitute of singular
+causal complex, then the Buddhists would not be able to count for singularity of
+effects. Jayaratha adds that this Buddhist attitude is in accordance with the principle
+that they do not debate on the problem, namely, “if there is a plurality of causes, there
+would have to be plurality of effects.” Jayaratha therefore understands that these
+causal factors cohere in a single causal complex. Therefore because of grounding in a
+single agent of cognition, one must seek a single object of these things which is what
+they mean by the word sāmagrī (TĀV vol. VI, p. 35: ity ekapramātṛviśrāntyā
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                       247
+
+
+ sāmagrī śabdavācyamevaiṣāṃ ekaṃ conj. Sanderson] sāmagrī śabdavācyamevaiṣāṃ
+Ked. vapur avaśyaiṣaṇī yaṃ|). But since the Buddhists accept the plurality of causes
+which is contradicted by sense perception therefore Abhinavagupta uses the expres-
+sion ‘taccāsamañjasam’ (and that is clearly false). We have a sense perception that
+guarantees plurality of causal factors. There must be something unifying those causal
+factors to guarantee the unity of the effect. So, Abhinava questions, would there be no
+plurality in the effect, and if that is so, then that will clearly be wrong because it is
+contracted by sense perception. Both Buddhists and Śaivas can agree to what is given
+to sense perception. This is where Mādhyamika Buddhists leave the discussion
+because they did not accept that there has to be any shared positions.
+    Jayaratha is now defending the idea of complex causality (sāmagrī ) saying
+whatever is the precondition of something coming about that is its cause. He spells
+it out in the preceding introduction of the verse 31 saying it has been taught that that
+which conforms to the positive or negative of something is the cause of that. He
+deﬁnes the cause of something that which accords with both positive concomitance
+and negative concomitance. And that condition does not pertain to the clay, the
+potter’s stick, and the rest when taken separately, and it does exist when they are
+taken together. Here probably there is an embedded reference to the “triple character
+of inferential sign” (traikālya) of Dignāga (see Matilal 1998: 90–94). So something
+is the cause of something if that thing comes about when it is present and does not
+come about when it is absent. And Abhinavagupta tells Buddhists that if they say
+that then this blunt reasoning holds no appeal to them (TĀ 9.31cd:
+yadyasyānuvidhatte tāmanvayavyatirekitām||tattasya hetu cet so ’yaṃ kuṇṭhatarko
+na naḥ priyaḥ|).
+    The Buddhist argument is that there are no real wholes and all wholes are
+imaginary. They reduce everything down into the minutest causal factors. According
+to them, it is the parts which illusorily appear as the whole, the individual atoms arise
+into being and die the next moment, and thus there is no such thing as “whole” (see
+Dasgupta 2004: 165). Keeping this in mind the Buddhists say that there is no
+purpose of this objective reality which Śaivas denote with the word sāmagrī. If
+the plurality of things is not together, then they do not produce the effect. Therefore
+there is no need to invent this additional thing called “collectivity” which is just an
+abstract entity. Jayaratha introduces the next verse by saying that if the “were not” of
+these things is some form of unity in addition to their merely being taken together,
+then these would be the undesirable consequences that even things far separated in
+time and place might be the cause. As Abhinavagupta goes on to say: “We believe
+just as the potter’s stick, cord, wheel, hand etc. are causes, so likewise distant and
+future entities; so we consider that these too would be causes as a necessary
+consequence of that position” (TĀ 9.32cd: samagrāś ca yathā daṇḍasūtracakra-
+karādayaḥ||dūrāś ca bhāvinaścetthaṃ hetutveneti manmahe|). To this an opponent
+argues maintaining that in this case the positive and negative concomitance of the
+distant and the future has not been established so what proof is there that the Meru
+and Karki have some bearing on the production of the pot. “If Meru or some future
+being were there, surely a pot would not arise (without those obstacles). Just as
+potter’s wheel becomes a cause at a speciﬁc place and time, likewise the Karki and
+248                                                                                M. Kaul
+
+
+Sumeru will remain in their own limit” (TĀ 9.33cd: yadi tatra bhaven merur
+bhaviṣyan vāpi kaścana||na jāyeta ghaṭo nūnaṃ tatpratyūhavyapohitaḥ|). The
+opponent poses the problem asking if what is meant is that the wheel, etc., has
+proximity in place and time or proximity in form. If that is the case, then it would be
+possible for cloth, pot or mat, etc., to be proximate. To illustrate the problem of
+proximity further a counter question is asked: if the potter in sitting on the mat which
+is present in right time and at a right place, is that also the part of the causal process?
+And in that case, there would be the undesirable consequences that they too would be
+bringing about the same single effect, i.e., pot.
+    But the Buddhists do not accept the proximity of a substance, as it would imply
+that proximity is being in a ﬁxed place and time. They too ought to be causes, i.e.,
+Meru, etc. Therefore they must accept that there is a single form whose nature is the
+fact that they are rooted within a single perceiver by means of which this universe
+can become manifest, there being the Lord who is one reality as the agent of
+conjoining and disjoining of these multiple factors (TĀV 9.34). Abhinava is show-
+ing here an undesirable consequence. There has to be some additional factor which
+accounts for the fact that Meru and Karki are not actually causal factors in the
+production of the pot. It is very hard for a Buddhist not to accept that the totality
+thing in the universe is the collective cause of each individual event. There is no
+dynamic force in the blind Buddhist universe of causality which privileges some
+things over others. So the argument is that we have to accept that these various
+factors which we recognize as the cause in the production of the pot are grounded in
+a single substance which is the agency of the Absolute Agent, i.e., Śiva, and that
+provides the autonomy in the act of combining and disjoining the inﬁnitely diverse
+factors of the universe, so that only some are brought together in the production of
+the pot and not Meru and Karki, even though they exist, especially from
+Sarvāstivādin point of view.
+
+
+Śiva as the Perfect Agent and His Autonomous Agency
+
+According to the non-dual Śaivas, Śiva alone being autonomous can be the agent in
+the speciﬁc conjunctions and disjunctions of these various causes (TĀ 9.35cd: tathā
+ca teṣāṃ hetūnāṃ saṃyojanaviyojane||niyate śiva evaikaḥ svatantraḥ kartṛtām
+iyāt|). The argument here is that the autonomous consciousness sees to it that only
+certain factors are relevant in the production of the pot and not others. But the
+opponent is still not satisﬁed and asks that how can Śaivas claim that Śiva is the only
+cause in every production, for in such cases as the pot, it is the potter that we see
+engaged in pot-making. The awareness of the potter in the conjoining of potter’s
+wheel, stick, etc., is nothing else but Śiva. There is no other speciﬁcity of conscious-
+ness. Consciousness “is” consciousness (TĀ 9.36cd: kumbhakārasya yā saṃvit
+cakradaṇḍādiyojane||śiva eva hi sā yasmāt saṃvidaḥ kā viśiṣṭatā|). If the awareness
+of the potter is as it were because of the manifestation of circumscription, then one
+must count it among the causal factors like potter’s stick, wheel, etc. (TĀ 9.37cd:
+kaumbhakārī tu saṃvittir avacchedāvabhāsanāt||bhinnakalpā yadi kṣepyā
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                         249
+
+
+daṇḍacakrādimadhyataḥ|). The awareness of the potter is limited, but fully
+expanded consciousness is not, because it is not circumscribed by time, place, and
+form and is of the nature of absolute non-duality.
+    Jayaratha provides a gist of the whole discussion saying that like a potter’s stick,
+etc., this is just a concomitant cause. The consciousness of the potter when seen from
+the point of view of contracted nature becomes just as it were another factor in the
+causal process. We have to have a conscious potter in order to produce a pot. But the
+fact that the consciousness is Śiva is the reason that the potter is not the immediate
+agent. The direct agent is Śiva. Just as consciousness that is Śiva projects its
+contraction itself and that contraction becomes a concomitant cause in the produc-
+tion of a pot, so it has been established that it is Śiva that is the agent in every cause.
+In the fashion of every single entity, Śiva is embodied entirely as the universal agent.
+Even the individual’s false notion that an individual itself is an agent is the action of
+the Lord (TĀ 9.38cd: tasmād ekaikanirmāṇe śivo viśvaikavigrahaḥ||karteti puṃsaḥ
+kartṛtvābhimāno’pi vibhoḥ kṛtiḥ|). Here Jayaratha asks his opponent if actually Śiva
+alone is totally impersonal dynamic agent and its essential property is being identical
+with consciousness, then how is it that the potter thinks, even if he is in the same
+category as the pot and other factors of the production of the pot, that “I made this”
+(yan mayedaṃ kṛtam). And Jayaratha‘s answer on behalf of Śaivas follows that the
+notion that a potter is the agent has been established thus by the power of the causal
+necessity which itself pertains to Śiva. Indeed there is no plurality of selves in the
+non-dual Śaivism except that it is consciousness alone behaving spontaneously.
+    Abhinava justiﬁes that Śiva is the most competent agent of his creation (TĀ 9.8ab:
+vastutaḥ sarvabhāvānām karteśānaḥ paraḥ śivaḥ|) and maintains that the principle of
+causal relations which he is going to explain is projected forth by the will of Śiva (TĀ
+9.7cd: kāryakāraṇabhāvo yaḥ śivecchāparikalpitaḥ|). The autonomy of Śiva is that it
+modiﬁes individual consciousness on many different levels. It is always grounded in
+self-awareness, and that self-awareness is perennially present. There is no differenti-
+ation in that, and it is always the same dynamic force which is perceived as just
+conscious, and it freely manifests its own contraction.
+
+
+Conclusion
+
+Either through his vast commentaries on the Pratyabhijñā literature or through his
+original treatises like the Tantrāloka, Abhinavagupta reiterates the crucial point
+having demonstrated the autonomy of Śiva as the true agency of consciousness.
+He maintains that self-perception is indeed a process of self-recognition which leads
+to the elimination of impurity (mala) or incompleteness of knowledge (apūrṇa-
+jñāna) and thus to liberation. Abhinava’s metaphysics is indeed rooted in the Krama
+system in the kind of inchoate form and he is simply rationalising this and trying to
+direct the same kind of the path to expand the awareness through intellectual inquiry
+which brings one to suddenly see to intuit something about the consciousness. That
+intuition is the recognition of Śiva, and it is the same fundamental intuition that is
+also being pointed out in the philosophical principle of Pratyabhijñā. In fact, he is
+250                                                                                        M. Kaul
+
+
+pursuing his own intellectual pursuit in redeﬁning the theory of causality in the light
+of non-dual Śaiva metaphysics. And this he achieves by making the Buddhist’s
+theory of causality a target. While the principle of causality is inherently dependent
+on the binary of cause and effect, the major philosophical project of Abhinavagupta
+is to eliminate the duality of binary and present it as a principle that is invariably
+concomitant to the unitary cognition of the binary, i.e., the manifestation of the
+binary is singular.
+    As far as the unique contribution of Abhinavagupta to the theory of causality is
+concerned, it must be said that he is mostly basing his premise on the philosophical
+principles laid down by his grand teach Utpaladeva primarily in his ĪPK, ĪPvṛtti, and
+ĪPvivṛti and also in his other shorter but seminal works like the I¯śvarasiddhi (see
+Ratié 2015) and the Ajaḍapramātṛsiddhi (see Lawrence 2009). What, however,
+remains a desideratum is how in the TĀ, Abhinavagupta executes and appropriates
+the theory of causality in illustrating the causal relationship between the 36 ontic
+realities (tattvas). While it might sound illogical or unreasonable to make statements
+like “everything is consciousness” or “both cause and effect are rooted in conscious-
+ness,” yet as this paper attempts to illustrates, Abhinavagupta makes no judgements
+or claims without offering any concrete arguments in favor of his philosophical
+position. He very carefully crafts his own philosophical stance while targeting other
+dominant philosophical positions on causality, mainly Buddhists, while at the same
+time critically evaluating their view-points and indirectly also using their philosoph-
+ical tools to strengthen his own doctrinal standpoint. This paper should by no means
+be considered as a rigorous study of causality in Abhinavagupta. However, the
+context of causality has only been used to establish the point how Abhinavagupta
+successfully created a set of canonical texts like the TĀ that even though were meant
+to serve as a Trika paddhati or a ritual manual, yet they did also serve as an excellent
+example of how he practiced the art of philosophical rationalization by employing
+reason (yukti) to the revealed scripture (āgama).
+    Note: All translations of the TĀ and TĀV in this chapter are my own, unless
+indicated otherwise. Readers may also consult the translations by Gnoli (1999) into
+Italian and both Miśra (1994) and Chaturvedi (2002) into Hindi.
+
+
+
+References
+
+Primary Sources
+
+I¯śvarapratyabhijñākārikāvṛtti of Utpaladeva. See Torella 2002.
+I¯śvarapratyabhijñāvimarśinī of Abhinavagupta, edited by Paṇḍit Mukunda Rama Shāstrī and
+     Paṇḍit Madhusūdan Kaul Shāstrī, KSTS 22, 33, Bombay 1918, 1921.
+I¯śvarapratyabhijñāvivṛtivimarśinī of Abhinavagupta, edited by Paṇḍit Madhusūdan Kaul Shāstrī,
+     KSTS 60, 62, 65, Bombay 1938–1943.
+Madhyamakaśāstra of Nāgārjuna with the Commentary: Prasannapadā by Candrakīrti, ed. Dr.
+     P.L. Vaidya. Buddhist Sanskrit texts no. 10. Darbhanga: The Mithala Institute of Post Graduate
+     Studies and Research in Sanskrit Learning. 1960.
+Mālinī vijayottaratantra, edited by Paṇḍit Madhusūdan Kaul Shāstrī, KSTS 37, Bombay 1922.
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                                    251
+
+Pratyabhijñā Hṛdaya being a summary of the doctrines of the Advaita Shaiva philosophy of
+    Kashmir by Ksemaraja, edited by J.C. Chatterji, KSTS no. 3, 1911.
+Śivadṛṣṭi of Somānanda with the vṛtti by Utpaladeva, edited by Paṇḍit Madhusūdan Kaul Shāstrī,
+    KSTS 54, Srinagar 1934.
+Śivasūtravārttika of Varadarāja, edited by Paṇḍit Madhusūdan Kaul Shāstrī, KSTS 43, Śrīnagar
+    1925.
+Śivasūtravimarśinī of Kṣemarāja, edited by J.C. Chatterji, KSTS 1, Śrīnagar 1911.
+Tantrāloka of Abhinavagupta, edited by Paṇḍit Mukunda Rama Shāstrī and Paṇḍit Madhusūdan
+    Kaul Shāstrī, 12 vols., Kashmir series of texts and studies 23, 28, 29, 30, 35, 36, 41, 47, 52, 57,
+    58, 59, Srinagar 1918–1938.
+Tantrālokaviveka of Jayaratha. See under Tantrāloka.
+Tantrasāra of Abhinavagupta, edited by Paṇḍit Mukunda Rama Shāstrī, KSTS 17, Srinagar, 1918.
+
+
+
+Secondary Sources
+Acharya, Diwakar. 2014. On the Śaiva concept of innate impurity (mala) and the function of the rite
+   of initiation. Journal of Indian Philosophy 42: 9–25.
+Allen, K.M. 2003. Causality in Kashmiri Śaivism: A translation and study of Abhinavagupta’s
+   Tantrāloka chapter nine verses 1–49 and Jayaratha’s commentary. Unpublished MA thesis, The
+   University of Texas at Austin.
+Allen, Keith. 2011. Being known according to Abhinavagupta. A doctoral thesis, University of
+   Oxford.
+Brunner, Hélène. 1992. The four pādas of Śaivāgamas. In Dr. S.S. Janaki felicitation volume.
+   Journal of Oriental Research 56–57: 260–278.
+Chaturvedi, Radheshyam. 2002. Śrī tantrālokaḥ (part third) [8–10 Āhnika], Vidyabhawan
+   Prachyavidya Granthamala 120. Varanasi: Chowkhamba Vidyabhawan.
+Dasgupta, Surendranath. 2004. A history of Indian philosophy. Vol. I. Delhi: MLBD. (1st edition,
+   1922).
+Dwivedi, Vrajavallabha. 2000. Tantrāgamī ya Dharma Darśan [in Hindi], vol. I. Varanasi: Shaiva
+   Bharati Shodha Pratishthanam.
+Dwivedi, Vrajavallabha. 2001. Tantrāgamī ya Dharma Darśan [in Hindi], vol. II. Varanasi: Shaiva
+   Bharati Shodha Pratishthanam.
+Dyczkowski, Mark S.G. 1987. The doctrine of vibration: An analysis of doctrine and practices of
+   Kashmir Shaivism. Albany: State University of New York Press.
+Dyczkowski, M.S.G. Trans. 1992a. The Stanzas on Vibration: The Spandakārikā with four com-
+   mentaries: The Spandasaṃdoha by Kṣemarāja; the Spandavṛtti by Kallaṭabhaṭṭa; the
+   Spandavivṛti by Rājānaka Rāma; [and] the Spandapradī pikā by Bhagavadutpala. Albany:
+   State University of New York Press.
+Dyczkowski, Mark S.G. 1992b. The aphorisms of Śiva: The Śiva Sūtras with Bhāskara’s commen-
+   tary, the Vārttika. Albany: SUNY Press.
+Gnoli, Raniero. 1999. Abhinavagupta, Luce dei Tantra (Tantrāloka), Biblioteca Orientale 4. Milan:
+   Adelphi Edizioni.
+Goodall, Dominic. 1998. Bhaṭṭa Rāmakaṇṭha’s commentary on the Kiraṇatantra, vol. 1: Chapters
+   1–6. Critical edition and annotated translation (Publications du Département d’Indologie; 86.1).
+   Pondicherry: Institut Français de Pondichéry/École Française d’Extrême-Orient.
+Gupta, Bina. 2009. Reason and experience in Indian philosophy, xii + 305. New Delhi: Indian
+   Council of Philosophical Research.
+Gurtu, Nilakanth. 1981. Spandakārikā Śrī bhaṭṭakallaṭa-vṛtti-sahitā (Hindi translation). Delhi:
+   MLBD.
+Jha, V.N. 2008. Jayanta’s interpretation of Pāṇini 1.4.42. In Linguistic traditions of Kashmir: Essays
+   in memory of Paṇḍit Dinanath Yaksha, ed. Mrinal Kaul and Ashok Aklujkar, 399–409. Delhi:
+   D.K. Printworld.
+252                                                                                        M. Kaul
+
+
+Kaul, Mrinal. 2018. Ontological hierarchy in the Tantrāloka of Abhinavagupta. In
+   Tantrapuṣpāñjali: Tantric traditions and philosophy of Kashmir: Studies in memory of Pandit
+   H.N. Chakravarty, ed. Bettina Sharada Bäumer and Hamsa Stainton, 240–270. New Delhi:
+   Indira Gandhi Centre for the Arts and Aryan Books International.
+Kaul, Mrinal. 2019. Abhinavagupta on reﬂection (Pratibimba) in the Tantrāloka. Journal of Indian
+   Philosophy. https://doi.org/10.1007/s10781-019-09414-0.
+Kaw, R.K. 1967. The doctrine of recognition: A study of its origin and development and place in
+   Indian and Western systems of philosophy. Hoshiarpur: Viśveśvarananda Institute.
+Krasser, H. 2001. On the dates and works of Śaṇkaranandana. In Le Parole e i Marmi, Studi in
+   onore di Raniero Gnoli nel suo 70 compleanno, 2 vols, Serie Oriental Roma, ed. R. Torella,
+   489–508. Roma: IsIAO.
+Lawrence, David P. 1998. The mythico-ritual syntax of omnipotence. Philosophy East and West
+   48 (4): 592–622.
+Lawrence, David P. 2000. Rediscovering god with transcendental argument: A contemporary
+   interpretation of monistic Kashmiri Śaiva philosophy, Sri Garib Das oriental series no. 252.
+   Delhi: Sri Satguru Publications.
+Lawrence, David P. 2008. Abhinavagupta’s philosophical hermeneutics of grammatical persons.
+   Journal of Hindu Studies 1 (1–2): 11–25.
+Lawrence, David P. 2009. Proof of a sentient knower: Utpaladeva’s Ajaḍapramātṛsiddhi with the
+   Vṛtti of Harabhatta Shastri. Journal of Indian Philosophy 37: Article number: 627.
+Lawrence, David P. 2014. The linguistics and cosmology of agency in nondual Kashmiri Śaiva
+   thought. In Free will, agency, and selfhood in Indian philosophy, ed. Matthew R. Dasti and
+   Edwin F. Bryant. Oxford: Oxford University Press.
+Matilal, Bimlal Krishna. 1986. Perception: An essay on classical Indian theories of knowledge.
+   Oxford: Clarendon Press.
+Matilal, Bimal Krishna. 1998. In The character of logic in India, ed. Jonardon Ganeri and
+   Heeraman Tiwari. New York: SUNY Press.
+Miśra, Paramahaṃsa. Ed. and Trans. 1994. Śrī Tantrālokaḥ vyākhyādvayopetaḥ [tṛtī yo bhāgaḥ].
+   Vārāṇasī: Saṃpūrnānanda Saṃskṛta Viśvavidyālaya.
+Moriyama, Shinya. 2016. A note on the Sāṅkhya theory of causation in Utpaladeva’s Īśvarasiddhi.
+   In Around Abhinavagupta: Aspects of the intellectual history of Kashmir from the ninth to the
+   eleventh century, ed. E. Franco and I. Ratié, 287–297. Berlin: LIT Verlag.
+Muller-Ortega, Paul. 2005. “Tarko yogāṅgam uttamam”: On subtle knowledge and the reﬁnement
+   of thought in Abhinavagupta’s liberative tantric method. In Theory and practice of yoga essays
+   in honour of Gerald James Larson, ed. Knut A. Jacobsen, 181–212. Leiden: Brill.
+Murti, T.R.V. 2016. The central philosophy of Buddhism: A study of the Mādhyamika system. Delhi:
+   MLBD.
+Nemec, John. 2011. The ubiquitous Śiva. Somānanda’s Śivadṛṣṭi and his tantric interlocutors.
+   Oxford/New York: Oxford University Press.
+Nemec, John. 2012. The two Pratyabhijñā theories of error. Journal of Indian Philosophy 40 (2):
+   225–257.
+Pandey, Kanti Chandra. 1963. Abhinavagupta. An historical and philosophical study, Chowkhamba
+   Sanskrit series. Vol. 1. 2nd ed. Varanasi: Chowkhamba Sanskrit Series Ofﬁce. (Revised and
+   enlarged; ﬁrst edition 1936, revised 1951, reprint 2003).
+Pandey, Kanti Chandra. 1986. An outline of history of Śaiva philosophy. Delhi: MLBD. (First
+   published in The princess of Whales Saraswati Bhavan text no. 84, 1954).
+Preisendanz, Karin. 2009. Logic, debate, and epistemology in ancient Indian medical science.
+   Indian Journal of History of Science 44 (2): 261–312.
+Rastogi, Navjivan. 1986. Theory of error according to Abhinavagupta. Journal of Indian Philos-
+   ophy 14: 1–33.
+Rastogi, Navjivan. 1992. The yogic disciplines in the monistic Śaiva tantric traditions of Kashmir:
+   Threefold, fourfold, and six-limbed. In Ritual and speculation in early Tantrism. Studies in
+   honour of André Padoux, ed. T. Goudriaan, 247–280. Albany: State University of New York
+   Press.
+11   Causal Reasoning in the Trika Philosophy of Abhinavagupta                                    253
+
+Rastogi, Navjivan. (2006) Bhūmikā (introduction) In Tāntrik Śivādvayavāda main Icchā,
+   Svātantrya tathā Niyamanavāda – Free will and determinism (in tantric Śaiva monism) by
+   Meera Rastogi, Classical Publishing House, New Delhi, pp. v-xxxvi.
+Rastogi, Navjivan. 2009. Vāk as Pratyavamarśa: Bhartṛhari from Abhinavan perspective. In
+   Bhartṛhari: Language, thought and reality, ed. Mithilesh Chaturvedi, 301–342. Delhi: MLBD.
+Rastogi, Navjivan. 2012. Abhinavagupta kā tantrāgamī ya darśan [in Hindi]. Sāgar:
+   Viśvavidyālaya Prakāśan.
+Rastogi, Navjivan. 2013. Kāśmī ra śivādvayavāda meṃ pramāṇa-cintana [in Hindi]. L.D. Sanskrit
+   series: 156. Ahmedabad: L.D. Institute of Indology.
+Ratié, Isabelle. 2007. Otherness in the Pratyabhijña philosophy. Journal of Indian Philosophy
+   35 (4): 313–370.
+Ratié, Isabelle. 2009. Remarks on compassion and altruism in the Pratyabhijñā philosophy. Journal
+   of Indian Philosophy 37 (4): 349–366.
+Ratié, Isabelle. 2010a. The Dreamer and the Yogin: On the relationship between Buddhist and Śaiva
+   idealisms. Bulletin of the School of Oriental and African Studies 73 (3): 437–478.
+Ratié, Isabelle. 2010b. A ﬁve-trunked, four-tusked elephant is running in the sky – How free is
+   imagination according to Utpaladeva and Abhinavagupta? Études Asiatiques/Asiatische Studien
+   64: 341–385.
+Ratié, Isabelle. 2011. Can one prove that something exists beyond consciousness? A Śaiva criticism of
+   the Sautrāntika inference of external objects. Journal of Indian Philosophy 39 (4–5): 479–501.
+Ratié, Isabelle. 2013. On reason and scripture in the Pratyabhijñā. In Scriptural authority, reason
+   and action. Proceedings of a panel at the 14th world Sanskrit conference, Kyoto, Sept. 1–5,
+   2009, ed. Vincent Eltschinger, and Helmut Krasser, 375–454. Wien.
+Ratié, Isabelle. 2014a. A Śaiva interpretation of the Satkāryavaāda: The Sāṃkhya notion of
+   Abhivyakti and its transformation in the Pratyabhijñā treatise. Journal of Indian Philosophy
+   42: 127–172.
+Ratié, Isabelle. 2014b. On the distinction between epistemic and metaphysical Buddhist idealism: A
+   Śaiva perspective. Journal of Indian Philosophy 42, 353–375. https://doi.org/10.1007/s10781-
+   013-9191-6
+Ratié, Isabelle. 2015. Utpaladeva’s proof of god: On the purpose of the Īśvarasiddhi. In Utpaladeva,
+   philosopher of recognition, ed. B. Bäumer and R. Torella, 254–337. Delhi: D.K. Printworld.
+Ratié, Isabelle. 2017a. An Indian debate on optical reﬂections and its metaphysical implications:
+   Śaiva nondualism and the mirror of consciousness. In Indian epistemology and metaphysics,
+   ed. J. Tuske, 207–240. London: Bloomsbury.
+Ratié, Isabelle. 2017b. Scholasticism and philosophy: On the relationship between reason and
+   revelation in India. ThéoRèmes 11, mis en ligne le 25 septembre 2017, consulté le 08 mars 2019.
+Ratié, Isabelle. 2017c. In search of Utpaladeva’s lost Vivṛti on the Pratyabhijñā treatise: A report on
+   the latest discoveries (with the Vivṛti on the end of chapter 1.8). Journal of Indian Philosophy
+   45: 163–189.
+Sanderson, Alexis. 1985. Purity and power among the Brahmans of Kashmir. In The category of the
+   person. Anthropology, philosophy, history, ed. M. Carrithers, S. Collins, and S. Lukes, 190–216.
+   Cambridge: Cambridge University Press.
+Sanderson, Alexis. 1988. Śaivism and the tantric traditions. In The world’s religions,
+   ed. S. Sutherland, L. Houlden, P. Clarke, and F. Hardy, 660–704. London: Routledge.
+   (Reprinted in The world’s religions. The religions of Asia, ed. F. Hardy, 128–172. London:
+   Routledge, 1990).
+Sanderson, Alexis. 1990. The visualisation of the deities in the Trika. In L’Image Divine: Culte et
+   Méditation dans l’Hindouisme, ed. A. Padoux, 31–88. Paris: Editions du Centre National de la
+   Recherche Scientiﬁque.
+Sanderson, Alexis. 1992. The doctrine of the Mālinīvijayottaratantra. In Ritual and speculation in
+   early Tantrism. Studies in honour of André Padoux, ed. T. Goudriaan, 281–312. Albany: State
+   University of New York Press.
+Sanderson, Alexis. 1995. Meaning in Tantic ritual. In Essais sur le Rituel III: Colloque du
+   Centenaire de la Section des Sciences religieuses de l’Ecole Pratique des Hautes Etudes,
+254                                                                                           M. Kaul
+
+
+   Bibliothéque de l’Ecole des Hauts Etudes, Sciences Religieuses, ed. A.-M. Blondeau and
+   K. Schipper, 15–95. Louvain-Paris: Peeters.
+Sanderson, Alexis. 2007a. The Śaiva exegesis of Kashmir. In Mélanges tantriques à la mémoire
+   d’Hélène Brunner. Tantric studies in memory of Hélène Brunner, ed. Dominic Goodall, and
+   André Padoux, 231–442 and bibliography, 551–582. Collection Indologie no. 106, Pondicherry:
+   IFP/EFEO.
+Sanderson, Alexis. 2007b. Swami Lakshman Joo and his place in the Kashmirian Śaiva tradition. In
+   Saṁvidullāsaḥ manifestation of divine consciousness Swami Lakshman Joo saint-scholar of
+   Kashmir Śaivism, ed. Bettina Bäumer and Sarla Kumar, 93–126. New Delhi: D.K. Printworld.
+Sanderson, Alexis. 2009. Kashmir. In Brill’s encyclopedia of Hinduism. Volume one: Regions,
+   pilgrimage, deities, ed. Knut A. Jacobsen. Leiden/Boston: Brill. (Handbuch der Orientalistik.
+   Zweite Abteilung, Indien 22: 99–126).
+Sanderson, Alexis. 2014. The Śaiva literature. Journal of Indological Studies 24–25 (2012–
+   2013):1–113.
+Singh, Jaideva. 1979. Śiva Sūtras – The yoga of supreme identity. Delhi: MLBD.
+Singh, Jaideva. 1980. Spandakārikā – The divine creative pulsation. Delhi: MLBD.
+Singh, Jaideva. 1988. Parātriśikāvivaraṇa, the secret of tantric mysticism. English translation with
+   notes and running exposition, ed. Bettina Bäumer. Delhi: MLBD.
+Stcherbatsky, F.Th. 1962. Buddhist logic, 2 vols. New York: Dover. (Reprint).
+Torella, Raffaele. 1992. The Pratyabhijñā and the logical–epistemological school of Buddhism. In
+   Ritual and speculation in early Tantrism. Studies in honour of André Padoux, ed. T. Goudriaan,
+   327–345. Albany: State University of New York Press.
+Torella, Raffaele. 1999. Sāṃkhya as Sāmānyaśāstra. Asiatische Studien/Études Asiatiques 53: 553–562.
+Torella, Raffaele. 2002. The I¯śvarapratyabhijñākārikā of Utpaladeva with the author’s Vṛtti.
+   Critical edition and annotated translation. Delhi: Motilal Banarsidass. (1st edn appeared as
+   Serie Orientale Roma 71. Rome: IsMEO, 1994).
+Torella, Raffaele. 2008. From an adversary to the main ally: The place of Bhartṛhari in the
+   Kahmirian Śaiva Advaita. In Linguistic traditions of Kashmir: Essays in memory of Paṇḍit
+   Dinanath Yaksha, ed. Mrinal Kaul and Ashok Aklujkar, 507–524. Delhi: D.K. Printworld.
+Torella, Raffaele. 2013. Inherited cognitions: Prasiddhi, āgama, pratibhā, śabdana – Bhartṛhari,
+   Utpaladeva, Abhinavagupta, Kumārila and Dharmakīrti in Dialogue. In Scriptural authority,
+   reason and action. Proceedings of a panel at the 14th world Sanskrit conference, Kyoto, Sept.
+   1–5, 2009, ed. Vincent Eltschinger, and Helmut Krasser, 455–480. Wien.
+Torella, Raffaele. 2014. Utpaladeva’s lost Vivṛti on the I¯śvarapratyabhijñākārikā. Journal of Indian
+   Philosophy 42: 115–126. https://doi.org/10.1007/s10781-013-9213-4.
+Torella, Raffaele. 2015. Purity and impurity in non-dualistic Śaiva Tantrism. In Proceedings of the
+   international conference “religions: Fields of research, method and perspectives.” Studia
+   Religiologica 48(2):101–115.
+Torella, Raffaele. 2017. Śaiva non-dualism. In Indian epistemology and metaphysics, ed. J. Tuske,
+   183–205. London: Bloomsbury.
+Vasudeva, Somadeva. 2005. The yoga of the Mālinī vijayottaratantra. Chapters 1–4, 7, 11–17.
+   Critical edition, translation and notes (Collection Indologie Pondichéry; 97). Pondicherry:
+   Institut Français de Pondichéry/École française d’Extrême-Orient.
+Wallis, Christopher. 2007. The descent of power: Possession, mysticism, and initiation in the Śaiva
+   theology of Abhinavagupta. Journal of Indian Philosophy 36 (2): 248–249.
+Watson, Alex. 2006. The self’s awareness of itself – Bhaṭṭa Rāmakaṇṭha’s arguments against the
+   Buddhist doctrine of non-self. Publication of the De Nobili Research Library, 32, Vienna.
+

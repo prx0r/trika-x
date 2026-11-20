@@ -1,0 +1,136 @@
+{
+  "format": "essay-gold-template/1",
+  "derived_from": "kaul-causal-reasoning-2022",
+  "genre": "argumentative philological essay (handbook chapter)",
+  "measured": {
+    "words": 15452,
+    "body_words": 12788,
+    "sections": 9,
+    "citations_narrative": 59,
+    "citations_parenthetical": 13,
+    "verse_refs": 59,
+    "sanskrit_versified_quotes": 25,
+    "objection_moves": 40,
+    "reply_moves": 48,
+    "questions": 35,
+    "explicit_author_claims": 4
+  },
+  "shape": [
+    {
+      "role": "introduction",
+      "title": "Introduction",
+      "words": 1057,
+      "share": 0.083,
+      "paragraphs": 4,
+      "objection_moves": 1,
+      "reply_moves": 1,
+      "verse_refs": 0
+    },
+    {
+      "role": "history",
+      "title": "Historical Context",
+      "words": 1276,
+      "share": 0.1,
+      "paragraphs": 4,
+      "objection_moves": 1,
+      "reply_moves": 6,
+      "verse_refs": 4
+    },
+    {
+      "role": "method",
+      "title": "Philosophical Rationalization of Tantric Sources",
+      "words": 2755,
+      "share": 0.215,
+      "paragraphs": 8,
+      "objection_moves": 6,
+      "reply_moves": 7,
+      "verse_refs": 9
+    },
+    {
+      "role": "interlocutor",
+      "title": "Encountering Buddhists",
+      "words": 2107,
+      "share": 0.165,
+      "paragraphs": 7,
+      "objection_moves": 8,
+      "reply_moves": 8,
+      "verse_refs": 10
+    },
+    {
+      "role": "argument",
+      "title": "The Seed and the Sprout",
+      "words": 1680,
+      "share": 0.131,
+      "paragraphs": 6,
+      "objection_moves": 11,
+      "reply_moves": 13,
+      "verse_refs": 13
+    },
+    {
+      "role": "case",
+      "title": "Meditator’s Desire as Cause",
+      "words": 1188,
+      "share": 0.093,
+      "paragraphs": 3,
+      "objection_moves": 2,
+      "reply_moves": 1,
+      "verse_refs": 10
+    },
+    {
+      "role": "argument",
+      "title": "Complex Causality of Totality Factor",
+      "words": 1573,
+      "share": 0.123,
+      "paragraphs": 4,
+      "objection_moves": 7,
+      "reply_moves": 9,
+      "verse_refs": 7
+    },
+    {
+      "role": "thesis",
+      "title": "Śiva as the Perfect Agent and His Autonomous Agency",
+      "words": 614,
+      "share": 0.048,
+      "paragraphs": 2,
+      "objection_moves": 2,
+      "reply_moves": 2,
+      "verse_refs": 6
+    },
+    {
+      "role": "conclusion",
+      "title": "Conclusion",
+      "words": 538,
+      "share": 0.042,
+      "paragraphs": 3,
+      "objection_moves": 0,
+      "reply_moves": 1,
+      "verse_refs": 0
+    }
+  ],
+  "move_grammar": [
+    "exposition: state the source position in its own terms",
+    "objection: give the rival the strongest form of their argument",
+    "reply: answer from the primary author/commentator with a cited verse",
+    "consequence: draw what follows for the thesis",
+    "repeat per section; never announce the thesis before it is earned"
+  ],
+  "verse_protocol": [
+    "cite verse reference in the running text (TA 9.13)",
+    "quote the Sanskrit with the reference appended",
+    "give a translation in parentheses, marking whose it is",
+    "report Jayaratha's gloss where it changes the reading",
+    "then analyse: what the verse does to the opponent's position"
+  ],
+  "prose_ratio": {
+    "exposition": "~40% before the close reading (context + method)",
+    "exegesis": "~35% close reading of primary verses",
+    "synthesis": "~10% (totality/agency)",
+    "conclusion": "~5%, states the contribution and the desideratum",
+    "front_matter": "abstract + keywords + abbreviations, separate from body"
+  },
+  "honesty": [
+    "roles are heuristic, read against text",
+    "FORM only: no claim of truth, no claim the paper's readings are correct",
+    "Sanskrit and translations remain the author's; cite the DOI"
+  ]
+}

@@ -1,0 +1,182 @@
+{
+ "format": "essaygen-receipt/1",
+ "essay": "essay-being-and-consciousness-aquinas-and-abhinavagupt-2026-11-15-045507",
+ "mode": "comparative",
+ "date": "2026-11-15",
+ "status": "MACHINE-COMPILED",
+ "title": "Being and Consciousness: Aquinas and Abhinavagupta on the Primary Cause",
+ "work": "tantrasara-a08",
+ "chunk": "tsa08-p01",
+ "verses_supplied": [
+  "tsa-a08-v01",
+  "tsa-a08-v02",
+  "tsa-a08-v03",
+  "tsa-a08-v04",
+  "tsa-a08-v05",
+  "tsa-a08-v06",
+  "tsa-a08-v07",
+  "tsa-a08-v08",
+  "tsa-a08-v09",
+  "tsa-a08-v10",
+  "tsa-a08-v11",
+  "tsa-a08-v12",
+  "tsa-a08-v13",
+  "tsa-a08-v14",
+  "tsa-a08-v15",
+  "tsa-a08-v16",
+  "tsa-a08-v17",
+  "tsa-a08-v18",
+  "tsa-a08-v19",
+  "tsa-a08-v20",
+  "tsa-a08-v21",
+  "tsa-a08-v22"
+ ],
+ "verses_cited": [
+  "tsa-a08-v02",
+  "tsa-a08-v05"
+ ],
+ "verse_citation_coverage": 0.091,
+ "model": "muse-spark-1.3-contributor",
+ "fallback_used": false,
+ "usage": {
+  "input_tokens": 20457,
+  "output_tokens": 16000,
+  "total_tokens": 36457,
+  "input_tokens_details": {
+   "cached_tokens": 0
+  },
+  "output_tokens_details": {
+   "reasoning_tokens": 15896
+  },
+  "cost": 0,
+  "opencode": {
+   "billing_source": "go",
+   "list_cost": 0.0052457,
+   "allowance": 0.0052457,
+   "tokens": {
+    "input": 20457,
+    "output": 16000,
+    "reasoning": 15896,
+    "cache_read": 0,
+    "cache_write_5m": 0,
+    "cache_write_1h": 0
+   }
+  }
+ },
+ "prompt_sha256": "db087b819b8cbfe9ee7b8140ceb834f2e2961338d5f5fc9594938d55bbcad2cd",
+ "ground_sha256": "722e55e4770d7bccf92d292e965a676200c06e1e50d5eb3fc9cfb8acede86700",
+ "external_sources": [
+  {
+   "citation": "ST I, q.2, a.3",
+   "title": "Whether God exists?",
+   "text_sha256": "33682d38ebefdb6295ce4e914f505f3dfbd0e1fe5cd7923aece075e27af99668"
+  },
+  {
+   "citation": "ST I, q.3, a.4",
+   "title": "Whether essence and existence are the same in God?",
+   "text_sha256": "4ad4c879dbfd3bbeef908ae1d43e2b20d056a359d1d1e9c91dd7502626a2afe4"
+  },
+  {
+   "citation": "ST I, q.4, a.1",
+   "title": "Whether God is perfect?",
+   "text_sha256": "f3745df2ef14a886d30d1d72388626c01a096e04f252674a139d10f3ba151257"
+  },
+  {
+   "citation": "ST I, q.8, a.1",
+   "title": "Whether God is in all things?",
+   "text_sha256": "aabfd513e78200a24a553482323243e7d14444793024573b24739575d750f145"
+  },
+  {
+   "citation": "ST I, q.13, a.5",
+   "title": "Whether what is said of God and of creatures is univocally predicated of them?",
+   "text_sha256": "600337fb6b71d158d8359c88969a2afe3a969a12fbbf58a2d5070581a4cc21eb"
+  },
+  {
+   "citation": "ST I, q.44, a.1",
+   "title": "Whether it is necessary that every being be created by God?",
+   "text_sha256": "135625434eb7719dda96cd1fcce9f96f6245b77623c20c14897e6d62fc07c446"
+  },
+  {
+   "citation": "ST I, q.44, a.2",
+   "title": "Whether primary matter is created by God?",
+   "text_sha256": "3d1799184f9823003d924be0005f3b617576fdb38852ecc1f74151bc739976cb"
+  },
+  {
+   "citation": "ST I, q.45, a.1",
+   "title": "Whether to create is to make something from nothing?",
+   "text_sha256": "7683e93ab1196fa45a154bcf77cc3abbb0e93b3a3794a5d3925fda818e14bf9e"
+  },
+  {
+   "citation": "ST I, q.45, a.2",
+   "title": "Whether God can create anything?",
+   "text_sha256": "e0db4054ac35ca48bde1fa3213f94b4b3a7f15c17f186450d49e90859579fdd7"
+  },
+  {
+   "citation": "ST I, q.46, a.1",
+   "title": "Whether the universe of creatures always existed?",
+   "text_sha256": "8c0ec279fb782ee583e7090f8e333c57f52ea01aefe94b0f25d9d15996ad1166"
+  },
+  {
+   "citation": "ST I, q.50, a.1",
+   "title": "Whether an angel is altogether incorporeal?",
+   "text_sha256": "d6b5140710df5c213676a4ee720e1de583e692eeb8653dbdcfed1fa7f654c6f4"
+  },
+  {
+   "citation": "ST I, q.50, a.2",
+   "title": "Whether an angel is composed of matter and form?",
+   "text_sha256": "8718f4e04edc16a547f0657ff258fed24752ff79abcadd9f53f68ca9eef686a0"
+  },
+  {
+   "citation": "ST I, q.51, a.1",
+   "title": "Whether the angels have bodies naturally united to them?",
+   "text_sha256": "e1318fd1eb20d3f8a961bf4c28a03a8ca3333706faac596f37e0290b7717507d"
+  },
+  {
+   "citation": "ST I, q.54, a.1",
+   "title": "Whether an angel's act of understanding is his substance?",
+   "text_sha256": "a99d9e783269b728a848396079604517ff61a88d0cb8b88d700c88bfb1cf3d70"
+  },
+  {
+   "citation": "ST I, q.54, a.2",
+   "title": "Whether in the angel to understand is to exist?",
+   "text_sha256": "f72248c6b63893fac265ec2cd2406a048b603790801b387624753a539eee1564"
+  },
+  {
+   "citation": "ST I, q.55, a.1",
+   "title": "Whether the angels know all things by their substance?",
+   "text_sha256": "05b525b48b69b2f97769415f00a6852d67b8c00418643a2872e117955bf7e1c0"
+  },
+  {
+   "citation": "ST I, q.58, a.1",
+   "title": "Whether the angel's intellect is sometimes in potentiality, sometimes in act?",
+   "text_sha256": "f7588a555fd9e71e1e605cbedf37414fdbf70c2623b0a6fa4c6f2b7195f3c59d"
+  },
+  {
+   "citation": "ST I, q.59, a.1",
+   "title": "Whether there is will in the angels?",
+   "text_sha256": "ae084376dd70a98d87e5787e07d7ad1819327d1b9cd00182aafc7b2dcead894a"
+  },
+  {
+   "citation": "ST I, q.61, a.1",
+   "title": "Whether the angels have a cause of their existence?",
+   "text_sha256": "30469731e1f8b7941a7e5a6b6e316cc7f536bda27e41ecbdc0d5701041b6a59a"
+  },
+  {
+   "citation": "ST I, q.62, a.1",
+   "title": "Whether the angels were created in beatitude?",
+   "text_sha256": "60d15f0812d786f251328ccbb2d0c17c32eff08ec9903114c430b0e376f0dfa9"
+  },
+  {
+   "citation": "ST I, q.63, a.1",
+   "title": "Whether the evil of fault can be in the angels?",
+   "text_sha256": "ba655bfab1235388d7b34b25ef784180a970f5cdc6cb38999fa759dd35fa8271"
+  },
+  {
+   "citation": "ST I, q.64, a.1",
+   "title": "Whether the demons' intellect is darkened by privation of the knowledge of all truth?",
+   "text_sha256": "98efa4d3cc0ba8c3f806e15bc372fb997a5eaeb3f08ddef02815a319ef2cc53e"
+  }
+ ],
+ "words": 46,
+ "note": "grounded in retrieved argmap/L2/L3; prose machine-written; no human sign-off; witness UNPINNED"
+}
