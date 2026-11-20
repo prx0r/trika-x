@@ -44,7 +44,7 @@ traces for all 909 chunks (236 COMPLETE / 673 PARTIAL, every PARTIAL naming
 its gaps); two formal rungs (phr-p05, vbt-p01/p02 — 157 theorems at that
 revision, 209 now per the gate block); twins refusing, receipts exit 0/0/0); essay-derivation audit (6 essays, 0 BROKEN);
 forgery-closed essay gate + clean-checkout fixtures; MCP federation
-documented to match the surface (115 tools, machine catalog, drift gate);
+documented to match the surface (124 tools, machine catalog, drift gate);
 review packets queued; propose-loop pilot (2-family, proposal only);
 peer-review debt answered in writing; +3.1G disk reclaimed; PR #7 fully
 wired (search "PR #7" in `MASTERPLAN2.md`, `SYNERGY-CHAIN`, `STATUS.md`).

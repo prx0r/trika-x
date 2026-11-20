@@ -10,7 +10,7 @@
  override) + tests/test_federation_gateway.py (11 tests GREEN, 2026-11-08:
  five live children + local families, dead child excluded, unknown = Unknown
   tool, guide prefixes match the real surface, catalog matches live when all
-  children are up). Live surface: **115 tools / 8 families (2026-11-14)** — machine
+  children are up). Live surface: **124 tools / 8 families (2026-11-20)** — machine
  catalog `formal-trika/data/mcp-catalog.json`, regenerate with
  `tools/mcp_catalog.py --write`, gate with `--check`. Operations guide:
  `MCP-OPS.md`. Machine proposes, human disposes.

@@ -62,5 +62,5 @@ Static: tool names prefixed `formal__`, no banned action names (exact/prefix
 match, never substring — `list_published_essays` is read-only and allowed),
 schemas frozen. Live: `formal__bridge chunk:tsa08-p03` → dossier + UNPINNED;
 `formal__gaps` → same 13/154 covered set as `evidence_check`; unknown chunk →
-clean error. Machine catalog: 115 tools across 8 families (2026-11-14),
+clean error. Machine catalog: 124 tools across 8 families (2026-11-20),
 `mcp_catalog.py --check` SHARP.

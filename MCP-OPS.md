@@ -10,7 +10,7 @@ the catalog disagree, the catalog wins and this doc is stale — regenerate both
 ## 0. What exists (one paragraph)
 
 One stdio parent, `openpatala-federation` (`formal-trika/tools/federation_gateway.py`),
-multiplexes five child MCPs plus two local tool families. It exposes **115 tools
+multiplexes five child MCPs plus two local tool families. It exposes **124 tools
 across 8 families** (2026-11-14: scholar 33→41), prefix-renamed `<child>__<tool>` so nothing collides.
 Children are started as subprocesses from `formal-trika/data/federation-children.json`;
 a dead child is FailOpen (excluded, calls to it error), never fatal. The parent
@@ -146,7 +146,7 @@ python3 tools/mcp_catalog.py --check
 ```
 
 A healthy box prints: 11 tests OK; pretest GREEN (28 representative tools);
-catalog SHARP (115 tools, 8 families, 2026-11-14).
+catalog SHARP (124 tools, 8 families, 2026-11-20).
 
 ---
 
