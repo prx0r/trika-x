@@ -11,8 +11,8 @@ what it counts; nothing here implies human acceptance or deployment.*
 
 | Artifact | Status | Owner | Verify |
 |---|---|---|---|
-| `formal-trika/control/` rungs (206 theorems) + twins | IMPLEMENTED@ab5dfcc/247d897 | trika-x | `control/run.sh` + receipts |
-| `evidence_check.py` (206/155, 16/154) | IMPLEMENTED | trika-x | `evidence_check.py` |
+| `formal-trika/control/` rungs (209 theorems) + twins | IMPLEMENTED@ab5dfcc/247d897 | trika-x | `control/run.sh` + receipts |
+| `evidence_check.py` (209/155, 16/154) | IMPLEMENTED | trika-x | `evidence_check.py` |
 | `table.py` + TABLE.md + readings | IMPLEMENTED | trika-x | `table.py --check` |
 | `bridge_resolve.py` (28/154 BYTES_MATCH) | IMPLEMENTED | trika-x | `--check --tw` |
 | `axiom_audit.py` (CLEAN static) | IMPLEMENTED | trika-x | `--check` |

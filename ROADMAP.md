@@ -8,7 +8,7 @@ Each rung states the gate that marks it done. Nothing here is claimed done.*
 
 - 1034 works identified · 87 with passage ledgers · 72 gold in translation-work
 - 50 works readable on the site · 55 with a scholar projection
-- 206 Lean theorems · 16/154 chunks formalised · **909 trace bundles** published
+- 209 Lean theorems · 16/154 chunks formalised · **909 trace bundles** published
 - **0 witnesses** — nothing is witness-grade yet
 - LLM-legible: llms.txt, sitemap, robots, JSON-LD, formal registry, 909 traces
 - **Independently verifiable**: any outsider can confirm our chains with
