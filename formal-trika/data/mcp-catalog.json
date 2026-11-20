@@ -1,21 +1,21 @@
 {
  "format": "trika-mcp-catalog/1",
- "generated_at": "2026-11-14T05:44:26Z",
+ "generated_at": "2026-11-20T06:45:58Z",
  "gateway": {
   "name": "openpatala-federation",
   "version": "1",
   "title": "Openpatala federated parent",
   "instructions": "Verify first, read second, render last. Every claim here resolves to\nSanskrit bytes through a machine-checked chain \u2014 or it is labelled PARTIAL,\nnever shipped, never signed by a machine.\n\n1. openpatala__resolve {work} \u2014 is this work known? ledger + witness status. UNRESOLVED = draft-only.\n2. formal__trace {work, target} \u2014 the machine-checked chain for one chunk:\n   source bytes, translation layers, deterministic proofs, Lean theorems\n   (each compiled by pinned Lean, each with a must-fail twin + run receipt),\n   citing essays. Verdict COMPLETE/PARTIAL + named gaps; BLOCKED stays BLOCKED.\n   Go deeper: formal__evidence (theorem rows), formal__table (plain-English\n   scope notes), formal__gaps (covered vs total + the rung queue),\n   formal__runs (harness receipts), formal__axioms (audit state),\n   formal__bridge (chunk locator to edition rows; witnesses UNPINNED).\n3. scholar__passage_evidence {work, target} \u2014 read the Sanskrit + translation\n   layers: draft-translation, literal-gloss (meaning-forks live here),\n   argument-map, reading-translation, essence, register-render,\n   final-translation, song. Machine keys T1/L0/ARGMAP/L2/C1/C2/L3/L4 still\n   work everywhere; the legend is\n   trika-x/formal-trika/data/layer-names.json.\n4. scholar__audit_draft / link_claims / pushback \u2014 check a draft before a human signs. Machine report, never verdict.\n5. translation__status {work} (shastra) \u2014 registry state, proof, what the swarm is doing. Writes never push/signoff.\n6. bookfactory__* (bookfactory) \u2014 draft previews only (quote_preview); stage/inspect are gated builds; NOTHING ships via MCP.\n7. video__* (videofactory) \u2014 vf_gate/vf_triage to read state; vf_launch/vf_queue ship ONLY gated+approved renders (defaults are explicit opt-in).\n   openpatala_mcp__get_health \u2014 direct child health/counts (works, passages, witnesses).\n8. openpatala__coverage \u2014 how much of the corpus is bridged.\n\nLaws: UNRESOLVED/draft-only inputs stay draft-only. No auto-sign, auto-publish, auto-ship. Human disposes; receipts are the trail.\n"
  },
- "count": 115,
+ "count": 124,
  "families": {
   "bookfactory": 22,
   "federation": 1,
   "formal": 7,
   "openpatala": 2,
-  "openpatala_mcp": 8,
-  "scholar": 41,
-  "translation": 16,
+  "openpatala_mcp": 9,
+  "scholar": 48,
+  "translation": 17,
   "video": 18
  },
  "banned_hits": [],
@@ -311,6 +311,14 @@
    "required": []
   },
   {
+   "name": "openpatala_mcp__status",
+   "family": "openpatala_mcp",
+   "description": "[openpatala_mcp] One-call status object for a work: identity, rights, witnesses,\n        passages, formal coverage, trace verdicts, review state, provenance.\n\n ",
+   "required": [
+    "work_id"
+   ]
+  },
+  {
    "name": "scholar__add_review_annotation",
    "family": "scholar",
    "description": "[scholar] Comment on exact UTF-16 offsets in an immutable review snapshot.",
@@ -349,6 +357,22 @@
     "layer",
     "left",
     "right"
+   ]
+  },
+  {
+   "name": "scholar__concept_get",
+   "family": "scholar",
+   "description": "[scholar] Concept card: curated gloss (or stated absence), trika-x formal anchors, and passage occurrences.",
+   "required": [
+    "term"
+   ]
+  },
+  {
+   "name": "scholar__concept_search",
+   "family": "scholar",
+   "description": "[scholar] Find concept ids by term or definition words.",
+   "required": [
+    "query"
    ]
   },
   {
@@ -505,12 +529,26 @@
    "required": []
   },
   {
+   "name": "scholar__preview_read",
+   "family": "scholar",
+   "description": "[scholar] Read the UNREVIEWED machine-proposed English preview for a work (or one target), with gates, rights and provenance. Never evidence: the verified bundl",
+   "required": [
+    "work"
+   ]
+  },
+  {
    "name": "scholar__pushback",
    "family": "scholar",
    "description": "[scholar] Revision-bound candidate issues (failed quotes, uncited paragraphs, unresolved links) for author accept/reject/revise/defer. Agent report, not peer re",
    "required": [
     "text"
    ]
+  },
+  {
+   "name": "scholar__readability_status",
+   "family": "scholar",
+   "description": "[scholar] Honest catalogue of what is actually retrievable: counts and per-work status (readable / partial / preview / withheld), or one work with its full audi",
+   "required": []
   },
   {
    "name": "scholar__ref_links",
@@ -582,6 +620,14 @@
    ]
   },
   {
+   "name": "scholar__search_chunks",
+   "family": "scholar",
+   "description": "[scholar] Instant lexical search over EVERY chunk and EVERY level we hold (source,t1,l0,argmap,l2,c1,l3,l4,t1-doc,preview). Diacritic-insensitive: an ASCII quer",
+   "required": [
+    "query"
+   ]
+  },
+  {
    "name": "scholar__search_texts",
    "family": "scholar",
    "description": "[scholar] Semantic search over the gate-labeled corpus (passages, probes, essays, themes). BLOCKED English is never returned.",
@@ -593,6 +639,18 @@
    "name": "scholar__text_themes",
    "family": "scholar",
    "description": "[scholar] Themes evidence for a work or ref: labels, core claims, certificates, members.",
+   "required": []
+  },
+  {
+   "name": "scholar__topic_get",
+   "family": "scholar",
+   "description": "[scholar] Answer-first curated topic page (e.g. puryastaka = the city of eight / subtle body): thesis, tier, verbatim Sanskrit, our translation, which levels ex",
+   "required": []
+  },
+  {
+   "name": "scholar__topic_list",
+   "family": "scholar",
+   "description": "[scholar] List curated topic pages.",
    "required": []
   },
   {
@@ -661,6 +719,12 @@
    ]
   },
   {
+   "name": "translation__beam_review",
+   "family": "translation",
+   "description": "[translation] SMART-beam reviewer over DUMB drafts (bounce-only, never approves).\nReviews newest unreviewed DONE drafts against the shape+honesty checklist\n(max",
+   "required": []
+  },
+  {
    "name": "translation__concepts",
    "family": "translation",
    "description": "[translation] Grounds for hand-glossing: concept-database entry (if built) +\nfrequency-ranked MITRA senses with attestations for a Sanskrit headword.\nReturns th",
@@ -724,7 +788,7 @@
   {
    "name": "translation__supervise",
    "family": "translation",
-   "description": "[translation] Report the autonomous loop: continue.sh (registry sync + ralph\nsupervision), ralph.sh (workers + auto-review + convert + gate + push),\nwatchdog.sh",
+   "description": "[translation] Report the autonomous loop. On this box systemd unit `tal-campaign`\n(Restart=always) -> watchdog.sh is the ONE supervisor: it health-gates\n(429 pa",
    "required": []
   },
   {
