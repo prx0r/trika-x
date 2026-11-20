@@ -1623,7 +1623,10 @@
   },
   "exemptions": {
     "fin_two": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",
-    "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content)."
+    "finite_missing": "scaffold lemma for no_total_self_model (pure Fin arithmetic, no content).",
+    "kancuka_count_is_five": "SPEC roster check only: counts the five kañcuka constructors. It does not derive the count from a Sanskrit passage and makes no source claim.",
+    "density_opens_at_overmind": "SPEC roster check only: encodes the paper's native-density split at the Overmind (H0-H3 zero, H4-H6 positive). The paper is secondary scholarship; the competing Saiva placement is left open.",
+    "five_movements": "SPEC roster check only: counts the five movement constructors from the paper's section 7.2. No textual entailment is claimed."
   },
   "provenance": "Every formal claim resolves to chunk locators (translation-work passages.jsonl) and/or R-sources (gochema docs) and/or lived decodes (nibbanahelp play/). Statuses: VERIFIED-QUOTE (read this session) / ARGMAP-PINNED (argmap passage id) / UNPINNED (work cited, exact chunk not yet verified) / R-SOURCE (reconstruction doc, not a chunk) / LIVED (machine-proposed decode, owner-unreviewed). Generated nothing; hand-maintained, machine-checked by tools/evidence_check.py.",
   "works": {

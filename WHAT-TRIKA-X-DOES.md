@@ -45,9 +45,9 @@ The verification battery, each fail-closed (BLOCKED/ERROR, never silent pass):
 
 | Gate | What it proves | Status |
 |---|---|---|
-| `evidence_check.py` | every theorem ↔ chunks or named reason | **206 theorems · 155 entries · 2 exemptions · 1 generated · 0 problems; coverage 16/154 (10%)** |
+| `evidence_check.py` | every theorem ↔ chunks or named reason | **209 theorems · 155 entries · 5 exemptions · 1 generated · 0 problems; coverage 16/154 (10%)** |
 | `table.py --check` | hand readings joined to sources | **rc=0** |
-| `review_status.py --check` | every theorem has a tier row (0 Core / 206 Frontier — promotion disabled until authenticated review) | **passes** |
+| `review_status.py --check` | every theorem has a tier row (0 Core / 209 Frontier — promotion disabled until authenticated review) | **passes** |
 | `essay_check.py` + tests | essay claims bind to ledger passages (span+digest+edition); duplicates/unsafe names refused | **14/14 tests; 6 essays, 0 BROKEN** |
 | `essay_derive.py` | is every essay derivable to Sanskrit? | **6 PARTIAL, 0 BROKEN** (honest: none fully derivable yet) |
 | `freshness.py --check` | every canonical number reproduces from its recorded command | **SHARP** |
@@ -182,7 +182,7 @@ whole point, and everything above is machinery in service of it.
 ```sh
 cd /root/trika-x  # DOCS.md §3 is the canonical gate list
 python3 -m unittest discover -s formal-trika/tests   # 107 green
-python3 formal-trika/tools/evidence_check.py          # 206/155+1, 16/154
+python3 formal-trika/tools/evidence_check.py          # 209/155+5ex(+1 gen), 16/154
 sh formal-trika/control/run.sh                        # 53 PASS (Lean 4.34.1)
 sh formal-trika/recognition/run.sh                    # 26 passed
 python3 tools/mcp_catalog.py --check                  # SHARP (115 tools)

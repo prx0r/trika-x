@@ -90,6 +90,14 @@ jobs:
         run: |
           sh formal-trika/control/run.sh
           sh formal-trika/recognition/run.sh
+      - name: Frontier models (every non-Broken frontier file must build)
+        run: |
+          set -e
+          for f in formal-trika/frontier/*.lean; do
+            case "$f" in *Broken*) continue;; esac
+            lean -DwarningAsError=true "$f"
+          done
+          rm -f formal-trika/frontier/*.olean
       - name: Co-occurrence pilot (vendored decodes)
         run: python3 formal-trika/tools/tc1_cooccurrence.py
       - name: Source bridge, evidence coverage and Treeka gap report
