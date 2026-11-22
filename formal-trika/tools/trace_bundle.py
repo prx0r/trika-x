@@ -67,6 +67,23 @@ def song_guess(target: str) -> str | None:
     return None
 
 
+def chunk_song(tw: Path, work: str, target: str) -> str | None:
+    """Authoritative chunk -> song resolution. Prefer translation-work's
+    chunk-song-map.json (committed, deterministic); fall back to the
+    song_guess heuristic. This is what lets per-song JSON layers
+    (tal-a01.l2.json, span-p01.l2.json) bind to their chunk locators
+    instead of falling through to work-level markdown."""
+    mp = tw / work / "chunk-song-map.json"
+    if mp.exists():
+        try:
+            m = json.loads(mp.read_text(encoding="utf-8"))
+            if isinstance(m, dict) and target in m:
+                return m[target]
+        except ValueError:
+            pass
+    return song_guess(target)
+
+
 def load_ledger(tw: Path, work: str) -> list:
     p = tw / work / "passages.jsonl"
     if not p.exists():
@@ -87,7 +104,7 @@ def layer_candidates(tw: Path, work: str, target: str, layer: str):
     if exact.exists():
         yield exact, "BOUND"
         return
-    sg = song_guess(target)
+    sg = chunk_song(tw, work, target)
     if sg:
         p = tw / work / "data" / f"{sg}.{layer}.json"
         if p.exists():
@@ -253,7 +270,7 @@ def compile_bundle(work: str, target: str, tw: Path, sv: Path,
     song = re.sub(r"-v\d+$", "", target)
     pf = tw / work / "proof" / f"proof-{song}.json"
     if not pf.exists():
-        sg = song_guess(target)
+        sg = chunk_song(tw, work, target)
         if sg:
             pf = tw / work / "proof" / f"proof-{sg}.json"
     # PR #7: a proof file is evidence only through EXPLICIT fields. An

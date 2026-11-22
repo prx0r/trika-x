@@ -1,6 +1,6 @@
 {
  "assurance": {
-  "chunk_gate": "BLOCKED",
+  "chunk_gate": "PASS",
   "formal_run": "UNBOUND",
   "formal_run_note": "registry references only; no per-declaration run digest bound",
   "publication": "NOT_AUTHORIZED",
@@ -13,7 +13,11 @@
   "witness": "UNPINNED"
  },
  "caveats": [
-  "chunk_gate BLOCKED: PROOF_NOT_RUN"
+  "layer:t1=whole-song-span",
+  "layer:l0=whole-song-span",
+  "layer:argmap=whole-song-span",
+  "layer:l2=whole-song-span",
+  "layer:c1=whole-song-span"
  ],
  "chunk": {
   "immutable_id": "pt:pid:ipvv:d4d5ffcf373f",
@@ -22,7 +26,7 @@
  },
  "essays": {
   "citing": [],
-  "projection_sha256": "4bf816c9a66f3685409fc5a7d90218aa10ca5623db3b63c5552838db6326aa98"
+  "projection_sha256": null
  },
  "formal": {
   "status": "none",
@@ -30,13 +34,8 @@
  },
  "format": "trika-trace/1",
  "gaps": [
-  "layer:t1",
-  "layer:l0",
-  "layer:argmap",
-  "layer:c1",
   "layer:l3",
-  "layer:l4",
-  "proofs:song"
+  "layer:l4"
  ],
  "identity": {
   "db": "postgresql://patala:***@localhost:5432/openpatala",
@@ -64,12 +63,18 @@
  },
  "layers": {
   "argmap": {
-   "present": false,
-   "status": "UNKNOWN"
+   "note": "chunk is a span of this song file; span-level binding needs a verse-range join",
+   "path": "ipvv/data/chunk-v3-h-kriya-caturtho-k12-19.argmap.json",
+   "present": true,
+   "sha256": "ad22f9f28b67a78c637e640446c0fbd2fcfc7be43d1f71283b3ab5541590515b",
+   "status": "BOUND-WHOLE-SONG"
   },
   "c1": {
-   "present": false,
-   "status": "UNKNOWN"
+   "note": "chunk is a span of this song file; span-level binding needs a verse-range join",
+   "path": "ipvv/data/chunk-v3-h-kriya-caturtho-k12-19.c1.json",
+   "present": true,
+   "sha256": "d112586d6fc9c871dbffa36e472b5bc5c4306f156db04fcff88adb12f9083f72",
+   "status": "BOUND-WHOLE-SONG"
   },
   "c2": {
    "note": "C2 renders are optional (owner: existing C2 stays; waived)",
@@ -77,14 +82,18 @@
    "status": "NOT-APPLICABLE"
   },
   "l0": {
-   "present": false,
-   "status": "UNKNOWN"
+   "note": "chunk is a span of this song file; span-level binding needs a verse-range join",
+   "path": "ipvv/data/chunk-v3-h-kriya-caturtho-k12-19.l0.json",
+   "present": true,
+   "sha256": "cbbdfa0d6e374dd46834888848a374b668477bf6cde573a3a8a14c2b54713a80",
+   "status": "BOUND-WHOLE-SONG"
   },
   "l2": {
-   "path": "ipvv/data/chunkV3-H-kriya-caturtho-k12-19.l2.json",
+   "note": "chunk is a span of this song file; span-level binding needs a verse-range join",
+   "path": "ipvv/data/chunk-v3-h-kriya-caturtho-k12-19.l2.json",
    "present": true,
-   "sha256": "821467f44b163990c9e0e0abd425f882848bb3c91e3c272f603502d781fd45fa",
-   "status": "BOUND"
+   "sha256": "43c9a491e05233013cca0f9c7696f4c7f2972b60ac1bdfa00a621fbc65c0c124",
+   "status": "BOUND-WHOLE-SONG"
   },
   "l3": {
    "present": false,
@@ -95,26 +104,34 @@
    "status": "UNKNOWN"
   },
   "t1": {
-   "present": false,
-   "status": "UNKNOWN"
+   "note": "chunk is a span of this song file; span-level binding needs a verse-range join",
+   "path": "ipvv/data/chunk-v3-h-kriya-caturtho-k12-19.t1.json",
+   "present": true,
+   "sha256": "a24a7bea52feeb776b13679261866cd00d50f2e737ac7a3fadd67811c92551c4",
+   "status": "BOUND-WHOLE-SONG"
   }
  },
- "open_problems": [],
+ "open_problems": [
+  "no scholar projection for work"
+ ],
  "proofs": {
   "chunk_gate": {
-   "blocking": [
-    "PROOF_NOT_RUN"
-   ],
+   "blocking": [],
    "checks_pass": {
-    "PROOF_NOT_RUN": false
+    "PROOF_RECORD": true
    },
-   "deterministic_gate": "BLOCKED",
-   "entry_sha256": "87d8c96794944262ccbe43035aa39e6a0669843e14f64b98faf382e7e20e495e",
-   "status": "BLOCKED"
+   "deterministic_gate": "PASS",
+   "entry_sha256": "0af0eaf53d231689a439e7d28c492e12db4f34b1cc86fe6f61ae7d479d6c9754",
+   "status": "PASS"
   },
   "song_proof": {
-   "note": "no proof file",
-   "status": "UNKNOWN"
+   "blocking": [],
+   "deterministic_gate": "PASS",
+   "file": "ipvv/proof/proof-chunk-v3-h-kriya-caturtho-k12-19.json",
+   "sha256": "536ce4cbd7d96252a8f6257938879007f8ed297914b00fa057a6a54109a568ee",
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 0
   }
  },
  "source": {

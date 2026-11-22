@@ -62,7 +62,7 @@
   "c1": {
    "path": "kramastotra/data/kram-p04.c1.json",
    "present": true,
-   "sha256": "fedadcf1f2d95c26602787cb75a7e230d3803a33a5783e6b8ba1c2032ee6985f",
+   "sha256": "ac86c2f080e694d9af62fecf34897a8573979e7fb6363d772bf9ec84040799a1",
    "status": "BOUND"
   },
   "c2": {
@@ -107,21 +107,17 @@
   "chunk_gate": {
    "blocking": [],
    "checks_pass": {
-    "ABSTENTION": true,
-    "CITATION_GROUNDING": true,
-    "COVERAGE": true,
-    "SOURCE_BINDING": true,
-    "TERM_CONSISTENCY": true
+    "PROOF_RECORD": true
    },
    "deterministic_gate": "PASS",
-   "entry_sha256": "5f94557d717d7512b595087b6383a8d922104936d3f238fce448b9bf81b1294a",
+   "entry_sha256": "8736ceef18b0a64707dd84c880767c0e8264e82cd13cd3d85deacd4936898e06",
    "status": "PASS"
   },
   "song_proof": {
    "blocking": [],
    "deterministic_gate": "PASS",
    "file": "kramastotra/proof/proof-kram-p04.json",
-   "sha256": "93f330540518886d7235b98a4867e216527348b82b2ffaf9bddfaa7e97603c73",
+   "sha256": "c97f138dcc3c237f5212dc8ee0e1c9281bf3f0ff4da3c543cca4342f3dcfaff5",
    "status": "PASS",
    "tool": "proof_record v1 2026-11-01",
    "warnings": 0

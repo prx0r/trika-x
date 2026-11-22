@@ -1,6 +1,6 @@
 {
  "assurance": {
-  "chunk_gate": "BLOCKED",
+  "chunk_gate": "PASS",
   "formal_run": "UNBOUND",
   "formal_run_note": "registry references only; no per-declaration run digest bound",
   "publication": "NOT_AUTHORIZED",
@@ -13,7 +13,11 @@
   "witness": "UNPINNED"
  },
  "caveats": [
-  "chunk_gate BLOCKED: PROOF_NOT_RUN"
+  "layer:t1=whole-song-span",
+  "layer:l0=whole-song-span",
+  "layer:argmap=whole-song-span",
+  "layer:l2=whole-song-span",
+  "layer:c1=whole-song-span"
  ],
  "chunk": {
   "immutable_id": "pt:pid:ipvv:1080e755a40d",
@@ -22,7 +26,7 @@
  },
  "essays": {
   "citing": [],
-  "projection_sha256": "4bf816c9a66f3685409fc5a7d90218aa10ca5623db3b63c5552838db6326aa98"
+  "projection_sha256": null
  },
  "formal": {
   "status": "none",
@@ -30,13 +34,8 @@
  },
  "format": "trika-trace/1",
  "gaps": [
-  "layer:t1",
-  "layer:l0",
-  "layer:argmap",
-  "layer:c1",
   "layer:l3",
-  "layer:l4",
-  "proofs:song"
+  "layer:l4"
  ],
  "identity": {
   "db": "postgresql://patala:***@localhost:5432/openpatala",
@@ -64,12 +63,18 @@
  },
  "layers": {
   "argmap": {
-   "present": false,
-   "status": "UNKNOWN"
+   "note": "chunk is a span of this song file; span-level binding needs a verse-range join",
+   "path": "ipvv/data/chunk-l-memory-error-sankaranandana.argmap.json",
+   "present": true,
+   "sha256": "ba0c1b677b97c9ebd44353fca4ffb4f17856c23a11d8375e8309db2c191b8573",
+   "status": "BOUND-WHOLE-SONG"
   },
   "c1": {
-   "present": false,
-   "status": "UNKNOWN"
+   "note": "chunk is a span of this song file; span-level binding needs a verse-range join",
+   "path": "ipvv/data/chunk-l-memory-error-sankaranandana.c1.json",
+   "present": true,
+   "sha256": "5efa3efd5be135ba8cee74eb5f124542e62518cd3b0b0d56e61e56656d340af1",
+   "status": "BOUND-WHOLE-SONG"
   },
   "c2": {
    "note": "C2 renders are optional (owner: existing C2 stays; waived)",
@@ -77,14 +82,18 @@
    "status": "NOT-APPLICABLE"
   },
   "l0": {
-   "present": false,
-   "status": "UNKNOWN"
+   "note": "chunk is a span of this song file; span-level binding needs a verse-range join",
+   "path": "ipvv/data/chunk-l-memory-error-sankaranandana.l0.json",
+   "present": true,
+   "sha256": "26a0d503d679c42c8575600c034e293cfee0c057b42edbcd4d1d2fbb04a95ecc",
+   "status": "BOUND-WHOLE-SONG"
   },
   "l2": {
-   "path": "ipvv/data/chunkL-memory-error-sankaranandana.l2.json",
+   "note": "chunk is a span of this song file; span-level binding needs a verse-range join",
+   "path": "ipvv/data/chunk-l-memory-error-sankaranandana.l2.json",
    "present": true,
-   "sha256": "9e48c1d0badf62ec728ce89d0f055bada997d7cbd85ce99ed2d582c8ba2b2172",
-   "status": "BOUND"
+   "sha256": "9fb75f884c080c2cdcaaf04de0835d3483beb6b818f0a7feaeff7d3edbf3a205",
+   "status": "BOUND-WHOLE-SONG"
   },
   "l3": {
    "present": false,
@@ -95,26 +104,34 @@
    "status": "UNKNOWN"
   },
   "t1": {
-   "present": false,
-   "status": "UNKNOWN"
+   "note": "chunk is a span of this song file; span-level binding needs a verse-range join",
+   "path": "ipvv/data/chunk-l-memory-error-sankaranandana.t1.json",
+   "present": true,
+   "sha256": "3a5f7c38710ccf0a76326fdcbb99cd622bca01616e16810d50fac6ce4401fc14",
+   "status": "BOUND-WHOLE-SONG"
   }
  },
- "open_problems": [],
+ "open_problems": [
+  "no scholar projection for work"
+ ],
  "proofs": {
   "chunk_gate": {
-   "blocking": [
-    "PROOF_NOT_RUN"
-   ],
+   "blocking": [],
    "checks_pass": {
-    "PROOF_NOT_RUN": false
+    "PROOF_RECORD": true
    },
-   "deterministic_gate": "BLOCKED",
-   "entry_sha256": "87d8c96794944262ccbe43035aa39e6a0669843e14f64b98faf382e7e20e495e",
-   "status": "BLOCKED"
+   "deterministic_gate": "PASS",
+   "entry_sha256": "f906246e3cea3f7c38037fdf712b658d525344adaa9f9f49e995c8df3fc41fa4",
+   "status": "PASS"
   },
   "song_proof": {
-   "note": "no proof file",
-   "status": "UNKNOWN"
+   "blocking": [],
+   "deterministic_gate": "PASS",
+   "file": "ipvv/proof/proof-chunk-l-memory-error-sankaranandana.json",
+   "sha256": "3b6a31ad97952e75a76f01860d1203b8f495a656af91d051f2010b15c830ba8d",
+   "status": "PASS",
+   "tool": "proof_record v1 2026-11-01",
+   "warnings": 0
   }
  },
  "source": {

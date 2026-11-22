@@ -1,9 +1,9 @@
 {
   "format": "trika-passage-snapshot/1",
-  "manifest_at": "2026-11-06T12:07:12+00:00",
-  "manifest_rev": "f430a18ae099971a73ce6970ec23bf3c82ab3b4f",
+  "manifest_at": "2026-11-11T07:22:30+00:00",
+  "manifest_rev": "f61318cb0b82cb474f67d7e1d7552b1c0d96ead0",
   "repository": "https://github.com/prx0r/translation-work",
-  "revision": "79a474b0f0f12e668cf9894c2fc229173e466969",
+  "revision": "79f88b53400de5a168b5a1cd9fbba70a6f905f9f",
   "works": {
     "param": {
       "ledger": "paramarthasara/passages.jsonl",
@@ -75,32 +75,32 @@
       "ledger": "phrdaya/passages.jsonl",
       "passages": [
         {
-          "immutable_id": "pt:pid:phrdaya:001",
+          "immutable_id": "pt:pid:phr:be7123f0b14a",
           "locator": "phr-p01",
           "verses": "1-4"
         },
         {
-          "immutable_id": "pt:pid:phrdaya:002",
+          "immutable_id": "pt:pid:phr:ab1f9fe757ce",
           "locator": "phr-p02",
           "verses": "5-8"
         },
         {
-          "immutable_id": "pt:pid:phrdaya:003",
+          "immutable_id": "pt:pid:phr:e9135501936e",
           "locator": "phr-p03",
           "verses": "9-12"
         },
         {
-          "immutable_id": "pt:pid:phrdaya:004",
+          "immutable_id": "pt:pid:phr:cfdca5029c42",
           "locator": "phr-p04",
           "verses": "13-16"
         },
         {
-          "immutable_id": "pt:pid:phrdaya:005",
+          "immutable_id": "pt:pid:phr:416a3031abdc",
           "locator": "phr-p05",
           "verses": "17-20"
         }
       ],
-      "sha256": "1dc014a0fe2d8aec912fcb9e80367ce1d1986af211200fe6b09602a690d66c13"
+      "sha256": "70db52f0d11a3616371284c70c06d97eff3063d7f6d7014a843703384a33f8ac"
     },
     "spanda": {
       "ledger": "spanda/passages.jsonl",
@@ -108,35 +108,40 @@
         {
           "immutable_id": "pt:pid:span:152f7b778685",
           "locator": "span-p01",
-          "verses": "2-10"
+          "verses": "KSTS 1-6"
         },
         {
           "immutable_id": "pt:pid:span:9bede116774f",
           "locator": "span-p02",
-          "verses": "11-19"
+          "verses": "KSTS 7-13"
         },
         {
           "immutable_id": "pt:pid:span:3a4fa091e79e",
           "locator": "span-p03",
-          "verses": "20-3"
+          "verses": "KSTS 14-19"
         },
         {
           "immutable_id": "pt:pid:span:d8ddae2daa0e",
           "locator": "span-p04",
-          "verses": "4-6"
+          "verses": "KSTS 20-25"
+        },
+        {
+          "immutable_id": "pt:pid:spanda:9facf5e96b49",
+          "locator": "span-p04b",
+          "verses": "KSTS 26-38"
         },
         {
           "immutable_id": "pt:pid:span:6060f641d1db",
           "locator": "span-p05",
-          "verses": "7-15"
+          "verses": "KSTS 39-47"
         },
         {
           "immutable_id": "pt:pid:span:d5c0c9f34e03",
           "locator": "span-p06",
-          "verses": "16-2"
+          "verses": "KSTS 48-52+prasasti"
         }
       ],
-      "sha256": "932c5554f31d78a94f225b5df8c26b57c695409f183203ae0caad6f3e5ee3efe"
+      "sha256": "5740395de69b70343b5db9940c91b815cc6e9290c5ffaf123440d3321edeb3aa"
     },
     "tal-a34": {
       "ledger": "tantraloka-a34/passages.jsonl",

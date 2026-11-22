@@ -1,26 +1,26 @@
 {
- "measured_at": "2026-11-14T05:41:20Z",
+ "measured_at": "2026-11-22T03:47:50Z",
  "git": {
   "trika-x": {
-   "rev": "ec8af42",
-   "branch": "provenance-2026-11-14",
-   "dirty": 2
+   "rev": "adc0d10",
+   "branch": "fix/repin-translation-work-2026-11-22",
+   "dirty": 5
   },
   "openpatala": {
-   "rev": "7f5af67",
-   "branch": "pr2-fix",
+   "rev": "0d86f83",
+   "branch": "feat/northstar-n2-n3-status",
    "dirty": 0
   },
   "svread": {
-   "rev": "8e590488",
-   "branch": "mcp-public-names-2026-11-14",
-   "dirty": 0
+   "rev": "b5bffee6",
+   "branch": "main",
+   "dirty": 2
   }
  },
  "disk": {
   "value": {
-   "free_gb": 2.03,
-   "used_pct": 96.4
+   "free_gb": 0.54,
+   "used_pct": 98.3
   },
   "command": "df -h /"
  },
@@ -40,13 +40,13 @@
  },
  "formal_evidence": {
   "value": {
-   "theorems": 206,
+   "theorems": 209,
    "entries": 155,
-   "exemptions": 2,
+   "exemptions": 5,
    "chunk_refs_resolve": 57,
    "chunk_refs_bad": 0,
    "direct_refs": 16,
-   "total_chunks": 154,
+   "total_chunks": 155,
    "status": "MEASURED"
   },
   "command": "python3 formal-trika/tools/evidence_check.py"
@@ -55,7 +55,7 @@
   "value": {
    "status": "MEASURED",
    "works": 28,
-   "passage_ids": 154,
+   "passage_ids": 155,
    "witnesses": "UNPINNED"
   },
   "command": "python3 formal-trika/tools/bridge_resolve.py --check --tw /root/translation-work"
@@ -80,25 +80,25 @@
   "command": "python3 formal-trika/tools/essay_derive.py --json"
  },
  "svread_traces": {
-  "value": 909,
+  "value": 913,
   "command": "cat /root/svread/data/traces/index.json",
-  "source_sha256": "c1fc5c888427d9b8da81982789543990877a783a6638ab583ce98daa57b5f88b"
+  "source_sha256": "961ff39583c64d56d11e897fe872e533482679e1e49ac18e8eb839ca7362386e"
  },
  "svread_source_map": {
   "value": {
-   "total": 87,
-   "bridged": 6,
+   "total": 96,
+   "bridged": 15,
    "todo": 81
   },
   "command": "cat /root/svread/source-map.json",
-  "source_sha256": "2bcdf83b803102712f988736507424d5b3c61e66d273cb60f1eca809bcb25a72"
+  "source_sha256": "d4dc9056ec045668289ab45bdb06d2ab84448f84230136ba57492f1554a62826"
  },
  "svread_surface": {
   "value": {
-   "scholar_projections": 56,
-   "manifest_assets": 11109
+   "scholar_projections": 55,
+   "manifest_assets": 11558
   },
   "command": "ls /root/svread/data/scholar/*.json; jq assets /root/svread/data/release-manifest.json",
-  "source_sha256": "d280b6919eb61e116df5d5aa3abfc14ea1e57ae3183cb867542f323801216fb7"
+  "source_sha256": "43b5951a2eac3ab05cd2da399d4b05730466e335dcd48e7e23ffc68b3a18dba3"
  }
 }
