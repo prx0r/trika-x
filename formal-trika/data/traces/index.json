@@ -1,5 +1,5 @@
 {
- "count": 909,
+ "count": 1035,
  "entries": [
   {
    "caveats": [],
@@ -579,6 +579,32 @@
   },
   {
    "caveats": [],
+   "file": "traces/dehastha-deha-p01.json",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:dehast:45cc611b6384",
+   "sha256": "7b8144740ccf15bd888b3da83db46f314883c174fe64dc10e872a136d0ebcf7f",
+   "target": "deha-p01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "dehastha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/dehastha-deha-p02.json",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:dehast:00120658466b",
+   "sha256": "10f584a936063df4ffd1471c25309490f18673d5b2e2f1793386152d1592bccc",
+   "target": "deha-p02",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "dehastha"
+  },
+  {
+   "caveats": [],
    "file": "traces/ghatakarpara-ghat-p01.json",
    "gaps": [],
    "immutable_id": "pt:pid:ghat:f4aa6b121a08",
@@ -611,198 +637,470 @@
    "work": "ghatakarpara"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a00.json",
+   "gaps": [
+    "identity:db"
    ],
+   "immutable_id": "pt:pid:gitart:b02a5f848140",
+   "sha256": "aa56c45f1ca27835bb58cb18109d0ddba7c0667686d986191bef658bf33005b6",
+   "target": "gita-a00",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a01.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:348d065122da",
+   "sha256": "4d31844bd8ffed429a3e2b7cfc023510181c6d6e36c92815ac7675449df485ad",
+   "target": "gita-a01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a02.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:6985f5b52c25",
+   "sha256": "337eb179b13c294bfc186e79030ca682a1354025386119f5c6bd4c6c05291278",
+   "target": "gita-a02",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a03.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:652652fac6b5",
+   "sha256": "89dc580a77a0dc7202a27fead2e788fbb352b3758e7f13c14fcc0f8427285f25",
+   "target": "gita-a03",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a04.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:8255c14d5f53",
+   "sha256": "d58e1dc834688ef46bc52f3b31b9357ef219c0208292f747653f03375a7820e9",
+   "target": "gita-a04",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a05.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:71171d1e39c6",
+   "sha256": "2dfe5ee6bf66ff0a4cbabed4dcaecbf3db295407278b483c976c1d3bf0fd9b5f",
+   "target": "gita-a05",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a06.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:5963bcd6a55f",
+   "sha256": "8e6a5b0052040ece47c8c546b63e3c20c76bcfee2d8d3217ed73c0352d2e9bab",
+   "target": "gita-a06",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a07.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:d4691a0e54a4",
+   "sha256": "565bacb93fd270f5380509e5ec337e88b10907e8071a59c796400a7054e1b9a9",
+   "target": "gita-a07",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a08.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:af37913b074d",
+   "sha256": "50aadf743a1ad5bef7e82ee1c87777e57e519ece06bfcfb4498ad8857cbdb435",
+   "target": "gita-a08",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a09.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:7f48e8127c48",
+   "sha256": "3ee06d9bf5f0231314a5818a15ecac4489d041df6fef9101135bd8de5791cb7f",
+   "target": "gita-a09",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a10.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:ca741cbcf606",
+   "sha256": "64a72a1d7d1315faeef8182845e2a1365d754e65f852971c4d16e99b5358a4cf",
+   "target": "gita-a10",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a11.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:ef349f0a7f84",
+   "sha256": "a1f43a41b401e28bc1a75664ff540390ca79595307e1c8ecc25976b98e242cb1",
+   "target": "gita-a11",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a12.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:bb998f76ce05",
+   "sha256": "0ab306344ec75bce8fdc301ad4f367ce7f6b345b3ec6621ff20d098773bc56c6",
+   "target": "gita-a12",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a13.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:9202f4d66ece",
+   "sha256": "eb438406ee3334eef476604842484d4d4769f230af4499210b34c6a547eee700",
+   "target": "gita-a13",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a14.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:409463e3ba9d",
+   "sha256": "4fd129540bf95160332674167db1d72029bd9e45f73ec64fcf71bc77ac3c6b68",
+   "target": "gita-a14",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a15.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:d6116b3d3bba",
+   "sha256": "eb629f8bf0780488a9c7d4a5914661fc5fe2fb08f526284772dbf3ca74f95ad2",
+   "target": "gita-a15",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a16.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:2b5c25373746",
+   "sha256": "99388a77cb412f61f062490d179ec7078ac60d713a54970df518ec32a3aa0d95",
+   "target": "gita-a16",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a17.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:2ae49f171891",
+   "sha256": "a575ed979b584333f49946b8f2b934e3f11a09dc4ce19be72873cb29cabfafee",
+   "target": "gita-a17",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
+   "file": "traces/gitarthasangraha-gita-a18.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:gitart:bd8459fac0e9",
+   "sha256": "96754079cf477ea86ff200f81c98b6cb59bd68a420a033d85885d5181be9599f",
+   "target": "gita-a18",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "gitarthasangraha"
+  },
+  {
+   "caveats": [],
    "file": "traces/ipvv-chunkA-svatyandya.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:165115d8eb7d",
-   "sha256": "7800f1d1ad14df2ab9bbb7c6389704199e72a2defa80142999d9b866cc874849",
+   "sha256": "3a774963de62c1eb9106966cf073904a41e1a06a20d2351f10081bb8dc8b5572",
    "target": "chunkA-svatyandya",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkB-eligibility-gita.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:8d7e43bdf318",
-   "sha256": "2c7384d15e4442fcc6e19cd9f3660ca4c72c2106046af95d240c0eae008422bc",
+   "sha256": "5e850abb21c4aac7252033f66a263676adecaddc6136e3d644a0b6e284ec2ab4",
    "target": "chunkB-eligibility-gita",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkC-svatma-maya-upanishad.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:cab68738d18e",
-   "sha256": "6ce311d3e6118a91db06327a06e9ddf30cdd67d23a0571bab5d668b93f6d18bc",
+   "sha256": "a09fb9b13722d2baec8c351ee17ef0d70b04ccef179fec044a437d3682d83adf",
    "target": "chunkC-svatma-maya-upanishad",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkD-memory-pramana.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:80f9c7f414ed",
-   "sha256": "475b8443b2b40451da154dcbd03ef96f78882299c0f53a7e06ba283624b5f6a9",
+   "sha256": "92e0f976b9ef4361899555ba8d751e8b12661ba7aed39cc4c7ce60df83a61f3a",
    "target": "chunkD-memory-pramana",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkE-cit-acid-dvairasya.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:4f780e406d0c",
-   "sha256": "53497efc7225082f9a55e1a249ec9f90006d666729d3db45fd5eec7b938a2ba1",
+   "sha256": "2e3e57071cf6157622814989d6d94a20249d2fff170ea330699e890c7a721e4e",
    "target": "chunkE-cit-acid-dvairasya",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkF-upoddhata-k1-7.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:1bb4e70c35b9",
-   "sha256": "22a67813130bb66cc7d41723680ccab36fd91a5e1b2ad65654f0bd826e204ea8",
+   "sha256": "1afa491ff55bd147ef89000754db95a392dc0e282bd92e7073002677fa4573f5",
    "target": "chunkF-upoddhata-k1-7",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkG-k1.2.7-1.8-citsvarupam.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:7db619b2d4f2",
-   "sha256": "6b57e2b5018a0b36496f8eda32c9d22e82da09d45f9f19beaed36ec059021b55",
+   "sha256": "45e510837ebb65ffa9fecca1444d3f2c46248462c7c7e3414e4e9ba77b38e180",
    "target": "chunkG-k1.2.7-1.8-citsvarupam",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkH-k1.8-caitanyamajada-pratibimba.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:05765be4afff",
-   "sha256": "57b5b99e1e69618ffede6d91240a772214a54bf7855a95b675799dfad40301b2",
+   "sha256": "b3a3e1caad883f041f9332ba5dd8efff5035db3b255799cf43c21dfd5c61cad1",
    "target": "chunkH-k1.8-caitanyamajada-pratibimba",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkI-k1.9-1.10-kriya-karyakarana.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:64678ac92bc1",
-   "sha256": "4b8d6d3f896d513d2d4b25153f1ebf71b0d8198cc87ea4e40802c23d5185a975",
+   "sha256": "627404490ef40f5bd295b8489be77e145323fbafbc73e76066621d4214faeefe",
    "target": "chunkI-k1.9-1.10-kriya-karyakarana",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkJ-k1.11-kartapi-kalpita.json",
    "gaps": [
     "layer:t1",
@@ -815,478 +1113,454 @@
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:5b225fdbeb52",
-   "sha256": "6cc7797c38e92583ddace77c263077e290253a2e263a1288f1b4da230df0a2b3",
+   "sha256": "88091c0af6652b2d5cec4a5fea595697093737b1c9d5e6f9ed2ea48037484e1a",
    "target": "chunkJ-k1.11-kartapi-kalpita",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkK-purvapaksa-siddhanta.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:d91580075602",
-   "sha256": "cf7a309509cd62206f9ffef203a9f5f64b05c0eb6d03ea61200dbf2f3f1a1b88",
+   "sha256": "7220dc899707e1cd75dbf1ef924a3200466e12fa7375401be8ab9fe15e374a06",
    "target": "chunkK-purvapaksa-siddhanta",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkL-memory-error-sankaranandana.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:1080e755a40d",
-   "sha256": "0e26d5ff0498f8ea0de57c85745123612882f6ceba74f1ef29650be29604a4b0",
+   "sha256": "8f12a3bb91f0c0aba10f013b5c25cf01e21a9c9ed60b85dd20b7415f462ebbfb",
    "target": "chunkL-memory-error-sankaranandana",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkM-jnanadhikara-reflexion-core.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:1c5f25051297",
-   "sha256": "00bf86c62c39945c3f54c1d85538c4df9a31c981e5b09e6e14006e6a570c9213",
+   "sha256": "2ff505a5aedd0e7e9cd9ce947ec9a7360f461a4d079d9c257b5fca80e94adf6b",
    "target": "chunkM-jnanadhikara-reflexion-core",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkN-close-mahesvara-saktis.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:8c652bfd72be",
-   "sha256": "61a002314e130294a013c90f18cf041ea7b3a0eaf30b969f92e309dccdf3dcfb",
+   "sha256": "8ebe71ae47fa4ce5be9303f4105bd26bcbad8d653a961c89c0fb1584588151f1",
    "target": "chunkN-close-mahesvara-saktis",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-A-caturtho-vimarsa-aham.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:298f931229c5",
-   "sha256": "5f7477d5e9e77721d803e76eb422fb3fcd059534f1127e2f078ffa1ae1b99c1f",
+   "sha256": "3bc80e57e931eb4f0a0f069f9a0180abcb9147bf2aa5df8ada29325862b1b0f9",
    "target": "chunkV2-A-caturtho-vimarsa-aham",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-B-sahajavimarsa-prakasavimarsa.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:d5a036b8cfae",
-   "sha256": "30944b439dc62a97bd31781922afb33ab538dec9bc0df3778f4ad96e4c2b1944",
+   "sha256": "4683fc6d3277113c41ea77dc620a24d4b778f2e3b934e791954db32689f83b34",
    "target": "chunkV2-B-sahajavimarsa-prakasavimarsa",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-C-vistanti-ajadapramatrsiddhi.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:55d2fd8d1703",
-   "sha256": "4ceb51b1e7c5850cee31522cfc43c10cf005198d7da1a5bd560995b914800224",
+   "sha256": "ff885f1a91d02251370e91b71b5a929fe5485e222b2fc6a6b7b524a86362ec8c",
    "target": "chunkV2-C-vistanti-ajadapramatrsiddhi",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-D-pancamo-vimarsa-jnanasakti.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:62db0c4350bd",
-   "sha256": "41e9b11034f942eee027155533635775bcdb1b5f29f6610550fa50d6c8c86598",
+   "sha256": "ea793ed24fa6cc4496ec93bf2ad9297b9dc783751bd60acb77c7723a614f1553",
    "target": "chunkV2-D-pancamo-vimarsa-jnanasakti",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-E-pancamo-jnanasakti-k5.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:5c87f8b03d9b",
-   "sha256": "dece42e72dcb16b9ed477ec59488dd490125a1532bbc9e3060e337e67bdc4613",
+   "sha256": "9c70c4aea772db8d35a81de1b800428548f481b647aa76f4731fb87d68a0a12b",
    "target": "chunkV2-E-pancamo-jnanasakti-k5",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-F-pancamo-vimarsa-k6.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:77c9877ab106",
-   "sha256": "a1f5ee1894896dbccf73be3ff91fa47b692fbe1a9057263ee6ccee468c2e8da5",
+   "sha256": "3d48483e71b90d721b08a8f3a3312df9256b3b0eac0ae94f3da8c0e307c4d0f4",
    "target": "chunkV2-F-pancamo-vimarsa-k6",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-G-pancamo-vimarsa-k7-10.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:76925ca9ae3c",
-   "sha256": "caaa4cf93919fe0b74a30bbc57d76408507fa8c16b294c931e817674630d13c0",
+   "sha256": "295cc7c7ee529ca364b44f5bb91575b6446c694497ab6dae85de21a31c410174",
    "target": "chunkV2-G-pancamo-vimarsa-k7-10",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-H-pancamo-vimarsa-k11-13.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:32b73212ceee",
-   "sha256": "472bc293accac28e588907975e4f226fb7336314cafe0ce8292de486512d9020",
+   "sha256": "5e19562a9ef443edc21b118463102835bb122332e3daf786c5d17b4c3ffc4e6b",
    "target": "chunkV2-H-pancamo-vimarsa-k11-13",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-I-pancamo-vimarsa-k14-19.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:22f7243d5fb9",
-   "sha256": "29bb3273f888cc987cbd3b987090c1702eb8732bdff46cc3cf1edaf8188ff36e",
+   "sha256": "a657652bb6aa897f72697f27acf2607a420d7efb92045282af3ba532b1a2acf0",
    "target": "chunkV2-I-pancamo-vimarsa-k14-19",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-J-pancamo-vimarsa-k19-20.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:1c2f79595028",
-   "sha256": "37ec57102d827221e04751d65c1f82692ebb04fbe916b084f296b1a4387f4906",
+   "sha256": "0f1820e48bc0b187e4d437624dfecff2cea31be72caa1d7a33d50fd33b526fdb",
    "target": "chunkV2-J-pancamo-vimarsa-k19-20",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-K-pancamo-vimarsa-k20-21.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:5120571fe702",
-   "sha256": "5638da3f95d195ccbb327dcafdac128aa3bf745dc6799f97f745115068997f67",
+   "sha256": "d06e22b704243abd7dee55d7436e2e3a7c0f1a6cd45d81dcc88b40df3bf2f036",
    "target": "chunkV2-K-pancamo-vimarsa-k20-21",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-L-sastho-vimarsa-smrti-apohana.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:c94153f929f7",
-   "sha256": "3619f08c55c6672455cf7ed5053734620a21411d521bc3fa9327478ae9ba61a2",
+   "sha256": "e6d3a38d5d8c3f12e9af7db7b2ae7e942435ddb2206716e17720268a10e11ea0",
    "target": "chunkV2-L-sastho-vimarsa-smrti-apohana",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-M-sastho-vimarsa-k6-7.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:311635b7c8a8",
-   "sha256": "df4703ed912f0cf7e012ff531f08970c579cdbc62079dc1f20e1a598f3e4d70c",
+   "sha256": "6baa4576143ed95f89d9b99aaf10b268771670ebcd945aefd2fdef0a3faaa3f4",
    "target": "chunkV2-M-sastho-vimarsa-k6-7",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-N-sastho-k8-11.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:3b074ddbaf3b",
-   "sha256": "5d648c0c817f5a618cf218649b7f2327eed85207746d9e9206173587f3aa6a2b",
+   "sha256": "5eb2b79122de8df54aef55e80ea77d97bc186b28eb055723c6f2f405720a6fb8",
    "target": "chunkV2-N-sastho-k8-11",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-O-saptamo-vimarsa.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:3a6b22165fb5",
-   "sha256": "87c2064d0989ecc0427643f63466173df30c4609094dc4e3ef7c845e78e4bf6b",
+   "sha256": "d81b78baa5786406d7737e5401422c3fbe3d5de52ac277ecba1ccee628b75a9b",
    "target": "chunkV2-O-saptamo-vimarsa",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-P-saptamo-k5-10.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:737b9acd8b0c",
-   "sha256": "45fc064641ed5fef5b940df78b1ec67968d12b8b5c9272d3a601d94d5da84f95",
+   "sha256": "651b643e314f6f5535825f13d64139dff4a623b0ffdf7d6e35cc4034ff2e8a7c",
    "target": "chunkV2-P-saptamo-k5-10",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-Q-saptamo-k11-close.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:fe67055363f8",
-   "sha256": "336697207e6b27cd6304eb5609bd665f3ebb1255cae87c010b6e89c34f56800e",
+   "sha256": "2a89815ffd2de238ef9b5e34ad32037149c4743d67501f1a6b5145b023580ba1",
    "target": "chunkV2-Q-saptamo-k11-close",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-R-astamo-vimarsa.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:4b0a076b32b8",
-   "sha256": "86a34230ab6697608e8cfe812626e620ee7bf8947594f0035349e6fa0a90cce0",
+   "sha256": "37a13f41095d3f8614668693c12a086b4a730fe1b01df5c61d6eb96532d59ccc",
    "target": "chunkV2-R-astamo-vimarsa",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV2-S-astamo-close-jnanadhikara.json",
    "gaps": [
     "layer:t1",
@@ -1299,331 +1573,314 @@
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:c0bb6e2715d4",
-   "sha256": "b43ac013bdca63dad3e0e438b119704a5ae4955e1b8d424a92a5b0dc27d11950",
+   "sha256": "f320e385ff0ad6cb1c419308767eb42246527c2b2568f71165dd2ace69480ea7",
    "target": "chunkV2-S-astamo-close-jnanadhikara",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-A-kriya-prathamo-k1-2.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:c4e80ddd7c72",
-   "sha256": "cb37b1373587d21289089e9ab60f5c54f88f66238a5ec37e827c1107dcd0d652",
+   "sha256": "3a02e6e985938e2ed04a807500b2ba42cb128f2978e0d5288b3552a47a54665e",
    "target": "chunkV3-A-kriya-prathamo-k1-2",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-B-kriya-dvitiyo-k1-7.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:f4ed34831fb5",
-   "sha256": "2b549ba7e6eb96b28bc56919840ab7d1210aa5b94e904f37a443093dbe8c90f1",
+   "sha256": "01e6f2a2d01b4f62bc24ce0dab42499da7d169a6731f0d9a92abbce0587e95b8",
    "target": "chunkV3-B-kriya-dvitiyo-k1-7",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-C-kriya-trtiyo-k1-2.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:0f2c615fd2a6",
-   "sha256": "22b8f6091ae5db118f035387a2afa54dde82ed3c32b834d35aa8304af3c5d2f3",
+   "sha256": "67120a55f2b1fd74d589ac1e969254bb77d5a3af8839feb1204187c3c47efcdd",
    "target": "chunkV3-C-kriya-trtiyo-k1-2",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-D-kriya-trtiyo-k3-8.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:ffdd1ee3c073",
-   "sha256": "ebb0a7a6fb7ab1e116c79369caa56c84a65734ce04fb60eb2ac34a7370e35fad",
+   "sha256": "9948eb6e6d9d09c587e649edc7a075da762b588917b7cabded184e8c8a0b6b7c",
    "target": "chunkV3-D-kriya-trtiyo-k3-8",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-E-kriya-trtiyo-k9-17.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:fe5faf794c18",
-   "sha256": "5e7af3c5698f04828f0fb3f50bafae0837cdf419d30b7c63d8a0c78cce43d671",
+   "sha256": "116f5a2370d3912c7fc6732e1330e11d4cecc83c7689fdb502c2351489c4676b",
    "target": "chunkV3-E-kriya-trtiyo-k9-17",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-F-kriya-trtiyo-close.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:76c15b31b638",
-   "sha256": "ec5290bb2d175a768940864439596f9ba972e5e92468f876817b4c62bea5e015",
+   "sha256": "b9218bcc31e27135100e81e622653f0ff9b1dcdae94321a7740b651c920ac84b",
    "target": "chunkV3-F-kriya-trtiyo-close",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-G-kriya-caturtho-k1-11.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:fddc2b01cffa",
-   "sha256": "b2ffc700d90ee76ea11ce27dabe788bc5d4ecc2087c3325ecdb1a6d00d1fa457",
+   "sha256": "c475e283d705da7ee934172abcc95c106656d59243276972ac6bb22584595a91",
    "target": "chunkV3-G-kriya-caturtho-k1-11",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-H-kriya-caturtho-k12-19.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:d4d5ffcf373f",
-   "sha256": "259a3778db5789e8e94a2626362f920541961d36817226ece19ef6d5959dee4a",
+   "sha256": "31a6a1a3b1a8c66226444da8feeca1367f233fe56697013030991fef4652134f",
    "target": "chunkV3-H-kriya-caturtho-k12-19",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-I-kriya-caturtho-close-k20-21.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:1d53daf62e05",
-   "sha256": "9b0d311d839297492997be7c6015aa25cbae275eb00acd5c007f024913bbac38",
+   "sha256": "b68e5d3c2a85f4c7a3d30713c6c9e958eb5e5e8b93561e7d8fdf48149097a1da",
    "target": "chunkV3-I-kriya-caturtho-close-k20-21",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-J-agama-prathamo-k1-7.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:7c8c91e90508",
-   "sha256": "b129ef338628bb75424172c1226d0ed7b64e311d798f07a9f8879ec6ec6d398d",
+   "sha256": "69292434038745d5d2a8e86fd54af11bcc39f261fe8ae895132ceaea1617cf0f",
    "target": "chunkV3-J-agama-prathamo-k1-7",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-K-agama-prathamo-k8-11-close.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:ad91d5855dde",
-   "sha256": "559dc88556a7d847363b3d06ea0d1a0f12955dbd1047c4575d8c5d30ec93419f",
+   "sha256": "72bda2a4a8c0008681d106333c888707d8ed706796bbc1f38397ad830a75604f",
    "target": "chunkV3-K-agama-prathamo-k8-11-close",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-L-agama-dvitiyo-k1-11.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:1c8b0fcf15a4",
-   "sha256": "d3b5060069f5fa4164241ae2c9beacb6419da67323ccd5f0876b9689ddecf75b",
+   "sha256": "4b224d229d9675352ecfb463dd119ed78fdd30df8fa2e7b6d8515fa754ec3ebf",
    "target": "chunkV3-L-agama-dvitiyo-k1-11",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-M-agama-dvitiyo-close-k12-20.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:f97439905c09",
-   "sha256": "1ee7d3a82edabca1dd8b4154885fd7320e80086d9c632565751569bd90f5f6c3",
+   "sha256": "f078d2c2b90a4db171c00b2e73a85c04bd64f1c493a4608f66c8d098b1b14751",
    "target": "chunkV3-M-agama-dvitiyo-close-k12-20",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-N-tattva-prathamo-k1-8.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:419f72e00ec9",
-   "sha256": "ef3897afa62c0db404a60d873fa084ca99cc3a64facdc9fe02ef4fa522eedba9",
+   "sha256": "4a2e9deea8fcaffb9280ec028c08356506e62a1b8c51c292cf0378da2cb5292e",
    "target": "chunkV3-N-tattva-prathamo-k1-8",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-O-tattva-trtiyo-k9-15.json",
    "gaps": [
     "layer:t1",
     "layer:l0",
     "layer:argmap",
+    "layer:l2",
     "layer:c1",
     "layer:l3",
     "layer:l4",
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:4ba20b15bd90",
-   "sha256": "d9b79d178478e03111a892abba8198716e5534fc01a1df626649d9f6d89edb75",
+   "sha256": "e1e8683856fd051ce478f00f375884a0f0e1fed33cac283889ae5a093495fe2b",
    "target": "chunkV3-O-tattva-trtiyo-k9-15",
    "theorems": [],
    "verdict": "PARTIAL",
    "work": "ipvv"
   },
   {
-   "caveats": [
-    "chunk_gate BLOCKED: PROOF_NOT_RUN"
-   ],
+   "caveats": [],
    "file": "traces/ipvv-chunkV3-P-tattva-caturtho-close-k1-3.json",
    "gaps": [
     "layer:t1",
@@ -1636,7 +1893,7 @@
     "proofs:song"
    ],
    "immutable_id": "pt:pid:ipvv:aad4bfd27078",
-   "sha256": "2ec88a67ed33874d24594d784f996af1b7da356795d891147cf4bcb7948ad924",
+   "sha256": "2206dcb68f134d9a3f5586ed7e83b67a3ed808d2aed7667e390d93a24aaeb825",
    "target": "chunkV3-P-tattva-caturtho-close-k1-3",
    "theorems": [],
    "verdict": "PARTIAL",
@@ -1773,7 +2030,7 @@
    "file": "traces/kramastotra-kram-p04.json",
    "gaps": [],
    "immutable_id": "pt:pid:kram:38467cb4e8d0",
-   "sha256": "a4e7410e613ca93a5fa71ba0d8aa538d42ca9a6a82fce6e4152d4310b6a3552b",
+   "sha256": "3bd3a04e2bc0312042f777aeb4afca53edc2499baca43f35e360bea69c09d795",
    "target": "kram-p04",
    "theorems": [],
    "verdict": "COMPLETE",
@@ -2101,6 +2358,1925 @@
   },
   {
    "caveats": [],
+   "file": "traces/kularnavatantra-kul-p01.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "de72dc7872b4342c978ad6815d8538bd05fba7db994d1d5c46ee2b8eee7cea7b",
+   "target": "kul-p01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p02.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "8eeee558c6c8f1efba603c168eafa740ac732d0be5502d65de096da6b5f370d5",
+   "target": "kul-p02",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p03.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "c6ce49920d220a5b3b78e8d530b7497fad526838256840fbe2eec3e1fe020b40",
+   "target": "kul-p03",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p04.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "18db5c0290de1d8c15b1278d014e9e5a4ac4b4009b17e06a5be92e8aafa1ba28",
+   "target": "kul-p04",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p05.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "3a1539e52a9cf759f7e932f56a509f771095a9999ff8e612761469fbedbeebc9",
+   "target": "kul-p05",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p06.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "bf779df54840bd51b01e61ff4788daa753125c4199945f86f2ed8abcc8245c05",
+   "target": "kul-p06",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p07.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "979567eaf6237501b6ec91ac6c6c5797511ab4784e0d19a59e94685ce4359fa1",
+   "target": "kul-p07",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p08.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "f68b12fcd2ab5fb5a3d453be87aeb5055e6703db520dc151cb690b5869f081d0",
+   "target": "kul-p08",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p09.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "814762e9fb4e045ff14f05d48b337c5eeed29b8d2d0c8cf6bb0ee26b4c2dcb3b",
+   "target": "kul-p09",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p10.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "39ef338b7fa899f315c93ec4c27d1190ad36490c2fb7360d47066738d97f60e9",
+   "target": "kul-p10",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p11.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "8390eee88bcb56fb8dd27684ef4f94fdc0c339eed2a3e9bd52be402afff61310",
+   "target": "kul-p11",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p12.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "906cb37b4ab93ec2d19b7b42d57e40fbf8cef5eed356a5835ba8f25a57b06487",
+   "target": "kul-p12",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p13.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "fa7a355ad01561a230778d3bd24efe6179ac9988ed6e113ef7fa78404e1c607f",
+   "target": "kul-p13",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p14.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "3c84ea1a0ae07e65431fe0791234633eb19bb3ea0497ef0796b48858f3176c42",
+   "target": "kul-p14",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p15.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "73b4a2c0b5caa86422e45412c73f8b82f686691a2ffbe377a7b527d36ef42ea2",
+   "target": "kul-p15",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p16.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "d23bbe1ae96211d09fa292c37b07a3ae49f8abbd703a5af76c7fb8ffc3a16cee",
+   "target": "kul-p16",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p17.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "30e965978fabc4cbe0088b9568f4fa2b3b68cb4191e961d1b65ab130b4b8fe30",
+   "target": "kul-p17",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p18.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "12988794c7af756a2cc0caef55aa29e41d3c60c43d3cf15f0338a54d7ee899ab",
+   "target": "kul-p18",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p19.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "265f3b6dbc35efd100ef856a7b072b4df163f380f9fda026cfe401790b044ca2",
+   "target": "kul-p19",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p20.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "a841d5ca2651f43fbe64a78c3ba046d688e4575a6e57ca72084f75d4cdbfdaf3",
+   "target": "kul-p20",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p21.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "d34be1a2c6e63a6591a784b18c8d5be3b29bfac39584849675369f7382f31b25",
+   "target": "kul-p21",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p22.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "329411b22338b517cb46956c404a0ce5eb1cbb1dcca08fe6af5539cf5c87fe40",
+   "target": "kul-p22",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p23.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "3a3eaa6608143856bf4c667805741e0f51840af689072637ae902173d47f747e",
+   "target": "kul-p23",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p24.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "3600b4e464332078db55a33ed4780dde7b50f286db55182aab10482360921753",
+   "target": "kul-p24",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p25.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "462154d5fbae591ee392ed70615607fa7c24d32e17454f6cd06fe28460d84237",
+   "target": "kul-p25",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p26.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "6b785e0ff6e956684e9ed5837297c83a13e23e47be1a2e46e13ae4646815cb3c",
+   "target": "kul-p26",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p27.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "e008be3a34d36a7a4233ed42335baa7a855bc1861df1f0cf19c60a70e0fa03c3",
+   "target": "kul-p27",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p28.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "71a62c7bd6ab47821f9dae4ac1f46aa661401bd82230e2ed71f3126688436983",
+   "target": "kul-p28",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p29.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "dbaf87ca2bcb59f7e414cf2ad1ad43e6f0bfd4433bea21d91b1bd615777b58d3",
+   "target": "kul-p29",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p30.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "edfbf8022e0934cc8e5b8b38785d9d04a7324192fea31277536012e06f604620",
+   "target": "kul-p30",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p31.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "70354b73bbf4e1a462ee6ed9f79ac57fe8c406d4a1218e85c06b58ee73c956e4",
+   "target": "kul-p31",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p32.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "e6d76188f7220ca6daaa3bdce33ed65f190994c046ef88b30f6b34cdab80d3a6",
+   "target": "kul-p32",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p33.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "652df2ccc1479f11e809759611163f9c3ef83b11b12c40dd573cce487b3b0903",
+   "target": "kul-p33",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p34.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "8ab042eae373c08e72dfc0802a2c365bcac9833a2987f09ae7d2a19efe54fbe1",
+   "target": "kul-p34",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p35.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "2619e141b9e879aff550fc116df5c41f54abfd584c54ee1d1dd9badfb12067e1",
+   "target": "kul-p35",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p36.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "a5b4e2f970457f485a01b568ac5dbd68051bbaeb0fe4e88be3adf12ab039ab5a",
+   "target": "kul-p36",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p37.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "e718b8b84ec91a7a23354e25937983d32c53dff57ce97763b12c070f650bf18a",
+   "target": "kul-p37",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p38.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "d63dafeb414bb1dc1d38f467bbc6cf9cee6d7bdd30743219106a516284d27008",
+   "target": "kul-p38",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p39.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "e7dce582692b278e6165f9912e27672cbf1baefc0c8f98b11f49964287f85f73",
+   "target": "kul-p39",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p40.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "f50095c1f0b18b4f139617de6495792e73496c4ce079707be5d91bca95890522",
+   "target": "kul-p40",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p41.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "ff4c7fb78f6ef47d094f9549e32908c129f06addf7af1367fc0e2cfa2c67bfe7",
+   "target": "kul-p41",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p42.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "37d54ee29b95955adaeb874b0c5004d15222ad961ef7f8d2cb59d2536bf7f6d2",
+   "target": "kul-p42",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p43.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "3fa97a206bac2eb71bb283de7f4c428ca6c45201084b8879aef86e94d89fcc85",
+   "target": "kul-p43",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p44.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "6302c1acf5079f6f1fa9d03e880ad3d0383e59a680b58548c7b226531158c665",
+   "target": "kul-p44",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p45.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "ff2ab0e527fddbcee0a82755e35cdd3a9eef38a0037241519593da68fd122bf3",
+   "target": "kul-p45",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p46.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "46d3e2a6f5cd388fd35b75a05d97d48426e949e7fce4083569beb0a6b95bc3db",
+   "target": "kul-p46",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p47.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "87f8328ca135c55271bd08ca1a6f3b981f164ddfd273353207c8414a46f2e44c",
+   "target": "kul-p47",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p48.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "e1d986939d1dc4110a94fbb5ba5d7c905cee222145977b1ba8a80c66b921d9ea",
+   "target": "kul-p48",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p49.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "93c91d84b93b5efea4f31a30fa649ec6e5b163aded2254792069013bc6a9f624",
+   "target": "kul-p49",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p50.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "c1c70bd2f43861624b883e0f8f1ff7b9d74955cd44f9b163ff7c3867dea99e1c",
+   "target": "kul-p50",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p51.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "9d95be86801b28f8673138537e5c1a7cc0283fc89c5b5ba78356c32cc4f1044b",
+   "target": "kul-p51",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p52.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "89f29761d6d5515a2f99019bc91502e1ed05c2f6bf1829088e2727ae7871a3df",
+   "target": "kul-p52",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p53.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "1c755382fd8223698c600e32e126592a6814e82c768f786ff9ea061d0b37a01e",
+   "target": "kul-p53",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p54.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "a1abdab2b2bd08aa5a7fa79f0b7606cd3ff74c664179e5a523197e70c85a799d",
+   "target": "kul-p54",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p55.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "091a5272c919594ca5308d9164a96e1f56d51b231ba3339a60fa72e1c46e1ac7",
+   "target": "kul-p55",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p56.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "966bf0656e1d6e5b41e11e92779804d111c5f4b5249e2c1045d3929f2f944c29",
+   "target": "kul-p56",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p57.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "dae9781090e2e2de664ddb988e46a4318144aa26a89dab6280648cf9a652315b",
+   "target": "kul-p57",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p58.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "73f17d748edecf8c477b9de156905a791b12e7de75c1d948bad57accced6a35f",
+   "target": "kul-p58",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p59.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "4d450df03fa2e70ca6bd01e1c6988487928d03b56fb13810a1134d185637f061",
+   "target": "kul-p59",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p60.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "bedac4d6a674feca06a50367b187237af85c05bfb0944069b300406fab1a2dab",
+   "target": "kul-p60",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p61.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "859b21c72d8f01de1f9cb3d8f021c9d07421810cb8a166383ed4a94f1da8aa02",
+   "target": "kul-p61",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p62.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "f9994a6ec1c520704d642daa02a1b0644614a1af77492f94c2550558cbfff09a",
+   "target": "kul-p62",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p63.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "9874ffc148f8b514235a3df6e8cdc6ddd52a5e91ea2e3ae413e638be93ebbf48",
+   "target": "kul-p63",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p64.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "edb76dd679183e884ac2719319276213812b588d1ec587ab6c2db841657272c0",
+   "target": "kul-p64",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p65.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "738987f8d2c0c72b6cd9856e70f45b4eb3b4ccdc8f896fd78adf9e222f9a8e1a",
+   "target": "kul-p65",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p66.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "bec4119ff1e4e32ba78fb5a98bdfe4304be90ba03bac63ab5fc35714cf0ada8f",
+   "target": "kul-p66",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p67.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "14c5547afc74b0efb99c360e9687f0a31c2c7defa5810d99055267dc4cfb0f80",
+   "target": "kul-p67",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p68.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "1792bcec34957e0a8d21190414078a375076041ac77ec8927d0cd33f9c1b0a84",
+   "target": "kul-p68",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p69.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "20f6c687e283cab61838ac8db5e0e8d4ba4227ded402f8cf5bc0aa7be5c16b75",
+   "target": "kul-p69",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p70.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "518989c03010f9134f81fe5e4e3b51366265015732c1c4d3a0514bf6cc29e1e4",
+   "target": "kul-p70",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p71.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "8c339c89b8aa4281259fc8b29bd6704f17ff98d6fdcf139be9e875422b0256d7",
+   "target": "kul-p71",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p72.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "64cef1605b2f2f7bd0cd3c01b8395ac39e51ddf4181e3c8074e070ec898ce2e5",
+   "target": "kul-p72",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p73.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "d96f512a3d5fe7cfca205d177faba471a96ff9aac431b2aad0dad76a34d3021e",
+   "target": "kul-p73",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p74.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "3c1bd02850835e670b9cf356b0d8f6a2cb2f386cf40969c83ff0b3baebc188d0",
+   "target": "kul-p74",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p75.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "8da94aedd8fdfef5b11c8d1d08a5b2ad626577cb9788d7ce4335a2078528d208",
+   "target": "kul-p75",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p76.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "9f5ad3978e80bdbeba987f5aa82a6d509faa6ad1b4eca0543da2d6ba4e9a9ef1",
+   "target": "kul-p76",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p77.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "6c446614d9c358cbf66f5fe58695d815ebe21e5def74f9580c80317aaefba0c9",
+   "target": "kul-p77",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p78.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "c3feb5c43dbb86872f082ca5ec58398b53651ed69ce34bd665384cfde0494a28",
+   "target": "kul-p78",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p79.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "009302dad57d4415523fe450849a5924844ff559412328d1b55b173ec2d3c3c9",
+   "target": "kul-p79",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p80.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "2a043a1ed3666855baa4a1ec7e8277b889dc80c4fa2952a140303e91d45b268b",
+   "target": "kul-p80",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p81.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "8997c57584afcf1929993016f4fade12116209370e5813eb33c6ddbd7bb9ff34",
+   "target": "kul-p81",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p82.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "782735a3a6e2f95e3e95f801cb13cced37243444970641402f82e55ee8960072",
+   "target": "kul-p82",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/kularnavatantra-kul-p83.json",
+   "gaps": [
+    "layer:t1",
+    "layer:l0",
+    "layer:argmap",
+    "layer:l2",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "686d7d4cb55cdae286d838da89ea753c0f36d2ccfe0dc597c4668c1f723d3f53",
+   "target": "kul-p83",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "kularnavatantra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/mahopadeshavimshatika-mpa-p01.json",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:mahopa:ad50c0c8fb0e",
+   "sha256": "1f75b04a8a8ec2ccdad01aa8273bc50c300d09badbd4283aa2061dbd11147494",
+   "target": "mpa-p01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "mahopadeshavimshatika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/mahopadeshavimshatika-mpa-p02.json",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:mahopa:2f0a392d95cf",
+   "sha256": "004bfc158975b80544b80bada53a079c645e84a8fa3e0b9c15ba9d82130d3840",
+   "target": "mpa-p02",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "mahopadeshavimshatika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/malinivijayavarttika-mv-k01.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:malini:b3a223f66fb3",
+   "sha256": "436c2cbe0c369785b1a01025f9e7e870ab8cc5039aff0a6a9a685bfb71520b6b",
+   "target": "mv-k01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "malinivijayavarttika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/malinivijayavarttika-mv-k02.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:malini:079c273dd4e2",
+   "sha256": "00bf05a2a3e96a49dcb0657eac464044b071b2b4b005477230755b3b21234cab",
+   "target": "mv-k02",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "malinivijayavarttika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/malinivijayavarttika-mv-k03.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:malini:7928e2c9d378",
+   "sha256": "d5ddf5c88146a897cf3c11e5aae10b63776c3eb1e049abc4e82437427eae5a79",
+   "target": "mv-k03",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "malinivijayavarttika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/malinivijayavarttika-mv-k04.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:malini:ba23bc0915f8",
+   "sha256": "5e348a7f0a5ba05bec9258ba40501c811e194d62e20b0e3de2b273aa52a5622c",
+   "target": "mv-k04",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "malinivijayavarttika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/malinivijayavarttika-mv-k05.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:malini:f3296cb6861e",
+   "sha256": "7464c7e13c2bbe793f146fabf8091da6862f60635301f0c7720ff867271df6a3",
+   "target": "mv-k05",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "malinivijayavarttika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/malinivijayavarttika-mv-k06.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:malini:2499a11bed83",
+   "sha256": "13a81ba039060584b1f865337543b5693e7e89be4a86cbc573e76e4a7796856c",
+   "target": "mv-k06",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "malinivijayavarttika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/malinivijayavarttika-mv-k07.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:malini:823e913d7446",
+   "sha256": "8adebc15b978dd394f8357eb7a3047cc37a9086d7f16da8b249edcae2304a542",
+   "target": "mv-k07",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "malinivijayavarttika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/malinivijayavarttika-mv-k08.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:malini:54a53f869d2c",
+   "sha256": "d340913c8a96afa6321248fb4dc2b9ec1925b81665a3df0d431c28a19e323c2a",
+   "target": "mv-k08",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "malinivijayavarttika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/malinivijayavarttika-mv-k09.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:malini:f9a5d31ce6a7",
+   "sha256": "9830afc8ff0127400a932a5c7601742b924cf7959ae08e875e9d6be2f1d9867e",
+   "target": "mv-k09",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "malinivijayavarttika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/malinivijayavarttika-mv-k10.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:malini:7c6489c58e65",
+   "sha256": "d34416b882ad8a6504da264b3f78ceed5bf6f61a81e5ff3660b39b877f3791f6",
+   "target": "mv-k10",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "malinivijayavarttika"
+  },
+  {
+   "caveats": [],
    "file": "traces/pancashloki-pan-p01.json",
    "gaps": [],
    "immutable_id": "pt:pid:pancashloki:001",
@@ -2241,6 +4417,32 @@
    "theorems": [],
    "verdict": "COMPLETE",
    "work": "paramarthacarca"
+  },
+  {
+   "caveats": [],
+   "file": "traces/paramarthadvadasika-pdva-p01.json",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:parama:e5cbffa33084",
+   "sha256": "1010cb6cbdbcf701b39ede20727835f49a4e010a448b9f65819f65bc60911261",
+   "target": "pdva-p01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "paramarthadvadasika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/paramarthadvadasika-pdva-p02.json",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:parama:8cf161542d74",
+   "sha256": "d1f77ff855797d77fee1fed50fb10c1f17a7ff0041c229251b88991f4e4753d6",
+   "target": "pdva-p02",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "paramarthadvadasika"
   },
   {
    "caveats": [
@@ -2666,69 +4868,79 @@
   {
    "caveats": [],
    "file": "traces/phrdaya-phr-p01.json",
-   "gaps": [],
-   "immutable_id": "pt:pid:phrdaya:001",
-   "sha256": "1c60c337a7743ffa492fc87efe8443f1b57f651fb4ca2880fc54214150ef65e8",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:phr:be7123f0b14a",
+   "sha256": "354b98453d2d3cb872f2733fcb30449ed61e7882f0896670d2697f78dc8d936b",
    "target": "phr-p01",
    "theorems": [
     "Phrdaya.lean :: epithet_three"
    ],
-   "verdict": "COMPLETE",
+   "verdict": "PARTIAL",
    "work": "phrdaya"
   },
   {
    "caveats": [],
    "file": "traces/phrdaya-phr-p02.json",
-   "gaps": [],
-   "immutable_id": "pt:pid:phrdaya:002",
-   "sha256": "8e39c7d4a8e2c2aa5190618f7c29cd4cec0da1e85126cfccc9dea74a9fec7b79",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:phr:ab1f9fe757ce",
+   "sha256": "c038c701119b25252da62981d0d2422e02fc929181d779b2bdbd665bd458a116",
    "target": "phr-p02",
    "theorems": [
     "Phrdaya.lean :: pentads_thirtyfive"
    ],
-   "verdict": "COMPLETE",
+   "verdict": "PARTIAL",
    "work": "phrdaya"
   },
   {
    "caveats": [],
    "file": "traces/phrdaya-phr-p03.json",
-   "gaps": [],
-   "immutable_id": "pt:pid:phrdaya:003",
-   "sha256": "33b1853cf9cf407a382c86e1dffc59a8ed59454c5b287ef3da66fe261e3143b1",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:phr:e9135501936e",
+   "sha256": "d4f25ac7858aa940431b11a68a34a1d58ee1d501c28251c215d3b9020b64f429",
    "target": "phr-p03",
    "theorems": [
     "Phrdaya.lean :: five_acts"
    ],
-   "verdict": "COMPLETE",
+   "verdict": "PARTIAL",
    "work": "phrdaya"
   },
   {
    "caveats": [],
    "file": "traces/phrdaya-phr-p04.json",
-   "gaps": [],
-   "immutable_id": "pt:pid:phrdaya:004",
-   "sha256": "ece86217b783333c71be6b68429f3beb05d4f0a65be026a0e8a7dad66e9ae65d",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:phr:cfdca5029c42",
+   "sha256": "5e7b38e53e8ffdfff341cbe3352245f1920e1dc668cac974d8d2c08e155886a8",
    "target": "phr-p04",
    "theorems": [
     "Mala.lean :: count_3",
     "MalaFuel.lean :: fuel_terminates",
     "MalaFuel.lean :: grace_ignites"
    ],
-   "verdict": "COMPLETE",
+   "verdict": "PARTIAL",
    "work": "phrdaya"
   },
   {
    "caveats": [],
    "file": "traces/phrdaya-phr-p05.json",
-   "gaps": [],
-   "immutable_id": "pt:pid:phrdaya:005",
-   "sha256": "181f0e0f013119a4affb6827fb57c0969cad62030b57d255a2ff03ec63095d2b",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:phr:416a3031abdc",
+   "sha256": "9ab2b751b92ef6d0a3e0744958c0d517c047d3f73e6bbc60e582093eeded69e0",
    "target": "phr-p05",
    "theorems": [
     "Phrdaya.lean :: closes_four",
     "Phrdaya.lean :: means_once"
    ],
-   "verdict": "COMPLETE",
+   "verdict": "PARTIAL",
    "work": "phrdaya"
   },
   {
@@ -2782,6 +4994,32 @@
    "theorems": [],
    "verdict": "COMPLETE",
    "work": "ptvmadhyama"
+  },
+  {
+   "caveats": [],
+   "file": "traces/rahasyapanchadashika-rpa-p01.json",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:rahasy:ae1279b259d8",
+   "sha256": "492b8de746f0d74f75792843ce7a454ccc70832f2bda6d175822bc635fd91cea",
+   "target": "rpa-p01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "rahasyapanchadashika"
+  },
+  {
+   "caveats": [],
+   "file": "traces/rahasyapanchadashika-rpa-p02.json",
+   "gaps": [
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:rahasy:fddde4fab4ad",
+   "sha256": "3eeab1a003a1556a07c0ffeaf8781543df174427fd204aaf3876fc0aed9c07cd",
+   "target": "rpa-p02",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "rahasyapanchadashika"
   },
   {
    "caveats": [
@@ -3109,13 +5347,76 @@
    "work": "sivasutra"
   },
   {
+   "caveats": [],
+   "file": "traces/sivasutra-span-p09.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "",
+   "sha256": "838bd945b6235879322d923cb09911dad13459a5fe27a6af851232495af42394",
+   "target": "span-p09",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "sivasutra"
+  },
+  {
+   "caveats": [],
+   "file": "traces/sivasutravimarsini-ssv-u1.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:sivasu:3b88dff7204a",
+   "sha256": "5f0dfec2a1d85bc340bdbaa59612feca4cd02f9d861c912a6fc9d6242b1e651e",
+   "target": "ssv-u1",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "sivasutravimarsini"
+  },
+  {
+   "caveats": [],
+   "file": "traces/sivasutravimarsini-ssv-u2.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:sivasu:330de3e61a05",
+   "sha256": "ffc544263032fe081b0782baae5485fd3e95a4bb8cf95c19fe7b07f365daefef",
+   "target": "ssv-u2",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "sivasutravimarsini"
+  },
+  {
+   "caveats": [],
+   "file": "traces/sivasutravimarsini-ssv-u3.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:sivasu:71e50a1a7940",
+   "sha256": "b022403cedd19cfe96356ca3ec02ff2eccb4aa5041876b6a5c95fa07e6e38a5a",
+   "target": "ssv-u3",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "sivasutravimarsini"
+  },
+  {
    "caveats": [
     "chunk_gate BLOCKED: ABSTENTION,CITATION_GROUNDING"
    ],
    "file": "traces/spanda-span-p01.json",
    "gaps": [],
    "immutable_id": "pt:pid:span:152f7b778685",
-   "sha256": "17afe65509dbe1aaf2150cf50b572ea2b33a765f54d32272cffcd119cc450b23",
+   "sha256": "6a00fae3e6c809208a2637475417b778cc5f6d561592b48fae9ed5fc1b91138f",
    "target": "span-p01",
    "theorems": [
     "Spanda.lean :: acts_three",
@@ -3132,7 +5433,7 @@
    "file": "traces/spanda-span-p02.json",
    "gaps": [],
    "immutable_id": "pt:pid:span:9bede116774f",
-   "sha256": "e6283e95bdc5fcc2c45c2aa1b000e65a82119ac32265c084c2fcab437582a8b6",
+   "sha256": "164f002ac120f6c5a1c1fd7a053b5ed103dc58079f0351d5781ab010f80ba5df",
    "target": "span-p02",
    "theorems": [],
    "verdict": "COMPLETE",
@@ -3145,7 +5446,7 @@
    "file": "traces/spanda-span-p03.json",
    "gaps": [],
    "immutable_id": "pt:pid:span:3a4fa091e79e",
-   "sha256": "59bcf699d63b06a60b75e45cb7af22e44ae14e6283e59adac540894a14f08f64",
+   "sha256": "57aa3243d8dbf2b6a3894e144e8ed01093281bfa27c5cbdc320d27509b5b94c3",
    "target": "span-p03",
    "theorems": [],
    "verdict": "COMPLETE",
@@ -3158,10 +5459,28 @@
    "file": "traces/spanda-span-p04.json",
    "gaps": [],
    "immutable_id": "pt:pid:span:d8ddae2daa0e",
-   "sha256": "3e073277deed6967fc517565d8abbca3e0e5c8ed1543b17d8f890d2b9a73c004",
+   "sha256": "1080fe9cd8872b138562baf16271b9ce19ac5b2cc10fb2177d2834f40d7bf4f7",
    "target": "span-p04",
    "theorems": [],
    "verdict": "COMPLETE",
+   "work": "spanda"
+  },
+  {
+   "caveats": [],
+   "file": "traces/spanda-span-p04b.json",
+   "gaps": [
+    "layer:l0",
+    "layer:c1",
+    "layer:l3",
+    "layer:l4",
+    "identity:db",
+    "proofs:song"
+   ],
+   "immutable_id": "pt:pid:spanda:9facf5e96b49",
+   "sha256": "96a57447bb51d39c40806dcc378ea85218a6a0151037ec165369a8685cd62d4e",
+   "target": "span-p04b",
+   "theorems": [],
+   "verdict": "PARTIAL",
    "work": "spanda"
   },
   {
@@ -3177,7 +5496,7 @@
     "proofs:song"
    ],
    "immutable_id": "pt:pid:span:6060f641d1db",
-   "sha256": "effd20ec656de1dba6ce4df6fd7f7d9847762f4e70d784815c16f774dd4c91e6",
+   "sha256": "d1822f03274d2931aaa54069a572d55de5cc620ff031e4d5b6b14c9c07beaa99",
    "target": "span-p05",
    "theorems": [],
    "verdict": "PARTIAL",
@@ -3196,7 +5515,7 @@
     "proofs:song"
    ],
    "immutable_id": "pt:pid:span:d5c0c9f34e03",
-   "sha256": "bd508c1c0a43ec400aa13fb20f3c272f4712d57193a6498a52038afdea99ae89",
+   "sha256": "970d813864abbcbdad24d5bb55d87e720dd243b9d0f0f14571caa1e0963f4870",
    "target": "span-p06",
    "theorems": [],
    "verdict": "PARTIAL",
@@ -16008,6 +18327,21 @@
    "work": "tantrasara-a22"
   },
   {
+   "caveats": [],
+   "file": "traces/tattvasandoha-tsv-s01.json",
+   "gaps": [
+    "layer:l3",
+    "layer:l4",
+    "identity:db"
+   ],
+   "immutable_id": "pt:pid:tattva:3d33df434d63",
+   "sha256": "e62998fa11778eca35603a31bb1ef11455f7ca9c18518945145180e5b3e4fc37",
+   "target": "tsv-s01",
+   "theorems": [],
+   "verdict": "PARTIAL",
+   "work": "tattvasandoha"
+  },
+  {
    "caveats": [
     "chunk_gate BLOCKED: ABSTENTION,TERM_CONSISTENCY"
    ],
@@ -16237,7 +18571,7 @@
  "format": "trika-traces-index/1",
  "note": "Trika-x side index (svread publishes its own via emit_verify). Each entry is a trika-trace/1 bundle: source -> layers -> proofs -> formal -> citing essays, hash-pinned. COMPLETE means every applicable hop resolved; PARTIAL names its gaps. Re-verify: trace_bundle.py --verify <file>.",
  "verdicts": {
-  "COMPLETE": 236,
-  "PARTIAL": 673
+  "COMPLETE": 231,
+  "PARTIAL": 804
  }
 }

@@ -1,6 +1,6 @@
 {
  "assurance": {
-  "chunk_gate": "BLOCKED",
+  "chunk_gate": "PASS",
   "formal_run": "UNBOUND",
   "formal_run_note": "registry references only; no per-declaration run digest bound",
   "publication": "NOT_AUTHORIZED",
@@ -12,9 +12,7 @@
   "trace_links_present": "FAIL",
   "witness": "UNPINNED"
  },
- "caveats": [
-  "chunk_gate BLOCKED: PROOF_NOT_RUN"
- ],
+ "caveats": [],
  "chunk": {
   "immutable_id": "pt:pid:ipvv:1bb4e70c35b9",
   "target": "chunkF-upoddhata-k1-7",
@@ -22,7 +20,7 @@
  },
  "essays": {
   "citing": [],
-  "projection_sha256": "4bf816c9a66f3685409fc5a7d90218aa10ca5623db3b63c5552838db6326aa98"
+  "projection_sha256": null
  },
  "formal": {
   "status": "none",
@@ -33,6 +31,7 @@
   "layer:t1",
   "layer:l0",
   "layer:argmap",
+  "layer:l2",
   "layer:c1",
   "layer:l3",
   "layer:l4",
@@ -81,10 +80,8 @@
    "status": "UNKNOWN"
   },
   "l2": {
-   "path": "ipvv/data/chunkF-upoddhata-k1-7.l2.json",
-   "present": true,
-   "sha256": "97d8fd820b10df48f9e7da6a306591b11f7b418dec0afdca50ab58511e0dac98",
-   "status": "BOUND"
+   "present": false,
+   "status": "UNKNOWN"
   },
   "l3": {
    "present": false,
@@ -99,18 +96,18 @@
    "status": "UNKNOWN"
   }
  },
- "open_problems": [],
+ "open_problems": [
+  "no scholar projection for work"
+ ],
  "proofs": {
   "chunk_gate": {
-   "blocking": [
-    "PROOF_NOT_RUN"
-   ],
+   "blocking": [],
    "checks_pass": {
-    "PROOF_NOT_RUN": false
+    "PROOF_RECORD": true
    },
-   "deterministic_gate": "BLOCKED",
-   "entry_sha256": "87d8c96794944262ccbe43035aa39e6a0669843e14f64b98faf382e7e20e495e",
-   "status": "BLOCKED"
+   "deterministic_gate": "PASS",
+   "entry_sha256": "d32f01a3a6197952415f2c309b1c2d0c5b2d50726bf062359b08b3d1222b5354",
+   "status": "PASS"
   },
   "song_proof": {
    "note": "no proof file",

@@ -1,6 +1,6 @@
 {
  "assurance": {
-  "chunk_gate": "BLOCKED",
+  "chunk_gate": "PASS",
   "formal_run": "UNBOUND",
   "formal_run_note": "registry references only; no per-declaration run digest bound",
   "publication": "NOT_AUTHORIZED",
@@ -12,9 +12,7 @@
   "trace_links_present": "FAIL",
   "witness": "UNPINNED"
  },
- "caveats": [
-  "chunk_gate BLOCKED: PROOF_NOT_RUN"
- ],
+ "caveats": [],
  "chunk": {
   "immutable_id": "pt:pid:ipvv:4f780e406d0c",
   "target": "chunkE-cit-acid-dvairasya",
@@ -22,7 +20,7 @@
  },
  "essays": {
   "citing": [],
-  "projection_sha256": "4bf816c9a66f3685409fc5a7d90218aa10ca5623db3b63c5552838db6326aa98"
+  "projection_sha256": null
  },
  "formal": {
   "status": "none",
@@ -33,6 +31,7 @@
   "layer:t1",
   "layer:l0",
   "layer:argmap",
+  "layer:l2",
   "layer:c1",
   "layer:l3",
   "layer:l4",
@@ -81,10 +80,8 @@
    "status": "UNKNOWN"
   },
   "l2": {
-   "path": "ipvv/data/chunkE-cit-acid-dvairasya.l2.json",
-   "present": true,
-   "sha256": "a32b4e5acb952677d5f175866fbca088b30b61bab49bd87435d3fca453b8360f",
-   "status": "BOUND"
+   "present": false,
+   "status": "UNKNOWN"
   },
   "l3": {
    "present": false,
@@ -99,18 +96,18 @@
    "status": "UNKNOWN"
   }
  },
- "open_problems": [],
+ "open_problems": [
+  "no scholar projection for work"
+ ],
  "proofs": {
   "chunk_gate": {
-   "blocking": [
-    "PROOF_NOT_RUN"
-   ],
+   "blocking": [],
    "checks_pass": {
-    "PROOF_NOT_RUN": false
+    "PROOF_RECORD": true
    },
-   "deterministic_gate": "BLOCKED",
-   "entry_sha256": "87d8c96794944262ccbe43035aa39e6a0669843e14f64b98faf382e7e20e495e",
-   "status": "BLOCKED"
+   "deterministic_gate": "PASS",
+   "entry_sha256": "1f05298b559c28bad09bf6a78188a96ab39279b327b14d21e0d683fad4c96626",
+   "status": "PASS"
   },
   "song_proof": {
    "note": "no proof file",

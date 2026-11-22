@@ -1,6 +1,6 @@
 {
  "assurance": {
-  "chunk_gate": "BLOCKED",
+  "chunk_gate": "PASS",
   "formal_run": "UNBOUND",
   "formal_run_note": "registry references only; no per-declaration run digest bound",
   "publication": "NOT_AUTHORIZED",
@@ -12,9 +12,7 @@
   "trace_links_present": "FAIL",
   "witness": "UNPINNED"
  },
- "caveats": [
-  "chunk_gate BLOCKED: PROOF_NOT_RUN"
- ],
+ "caveats": [],
  "chunk": {
   "immutable_id": "pt:pid:ipvv:311635b7c8a8",
   "target": "chunkV2-M-sastho-vimarsa-k6-7",
@@ -22,7 +20,7 @@
  },
  "essays": {
   "citing": [],
-  "projection_sha256": "4bf816c9a66f3685409fc5a7d90218aa10ca5623db3b63c5552838db6326aa98"
+  "projection_sha256": null
  },
  "formal": {
   "status": "none",
@@ -33,6 +31,7 @@
   "layer:t1",
   "layer:l0",
   "layer:argmap",
+  "layer:l2",
   "layer:c1",
   "layer:l3",
   "layer:l4",
@@ -81,10 +80,8 @@
    "status": "UNKNOWN"
   },
   "l2": {
-   "path": "ipvv/data/chunkV2-M-sastho-vimarsa-k6-7.l2.json",
-   "present": true,
-   "sha256": "30329e6f33865f9ab0b843e500fa17a4cca4dda5c0a72ba8e0f39ecc2883c72f",
-   "status": "BOUND"
+   "present": false,
+   "status": "UNKNOWN"
   },
   "l3": {
    "present": false,
@@ -99,18 +96,18 @@
    "status": "UNKNOWN"
   }
  },
- "open_problems": [],
+ "open_problems": [
+  "no scholar projection for work"
+ ],
  "proofs": {
   "chunk_gate": {
-   "blocking": [
-    "PROOF_NOT_RUN"
-   ],
+   "blocking": [],
    "checks_pass": {
-    "PROOF_NOT_RUN": false
+    "PROOF_RECORD": true
    },
-   "deterministic_gate": "BLOCKED",
-   "entry_sha256": "87d8c96794944262ccbe43035aa39e6a0669843e14f64b98faf382e7e20e495e",
-   "status": "BLOCKED"
+   "deterministic_gate": "PASS",
+   "entry_sha256": "f43400d5087c5982c5a959131a5f01aa9fc91e7340b9742ad81de4a60ac74a72",
+   "status": "PASS"
   },
   "song_proof": {
    "note": "no proof file",
