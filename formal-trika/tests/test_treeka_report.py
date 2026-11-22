@@ -60,21 +60,27 @@ class TestTreekaReport(unittest.TestCase):
     def test_work_filter_scopes_every_summary_count(self):
         # External review P1: --work used to filter the table but print
         # corpus-wide gaps/counts/ambiguous in the summary lines.
+        corpus = json.loads((HERE / "data" / "treeka.json").read_text(
+            encoding="utf-8"))["counts"]
+        corpus_passages = str(corpus["passages"])
+        corpus_unargued = str(corpus["unargued"])
         rc, out = run("--work", "phrdaya")
         self.assertEqual(rc, 0)
         lines = out.splitlines()
         header, summary = lines[0], lines[1]
         self.assertIn("'passages': 5", header)
-        self.assertNotIn("909", header, "corpus count leaked into --work header")
+        self.assertNotIn(corpus_passages, header,
+                         "corpus count leaked into --work header")
         self.assertIn("unargued=0", summary)
         self.assertIn("essayless=5", summary)
-        self.assertNotIn("578", summary, "corpus unargued leaked into --work summary")
+        self.assertNotIn(f"unargued={corpus_unargued}", summary,
+                         "corpus unargued leaked into --work summary")
         self.assertNotIn("ambiguous=12", summary, "corpus ambiguous leaked in")
         # and the full report still shows the real corpus numbers
         rc2, out2 = run()
         self.assertEqual(rc2, 0)
-        self.assertIn("'passages': 909", out2.splitlines()[0])
-        self.assertIn("unargued=578", out2.splitlines()[1])
+        self.assertIn(f"'passages': {corpus_passages}", out2.splitlines()[0])
+        self.assertIn(f"unargued={corpus_unargued}", out2.splitlines()[1])
 
 
 if __name__ == "__main__":
