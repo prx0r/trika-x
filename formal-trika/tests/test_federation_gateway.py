@@ -205,9 +205,10 @@ class TestFederationGateway(unittest.TestCase):
         self.assertEqual(body["verdict"], "PARTIAL", "TAL not gold yet")
         bound = {k for k, v in body["layers"].items()
                  if str(v.get("status", "")).startswith("BOUND")}
-        self.assertIn("t1", bound, "TAL T1.md binds at work level")
-        self.assertIn("l2", bound, "TAL L2.md binds at work level")
-        self.assertTrue(any("layer:l0" == g for g in body["gaps"]),
+        self.assertIn("t1", bound, "TAL t1 binds (per-song JSON or work md)")
+        self.assertIn("l2", bound, "TAL l2 binds (per-song JSON or work md)")
+        # l3/l4 are genuinely absent for TAL: absent gold layers stay named gaps.
+        self.assertTrue(any(g == "layer:l3" for g in body["gaps"]),
                         "missing gold layers stay named gaps")
 
     def test_unknown_and_dead_are_unknown_tool(self):

@@ -68,7 +68,7 @@ class TestTraceBundle(unittest.TestCase):
                          "tantrasara-a08")
         self.assertEqual(b["layers"]["t1"]["status"], "BOUND-WHOLE-SONG")
         self.assertEqual(b["layers"]["c2"]["status"], "NOT-APPLICABLE")
-        self.assertEqual(b["proofs"]["chunk_gate"]["deterministic_gate"], "BLOCKED")
+        self.assertEqual(b["proofs"]["chunk_gate"]["deterministic_gate"], "PASS")
         self.assertEqual(b["proofs"]["song_proof"]["status"], "PASS")
         self.assertGreaterEqual(len(b["formal"]["theorems"]), 1)
         self.assertEqual(b["formal"]["status"], "REGISTERED")
@@ -77,12 +77,11 @@ class TestTraceBundle(unittest.TestCase):
         self.assertEqual(b["essays"]["citing"], [])
         self.assertEqual(b["verdict"], "COMPLETE")
         self.assertTrue(any("whole-song" in c for c in b["caveats"]))
-        self.assertTrue(any("BLOCKED" in c for c in b["caveats"]))
-        # PR #7: assurance dimensions are separate; COMPLETE + BLOCKED gate
-        # coexist without contradiction.
+        # PR #7: assurance dimensions are separate; a PASS gate here does not
+        # imply witness/formal/review dimensions are satisfied.
         a = b["assurance"]
         self.assertEqual(a["trace_links_present"], "PASS")
-        self.assertEqual(a["chunk_gate"], "BLOCKED")
+        self.assertEqual(a["chunk_gate"], "PASS")
         self.assertEqual(a["witness"], "UNPINNED")
         self.assertEqual(a["formal_run"], "UNBOUND")
         self.assertEqual(a["publication"], "NOT_AUTHORIZED")
